@@ -2,7 +2,7 @@
 # Capture real PDF-workflow errors verbatim (bench/errors/capture.py stores stdout/stderr unedited).
 # usage: capture_errors.sh WORKDIR OUTDIR     (WORKDIR = output of make_pdf.py)
 set -uo pipefail
-W=$1; OUT=$2; mkdir -p "$OUT"; rm -f "$OUT/captures.jsonl"
+W=$(realpath "$1"); OUT=$(realpath -m "$2"); mkdir -p "$OUT"; rm -f "$OUT/captures.jsonl"
 HERE=$(cd "$(dirname "$0")" && pwd)
 C="python3 $HERE/../errors/capture.py $OUT"
 PY=$(command -v python)

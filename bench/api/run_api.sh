@@ -26,14 +26,17 @@ json.dump({"a4.png": {"bytes": os.path.getsize(f"{w}/a4.png"), "size_px": im.siz
                            "synthetic": True}}, open(f"{res}/inputs.json", "w"), indent=2)
 EOF
 
-start_server() {  # $1 pool size, $2 OMP (unset|1)
+PORT=8100
+start_server() {  # $1 pool size, $2 OMP (unset|1); a fresh port each time (a pool child that outlives the
+                  # server keeps the old listening socket open, and requests to it then hang: first Actions run)
+  PORT=$((PORT + 1))
   local envs
   if [ "$2" = "unset" ]; then envs=(-u OMP_THREAD_LIMIT POOL_WORKERS="$1"); else envs=(POOL_WORKERS="$1" OMP_THREAD_LIMIT="$2"); fi
-  (cd "$HERE" && env "${envs[@]}" $PY -m uvicorn app:app --host 127.0.0.1 --port 8000 > "$W/uvicorn.log" 2>&1 &)
-  for _ in $(seq 100); do curl -fs http://127.0.0.1:8000/health >/dev/null && return 0; sleep 0.2; done
+  (cd "$HERE" && env "${envs[@]}" $PY -m uvicorn app:app --host 127.0.0.1 --port $PORT > "$W/uvicorn.log" 2>&1 &)
+  for _ in $(seq 100); do curl -fs -m 2 http://127.0.0.1:$PORT/health >/dev/null && return 0; sleep 0.2; done
   echo "server did not start"; cat "$W/uvicorn.log"; exit 1
 }
-stop_server() { pkill -f "uvicorn app:app" || true; sleep 1; }
+stop_server() { pkill -9 -f "uvicorn app:app" || true; sleep 2; }
 
 if [[ " $PARTS " == *" host "* ]]; then
   rm -f "$RES/host_matrix.jsonl"
@@ -41,8 +44,8 @@ if [[ " $PARTS " == *" host "* ]]; then
     stop_server; start_server "$pool" "$omp"
     for img in a4 receipt; do
       if [ "$img" = a4 ]; then n=24; else n=80; fi
-      b=$($PY "$HERE/loadtest.py" burst "http://127.0.0.1:8000/ocr?lang=eng" "$W/$img.png" --concurrency 8 --repeats 5)
-      c=$($PY "$HERE/loadtest.py" closed "http://127.0.0.1:8000/ocr?lang=eng" "$W/$img.png" --concurrency 8 --requests $n)
+      b=$($PY "$HERE/loadtest.py" burst "http://127.0.0.1:$PORT/ocr?lang=eng" "$W/$img.png" --concurrency 8 --repeats 5)
+      c=$($PY "$HERE/loadtest.py" closed "http://127.0.0.1:$PORT/ocr?lang=eng" "$W/$img.png" --concurrency 8 --requests $n)
       $PY -c "import json,sys; print(json.dumps({'where':'host','pool':$pool,'omp_thread_limit':'$omp','image':'$img','burst8':json.loads(sys.argv[1]),'closed8':json.loads(sys.argv[2])}))" "$b" "$c" | tee -a "$RES/host_matrix.jsonl" | cut -c1-300
     done
   done; done
@@ -63,7 +66,7 @@ if [[ " $PARTS " == *" docker "* ]]; then
   for v in page page-noomp; do
     docker rm -f api >/dev/null 2>&1 || true
     docker run -d --name api -p 8000:8000 "ocrapi:$v" >/dev/null
-    for _ in $(seq 150); do curl -fs http://127.0.0.1:8000/health >/dev/null && break; sleep 0.2; done
+    for _ in $(seq 150); do curl -fs -m 2 http://127.0.0.1:8000/health >/dev/null && break; sleep 0.2; done
     docker exec api sh -c 'echo "OMP_THREAD_LIMIT=${OMP_THREAD_LIMIT:-<unset>} nproc=$(nproc)"' > "$RES/raw/docker-$v-env.txt"
     for img in a4 receipt; do
       b=$($PY "$HERE/loadtest.py" burst "http://127.0.0.1:8000/ocr?lang=eng" "$W/$img.png" --concurrency 8 --repeats 5)
@@ -106,7 +109,7 @@ fi
 if [[ " $PARTS " == *" curl "* ]]; then
   docker rm -f api >/dev/null 2>&1 || true
   docker run -d --name api -p 8000:8000 ocrapi:page >/dev/null
-  for _ in $(seq 150); do curl -fs http://127.0.0.1:8000/health >/dev/null && break; sleep 0.2; done
+  for _ in $(seq 150); do curl -fs -m 2 http://127.0.0.1:8000/health >/dev/null && break; sleep 0.2; done
   cp "$W/receipt.png" "$W/invoice.png"
   {
     cd "$W"

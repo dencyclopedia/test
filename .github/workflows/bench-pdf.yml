@@ -3,9 +3,8 @@ on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
     paths:
-      - 'bench/pdf/*.py'
-      - 'bench/pdf/*.sh'
-      - 'bench/train/build-tesseract.sh'
+      - 'bench/pdf/make_pdf.py'
+      - 'bench/pdf/scanlib.py'
       - '.github/workflows/bench-pdf.yml'
   workflow_dispatch:
     inputs:
@@ -53,8 +52,6 @@ jobs:
           echo "/opt/tess554/bin" >> "$GITHUB_PATH"
       - name: Build synthetic 20-page scan
         run: python bench/pdf/make_pdf.py "$RUNNER_TEMP/pdf" 20
-      - name: Error captures (verbatim)
-        run: bash bench/pdf/capture_errors.sh "$RUNNER_TEMP/pdf" bench/pdf/results/errors
       - name: Methods (OCRmyPDF, CLI, textonly, pdf2image, pdfsandwich)
         run: python bench/pdf/run_pdf.py "$RUNNER_TEMP/pdf" bench/pdf/results --runs "$RUNS" --part methods
       - name: OCRmyPDF --optimize levels

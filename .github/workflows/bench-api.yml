@@ -20,7 +20,7 @@ concurrency:
 jobs:
   api:
     runs-on: ubuntu-24.04
-    timeout-minutes: 180
+    timeout-minutes: 330
     env:
       PARTS: ${{ github.event.inputs.parts || 'host docker sizes curl' }}
       TESSDATA_PREFIX: /opt/tessdata/tessdata_fast

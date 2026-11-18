@@ -261,6 +261,27 @@ def run_native(work, res, runs):
     json.dump(rows, open(os.path.join(res, "dpi_native.json"), "w"), indent=2)
 
 
+def run_breakdown(work, res, runs):
+    """Where does the time go in 'pdftoppm -> tesseract list pdf'? Rasterise and OCR timed separately (20 pages)."""
+    src = os.path.join(work, "scan.pdf")
+    rows = []
+    for fmt in ("png", "jpeg"):
+        d = os.path.join(work, f"bd-{fmt}")
+        def rast():
+            shutil.rmtree(d, ignore_errors=True); os.makedirs(d)
+            sh(f"pdftoppm -r 300 -{fmt} '{src}' '{d}/pg'")
+        t_r = timed(rast, runs)
+        files = sorted(glob.glob(f"{d}/pg-*"))
+        open(f"{d}/list.txt", "w").write("\n".join(files) + "\n")
+        for out in ("txt", "pdf", "-c textonly_pdf=1 pdf"):
+            t_o = timed(lambda: sh(f"tesseract '{d}/list.txt' '{d}/o' -l eng {out}"), runs)
+            rows.append({"raster_format": fmt, "tesseract_output": out, "pages": len(files),
+                         "raster_bytes_total": sum(os.path.getsize(f) for f in files),
+                         "pdftoppm": t_r, "tesseract": t_o})
+            print(json.dumps(rows[-1]), flush=True)
+    json.dump(rows, open(os.path.join(res, "breakdown.json"), "w"), indent=2)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("work"); ap.add_argument("res")
@@ -276,6 +297,8 @@ def main():
         run_optimize(a.work, a.res, a.runs, a.pages)
     if a.part in ("dpi", "all"):
         run_dpi(a.work, a.res, a.runs)
+    if a.part == "breakdown":
+        run_breakdown(a.work, a.res, a.runs)
     if a.part in ("native", "all"):
         run_native(a.work, a.res, a.runs)
 
