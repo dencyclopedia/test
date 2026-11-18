@@ -1,0 +1,32 @@
+[
+  {
+    "src": "tools/images/raw/python/preprocessing-before-after.png",
+    "name": "pytesseract-preprocessing-before-after-sauvola-adaptive",
+    "page": "python",
+    "kind": "result",
+    "keyword": "pytesseract preprocessing",
+    "alt": "Before/after: Sauvola fixes a faded receipt (100% to 6.03% CER) but wrecks a low-contrast page; adaptive wrecks a noisy one",
+    "caption": "The same step can rescue one image and ruin another: Sauvola took a faded receipt from empty output to 6.03% CER but turned a clean low-contrast read into 196% CER. Synthetic test images; OCR output from the bench run.",
+    "machine": "development container (accuracy only), Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores",
+    "bar_machine": "dev container (Intel Xeon @ 2.10GHz)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "local-2026-11-18",
+    "synthetic": true
+  },
+  {
+    "src": "tools/images/raw/python/word-confidence-boxes.png",
+    "name": "pytesseract-image-to-data-word-confidence-boxes",
+    "page": "python",
+    "kind": "result",
+    "keyword": "pytesseract image_to_data confidence",
+    "alt": "Faded receipt with image_to_data word boxes: 3 of 4 words under conf 60 are wrong, but 6 wrong words scored 60 or more",
+    "caption": "Low confidence is a good hint, not a guarantee: on this faded receipt 3 of the 4 words below conf 60 were wrong, and 6 more wrong words scored 60 or higher. Synthetic receipt; boxes and scores from the bench run.",
+    "machine": "development container (accuracy only), Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores",
+    "bar_machine": "dev container (Intel Xeon @ 2.10GHz)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "local-2026-11-18",
+    "synthetic": true
+  }
+]
