@@ -1,6 +1,6 @@
 {
-  "distro_install_seconds": 33.6,
-  "apt_update_seconds": 9.0,
-  "apt_install_seconds": 6.9,
-  "ocr_seconds": 0.4
+  "distro_install_seconds": 30.1,
+  "apt_update_seconds": 8.6,
+  "apt_install_seconds": 5.9,
+  "ocr_seconds": 0.5
 }

@@ -1,5 +1,5 @@
-captured 2026-11-18T07:25:05Z on Microsoft Windows Server 2025 Datacenter build 26100
-CPU: Intel(R) Xeon(R) 6973P-C cores: 4
+captured 2026-11-18T07:32:31Z on Microsoft Windows Server 2025 Datacenter build 26100
+CPU: INTEL(R) XEON(R) PLATINUM 8573C cores: 4
 
 ### before install (new cmd process, PATH re-read from registry Machine+User)
 > where tesseract
@@ -11,7 +11,7 @@ operable program or batch file.
 ### choco version
 PS> choco --version
 2.7.5
-[exit 0, 2.7 s]
+[exit 0, 2.8 s]
 
 ### choco search
 PS> choco search tesseract --limit-output
@@ -23,7 +23,7 @@ localpdf-studio|0.18.0
 tesseract|5.5.3.20260724
 tesseract-crypt|1.0.4
 tesseract-ocr|5.3.3.20240207
-[exit 0, 1.5 s]
+[exit 0, 3.9 s]
 
 ### choco info
 PS> choco info tesseract
@@ -68,7 +68,7 @@ tesseract 5.5.3.20260724 [Approved]
  Release Notes: https://github.com/UB-Mannheim/tesseract/wiki
 
 1 packages found.
-[exit 0, 1.1 s]
+[exit 0, 1.3 s]
 
 ### choco install
 PS> choco install tesseract -y --no-progress
@@ -91,14 +91,14 @@ Environment Vars (like PATH) have changed. Close/reopen your shell to
 
 Chocolatey installed 1/1 packages. 
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
-[exit 0, 16.2 s]
+[exit 0, 17.2 s]
 
 ### choco list
 PS> choco list tesseract
 Chocolatey v2.7.5
 tesseract 5.5.3.20260724
 1 packages installed.
-[exit 0, 1 s]
+[exit 0, 1.2 s]
 
 ### choco shims
 PS> Get-ChildItem C:\ProgramData\chocolatey\bin -Filter '*tess*' | Select Name,Length
@@ -146,7 +146,7 @@ TOTAL 20.29
 CARD ****4821 APPROVED
 Thank you for shopping!
 Estimating resolution as 246
-[exit 0, 0.2 s]
+[exit 0, 0.3 s]
 PATH entries added by the install: C:\Program Files\Tesseract-OCR
 
 ### after install (new cmd process, PATH re-read from registry Machine+User)
@@ -167,7 +167,7 @@ tesseract v5.5.3.20260724
  Found libcurl/8.21.0 Schannel zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 WinLDAP
 {
   "pm": "choco",
-  "install_seconds": 16.2,
+  "install_seconds": 17.2,
   "install_exit": 0,
   "install_dir": "C:\\Program Files\\Tesseract-OCR",
   "installed_bytes": 116376959.0,
@@ -175,11 +175,11 @@ tesseract v5.5.3.20260724
     "eng.traineddata",
     "osd.traineddata"
   ],
-  "free_space_delta_bytes": 212336640,
+  "free_space_delta_bytes": 226017280,
   "path_entries_added": [
     "C:\\Program Files\\Tesseract-OCR"
   ],
   "registry_path_has_tesseract_dir": true
 }
-[07:25:39 UTC +    2.0s] console windows-choco-fresh-console: finished=True launcher=explorer
-[07:25:44 UTC +    6.2s] screenshot windows-choco-fresh-console-desktop.png, windows-choco-fresh-console.png
+[07:33:10 UTC +    2.0s] console windows-choco-fresh-console: finished=True launcher=explorer
+[07:33:14 UTC +    6.2s] screenshot windows-choco-fresh-console-desktop.png, windows-choco-fresh-console.png

@@ -8,8 +8,8 @@
   "Additional language data (download)": 122
  },
  "space_required_selected": "Space required: 96.9 MB",
- "installing_seconds": 2.0,
- "wizard_total_seconds_incl_screenshots": 26.5,
+ "installing_seconds": 4.0,
+ "wizard_total_seconds_incl_screenshots": 28.1,
  "pages": [
   "Welcome to Tesseract-OCR Setup",
   "License Agreement",
