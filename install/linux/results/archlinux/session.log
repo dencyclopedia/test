@@ -374,7 +374,7 @@ Replaces        : None
 Installed Size  : 4.70 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
 Build Date      : Wed Oct 28 12:31:42 2026
-Install Date    : Wed Nov 18 06:53:47 2026
+Install Date    : Wed Nov 18 06:59:42 2026
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -549,13 +549,13 @@ Thank you for shopping!
 [1;32mroot@archlinux[0m:[1;34m/[0m# command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
 /usr/sbin/tesseract
 total 33260
-drwxr-xr-x 4 root root     4096 Nov 18 06:53 .
-drwxr-xr-x 1 root root     4096 Nov 18 06:53 ..
-drwxr-xr-x 2 root root     4096 Nov 18 06:53 configs
+drwxr-xr-x 4 root root     4096 Nov 18 06:59 .
+drwxr-xr-x 1 root root     4096 Nov 18 06:59 ..
+drwxr-xr-x 2 root root     4096 Nov 18 06:59 configs
 -rw-r--r-- 1 root root 23466654 Apr  9  2026 eng.traineddata
 -rw-r--r-- 1 root root 10562874 Apr  9  2026 osd.traineddata
 -rw-r--r-- 1 root root      572 Oct 28 12:31 pdf.ttf
-drwxr-xr-x 2 root root     4096 Nov 18 06:53 tessconfigs
+drwxr-xr-x 2 root root     4096 Nov 18 06:59 tessconfigs
 33M	/usr/share/tessdata/
 [1;32mroot@archlinux[0m:[1;34m/[0m# tesseract /samples/receipt.png - -l xyz
 Error opening data file /usr/share/tessdata/xyz.traineddata

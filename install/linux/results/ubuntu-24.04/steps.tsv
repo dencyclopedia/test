@@ -1,21 +1,21 @@
 step	seconds	exit	command
-os	0.01	0	cat /etc/os-release | head -4
+os	0.00	0	cat /etc/os-release | head -4
 which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
 run-before	0.00	127	tesseract --version
-update	3.95	0	apt-get update
-policy	0.77	0	apt-cache policy tesseract-ocr
-install	8.15	0	apt-get install -y tesseract-ocr
-clean	0.01	0	apt-get clean
-pkgs	0.00	0	dpkg-query -W -f='${Package} ${Version} ${Installed-Size}KiB\n' | grep -Ei 'tesseract|lept|libarchive|libtiff|libwebp|libgif|libpng|libjpeg|libopenjp|libicu|libpango|libcairo'
-langs-search	0.84	0	apt-cache search --names-only '^tesseract-ocr-' | sort
-langs-count	0.85	0	apt-cache search --names-only '^tesseract-ocr-' | grep -vE '^tesseract-ocr-(all|script-|osd|dev)' | wc -l
-size-dev	1.27	1	apt-get install --assume-no libtesseract-dev
-size-all	1.42	1	apt-get install --assume-no tesseract-ocr-all
+update	4.07	0	apt-get update
+policy	0.84	0	apt-cache policy tesseract-ocr
+install	8.38	0	apt-get install -y tesseract-ocr
+clean	0.00	0	apt-get clean
+pkgs	0.01	0	dpkg-query -W -f='${Package} ${Version} ${Installed-Size}KiB\n' | grep -Ei 'tesseract|lept|libarchive|libtiff|libwebp|libgif|libpng|libjpeg|libopenjp|libicu|libpango|libcairo'
+langs-search	0.90	0	apt-cache search --names-only '^tesseract-ocr-' | sort
+langs-count	0.91	0	apt-cache search --names-only '^tesseract-ocr-' | grep -vE '^tesseract-ocr-(all|script-|osd|dev)' | wc -l
+size-dev	1.41	1	apt-get install --assume-no libtesseract-dev
+size-all	1.56	1	apt-get install --assume-no tesseract-ocr-all
 version	0.01	0	tesseract --version
-list-langs	0.02	0	tesseract --list-langs
-ocr	0.27	0	tesseract /samples/receipt.png -
+list-langs	0.01	0	tesseract --list-langs
+ocr	0.26	0	tesseract /samples/receipt.png -
 where	0.01	0	command -v tesseract; ls -la '/usr/share/tesseract-ocr/5/tessdata/'; du -sh '/usr/share/tesseract-ocr/5/tessdata/'
 err-lang	0.01	1	tesseract /samples/receipt.png - -l xyz
 err-tessdata	0.01	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
 err-prefix	0.01	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
-err-noimage	0.09	1	tesseract /samples/missing.png -
+err-noimage	0.08	1	tesseract /samples/missing.png -

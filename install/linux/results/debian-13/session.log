@@ -9,12 +9,12 @@ tesseract: not installed
 sh: 1: tesseract: not found
 [1;32mroot@debian-13[0m:[1;34m/[0m# apt-get update
 0% [Working]            Get:1 http://deb.debian.org/debian trixie InRelease [140 kB]
-0% [1 InRelease 0 B/140 kB 0%]                              0% [Waiting for headers]                        Get:2 http://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
-0% [2 InRelease 15.7 kB/47.3 kB 33%]                                    0% [Working]0% [Waiting for headers]0% [Waiting for headers]                        Get:3 http://deb.debian.org/debian-security trixie-security InRelease [43.4 kB]
-0% [3 InRelease 6692 B/43.4 kB 15%]                                   0% [Working]15% [Waiting for headers]                         Get:4 http://deb.debian.org/debian trixie/main amd64 Packages [9678 kB]
-15% [4 Packages 15.6 kB/9678 kB 0%]                                   Get:5 http://deb.debian.org/debian trixie-updates/main amd64 Packages [1108 B]
-                                   91% [Working]91% [4 Packages store 0 B]                          Get:6 http://deb.debian.org/debian-security trixie-security/main amd64 Packages [306 kB]
-91% [4 Packages store 0 B] [6 Packages 0 B/306 kB 0%]                                                     93% [4 Packages store 0 B]93% [4 Packages store 0 B]                          96% [Working]96% [5 Packages store 0 B]                          98% [Working]98% [6 Packages store 0 B]                          100% [Working]              Fetched 10.2 MB in 1s (14.3 MB/s)
+0% [1 InRelease 15.6 kB/140 kB 11%]                                   0% [Working]            Get:2 http://deb.debian.org/debian trixie-updates InRelease [47.3 kB]
+0% [Waiting for headers]                        Get:3 http://deb.debian.org/debian-security trixie-security InRelease [43.4 kB]
+0% [3 InRelease 8192 B/43.4 kB 19%]                                   0% [Working]0% [Working]            Get:4 http://deb.debian.org/debian trixie/main amd64 Packages [9678 kB]
+0% [4 Packages 5712 B/9678 kB 0%]0% [4 Packages 143 kB/9678 kB 1%]20% [4 Packages 558 kB/9678 kB 6%]                                  91% [Working]91% [4 Packages store 0 B] [Waiting for headers]                                                Get:5 http://deb.debian.org/debian trixie-updates/main amd64 Packages [1108 B]
+91% [4 Packages store 0 B] [5 Packages 1108 B/1108 B 100%]                                                          91% [4 Packages store 0 B] [Waiting for headers]                                                Get:6 http://deb.debian.org/debian-security trixie-security/main amd64 Packages [306 kB]
+91% [4 Packages store 0 B] [6 Packages 46.5 kB/306 kB 15%]                                                          93% [4 Packages store 0 B]93% [4 Packages store 0 B]                          96% [Working]96% [5 Packages store 0 B]                          98% [Working]98% [6 Packages store 0 B]                          100% [Working]              Fetched 10.2 MB in 1s (13.4 MB/s)
 Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
 [1;32mroot@debian-13[0m:[1;34m/[0m# apt-cache policy tesseract-ocr
 tesseract-ocr:
@@ -56,86 +56,86 @@ The following NEW packages will be installed:
 Need to get 37.4 MB of archives.
 After this operation, 126 MB of additional disk space will be used.
 0% [Working]            Get:1 http://deb.debian.org/debian-security trixie-security/main amd64 libexpat1 amd64 2.9.0-1~deb13u1 [126 kB]
-0% [1 libexpat1 26.0 kB/126 kB 21%]                                   1% [Waiting for headers]                        Get:2 http://deb.debian.org/debian-security trixie-security/main amd64 openssl amd64 3.5.7-1~deb13u3 [1508 kB]
-1% [2 openssl 34.7 kB/1508 kB 2%]                                 Get:3 http://deb.debian.org/debian-security trixie-security/main amd64 ca-certificates all 20250419+deb13u1 [161 kB]
-4% [3 ca-certificates 161 kB/161 kB 100%]                                         5% [Working]            Get:4 http://deb.debian.org/debian trixie/main amd64 krb5-locales all 1.21.3-5+deb13u1 [101 kB]
-5% [4 krb5-locales 4096 B/101 kB 4%]                                    5% [Working]            Get:5 http://deb.debian.org/debian-security trixie-security/main amd64 libbrotli1 amd64 1.1.0-2+deb13u1 [304 kB]
-5% [5 libbrotli1 16.4 kB/304 kB 5%]                                   6% [Waiting for headers]                        Get:6 http://deb.debian.org/debian-security trixie-security/main amd64 libpng16-16t64 amd64 1.6.48-1+deb13u6 [283 kB]
-6% [6 libpng16-16t64 98.3 kB/283 kB 35%]                                        7% [Working]            Get:7 http://deb.debian.org/debian trixie/main amd64 libfreetype6 amd64 2.13.3+dfsg-1+deb13u1 [452 kB]
-7% [7 libfreetype6 28.4 kB/452 kB 6%]                                     8% [Waiting for headers]                        Get:8 http://deb.debian.org/debian trixie/main amd64 fonts-dejavu-mono all 2.37-8 [489 kB]
-8% [8 fonts-dejavu-mono 7722 B/489 kB 2%]                                         9% [Waiting for headers]                        Get:9 http://deb.debian.org/debian trixie/main amd64 fonts-dejavu-core all 2.37-8 [840 kB]
-9% [9 fonts-dejavu-core 42.4 kB/840 kB 5%]                                          11% [Waiting for headers]                         Get:10 http://deb.debian.org/debian trixie/main amd64 fontconfig-config amd64 2.15.0-2.3 [318 kB]
+0% [1 libexpat1 15.5 kB/126 kB 12%]                                   1% [Working]            Get:2 http://deb.debian.org/debian-security trixie-security/main amd64 openssl amd64 3.5.7-1~deb13u3 [1508 kB]
+1% [2 openssl 0 B/1508 kB 0%]                             4% [Waiting for headers]                        Get:3 http://deb.debian.org/debian-security trixie-security/main amd64 ca-certificates all 20250419+deb13u1 [161 kB]
+4% [3 ca-certificates 67.7 kB/161 kB 42%]                                         5% [Waiting for headers]                        Get:4 http://deb.debian.org/debian trixie/main amd64 krb5-locales all 1.21.3-5+deb13u1 [101 kB]
+5% [4 krb5-locales 101 kB/101 kB 100%]                                      5% [Working]            Get:5 http://deb.debian.org/debian-security trixie-security/main amd64 libbrotli1 amd64 1.1.0-2+deb13u1 [304 kB]
+5% [5 libbrotli1 19.5 kB/304 kB 6%]                                   6% [Waiting for headers]                        Get:6 http://deb.debian.org/debian-security trixie-security/main amd64 libpng16-16t64 amd64 1.6.48-1+deb13u6 [283 kB]
+6% [6 libpng16-16t64 89.6 kB/283 kB 32%]                                        7% [Working]            Get:7 http://deb.debian.org/debian trixie/main amd64 libfreetype6 amd64 2.13.3+dfsg-1+deb13u1 [452 kB]
+7% [7 libfreetype6 20.7 kB/452 kB 5%]                                     8% [Working]            Get:8 http://deb.debian.org/debian trixie/main amd64 fonts-dejavu-mono all 2.37-8 [489 kB]
+8% [8 fonts-dejavu-mono 24.6 kB/489 kB 5%]                                          9% [Waiting for headers]                        Get:9 http://deb.debian.org/debian trixie/main amd64 fonts-dejavu-core all 2.37-8 [840 kB]
+9% [9 fonts-dejavu-core 0 B/840 kB 0%]                                      11% [Working]             Get:10 http://deb.debian.org/debian trixie/main amd64 fontconfig-config amd64 2.15.0-2.3 [318 kB]
 11% [10 fontconfig-config 16.4 kB/318 kB 5%]                                            12% [Waiting for headers]                         Get:11 http://deb.debian.org/debian trixie/main amd64 libfontconfig1 amd64 2.15.0-2.3 [392 kB]
-12% [11 libfontconfig1 15.0 kB/392 kB 4%]                                         13% [Waiting for headers]                         Get:12 http://deb.debian.org/debian trixie/main amd64 fontconfig amd64 2.15.0-2.3 [463 kB]
-14% [12 fontconfig 62.5 kB/463 kB 13%]                                      15% [Working]             Get:13 http://deb.debian.org/debian trixie/main amd64 libxml2 amd64 2.12.7+dfsg+really2.9.14-2.1+deb13u3 [700 kB]
-15% [13 libxml2 0 B/700 kB 0%]                              16% [Waiting for headers]                         Get:14 http://deb.debian.org/debian trixie/main amd64 libarchive13t64 amd64 3.7.4-4+deb13u1 [350 kB]
-17% [14 libarchive13t64 69.9 kB/350 kB 20%]                                           17% [Waiting for headers]                         Get:15 http://deb.debian.org/debian trixie/main amd64 libatomic1 amd64 14.2.0-19 [9308 B]
-17% [15 libatomic1 9308 B/9308 B 100%]                                      18% [Working]             Get:16 http://deb.debian.org/debian trixie/main amd64 libpixman-1-0 amd64 0.44.0-3 [248 kB]
-18% [16 libpixman-1-0 0 B/248 kB 0%]                                    18% [Waiting for headers]                         Get:17 http://deb.debian.org/debian trixie/main amd64 libxau6 amd64 1:1.0.11-1 [20.4 kB]
-18% [17 libxau6 12.6 kB/20.4 kB 62%]                                    19% [Working]             Get:18 http://deb.debian.org/debian trixie/main amd64 libxdmcp6 amd64 1:1.1.5-1 [27.8 kB]
-19% [18 libxdmcp6 0 B/27.8 kB 0%]                                 19% [Working]             Get:19 http://deb.debian.org/debian trixie/main amd64 libxcb1 amd64 1.17.0-2+b1 [144 kB]
-19% [19 libxcb1 4332 B/144 kB 3%]                                 20% [Waiting for headers]                         Get:20 http://deb.debian.org/debian trixie/main amd64 libx11-data all 2:1.8.12-1 [343 kB]
-20% [20 libx11-data 32.8 kB/343 kB 10%]                                       21% [Working]             Get:21 http://deb.debian.org/debian trixie/main amd64 libx11-6 amd64 2:1.8.12-1 [815 kB]
-21% [21 libx11-6 0 B/815 kB 0%]                               23% [Waiting for headers]                         Get:22 http://deb.debian.org/debian trixie/main amd64 libxcb-render0 amd64 1.17.0-2+b1 [115 kB]
-23% [22 libxcb-render0 35.0 kB/115 kB 30%]                                          23% [Working]             Get:23 http://deb.debian.org/debian trixie/main amd64 libxcb-shm0 amd64 1.17.0-2+b1 [105 kB]
-23% [23 libxcb-shm0 0 B/105 kB 0%]                                  24% [Working]             Get:24 http://deb.debian.org/debian trixie/main amd64 libxext6 amd64 2:1.3.4-1+b3 [50.4 kB]
-24% [24 libxext6 0 B/50.4 kB 0%]                                24% [Waiting for headers]                         Get:25 http://deb.debian.org/debian trixie/main amd64 libxrender1 amd64 1:0.9.12-1 [27.9 kB]
-24% [25 libxrender1 0 B/27.9 kB 0%]                                   24% [Waiting for headers]                         Get:26 http://deb.debian.org/debian trixie/main amd64 libcairo2 amd64 1.18.4-1+b1 [538 kB]
-24% [26 libcairo2 1444 B/538 kB 0%]                                   26% [Waiting for headers]                         Get:27 http://deb.debian.org/debian trixie/main amd64 libcom-err2 amd64 1.47.2-3+b12 [25.0 kB]
-26% [27 libcom-err2 25.0 kB/25.0 kB 100%]                                         26% [Working]             Get:28 http://deb.debian.org/debian trixie/main amd64 libkrb5support0 amd64 1.21.3-5+deb13u1 [33.1 kB]
-26% [28 libkrb5support0 3518 B/33.1 kB 11%]                                           26% [Waiting for headers]                         Get:29 http://deb.debian.org/debian trixie/main amd64 libk5crypto3 amd64 1.21.3-5+deb13u1 [81.2 kB]
-26% [29 libk5crypto3 4968 B/81.2 kB 6%]                                       27% [Working]             Get:30 http://deb.debian.org/debian trixie/main amd64 libkeyutils1 amd64 1.6.3-6 [9456 B]
-27% [30 libkeyutils1 9456 B/9456 B 100%]                                        27% [Working]             Get:31 http://deb.debian.org/debian trixie/main amd64 libkrb5-3 amd64 1.21.3-5+deb13u1 [326 kB]
-27% [31 libkrb5-3 4175 B/326 kB 1%]                                   28% [Working]             Get:32 http://deb.debian.org/debian trixie/main amd64 libgssapi-krb5-2 amd64 1.21.3-5+deb13u1 [138 kB]
-28% [32 libgssapi-krb5-2 28.0 kB/138 kB 20%]                                            28% [Working]             Get:33 http://deb.debian.org/debian trixie/main amd64 libunistring5 amd64 1.3-2 [477 kB]
-28% [33 libunistring5 0 B/477 kB 0%]                                    30% [Waiting for headers]                         Get:34 http://deb.debian.org/debian trixie/main amd64 libidn2-0 amd64 2.3.8-2 [109 kB]
-30% [34 libidn2-0 43.6 kB/109 kB 40%]                                     30% [Working]             Get:35 http://deb.debian.org/debian trixie/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-9 [19.8 kB]
-30% [35 libsasl2-modules-db 9827 B/19.8 kB 50%]                                               30% [Waiting for headers]                         Get:36 http://deb.debian.org/debian trixie/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-9 [57.5 kB]
-31% [36 libsasl2-2 44.2 kB/57.5 kB 77%]                                       31% [Working]             Get:37 http://deb.debian.org/debian trixie/main amd64 libldap2 amd64 2.6.10+dfsg-1 [194 kB]
-31% [37 libldap2 51.4 kB/194 kB 27%]                                    32% [Waiting for headers]                         Get:38 http://deb.debian.org/debian trixie/main amd64 libnghttp2-14 amd64 1.64.0-1.1+deb13u1 [76.2 kB]
-32% [38 libnghttp2-14 0 B/76.2 kB 0%]                                     32% [Working]             Get:39 http://deb.debian.org/debian trixie/main amd64 libnghttp3-9 amd64 1.8.0-1 [67.7 kB]
-32% [39 libnghttp3-9 0 B/67.7 kB 0%]                                    32% [Waiting for headers]                         Get:40 http://deb.debian.org/debian trixie/main amd64 libpsl5t64 amd64 0.21.2-1.1+b1 [57.2 kB]
-32% [40 libpsl5t64 0 B/57.2 kB 0%]                                  33% [Waiting for headers]                         Get:41 http://deb.debian.org/debian trixie/main amd64 libffi8 amd64 3.4.8-2 [24.1 kB]
-33% [41 libffi8 18.8 kB/24.1 kB 78%]                                    33% [Working]             Get:42 http://deb.debian.org/debian trixie/main amd64 libp11-kit0 amd64 0.25.5-3 [425 kB]
-33% [42 libp11-kit0 0 B/425 kB 0%]                                  34% [Waiting for headers]                         Get:43 http://deb.debian.org/debian trixie/main amd64 libtasn1-6 amd64 4.20.0-2+deb13u1 [50.1 kB]
-34% [43 libtasn1-6 0 B/50.1 kB 0%]                                  35% [Waiting for headers]                         Get:44 http://deb.debian.org/debian trixie/main amd64 libgnutls30t64 amd64 3.8.9-3+deb13u4 [1469 kB]
-35% [44 libgnutls30t64 0 B/1469 kB 0%]                                      38% [Working]             Get:45 http://deb.debian.org/debian trixie/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2+b5 [58.8 kB]
-38% [45 librtmp1 41.0 kB/58.8 kB 70%]                                     38% [Working]             Get:46 http://deb.debian.org/debian trixie/main amd64 libssh2-1t64 amd64 1.11.1-1+deb13u2 [245 kB]
-38% [46 libssh2-1t64 0 B/245 kB 0%]                                   39% [Waiting for headers]                         Get:47 http://deb.debian.org/debian-security trixie-security/main amd64 libcurl4t64 amd64 8.14.1-2+deb13u7 [392 kB]
-39% [47 libcurl4t64 14.4 kB/392 kB 4%]                                      40% [Waiting for headers]                         Get:48 http://deb.debian.org/debian trixie/main amd64 libdatrie1 amd64 0.2.13-3+b1 [38.1 kB]
-40% [48 libdatrie1 0 B/38.1 kB 0%]                                  40% [Waiting for headers]                         Get:49 http://deb.debian.org/debian trixie/main amd64 libdeflate0 amd64 1.23-2 [47.3 kB]
-41% [49 libdeflate0 25.1 kB/47.3 kB 53%]                                        41% [Working]             Get:50 http://deb.debian.org/debian trixie/main amd64 libfribidi0 amd64 1.0.16-1 [26.5 kB]
-41% [50 libfribidi0 10.1 kB/26.5 kB 38%]                                        41% [Working]             Get:51 http://deb.debian.org/debian trixie/main amd64 libgif7 amd64 5.2.2-1+deb13u1 [44.1 kB]
-41% [51 libgif7 0 B/44.1 kB 0%]                               41% [Working]             Get:52 http://deb.debian.org/debian trixie/main amd64 libglib2.0-0t64 amd64 2.84.4-3~deb13u5 [1521 kB]
-42% [52 libglib2.0-0t64 35.9 kB/1521 kB 2%]                                           45% [Waiting for headers]                         Get:53 http://deb.debian.org/debian trixie/main amd64 libglib2.0-data all 2.84.4-3~deb13u5 [1287 kB]
-45% [53 libglib2.0-data 0 B/1287 kB 0%]                                       48% [Waiting for headers]                         Get:54 http://deb.debian.org/debian trixie/main amd64 libgomp1 amd64 14.2.0-19 [137 kB]
-48% [54 libgomp1 40.2 kB/137 kB 29%]                                    49% [Working]             Get:55 http://deb.debian.org/debian trixie/main amd64 libgraphite2-3 amd64 1.3.14-2+deb13u1 [75.2 kB]
-49% [55 libgraphite2-3 33.3 kB/75.2 kB 44%]                                           49% [Working]             Get:56 http://deb.debian.org/debian trixie/main amd64 libharfbuzz0b amd64 10.2.0-1+deb13u1 [479 kB]
-49% [56 libharfbuzz0b 22.9 kB/479 kB 5%]                                        50% [Working]             Get:57 http://deb.debian.org/debian trixie/main amd64 libicu76 amd64 76.1-4 [9722 kB]
-50% [57 libicu76 67.4 kB/9722 kB 1%]                                    71% [Waiting for headers]                         Get:58 http://deb.debian.org/debian trixie/main amd64 libjbig0 amd64 2.1-6.1+b2 [32.1 kB]
-71% [58 libjbig0 30.7 kB/32.1 kB 95%]                                     72% [Working]             Get:59 http://deb.debian.org/debian trixie/main amd64 libjpeg62-turbo amd64 1:2.1.5-4 [168 kB]
-72% [59 libjpeg62-turbo 63.3 kB/168 kB 38%]                                           72% [Working]             Get:60 http://deb.debian.org/debian trixie/main amd64 libldap-common all 2.6.10+dfsg-1 [35.1 kB]
-72% [60 libldap-common 25.4 kB/35.1 kB 72%]                                           73% [Working]             Get:61 http://deb.debian.org/debian trixie/main amd64 libopenjp2-7 amd64 2.5.3-2.1~deb13u2 [205 kB]
-73% [61 libopenjp2-7 49.2 kB/205 kB 24%]                                        73% [Working]             Get:62 http://deb.debian.org/debian trixie/main amd64 liblerc4 amd64 4.0.0+ds-5 [183 kB]
-73% [62 liblerc4 46.2 kB/183 kB 25%]                                    74% [Working]             Get:63 http://deb.debian.org/debian trixie/main amd64 libsharpyuv0 amd64 1.5.0-0.1 [116 kB]
-74% [63 libsharpyuv0 11.3 kB/116 kB 10%]                                        74% [Working]             Get:64 http://deb.debian.org/debian trixie/main amd64 libwebp7 amd64 1.5.0-0.1 [318 kB]
-74% [64 libwebp7 8171 B/318 kB 3%]                                  75% [Waiting for headers]                         Get:65 http://deb.debian.org/debian trixie/main amd64 libtiff6 amd64 4.7.0-3+deb13u3 [345 kB]
-75% [65 libtiff6 17.2 kB/345 kB 5%]                                   76% [Waiting for headers]                         Get:66 http://deb.debian.org/debian trixie/main amd64 libwebpmux3 amd64 1.5.0-0.1 [126 kB]
-76% [66 libwebpmux3 16.4 kB/126 kB 13%]                                       77% [Working]             Get:67 http://deb.debian.org/debian trixie/main amd64 libleptonica6 amd64 1.84.1-4 [1066 kB]
+12% [11 libfontconfig1 12.3 kB/392 kB 3%]                                         13% [Working]             Get:12 http://deb.debian.org/debian trixie/main amd64 fontconfig amd64 2.15.0-2.3 [463 kB]
+13% [12 fontconfig 16.4 kB/463 kB 4%]                                     15% [Waiting for headers]                         Get:13 http://deb.debian.org/debian trixie/main amd64 libxml2 amd64 2.12.7+dfsg+really2.9.14-2.1+deb13u3 [700 kB]
+15% [13 libxml2 57.7 kB/700 kB 8%]                                  16% [Waiting for headers]                         Get:14 http://deb.debian.org/debian trixie/main amd64 libarchive13t64 amd64 3.7.4-4+deb13u1 [350 kB]
+16% [14 libarchive13t64 27.0 kB/350 kB 8%]                                          17% [Waiting for headers]                         Get:15 http://deb.debian.org/debian trixie/main amd64 libatomic1 amd64 14.2.0-19 [9308 B]
+17% [15 libatomic1 9308 B/9308 B 100%]                                      18% [Waiting for headers]                         Get:16 http://deb.debian.org/debian trixie/main amd64 libpixman-1-0 amd64 0.44.0-3 [248 kB]
+18% [16 libpixman-1-0 61.4 kB/248 kB 25%]                                         18% [Waiting for headers]                         Get:17 http://deb.debian.org/debian trixie/main amd64 libxau6 amd64 1:1.0.11-1 [20.4 kB]
+18% [17 libxau6 20.4 kB/20.4 kB 100%]                                     19% [Working]             Get:18 http://deb.debian.org/debian trixie/main amd64 libxdmcp6 amd64 1:1.1.5-1 [27.8 kB]
+             Get:19 http://deb.debian.org/debian trixie/main amd64 libxcb1 amd64 1.17.0-2+b1 [144 kB]
+19% [19 libxcb1 130 kB/144 kB 90%]                                  20% [Waiting for headers]                         Get:20 http://deb.debian.org/debian trixie/main amd64 libx11-data all 2:1.8.12-1 [343 kB]
+20% [20 libx11-data 50.9 kB/343 kB 15%]                                       21% [Waiting for headers]                         Get:21 http://deb.debian.org/debian trixie/main amd64 libx11-6 amd64 2:1.8.12-1 [815 kB]
+21% [21 libx11-6 36.9 kB/815 kB 5%]                                   23% [Waiting for headers]                         Get:22 http://deb.debian.org/debian trixie/main amd64 libxcb-render0 amd64 1.17.0-2+b1 [115 kB]
+23% [22 libxcb-render0 5262 B/115 kB 5%]                                        23% [Waiting for headers]                         Get:23 http://deb.debian.org/debian trixie/main amd64 libxcb-shm0 amd64 1.17.0-2+b1 [105 kB]
+23% [23 libxcb-shm0 20.5 kB/105 kB 20%]                                       24% [Waiting for headers]                         Get:24 http://deb.debian.org/debian trixie/main amd64 libxext6 amd64 2:1.3.4-1+b3 [50.4 kB]
+24% [24 libxext6 45.6 kB/50.4 kB 90%]                                     24% [Working]             Get:25 http://deb.debian.org/debian trixie/main amd64 libxrender1 amd64 1:0.9.12-1 [27.9 kB]
+24% [25 libxrender1 16.4 kB/27.9 kB 59%]                                        24% [Working]             Get:26 http://deb.debian.org/debian trixie/main amd64 libcairo2 amd64 1.18.4-1+b1 [538 kB]
+25% [26 libcairo2 172 kB/538 kB 32%]                                    26% [Waiting for headers]                         Get:27 http://deb.debian.org/debian trixie/main amd64 libcom-err2 amd64 1.47.2-3+b12 [25.0 kB]
+                         26% [Working]             Get:28 http://deb.debian.org/debian trixie/main amd64 libkrb5support0 amd64 1.21.3-5+deb13u1 [33.1 kB]
+26% [28 libkrb5support0 16.4 kB/33.1 kB 49%]                                            26% [Waiting for headers]                         Get:29 http://deb.debian.org/debian trixie/main amd64 libk5crypto3 amd64 1.21.3-5+deb13u1 [81.2 kB]
+26% [29 libk5crypto3 72.7 kB/81.2 kB 90%]                                         27% [Waiting for headers]                         Get:30 http://deb.debian.org/debian trixie/main amd64 libkeyutils1 amd64 1.6.3-6 [9456 B]
+27% [30 libkeyutils1 9456 B/9456 B 100%]                                        27% [Waiting for headers]                         Get:31 http://deb.debian.org/debian trixie/main amd64 libkrb5-3 amd64 1.21.3-5+deb13u1 [326 kB]
+27% [31 libkrb5-3 32.8 kB/326 kB 10%]                                     28% [Waiting for headers]                         Get:32 http://deb.debian.org/debian trixie/main amd64 libgssapi-krb5-2 amd64 1.21.3-5+deb13u1 [138 kB]
+28% [32 libgssapi-krb5-2 64.7 kB/138 kB 47%]                                            28% [Waiting for headers]                         Get:33 http://deb.debian.org/debian trixie/main amd64 libunistring5 amd64 1.3-2 [477 kB]
+29% [33 libunistring5 56.8 kB/477 kB 12%]                                         30% [Waiting for headers]                         Get:34 http://deb.debian.org/debian trixie/main amd64 libidn2-0 amd64 2.3.8-2 [109 kB]
+30% [34 libidn2-0 38.0 kB/109 kB 35%]                                     30% [Waiting for headers]                         Get:35 http://deb.debian.org/debian trixie/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-9 [19.8 kB]
+30% [35 libsasl2-modules-db 19.8 kB/19.8 kB 100%]                                                 30% [Waiting for headers]                         Get:36 http://deb.debian.org/debian trixie/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-9 [57.5 kB]
+30% [36 libsasl2-2 0 B/57.5 kB 0%]                                  31% [Waiting for headers]                         Get:37 http://deb.debian.org/debian trixie/main amd64 libldap2 amd64 2.6.10+dfsg-1 [194 kB]
+31% [37 libldap2 79.8 kB/194 kB 41%]                                    32% [Waiting for headers]                         Get:38 http://deb.debian.org/debian trixie/main amd64 libnghttp2-14 amd64 1.64.0-1.1+deb13u1 [76.2 kB]
+32% [38 libnghttp2-14 76.2 kB/76.2 kB 100%]                                           32% [Working]             Get:39 http://deb.debian.org/debian trixie/main amd64 libnghttp3-9 amd64 1.8.0-1 [67.7 kB]
+32% [39 libnghttp3-9 16.4 kB/67.7 kB 24%]                                         32% [Working]             Get:40 http://deb.debian.org/debian trixie/main amd64 libpsl5t64 amd64 0.21.2-1.1+b1 [57.2 kB]
+32% [40 libpsl5t64 41.9 kB/57.2 kB 73%]                                       33% [Working]             Get:41 http://deb.debian.org/debian trixie/main amd64 libffi8 amd64 3.4.8-2 [24.1 kB]
+33% [41 libffi8 17.1 kB/24.1 kB 71%]                                    Get:42 http://deb.debian.org/debian trixie/main amd64 libp11-kit0 amd64 0.25.5-3 [425 kB]
+34% [42 libp11-kit0 287 kB/425 kB 67%]                                      34% [Waiting for headers]                         Get:43 http://deb.debian.org/debian trixie/main amd64 libtasn1-6 amd64 4.20.0-2+deb13u1 [50.1 kB]
+34% [43 libtasn1-6 4333 B/50.1 kB 9%]                                     35% [Working]             Get:44 http://deb.debian.org/debian trixie/main amd64 libgnutls30t64 amd64 3.8.9-3+deb13u4 [1469 kB]
+35% [44 libgnutls30t64 6536 B/1469 kB 0%]                                         38% [Waiting for headers]                         Get:45 http://deb.debian.org/debian trixie/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2+b5 [58.8 kB]
+38% [45 librtmp1 44.1 kB/58.8 kB 75%]                                     38% [Working]             Get:46 http://deb.debian.org/debian trixie/main amd64 libssh2-1t64 amd64 1.11.1-1+deb13u2 [245 kB]
+38% [46 libssh2-1t64 50.1 kB/245 kB 20%]                                        39% [Waiting for headers]                         Get:47 http://deb.debian.org/debian-security trixie-security/main amd64 libcurl4t64 amd64 8.14.1-2+deb13u7 [392 kB]
+39% [47 libcurl4t64 66.2 kB/392 kB 17%]                                       40% [Waiting for headers]                         Get:48 http://deb.debian.org/debian trixie/main amd64 libdatrie1 amd64 0.2.13-3+b1 [38.1 kB]
+40% [48 libdatrie1 14.0 kB/38.1 kB 37%]                                       40% [Working]             Get:49 http://deb.debian.org/debian trixie/main amd64 libdeflate0 amd64 1.23-2 [47.3 kB]
+             Get:50 http://deb.debian.org/debian trixie/main amd64 libfribidi0 amd64 1.0.16-1 [26.5 kB]
+             Get:51 http://deb.debian.org/debian trixie/main amd64 libgif7 amd64 5.2.2-1+deb13u1 [44.1 kB]
+41% [51 libgif7 44.1 kB/44.1 kB 100%]                                     Get:52 http://deb.debian.org/debian trixie/main amd64 libglib2.0-0t64 amd64 2.84.4-3~deb13u5 [1521 kB]
+42% [52 libglib2.0-0t64 105 kB/1521 kB 7%]                                          45% [Waiting for headers]                         Get:53 http://deb.debian.org/debian trixie/main amd64 libglib2.0-data all 2.84.4-3~deb13u5 [1287 kB]
+45% [53 libglib2.0-data 20.0 kB/1287 kB 2%]                                           48% [Waiting for headers]                         Get:54 http://deb.debian.org/debian trixie/main amd64 libgomp1 amd64 14.2.0-19 [137 kB]
+48% [54 libgomp1 39.6 kB/137 kB 29%]                                    49% [Waiting for headers]                         Get:55 http://deb.debian.org/debian trixie/main amd64 libgraphite2-3 amd64 1.3.14-2+deb13u1 [75.2 kB]
+49% [55 libgraphite2-3 32.7 kB/75.2 kB 43%]                                           49% [Working]             Get:56 http://deb.debian.org/debian trixie/main amd64 libharfbuzz0b amd64 10.2.0-1+deb13u1 [479 kB]
+49% [56 libharfbuzz0b 22.3 kB/479 kB 5%]                                        50% [Waiting for headers]                         Get:57 http://deb.debian.org/debian trixie/main amd64 libicu76 amd64 76.1-4 [9722 kB]
+50% [57 libicu76 66.7 kB/9722 kB 1%]                                    71% [Waiting for headers]                         Get:58 http://deb.debian.org/debian trixie/main amd64 libjbig0 amd64 2.1-6.1+b2 [32.1 kB]
+71% [58 libjbig0 32.1 kB/32.1 kB 100%]                                      72% [Working]             Get:59 http://deb.debian.org/debian trixie/main amd64 libjpeg62-turbo amd64 1:2.1.5-4 [168 kB]
+72% [59 libjpeg62-turbo 18.8 kB/168 kB 11%]                                           72% [Working]             Get:60 http://deb.debian.org/debian trixie/main amd64 libldap-common all 2.6.10+dfsg-1 [35.1 kB]
+72% [60 libldap-common 27.1 kB/35.1 kB 77%]                                           73% [Working]             Get:61 http://deb.debian.org/debian trixie/main amd64 libopenjp2-7 amd64 2.5.3-2.1~deb13u2 [205 kB]
+73% [61 libopenjp2-7 56.7 kB/205 kB 28%]                                        73% [Waiting for headers]                         Get:62 http://deb.debian.org/debian trixie/main amd64 liblerc4 amd64 4.0.0+ds-5 [183 kB]
+73% [62 liblerc4 48.0 kB/183 kB 26%]                                    74% [Waiting for headers]                         Get:63 http://deb.debian.org/debian trixie/main amd64 libsharpyuv0 amd64 1.5.0-0.1 [116 kB]
+74% [63 libsharpyuv0 61.0 kB/116 kB 53%]                                        74% [Working]             Get:64 http://deb.debian.org/debian trixie/main amd64 libwebp7 amd64 1.5.0-0.1 [318 kB]
+74% [64 libwebp7 28.7 kB/318 kB 9%]                                   75% [Waiting for headers]                         Get:65 http://deb.debian.org/debian trixie/main amd64 libtiff6 amd64 4.7.0-3+deb13u3 [345 kB]
+75% [65 libtiff6 38.8 kB/345 kB 11%]                                    76% [Waiting for headers]                         Get:66 http://deb.debian.org/debian trixie/main amd64 libwebpmux3 amd64 1.5.0-0.1 [126 kB]
+76% [66 libwebpmux3 32.8 kB/126 kB 26%]                                       77% [Waiting for headers]                         Get:67 http://deb.debian.org/debian trixie/main amd64 libleptonica6 amd64 1.84.1-4 [1066 kB]
 77% [67 libleptonica6 0 B/1066 kB 0%]                                     79% [Waiting for headers]                         Get:68 http://deb.debian.org/debian trixie/main amd64 libthai-data all 0.1.29-2 [168 kB]
-79% [68 libthai-data 0 B/168 kB 0%]                                   80% [Working]             Get:69 http://deb.debian.org/debian trixie/main amd64 libthai0 amd64 0.1.29-2+b1 [49.4 kB]
-80% [69 libthai0 24.5 kB/49.4 kB 50%]                                     80% [Working]             Get:70 http://deb.debian.org/debian trixie/main amd64 libpango-1.0-0 amd64 1.56.3-1 [226 kB]
-80% [70 libpango-1.0-0 0 B/226 kB 0%]                                     81% [Working]             Get:71 http://deb.debian.org/debian trixie/main amd64 libpangoft2-1.0-0 amd64 1.56.3-1 [55.6 kB]
-81% [71 libpangoft2-1.0-0 16.4 kB/55.6 kB 29%]                                              81% [Working]             Get:72 http://deb.debian.org/debian trixie/main amd64 libpangocairo-1.0-0 amd64 1.56.3-1 [35.7 kB]
-81% [72 libpangocairo-1.0-0 0 B/35.7 kB 0%]                                           82% [Working]             Get:73 http://deb.debian.org/debian trixie/main amd64 libsasl2-modules amd64 2.1.28+dfsg1-9 [66.7 kB]
-82% [73 libsasl2-modules 16.4 kB/66.7 kB 25%]                                             82% [Working]             Get:74 http://deb.debian.org/debian trixie/main amd64 libtesseract5 amd64 5.5.0-1+b1 [1417 kB]
-82% [74 libtesseract5 51.9 kB/1417 kB 4%]                                         85% [Waiting for headers]                         Get:75 http://deb.debian.org/debian trixie/main amd64 publicsuffix all 20250328.1952-0.1 [296 kB]
-85% [75 publicsuffix 16.4 kB/296 kB 6%]                                       86% [Waiting for headers]                         Get:76 http://deb.debian.org/debian trixie/main amd64 shared-mime-info amd64 2.4-5+b2 [760 kB]
-86% [76 shared-mime-info 41.5 kB/760 kB 5%]                                           88% [Working]             Get:77 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr-eng all 1:4.1.0-2 [1594 kB]
-88% [77 tesseract-ocr-eng 0 B/1594 kB 0%]                                         92% [Waiting for headers]                         Get:78 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr-osd all 1:4.1.0-2 [2992 kB]
-92% [78 tesseract-ocr-osd 7220 B/2992 kB 0%]                                            98% [Waiting for headers]                         Get:79 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr amd64 5.5.0-1+b1 [439 kB]
-99% [79 tesseract-ocr 32.8 kB/439 kB 7%]                                        100% [Waiting for headers]                          Get:80 http://deb.debian.org/debian trixie/main amd64 xdg-user-dirs amd64 0.18-2 [53.2 kB]
-100% [80 xdg-user-dirs 9613 B/53.2 kB 18%]                                          100% [Working]              Fetched 37.4 MB in 0s (139 MB/s)
+79% [68 libthai-data 63.6 kB/168 kB 38%]                                        80% [Waiting for headers]                         Get:69 http://deb.debian.org/debian trixie/main amd64 libthai0 amd64 0.1.29-2+b1 [49.4 kB]
+80% [69 libthai0 32.8 kB/49.4 kB 66%]                                     80% [Working]             Get:70 http://deb.debian.org/debian trixie/main amd64 libpango-1.0-0 amd64 1.56.3-1 [226 kB]
+80% [70 libpango-1.0-0 41.9 kB/226 kB 19%]                                          81% [Waiting for headers]                         Get:71 http://deb.debian.org/debian trixie/main amd64 libpangoft2-1.0-0 amd64 1.56.3-1 [55.6 kB]
+81% [71 libpangoft2-1.0-0 19.5 kB/55.6 kB 35%]                                              81% [Working]             Get:72 http://deb.debian.org/debian trixie/main amd64 libpangocairo-1.0-0 amd64 1.56.3-1 [35.7 kB]
+81% [72 libpangocairo-1.0-0 28.7 kB/35.7 kB 80%]                                                82% [Working]             Get:73 http://deb.debian.org/debian trixie/main amd64 libsasl2-modules amd64 2.1.28+dfsg1-9 [66.7 kB]
+82% [73 libsasl2-modules 15.7 kB/66.7 kB 23%]                                             82% [Waiting for headers]                         Get:74 http://deb.debian.org/debian trixie/main amd64 libtesseract5 amd64 5.5.0-1+b1 [1417 kB]
+82% [74 libtesseract5 496 B/1417 kB 0%]                                       85% [Waiting for headers]                         Get:75 http://deb.debian.org/debian trixie/main amd64 publicsuffix all 20250328.1952-0.1 [296 kB]
+85% [75 publicsuffix 2856 B/296 kB 1%]                                      86% [Waiting for headers]                         Get:76 http://deb.debian.org/debian trixie/main amd64 shared-mime-info amd64 2.4-5+b2 [760 kB]
+86% [76 shared-mime-info 1428 B/760 kB 0%]                                          88% [Waiting for headers]                         Get:77 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr-eng all 1:4.1.0-2 [1594 kB]
+88% [77 tesseract-ocr-eng 28.1 kB/1594 kB 2%]                                             92% [Waiting for headers]                         Get:78 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr-osd all 1:4.1.0-2 [2992 kB]
+92% [78 tesseract-ocr-osd 0 B/2992 kB 0%]                                         98% [Waiting for headers]                         Get:79 http://deb.debian.org/debian trixie/main amd64 tesseract-ocr amd64 5.5.0-1+b1 [439 kB]
+99% [79 tesseract-ocr 30.5 kB/439 kB 7%]                                        100% [Waiting for headers]                          Get:80 http://deb.debian.org/debian trixie/main amd64 xdg-user-dirs amd64 0.18-2 [53.2 kB]
+100% [80 xdg-user-dirs 49.6 kB/53.2 kB 93%]                                           100% [Working]              Fetched 37.4 MB in 0s (128 MB/s)
 Extracting templates from packages: 37%Extracting templates from packages: 75%Extracting templates from packages: 100%
 Preconfiguring packages ...
 Selecting previously unselected package libexpat1:amd64.
@@ -759,9 +759,6 @@ Abort.
 tesseract 5.5.0
  leptonica-1.84.1
   libgif 5.2.2 : libjpeg 6b (libjpeg-turbo 2.1.5) : libpng 1.6.48 : libtiff 4.7.0 : zlib 1.3.1 : libwebp 1.5.0 : libopenjp2 2.5.3
- Found AVX512BW
- Found AVX512F
- Found AVX512VNNI
  Found AVX2
  Found AVX
  Found FMA
@@ -793,13 +790,13 @@ Thank you for shopping!
 [1;32mroot@debian-13[0m:[1;34m/[0m# command -v tesseract; ls -la '/usr/share/tesseract-ocr/5/tessdata/'; du -sh '/usr/share/tesseract-ocr/5/tessdata/'
 /usr/bin/tesseract
 total 14356
-drwxr-xr-x 4 root root     4096 Nov 18 06:53 .
-drwxr-xr-x 3 root root     4096 Nov 18 06:53 ..
-drwxr-xr-x 2 root root     4096 Nov 18 06:53 configs
+drwxr-xr-x 4 root root     4096 Nov 18 06:59 .
+drwxr-xr-x 3 root root     4096 Nov 18 06:59 ..
+drwxr-xr-x 2 root root     4096 Nov 18 06:59 configs
 -rw-r--r-- 1 root root  4113088 Oct 30  2019 eng.traineddata
 -rw-r--r-- 1 root root 10562727 Oct 30  2019 osd.traineddata
 -rw-r--r-- 1 root root      572 Mar 13  2025 pdf.ttf
-drwxr-xr-x 2 root root     4096 Nov 18 06:53 tessconfigs
+drwxr-xr-x 2 root root     4096 Nov 18 06:59 tessconfigs
 15M	/usr/share/tesseract-ocr/5/tessdata/
 [1;32mroot@debian-13[0m:[1;34m/[0m# tesseract /samples/receipt.png - -l xyz
 Error opening data file /usr/share/tesseract-ocr/5/tessdata/xyz.traineddata

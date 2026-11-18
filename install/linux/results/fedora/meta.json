@@ -1,6 +1,6 @@
 {
-"runner_os": "ubuntu24", "runner_image_version": "20261111.370.1",
-"cpu": "INTEL(R) XEON(R) PLATINUM 8573C", "cores": 4,
-"docker": "Docker version 28.0.4, build b8034c0", "date_utc": "2026-11-18T06:53:36Z",
-"run": "https://github.com/dencyclopedia/test/actions/runs/44254688141", "git_sha": "8f8958e36828ae92967840a673e8bedc19afc132"
+"runner_os": "ubuntu24", "runner_image_version": "20261111.127.1",
+"cpu": "Intel(R) Xeon(R) 6975P-C", "cores": 4,
+"docker": "Docker version 28.0.4, build b8034c0", "date_utc": "2026-11-18T06:59:36Z",
+"run": "https://github.com/dencyclopedia/test/actions/runs/44255392087", "git_sha": "af83693bda5440f838680f3f5e884b72c7c6d2ac"
 }

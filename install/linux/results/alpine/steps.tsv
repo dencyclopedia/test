@@ -1,18 +1,21 @@
 step	seconds	exit	command
-os	0.01	0	cat /etc/os-release | head -4
+os	0.00	0	cat /etc/os-release | head -4
 which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
 run-before	0.00	127	tesseract --version
-update	0.37	0	apk update
-install	0.84	0	apk add tesseract-ocr
-pkgs	0.27	0	apk info -vv 2>/dev/null | grep -Ei 'tesseract|lept'
-info	0.33	0	apk info -s tesseract-ocr tesseract-ocr-data-eng tesseract-ocr-data-osd leptonica 2>/dev/null
-langs-search	0.34	0	apk search -q 'tesseract-ocr-data-*' | sort
-langs-count	0.35	0	apk search -q 'tesseract-ocr-data-*' | wc -l
-version	0.01	0	tesseract --version
-list-langs	0.01	0	tesseract --list-langs
-ocr	0.01	1	tesseract /samples/receipt.png -
-where	0.01	0	command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
+update	0.41	0	apk update
+install	0.93	0	apk add tesseract-ocr
+langs-after-base	0.01	0	tesseract --list-langs
+ocr-after-base	0.01	1	tesseract /samples/receipt.png -
+install-eng	0.48	0	apk add tesseract-ocr-data-eng
+pkgs	0.21	0	apk info -vv 2>/dev/null | grep -Ei 'tesseract|lept'
+info	0.22	0	apk info -s tesseract-ocr tesseract-ocr-data-eng tesseract-ocr-data-osd leptonica 2>/dev/null
+langs-search	0.25	0	apk search -q 'tesseract-ocr-data-*' | sort
+langs-count	0.25	0	apk search -q 'tesseract-ocr-data-*' | wc -l
+version	0.00	0	tesseract --version
+list-langs	0.00	0	tesseract --list-langs
+ocr	0.38	0	tesseract /samples/receipt.png -
+where	0.00	0	command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
 err-lang	0.00	1	tesseract /samples/receipt.png - -l xyz
-err-tessdata	0.00	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
-err-prefix	0.01	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
-err-noimage	0.01	1	tesseract /samples/missing.png -
+err-tessdata	0.01	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+err-prefix	0.00	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+err-noimage	0.14	1	tesseract /samples/missing.png -

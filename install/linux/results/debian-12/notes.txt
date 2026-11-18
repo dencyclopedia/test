@@ -1,2 +1,2 @@
 rootfs_kb_before=129756
-rootfs_kb_after=274400
+rootfs_kb_after=274396

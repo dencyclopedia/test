@@ -1,16 +1,16 @@
 step	seconds	exit	command
 os	0.00	0	cat /etc/os-release | head -4
-which-before	0.01	0	command -v tesseract || echo 'tesseract: not installed'
+which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
 run-before	0.00	127	tesseract --version
-update	2.73	0	apt-get update
-prereq	14.20	0	apt-get install -y software-properties-common
-add-ppa	6.21	0	add-apt-repository -y ppa:alex-p/tesseract-ocr5
-policy	0.58	0	apt-cache policy tesseract-ocr
-install	8.48	0	apt-get install -y tesseract-ocr
+update	3.14	0	apt-get update
+prereq	11.54	0	apt-get install -y software-properties-common
+add-ppa	5.55	0	add-apt-repository -y ppa:alex-p/tesseract-ocr5
+policy	0.57	0	apt-cache policy tesseract-ocr
+install	5.59	0	apt-get install -y tesseract-ocr
 clean	0.01	0	apt-get clean
 pkgs	0.00	0	dpkg-query -W -f='${Package} ${Version} ${Installed-Size}KiB\n' | grep -Ei 'tesseract|lept'
 version	0.00	0	tesseract --version
-list-langs	0.00	0	tesseract --list-langs
+list-langs	0.01	0	tesseract --list-langs
 ocr	0.18	0	tesseract /samples/receipt.png -
 where	0.00	0	command -v tesseract; ls -la '/usr/share/tesseract-ocr/5/tessdata/'; du -sh '/usr/share/tesseract-ocr/5/tessdata/'
 err-lang	0.01	1	tesseract /samples/receipt.png - -l xyz

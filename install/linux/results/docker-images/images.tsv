@@ -1,5 +1,6 @@
-image	tag_last_pushed	compressed_bytes	uncompressed_bytes	pull_seconds	tesseract_version_line	leptonica
-sleeck/tesseract:latest	2021-07-06T03:48:09.334887Z	642357489	1360170186	24.2	tesseract 4.0.0	leptonica-1.76.0
-demisto/tesseract:latest	httperror 404: tag 'latest' not found	None	
-NA	0.5		
-minidocks/tesseract:latest	2026-11-17T20:17:12.905234Z	35964468	87483356	2.6	tesseract 5.5.2	leptonica-1.87.0
+image	hub_pull_count	tag_last_pushed	compressed_bytes	uncompressed_bytes	pull_seconds	tesseract_version_line	leptonica
+sleeck/tesseract:latest	1137919	2021-07-06T03:48:09.334887Z	642357489	1360230260	21.1	tesseract 4.0.0	leptonica-1.76.0
+minidocks/tesseract:latest	207327	2026-11-17T20:17:12.905234Z	35964468	87504998	6.3	tesseract 5.5.2	leptonica-1.87.0
+franky1/tesseract:latest	97793	2026-11-16T11:08:54.980598Z	182142913	493411001	5.0	tesseract 5.5.4	leptonica-1.82.0
+jitesoft/tesseract-ocr:latest	243261	2026-11-12T04:18:26.843341Z	129758421	266572420	3.5	tesseract 5.5.4	leptonica-1.87.0
+tesseractshadow/tesseract4re:latest	160542	2020-01-06T22:44:59.156879Z	441752034	912645361	6.2	tesseract 4.1.1-rc2-21-gf4ef	leptonica-1.78.0

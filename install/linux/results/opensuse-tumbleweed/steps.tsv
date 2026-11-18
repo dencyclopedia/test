@@ -1,20 +1,20 @@
 step	seconds	exit	command
-os		0	cat /etc/os-release | head -4
-which-before		0	command -v tesseract || echo 'tesseract: not installed'
-run-before		127	tesseract --version
-refresh		0	zypper --non-interactive refresh
-install		0	zypper --non-interactive install tesseract-ocr
-langs-after-base		0	tesseract --list-langs
-install-eng		0	rpm -q tesseract-ocr-traineddata-english || zypper --non-interactive install tesseract-ocr-traineddata-english
-clean		0	zypper clean --all
-pkgs		0	rpm -qa | grep -Ei 'tesseract|lept' | sort
-langs-search		0	zypper --non-interactive search 'tesseract-ocr-traineddata-*'
-langs-count		0	zypper --non-interactive search 'tesseract-ocr-traineddata-*' | grep -c 'tesseract-ocr-traineddata-'
-version		0	tesseract --version
-list-langs		0	tesseract --list-langs
-ocr		0	tesseract /samples/receipt.png -
-where		0	command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
-err-lang		1	tesseract /samples/receipt.png - -l xyz
-err-tessdata		1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
-err-prefix		1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
-err-noimage		1	tesseract /samples/missing.png -
+os	0.01	0	cat /etc/os-release | head -4
+which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
+run-before	0.00	127	tesseract --version
+refresh	8.09	0	zypper --non-interactive refresh
+install	3.35	0	zypper --non-interactive install tesseract-ocr
+langs-after-base	0.01	0	tesseract --list-langs
+install-eng	0.37	0	rpm -q tesseract-ocr-traineddata-english || zypper --non-interactive install tesseract-ocr-traineddata-english
+clean	0.04	0	zypper clean --all
+pkgs	0.04	0	rpm -qa | grep -Ei 'tesseract|lept' | sort
+langs-search	7.38	0	zypper --non-interactive search 'tesseract-ocr-traineddata-*'
+langs-count	1.05	0	zypper --non-interactive search 'tesseract-ocr-traineddata-*' | grep -c 'tesseract-ocr-traineddata-'
+version	0.01	0	tesseract --version
+list-langs	0.01	0	tesseract --list-langs
+ocr	0.19	0	tesseract /samples/receipt.png -
+where	0.00	0	command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
+err-lang	0.01	1	tesseract /samples/receipt.png - -l xyz
+err-tessdata	0.01	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+err-prefix	0.01	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+err-noimage	0.06	1	tesseract /samples/missing.png -
