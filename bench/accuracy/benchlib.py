@@ -50,7 +50,7 @@ def gt(entry):
 
 
 def tess_cmd(image, version="5.5.4", model="standard", lang="eng", oem=1, psm=3, extra=()):
-    return [TESS[version], str(image), "stdout", "--tessdata-dir", str(MODELS[model]), "-l", lang,
+    return [TESS[version], str(image), "stdout", "--tessdata-dir", str(MODELS.get(model, model)), "-l", lang,
             "--oem", str(oem), "--psm", str(psm), *extra]
 
 
