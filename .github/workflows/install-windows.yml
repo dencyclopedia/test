@@ -86,8 +86,25 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with: { name: 'windows-${{ matrix.pm }}', path: 'out/${{ matrix.pm }}' }
+  wsl:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      CAP_OUT: ${{ github.workspace }}\out\wsl
+    steps:
+      - uses: actions/checkout@v4
+      - name: WSL2 + apt install tesseract-ocr
+        run: ./install/windows/scripts/wsl.ps1 -out $env:CAP_OUT
+      - name: Console screenshot
+        if: always()
+        run: |
+          python -m pip install --quiet pillow
+          python -c "import sys; sys.path.insert(0, r'install\windows\scripts'); from wincap import console; console('WSL Ubuntu - tesseract', ['echo %CD%^> wsl -d Ubuntu-24.04 -u root -- tesseract --version', 'wsl -d Ubuntu-24.04 -u root -- tesseract --version', 'echo %CD%^> wsl -d Ubuntu-24.04 -u root -- tesseract --list-langs', 'wsl -d Ubuntu-24.04 -u root -- tesseract --list-langs'], 'windows-wsl-ubuntu-tesseract', launcher='explorer')"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: windows-wsl, path: out/wsl }
   collect:
-    needs: [gui, pm]
+    needs: [gui, pm, wsl]
     if: always()
     runs-on: ubuntu-24.04
     steps:

@@ -1,0 +1,241 @@
+run,level,font,n,cer_mean,cer_median,cer_max,wer_mean,cer_charweighted
+534-apt,blur1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,blur1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-apt,blur2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,blur2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur2,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur3,Carlito,1,0.00709,0.00709,0.00709,0.0381,0.00709
+534-apt,blur3,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur3,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,blur3,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,contrast1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast1,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,contrast2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,contrast2,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,jpeg30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg30,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,jpeg50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg50,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg70,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,jpeg70,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg70,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg70,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg90,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,jpeg90,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg90,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,jpeg90,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,light50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,light50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,light50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,light50,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,light75,Carlito,1,0.31915,0.31915,0.31915,0.3619,0.31915
+534-apt,light75,Courier 10 Pitch,1,0.2398,0.2398,0.2398,0.26804,0.2398
+534-apt,light75,DejaVu Serif,1,0.17308,0.17308,0.17308,0.20202,0.17308
+534-apt,light75,Inter,1,0.21453,0.21453,0.21453,0.25893,0.21453
+534-apt,noise15,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,noise15,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,noise15,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,noise15,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-apt,noise30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,noise30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,noise30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,noise30,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-apt,noise50,Carlito,1,0.03901,0.03901,0.03901,0.10476,0.03901
+534-apt,noise50,Courier 10 Pitch,1,0.04252,0.04252,0.04252,0.17526,0.04252
+534-apt,noise50,DejaVu Serif,1,0.13077,0.13077,0.13077,0.28283,0.13077
+534-apt,noise50,Inter,1,0.06588,0.06588,0.06588,0.16071,0.06588
+534-apt,none,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,none,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,none,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,none,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,phone1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,phone1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,phone1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,phone1,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,phone2,Carlito,1,0.00709,0.00709,0.00709,0.02857,0.00709
+534-apt,phone2,Courier 10 Pitch,1,0.02551,0.02551,0.02551,0.04124,0.02551
+534-apt,phone2,DejaVu Serif,1,0.00962,0.00962,0.00962,0.06061,0.00962
+534-apt,phone2,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,skew1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,skew1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-apt,skew1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-apt,skew1,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-apt,skew3,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-apt,skew3,Courier 10 Pitch,1,0.0017,0.0017,0.0017,0.01031,0.0017
+534-apt,skew3,DejaVu Serif,1,0.00192,0.00192,0.00192,0.0202,0.00192
+534-apt,skew3,Inter,1,0.00507,0.00507,0.00507,0.04464,0.00507
+534-apt,skew5,Carlito,1,0.75532,0.75532,0.75532,1.04762,0.75532
+534-apt,skew5,Courier 10 Pitch,1,0.01871,0.01871,0.01871,0.1134,0.01871
+534-apt,skew5,DejaVu Serif,1,0.01154,0.01154,0.01154,0.06061,0.01154
+534-apt,skew5,Inter,1,0.01014,0.01014,0.01014,0.03571,0.01014
+534-standard,blur1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,blur1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-standard,blur2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,blur2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur2,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur3,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,blur3,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur3,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,blur3,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-standard,contrast1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,contrast1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,contrast1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,contrast1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-standard,contrast2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,contrast2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,contrast2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,contrast2,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-standard,jpeg30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,jpeg30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg30,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,jpeg50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,jpeg50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg50,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,jpeg70,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,jpeg70,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg70,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg70,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,jpeg90,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,jpeg90,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg90,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,jpeg90,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,light50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,light50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,light50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,light50,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-standard,light75,Carlito,1,0.31915,0.31915,0.31915,0.3619,0.31915
+534-standard,light75,Courier 10 Pitch,1,0.2398,0.2398,0.2398,0.26804,0.2398
+534-standard,light75,DejaVu Serif,1,0.17308,0.17308,0.17308,0.20202,0.17308
+534-standard,light75,Inter,1,0.21622,0.21622,0.21622,0.26786,0.21622
+534-standard,noise15,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,noise15,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,noise15,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,noise15,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,noise30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,noise30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,noise30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,noise30,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,noise50,Carlito,1,0.03723,0.03723,0.03723,0.11429,0.03723
+534-standard,noise50,Courier 10 Pitch,1,0.0119,0.0119,0.0119,0.07216,0.0119
+534-standard,noise50,DejaVu Serif,1,0.09615,0.09615,0.09615,0.22222,0.09615
+534-standard,noise50,Inter,1,0.06081,0.06081,0.06081,0.125,0.06081
+534-standard,none,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,none,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,none,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,none,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+534-standard,phone1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,phone1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,phone1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,phone1,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-standard,phone2,Carlito,1,0.00887,0.00887,0.00887,0.02857,0.00887
+534-standard,phone2,Courier 10 Pitch,1,0.02551,0.02551,0.02551,0.04124,0.02551
+534-standard,phone2,DejaVu Serif,1,0.00769,0.00769,0.00769,0.05051,0.00769
+534-standard,phone2,Inter,1,0.0,0.0,0.0,0.0,0.0
+534-standard,skew1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,skew1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+534-standard,skew1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,skew1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+534-standard,skew3,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+534-standard,skew3,Courier 10 Pitch,1,0.0085,0.0085,0.0085,0.05155,0.0085
+534-standard,skew3,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+534-standard,skew3,Inter,1,0.00845,0.00845,0.00845,0.04464,0.00845
+534-standard,skew5,Carlito,1,0.76241,0.76241,0.76241,1.04762,0.76241
+534-standard,skew5,Courier 10 Pitch,1,0.01701,0.01701,0.01701,0.09278,0.01701
+534-standard,skew5,DejaVu Serif,1,0.00769,0.00769,0.00769,0.0303,0.00769
+534-standard,skew5,Inter,1,0.00845,0.00845,0.00845,0.03571,0.00845
+554-standard,blur1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,blur1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+554-standard,blur2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,blur2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur2,Inter,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur3,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,blur3,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur3,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,blur3,Inter,1,0.0,0.0,0.0,0.0,0.0
+554-standard,contrast1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,contrast1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,contrast1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,contrast1,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,contrast2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,contrast2,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,contrast2,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,contrast2,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,jpeg30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,jpeg30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg30,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,jpeg50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,jpeg50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg50,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,jpeg70,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,jpeg70,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg70,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg70,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,jpeg90,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,jpeg90,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg90,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,jpeg90,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,light50,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,light50,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,light50,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,light50,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,light75,Carlito,1,0.31915,0.31915,0.31915,0.3619,0.31915
+554-standard,light75,Courier 10 Pitch,1,0.2398,0.2398,0.2398,0.26804,0.2398
+554-standard,light75,DejaVu Serif,1,0.17308,0.17308,0.17308,0.20202,0.17308
+554-standard,light75,Inter,1,0.21622,0.21622,0.21622,0.26786,0.21622
+554-standard,noise15,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,noise15,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,noise15,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,noise15,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,noise30,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,noise30,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,noise30,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,noise30,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,noise50,Carlito,1,0.03901,0.03901,0.03901,0.11429,0.03901
+554-standard,noise50,Courier 10 Pitch,1,0.0119,0.0119,0.0119,0.07216,0.0119
+554-standard,noise50,DejaVu Serif,1,0.09231,0.09231,0.09231,0.19192,0.09231
+554-standard,noise50,Inter,1,0.0625,0.0625,0.0625,0.125,0.0625
+554-standard,none,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,none,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,none,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,none,Inter,1,0.00338,0.00338,0.00338,0.01786,0.00338
+554-standard,phone1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,phone1,Courier 10 Pitch,1,0.0,0.0,0.0,0.0,0.0
+554-standard,phone1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,phone1,Inter,1,0.0,0.0,0.0,0.0,0.0
+554-standard,phone2,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,phone2,Courier 10 Pitch,1,0.02551,0.02551,0.02551,0.04124,0.02551
+554-standard,phone2,DejaVu Serif,1,0.00385,0.00385,0.00385,0.0404,0.00385
+554-standard,phone2,Inter,1,0.0,0.0,0.0,0.0,0.0
+554-standard,skew1,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,skew1,Courier 10 Pitch,1,0.0017,0.0017,0.0017,0.01031,0.0017
+554-standard,skew1,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,skew1,Inter,1,0.00169,0.00169,0.00169,0.00893,0.00169
+554-standard,skew3,Carlito,1,0.00355,0.00355,0.00355,0.01905,0.00355
+554-standard,skew3,Courier 10 Pitch,1,0.0102,0.0102,0.0102,0.06186,0.0102
+554-standard,skew3,DejaVu Serif,1,0.0,0.0,0.0,0.0,0.0
+554-standard,skew3,Inter,1,0.00676,0.00676,0.00676,0.04464,0.00676
+554-standard,skew5,Carlito,1,0.76241,0.76241,0.76241,1.04762,0.76241
+554-standard,skew5,Courier 10 Pitch,1,0.01701,0.01701,0.01701,0.09278,0.01701
+554-standard,skew5,DejaVu Serif,1,0.00769,0.00769,0.00769,0.0303,0.00769
+554-standard,skew5,Inter,1,0.00845,0.00845,0.00845,0.03571,0.00845
