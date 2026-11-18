@@ -1,0 +1,24 @@
+MAPLE ROW MARKET
+12 Example Street, Sampletown
+Tel 999-555-9781
+
+Date 2926-94-26 13:27
+Receipt #66618 Till 5
+Apples 1kg 2.29
+Coffee Beans 599g
+
+3 x 8.99 26.97
+Flat White
+
+3 x 3.49 19.29
+Ibuprofen 299mg
+
+2 x 2.49 4.98
+Cheddar 4999 4.25
+SUBTOTAL 48.69
+VAT 29% incl. 8.19
+TOTAL 48.69
+CARD 48.69
+
+Thank you for shopping with us
+Sample receipt - not a real store

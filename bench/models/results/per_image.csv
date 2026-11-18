@@ -1,0 +1,469 @@
+run,model,oem,id,set,lang,group,level,cer,wer,word_recall_unordered,gt_chars,out_chars,rc,stderr
+best-oem0,best,0,clean/austen_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/austen_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/austen_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/austen_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/carroll_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem0,best,0,clean/doyle_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+best-oem1,best,1,clean/austen_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+best-oem1,best,1,clean/austen_carlito_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+best-oem1,best,1,clean/austen_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+best-oem1,best,1,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+best-oem1,best,1,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+best-oem1,best,1,clean/austen_inter_300,clean,eng,eng-clean,,0.00583,0.03004,0.96996,1201,1201,0,
+best-oem1,best,1,clean/carroll_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+best-oem1,best,1,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+best-oem1,best,1,clean/carroll_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+best-oem1,best,1,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+best-oem1,best,1,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+best-oem1,best,1,clean/carroll_inter_300,clean,eng,eng-clean,,0.00226,0.01186,0.98814,1326,1326,0,
+best-oem1,best,1,clean/doyle_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+best-oem1,best,1,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+best-oem1,best,1,clean/doyle_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+best-oem1,best,1,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+best-oem1,best,1,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+best-oem1,best,1,clean/doyle_inter_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,520,520,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,520,520,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,520,520,0,Estimating resolution as 459
+best-oem1,best,1,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.17308,0.20202,0.79798,520,430,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,520,520,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,520,520,0,
+best-oem1,best,1,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,520,520,0,Estimating resolution as 469
+best-oem1,best,1,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.0,0.0,1.0,520,520,0,
+best-oem1,best,1,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,592,592,0,
+best-oem1,best,1,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.00338,0.01786,0.98214,592,592,0,
+best-oem1,best,1,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00338,0.01786,0.98214,592,592,0,Estimating resolution as 464
+best-oem1,best,1,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.21622,0.26786,0.73214,592,465,0,
+best-oem1,best,1,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00338,0.01786,0.98214,592,592,0,
+best-oem1,best,1,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.00338,0.01786,0.98214,592,592,0,
+best-oem1,best,1,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,592,592,0,Estimating resolution as 476
+best-oem1,best,1,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00676,0.04464,0.96429,592,591,0,
+best-oem1,best,1,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.00355,0.01905,0.98095,564,564,0,
+best-oem1,best,1,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.00355,0.01905,0.98095,564,564,0,
+best-oem1,best,1,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 404
+best-oem1,best,1,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.3619,0.6381,564,385,0,
+best-oem1,best,1,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00355,0.01905,0.98095,564,564,0,
+best-oem1,best,1,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.00355,0.01905,0.98095,564,564,0,
+best-oem1,best,1,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 407
+best-oem1,best,1,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00355,0.01905,0.98095,564,564,0,
+best-oem1,best,1,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+best-oem1,best,1,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,588,588,0,
+best-oem1,best,1,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,588,588,0,Estimating resolution as 386
+best-oem1,best,1,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2398,0.26804,0.73196,588,447,0,
+best-oem1,best,1,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,588,588,0,
+best-oem1,best,1,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,588,588,0,
+best-oem1,best,1,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+best-oem1,best,1,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0085,0.05155,0.94845,588,588,0,
+best-oem1,best,1,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,0.01375,0.08889,0.94074,800,801,0,Detected 224 diacritics
+best-oem1,best,1,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,0.02582,0.17094,0.89744,736,744,0,Detected 132 diacritics
+best-oem1,best,1,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.72881,14.2,0.4,295,497,0,"Error opening data file /opt/tessdata/tessdata_best/chi_sim_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_sim_vert'"
+best-oem1,best,1,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.72414,25.3,0.0,348,591,0,"Error opening data file /opt/tessdata/tessdata_best/chi_sim_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_sim_vert'"
+best-oem1,best,1,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+best-oem1,best,1,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,751,751,0,
+best-oem1,best,1,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00245,0.01449,0.98551,815,815,0,
+best-oem1,best,1,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00294,0.01869,0.98131,680,680,0,
+best-oem1,best,1,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00455,0.01613,0.98387,659,660,0,
+best-oem1,best,1,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00843,0.03937,0.9685,712,715,0,
+best-oem1,best,1,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.00354,0.00826,0.99174,848,846,0,
+best-oem1,best,1,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.0,0.0,1.0,714,714,0,
+best-oem1,best,1,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.00284,0.01562,0.98438,352,353,0,
+best-oem1,best,1,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.00271,0.01515,0.98485,369,370,0,
+best-oem1,best,1,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.34339,0.49367,0.82278,431,434,0,
+best-oem1,best,1,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.00412,0.02247,0.97753,486,487,0,
+best-oem1,best,1,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.37182,0.53012,0.80723,433,423,0,
+best-oem1,best,1,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.37113,0.4507,0.94366,388,386,0,
+best-oem1,best,1,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.36281,0.45122,0.91463,441,437,0,
+best-oem1,best,1,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.36729,0.51562,0.8125,373,384,0,
+best-oem1,best,1,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.00222,0.01235,0.98765,451,452,0,
+best-oem1,best,1,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0,0.0,1.0,400,400,0,
+fast-oem0,fast,0,clean/austen_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/austen_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/austen_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/austen_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1201,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/carroll_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1326,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_caladea_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_carlito_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_courier10_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem0,fast,0,clean/doyle_inter_300,clean,eng,eng-clean,,1.0,1.0,0.0,1145,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_fast/eng.traineddata!! | Failed loading language 'eng' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+fast-oem1,fast,1,clean/austen_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+fast-oem1,fast,1,clean/austen_carlito_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+fast-oem1,fast,1,clean/austen_courier10_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+fast-oem1,fast,1,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+fast-oem1,fast,1,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+fast-oem1,fast,1,clean/austen_inter_300,clean,eng,eng-clean,,0.00167,0.00858,0.99142,1201,1201,0,
+fast-oem1,fast,1,clean/carroll_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+fast-oem1,fast,1,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+fast-oem1,fast,1,clean/carroll_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+fast-oem1,fast,1,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+fast-oem1,fast,1,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+fast-oem1,fast,1,clean/carroll_inter_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+fast-oem1,fast,1,clean/doyle_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+fast-oem1,fast,1,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+fast-oem1,fast,1,clean/doyle_courier10_300,clean,eng,eng-clean,,0.00087,0.00971,0.99029,1145,1144,0,
+fast-oem1,fast,1,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+fast-oem1,fast,1,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.00087,0.00971,0.99029,1145,1144,0,
+fast-oem1,fast,1,clean/doyle_inter_300,clean,eng,eng-clean,,0.00262,0.01456,0.98544,1145,1145,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,520,520,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,520,520,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,520,520,0,Estimating resolution as 459
+fast-oem1,fast,1,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.17308,0.20202,0.79798,520,430,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,520,520,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,520,520,0,
+fast-oem1,fast,1,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,520,520,0,Estimating resolution as 469
+fast-oem1,fast,1,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.00192,0.0202,0.9798,520,519,0,
+fast-oem1,fast,1,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,592,592,0,
+fast-oem1,fast,1,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,592,592,0,
+fast-oem1,fast,1,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,592,592,0,Estimating resolution as 464
+fast-oem1,fast,1,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.21453,0.25893,0.74107,592,465,0,
+fast-oem1,fast,1,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00169,0.00893,0.99107,592,592,0,
+fast-oem1,fast,1,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,592,592,0,
+fast-oem1,fast,1,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,592,592,0,Estimating resolution as 476
+fast-oem1,fast,1,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00507,0.04464,0.96429,592,591,0,
+fast-oem1,fast,1,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.00355,0.01905,0.98095,564,564,0,
+fast-oem1,fast,1,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.00355,0.01905,0.98095,564,564,0,
+fast-oem1,fast,1,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 404
+fast-oem1,fast,1,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.3619,0.6381,564,385,0,
+fast-oem1,fast,1,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00355,0.01905,0.98095,564,564,0,
+fast-oem1,fast,1,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.00355,0.01905,0.98095,564,564,0,
+fast-oem1,fast,1,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 407
+fast-oem1,fast,1,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00355,0.01905,0.98095,564,564,0,
+fast-oem1,fast,1,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+fast-oem1,fast,1,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,588,588,0,
+fast-oem1,fast,1,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,588,588,0,Estimating resolution as 386
+fast-oem1,fast,1,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2398,0.26804,0.73196,588,447,0,
+fast-oem1,fast,1,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,588,588,0,
+fast-oem1,fast,1,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,588,588,0,
+fast-oem1,fast,1,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+fast-oem1,fast,1,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0,0.0,1.0,588,588,0,
+fast-oem1,fast,1,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,0.01875,0.03704,0.97037,800,792,0,Detected 224 diacritics
+fast-oem1,fast,1,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,0.03261,0.05128,0.94872,736,716,0,Detected 132 diacritics
+fast-oem1,fast,1,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.05085,0.66667,0.53333,295,296,0,
+fast-oem1,fast,1,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.02299,0.5,0.5,348,348,0,Detected 199 diacritics
+fast-oem1,fast,1,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+fast-oem1,fast,1,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,751,751,0,
+fast-oem1,fast,1,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00123,0.00725,0.99275,815,815,0,
+fast-oem1,fast,1,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00588,0.03738,0.96262,680,680,0,
+fast-oem1,fast,1,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00607,0.01613,0.98387,659,662,0,
+fast-oem1,fast,1,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00702,0.02362,0.97638,712,714,0,
+fast-oem1,fast,1,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.00354,0.00826,0.99174,848,848,0,
+fast-oem1,fast,1,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.0,0.0,1.0,714,714,0,
+fast-oem1,fast,1,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.00284,0.01562,0.98438,352,352,0,
+fast-oem1,fast,1,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.00271,0.01515,0.98485,369,369,0,
+fast-oem1,fast,1,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.32715,0.48101,0.82278,431,428,0,
+fast-oem1,fast,1,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.00206,0.01124,0.98876,486,485,0,
+fast-oem1,fast,1,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.35797,0.45783,0.87952,433,428,0,
+fast-oem1,fast,1,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.36856,0.42254,0.97183,388,387,0,
+fast-oem1,fast,1,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.36054,0.41463,0.95122,441,441,0,
+fast-oem1,fast,1,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.35121,0.5,0.8125,373,378,0,
+fast-oem1,fast,1,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.00222,0.01235,0.98765,451,451,0,
+fast-oem1,fast,1,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0025,0.02899,0.97101,400,400,0,
+standard-oem0,standard,0,clean/austen_caladea_300,clean,eng,eng-clean,,0.00749,0.03863,0.96996,1201,1203,0,
+standard-oem0,standard,0,clean/austen_carlito_300,clean,eng,eng-clean,,0.00666,0.01717,0.98283,1201,1197,0,
+standard-oem0,standard,0,clean/austen_courier10_300,clean,eng,eng-clean,,0.00583,0.03004,0.96996,1201,1201,0,
+standard-oem0,standard,0,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.00916,0.04721,0.95279,1201,1201,0,
+standard-oem0,standard,0,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.00999,0.04721,0.95279,1201,1200,0,
+standard-oem0,standard,0,clean/austen_inter_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem0,standard,0,clean/carroll_caladea_300,clean,eng,eng-clean,,0.00679,0.03162,0.96838,1326,1325,0,
+standard-oem0,standard,0,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00603,0.02372,0.97628,1326,1324,0,
+standard-oem0,standard,0,clean/carroll_courier10_300,clean,eng,eng-clean,,0.00528,0.02767,0.97233,1326,1326,0,
+standard-oem0,standard,0,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.00302,0.01581,0.98419,1326,1326,0,
+standard-oem0,standard,0,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.00528,0.02767,0.97628,1326,1326,0,
+standard-oem0,standard,0,clean/carroll_inter_300,clean,eng,eng-clean,,0.00302,0.01581,0.98419,1326,1326,0,
+standard-oem0,standard,0,clean/doyle_caladea_300,clean,eng,eng-clean,,0.00087,0.00485,0.99515,1145,1145,0,
+standard-oem0,standard,0,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00262,0.00971,0.99029,1145,1144,0,
+standard-oem0,standard,0,clean/doyle_courier10_300,clean,eng,eng-clean,,0.00087,0.00485,0.99515,1145,1145,0,
+standard-oem0,standard,0,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem0,standard,0,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem0,standard,0,clean/doyle_inter_300,clean,eng,eng-clean,,0.00087,0.00485,0.99515,1145,1145,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.01346,0.0404,0.9596,520,517,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.00962,0.0404,0.9596,520,519,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00769,0.0404,0.9596,520,520,0,Estimating resolution as 459
+standard-oem0,standard,0,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.18269,0.24242,0.75758,520,429,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.01346,0.05051,0.94949,520,518,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.00962,0.0404,0.9596,520,519,0,
+standard-oem0,standard,0,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.01538,0.05051,0.94949,520,517,0,Estimating resolution as 469
+standard-oem0,standard,0,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.01538,0.06061,0.93939,520,518,0,
+standard-oem0,standard,0,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.00507,0.02679,0.97321,592,592,0,
+standard-oem0,standard,0,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.00169,0.00893,0.99107,592,592,0,
+standard-oem0,standard,0,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00169,0.00893,0.99107,592,592,0,Estimating resolution as 464
+standard-oem0,standard,0,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.22466,0.28571,0.71429,592,464,0,
+standard-oem0,standard,0,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00338,0.01786,0.98214,592,592,0,
+standard-oem0,standard,0,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.00169,0.00893,0.99107,592,592,0,
+standard-oem0,standard,0,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.00338,0.01786,0.98214,592,592,0,Estimating resolution as 476
+standard-oem0,standard,0,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00507,0.03571,0.97321,592,592,0,
+standard-oem0,standard,0,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.01241,0.06667,0.93333,564,564,0,
+standard-oem0,standard,0,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,564,564,0,
+standard-oem0,standard,0,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,564,564,0,Estimating resolution as 404
+standard-oem0,standard,0,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.35238,0.64762,564,385,0,
+standard-oem0,standard,0,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00177,0.00952,0.99048,564,564,0,
+standard-oem0,standard,0,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,564,564,0,
+standard-oem0,standard,0,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,564,564,0,Estimating resolution as 407
+standard-oem0,standard,0,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00177,0.00952,0.99048,564,564,0,
+standard-oem0,standard,0,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+standard-oem0,standard,0,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0017,0.01031,0.98969,588,588,0,
+standard-oem0,standard,0,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0017,0.01031,0.98969,588,588,0,Estimating resolution as 386
+standard-oem0,standard,0,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2432,0.26804,0.73196,588,447,0,
+standard-oem0,standard,0,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0017,0.01031,0.98969,588,588,0,
+standard-oem0,standard,0,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0017,0.01031,0.98969,588,588,0,
+standard-oem0,standard,0,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+standard-oem0,standard,0,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0017,0.01031,0.98969,588,588,0,
+standard-oem0,standard,0,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,1.0,1.0,0.0,800,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/ara.traineddata!! | Failed loading language 'ara' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem0,standard,0,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,1.0,1.0,0.0,736,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/ara.traineddata!! | Failed loading language 'ara' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem0,standard,0,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.68136,1.86667,0.13333,295,413,0,
+standard-oem0,standard,0,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.7931,1.1,0.1,348,506,0,WARNING: reached the seam evaluation budget (chop_max_seam_evals_pass = 500000) for this recognition pass; stopping further seam searching for the rest of the pass.
+standard-oem0,standard,0,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+standard-oem0,standard,0,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.00533,0.01961,0.98039,751,749,0,
+standard-oem0,standard,0,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00859,0.05072,0.94928,815,815,0,
+standard-oem0,standard,0,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00882,0.05607,0.94393,680,680,0,
+standard-oem0,standard,0,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,1.0,1.0,0.0,659,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/hin.traineddata!! | Failed loading language 'hin' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem0,standard,0,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,1.0,1.0,0.0,712,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/hin.traineddata!! | Failed loading language 'hin' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem0,standard,0,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.0059,0.02479,0.97521,848,848,0,
+standard-oem0,standard,0,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.06303,0.07368,0.92632,714,714,0,
+standard-oem0,standard,0,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.05966,0.20312,0.79688,352,352,0,
+standard-oem0,standard,0,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.01626,0.06061,0.93939,369,369,0,
+standard-oem0,standard,0,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.35035,0.50633,0.77215,431,432,0,
+standard-oem0,standard,0,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.01235,0.04494,0.95506,486,486,0,
+standard-oem0,standard,0,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.37644,0.46988,0.86747,433,434,0,
+standard-oem0,standard,0,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.38402,0.46479,0.91549,388,388,0,
+standard-oem0,standard,0,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.35601,0.37805,0.9878,441,441,0,
+standard-oem0,standard,0,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.36461,0.53125,0.78125,373,380,0,
+standard-oem0,standard,0,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.02439,0.1358,0.93827,451,457,0,
+standard-oem0,standard,0,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0175,0.07246,0.92754,400,400,0,
+standard-oem1,standard,1,clean/austen_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem1,standard,1,clean/austen_carlito_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+standard-oem1,standard,1,clean/austen_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem1,standard,1,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem1,standard,1,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem1,standard,1,clean/austen_inter_300,clean,eng,eng-clean,,0.00583,0.03004,0.96996,1201,1201,0,
+standard-oem1,standard,1,clean/carroll_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem1,standard,1,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+standard-oem1,standard,1,clean/carroll_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem1,standard,1,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem1,standard,1,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem1,standard,1,clean/carroll_inter_300,clean,eng,eng-clean,,0.00226,0.01186,0.98814,1326,1326,0,
+standard-oem1,standard,1,clean/doyle_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem1,standard,1,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+standard-oem1,standard,1,clean/doyle_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem1,standard,1,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem1,standard,1,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem1,standard,1,clean/doyle_inter_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,520,520,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,520,520,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,520,520,0,Estimating resolution as 459
+standard-oem1,standard,1,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.17308,0.20202,0.79798,520,430,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,520,520,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,520,520,0,
+standard-oem1,standard,1,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,520,520,0,Estimating resolution as 469
+standard-oem1,standard,1,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.0,0.0,1.0,520,520,0,
+standard-oem1,standard,1,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,592,592,0,
+standard-oem1,standard,1,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.00338,0.01786,0.98214,592,592,0,
+standard-oem1,standard,1,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00338,0.01786,0.98214,592,592,0,Estimating resolution as 464
+standard-oem1,standard,1,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.21622,0.26786,0.73214,592,465,0,
+standard-oem1,standard,1,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00338,0.01786,0.98214,592,592,0,
+standard-oem1,standard,1,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.00338,0.01786,0.98214,592,592,0,
+standard-oem1,standard,1,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,592,592,0,Estimating resolution as 476
+standard-oem1,standard,1,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00676,0.04464,0.96429,592,591,0,
+standard-oem1,standard,1,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem1,standard,1,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem1,standard,1,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 404
+standard-oem1,standard,1,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.3619,0.6381,564,385,0,
+standard-oem1,standard,1,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00355,0.01905,0.98095,564,564,0,
+standard-oem1,standard,1,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.00355,0.01905,0.98095,564,564,0,
+standard-oem1,standard,1,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 407
+standard-oem1,standard,1,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00355,0.01905,0.98095,564,564,0,
+standard-oem1,standard,1,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+standard-oem1,standard,1,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,588,588,0,
+standard-oem1,standard,1,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,588,588,0,Estimating resolution as 386
+standard-oem1,standard,1,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2398,0.26804,0.73196,588,447,0,
+standard-oem1,standard,1,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,588,588,0,
+standard-oem1,standard,1,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,588,588,0,
+standard-oem1,standard,1,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+standard-oem1,standard,1,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0102,0.06186,0.93814,588,588,0,
+standard-oem1,standard,1,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,0.02125,0.05185,0.95556,800,790,0,Detected 224 diacritics
+standard-oem1,standard,1,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,0.03261,0.05128,0.94872,736,716,0,Detected 132 diacritics
+standard-oem1,standard,1,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.88814,17.46667,0.33333,295,546,0,
+standard-oem1,standard,1,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.94828,33.9,0.0,348,677,0,
+standard-oem1,standard,1,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+standard-oem1,standard,1,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,751,751,0,
+standard-oem1,standard,1,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00491,0.02899,0.97101,815,815,0,
+standard-oem1,standard,1,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00294,0.01869,0.98131,680,680,0,
+standard-oem1,standard,1,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00455,0.01613,0.98387,659,660,0,
+standard-oem1,standard,1,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00843,0.03937,0.9685,712,715,0,
+standard-oem1,standard,1,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.00354,0.00826,0.99174,848,846,0,
+standard-oem1,standard,1,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.0,0.0,1.0,714,714,0,
+standard-oem1,standard,1,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.00284,0.01562,0.98438,352,353,0,
+standard-oem1,standard,1,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.00271,0.01515,0.98485,369,370,0,
+standard-oem1,standard,1,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.34339,0.49367,0.82278,431,434,0,
+standard-oem1,standard,1,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.00412,0.02247,0.97753,486,487,0,
+standard-oem1,standard,1,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.37182,0.53012,0.80723,433,423,0,
+standard-oem1,standard,1,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.37113,0.4507,0.94366,388,386,0,
+standard-oem1,standard,1,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.36735,0.4878,0.87805,441,435,0,
+standard-oem1,standard,1,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.36193,0.51562,0.8125,373,382,0,
+standard-oem1,standard,1,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.00222,0.01235,0.98765,451,452,0,
+standard-oem1,standard,1,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0,0.0,1.0,400,400,0,
+standard-oem2,standard,2,clean/austen_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem2,standard,2,clean/austen_carlito_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+standard-oem2,standard,2,clean/austen_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem2,standard,2,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1202,0,
+standard-oem2,standard,2,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem2,standard,2,clean/austen_inter_300,clean,eng,eng-clean,,0.00583,0.03004,0.96996,1201,1203,0,
+standard-oem2,standard,2,clean/carroll_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem2,standard,2,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+standard-oem2,standard,2,clean/carroll_courier10_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1327,0,
+standard-oem2,standard,2,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem2,standard,2,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem2,standard,2,clean/carroll_inter_300,clean,eng,eng-clean,,0.00226,0.01186,0.98814,1326,1326,0,
+standard-oem2,standard,2,clean/doyle_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem2,standard,2,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+standard-oem2,standard,2,clean/doyle_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem2,standard,2,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem2,standard,2,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem2,standard,2,clean/doyle_inter_300,clean,eng,eng-clean,,0.00349,0.02427,0.97573,1145,1145,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,520,520,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,520,520,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,520,520,0,Estimating resolution as 459
+standard-oem2,standard,2,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.17308,0.20202,0.79798,520,430,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,520,520,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,520,520,0,
+standard-oem2,standard,2,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,520,520,0,Estimating resolution as 469
+standard-oem2,standard,2,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.0,0.0,1.0,520,520,0,
+standard-oem2,standard,2,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,592,592,0,
+standard-oem2,standard,2,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.00338,0.01786,0.98214,592,592,0,
+standard-oem2,standard,2,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00338,0.01786,0.98214,592,592,0,Estimating resolution as 464
+standard-oem2,standard,2,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.21622,0.26786,0.73214,592,465,0,
+standard-oem2,standard,2,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00338,0.01786,0.98214,592,592,0,
+standard-oem2,standard,2,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.00338,0.01786,0.98214,592,592,0,
+standard-oem2,standard,2,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,592,592,0,Estimating resolution as 476
+standard-oem2,standard,2,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00676,0.04464,0.96429,592,592,0,
+standard-oem2,standard,2,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem2,standard,2,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem2,standard,2,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 404
+standard-oem2,standard,2,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.3619,0.6381,564,385,0,
+standard-oem2,standard,2,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00355,0.01905,0.98095,564,564,0,
+standard-oem2,standard,2,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.00355,0.01905,0.98095,564,564,0,
+standard-oem2,standard,2,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 407
+standard-oem2,standard,2,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00355,0.01905,0.98095,564,564,0,
+standard-oem2,standard,2,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+standard-oem2,standard,2,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,588,588,0,
+standard-oem2,standard,2,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,588,588,0,Estimating resolution as 386
+standard-oem2,standard,2,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2415,0.26804,0.73196,588,447,0,
+standard-oem2,standard,2,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,588,588,0,
+standard-oem2,standard,2,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,588,588,0,
+standard-oem2,standard,2,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+standard-oem2,standard,2,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0102,0.06186,0.93814,588,588,0,
+standard-oem2,standard,2,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,1.0,1.0,0.0,800,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/ara.traineddata!! | Failed loading language 'ara' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem2,standard,2,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,1.0,1.0,0.0,736,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/ara.traineddata!! | Failed loading language 'ara' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem2,standard,2,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.89153,17.46667,0.33333,295,546,0,
+standard-oem2,standard,2,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.94828,33.9,0.0,348,677,0,
+standard-oem2,standard,2,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+standard-oem2,standard,2,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,751,751,0,
+standard-oem2,standard,2,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00491,0.02899,0.97101,815,818,0,
+standard-oem2,standard,2,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00294,0.01869,0.98131,680,682,0,
+standard-oem2,standard,2,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,1.0,1.0,0.0,659,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/hin.traineddata!! | Failed loading language 'hin' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem2,standard,2,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,1.0,1.0,0.0,712,0,1,"Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata/hin.traineddata!! | Failed loading language 'hin' | Tesseract couldn't load any languages! | Could not initialize tesseract."
+standard-oem2,standard,2,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.00472,0.01653,0.98347,848,848,0,
+standard-oem2,standard,2,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.01261,0.01053,0.98947,714,714,0,
+standard-oem2,standard,2,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.00284,0.01562,0.98438,352,353,0,
+standard-oem2,standard,2,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.00271,0.01515,0.98485,369,370,0,
+standard-oem2,standard,2,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.33643,0.48101,0.82278,431,431,0,
+standard-oem2,standard,2,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.01235,0.06742,0.93258,486,487,0,
+standard-oem2,standard,2,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.37644,0.55422,0.78313,433,421,0,
+standard-oem2,standard,2,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.37113,0.46479,0.91549,388,385,0,
+standard-oem2,standard,2,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.36961,0.5,0.86585,441,435,0,
+standard-oem2,standard,2,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.35657,0.51562,0.8125,373,380,0,
+standard-oem2,standard,2,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.00222,0.01235,0.98765,451,452,0,
+standard-oem2,standard,2,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0,0.0,1.0,400,400,0,
+standard-oem3,standard,3,clean/austen_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem3,standard,3,clean/austen_carlito_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1201,0,
+standard-oem3,standard,3,clean/austen_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem3,standard,3,clean/austen_dejavu-mono_300,clean,eng,eng-clean,,0.00083,0.00429,0.99571,1201,1202,0,
+standard-oem3,standard,3,clean/austen_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1201,1201,0,
+standard-oem3,standard,3,clean/austen_inter_300,clean,eng,eng-clean,,0.00583,0.03004,0.96996,1201,1203,0,
+standard-oem3,standard,3,clean/carroll_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem3,standard,3,clean/carroll_carlito_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1326,0,
+standard-oem3,standard,3,clean/carroll_courier10_300,clean,eng,eng-clean,,0.00075,0.00395,0.99605,1326,1327,0,
+standard-oem3,standard,3,clean/carroll_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem3,standard,3,clean/carroll_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1326,1326,0,
+standard-oem3,standard,3,clean/carroll_inter_300,clean,eng,eng-clean,,0.00226,0.01186,0.98814,1326,1326,0,
+standard-oem3,standard,3,clean/doyle_caladea_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem3,standard,3,clean/doyle_carlito_300,clean,eng,eng-clean,,0.00175,0.00971,0.99029,1145,1145,0,
+standard-oem3,standard,3,clean/doyle_courier10_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem3,standard,3,clean/doyle_dejavu-mono_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem3,standard,3,clean/doyle_dejavu-serif_300,clean,eng,eng-clean,,0.0,0.0,1.0,1145,1145,0,
+standard-oem3,standard,3,clean/doyle_inter_300,clean,eng,eng-clean,,0.00349,0.02427,0.97573,1145,1145,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,520,520,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,520,520,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,520,520,0,Estimating resolution as 459
+standard-oem3,standard,3,degraded/austen_dejavu-serif_light75,degraded,eng,eng-degraded,light75,0.17308,0.20202,0.79798,520,430,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,520,520,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,520,520,0,
+standard-oem3,standard,3,degraded/austen_dejavu-serif_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,520,520,0,Estimating resolution as 469
+standard-oem3,standard,3,degraded/austen_dejavu-serif_skew3,degraded,eng,eng-degraded,skew3,0.0,0.0,1.0,520,520,0,
+standard-oem3,standard,3,degraded/carroll_inter_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,592,592,0,
+standard-oem3,standard,3,degraded/carroll_inter_contrast2,degraded,eng,eng-degraded,contrast2,0.00338,0.01786,0.98214,592,592,0,
+standard-oem3,standard,3,degraded/carroll_inter_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00338,0.01786,0.98214,592,592,0,Estimating resolution as 464
+standard-oem3,standard,3,degraded/carroll_inter_light75,degraded,eng,eng-degraded,light75,0.21622,0.26786,0.73214,592,465,0,
+standard-oem3,standard,3,degraded/carroll_inter_noise30,degraded,eng,eng-degraded,noise30,0.00338,0.01786,0.98214,592,592,0,
+standard-oem3,standard,3,degraded/carroll_inter_none,degraded,eng,eng-degraded,none,0.00338,0.01786,0.98214,592,592,0,
+standard-oem3,standard,3,degraded/carroll_inter_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,592,592,0,Estimating resolution as 476
+standard-oem3,standard,3,degraded/carroll_inter_skew3,degraded,eng,eng-degraded,skew3,0.00676,0.04464,0.96429,592,592,0,
+standard-oem3,standard,3,degraded/doyle_carlito_blur2,degraded,eng,eng-degraded,blur2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem3,standard,3,degraded/doyle_carlito_contrast2,degraded,eng,eng-degraded,contrast2,0.00355,0.01905,0.98095,564,564,0,
+standard-oem3,standard,3,degraded/doyle_carlito_jpeg50,degraded,eng,eng-degraded,jpeg50,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 404
+standard-oem3,standard,3,degraded/doyle_carlito_light75,degraded,eng,eng-degraded,light75,0.31915,0.3619,0.6381,564,385,0,
+standard-oem3,standard,3,degraded/doyle_carlito_noise30,degraded,eng,eng-degraded,noise30,0.00355,0.01905,0.98095,564,564,0,
+standard-oem3,standard,3,degraded/doyle_carlito_none,degraded,eng,eng-degraded,none,0.00355,0.01905,0.98095,564,564,0,
+standard-oem3,standard,3,degraded/doyle_carlito_phone1,degraded,eng,eng-degraded,phone1,0.00355,0.01905,0.98095,564,564,0,Estimating resolution as 407
+standard-oem3,standard,3,degraded/doyle_carlito_skew3,degraded,eng,eng-degraded,skew3,0.00355,0.01905,0.98095,564,564,0,
+standard-oem3,standard,3,degraded/shelley_courier10_blur2,degraded,eng,eng-degraded,blur2,0.0,0.0,1.0,588,588,0,
+standard-oem3,standard,3,degraded/shelley_courier10_contrast2,degraded,eng,eng-degraded,contrast2,0.0,0.0,1.0,588,588,0,
+standard-oem3,standard,3,degraded/shelley_courier10_jpeg50,degraded,eng,eng-degraded,jpeg50,0.0,0.0,1.0,588,588,0,Estimating resolution as 386
+standard-oem3,standard,3,degraded/shelley_courier10_light75,degraded,eng,eng-degraded,light75,0.2415,0.26804,0.73196,588,447,0,
+standard-oem3,standard,3,degraded/shelley_courier10_noise30,degraded,eng,eng-degraded,noise30,0.0,0.0,1.0,588,588,0,
+standard-oem3,standard,3,degraded/shelley_courier10_none,degraded,eng,eng-degraded,none,0.0,0.0,1.0,588,588,0,
+standard-oem3,standard,3,degraded/shelley_courier10_phone1,degraded,eng,eng-degraded,phone1,0.0,0.0,1.0,588,588,0,Estimating resolution as 383
+standard-oem3,standard,3,degraded/shelley_courier10_skew3,degraded,eng,eng-degraded,skew3,0.0102,0.06186,0.93814,588,588,0,
+standard-oem3,standard,3,multilingual/ara_p1_noto-naskh-arabic,multilingual,ara,lang:ara,,0.02125,0.05185,0.95556,800,790,0,Detected 224 diacritics
+standard-oem3,standard,3,multilingual/ara_p2_noto-naskh-arabic,multilingual,ara,lang:ara,,0.03261,0.05128,0.94872,736,716,0,Detected 132 diacritics
+standard-oem3,standard,3,multilingual/chi_sim_p1_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.89153,17.46667,0.33333,295,546,0,
+standard-oem3,standard,3,multilingual/chi_sim_p2_noto-sans-sc,multilingual,chi_sim,lang:chi_sim,,0.94828,33.9,0.0,348,677,0,
+standard-oem3,standard,3,multilingual/deu_p1_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,823,823,0,
+standard-oem3,standard,3,multilingual/deu_p2_dejavu-serif,multilingual,deu,lang:deu,,0.0,0.0,1.0,751,751,0,
+standard-oem3,standard,3,multilingual/fra_p1_dejavu-serif,multilingual,fra,lang:fra,,0.00491,0.02899,0.97101,815,818,0,
+standard-oem3,standard,3,multilingual/fra_p2_dejavu-serif,multilingual,fra,lang:fra,,0.00294,0.01869,0.98131,680,682,0,
+standard-oem3,standard,3,multilingual/hin_p1_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00455,0.01613,0.98387,659,660,0,
+standard-oem3,standard,3,multilingual/hin_p2_noto-sans-devanagari,multilingual,hin,lang:hin,,0.00843,0.03937,0.9685,712,715,0,
+standard-oem3,standard,3,multilingual/rus_p1_dejavu-serif,multilingual,rus,lang:rus,,0.00472,0.01653,0.98347,848,848,0,
+standard-oem3,standard,3,multilingual/rus_p2_dejavu-serif,multilingual,rus,lang:rus,,0.01261,0.01053,0.98947,714,714,0,
+standard-oem3,standard,3,receipt/receipt01_dejavu-mono,receipt,eng,eng-receipt,,0.00284,0.01562,0.98438,352,353,0,
+standard-oem3,standard,3,receipt/receipt02_courier10,receipt,eng,eng-receipt,,0.00271,0.01515,0.98485,369,370,0,
+standard-oem3,standard,3,receipt/receipt03_freemono,receipt,eng,eng-receipt,,0.33643,0.48101,0.82278,431,431,0,
+standard-oem3,standard,3,receipt/receipt04_jetbrains-mono,receipt,eng,eng-receipt,,0.01235,0.06742,0.93258,486,487,0,
+standard-oem3,standard,3,receipt/receipt05_carlito,receipt,eng,eng-receipt,,0.37644,0.55422,0.78313,433,421,0,
+standard-oem3,standard,3,receipt/receipt06_inter,receipt,eng,eng-receipt,,0.37113,0.46479,0.91549,388,385,0,
+standard-oem3,standard,3,receipt/receipt07_dejavu-sans,receipt,eng,eng-receipt,,0.36961,0.5,0.86585,441,435,0,
+standard-oem3,standard,3,receipt/receipt08_dejavu-mono,receipt,eng,eng-receipt,,0.35657,0.51562,0.8125,373,380,0,
+standard-oem3,standard,3,receipt/receipt09_courier10,receipt,eng,eng-receipt,,0.00222,0.01235,0.98765,451,452,0,
+standard-oem3,standard,3,receipt/receipt10_freemono,receipt,eng,eng-receipt,,0.0,0.0,1.0,400,400,0,
