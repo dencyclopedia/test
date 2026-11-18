@@ -68,6 +68,8 @@ for step in range(30):
     seen.append(header)
 
     trees = w.children(class_name='SysTreeView32')
+    if trees and seen.count(header) > 1:  # already handled; the Next click did not register
+        log('components page again: clicking Next with the mouse'); btn.click_input(); continue
     if trees:  # components page
         tree = trees[0]
         def space_text():
@@ -102,20 +104,23 @@ for step in range(30):
             log(f'expanded {label!r}: {len(it.children())} children')
             shot(name('components-' + slugify(label.split('(')[0])), w.handle)
             if mode == 'all':
-                before = space_text()
-                it.click(where='check'); time.sleep(0.8)
+                before = space_text(); st0 = (it.state() >> 12) & 0xF
+                it.ensure_visible(); r = it.rectangle(text_area_only=True)
+                # real mouse click on the checkbox (state icon), which sits just left of the label
+                tree.click_input(coords=(r.left - 9, (r.top + r.bottom) // 2)); time.sleep(0.8)
+                st1 = (it.state() >> 12) & 0xF
+                if st1 == st0:
+                    log('mouse click did not change the state image; trying the space key')
+                    it.select(); tree.set_focus(); tree.type_keys('{SPACE}'); time.sleep(0.8); st1 = (it.state() >> 12) & 0xF
                 after = space_text()
-                if after == before:
-                    log('check click did not change space text; trying space key')
-                    it.select(); tree.type_keys(' '); time.sleep(0.8); after = space_text()
-                log(f'ticked {label!r}: space {before!r} -> {after!r}')
+                log(f'ticked {label!r}: state image {st0} -> {st1}; space {before!r} -> {after!r}')
                 shot(name('components-' + slugify(label.split('(')[0]) + '-ticked'), w.handle)
             it.collapse()
         result['space_required_selected'] = space_text()
         log('space text (final selection):', result['space_required_selected'])
         if mode == 'all':
             shot(name('components-all-ticked'), w.handle)
-        btn.click()
+        btn.click_input()
         continue
 
     if not btn.is_enabled():  # installing

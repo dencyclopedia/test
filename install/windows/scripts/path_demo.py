@@ -24,10 +24,10 @@ res['registry_path_has_tesseract_after_gui_install'] = {k: ('tesseract' in v.low
 log('registry PATH contains Tesseract-OCR after GUI install:', res['registry_path_has_tesseract_after_gui_install'])
 
 # --- 1. the "not recognized" errors (a fresh console started from Explorer = like the Start menu)
-console('cmd - tesseract not recognized', ['echo C:\\^> where tesseract', 'where tesseract', 'echo.', 'echo C:\\^> tesseract --version', 'tesseract --version'],
+console('cmd - tesseract not recognized', ['echo %CD%^> where tesseract', 'where tesseract', 'echo.', 'echo %CD%^> tesseract --version', 'tesseract --version'],
         'windows-path-01-cmd-not-recognized', launcher='explorer')
 txt('windows-path-01-cmd-not-recognized', 'where tesseract & tesseract --version')
-ps_console('PowerShell - tesseract not recognized', ['Write-Host "PS> tesseract --version"', 'tesseract --version'],
+ps_console('PowerShell - tesseract not recognized', ['Write-Host "PS $PWD> tesseract --version"', 'tesseract --version'],
            'windows-path-02-powershell-not-recognized', launcher='explorer')
 txt('windows-path-02-powershell-not-recognized', 'tesseract --version', shell='powershell.exe')
 txt('windows-path-02-pwsh7-not-recognized', 'tesseract --version', shell='pwsh.exe')
@@ -38,7 +38,7 @@ with open(pyfile, 'w') as f:
     f.write('import pytesseract\nfrom PIL import Image\n'
             f'print(pytesseract.image_to_string(Image.open(r"{SAMPLE}")))\n')
 PY = sys.executable
-console('Python - pytesseract', [f'echo C:\\^> "{PY}" ocr_test.py', f'"{PY}" "{pyfile}"'], 'windows-error-pytesseract-not-found', launcher='explorer')
+console('Python - pytesseract', [f'echo %CD%^> "{PY}" "{pyfile}"', f'"{PY}" "{pyfile}"'], 'windows-error-pytesseract-not-found', launcher='explorer')
 txt('windows-error-pytesseract-not-found', f'"{PY}" "{pyfile}"')
 
 # --- 3. the fix: Environment Variables dialog, edit system Path
@@ -74,16 +74,24 @@ try:
     ed.child_window(title_re='&?New', class_name='Button').click(); time.sleep(0.6)
     ed.type_keys(r'C:\Program Files\Tesseract-OCR', with_spaces=True); ed.type_keys('{ENTER}'); time.sleep(0.6)
     shot('windows-path-06-edit-path-added', h2)
-    ed.child_window(title='OK', class_name='Button').click(); time.sleep(1)
+    ed.child_window(title='OK', class_name='Button').click_input(); time.sleep(1.5)
+    if ed.exists() and ed.is_visible():
+        log('edit dialog still open after OK click; pressing Enter'); ed.set_focus(); ed.type_keys('{ENTER}'); time.sleep(1.5)
+    log('edit dialog closed:', not (ed.exists() and ed.is_visible()))
+    dlg.set_focus()
     shot('windows-path-07-environment-variables-after', h)
-    dlg.child_window(title='OK', class_name='Button').click(); time.sleep(2)
+    dlg.child_window(title='OK', class_name='Button').click_input(); time.sleep(3)
+    log('environment variables dialog closed:', not (dlg.exists() and dlg.is_visible()))
+    if 'tesseract' not in registry_path()['machine'].lower():
+        raise RuntimeError('dialog closed but the system Path in the registry has no Tesseract-OCR entry')
     fixed_by = 'Environment Variables dialog (rundll32 sysdm.cpl,EditEnvironmentVariables), driven with pywinauto'
 except Exception as e:
     log('GUI PATH edit failed:', repr(e))
     import winreg
     with winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r'SYSTEM\CurrentControlSet\Control\Session Manager\Environment', 0, winreg.KEY_ALL_ACCESS) as k:
         cur, typ = winreg.QueryValueEx(k, 'Path')
-        winreg.SetValueEx(k, 'Path', 0, typ, cur.rstrip(';') + ';' + TD)
+        if 'tesseract' not in cur.lower():
+            winreg.SetValueEx(k, 'Path', 0, typ, cur.rstrip(';') + ';' + TD)
     broadcast_env_change()
     fixed_by = 'FALLBACK: registry write of system Path + WM_SETTINGCHANGE broadcast (GUI edit failed, see log)'
 res['path_fixed_by'] = fixed_by
@@ -92,17 +100,17 @@ res['registry_path_has_tesseract_after_fix'] = {k: ('tesseract' in v.lower()) fo
 log('fixed by:', fixed_by, res['registry_path_has_tesseract_after_fix'])
 
 # --- 4. new console windows after the fix
-console('cmd - after PATH fix', ['echo C:\\^> where tesseract', 'where tesseract', 'echo C:\\^> tesseract --version', 'tesseract --version',
-                                 'echo C:\\^> tesseract --list-langs', 'tesseract --list-langs'],
+console('cmd - after PATH fix', ['echo %CD%^> where tesseract', 'where tesseract', 'echo %CD%^> tesseract --version', 'tesseract --version',
+                                 'echo %CD%^> tesseract --list-langs', 'tesseract --list-langs'],
         'windows-path-08-cmd-working', launcher='explorer')
-console('cmd - OCR receipt', [f'echo C:\\^> tesseract receipt.png -', f'tesseract "{SAMPLE}" -'], 'windows-path-09-cmd-ocr-receipt', launcher='explorer')
+console('cmd - OCR receipt', [f'echo %CD%^> tesseract "{SAMPLE}" -', f'tesseract "{SAMPLE}" -'], 'windows-path-09-cmd-ocr-receipt', launcher='explorer')
 newenv = dict(os.environ, PATH=reg['machine'] + ';' + reg['user'])
 for nm, cl in (('windows-path-08-cmd-working', 'where tesseract & tesseract --version & tesseract --list-langs'),
                ('windows-path-09-cmd-ocr-receipt', f'tesseract "{SAMPLE}" -')):
     p = subprocess.run(['cmd.exe', '/d', '/c', cl], capture_output=True, text=True, env=newenv, encoding='utf-8', errors='replace')
     open(os.path.join(OUT, nm + '.txt'), 'w', encoding='utf-8').write(f'> {cl}\n(PATH re-read from registry)\n{p.stdout}{p.stderr}[exit code {p.returncode}]\n')
-ps_console('PowerShell - after PATH fix', ['Write-Host "PS> tesseract --version"', 'tesseract --version'], 'windows-path-10-powershell-working', launcher='explorer')
-console('Python - pytesseract after fix', [f'echo C:\\^> "{PY}" ocr_test.py', f'"{PY}" "{pyfile}"'], 'windows-path-11-pytesseract-working', launcher='explorer')
+ps_console('PowerShell - after PATH fix', ['Write-Host "PS $PWD> tesseract --version"', 'tesseract --version'], 'windows-path-10-powershell-working', launcher='explorer')
+console('Python - pytesseract after fix', [f'echo %CD%^> "{PY}" "{pyfile}"', f'"{PY}" "{pyfile}"'], 'windows-path-11-pytesseract-working', launcher='explorer')
 
 # --- 5. other real errors (tesseract now on PATH)
 errs = [('missing language', f'tesseract "{SAMPLE}" - -l xyz'),
@@ -111,7 +119,7 @@ errs = [('missing language', f'tesseract "{SAMPLE}" - -l xyz'),
         ('input file missing', 'tesseract nosuchfile.png -')]
 lines = []
 for label, cl in errs:
-    lines += [f'echo C:\\^> {cl.replace(SAMPLE, "receipt.png").replace("&", "^&")}', f'cmd /d /c "{cl}"', 'echo.']
+    lines += [f'echo %CD%^> {cl.replace("&", "^&")}', f'cmd /d /c "{cl}"', 'echo.']
 console('Tesseract error messages', lines, 'windows-error-01-tessdata-and-language', launcher='explorer')
 for label, cl in errs:
     p = subprocess.run(['cmd.exe', '/d', '/c', cl], capture_output=True, text=True, env=newenv, encoding='utf-8', errors='replace')

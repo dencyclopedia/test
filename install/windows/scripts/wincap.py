@@ -103,7 +103,8 @@ def console(title, batch_lines, name, wait_marker=True, launcher='direct', timeo
     log(f'console {name}: finished={os.path.exists(marker)} launcher={launcher}')
     time.sleep(1.5)
     h = find_window(title, timeout=10)
-    if h: bring_front(h)
+    if h:
+        bring_front(h); user32.ShowWindow(h, 3); time.sleep(1.5)  # maximise so long lines reflow instead of being cut off
     files = shot(name, h)
     if h: user32.PostMessageW(h, 0x0010, 0, 0)  # WM_CLOSE
     time.sleep(1)
@@ -130,7 +131,8 @@ def ps_console(title, ps_lines, name, launcher='direct', timeout=180, exe='power
     log(f'ps console {name}: finished={os.path.exists(marker)}')
     time.sleep(1.5)
     h = find_window(title, timeout=10)
-    if h: bring_front(h)
+    if h:
+        bring_front(h); user32.ShowWindow(h, 3); time.sleep(1.5)  # maximise so long lines reflow instead of being cut off
     files = shot(name, h)
     if h: user32.PostMessageW(h, 0x0010, 0, 0)
     time.sleep(1)

@@ -5,7 +5,7 @@ os.environ.setdefault('CAP_OUT', 'out')
 from wincap import console
 name = sys.argv[1]
 extra = sys.argv[2:]
-lines = ['echo C:\\^> where tesseract', 'where tesseract', 'echo C:\\^> tesseract --version', 'tesseract --version']
+lines = ['echo %CD%^> where tesseract', 'where tesseract', 'echo %CD%^> tesseract --version', 'tesseract --version']
 for c in extra:
-    lines += [f'echo C:\\^> {c}', c]
+    lines += [f'echo %CD%^> {c}', c]
 console(f'{name} - fresh cmd window', lines, name, launcher='explorer')
