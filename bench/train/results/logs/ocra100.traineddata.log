@@ -1,0 +1,144 @@
+You are using make version: 4.3
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.000_15_1100.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.000_15_1100.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.000_15_1100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.099_15_1000.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.099_15_1000.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.099_15_1000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.110_15_900.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.110_15_900.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.110_15_900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.124_15_800.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.124_15_800.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.124_15_800.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.142_15_700.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.142_15_700.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.142_15_700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.165_15_600.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.165_15_600.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.165_15_600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.198_15_500.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.198_15_500.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.198_15_500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.248_15_400.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.248_15_400.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.248_15_400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.331_15_300.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.331_15_300.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.331_15_300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.496_15_200.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.496_15_200.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.496_15_200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.992_15_100.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --model_output data/ocra100/tessdata_best/ocra100_0.992_15_100.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.992_15_100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.000_15_1100.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.000_15_1100.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.000_15_1100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.099_15_1000.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.099_15_1000.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.099_15_1000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.110_15_900.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.110_15_900.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.110_15_900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.124_15_800.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.124_15_800.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.124_15_800.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.142_15_700.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.142_15_700.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.142_15_700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.165_15_600.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.165_15_600.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.165_15_600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.198_15_500.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.198_15_500.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.198_15_500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.248_15_400.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.248_15_400.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.248_15_400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.331_15_300.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.331_15_300.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.331_15_300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.496_15_200.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.496_15_200.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.496_15_200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra100/checkpoints/ocra100_0.992_15_100.checkpoint \
+          --traineddata data/ocra100/ocra100.traineddata \
+          --convert_to_int \
+          --model_output data/ocra100/tessdata_fast/ocra100_0.992_15_100.traineddata
+Loaded file data/ocra100/checkpoints/ocra100_0.992_15_100.checkpoint, unpacking...

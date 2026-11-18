@@ -1,0 +1,660 @@
+You are using make version: 4.3
+wget -O data/langdata/radical-stroke.txt 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/radical-stroke.txt'
+--2026-11-18 07:30:28--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/radical-stroke.txt
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/radical-stroke.txt [following]
+--2026-11-18 07:30:28--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/radical-stroke.txt
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 330874 (323K) [text/plain]
+Saving to: 'data/langdata/radical-stroke.txt'
+
+     0K .......... .......... .......... .......... .......... 15% 8.61M 0s
+    50K .......... .......... .......... .......... .......... 30% 20.2M 0s
+   100K .......... .......... .......... .......... .......... 46% 8.35M 0s
+   150K .......... .......... .......... .......... .......... 61% 46.4M 0s
+   200K .......... .......... .......... .......... .......... 77% 12.5M 0s
+   250K .......... .......... .......... .......... .......... 92%  115M 0s
+   300K .......... .......... ...                             100% 38.6M=0.02s
+
+2026-11-18 07:30:28 (15.8 MB/s) - 'data/langdata/radical-stroke.txt' saved [330874/330874]
+
+wget -O data/langdata/Arabic.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Arabic.unicharset'
+--2026-11-18 07:30:28--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Arabic.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Arabic.unicharset [following]
+--2026-11-18 07:30:28--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Arabic.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 159162 (155K) [text/plain]
+Saving to: 'data/langdata/Arabic.unicharset'
+
+     0K .......... .......... .......... .......... .......... 32% 7.60M 0s
+    50K .......... .......... .......... .......... .......... 64% 30.4M 0s
+   100K .......... .......... .......... .......... .......... 96% 8.83M 0s
+   150K .....                                                 100% 10.1T=0.01s
+
+2026-11-18 07:30:28 (11.2 MB/s) - 'data/langdata/Arabic.unicharset' saved [159162/159162]
+
+wget -O data/langdata/Armenian.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Armenian.unicharset'
+--2026-11-18 07:30:28--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Armenian.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Armenian.unicharset [following]
+--2026-11-18 07:30:29--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Armenian.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 68265 (67K) [text/plain]
+Saving to: 'data/langdata/Armenian.unicharset'
+
+     0K .......... .......... .......... .......... .......... 75% 7.83M 0s
+    50K .......... ......                                     100%  723M=0.006s
+
+2026-11-18 07:30:29 (10.4 MB/s) - 'data/langdata/Armenian.unicharset' saved [68265/68265]
+
+wget -O data/langdata/Bengali.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Bengali.unicharset'
+--2026-11-18 07:30:29--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Bengali.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Bengali.unicharset [following]
+--2026-11-18 07:30:29--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Bengali.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 88595 (87K) [text/plain]
+Saving to: 'data/langdata/Bengali.unicharset'
+
+     0K .......... .......... .......... .......... .......... 57% 7.87M 0s
+    50K .......... .......... .......... ......               100% 32.9M=0.007s
+
+2026-11-18 07:30:29 (11.6 MB/s) - 'data/langdata/Bengali.unicharset' saved [88595/88595]
+
+wget -O data/langdata/Bopomofo.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Bopomofo.unicharset'
+--2026-11-18 07:30:29--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Bopomofo.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Bopomofo.unicharset [following]
+--2026-11-18 07:30:29--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Bopomofo.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 74917 (73K) [text/plain]
+Saving to: 'data/langdata/Bopomofo.unicharset'
+
+     0K .......... .......... .......... .......... .......... 68% 7.68M 0s
+    50K .......... .......... ...                             100% 43.2M=0.007s
+
+2026-11-18 07:30:29 (10.4 MB/s) - 'data/langdata/Bopomofo.unicharset' saved [74917/74917]
+
+wget -O data/langdata/Canadian_Aboriginal.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Canadian_Aboriginal.unicharset'
+--2026-11-18 07:30:29--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Canadian_Aboriginal.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Canadian_Aboriginal.unicharset [following]
+--2026-11-18 07:30:30--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Canadian_Aboriginal.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 72110 (70K) [text/plain]
+Saving to: 'data/langdata/Canadian_Aboriginal.unicharset'
+
+     0K .......... .......... .......... .......... .......... 71% 7.96M 0s
+    50K .......... ..........                                 100% 35.4M=0.007s
+
+2026-11-18 07:30:30 (10.3 MB/s) - 'data/langdata/Canadian_Aboriginal.unicharset' saved [72110/72110]
+
+wget -O data/langdata/Cherokee.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Cherokee.unicharset'
+--2026-11-18 07:30:30--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Cherokee.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Cherokee.unicharset [following]
+--2026-11-18 07:30:30--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Cherokee.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21818 (21K) [text/plain]
+Saving to: 'data/langdata/Cherokee.unicharset'
+
+     0K .......... .......... .                               100% 55.3M=0s
+
+2026-11-18 07:30:30 (55.3 MB/s) - 'data/langdata/Cherokee.unicharset' saved [21818/21818]
+
+wget -O data/langdata/Cyrillic.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Cyrillic.unicharset'
+--2026-11-18 07:30:30--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Cyrillic.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Cyrillic.unicharset [following]
+--2026-11-18 07:30:30--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Cyrillic.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 208844 (204K) [text/plain]
+Saving to: 'data/langdata/Cyrillic.unicharset'
+
+     0K .......... .......... .......... .......... .......... 24% 7.62M 0s
+    50K .......... .......... .......... .......... .......... 49% 27.2M 0s
+   100K .......... .......... .......... .......... .......... 73% 10.0M 0s
+   150K .......... .......... .......... .......... .......... 98% 25.0M 0s
+   200K ...                                                   100% 7.36T=0.02s
+
+2026-11-18 07:30:30 (13.3 MB/s) - 'data/langdata/Cyrillic.unicharset' saved [208844/208844]
+
+wget -O data/langdata/Devanagari.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Devanagari.unicharset'
+--2026-11-18 07:30:30--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Devanagari.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Devanagari.unicharset [following]
+--2026-11-18 07:30:31--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Devanagari.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 95752 (94K) [text/plain]
+Saving to: 'data/langdata/Devanagari.unicharset'
+
+     0K .......... .......... .......... .......... .......... 53% 8.08M 0s
+    50K .......... .......... .......... .......... ...       100% 24.0M=0.008s
+
+2026-11-18 07:30:31 (11.7 MB/s) - 'data/langdata/Devanagari.unicharset' saved [95752/95752]
+
+wget -O data/langdata/Ethiopic.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Ethiopic.unicharset'
+--2026-11-18 07:30:31--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Ethiopic.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Ethiopic.unicharset [following]
+--2026-11-18 07:30:31--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Ethiopic.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 113238 (111K) [text/plain]
+Saving to: 'data/langdata/Ethiopic.unicharset'
+
+     0K .......... .......... .......... .......... .......... 45% 7.95M 0s
+    50K .......... .......... .......... .......... .......... 90% 30.2M 0s
+   100K ..........                                            100% 19.7T=0.008s
+
+2026-11-18 07:30:31 (13.9 MB/s) - 'data/langdata/Ethiopic.unicharset' saved [113238/113238]
+
+wget -O data/langdata/Georgian.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Georgian.unicharset'
+--2026-11-18 07:30:31--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Georgian.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Georgian.unicharset [following]
+--2026-11-18 07:30:31--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Georgian.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 139690 (136K) [text/plain]
+Saving to: 'data/langdata/Georgian.unicharset'
+
+     0K .......... .......... .......... .......... .......... 36% 8.05M 0s
+    50K .......... .......... .......... .......... .......... 73% 24.6M 0s
+   100K .......... .......... .......... ......               100% 8.97M=0.01s
+
+2026-11-18 07:30:31 (11.1 MB/s) - 'data/langdata/Georgian.unicharset' saved [139690/139690]
+
+wget -O data/langdata/Greek.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Greek.unicharset'
+--2026-11-18 07:30:31--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Greek.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Greek.unicharset [following]
+--2026-11-18 07:30:32--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Greek.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 216989 (212K) [text/plain]
+Saving to: 'data/langdata/Greek.unicharset'
+
+     0K .......... .......... .......... .......... .......... 23% 7.50M 0s
+    50K .......... .......... .......... .......... .......... 47% 27.3M 0s
+   100K .......... .......... .......... .......... .......... 70% 8.11M 0s
+   150K .......... .......... .......... .......... .......... 94% 13.4M 0s
+   200K .......... .                                          100%  571M=0.02s
+
+2026-11-18 07:30:32 (11.5 MB/s) - 'data/langdata/Greek.unicharset' saved [216989/216989]
+
+wget -O data/langdata/Gujarati.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Gujarati.unicharset'
+--2026-11-18 07:30:32--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Gujarati.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Gujarati.unicharset [following]
+--2026-11-18 07:30:32--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Gujarati.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 39259 (38K) [text/plain]
+Saving to: 'data/langdata/Gujarati.unicharset'
+
+     0K .......... .......... .......... ........             100% 27.8M=0.001s
+
+2026-11-18 07:30:32 (27.8 MB/s) - 'data/langdata/Gujarati.unicharset' saved [39259/39259]
+
+wget -O data/langdata/Gurmukhi.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Gurmukhi.unicharset'
+--2026-11-18 07:30:32--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Gurmukhi.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Gurmukhi.unicharset [following]
+--2026-11-18 07:30:32--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Gurmukhi.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 82026 (80K) [text/plain]
+Saving to: 'data/langdata/Gurmukhi.unicharset'
+
+     0K .......... .......... .......... .......... .......... 62% 7.85M 0s
+    50K .......... .......... ..........                      100% 46.6M=0.007s
+
+2026-11-18 07:30:33 (11.4 MB/s) - 'data/langdata/Gurmukhi.unicharset' saved [82026/82026]
+
+wget -O data/langdata/Hangul.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hangul.unicharset'
+--2026-11-18 07:30:33--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hangul.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hangul.unicharset [following]
+--2026-11-18 07:30:33--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hangul.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 939395 (917K) [text/plain]
+Saving to: 'data/langdata/Hangul.unicharset'
+
+     0K .......... .......... .......... .......... ..........  5% 7.56M 0s
+    50K .......... .......... .......... .......... .......... 10% 28.1M 0s
+   100K .......... .......... .......... .......... .......... 16% 10.1M 0s
+   150K .......... .......... .......... .......... .......... 21% 30.6M 0s
+   200K .......... .......... .......... .......... .......... 27% 10.7M 0s
+   250K .......... .......... .......... .......... .......... 32%  186M 0s
+   300K .......... .......... .......... .......... .......... 38% 68.7M 0s
+   350K .......... .......... .......... .......... .......... 43%  104M 0s
+   400K .......... .......... .......... .......... .......... 49% 80.6M 0s
+   450K .......... .......... .......... .......... .......... 54% 11.5M 0s
+   500K .......... .......... .......... .......... .......... 59%  379M 0s
+   550K .......... .......... .......... .......... .......... 65% 83.4M 0s
+   600K .......... .......... .......... .......... .......... 70% 95.3M 0s
+   650K .......... .......... .......... .......... .......... 76% 91.4M 0s
+   700K .......... .......... .......... .......... .......... 81% 12.6M 0s
+   750K .......... .......... .......... .......... .......... 87%  193M 0s
+   800K .......... .......... .......... .......... .......... 92%  108M 0s
+   850K .......... .......... .......... .......... .......... 98%  530M 0s
+   900K .......... .......                                    100%  875M=0.03s
+
+2026-11-18 07:30:33 (28.1 MB/s) - 'data/langdata/Hangul.unicharset' saved [939395/939395]
+
+wget -O data/langdata/Han.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Han.unicharset'
+--2026-11-18 07:30:33--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Han.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Han.unicharset [following]
+--2026-11-18 07:30:33--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Han.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1814277 (1.7M) [text/plain]
+Saving to: 'data/langdata/Han.unicharset'
+
+     0K .......... .......... .......... .......... ..........  2% 7.95M 0s
+    50K .......... .......... .......... .......... ..........  5% 26.1M 0s
+   100K .......... .......... .......... .......... ..........  8% 9.98M 0s
+   150K .......... .......... .......... .......... .......... 11% 10.8M 0s
+   200K .......... .......... .......... .......... .......... 14% 31.8M 0s
+   250K .......... .......... .......... .......... .......... 16% 50.8M 0s
+   300K .......... .......... .......... .......... .......... 19%  121M 0s
+   350K .......... .......... .......... .......... .......... 22% 60.2M 0s
+   400K .......... .......... .......... .......... .......... 25% 21.4M 0s
+   450K .......... .......... .......... .......... .......... 28% 32.3M 0s
+   500K .......... .......... .......... .......... .......... 31% 50.1M 0s
+   550K .......... .......... .......... .......... .......... 33%  523M 0s
+   600K .......... .......... .......... .......... .......... 36%  348M 0s
+   650K .......... .......... .......... .......... .......... 39% 58.0M 0s
+   700K .......... .......... .......... .......... .......... 42%  280M 0s
+   750K .......... .......... .......... .......... .......... 45%  102M 0s
+   800K .......... .......... .......... .......... .......... 47% 16.0M 0s
+   850K .......... .......... .......... .......... .......... 50%  310M 0s
+   900K .......... .......... .......... .......... .......... 53% 53.4M 0s
+   950K .......... .......... .......... .......... .......... 56%  333M 0s
+  1000K .......... .......... .......... .......... .......... 59% 1013M 0s
+  1050K .......... .......... .......... .......... .......... 62%  213M 0s
+  1100K .......... .......... .......... .......... .......... 64%  172M 0s
+  1150K .......... .......... .......... .......... .......... 67%  157M 0s
+  1200K .......... .......... .......... .......... .......... 70%  191M 0s
+  1250K .......... .......... .......... .......... .......... 73%  232M 0s
+  1300K .......... .......... .......... .......... .......... 76%  405M 0s
+  1350K .......... .......... .......... .......... .......... 79%  237M 0s
+  1400K .......... .......... .......... .......... .......... 81%  252M 0s
+  1450K .......... .......... .......... .......... .......... 84%  237M 0s
+  1500K .......... .......... .......... .......... .......... 87%  188M 0s
+  1550K .......... .......... .......... .......... .......... 90%  553M 0s
+  1600K .......... .......... .......... .......... .......... 93%  243M 0s
+  1650K .......... .......... .......... .......... .......... 95% 91.2M 0s
+  1700K .......... .......... .......... .......... .......... 98% 28.8M 0s
+  1750K .......... .......... .                               100%  959M=0.04s
+
+2026-11-18 07:30:33 (47.0 MB/s) - 'data/langdata/Han.unicharset' saved [1814277/1814277]
+
+wget -O data/langdata/Hebrew.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hebrew.unicharset'
+--2026-11-18 07:30:33--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hebrew.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hebrew.unicharset [following]
+--2026-11-18 07:30:33--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hebrew.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 111110 (109K) [text/plain]
+Saving to: 'data/langdata/Hebrew.unicharset'
+
+     0K .......... .......... .......... .......... .......... 46% 7.82M 0s
+    50K .......... .......... .......... .......... .......... 92% 23.9M 0s
+   100K ........                                              100% 15.8T=0.008s
+
+2026-11-18 07:30:34 (12.8 MB/s) - 'data/langdata/Hebrew.unicharset' saved [111110/111110]
+
+wget -O data/langdata/Hiragana.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hiragana.unicharset'
+--2026-11-18 07:30:34--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Hiragana.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hiragana.unicharset [following]
+--2026-11-18 07:30:34--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Hiragana.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 162586 (159K) [text/plain]
+Saving to: 'data/langdata/Hiragana.unicharset'
+
+     0K .......... .......... .......... .......... .......... 31% 7.70M 0s
+    50K .......... .......... .......... .......... .......... 62% 26.2M 0s
+   100K .......... .......... .......... .......... .......... 94% 8.60M 0s
+   150K ........                                              100% 16.3T=0.01s
+
+2026-11-18 07:30:34 (11.2 MB/s) - 'data/langdata/Hiragana.unicharset' saved [162586/162586]
+
+wget -O data/langdata/Kannada.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Kannada.unicharset'
+--2026-11-18 07:30:34--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Kannada.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Kannada.unicharset [following]
+--2026-11-18 07:30:34--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Kannada.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7552 (7.4K) [text/plain]
+Saving to: 'data/langdata/Kannada.unicharset'
+
+     0K .......                                               100%  150M=0s
+
+2026-11-18 07:30:34 (150 MB/s) - 'data/langdata/Kannada.unicharset' saved [7552/7552]
+
+wget -O data/langdata/Katakana.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Katakana.unicharset'
+--2026-11-18 07:30:34--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Katakana.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Katakana.unicharset [following]
+--2026-11-18 07:30:34--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Katakana.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 175755 (172K) [text/plain]
+Saving to: 'data/langdata/Katakana.unicharset'
+
+     0K .......... .......... .......... .......... .......... 29% 7.61M 0s
+    50K .......... .......... .......... .......... .......... 58% 27.5M 0s
+   100K .......... .......... .......... .......... .......... 87% 7.94M 0s
+   150K .......... .......... .                               100%  562M=0.01s
+
+2026-11-18 07:30:35 (11.7 MB/s) - 'data/langdata/Katakana.unicharset' saved [175755/175755]
+
+wget -O data/langdata/Khmer.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Khmer.unicharset'
+--2026-11-18 07:30:35--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Khmer.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Khmer.unicharset [following]
+--2026-11-18 07:30:35--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Khmer.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18058 (18K) [text/plain]
+Saving to: 'data/langdata/Khmer.unicharset'
+
+     0K .......... .......                                    100% 61.1M=0s
+
+2026-11-18 07:30:35 (61.1 MB/s) - 'data/langdata/Khmer.unicharset' saved [18058/18058]
+
+wget -O data/langdata/Lao.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Lao.unicharset'
+--2026-11-18 07:30:35--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Lao.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Lao.unicharset [following]
+--2026-11-18 07:30:35--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Lao.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 97642 (95K) [text/plain]
+Saving to: 'data/langdata/Lao.unicharset'
+
+     0K .......... .......... .......... .......... .......... 52% 7.21M 0s
+    50K .......... .......... .......... .......... .....     100% 30.1M=0.008s
+
+2026-11-18 07:30:35 (11.3 MB/s) - 'data/langdata/Lao.unicharset' saved [97642/97642]
+
+wget -O data/langdata/Latin.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Latin.unicharset'
+--2026-11-18 07:30:35--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Latin.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Latin.unicharset [following]
+--2026-11-18 07:30:35--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Latin.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 267393 (261K) [text/plain]
+Saving to: 'data/langdata/Latin.unicharset'
+
+     0K .......... .......... .......... .......... .......... 19% 7.99M 0s
+    50K .......... .......... .......... .......... .......... 38% 27.7M 0s
+   100K .......... .......... .......... .......... .......... 57% 9.57M 0s
+   150K .......... .......... .......... .......... .......... 76% 10.4M 0s
+   200K .......... .......... .......... .......... .......... 95%  121M 0s
+   250K .......... .                                          100% 11.3M=0.02s
+
+2026-11-18 07:30:36 (13.4 MB/s) - 'data/langdata/Latin.unicharset' saved [267393/267393]
+
+wget -O data/langdata/Malayalam.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Malayalam.unicharset'
+--2026-11-18 07:30:36--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Malayalam.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Malayalam.unicharset [following]
+--2026-11-18 07:30:36--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Malayalam.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 83401 (81K) [text/plain]
+Saving to: 'data/langdata/Malayalam.unicharset'
+
+     0K .......... .......... .......... .......... .......... 61% 7.86M 0s
+    50K .......... .......... .......... .                    100% 36.8M=0.007s
+
+2026-11-18 07:30:36 (11.3 MB/s) - 'data/langdata/Malayalam.unicharset' saved [83401/83401]
+
+wget -O data/langdata/Myanmar.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Myanmar.unicharset'
+--2026-11-18 07:30:36--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Myanmar.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Myanmar.unicharset [following]
+--2026-11-18 07:30:36--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Myanmar.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15980 (16K) [text/plain]
+Saving to: 'data/langdata/Myanmar.unicharset'
+
+     0K .......... .....                                      100% 30.6M=0s
+
+2026-11-18 07:30:36 (30.6 MB/s) - 'data/langdata/Myanmar.unicharset' saved [15980/15980]
+
+wget -O data/langdata/Ogham.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Ogham.unicharset'
+--2026-11-18 07:30:36--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Ogham.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Ogham.unicharset [following]
+--2026-11-18 07:30:37--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Ogham.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 16239 (16K) [text/plain]
+Saving to: 'data/langdata/Ogham.unicharset'
+
+     0K .......... .....                                      100% 24.1M=0.001s
+
+2026-11-18 07:30:37 (24.1 MB/s) - 'data/langdata/Ogham.unicharset' saved [16239/16239]
+
+wget -O data/langdata/Oriya.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Oriya.unicharset'
+--2026-11-18 07:30:37--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Oriya.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Oriya.unicharset [following]
+--2026-11-18 07:30:37--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Oriya.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6773 (6.6K) [text/plain]
+Saving to: 'data/langdata/Oriya.unicharset'
+
+     0K ......                                                100%  137M=0s
+
+2026-11-18 07:30:37 (137 MB/s) - 'data/langdata/Oriya.unicharset' saved [6773/6773]
+
+wget -O data/langdata/Runic.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Runic.unicharset'
+--2026-11-18 07:30:37--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Runic.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Runic.unicharset [following]
+--2026-11-18 07:30:37--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Runic.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 65864 (64K) [text/plain]
+Saving to: 'data/langdata/Runic.unicharset'
+
+     0K .......... .......... .......... .......... .......... 77% 7.40M 0s
+    50K .......... ....                                       100%  739M=0.007s
+
+2026-11-18 07:30:37 (9.50 MB/s) - 'data/langdata/Runic.unicharset' saved [65864/65864]
+
+wget -O data/langdata/Sinhala.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Sinhala.unicharset'
+--2026-11-18 07:30:37--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Sinhala.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Sinhala.unicharset [following]
+--2026-11-18 07:30:38--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Sinhala.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5843 (5.7K) [text/plain]
+Saving to: 'data/langdata/Sinhala.unicharset'
+
+     0K .....                                                 100%  112M=0s
+
+2026-11-18 07:30:38 (112 MB/s) - 'data/langdata/Sinhala.unicharset' saved [5843/5843]
+
+wget -O data/langdata/Syriac.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Syriac.unicharset'
+--2026-11-18 07:30:38--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Syriac.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Syriac.unicharset [following]
+--2026-11-18 07:30:38--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Syriac.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43526 (43K) [text/plain]
+Saving to: 'data/langdata/Syriac.unicharset'
+
+     0K .......... .......... .......... .......... ..        100% 7.41M=0.006s
+
+2026-11-18 07:30:38 (7.41 MB/s) - 'data/langdata/Syriac.unicharset' saved [43526/43526]
+
+wget -O data/langdata/Tamil.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Tamil.unicharset'
+--2026-11-18 07:30:38--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Tamil.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Tamil.unicharset [following]
+--2026-11-18 07:30:38--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Tamil.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 85016 (83K) [text/plain]
+Saving to: 'data/langdata/Tamil.unicharset'
+
+     0K .......... .......... .......... .......... .......... 60% 7.64M 0s
+    50K .......... .......... .......... ...                  100% 33.4M=0.007s
+
+2026-11-18 07:30:38 (11.0 MB/s) - 'data/langdata/Tamil.unicharset' saved [85016/85016]
+
+wget -O data/langdata/Telugu.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Telugu.unicharset'
+--2026-11-18 07:30:38--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Telugu.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Telugu.unicharset [following]
+--2026-11-18 07:30:39--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Telugu.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10168 (9.9K) [text/plain]
+Saving to: 'data/langdata/Telugu.unicharset'
+
+     0K .........                                             100%  179M=0s
+
+2026-11-18 07:30:39 (179 MB/s) - 'data/langdata/Telugu.unicharset' saved [10168/10168]
+
+wget -O data/langdata/Thai.unicharset 'https://github.com/tesseract-ocr/langdata_lstm/raw/main/Thai.unicharset'
+--2026-11-18 07:30:39--  https://github.com/tesseract-ocr/langdata_lstm/raw/main/Thai.unicharset
+Resolving github.com (github.com)... 172.194.218.192
+Connecting to github.com (github.com)|172.194.218.192|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Thai.unicharset [following]
+--2026-11-18 07:30:39--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/main/Thai.unicharset
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 92607 (90K) [text/plain]
+Saving to: 'data/langdata/Thai.unicharset'
+
+     0K .......... .......... .......... .......... .......... 55% 7.78M 0s
+    50K .......... .......... .......... ..........           100% 45.4M=0.007s
+
+2026-11-18 07:30:39 (12.4 MB/s) - 'data/langdata/Thai.unicharset' saved [92607/92607]
+

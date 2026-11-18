@@ -1,0 +1,12 @@
+$ text2image --list_available_fonts --fonts_dir /usr/share/fonts/truetype/ocr-a 2>&1 | tail -8
+# exit code: 0
+--- stdout ---
+ 49: Liberation Serif Bold
+ 50: Liberation Serif Bold Italic
+ 51: Liberation Serif Italic
+ 52: Noto Color Emoji
+ 53: OCRA Medium
+ 54: OCRABold Bold
+ 55: OCRACondensed Condensed
+ 56: OCRAItalic Italic
+--- stderr ---

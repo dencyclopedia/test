@@ -1,0 +1,5 @@
+$ tesseract /home/runner/work/_temp/train/gt-heldout/ho-00000.png - --tessdata-dir /home/runner/work/_temp/train/final-ocra100 -l ocra100 --psm 7 2>&1
+# exit code: 0
+--- stdout ---
+"Oh!" cried Miss Bingley, "Charles writes in the
+--- stderr ---

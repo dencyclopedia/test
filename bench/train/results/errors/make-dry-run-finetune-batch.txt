@@ -1,0 +1,5 @@
+$ make -n training MODEL_NAME=ocra100 START_MODEL=eng TESSDATA=/opt/tessdata/tessdata_best MAX_ITERATIONS=10 FINETUNE_TYPE=2 BATCH_SIZE=4 > /tmp/ft.txt 2>&1; diff /tmp/plain.txt /tmp/ft.txt && echo IDENTICAL
+# exit code: 0
+--- stdout ---
+IDENTICAL
+--- stderr ---

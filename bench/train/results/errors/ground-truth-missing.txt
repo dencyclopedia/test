@@ -1,0 +1,9 @@
+$ make training MODEL_NAME=nosuchmodel START_MODEL=eng TESSDATA=/opt/tessdata/tessdata_best 2>&1 | tail -5
+# exit code: 0
+--- stdout ---
+20:lstm-number-dawg:size=4738, offset=15388407
+21:lstm-unicharset:size=6360, offset=15393145
+22:lstm-recoder:size=1012, offset=15399505
+23:version:size=80, offset=15400517
+Makefile:221: *** found no data/nosuchmodel-ground-truth/*.gt.txt for data/nosuchmodel/all-gt.  Stop.
+--- stderr ---

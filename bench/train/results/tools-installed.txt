@@ -1,0 +1,16 @@
+ambiguous_words
+classifier_tester
+cntraining
+combine_lang_model
+combine_tessdata
+dawg2wordlist
+lstmeval
+lstmtraining
+merge_unicharsets
+mftraining
+set_unicharset_properties
+shapeclustering
+tesseract
+text2image
+unicharset_extractor
+wordlist2dawg

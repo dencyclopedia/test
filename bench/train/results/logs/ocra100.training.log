@@ -1,0 +1,42 @@
+Loaded file data/eng/ocra100.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Code range changed from 111 to 111!
+Num (Extended) outputs,weights in Series:
+  1,36,0,1:1, 0
+Num (Extended) outputs,weights in Series:
+  C3,3:9, 0
+  Ft16:16, 160
+Total weights = 160
+  [C3,3Ft16]:16, 160
+  Mp3,3:16, 0
+  TxyLfys64:64, 20736
+  Lfx96:96, 61824
+  RxLrx96:96, 74112
+  Lfx512:512, 1247232
+  Fc111:111, 56943
+Total weights = 1461007
+Previous null char=110 mapped to 110
+Continuing from data/eng/ocra100.lstm
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/100/100, mean rms=0.263%, delta=0.242%, BCER train=0.992%, BWER train=2.680%, skip ratio=0.000%, New best BCER = 0.992 Transitioned to stage 1 wrote best model:data/ocra100/checkpoints/ocra100_0.992_15_100.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/200/200, mean rms=0.179%, delta=0.121%, BCER train=0.496%, BWER train=1.340%, skip ratio=0.000%, New best BCER = 0.496 wrote best model:data/ocra100/checkpoints/ocra100_0.496_15_200.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/300/300, mean rms=0.147%, delta=0.081%, BCER train=0.331%, BWER train=0.893%, skip ratio=0.000%, New best BCER = 0.331 wrote best model:data/ocra100/checkpoints/ocra100_0.331_15_300.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/400/400, mean rms=0.129%, delta=0.061%, BCER train=0.248%, BWER train=0.670%, skip ratio=0.000%, New best BCER = 0.248 wrote best model:data/ocra100/checkpoints/ocra100_0.248_15_400.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/500/500, mean rms=0.116%, delta=0.048%, BCER train=0.198%, BWER train=0.536%, skip ratio=0.000%, New best BCER = 0.198 wrote best model:data/ocra100/checkpoints/ocra100_0.198_15_500.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/600/600, mean rms=0.107%, delta=0.040%, BCER train=0.165%, BWER train=0.447%, skip ratio=0.000%, New best BCER = 0.165 wrote best model:data/ocra100/checkpoints/ocra100_0.165_15_600.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/700/700, mean rms=0.100%, delta=0.035%, BCER train=0.142%, BWER train=0.383%, skip ratio=0.000%, New best BCER = 0.142 wrote best model:data/ocra100/checkpoints/ocra100_0.142_15_700.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/800/800, mean rms=0.094%, delta=0.030%, BCER train=0.124%, BWER train=0.335%, skip ratio=0.000%, New best BCER = 0.124 wrote best model:data/ocra100/checkpoints/ocra100_0.124_15_800.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/900/900, mean rms=0.089%, delta=0.027%, BCER train=0.110%, BWER train=0.298%, skip ratio=0.000%, New best BCER = 0.110 wrote best model:data/ocra100/checkpoints/ocra100_0.110_15_900.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/1000/1000, mean rms=0.085%, delta=0.024%, BCER train=0.099%, BWER train=0.268%, skip ratio=0.000%, New best BCER = 0.099 wrote best model:data/ocra100/checkpoints/ocra100_0.099_15_1000.checkpoint wrote checkpoint.
+2 Percent improvement time=15, best error was 100 @ 0
+At iteration 15/1100/1100, mean rms=0.063%, delta=0.000%, BCER train=0.000%, BWER train=0.000%, skip ratio=0.000%, New best BCER = 0.000 wrote best model:data/ocra100/checkpoints/ocra100_0.000_15_1100.checkpoint wrote checkpoint.
+Finished! Selected model with minimal training error rate (BCER) = 0

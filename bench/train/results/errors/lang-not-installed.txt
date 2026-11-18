@@ -1,0 +1,9 @@
+$ tesseract /home/runner/work/_temp/train/gt-heldout/ho-00000.png - -l ocra100 2>&1
+# exit code: 1
+--- stdout ---
+Error opening data file /opt/tessdata/tessdata_best/ocra100.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'ocra100'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+--- stderr ---

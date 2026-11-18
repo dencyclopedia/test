@@ -1,0 +1,4 @@
+tesseract: /opt/tess554/bin/tesseract
+tesseract 5.5.4
+lstmtraining: /opt/tess554/bin/lstmtraining
+5.5.4

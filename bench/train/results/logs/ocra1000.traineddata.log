@@ -1,0 +1,235 @@
+You are using make version: 4.3
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.000_27_2700.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.000_27_2700.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.000_27_2700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.022_27_2000.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.022_27_2000.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.022_27_2000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.027_27_1900.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.027_27_1900.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.027_27_1900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.031_27_1800.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.031_27_1800.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.031_27_1800.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.036_26_1500.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.036_26_1500.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.036_26_1500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.040_26_1400.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.040_26_1400.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.040_26_1400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.051_26_1300.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.051_26_1300.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.051_26_1300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.086_26_1200.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.086_26_1200.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.086_26_1200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.099_26_1100.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.099_26_1100.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.099_26_1100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.168_26_1000.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.168_26_1000.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.168_26_1000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.182_25_900.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.182_25_900.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.182_25_900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.196_22_700.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.196_22_700.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.196_22_700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.221_21_600.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.221_21_600.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.221_21_600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.265_21_500.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.265_21_500.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.265_21_500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.320_20_400.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.320_20_400.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.320_20_400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.390_19_300.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.390_19_300.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.390_19_300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.409_17_200.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.409_17_200.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.409_17_200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.694_16_100.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --model_output data/ocra1000/tessdata_best/ocra1000_0.694_16_100.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.694_16_100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.000_27_2700.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.000_27_2700.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.000_27_2700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.022_27_2000.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.022_27_2000.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.022_27_2000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.027_27_1900.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.027_27_1900.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.027_27_1900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.031_27_1800.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.031_27_1800.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.031_27_1800.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.036_26_1500.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.036_26_1500.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.036_26_1500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.040_26_1400.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.040_26_1400.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.040_26_1400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.051_26_1300.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.051_26_1300.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.051_26_1300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.086_26_1200.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.086_26_1200.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.086_26_1200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.099_26_1100.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.099_26_1100.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.099_26_1100.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.168_26_1000.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.168_26_1000.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.168_26_1000.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.182_25_900.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.182_25_900.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.182_25_900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.196_22_700.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.196_22_700.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.196_22_700.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.221_21_600.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.221_21_600.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.221_21_600.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.265_21_500.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.265_21_500.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.265_21_500.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.320_20_400.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.320_20_400.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.320_20_400.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.390_19_300.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.390_19_300.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.390_19_300.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.409_17_200.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.409_17_200.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.409_17_200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/ocra1000/checkpoints/ocra1000_0.694_16_100.checkpoint \
+          --traineddata data/ocra1000/ocra1000.traineddata \
+          --convert_to_int \
+          --model_output data/ocra1000/tessdata_fast/ocra1000_0.694_16_100.traineddata
+Loaded file data/ocra1000/checkpoints/ocra1000_0.694_16_100.checkpoint, unpacking...

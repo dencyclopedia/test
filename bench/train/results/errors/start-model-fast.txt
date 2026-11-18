@@ -1,0 +1,19 @@
+$ make training MODEL_NAME=errfast START_MODEL=eng TESSDATA=/opt/tessdata/tessdata_fast MAX_ITERATIONS=10 GROUND_TRUTH_DIR=data/ocra100-ground-truth 2>&1 | tail -15
+# exit code: 0
+--- stdout ---
+  --max_iterations 10 \
+  --target_error_rate 0.01 \
+2>&1 | tee -a data/errfast/training.log
+Loaded file data/eng/errfast.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Error, data/eng/errfast.lstm is an integer (fast) model, cannot continue training
+Failed to continue from: data/eng/errfast.lstm
+
+lstmtraining \
+--stop_training \
+--continue_from data/errfast/checkpoints/errfast_checkpoint \
+--traineddata data/errfast/errfast.traineddata \
+--model_output data/errfast.traineddata
+Failed to read continue from: data/errfast/checkpoints/errfast_checkpoint
+make: *** [Makefile:325: data/errfast.traineddata] Error 1
+--- stderr ---

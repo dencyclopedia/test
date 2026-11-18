@@ -1,0 +1,5 @@
+$ make -n training MODEL_NAME=ocra100 START_MODEL=eng TESSDATA=/opt/tessdata/tessdata_best MAX_ITERATIONS=10 > /tmp/plain.txt 2>&1; echo lines: $(wc -l < /tmp/plain.txt)
+# exit code: 0
+--- stdout ---
+lines: 21
+--- stderr ---

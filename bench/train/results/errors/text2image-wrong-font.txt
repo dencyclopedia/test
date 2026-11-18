@@ -1,0 +1,7 @@
+$ text2image --text=data/ocra100/all-gt --outputbase=/tmp/t2i --font='My Custom Font' --fonts_dir=/usr/share/fonts/truetype/ocr-a --ptsize=14 2>&1 | tail -6
+# exit code: 0
+--- stdout ---
+Could not find font named 'My Custom Font'.
+Pango suggested font 'DejaVu Sans'.
+Please correct --font arg.
+--- stderr ---

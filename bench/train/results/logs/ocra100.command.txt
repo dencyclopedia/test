@@ -1,0 +1,1 @@
+make training MODEL_NAME=ocra100 START_MODEL=eng TESSDATA=/opt/tessdata/tessdata_best MAX_ITERATIONS=4000 TARGET_ERROR_RATE=0.0001

@@ -1,0 +1,145 @@
+{
+  "assigned_in_makefile": [
+    "ALL_FILES",
+    "ALL_GT",
+    "ALL_LSTMF",
+    "BESTMODEL_FILES",
+    "BEST_LSTMEVAL_FILES",
+    "CHECKPOINT_FILES",
+    "DATA_DIR",
+    "DEBUG_INTERVAL",
+    "FASTMODEL_FILES",
+    "GROUND_TRUTH_DIR",
+    "LANGDATA_DIR",
+    "LANG_TYPE",
+    "LAST_CHECKPOINT",
+    "LC_ALL",
+    "LEARNING_RATE",
+    "LOCAL",
+    "LOG_FILE",
+    "MAX_ITERATIONS",
+    "MODEL_NAME",
+    "NET_SPEC",
+    "NUMBERS_FILE",
+    "OUTPUT_DIR",
+    "PATH",
+    "PROTO_MODEL",
+    "PSM",
+    "PUNC_FILE",
+    "RANDOM_SEED",
+    "RATIO_TRAIN",
+    "SHELL",
+    "START_MODEL",
+    "TARGET_ERROR_RATE",
+    "TESSDATA",
+    "TESSDATA_REPO",
+    "TESSERACT_LANGDATA",
+    "TESSERACT_SCRIPTS",
+    "TSV_100_ITERATIONS",
+    "TSV_CHECKPOINT",
+    "TSV_EVAL",
+    "TSV_LSTMEVAL",
+    "TSV_SUB",
+    "WORDLIST_FILE"
+  ],
+  "listed_by_make_help": [
+    "DATA_DIR",
+    "DEBUG_INTERVAL",
+    "EPOCHS",
+    "GROUND_TRUTH_DIR",
+    "LANGDATA_DIR",
+    "LANG_TYPE",
+    "LEARNING_RATE",
+    "LOG_FILE",
+    "MAX_ITERATIONS",
+    "MODEL_NAME",
+    "NET_SPEC",
+    "NUMBERS_FILE",
+    "OUTPUT_DIR",
+    "PROTO_MODEL",
+    "PSM",
+    "PUNC_FILE",
+    "RANDOM_SEED",
+    "RATIO_TRAIN",
+    "START_MODEL",
+    "TARGET_ERROR_RATE",
+    "TESSDATA",
+    "TESSDATA_REPO",
+    "WORDLIST_FILE"
+  ],
+  "listed_in_readme": [
+    "DATA_DIR",
+    "DEBUG_INTERVAL",
+    "EPOCHS",
+    "FINETUNE_TYPE",
+    "GROUND_TRUTH_DIR",
+    "LANG_TYPE",
+    "LEARNING_RATE",
+    "LOG_FILE",
+    "MAX_ITERATIONS",
+    "MODEL_NAME",
+    "NET_SPEC",
+    "NUMBERS_FILE",
+    "OUTPUT_DIR",
+    "PROTO_MODEL",
+    "PSM",
+    "PUNC_FILE",
+    "RANDOM_SEED",
+    "RATIO_TRAIN",
+    "START_MODEL",
+    "TARGET_ERROR_RATE",
+    "TESSDATA",
+    "TESSDATA_REPO",
+    "WORDLIST_FILE"
+  ],
+  "checked": {
+    "FINETUNE_TYPE": {
+      "in_makefile": false,
+      "in_readme": true
+    },
+    "BATCH_SIZE": {
+      "in_makefile": false,
+      "in_readme": false
+    },
+    "START_MODEL": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "TESSDATA": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "MAX_ITERATIONS": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "EPOCHS": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "LEARNING_RATE": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "NET_SPEC": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "RATIO_TRAIN": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "TARGET_ERROR_RATE": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "PSM": {
+      "in_makefile": true,
+      "in_readme": true
+    },
+    "TESSDATA_REPO": {
+      "in_makefile": true,
+      "in_readme": true
+    }
+  }
+}

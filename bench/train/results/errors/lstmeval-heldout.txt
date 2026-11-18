@@ -1,0 +1,8 @@
+$ lstmeval --model /home/runner/work/_temp/train/final-ocra100/ocra100.traineddata --eval_listfile /home/runner/work/_temp/train/heldout-lstmf.list 2>&1 | tail -4
+# exit code: 0
+--- stdout ---
+OCR  :she smiled, but made no answer. He repeated the
+Truth:Chapter 11
+OCR  :Chapter 1l
+BCER eval=0.118, BWER eval=0.537
+--- stderr ---

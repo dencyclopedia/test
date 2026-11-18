@@ -1,0 +1,6 @@
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Truth:nonsense.
+OCR  :hnonsense.
+Truth:Chapter 11
+OCR  :Chapter 1l
+BCER eval=0.104, BWER eval=0.500

@@ -1,0 +1,8 @@
+$ make training MODEL_NAME=errmissing START_MODEL=eng TESSDATA=/tmp/emptytd MAX_ITERATIONS=10 GROUND_TRUTH_DIR=data/ocra100-ground-truth 2>&1 | tail -15
+# exit code: 0
+--- stdout ---
+You are using make version: 4.3
+combine_tessdata -u /tmp/emptytd/eng.traineddata data/eng/errmissing
+Failed to read /tmp/emptytd/eng.traineddata
+make: *** [Makefile:207: data/eng/errmissing.lstm-unicharset] Error 1
+--- stderr ---
