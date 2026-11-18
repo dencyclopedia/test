@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>Tesseract - 5.5.4</Creator>
+		<Created>2026-11-18T17:56:05</Created>
+		<LastChange>2026-11-18T17:56:05</LastChange>
+	</Metadata>
+	<Page imageFilename="corpus/receipt/receipt01_dejavu-mono.png" imageWidth="945" imageHeight="1222">
+		<ReadingOrder>
+			<OrderedGroup id="ro9303160075066525705" caption="Regions reading order">
+				<RegionRefIndexed index="0" regionRef="r0"/>
+			</OrderedGroup>
+		</ReadingOrder>
+		<TextRegion id="r0" custom="readingOrder {index:0;} orientation {0;}">
+			<Coords points="48,54 896,54 896,1168 48,1168"/>
+			<TextLine id="r0l0" custom="readingOrder {index:0;}">
+				<Coords points="305,54 640,54 640,80 305,80"/>
+				<Baseline points="305,80 640,80"/>
+				<TextEquiv index="1" conf="0.9638">
+					<Unicode>MAPLE ROW MARKET</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l1" custom="readingOrder {index:1;}">
+				<Coords points="171,101 251,101 253,108 335,108 339,100 356,100 359,108 377,108 401,101 420,101 440,103 524,103 532,122 539,122 569,101 588,101 590,108 652,108 655,100 672,100 675,108 696,103 714,103 775,108 775,127 655,127 652,134 634,134 631,127 539,132 532,132 339,127 335,134 317,134 314,127 171,127"/>
+				<Baseline points="171,127 775,127"/>
+				<TextEquiv index="1" conf="0.9413">
+					<Unicode>12 Example Street, Sampletown</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l2" custom="readingOrder {index:2;}">
+				<Coords points="305,148 326,148 327,155 346,155 349,147 365,147 451,148 457,163 468,163 475,148 535,148 542,163 553,163 559,148 639,148 639,174 559,174 553,166 542,166 535,174 475,174 468,166 457,166 451,174 305,174"/>
+				<Baseline points="305,174 639,174"/>
+				<TextEquiv index="1" conf="0.9607">
+					<Unicode>Tel 000-555-9781</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l3" custom="readingOrder {index:3;}">
+				<Coords points="49,242 68,242 70,249 91,244 109,244 130,249 155,242 237,242 243,257 254,257 260,242 300,242 306,257 317,257 324,242 834,242 843,250 850,250 859,242 895,242 895,268 324,268 317,260 306,260 300,268 260,268 254,260 243,260 237,268 49,268"/>
+				<Baseline points="49,268 895,268"/>
+				<TextEquiv index="1" conf="0.9591">
+					<Unicode>Date 2026-04-26 13:27</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l4" custom="readingOrder {index:4;}">
+				<Coords points="49,289 70,289 70,296 131,296 134,288 152,288 155,296 175,291 216,290 239,289 796,288 854,288 895,289 895,315 175,315 173,322 155,322 152,315 49,315"/>
+				<Baseline points="49,315 895,315"/>
+				<TextEquiv index="1" conf="0.9615">
+					<Unicode>Receipt #66618 Till 5</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l5" custom="readingOrder {index:5;}">
+				<Coords points="48,383 69,383 71,390 110,390 113,382 130,382 133,390 171,390 199,382 204,382 238,382 239,390 256,390 817,383 834,383 843,404 850,404 859,383 896,383 896,409 817,409 256,416 239,416 238,409 204,409 204,416 199,416 171,409 113,409 110,416 71,416 69,409 48,409"/>
+				<Baseline points="48,409 896,409"/>
+				<TextEquiv index="1" conf="0.8236">
+					<Unicode>Apples 1lkg 2.20</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l6" custom="readingOrder {index:6;}">
+				<Coords points="49,430 67,430 70,437 89,437 92,429 130,429 133,437 172,437 198,430 216,430 218,437 298,437 323,430 384,430 386,437 402,437 402,463 386,463 384,456 49,456"/>
+				<Baseline points="49,456 402,456"/>
+				<TextEquiv index="1" conf="0.8629">
+					<Unicode>Coffee Beans 500g</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l7" custom="readingOrder {index:7;}">
+				<Coords points="91,477 108,477 133,484 151,484 175,477 194,477 203,498 210,498 218,477 835,477 843,498 850,498 858,477 895,477 895,503 91,503"/>
+				<Baseline points="91,503 895,503"/>
+				<TextEquiv index="1" conf="0.9434">
+					<Unicode>3 x 8.99 26.97</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l8" custom="readingOrder {index:8;}">
+				<Coords points="51,524 71,523 88,523 91,531 112,526 152,524 176,523 216,523 236,526 256,531 256,550 51,550"/>
+				<Baseline points="51,550 256,550"/>
+				<TextEquiv index="1" conf="0.9651">
+					<Unicode>Flat White</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l9" custom="readingOrder {index:9;}">
+				<Coords points="91,571 108,571 133,578 151,578 175,571 193,571 203,592 210,592 218,571 835,571 843,592 850,592 859,571 896,571 896,597 91,597"/>
+				<Baseline points="91,597 896,597"/>
+				<TextEquiv index="1" conf="0.9313">
+					<Unicode>3 x 3.40 10.20</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l10" custom="readingOrder {index:10;}">
+				<Coords points="50,618 71,617 89,617 92,625 173,625 176,617 193,617 197,625 235,625 261,618 321,618 323,625 360,625 360,651 344,651 342,644 137,644 131,651 113,651 109,644 50,644"/>
+				<Baseline points="50,644 360,644"/>
+				<TextEquiv index="1" conf="0.9586">
+					<Unicode>Ibuprofen 200mg</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l11" custom="readingOrder {index:11;}">
+				<Coords points="92,665 108,665 133,672 151,672 176,665 193,665 203,686 210,686 218,665 835,665 843,686 850,686 858,665 896,665 896,691 92,691"/>
+				<Baseline points="92,691 896,691"/>
+				<TextEquiv index="1" conf="0.9394">
+					<Unicode>2 x 2.49 4.98</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l12" custom="readingOrder {index:12;}">
+				<Coords points="49,712 71,711 88,711 91,719 110,719 112,711 151,711 154,719 194,719 218,712 279,712 281,719 298,719 816,712 835,712 843,733 850,733 859,712 895,712 895,738 816,738 298,745 281,745 279,738 49,738"/>
+				<Baseline points="49,738 895,738"/>
+				<TextEquiv index="1" conf="0.8676">
+					<Unicode>Cheddar 400g 4.25</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l13" custom="readingOrder {index:13;}">
+				<Coords points="49,806 835,806 843,827 850,827 858,806 896,806 896,832 49,832"/>
+				<Baseline points="49,832 896,832"/>
+				<TextEquiv index="1" conf="0.9612">
+					<Unicode>SUBTOTAL 48.60</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l14" custom="readingOrder {index:14;}">
+				<Coords points="48,853 219,852 237,852 240,860 278,860 282,852 299,852 308,874 314,874 816,853 835,853 843,874 850,874 860,853 896,853 896,879 48,879"/>
+				<Baseline points="48,879 896,879"/>
+				<TextEquiv index="1" conf="0.9588">
+					<Unicode>VAT 20% incl. 8.10</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l15" custom="readingOrder {index:15;}">
+				<Coords points="48,900 835,900 843,921 850,921 858,900 896,900 896,926 48,926"/>
+				<Baseline points="48,926 896,926"/>
+				<TextEquiv index="1" conf="0.9602">
+					<Unicode>TOTAL 48.60</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l16" custom="readingOrder {index:16;}">
+				<Coords points="49,994 835,994 843,1015 850,1015 858,994 896,994 896,1020 49,1020"/>
+				<Baseline points="49,1020 896,1020"/>
+				<TextEquiv index="1" conf="0.9626">
+					<Unicode>CARD 48.60</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l17" custom="readingOrder {index:17;}">
+				<Coords points="157,1088 180,1087 197,1087 200,1095 240,1095 245,1087 262,1087 285,1095 344,1095 370,1087 387,1087 390,1095 471,1095 476,1087 493,1087 496,1095 557,1095 560,1087 578,1087 581,1095 664,1095 665,1087 683,1087 723,1087 750,1095 786,1095 786,1114 641,1114 618,1121 601,1121 598,1114 560,1114 557,1121 518,1121 515,1114 306,1114 305,1121 285,1121 262,1114 157,1114"/>
+				<Baseline points="157,1114 786,1114"/>
+				<TextEquiv index="1" conf="0.9612">
+					<Unicode>Thank you for shopping with us</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="r0l18" custom="readingOrder {index:18;}">
+				<Coords points="127,1135 146,1135 148,1142 209,1142 212,1134 229,1134 232,1142 357,1142 360,1134 378,1134 381,1142 401,1137 418,1137 447,1150 457,1150 486,1142 527,1137 544,1137 672,1142 676,1134 692,1134 719,1142 738,1137 756,1137 818,1142 818,1161 486,1161 457,1153 447,1153 418,1161 401,1161 399,1168 381,1168 378,1161 212,1161 209,1168 191,1168 188,1161 127,1161"/>
+				<Baseline points="127,1161 818,1161"/>
+				<TextEquiv index="1" conf="0.9523">
+					<Unicode>Sample receipt - not a real store</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextEquiv index="1" conf="0.9391">
+				<Unicode>MAPLE ROW MARKET
+12 Example Street, Sampletown
+Tel 000-555-9781
+Date 2026-04-26 13:27
+Receipt #66618 Till 5
+Apples 1lkg 2.20
+Coffee Beans 500g
+3 x 8.99 26.97
+Flat White
+3 x 3.40 10.20
+Ibuprofen 200mg
+2 x 2.49 4.98
+Cheddar 400g 4.25
+SUBTOTAL 48.60
+VAT 20% incl. 8.10
+TOTAL 48.60
+CARD 48.60
+Thank you for shopping with us
+Sample receipt - not a real store</Unicode>
+			</TextEquiv>
+		</TextRegion>
+	</Page>
+</PcGts>

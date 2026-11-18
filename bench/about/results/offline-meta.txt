@@ -1,0 +1,5 @@
+date_utc: 2026-11-18T17:59:50Z
+machine: development container, Intel(R) Xeon(R) Processor @ 2.30GHz, Ubuntu 24.04.5 LTS
+tesseract 5.5.4
+ leptonica-1.82.0
+strace: strace -- version 6.8

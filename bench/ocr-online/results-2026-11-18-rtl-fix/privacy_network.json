@@ -1,0 +1,65 @@
+{
+ "date_utc": "2026-11-18T18:05:04.890Z",
+ "site": "http://127.0.0.1:8791",
+ "page": "/ocr-online/",
+ "chromium": "157.0.8103.78",
+ "playwright": "1.63.0",
+ "blocked_third_party_hosts": [
+  "cmp.gatekeeperconsent.com",
+  "ezoicanalytics.com",
+  "open.video",
+  "the.gatekeeperconsent.com",
+  "www.ezojs.com",
+  "www.googletagmanager.com"
+ ],
+ "image": "receipt/receipt01_dejavu-mono.png",
+ "image_bytes": 42474,
+ "first_run": {
+  "chars": 623,
+  "message": "",
+  "confidence": "Confidence: 93%"
+ },
+ "requests_during_ocr": [
+  {
+   "phase": "ocr-online",
+   "method": "GET",
+   "host": "cdn.jsdelivr.net",
+   "path": "/npm/tesseract.js@5.1.1/dist/tesseract.min.js",
+   "type": "script",
+   "body_bytes": 0
+  },
+  {
+   "phase": "ocr-online",
+   "method": "GET",
+   "host": "cdn.jsdelivr.net",
+   "path": "/npm/tesseract.js@v5.1.1/dist/worker.min.js",
+   "type": "other",
+   "body_bytes": 0
+  },
+  {
+   "phase": "ocr-online",
+   "method": "GET",
+   "host": "cdn.jsdelivr.net",
+   "path": "/npm/tesseract.js-core@v5.1.1/tesseract-core-simd-lstm.wasm.js",
+   "type": "other",
+   "body_bytes": 0
+  },
+  {
+   "phase": "ocr-online",
+   "method": "GET",
+   "host": "cdn.jsdelivr.net",
+   "path": "/npm/@tesseract.js-data/eng/4.0.0_best_int/eng.traineddata.gz",
+   "type": "fetch",
+   "body_bytes": 0
+  }
+ ],
+ "requests_with_body": 0,
+ "non_get_requests": 0,
+ "offline_second_image": "clean/austen_dejavu-serif_300.png",
+ "offline_second_run": {
+  "chars": 1209,
+  "message": "",
+  "confidence": "Confidence: 95%"
+ },
+ "requests_while_offline": []
+}

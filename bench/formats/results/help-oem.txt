@@ -1,0 +1,5 @@
+OCR Engine modes (OEM):
+  0|tesseract_only          Legacy engine only.
+  1|lstm_only               Neural nets LSTM engine only.
+  2|tesseract_lstm_combined Legacy + LSTM engines.
+  3|default                 Default, based on what is available.

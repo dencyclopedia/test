@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v3#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v3# http://www.loc.gov/alto/v3/alto-3-0.xsd">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>corpus/receipt/receipt01_dejavu-mono.png</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCR_0">
+			<ocrProcessingStep>
+				<processingSoftware>
+					<softwareName>Tesseract</softwareName>
+					<softwareVersion>5.5.4</softwareVersion>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Layout>
+		<Page WIDTH="945" HEIGHT="1222" PHYSICAL_IMG_NR="0" ID="page_0">
+			<PrintSpace HPOS="0" VPOS="0" WIDTH="945" HEIGHT="1222">
+				<ComposedBlock ID="cblock_0" HPOS="48" VPOS="54" WIDTH="848" HEIGHT="1114">
+					<TextBlock ID="block_0" HPOS="48" VPOS="54" WIDTH="848" HEIGHT="1114">
+						<TextLine ID="line_0" HPOS="305" VPOS="54" WIDTH="335" HEIGHT="26">
+							<String ID="string_0" HPOS="305" VPOS="54" WIDTH="102" HEIGHT="26" WC="0.96" CONTENT="MAPLE"/><SP WIDTH="25" VPOS="54" HPOS="407"/>
+							<String ID="string_1" HPOS="432" VPOS="54" WIDTH="62" HEIGHT="26" WC="0.96" CONTENT="ROW"/><SP WIDTH="22" VPOS="54" HPOS="494"/>
+							<String ID="string_2" HPOS="516" VPOS="54" WIDTH="124" HEIGHT="26" WC="0.96" CONTENT="MARKET"/>
+						</TextLine>
+						<TextLine ID="line_1" HPOS="171" VPOS="100" WIDTH="604" HEIGHT="34">
+							<String ID="string_3" HPOS="171" VPOS="101" WIDTH="35" HEIGHT="26" WC="0.96" CONTENT="12"/><SP WIDTH="27" VPOS="101" HPOS="206"/>
+							<String ID="string_4" HPOS="233" VPOS="100" WIDTH="143" HEIGHT="34" WC="0.95" CONTENT="Example"/><SP WIDTH="25" VPOS="100" HPOS="376"/>
+							<String ID="string_5" HPOS="401" VPOS="101" WIDTH="137" HEIGHT="31" WC="0.93" CONTENT="Street,"/><SP WIDTH="31" VPOS="101" HPOS="538"/>
+							<String ID="string_6" HPOS="569" VPOS="100" WIDTH="206" HEIGHT="34" WC="0.91" CONTENT="Sampletown"/>
+						</TextLine>
+						<TextLine ID="line_2" HPOS="305" VPOS="147" WIDTH="334" HEIGHT="27">
+							<String ID="string_7" HPOS="305" VPOS="147" WIDTH="59" HEIGHT="27" WC="0.96" CONTENT="Tel"/><SP WIDTH="26" VPOS="147" HPOS="364"/>
+							<String ID="string_8" HPOS="390" VPOS="148" WIDTH="249" HEIGHT="26" WC="0.96" CONTENT="000-555-9781"/>
+						</TextLine>
+						<TextLine ID="line_3" HPOS="49" VPOS="242" WIDTH="846" HEIGHT="26">
+							<String ID="string_9" HPOS="49" VPOS="242" WIDTH="80" HEIGHT="26" WC="0.95" CONTENT="Date"/><SP WIDTH="26" VPOS="242" HPOS="129"/>
+							<String ID="string_10" HPOS="155" VPOS="242" WIDTH="206" HEIGHT="26" WC="0.96" CONTENT="2026-04-26"/><SP WIDTH="436" VPOS="242" HPOS="361"/>
+							<String ID="string_11" HPOS="797" VPOS="242" WIDTH="98" HEIGHT="26" WC="0.96" CONTENT="13:27"/>
+						</TextLine>
+						<TextLine ID="line_4" HPOS="49" VPOS="288" WIDTH="846" HEIGHT="34">
+							<String ID="string_12" HPOS="49" VPOS="288" WIDTH="142" HEIGHT="34" WC="0.96" CONTENT="Receipt"/><SP WIDTH="25" VPOS="288" HPOS="191"/>
+							<String ID="string_13" HPOS="216" VPOS="289" WIDTH="124" HEIGHT="26" WC="0.96" CONTENT="#66618"/><SP WIDTH="433" VPOS="289" HPOS="340"/>
+							<String ID="string_14" HPOS="773" VPOS="288" WIDTH="80" HEIGHT="27" WC="0.96" CONTENT="Till"/><SP WIDTH="26" VPOS="288" HPOS="853"/>
+							<String ID="string_15" HPOS="879" VPOS="289" WIDTH="16" HEIGHT="26" WC="0.96" CONTENT="5"/>
+						</TextLine>
+						<TextLine ID="line_5" HPOS="48" VPOS="382" WIDTH="848" HEIGHT="34">
+							<String ID="string_16" HPOS="48" VPOS="382" WIDTH="122" HEIGHT="34" WC="0.87" CONTENT="Apples"/><SP WIDTH="29" VPOS="382" HPOS="170"/>
+							<String ID="string_17" HPOS="199" VPOS="382" WIDTH="56" HEIGHT="34" WC="0.63" CONTENT="1lkg"/><SP WIDTH="562" VPOS="382" HPOS="255"/>
+							<String ID="string_18" HPOS="817" VPOS="383" WIDTH="79" HEIGHT="26" WC="0.95" CONTENT="2.20"/>
+						</TextLine>
+						<TextLine ID="line_6" HPOS="49" VPOS="429" WIDTH="353" HEIGHT="34">
+							<String ID="string_19" HPOS="49" VPOS="429" WIDTH="122" HEIGHT="27" WC="0.96" CONTENT="Coffee"/><SP WIDTH="27" VPOS="429" HPOS="171"/>
+							<String ID="string_20" HPOS="198" VPOS="430" WIDTH="99" HEIGHT="26" WC="0.95" CONTENT="Beans"/><SP WIDTH="26" VPOS="430" HPOS="297"/>
+							<String ID="string_21" HPOS="323" VPOS="430" WIDTH="79" HEIGHT="33" WC="0.67" CONTENT="500g"/>
+						</TextLine>
+						<TextLine ID="line_7" HPOS="91" VPOS="477" WIDTH="804" HEIGHT="26">
+							<String ID="string_22" HPOS="91" VPOS="477" WIDTH="16" HEIGHT="26" WC="0.92" CONTENT="3"/><SP WIDTH="26" VPOS="477" HPOS="107"/>
+							<String ID="string_23" HPOS="133" VPOS="484" WIDTH="17" HEIGHT="19" WC="0.94" CONTENT="x"/><SP WIDTH="25" VPOS="484" HPOS="150"/>
+							<String ID="string_24" HPOS="175" VPOS="477" WIDTH="81" HEIGHT="26" WC="0.96" CONTENT="8.99"/><SP WIDTH="540" VPOS="477" HPOS="256"/>
+							<String ID="string_25" HPOS="796" VPOS="477" WIDTH="99" HEIGHT="26" WC="0.94" CONTENT="26.97"/>
+						</TextLine>
+						<TextLine ID="line_8" HPOS="51" VPOS="523" WIDTH="205" HEIGHT="27">
+							<String ID="string_26" HPOS="51" VPOS="523" WIDTH="77" HEIGHT="27" WC="0.96" CONTENT="Flat"/><SP WIDTH="24" VPOS="523" HPOS="128"/>
+							<String ID="string_27" HPOS="152" VPOS="523" WIDTH="104" HEIGHT="27" WC="0.96" CONTENT="White"/>
+						</TextLine>
+						<TextLine ID="line_9" HPOS="91" VPOS="571" WIDTH="805" HEIGHT="26">
+							<String ID="string_28" HPOS="91" VPOS="571" WIDTH="16" HEIGHT="26" WC="0.90" CONTENT="3"/><SP WIDTH="26" VPOS="571" HPOS="107"/>
+							<String ID="string_29" HPOS="133" VPOS="578" WIDTH="17" HEIGHT="19" WC="0.90" CONTENT="x"/><SP WIDTH="25" VPOS="578" HPOS="150"/>
+							<String ID="string_30" HPOS="175" VPOS="571" WIDTH="81" HEIGHT="26" WC="0.95" CONTENT="3.40"/><SP WIDTH="541" VPOS="571" HPOS="256"/>
+							<String ID="string_31" HPOS="797" VPOS="571" WIDTH="99" HEIGHT="26" WC="0.94" CONTENT="10.20"/>
+						</TextLine>
+						<TextLine ID="line_10" HPOS="50" VPOS="617" WIDTH="310" HEIGHT="34">
+							<String ID="string_32" HPOS="50" VPOS="617" WIDTH="184" HEIGHT="34" WC="0.95" CONTENT="Ibuprofen"/><SP WIDTH="27" VPOS="617" HPOS="234"/>
+							<String ID="string_33" HPOS="261" VPOS="618" WIDTH="99" HEIGHT="33" WC="0.95" CONTENT="200mg"/>
+						</TextLine>
+						<TextLine ID="line_11" HPOS="92" VPOS="665" WIDTH="804" HEIGHT="26">
+							<String ID="string_34" HPOS="92" VPOS="665" WIDTH="15" HEIGHT="26" WC="0.92" CONTENT="2"/><SP WIDTH="26" VPOS="665" HPOS="107"/>
+							<String ID="string_35" HPOS="133" VPOS="672" WIDTH="17" HEIGHT="19" WC="0.92" CONTENT="x"/><SP WIDTH="26" VPOS="672" HPOS="150"/>
+							<String ID="string_36" HPOS="176" VPOS="665" WIDTH="80" HEIGHT="26" WC="0.95" CONTENT="2.49"/><SP WIDTH="560" VPOS="665" HPOS="256"/>
+							<String ID="string_37" HPOS="816" VPOS="665" WIDTH="80" HEIGHT="26" WC="0.96" CONTENT="4.98"/>
+						</TextLine>
+						<TextLine ID="line_12" HPOS="49" VPOS="711" WIDTH="846" HEIGHT="34">
+							<String ID="string_38" HPOS="49" VPOS="711" WIDTH="144" HEIGHT="27" WC="0.96" CONTENT="Cheddar"/><SP WIDTH="25" VPOS="711" HPOS="193"/>
+							<String ID="string_39" HPOS="218" VPOS="712" WIDTH="79" HEIGHT="33" WC="0.68" CONTENT="400g"/><SP WIDTH="519" VPOS="712" HPOS="297"/>
+							<String ID="string_40" HPOS="816" VPOS="712" WIDTH="79" HEIGHT="26" WC="0.95" CONTENT="4.25"/>
+						</TextLine>
+						<TextLine ID="line_13" HPOS="49" VPOS="806" WIDTH="847" HEIGHT="26">
+							<String ID="string_41" HPOS="49" VPOS="806" WIDTH="166" HEIGHT="26" WC="0.96" CONTENT="SUBTOTAL"/><SP WIDTH="580" VPOS="806" HPOS="215"/>
+							<String ID="string_42" HPOS="795" VPOS="806" WIDTH="101" HEIGHT="26" WC="0.95" CONTENT="48.60"/>
+						</TextLine>
+						<TextLine ID="line_14" HPOS="48" VPOS="852" WIDTH="848" HEIGHT="27">
+							<String ID="string_43" HPOS="48" VPOS="853" WIDTH="61" HEIGHT="26" WC="0.95" CONTENT="VAT"/><SP WIDTH="25" VPOS="853" HPOS="109"/>
+							<String ID="string_44" HPOS="134" VPOS="853" WIDTH="60" HEIGHT="26" WC="0.96" CONTENT="20%"/><SP WIDTH="25" VPOS="853" HPOS="194"/>
+							<String ID="string_45" HPOS="219" VPOS="852" WIDTH="94" HEIGHT="27" WC="0.95" CONTENT="incl."/><SP WIDTH="503" VPOS="852" HPOS="313"/>
+							<String ID="string_46" HPOS="816" VPOS="853" WIDTH="80" HEIGHT="26" WC="0.95" CONTENT="8.10"/>
+						</TextLine>
+						<TextLine ID="line_15" HPOS="48" VPOS="900" WIDTH="848" HEIGHT="26">
+							<String ID="string_47" HPOS="48" VPOS="900" WIDTH="103" HEIGHT="26" WC="0.96" CONTENT="TOTAL"/><SP WIDTH="644" VPOS="900" HPOS="151"/>
+							<String ID="string_48" HPOS="795" VPOS="900" WIDTH="101" HEIGHT="26" WC="0.95" CONTENT="48.60"/>
+						</TextLine>
+						<TextLine ID="line_16" HPOS="49" VPOS="994" WIDTH="847" HEIGHT="26">
+							<String ID="string_49" HPOS="49" VPOS="994" WIDTH="80" HEIGHT="26" WC="0.96" CONTENT="CARD"/><SP WIDTH="666" VPOS="994" HPOS="129"/>
+							<String ID="string_50" HPOS="795" VPOS="994" WIDTH="101" HEIGHT="26" WC="0.95" CONTENT="48.60"/>
+						</TextLine>
+						<TextLine ID="line_17" HPOS="157" VPOS="1087" WIDTH="629" HEIGHT="34">
+							<String ID="string_51" HPOS="157" VPOS="1087" WIDTH="104" HEIGHT="27" WC="0.96" CONTENT="Thank"/><SP WIDTH="24" VPOS="1087" HPOS="261"/>
+							<String ID="string_52" HPOS="285" VPOS="1095" WIDTH="58" HEIGHT="26" WC="0.96" CONTENT="you"/><SP WIDTH="27" VPOS="1095" HPOS="343"/>
+							<String ID="string_53" HPOS="370" VPOS="1087" WIDTH="59" HEIGHT="27" WC="0.96" CONTENT="for"/><SP WIDTH="26" VPOS="1087" HPOS="429"/>
+							<String ID="string_54" HPOS="455" VPOS="1087" WIDTH="162" HEIGHT="34" WC="0.96" CONTENT="shopping"/><SP WIDTH="24" VPOS="1087" HPOS="617"/>
+							<String ID="string_55" HPOS="641" VPOS="1087" WIDTH="81" HEIGHT="27" WC="0.95" CONTENT="with"/><SP WIDTH="28" VPOS="1087" HPOS="722"/>
+							<String ID="string_56" HPOS="750" VPOS="1095" WIDTH="36" HEIGHT="19" WC="0.95" CONTENT="us"/>
+						</TextLine>
+						<TextLine ID="line_18" HPOS="127" VPOS="1134" WIDTH="691" HEIGHT="34">
+							<String ID="string_57" HPOS="127" VPOS="1134" WIDTH="122" HEIGHT="34" WC="0.95" CONTENT="Sample"/><SP WIDTH="29" VPOS="1134" HPOS="249"/>
+							<String ID="string_58" HPOS="278" VPOS="1134" WIDTH="139" HEIGHT="34" WC="0.92" CONTENT="receipt"/><SP WIDTH="30" VPOS="1134" HPOS="417"/>
+							<String ID="string_59" HPOS="447" VPOS="1150" WIDTH="9" HEIGHT="3" WC="0.92" CONTENT="-"/><SP WIDTH="30" VPOS="1150" HPOS="456"/>
+							<String ID="string_60" HPOS="486" VPOS="1137" WIDTH="57" HEIGHT="24" WC="0.96" CONTENT="not"/><SP WIDTH="26" VPOS="1137" HPOS="543"/>
+							<String ID="string_61" HPOS="569" VPOS="1142" WIDTH="16" HEIGHT="19" WC="0.96" CONTENT="a"/><SP WIDTH="31" VPOS="1142" HPOS="585"/>
+							<String ID="string_62" HPOS="616" VPOS="1134" WIDTH="75" HEIGHT="27" WC="0.96" CONTENT="real"/><SP WIDTH="28" VPOS="1134" HPOS="691"/>
+							<String ID="string_63" HPOS="719" VPOS="1137" WIDTH="99" HEIGHT="24" WC="0.96" CONTENT="store"/>
+						</TextLine>
+					</TextBlock>
+				</ComposedBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

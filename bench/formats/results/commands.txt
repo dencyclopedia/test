@@ -1,0 +1,25 @@
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt 
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-hocr hocr
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-tsv tsv
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-alto alto
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-page page
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-box makebox
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-pdf pdf
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-textonly -c textonly_pdf=1 pdf
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-wrong textonly_pdf
+read_params_file: Can't open textonly_pdf
+exit=0
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/receipt-all txt hocr tsv alto pdf
+exit=0
+--- with --tessdata-dir /opt/tessdata/tessdata (no configs/ folder)
+$ tesseract corpus/receipt/receipt01_dejavu-mono.png out/noconfigs --tessdata-dir /opt/tessdata/tessdata -l eng hocr
+read_params_file: Can't open hocr
+exit=0

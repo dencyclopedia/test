@@ -1,0 +1,16 @@
+Page segmentation modes (PSM):
+  0|osd_only                Orientation and script detection (OSD) only.
+  1|auto_osd                Automatic page segmentation with OSD.
+  2|auto_only               Automatic page segmentation, but no OSD, or OCR. (not implemented)
+  3|auto                    Fully automatic page segmentation, but no OSD. (Default)
+  4|single_column           Assume a single column of text of variable sizes.
+  5|single_block_vert_text  Assume a single uniform block of vertically aligned text.
+  6|single_block            Assume a single uniform block of text.
+  7|single_line             Treat the image as a single text line.
+  8|single_word             Treat the image as a single word.
+  9|circle_word             Treat the image as a single word in a circle.
+ 10|single_char             Treat the image as a single character.
+ 11|sparse_text             Sparse text. Find as much text as possible in no particular order.
+ 12|sparse_text_osd         Sparse text with OSD.
+ 13|raw_line                Raw line. Treat the image as a single text line,
+                            bypassing hacks that are Tesseract-specific.

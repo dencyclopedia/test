@@ -1,0 +1,16 @@
+List of available languages in "/opt/tessdata/tessdata/" (15):
+ara
+chi_sim
+deu
+eng
+fra
+hin
+ita
+jpn
+kor
+osd
+por
+rus
+spa
+uzb
+vie
