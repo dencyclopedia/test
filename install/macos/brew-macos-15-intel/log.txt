@@ -1,0 +1,44 @@
+{"os": "macOS 15.7.9 (24G830)", "arch": "x86_64",
+ "cpu": "Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz", "cores": 4, "runner_image": "macos15 20260824.0482.1",
+ "brew": "Homebrew 6.0.18", "date_utc": "2026-11-18T06:59:31Z", "run": "https://github.com/dencyclopedia/test/actions/runs/44255392057", "git_sha": "af83693bda5440f838680f3f5e884b72c7c6d2ac"}
+which tesseract before: not found
+brew prefix: /usr/local
+brew deps tesseract (recursive) count: 37
+direct dependencies: 10 ['cairo', 'fontconfig', 'glib', 'harfbuzz', 'icu4c@78', 'leptonica', 'libarchive', 'pango', 'freetype', 'gettext'] stable 5.5.3 bottle ['sonoma']
+deps already installed on the runner: 29 (cairo fontconfig freetype gettext giflib glib graphite2 harfbuzz icu4c@78 jpeg-turbo json-c libpng libtiff libunistring libx11 libxau libxcb libxdmcp libxext libxrender little-cms2 lz4 lzo pcre2 pixman webp xorgproto xz zstd )
+brew update seconds: 345
+free_kb_before 112816076
+macos-terminal-01-brew-install-tesseract: finished=NO-timeout wall_seconds=1801
+  window shot macos-terminal-01-brew-install-tesseract.png (id 31)
+  desktop shot macos-terminal-01-brew-install-tesseract-desktop.png
+free_kb_after 112046356
+installed now: 140 formulae
+du: /usr/local/opt/tesseract/: No such file or directory
+du: /usr/local/Cellar/tesseract: No such file or directory
+du: /usr/local/share/tessdata: No such file or directory
+tessdata dir: ls: /usr/local/share/tessdata/: No such file or directory
+macos-terminal-02-version: finished=yes wall_seconds=2
+  window shot macos-terminal-02-version.png (id 38)
+  desktop shot macos-terminal-02-version-desktop.png
+macos-terminal-03-ocr-receipt: finished=yes wall_seconds=2
+  window shot macos-terminal-03-ocr-receipt.png (id 43)
+  desktop shot macos-terminal-03-ocr-receipt-desktop.png
+macos-terminal-04-error-missing-language: finished=yes wall_seconds=2
+  window shot macos-terminal-04-error-missing-language.png (id 48)
+  desktop shot macos-terminal-04-error-missing-language-desktop.png
+macos-terminal-05-brew-install-tesseract-lang: finished=yes wall_seconds=39
+  window shot macos-terminal-05-brew-install-tesseract-lang.png (id 53)
+  desktop shot macos-terminal-05-brew-install-tesseract-lang-desktop.png
+du: /usr/local/opt/tesseract-lang/: No such file or directory
+du: /usr/local/Cellar/tesseract-lang: No such file or directory
+macos-terminal-06-ocr-french-after-lang: finished=yes wall_seconds=2
+  window shot macos-terminal-06-ocr-french-after-lang.png (id 58)
+  desktop shot macos-terminal-06-ocr-french-after-lang-desktop.png
+free_kb_after_lang 110818468
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: /private/tmp/venv/bin/python3.15 -m pip install --upgrade pip
+macos-terminal-07-error-pytesseract-not-found: finished=yes wall_seconds=2
+  window shot macos-terminal-07-error-pytesseract-not-found.png (id 63)
+  desktop shot macos-terminal-07-error-pytesseract-not-found-desktop.png
+done

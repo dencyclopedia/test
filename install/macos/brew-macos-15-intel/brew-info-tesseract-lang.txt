@@ -1,0 +1,13 @@
+[32m==>[0m [1mtesseract-lang[0m: stable 4.1.0 (bottled)
+Enables extra languages support for Tesseract
+[4mhttps://github.com/tesseract-ocr/tessdata_fast/[24m
+Not installed
+Bottle Size: 344.9MB
+From: [4mhttps://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/t/tesseract-lang.rb[24m
+License: Apache-2.0
+[34m==>[0m [1mDependencies[0m
+Required (1): tesseract
+[34m==>[0m [1mAnalytics[0m
+install: 3,303 (30 days), 10,574 (90 days), 66,124 (365 days)
+install-on-request: 3,303 (30 days), 10,573 (90 days), 66,039 (365 days)
+build-error: 0 (30 days)

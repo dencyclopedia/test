@@ -1,0 +1,2 @@
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % tesseract samples/receipt.png -
+/tmp/macos-terminal-03-ocr-receipt.command:6: command not found: tesseract

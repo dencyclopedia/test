@@ -1,0 +1,91 @@
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % export HOMEBREW_NO_AUTO_UPDATE=1
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % time brew install tesseract-lang
+::warning::You are using macOS on Intel x86_64.%0AWe do not provide support for this platform (as-of September 2026, announced August 2025).%0A%0AApple have dropped Intel x86_64 support in macOS Golden Gate (27).%0AGitHub Actions are dropping macOS Intel x86_64 runners in 2027.%0AHomebrew is a non-profit project run entirely by volunteers, not employees.%0AIf the biggest companies in the world cannot support macOS Intel x86_64%0Aany longer, sadly neither can we.%0A%0AHomebrew no longer builds bottles for this configuration.%0AConsider MacPorts, which provides binary packages for this macOS version:%0A  https://www.macports.org
+
+[32m==>[0m [1mDownloading bottle manifests[0m
+✔︎ Bottle Manifest tesseract-lang (4.1.0)
+[34m==>[0m [1mWould install 1 formula:[0m
+tesseract-lang 4.1.0
+[34m==>[0m [1mWould install 16 dependencies for tesseract-lang:[0m
+icu4c@79               79.1
+gobject-introspection  1.86.0_6
+nasm                   3.02
+fmt                    12.2.1
+spdlog                 1.17.0
+doxygen                1.18.0
+openjpeg               2.5.4_1
+leptonica              1.87.0
+libb2                  0.98.1
+libarchive             3.8.11
+help2man               1.49.3_5
+fribidi                1.0.18
+libdatrie              0.2.14
+libthai                0.1.30
+pango                  1.58.2
+tesseract              5.5.4
+[34m==>[0m [1mWould upgrade 6 dependencies for tesseract-lang:[0m
+libx11       1.8.13 -> 1.8.14
+libxrender   0.9.12 -> 0.9.13
+cairo        1.18.4 -> 1.18.6
+harfbuzz     14.3.1 -> 15.1.0
+jpeg-turbo   3.2.0  -> 3.2.1
+little-cms2  2.19   -> 2.20
+[32m==>[0m [1mFetching downloads for: [32mtesseract-lang[39m[0m
+✔︎ API Source libx11.rb
+✔︎ Formula libx11 (1.8.14)
+✔︎ API Source libxrender.rb
+✔︎ Formula libxrender (0.9.13)
+✔︎ API Source cairo.rb
+✔︎ Formula cairo (1.18.6)
+✔︎ API Source icu4c@79.rb
+✔︎ Formula icu4c@79 (79.1)
+✔︎ API Source gobject-introspection.rb
+✔︎ Resource gobject-introspection--mako
+✔︎ Resource gobject-introspection--markdown
+✔︎ Resource gobject-introspection--markupsafe
+✔︎ Resource gobject-introspection--setuptools
+✔︎ Formula gobject-introspection (1.86.0)
+✔︎ API Source harfbuzz.rb
+✔︎ Formula harfbuzz (15.1.0)
+✔︎ API Source jpeg-turbo.rb
+✔︎ Formula jpeg-turbo (3.2.1)
+✔︎ API Source little-cms2.rb
+✔︎ Formula little-cms2 (2.20)
+✔︎ API Source fmt.rb
+✔︎ Formula fmt (12.2.1)
+✔︎ API Source openjpeg.rb
+✔︎ Patch 91d08b11a72764f6d199f32fa0c1b1abd4edc2ad.patch?full_index=1
+✔︎ Patch 839936aa33eb8899bbbd80fda02796bb65068951.patch?full_index=1
+✔︎ Formula openjpeg (2.5.4)
+✔︎ API Source libarchive.rb
+✔︎ Formula libarchive (3.8.11)
+✔︎ API Source fribidi.rb
+✔︎ Formula fribidi (1.0.18)
+✔︎ Bottle nasm (3.02)
+✔︎ API Source pango.rb
+✔︎ Bottle spdlog (1.17.0)
+✔︎ Formula pango (1.58.2)
+✔︎ API Source tesseract.rb
+✔︎ Resource tesseract--eng
+✔︎ Resource tesseract--osd
+✔︎ Formula tesseract (5.5.4)
+✔︎ Bottle doxygen (1.18.0)
+✔︎ Bottle leptonica (1.87.0)
+✔︎ Bottle help2man (1.49.3_5)
+✔︎ Bottle libb2 (0.98.1)
+✔︎ Bottle libdatrie (0.2.14)
+✔︎ Bottle libthai (0.1.30)
+✔︎ Bottle tesseract-lang (4.1.0)
+::error::tesseract-lang: A `brew install tesseract-lang` process has already locked /usr/local/Cellar/cmake.%0APlease wait for it to finish or terminate it to continue.%0A
+
+This is a Tier 3 configuration:
+  [4mhttps://docs.brew.sh/Support-Tiers#tier-3[24m
+[1mYou can report issues with Tier 3 configurations to Homebrew/* repositories![0m
+  
+Read the above document before opening any issues or PRs.
+brew install tesseract-lang  25.68s user 9.19s system 96% cpu 36.154 total
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % tesseract --list-langs | head -5
+/tmp/macos-terminal-05-brew-install-tesseract-lang.command:10: command not found: tesseract
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % tesseract --list-langs | tail -n +2 | wc -l
+/tmp/macos-terminal-05-brew-install-tesseract-lang.command:12: command not found: tesseract
+       0

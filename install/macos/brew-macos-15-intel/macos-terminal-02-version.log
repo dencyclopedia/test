@@ -1,0 +1,6 @@
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % which tesseract
+tesseract not found
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % tesseract --version
+/tmp/macos-terminal-02-version.command:8: command not found: tesseract
+[32mrunner@sjc20-cw752-a4bc38da-fb80-4a6f-afc9-a62c8d2d4cdf-92CA8A8C90CD[39m [34m~[39m % tesseract --list-langs
+/tmp/macos-terminal-02-version.command:10: command not found: tesseract
