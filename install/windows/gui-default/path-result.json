@@ -3,9 +3,11 @@
   "machine": false,
   "user": false
  },
- "path_fixed_by": "FALLBACK: registry write of system Path + WM_SETTINGCHANGE broadcast (GUI edit failed, see log)",
+ "system_path_length_chars": 2508,
+ "user_path_length_chars": 103,
+ "path_fixed_by": "Environment Variables dialog (user Path), driven with pywinauto",
  "registry_path_has_tesseract_after_fix": {
-  "machine": true,
-  "user": false
+  "machine": false,
+  "user": true
  }
 }

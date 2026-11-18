@@ -1,6 +1,6 @@
 {
   "pm": "choco",
-  "install_seconds": 20.0,
+  "install_seconds": 15.1,
   "install_exit": 0,
   "install_dir": "C:\\Program Files\\Tesseract-OCR",
   "installed_bytes": 116376959.0,
@@ -8,7 +8,7 @@
     "eng.traineddata",
     "osd.traineddata"
   ],
-  "free_space_delta_bytes": 228798464,
+  "free_space_delta_bytes": 212017152,
   "path_entries_added": [
     "C:\\Program Files\\Tesseract-OCR"
   ],
