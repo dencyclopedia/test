@@ -1,4 +1,4 @@
-captured 2026-11-18T06:51:30Z
+captured 2026-11-18T06:53:35Z
 == releases (tag, prerelease, draft, published, assets) ==
 v5.4.0.20240606	pre=false	draft=false	2024-06-08T15:27:15Z	tesseract-ocr-w64-setup-5.4.0.20240606.exe (50175248 B, 2024-06-18T08:57:40Z)
 3.05.02-20180621	pre=false	draft=false	2018-06-21T15:55:04Z	
@@ -122,7 +122,7 @@ Not Found
 2026-11-15T19:01:31Z b916d6e00b lstm: avoid a linear search in NetworkScratch::Stack::Return
 2026-11-15T19:00:55Z e6f09a3772 dawg: limit the number of positions in a DawgPositionVector
 == wiki ==
-wiki http bytes: 168838
+wiki http bytes: 168852
 ---- text ----
 
  Tesseract at UB Mannheim 
@@ -343,11 +343,46 @@ tesseract-ocr-w64-setup-v5.2.0.20220708.exe | 2022-07-08 20:00 | 53M
 tesseract-ocr-w64-setup-v5.2.0.20220712.exe | 2022-07-12 14:26 | 54M
 tesseract-ocr-w64-setup-v5.3.0.20221214.exe | 2022-12-14 19:29 | 51M
 == download + sha256 of current w64/w32 candidates ==
+== upstream tesseract-ocr/tesseract releases with Windows installer assets ==
+5.5.4	pre=false	2026-10-28T11:19:43Z	
+5.5.3	pre=false	2026-07-24T18:33:22Z	tesseract-ocr-w64-setup-5.5.3.20260724.exe (26573224 B, uploaded 2026-07-24T20:14:41Z, downloads 562782, digest sha256:bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4)
+5.5.2	pre=false	2025-12-26T17:32:31Z	
+5.5.1	pre=false	2025-05-25T09:53:48Z	
+5.5.0	pre=false	2024-11-10T19:29:48Z	tesseract-ocr-w64-setup-5.5.0.20241111.exe (21381872 B, uploaded 2024-11-11T07:53:32Z, downloads 4073901, digest n/a)
+5.4.1	pre=false	2024-06-11T18:25:20Z	
+5.4.0	pre=false	2024-06-06T13:35:20Z	
+5.4.0-rc2	pre=true	2024-05-19T10:02:04Z	
+5.4.0-rc1	pre=true	2024-05-12T13:46:44Z	
+5.3.4	pre=false	2024-01-18T09:12:03Z	
+5.3.3	pre=false	2023-10-05T19:05:14Z	
+5.3.2	pre=false	2023-07-11T11:58:19Z	
+5.3.1	pre=false	2023-04-01T19:55:17Z	
+5.3.0	pre=false	2022-12-22T14:16:22Z	
+5.3.0-rc1	pre=true	2022-12-13T21:42:21Z	
+5.2.0	pre=false	2022-07-06T20:22:26Z	
+5.1.0	pre=false	2022-03-01T16:33:53Z	
+5.0.1	pre=false	2022-01-07T12:48:14Z	
+5.0.0	pre=false	2021-11-30T17:53:43Z	
+5.0.0-rc3	pre=false	2021-11-22T21:09:11Z	
+4.1.3	pre=false	2021-11-15T17:36:40Z	
+5.0.0-rc2	pre=false	2021-11-14T19:10:13Z	
+4.1.2	pre=false	2021-11-14T19:42:02Z	
+5.0.0-rc1	pre=false	2021-10-29T20:43:28Z	
+5.0.0-beta-20210916	pre=true	2021-09-16T04:48:35Z	
+5.0.0-beta-20210815	pre=true	2021-08-15T15:12:21Z	
+5.0.0-alpha-20210401	pre=true	2021-04-01T20:23:57Z	
+5.0.0-alpha-20201231	pre=true	2020-12-31T18:52:20Z	
+5.0.0-alpha-20201224	pre=true	2020-12-24T08:37:16Z	
+4.1.1	pre=false	2019-12-26T15:43:01Z	
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.4.0.20240606.exe
 https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe
-https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe
+https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
 file	bytes	sha256	source_url
+tesseract-ocr-w64-setup-5.4.0.20240606.exe	50175248	c885fff6998e0608ba4bb8ab51436e1c6775c2bafc2559a19b423e18678b60c9	https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-5.4.0.20240606.exe
 tesseract-ocr-w64-setup-5.4.0.20240606.exe	50175248	c885fff6998e0608ba4bb8ab51436e1c6775c2bafc2559a19b423e18678b60c9	https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe
-tesseract-ocr-w64-setup-v5.3.0.20221214.exe	53398368	175a326853f87474132c284072a821dd819c63b707b01879b309f80bd6c0ab1e	https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+tesseract-ocr-w64-setup-5.5.0.20241111.exe	21381872	f3fc4236425b690c8be756f35793f77394ee004be0a6460a440c754d892f68bc	https://github.com/tesseract-ocr/tesseract/releases/download/5.5.0/tesseract-ocr-w64-setup-5.5.0.20241111.exe
+tesseract-ocr-w64-setup-5.5.3.20260724.exe	26573224	bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4	https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
 == Authenticode / version info of downloads ==
 --- dl/tesseract-ocr-w64-setup-5.4.0.20240606.exe
 Signer's certificate:
@@ -358,12 +393,21 @@ Signer's certificate:
 	Signer #2:
 		Subject: /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
 		Issuer : /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
---- dl/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+--- dl/tesseract-ocr-w64-setup-5.5.0.20241111.exe
 Signer's certificate:
 	Signer #0:
 		Subject: /C=DE/ST=Baden-W\xC3\xBCrttemberg/O=Universit\xC3\xA4t Mannheim/CN=Universit\xC3\xA4t Mannheim
 		Issuer : /C=NL/O=GEANT Vereniging/CN=GEANT Code Signing CA 4
-	Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Time Stamping CA
-	Signer #2:
+	Issuer: /C=GB/O=Sectigo Limited/CN=Sectigo Public Time Stamping CA R36
+	Signer #3:
 		Subject: /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
 		Issuer : /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
+--- dl/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+Signer's certificate:
+	Signer #0:
+		Subject: /C=DE/ST=Baden-W\xC3\xBCrttemberg/O=Universit\xC3\xA4t Mannheim/CN=Universit\xC3\xA4t Mannheim
+		Issuer : /C=NL/O=GEANT Vereniging/CN=GEANT Code Signing CA 4
+	Issuer: /C=DE/O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V./OU=DFN-PKI/CN=DFN-Verein Community Issuing CA 2022
+	Signer #2:
+		Subject: /C=DE/O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V./OU=DFN-PKI/CN=DFN-Verein Community Root CA 2022
+		Issuer : /C=DE/O=Verein zur Foerderung eines Deutschen Forschungsnetzes e. V./OU=DFN-PKI/CN=DFN-Verein Community Root CA 2022
