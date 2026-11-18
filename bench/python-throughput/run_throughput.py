@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.join(HERE, "..", "..", "tools"))
 import metrics  # noqa: E402
 
 TD = os.environ.get("TESSDATA_DIR", "/opt/tessdata/tessdata_fast")
+BUDGET_S = int(os.environ.get("BUDGET_S", "600"))
 
 
 def pyt_one(path):
@@ -107,17 +108,20 @@ def main():
         import signal
 
         def _alarm(*_):
-            raise TimeoutError("strategy took longer than 900 s")
+            raise TimeoutError
         signal.signal(signal.SIGALRM, _alarm)
-        signal.alarm(900 * (a.runs + 1))
+        signal.alarm(BUDGET_S)  # whole strategy (warm-up + runs); OMP-unset strategies can be pathologically slow
+        ts, t0 = [], time.perf_counter()
         try:
             texts = fn()  # warm-up
-            ts = []
             for _ in range(a.runs):
                 t = time.perf_counter(); fn(); ts.append(time.perf_counter() - t)
-        except TimeoutError as e:
-            rows.append({"strategy": name, "status": "timed out", "error": str(e)})
+        except TimeoutError:
+            rows.append({"strategy": name, "omp_thread_limit": "unset" if o.get("unset_omp") else "1", "images": n,
+                         "status": f"stopped after {BUDGET_S} s budget", "completed_timed_runs_s": [round(x, 3) for x in ts],
+                         "elapsed_s": round(time.perf_counter() - t0, 1)})
             print(json.dumps(rows[-1]), flush=True)
+            subprocess.run(["pkill", "-x", "tesseract"], capture_output=True)
             continue
         finally:
             signal.alarm(0)
