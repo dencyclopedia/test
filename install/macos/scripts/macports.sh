@@ -28,12 +28,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 port version || { echo "RESULT: port not usable"; exit 0; }
 s=$(date +%s); sudo port -N selfupdate; echo "selfupdate seconds: $(( $(date +%s)-s ))"
 port info tesseract; port search --name --glob 'tesseract-*' | grep -c '^tesseract-' | sed 's/^/language ports found: /'
-s=$(date +%s); timeout 1800 sudo port -N install tesseract; rc=$?; echo "port install tesseract exit=$rc seconds: $(( $(date +%s)-s ))"
+s=$(date +%s); perl -e 'alarm shift; exec @ARGV' 1800 sudo port -N install tesseract; rc=$?; echo "port install tesseract exit=$rc seconds: $(( $(date +%s)-s ))"
 port installed | head -80 > "$OUT/macports-installed.txt"
 echo "ports installed: $(port installed | tail -n +2 | wc -l)"
 du -sh /opt/local 2>/dev/null
 /opt/local/bin/tesseract --version 2>&1; /opt/local/bin/tesseract --list-langs 2>&1
 /opt/local/bin/tesseract samples/receipt.png - 2>&1 | head -5
-s=$(date +%s); timeout 600 sudo port -N install tesseract-eng; echo "port install tesseract-eng exit=$? seconds: $(( $(date +%s)-s ))"
+s=$(date +%s); perl -e 'alarm shift; exec @ARGV' 600 sudo port -N install tesseract-eng; echo "port install tesseract-eng exit=$? seconds: $(( $(date +%s)-s ))"
 /opt/local/bin/tesseract --list-langs 2>&1
 /opt/local/bin/tesseract samples/receipt.png - 2>&1 | head -5

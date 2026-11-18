@@ -1,5 +1,5 @@
 name: install-macports
-# MacPorts is not preinstalled on GitHub's macOS runners: install the official .pkg, then port install tesseract.
+# MacPorts is not preinstalled on GitHub's macOS runners: install the official .pkg, then port install tesseract. (rev 2)
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
