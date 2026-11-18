@@ -1,0 +1,103 @@
+name: install-windows
+# Windows install captures on windows-latest (Windows Server 2025 Datacenter, build 26100):
+# UB Mannheim installer GUI walkthrough (default components / all languages), PATH problem + fix,
+# real error messages, and winget / choco / scoop installs.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/install-windows.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+defaults:
+  run:
+    shell: pwsh
+jobs:
+  gui:
+    runs-on: windows-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        mode: [default, all]
+    env:
+      CAP_OUT: ${{ github.workspace }}\out\gui-${{ matrix.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare
+        run: |
+          New-Item -ItemType Directory -Force $env:CAP_OUT | Out-Null
+          $os = Get-CimInstance Win32_OperatingSystem
+          [ordered]@{ os = $os.Caption; version = $os.Version; build = $os.BuildNumber; cpu = (Get-CimInstance Win32_Processor).Name; cores = [Environment]::ProcessorCount;
+            runner_image = "$env:ImageOS $env:ImageVersion"; screen = $(Add-Type -AssemblyName System.Windows.Forms; "$([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Width)x$([System.Windows.Forms.Screen]::PrimaryScreen.Bounds.Height)");
+            date_utc = (Get-Date -AsUTC -Format s) + 'Z'; run = "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; git_sha = "${{ github.sha }}" } | ConvertTo-Json | Set-Content "$env:CAP_OUT\meta.json"
+          python -m pip install --quiet pywinauto==0.6.9 pillow pytesseract 2>&1 | Out-String | Add-Content "$env:CAP_OUT\pip.txt"
+          python -m pip show pywinauto pytesseract pillow | Select-String '^(Name|Version)' | Out-String | Add-Content "$env:CAP_OUT\pip.txt"
+      - name: Download installer (link from the UB Mannheim wiki)
+        run: |
+          $log = "$env:CAP_OUT\download.txt"
+          $wiki = (Invoke-WebRequest https://raw.githubusercontent.com/wiki/UB-Mannheim/tesseract/Home.md).Content
+          $url = ([regex]::Matches($wiki, 'https://[^\s\)\]]*w64-setup[^\s\)\]]*\.exe') | Select -First 1).Value
+          "wiki installer link: $url" | Tee-Object -Append $log
+          if (-not $url) { $url = ((Invoke-RestMethod https://api.github.com/repos/UB-Mannheim/tesseract/releases/latest).assets | Where-Object name -like '*w64-setup*.exe' | Select -First 1).browser_download_url; "FALLBACK (no wiki link found) GitHub latest: $url" | Tee-Object -Append $log }
+          $sw = [Diagnostics.Stopwatch]::StartNew(); Invoke-WebRequest $url -OutFile setup.exe; $sw.Stop()
+          $f = Get-Item setup.exe
+          "file: $(Split-Path $url -Leaf)`nbytes: $($f.Length)`nsha256: $((Get-FileHash setup.exe).Hash.ToLower())`ndownload seconds (runner network): $([math]::Round($sw.Elapsed.TotalSeconds,1))" | Tee-Object -Append $log
+          $sig = Get-AuthenticodeSignature setup.exe
+          "authenticode: $($sig.Status) signer: $($sig.SignerCertificate.Subject) timestamp: $($sig.TimeStamperCertificate.Subject)" | Tee-Object -Append $log
+          $v = $f.VersionInfo; "file version: $($v.FileVersion) product: $($v.ProductName) $($v.ProductVersion) company: $($v.CompanyName)" | Tee-Object -Append $log
+          $bytes = [IO.File]::ReadAllBytes("$PWD\setup.exe"); $txt = [Text.Encoding]::ASCII.GetString($bytes)
+          "manifest: $(([regex]::Match($txt, 'requestedExecutionLevel[^>]*>')).Value)" | Tee-Object -Append $log
+          "where tesseract before: $((where.exe tesseract 2>&1) -join ' ')" | Tee-Object -Append $log
+          Copy-Item setup.exe "$env:TEMP\$(Split-Path $url -Leaf)"; "$env:TEMP\$(Split-Path $url -Leaf)" | Set-Content installer-path.txt
+      - name: GUI walkthrough
+        run: |
+          $exe = Get-Content installer-path.txt
+          python install\windows\scripts\gui_install.py $exe ${{ matrix.mode }}
+      - name: PATH problem, fix and errors
+        if: matrix.mode == 'default'
+        run: python install\windows\scripts\path_demo.py
+      - name: Final desktop
+        if: always()
+        run: python -c "import sys; sys.path.insert(0, r'install\windows\scripts'); from wincap import shot; shot('windows-final-desktop')"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'windows-gui-${{ matrix.mode }}', path: 'out/gui-${{ matrix.mode }}' }
+  pm:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        pm: [winget, choco, scoop]
+    env:
+      CAP_OUT: ${{ github.workspace }}\out\${{ matrix.pm }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install with ${{ matrix.pm }}
+        run: ./install/windows/scripts/pm.ps1 -pm ${{ matrix.pm }} -out $env:CAP_OUT
+      - name: Fresh console screenshot
+        if: always()
+        run: |
+          python -m pip install --quiet pillow
+          python install\windows\scripts\fresh_console_shot.py windows-${{ matrix.pm }}-fresh-console "tesseract --list-langs"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'windows-${{ matrix.pm }}', path: 'out/${{ matrix.pm }}' }
+  collect:
+    needs: [gui, pm]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'windows-*', path: dl }
+      - name: Commit
+        run: |
+          for d in dl/windows-*; do n=${d#dl/windows-}; rm -rf install/windows/$n; mv $d install/windows/$n; done
+          echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > install/windows/RUN.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add install/windows
+          git commit -q -m "Windows install captures (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
+        shell: bash
