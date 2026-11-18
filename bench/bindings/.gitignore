@@ -1,0 +1,7 @@
+cpp/harness
+go/harness
+java/target/
+dotnet/bin/
+dotnet/obj/
+node/node_modules/
+__pycache__/

@@ -1,0 +1,70 @@
+name: bench-api
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/api/**'
+      - '!bench/api/results/**'
+      - 'bench/train/build-tesseract.sh'
+      - '.github/workflows/bench-api.yml'
+  workflow_dispatch:
+    inputs:
+      parts:
+        description: parts to run
+        default: 'host docker sizes curl'
+permissions:
+  contents: write
+concurrency:
+  group: bench-api
+  cancel-in-progress: true
+jobs:
+  api:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      PARTS: ${{ github.event.inputs.parts || 'host docker sizes curl' }}
+      TESSDATA_PREFIX: /opt/tessdata/tessdata_fast
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare engine dir
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 + fetch pinned models
+        run: bash bench/train/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Python env
+        run: |
+          sudo apt-get install -y -qq --no-install-recommends fonts-liberation fonts-dejavu-core >/dev/null
+          python3 -m venv ~/venv && ~/venv/bin/pip install -q -r bench/api/requirements.txt httpx numpy
+          echo "$HOME/venv/bin" >> "$GITHUB_PATH"
+          echo "/opt/tess554/bin" >> "$GITHUB_PATH"
+      - name: API bench
+        run: PY=$HOME/venv/bin/python bash bench/api/run_api.sh "$RUNNER_TEMP/api" bench/api/results
+      - name: meta.json
+        if: always()
+        run: |
+          mkdir -p bench/api/results
+          ~/venv/bin/pip freeze > bench/api/results/pip-freeze-host.txt
+          docker version --format '{{.Server.Version}}' > bench/api/results/docker-version.txt 2>&1 || true
+          python3 bench/train/meta.py bench/api/results/meta.json \
+            host_server='"uvicorn app:app (one uvicorn worker) on the runner, tesseract 5.5.4 (built from tag), eng tessdata_fast"' \
+            docker_claim_test='"the /api/ page Dockerfile, verbatim (apt tesseract of the python:3.12-slim base), with and without ENV OMP_THREAD_LIMIT=1"' \
+            load_client='"bench/api/loadtest.py (httpx AsyncClient) on the same runner"'
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/api/results
+          git commit -q -m "bench/api: results from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done

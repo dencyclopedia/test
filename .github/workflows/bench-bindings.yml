@@ -1,0 +1,120 @@
+name: bench-bindings
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/bindings/**'
+      - '!bench/bindings/results/**'
+      - 'bench/python-throughput/*.py'
+      - 'bench/train/build-tesseract.sh'
+      - '.github/workflows/bench-bindings.yml'
+  workflow_dispatch:
+    inputs:
+      passes:
+        description: timed passes (after 1 warm-up)
+        default: '5'
+permissions:
+  contents: write
+concurrency:
+  group: bench-bindings
+  cancel-in-progress: true
+env:
+  PASSES: ${{ github.event.inputs.passes || '5' }}
+  OMP_THREAD_LIMIT: '1'
+  TESSDATA_PREFIX: /opt/tessdata/tessdata_fast
+jobs:
+  bindings:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare engine dir
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 + fetch pinned models
+        run: bash bench/train/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.7'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Toolchains + images
+        run: |
+          echo "/opt/tess554/bin" >> "$GITHUB_PATH"
+          export PATH=/opt/tess554/bin:$PATH
+          sudo apt-get install -y -qq --no-install-recommends time fonts-liberation fonts-dejavu-core >/dev/null
+          python3 -m venv ~/venv && ~/venv/bin/pip install -q pytesseract tesserocr pillow numpy
+          # second venv: tesserocr built from source against /opt/tess554 (5.5.4 + system leptonica 1.82)
+          python3 -m venv ~/venv-src && PKG_CONFIG_PATH=/opt/tess554/lib/pkgconfig ~/venv-src/bin/pip install -q --no-binary tesserocr tesserocr pytesseract pillow
+          ~/venv/bin/python bench/bindings/make_images.py "$RUNNER_TEMP/img"
+          mkdir -p "$RUNNER_TEMP/tjs" && curl -fsSL https://cdn.jsdelivr.net/npm/@tesseract.js-data/eng/4.0.0_best_int/eng.traineddata.gz | gunzip > "$RUNNER_TEMP/tjs/eng.traineddata"
+      - name: Build harnesses (C++, Go, Java, .NET, Node)
+        run: |
+          mkdir -p bench/bindings/results/build
+          L=bench/bindings/results/build
+          g++ -O2 -std=c++17 -o bench/bindings/cpp/harness bench/bindings/cpp/harness.cpp -I/opt/tess554/include -L/opt/tess554/lib -Wl,-rpath,/opt/tess554/lib -ltesseract -llept 2>&1 | tee $L/cpp.log
+          (cd bench/bindings/go && CGO_CPPFLAGS=-I/opt/tess554/include CGO_LDFLAGS="-L/opt/tess554/lib -Wl,-rpath,/opt/tess554/lib" go build -o harness . ) 2>&1 | tee $L/go.log
+          (cd bench/bindings/go && go list -m all) > $L/go-modules.txt
+          # Tess4J: newest release first (record what happens with Ubuntu 24.04's leptonica 1.82), then 5.14.0
+          (cd bench/bindings/java && mvn -q -B package -DskipTests -Dtess4j.version=5.16.0 && ls target/lib) > $L/tess4j-5.16.0-build.log 2>&1
+          (cd "$RUNNER_TEMP/img" && java -Djna.library.path=/opt/tess554/lib -cp "$GITHUB_WORKSPACE/bench/bindings/java/target/classes:$GITHUB_WORKSPACE/bench/bindings/java/target/lib/*" bench.Harness /opt/tessdata/tessdata_fast eng default 1 tiny.png img-01.png) > $L/tess4j-5.16.0-run.log 2>&1 || true
+          (cd bench/bindings/java && rm -rf target && mvn -q -B package -DskipTests -Dtess4j.version=5.14.0 && ls target/lib) > $L/tess4j-5.14.0-build.log 2>&1
+          (cd bench/bindings/node && npm install --no-audit --no-fund && npm ls --all) > $L/node.log 2>&1
+          # .NET: Tesseract NuGet 5.2.0 + the Linux symlink fix from tesseractocr.org/csharp/
+          (cd bench/bindings/dotnet && dotnet build -c Release 2>&1 | tail -3) | tee $L/dotnet-build.log
+          O=bench/bindings/dotnet/bin/Release/net8.0
+          ls -la $O $O/x64 2>&1 >> $L/dotnet-build.log || true
+          (cd "$RUNNER_TEMP/img" && "$GITHUB_WORKSPACE/$O/harness" /opt/tessdata/tessdata_fast eng default 1 tiny.png img-01.png) > $L/dotnet-before-symlinks.log 2>&1 || true
+          mkdir -p $O/x64
+          ln -sf /usr/lib/x86_64-linux-gnu/liblept.so.5 $O/x64/libleptonica-1.82.0.so
+          ln -sf /opt/tess554/lib/libtesseract.so.5 $O/x64/libtesseract50.so
+          ln -sf /usr/lib/x86_64-linux-gnu/libdl.so.2 $O/libdl.so
+          ls -la $O/x64 >> $L/dotnet-build.log
+      - name: Run bindings
+        run: |
+          PYBIN=$HOME/venv/bin/python PY_TESSEROCR_SRC=$HOME/venv-src/bin/python TJS_MODEL_DIR="$RUNNER_TEMP/tjs" \
+            python3 bench/bindings/run_bindings.py "$RUNNER_TEMP/img" bench/bindings/results --passes "$PASSES"
+      - name: Versions matrix (registry APIs)
+        if: always()
+        run: python3 bench/bindings/versions.py bench/bindings/results/versions.json
+      - name: Python throughput
+        run: |
+          ~/venv/bin/python bench/python-throughput/run_throughput.py "$RUNNER_TEMP/img" bench/python-throughput/results/throughput.json --runs "$PASSES"
+      - name: meta.json
+        if: always()
+        run: |
+          for d in bench/bindings/results bench/python-throughput/results; do
+            mkdir -p $d
+            python3 bench/train/meta.py $d/meta.json \
+              input='"synthetic: 10 images 2481x1170 px 300 DPI (Pride and Prejudice, Liberation Serif 11pt, seeded scan noise) + tiny.png (one word)"' \
+              model='"eng from tessdata_fast (pinned commit) unless a row says otherwise"' omp_thread_limit='"1"' passes="$PASSES" \
+              toolchains="\"$(go version) | node $(node --version) | $(java -version 2>&1 | head -1) | dotnet $(dotnet --version) | $(g++ --version | head -1)\""
+          done
+          ~/venv/bin/pip freeze > bench/python-throughput/results/pip-freeze.txt
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/bindings/results bench/python-throughput/results
+          git commit -q -m "bench/bindings + python-throughput: results from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done

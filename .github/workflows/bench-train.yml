@@ -1,0 +1,76 @@
+name: bench-train
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/train/*.py'
+      - 'bench/train/*.sh'
+      - '.github/workflows/bench-train.yml'
+  workflow_dispatch:
+    inputs:
+      sizes:
+        description: training-set sizes (lines)
+        default: '100 300 1000'
+      iter:
+        description: MAX_ITERATIONS per run
+        default: '4000'
+permissions:
+  contents: write
+concurrency:
+  group: bench-train
+  cancel-in-progress: true
+jobs:
+  train:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    env:
+      SIZES: ${{ github.event.inputs.sizes || '100 300 1000' }}
+      ITER: ${{ github.event.inputs.iter || '4000' }}
+      HELDOUT: '300'
+      TESSDATA_PREFIX: /opt/tessdata/tessdata_best
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare engine dir
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 with training tools + fetch pinned models
+        run: bash bench/train/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Fonts + Python deps
+        run: |
+          sudo apt-get install -y -qq --no-install-recommends fonts-ocr-a wget >/dev/null
+          python3 -m pip install -q --break-system-packages numpy pillow
+          echo "/opt/tess554/bin" >> "$GITHUB_PATH"
+          ls /opt/tess554/bin > tools-installed.txt
+      - name: Fine-tune (tesstrain) + learning curve
+        run: bash bench/train/run_train.sh "$RUNNER_TEMP/train" bench/train/results
+      - name: Error captures
+        if: always()
+        run: bash bench/train/capture_errors.sh "$RUNNER_TEMP/train" bench/train/results/errors || true
+      - name: meta.json
+        if: always()
+        run: |
+          mkdir -p bench/train/results
+          cp tools-installed.txt bench/train/results/ || true
+          python3 bench/train/meta.py bench/train/results/meta.json \
+            training_tools='"built from source: tesseract tag 5.5.4, ./configure && make training (bench/train/build-tesseract.sh)"' \
+            start_model='"eng from tessdata_best (pinned commit)"' \
+            font='"OCR-A (fonts-ocr-a, John Sauter, public domain)"' sizes="\"$SIZES\"" max_iterations="$ITER" heldout_lines="$HELDOUT"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/train/results
+          git commit -q -m "bench/train: results from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done
