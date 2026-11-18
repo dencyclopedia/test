@@ -1,0 +1,17 @@
+[
+  {
+    "src": "tools/images/raw/pdf/text-layer-alignment.png",
+    "name": "searchable-pdf-text-layer-alignment-pytesseract-dpi",
+    "page": "pdf",
+    "kind": "result",
+    "keyword": "searchable pdf text layer",
+    "alt": "Text-layer overlays: with --dpi 300 words sit 0.71 pt from their true spot on A4; without it the page is 2551.89 pt wide",
+    "caption": "Without a DPI, pytesseract's PDF assumes 70 DPI and makes a 35 × 50-inch page; with config=\"--dpi 300\" the hidden words land on the A4 scan. Synthetic test scan.",
+    "machine": "GitHub Actions ubuntu-24.04 runner, Intel Xeon 6975P-C, 4 vCPU",
+    "bar_machine": "GitHub Actions ubuntu-24.04 (Intel Xeon 6975P-C)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "44258321538",
+    "synthetic": true
+  }
+]
