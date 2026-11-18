@@ -17,6 +17,8 @@ OUT = HERE / "results" / "raw" / "paddleocr"
 pipes, info = {}, {"paddleocr": paddleocr.__version__, "paddlepaddle": paddle.__version__, "enable_mkldnn": False,
                    "models": {}}
 for kind, e in subset():
+    if (OUT / (e["id"] + ".txt")).exists() and "--resume" in sys.argv:
+        continue
     lang = PADDLE_LANG[e["lang"]]
     if lang not in pipes:
         pipes[lang] = PaddleOCR(lang=lang, use_doc_orientation_classify=False, use_doc_unwarping=False,
