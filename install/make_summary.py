@@ -76,6 +76,15 @@ for d in sorted(os.listdir(P('macos'))):
         ver = re.search(r'^tesseract ([\d.]+)', log, re.M); sz = re.search(r'^\s*(\S+)\s+/usr/local/Cellar/tesseract', log, re.M)
         nb = re.search(r'formulae built from source: (\d+)\s+poured from bottles: (\d+)', log)
         osl = re.search(r'ProductVersion:\s*(\S+)', log)
+        if not m and os.path.exists(P('macos', d, 'actions-jobs.json')):
+            import datetime as dt
+            st = [x for x in js('macos', d, 'actions-jobs.json')['jobs'][0]['steps'] if x['name'].startswith('brew install')][0]
+            f = lambda x: dt.datetime.fromisoformat(x.replace('Z', '+00:00'))
+            tot = int((f(st['completed_at']) - f(st['started_at'])).total_seconds()); upd = int(re.search(r'brew update seconds: (\d+)', log).group(1))
+            bi = rd('macos', d, 'brew-install.txt')
+            rows.append(['Homebrew `brew install tesseract` (macos-15-intel, run to completion)', f"macOS {osl.group(1) if osl else '?'} x86_64", re.search(r'Cellar/tesseract/([\d.]+):', bi).group(1) + ' (built from source)',
+                         f"~{tot - upd} (step time {tot} s minus brew update {upd} s; brew exited non-zero after post-install warnings)", 'n/c', re.search(r'Cellar/tesseract/[\d.]+: ([^,]+, [\d.]+MB)', bi).group(1), 'no', 'not checked',
+                         f"{bi.count('built in')} formulae built from source, {bi.count('Pouring')} bottles; Homebrew: Intel is Tier 3, no bottles", f'macos/{d}/brew-install.txt, macos/{d}/actions-jobs.json, macos/{d}/log.txt'])
         if m:
             rows.append(['Homebrew `brew install tesseract` (macos-15-intel, run to completion)', f"macOS {osl.group(1) if osl else '?'} x86_64", ver.group(1) if ver else 'n/c',
                          f"{m.group(2)} (exit {m.group(1)})", 'n/c', (sz.group(1) + 'B (Cellar)') if sz else 'n/c', 'no', 'yes (/usr/local/bin)',

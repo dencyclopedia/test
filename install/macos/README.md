@@ -43,7 +43,15 @@ Screenshots: `macos-terminal-01-brew-install-tesseract` … `-07-error-pytessera
 cairo, gobject-introspection, …). The Terminal capture stops waiting after 30 minutes; at that point it was still compiling (`macos-terminal-01-brew-install-tesseract.png`), so the
 following windows show `command not found: tesseract`. The Intel-only workflow lets the build run to the end; its result is in `brew-macos-15-intel-full/` (see below).
 
-INTEL_FULL_RESULT
+**Run to completion** (`brew-macos-15-intel-full/`, run [44262564368](https://github.com/dencyclopedia/test/actions/runs/44262564368), no Terminal window):
+- `brew update` 498 s. Homebrew then printed: "You are using macOS on Intel x86_64. We do not provide support for this platform (as-of September 2026 …)
+  Homebrew no longer builds bottles for this configuration. Consider MacPorts, which provides binary packages for this macOS version" and "This is a Tier 3 configuration".
+- `brew install tesseract` planned 1 formula + 22 dependencies, **built 29 formulae from source** and poured 13 bottles (`brew-install.txt`, count of "built in" / "Pouring" lines).
+  Tesseract **5.5.4** itself: `/usr/local/Cellar/tesseract/5.5.4: 74 files, 25.9MB, built in 5 minutes`.
+- `brew install` ended with a **non-zero exit** (post-install warnings: "The post-install step did not complete successfully", e.g. for python@3.15), so the step stopped before
+  `tesseract --version` ran; the build itself completed. The workflow script did not record its own end time; from the Actions step timestamps
+  (`actions-jobs.json`) the whole step took 5517 s, i.e. about **5019 s (84 min) for `brew install tesseract`** after subtracting `brew update`.
+- Conclusion for the guide: on Intel Macs Homebrew now compiles Tesseract and its dependency chain (well over an hour on this 4-core i7-8700B runner); MacPorts' binary packages are the faster route there.
 
 ## MacPorts (`macports/`)
 

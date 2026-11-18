@@ -1,0 +1,81 @@
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 134659190860,
+      "run_id": 44262564368,
+      "workflow_name": "install-macos-intel",
+      "head_branch": "claude/upbeat-volta-fdndl6",
+      "run_url": "https://api.github.com/repos/dencyclopedia/test/actions/runs/44262564368",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVx1Dus8AAAAfWlAwTA",
+      "head_sha": "8069a444038a33cbd83d3c03dce39c949aba0f43",
+      "url": "https://api.github.com/repos/dencyclopedia/test/actions/jobs/134659190860",
+      "html_url": "https://github.com/dencyclopedia/test/actions/runs/44262564368/job/134659190860",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-11-18T07:54:42Z",
+      "started_at": "2026-11-18T07:54:45Z",
+      "completed_at": "2026-11-18T09:27:01Z",
+      "name": "brew-intel",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-18T07:54:46Z",
+          "completed_at": "2026-11-18T07:54:47Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-18T07:54:47Z",
+          "completed_at": "2026-11-18T07:54:54Z"
+        },
+        {
+          "name": "brew install tesseract (from source if needed)",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 3,
+          "started_at": "2026-11-18T07:54:54Z",
+          "completed_at": "2026-11-18T09:26:51Z"
+        },
+        {
+          "name": "Commit results",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-18T09:26:51Z",
+          "completed_at": "2026-11-18T09:26:56Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-11-18T09:26:56Z",
+          "completed_at": "2026-11-18T09:26:58Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-11-18T09:26:58Z",
+          "completed_at": "2026-11-18T09:26:58Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/dencyclopedia/test/check-runs/134659190860",
+      "labels": [
+        "macos-15-intel"
+      ],
+      "runner_id": 1000002123,
+      "runner_name": "GitHub Actions 1000002123",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
