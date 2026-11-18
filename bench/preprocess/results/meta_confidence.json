@@ -1,0 +1,59 @@
+{
+ "date_utc": "2026-11-18T08:25:31Z",
+ "machine": "development container (accuracy only; timings from this machine are not published)",
+ "os": "Linux-6.18.44-fc-v595-x86_64-with-glibc2.39",
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "cores": 4,
+ "python": "3.13.18",
+ "tesseract_binaries": {
+  "5.5.4": {
+   "path": "/opt/tess554/bin/tesseract",
+   "version": [
+    "tesseract 5.5.4",
+    " leptonica-1.82.0"
+   ]
+  },
+  "5.3.4": {
+   "path": "/usr/bin/tesseract",
+   "version": [
+    "tesseract 5.3.4",
+    " leptonica-1.82.0"
+   ]
+  }
+ },
+ "models": {
+  "fast": {
+   "path": "/opt/tessdata/tessdata_fast",
+   "commit": "87416418657359cb625c412a48b6e1d6d41c29bd"
+  },
+  "standard": {
+   "path": "/opt/tessdata/tessdata",
+   "commit": "ced78752cc61322fb554c280d13360b35b8684e4"
+  },
+  "best": {
+   "path": "/opt/tessdata/tessdata_best",
+   "commit": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  }
+ },
+ "repo_git_sha": "e7905c5f7fb7f5679b1baead4587a0e650d8547e",
+ "corpus_manifest": "corpus/manifest.json",
+ "env": {
+  "OMP_THREAD_LIMIT": "1"
+ },
+ "metrics": "tools/metrics.py (CER/WER after NFC + whitespace collapse; case and punctuation kept)",
+ "commands": {
+  "pytesseract_config": "--tessdata-dir /opt/tessdata/tessdata --oem 1 --psm 3"
+ },
+ "images": 285,
+ "words": 52063,
+ "correct": 49904,
+ "incorrect": 2159,
+ "threshold_max_balanced_accuracy": {
+  "threshold": 90,
+  "kept_words": 47345,
+  "precision_of_kept": 0.9933044672087865,
+  "correct_words_kept": 0.9423693491503687,
+  "wrong_words_removed": 0.8531727651690597,
+  "balanced_accuracy": 0.8977710571597142
+ }
+}
