@@ -1,0 +1,36 @@
+name: install-macos-intel
+# Intel macOS: Homebrew has no tesseract bottle for this macOS on Intel, so `brew install tesseract`
+# builds from source. This job lets it finish (no Terminal window, no 30-min cap) and records the time.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/install-macos-intel.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  brew-intel:
+    runs-on: macos-15-intel
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - name: brew install tesseract (from source if needed)
+        run: |
+          out=out/intel; mkdir -p $out; log=$out/log.txt
+          { sw_vers; uname -m; sysctl -n machdep.cpu.brand_string; sysctl -n hw.ncpu; brew --version | head -1; echo "runner image: $ImageOS $ImageVersion"; date -u; } | tee -a $log
+          brew info tesseract | head -5 | tee -a $log
+          s=$(date +%s); brew update > $out/brew-update.txt 2>&1; echo "brew update seconds: $(( $(date +%s)-s ))" | tee -a $log
+          s=$(date +%s); brew install tesseract > $out/brew-install.txt 2>&1; rc=$?; e=$(date +%s)
+          echo "brew install tesseract exit=$rc seconds=$((e-s))" | tee -a $log
+          grep -E 'built in|Pouring|Installing|bottle' $out/brew-install.txt | tee $out/build-summary.txt | tail -60 >> $log
+          echo "formulae built from source: $(grep -c 'built in' $out/brew-install.txt)  poured from bottles: $(grep -c 'Pouring' $out/brew-install.txt)" | tee -a $log
+          du -sh "$(brew --cellar tesseract)" 2>&1 | tee -a $log
+          tesseract --version 2>&1 | tee -a $log; tesseract --list-langs 2>&1 | tee -a $log; tesseract samples/receipt.png - 2>&1 | tee -a $log
+      - name: Commit results
+        if: always()
+        run: |
+          d=install/macos/brew-macos-15-intel-full; rm -rf $d; mkdir -p install/macos; cp -R out/intel $d
+          echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > $d/RUN.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $d; git commit -q -m "macOS Intel source-build capture (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
