@@ -1,0 +1,3 @@
+file	bytes	sha256	source_url
+tesseract-ocr-w64-setup-5.4.0.20240606.exe	50175248	c885fff6998e0608ba4bb8ab51436e1c6775c2bafc2559a19b423e18678b60c9	https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe
+tesseract-ocr-w64-setup-v5.3.0.20221214.exe	53398368	175a326853f87474132c284072a821dd819c63b707b01879b309f80bd6c0ab1e	https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.3.0.20221214.exe

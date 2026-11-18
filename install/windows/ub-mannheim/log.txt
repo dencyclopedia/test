@@ -1,0 +1,369 @@
+captured 2026-11-18T06:51:30Z
+== releases (tag, prerelease, draft, published, assets) ==
+v5.4.0.20240606	pre=false	draft=false	2024-06-08T15:27:15Z	tesseract-ocr-w64-setup-5.4.0.20240606.exe (50175248 B, 2024-06-18T08:57:40Z)
+3.05.02-20180621	pre=false	draft=false	2018-06-21T15:55:04Z	
+v4.0.0-beta.1.20180608	pre=true	draft=false	2018-06-08T11:17:45Z	
+v4.0.0-beta.1.20180414	pre=true	draft=false	2018-06-08T11:18:10Z	
+== latest ==
+v5.4.0.20240606 2024-06-08T15:27:15Z tesseract-ocr-w64-setup-5.4.0.20240606.exe
+== tags ==
+v5.5.3.20260724 9f6f68962dbd839d2e5a296d17badf5666d3fe60
+v5.4.0.20240606 38bfd186cc92e483f24d6257cc4b5e86c4b406b2
+v5.4.0.20240519 946ab8eacdf4a72a4505bc6532c502f26cd05e1b
+v5.3.4.20240503 afd85b81245426bf44c21fd1cf8ee55be67435da
+v5.3.3.20231005 992f9d98a81c6118b9300c7145b03a9c8e85fc7d
+v5.3.1.20230401 bd75cd266517bbf7e0a380ae231fa5e8c815c275
+v5.3.0.20221222 ec3e06a50c4eee9494f28637bef9b5c14f5e9b02
+v5.3.0.20221214 4a5ee8c440d55ec3e389bd97983ca8de799c09f4
+v5.2.0.20220712 212b42c747d37700e723a2128f40af362bb9dfc5
+v5.2.0.20220708 eb7a1943b5ad1e3b6cfc206c74bd9c102580f9a4
+v5.1.0.20220510 00e0c73e5d5533145c155c1cdaca6018ea5f8e7d
+v5.0.1.20220118 04966f7b87d293c517dd665afc122060808eb410
+v5.0.1.20220107 b668cf306412e807289028af7167888abf5bbdeb
+v5.0.0.20211201 f12784472410827a8f505ac342cd2a9a5899775b
+v5.0.0.20190623 9d55188210347998e29e6755fbabd0a661f470ee
+v5.0.0.20190526 5a2a13512dd53296167a1082d17edbfb49f62334
+v5.0.0-rc2.20211116 c9bb4d4c532620be51e061cf88fc869bca7efca1
+v5.0.0-rc1.20211030 c2e4807ad4d6edf305a9733b3c54e7010669aad5
+v5.0.0-alpha.20210811 b4ce30814f614b4dc5d07fd9b70e16afaba21d81
+v5.0.0-alpha.20210506 6c4f3336673cf54f42a6e0bf9c2993981df925e4
+v5.0.0-alpha.20201127 e2bfdb3d17df1bf0642fa2fd6d9c72dded8af255
+v5.0.0-alpha.20200328 292364092b2895427c27612a47ad184a76cb8879
+v5.0.0-alpha.20200223 3067d604f45f342bf8fc5633b0aa6b96a62d35a7
+v5.0.0-alpha.20191030 ee46f86799c90dc302688c367b1a7adfd345a105
+v5.0.0-alpha.20191010 5ffdd78e09776c9e43bda7ca610dd6a257c39769
+v5.0.0-alpha.20190708 0bcb4b71f4acaa4f8f63d167451e54b773fd7c76
+v5.0.0-alpha.20190623 8f031e1dc34fbb9315d506f0237185fb179afcf2
+v4.1.0.20190314 3de62dc5dd4a6ca99c05523e672384687131503a
+v4.1.0-elag2019 2fe7fcc897d679b1529aee4b4d02861b68c03728
+v4.1.0-bibtag19 1635990f032488e3ccd8e6767bbc0ee65bcbce47
+v4.0.0.20190124 86472a58d15d3b5240c79ee5096538b409103fd2
+v4.0.0.20181030 2b20f0dc34fef15e8fe466f6ba4aa6215dabd33c
+v4.0.0-rc4.20181024 41fdbc355a2263567ed76e5b0f386a6aa2efeb75
+v4.0.0-rc3.20181014 5181f7fe588ab8a6e26c23b8ebb5d8c5410ee9b7
+v4.0.0-rc2.20181008 bc28e952e591ddd19b5b4fda289867f135d1da10
+v4.0.0-rc1.20181002 5a77b6de052249bd1a3dfa99a883e039fc0385bf
+v4.0.0-beta.4.20180912 02c58c4da516958d2abc767c4f25fe48aadbb44f
+v4.0.0-beta.1.20180608 82a1922a437a0713cb9b1b75f31dc2bae03df1e4
+v4.0.0-beta.1.20180414 ce641a058d83635150cf83ea2003eb71e5fb4e23
+v4.0.0-beta.1.20180311 3b1260dcec9d139d268ff5366874c328d95658d4
+jq: error: writing output failed: Broken pipe
+== release by tag v5.5.3.20260724 ==
+Not Found
+== git ref ==
+{
+  "ref": "refs/tags/v5.5.3.20260724",
+  "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjUuMy4yMDI2MDcyNA==",
+  "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/refs/tags/v5.5.3.20260724",
+  "object": {
+    "sha": "3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+    "type": "tag",
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/tags/3a36b0a6393f679c380e390e35f2dbab183cc4b2"
+  }
+}
+{
+  "node_id": "TA_kwDOAtZlXNoAKDNhMzZiMGE2MzkzZjY3OWMzODBlMzkwZTM1ZjJkYmFiMTgzY2M0YjI",
+  "sha": "3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+  "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/tags/3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+  "tagger": {
+    "name": "Stefan Weil",
+    "email": "sw@weilnetz.de",
+    "date": "2026-07-24T18:42:03Z"
+  },
+  "object": {
+    "sha": "9f6f68962dbd839d2e5a296d17badf5666d3fe60",
+    "type": "commit",
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/9f6f68962dbd839d2e5a296d17badf5666d3fe60"
+  },
+  "tag": "v5.5.3.20260724",
+  "message": "Tesseract 5.5.3.20260724\n",
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}
+{
+  "sha": null,
+  "date": null,
+  "msg": null
+}
+== recent commits ==
+2026-11-15T19:53:59Z ddcd04239a ccmain: set all results of ParagraphInfo and Orientation
+2026-11-15T19:53:59Z 958776bef9 wordstrbox: fix missing end of the last line of a page
+2026-11-15T19:53:59Z 7d52a49810 hocr: escape the language name and the document title
+2026-11-15T19:10:28Z 66389e5a70 textord: skip the distance transform for blobs with a huge box
+2026-11-15T19:09:53Z d41f9fee1d textord: fix read out of bounds in GAPMAP for a map with one entry
+2026-11-15T19:09:53Z 3624c6bf22 textord: fix loop counters and a division by zero in GAPMAP
+2026-11-15T19:09:12Z b31e8585de classify: avoid a float overflow in ReadParamDesc
+2026-11-15T19:09:12Z bf506ff7da classify: avoid linear searches by unichar id in the adaptive matcher
+2026-11-15T19:09:12Z 0d4e1a54d8 cutil: fix null pointer dereference for the size of an empty LIST
+2026-11-15T19:09:12Z 6b2968d65c classify: reject an inttemp class with too many protos
+2026-11-15T19:08:41Z 9e719c155f ccmain: fix read out of bounds in PrerecAllWordsPar for an empty word
+2026-11-15T19:07:03Z 71515c4dd2 equationdetect: fix the comparators which are used for std::sort
+2026-11-15T19:04:38Z e8681b5dad ccmain: do not abort on an unsupported tessedit_reject_mode
+2026-11-15T19:04:38Z 32bfe5958e wordrec: let same_point be true for equal points
+2026-11-15T19:04:38Z c789b5a5d4 textord: clip the ratio limits in compute_row_descdrop
+2026-11-15T19:04:38Z 28e7e6768d textord: avoid divisions by zero for three integer parameters
+2026-11-15T19:04:38Z 1d37ffa965 textord: clamp textord_spline_medianwin in split_stepped_spline
+2026-11-15T19:04:38Z 467278405f textord: do not chop an outline which is not left of the chop line
+2026-11-15T19:04:38Z afdc743a84 textord: clamp the trial pitch in compute_pitch_sd
+2026-11-15T19:03:16Z 5a91677d11 api: run the recognition if only the layout analysis was done
+2026-11-15T19:02:37Z 5fd28e33a1 fontinfo: check the font ids before they are used as an index
+2026-11-15T19:02:37Z adc444e0ed training: fix crashes in AddSpacingInfo for a missing or bad xheight
+2026-11-15T19:02:37Z d20daaf23a training: fix use after free in DeleteDeadSamples
+2026-11-15T19:02:00Z 60e3ee5fe6 lstm: reject weights which do not fit a float
+2026-11-15T19:02:00Z 553a9392a6 lstm: clip before converting to an integer in Tanh and Logistic
+2026-11-15T19:01:31Z 812aaf36ca matrix: keep the padding when a GENERIC_2D_ARRAY is copied
+2026-11-15T19:01:31Z 7be2757f1e lstm: limit the choices per timestep in SaveMostCertainChoices
+2026-11-15T19:01:31Z 06e151be95 lstm: zero the back deltas in Reconfig::Backward
+2026-11-15T19:01:31Z b916d6e00b lstm: avoid a linear search in NetworkScratch::Stack::Return
+2026-11-15T19:00:55Z e6f09a3772 dawg: limit the number of positions in a DawgPositionVector
+== wiki ==
+wiki http bytes: 168838
+---- text ----
+
+ Tesseract at UB Mannheim 
+ The Mannheim University Library (UB Mannheim) uses Tesseract to perform text recognition (OCR = optical character recognition)
+for historical German newspapers ( Allgemeine Preußische Staatszeitung , Deutscher Reichsanzeiger ). The latest results with text from more than 700000 pages are available online . 
+ Tesseract installer for Windows 
+ Normally we run Tesseract on Debian GNU Linux, but there was also the need for
+a Windows version. That's why we have built a Tesseract installer for Windows. 
+ WARNING: Tesseract should be either installed in the directory which is suggested during the installation or in a new directory. The uninstaller removes the whole installation directory. If you installed Tesseract in an existing directory, that directory will be removed with all its subdirectories and files. 
+ The latest installers can be downloaded here: 
+ tesseract-ocr-w64-setup-5.5.3.20260724.exe (64 bit) 
+ There are also older versions for 32 and 64 bit Windows available. 
+ In addition, we also provide documentation which was generated by Doxygen. 
+ Tesseract models for historic prints 
+ Historic books printed in Fraktur script are supported by the standard models deu_latf (formerly frk ) and script/Fraktur .
+In addition we trained our own models on a wide range of historic books. They are available online . In many cases the results from those models ( Fraktur_5000000 , frak2021 , german_print ) are better than those from the standard models. 
+ History 
+ 2026-07-24 Update Tesseract 5.5.3. 
+ 2024-11-11 Update Tesseract 5.5.0. 
+ 2024-06-06 Update Tesseract 5.4.0. 
+ 2024-05-19 Update Tesseract 5.4.0-rc2. 
+ 2024-05-03 Update Tesseract 5.3.4. 
+ 2023-10-05 Update Tesseract 5.3.3. 
+ 2023-04-01 Update Tesseract 5.3.1. Now uses msys packages. 32 bit installer is no longer provided. 
+ 2022-12-22 Update Tesseract 5.3.0. Now signed with new key. 
+ 2022-12-14 Update Tesseract 5.3.0-rc1. 
+ 2022-07-12 Update Tesseract 5.2.0. Fixed support for image URL with https. 
+ 2022-07-08 Update Tesseract 5.2.0. Broken support for image URL with https. 
+ 2022-05-10 Update Tesseract 5.1.0. 
+ 2022-01-18 Update Tesseract 5.0.1. Fixed model download. 
+ 2022-01-07 Update Tesseract 5.0.1. Model download is broken. 
+ 2021-12-01 Update Tesseract 5.0.0. 
+ 2021-10-30 Update Tesseract 5.0.0 release candidate 1. 
+ 2021-08-11 Update Tesseract 5.0.0 (alpha). Faster (uses 32 bit float instead of 64 bit double). 
+ 2021-05-06 Update Tesseract 5.0.0 (alpha). Now supports image URL with https. 
+ 2020-11-27 Update Tesseract 5.0.0 (alpha). 
+ 2020-03-28 Update Tesseract 5.0.0 (alpha). 
+ 2020-02-23 Update Tesseract 5.0.0 (alpha). 
+ 2019-10-30 Update Tesseract 5.0.0 (alpha). Added support for OCR from URL. Fixed installation for Lao traineddata. 
+ 2019-10-10 Update Tesseract 5.0.0 (alpha). Uninstall no longer recursively removes the installation directory. 
+ 2019-07-08 Update Tesseract 5.0.0 (alpha). Supports result output on Windows command line. 
+ 2019-06-23 Update Tesseract 5.0.0 (alpha). Supports Windows XP again. Much faster (removed OpenMP). 
+ 2019-05-26 Update Tesseract 5.0.0 (alpha). 
+ 2019-05-09 Special edition for #elag2019 . Training executables which require ICU fail. 
+ 2019-03-17 Special edition for #bibtag19 . 
+ 2019-03-14 Update Tesseract 4.1.0 (RC1). Added support for ALTO output. Missing ICU DLL for training. 
+ 2018-10-30 Update Tesseract 4.0.0. 
+ 2018-10-24 Update Tesseract 4.0.0 (RC4). 
+ 2018-10-14 Update Tesseract 4.0.0 (RC3). 
+ 2018-10-10 Update Tesseract 4.0.0 (RC2). 
+ 2018-10-02 Update Tesseract 4.0.0 (RC1). 
+ 2018-09-17 Fixed the previous 64 bit installer by adding two missing DLL files. 
+ 2018-09-12 Update Tesseract 4.0.0. Mainly bug fixes, see list of commits . For the 64 bit installation, some executables don't work because of missing DLL files. 
+ 2018-06-21 Update Tesseract 3.05.02. Also updates the DLL files. 
+ 2018-06-08 Update Tesseract 4.0.0. Fix ICU DLL files for 64 bit installer. 
+ 2018-04-14 Update Tesseract 4.0.0. Also updates some DLL files. Now also with 64 bit installer. 
+ 2018-01-09 Update Tesseract 4. Also updates some DLL files. 
+ 2017-08-04 Update Tesseract 4. Now supports best traineddata. 
+ 2017-06-02 Update Tesseract 3.05.01. 
+ 2017-05-10 Update Tesseract 3.05.00 (+ later fixes). Removed buggy setting of PATH. 
+ 2017-05-10 Update Tesseract 4. Now includes AVX support. 
+ 2017-02-16 Update Tesseract 4. Fixed not working AVX support. 
+ 2017-02-02 Update Tesseract 4. Removed not working AVX support. 
+ 2017-01-30 Update Tesseract 4, added new training tools. AVX support not working. 
+ 2016-11-29 First version with LSTM (still experimental). 
+ 2016-11-11 Update with latest bug fixes. 
+ 2016-08-31 Update with latest bug fixes for text2image . 
+ 2016-08-28 Update with latest bug fixes. 
+ 2016-07-11 TIFF warnings are now shown on the console (no longer disturbing message windows). 
+ 2016-05-13 The new installer now includes the executables needed for training, too. It is based on the latest Tesseract sources. 
+ Hint: Old versions of the installer had an option to add Tesseract to the PATH environment variable. That option was disabled by default. If it was enabled and PATH was very long, it could happen that the new PATH was empty. We suggest not to use that option and disabled it in our latest version. 
+ 
+---- links ----
+#history
+#tesseract-at-ub-mannheim
+#tesseract-installer-for-windows
+#tesseract-models-for-historic-prints
+https://de.wikipedia.org/wiki/Allgemeine_Preu%C3%9Fische_Staatszeitung
+https://de.wikipedia.org/wiki/Deutscher_Reichsanzeiger
+https://digi.bib.uni-mannheim.de/periodika/en/imperial-gazette/ocr/
+https://digi.bib.uni-mannheim.de/tesseract/
+https://digi.bib.uni-mannheim.de/tesseract/doc/
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-elag2019.exe
+https://github.com/UB-Mannheim/tesseract/commits/v4.0.0-beta.4.20180912
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20191010
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20191030
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20200223
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20200328
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20201127
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20210506
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-alpha.20210811
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0-rc1.20211030
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.0.20211201
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.1.20220107
+https://github.com/UB-Mannheim/tesseract/commits/v5.0.1.20220118
+https://github.com/UB-Mannheim/tesseract/commits/v5.1.0.20220510
+https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220708
+https://github.com/UB-Mannheim/tesseract/commits/v5.2.0.20220712
+https://github.com/UB-Mannheim/tesseract/commits/v5.3.0.20221214
+https://github.com/UB-Mannheim/tesseract/commits/v5.3.0.20221222
+https://github.com/UB-Mannheim/tesseract/commits/v5.3.1.20230401
+https://github.com/UB-Mannheim/tesseract/commits/v5.3.3.20231005
+https://github.com/UB-Mannheim/tesseract/commits/v5.3.4.20240503
+https://github.com/UB-Mannheim/tesseract/commits/v5.4.0.20240519
+https://github.com/UB-Mannheim/tesseract/commits/v5.4.0.20240606
+https://github.com/UB-Mannheim/tesseract/commits/v5.5.3.20260724
+https://github.com/tesseract-ocr/tesseract/commits/5.5.0
+https://github.com/tesseract-ocr/tesseract/issues/396
+https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+https://github.com/tesseract-ocr/tesstrain/wiki/GT4HistOCR
+https://ub-backup.bib.uni-mannheim.de/~stweil/tesstrain/
+https://www.bid-kongress-leipzig.de/
+https://www.elag2019.de/
+== wiki git history ==
+2026-07-24 22:20:09 +0200 1c7e98b Updated Home (markdown)
+2024-11-11 08:58:21 +0100 3336856 Update
+2024-11-10 21:49:10 +0100 65b9ec4 Update
+2024-06-18 11:00:10 +0200 8858510 Use GitHub URL for installer
+2024-06-06 17:37:37 +0200 95e1346 Add installer for Tesseract 5.4.0
+FAQ-(deutsch).md
+FAQ.md
+Fonts-for-Tesseract-training.md
+Home.md
+Install-additional-language-and-script-models.md
+Newspapers.md
+Project-ideas.md
+Windows-build.md
+== digi.bib.uni-mannheim.de/tesseract/ ==
+Parent Directory | -
+doc/ | 2026-03-09 18:37 | - | generated Tesseract documentation
+mac_standalone/ | 2017-05-01 11:39 | -
+traineddata/ | 2021-12-06 12:29 | -
+msvcrt.dll | 2011-12-16 08:52 | 675K
+tesseract-ocr-setup-3.05-dev.exe | 2015-12-05 09:25 | 46M
+tesseract-ocr-setup-3.05.00dev-195-g986de7e.exe | 2015-12-07 15:00 | 28M
+tesseract-ocr-setup-3.05.00dev-205-ge205c59.exe | 2015-12-08 13:03 | 24M
+tesseract-ocr-setup-3.05.00dev-336-g0e661dd.exe | 2016-05-14 10:03 | 33M
+tesseract-ocr-setup-3.05.00dev-394-g1ced597.exe | 2016-07-11 12:01 | 33M
+tesseract-ocr-setup-3.05.00dev-407-g54527f7.exe | 2016-08-28 13:12 | 33M
+tesseract-ocr-setup-3.05.00dev-426-g765d14e.exe | 2016-08-31 16:01 | 33M
+tesseract-ocr-setup-3.05.00dev-487-g216ba3b.exe | 2016-11-11 13:19 | 35M
+tesseract-ocr-setup-3.05.01-20170602.exe | 2017-06-02 20:27 | 36M
+tesseract-ocr-setup-3.05.01dev-20170510.exe | 2017-05-10 22:57 | 36M
+tesseract-ocr-setup-3.05.02-20180621.exe | 2018-06-21 14:43 | 37M
+tesseract-ocr-setup-4.0.0-alpha.20170804.exe | 2017-08-04 09:44 | 42M
+tesseract-ocr-setup-4.0.0-alpha.20180109.exe | 2018-01-09 22:47 | 43M
+tesseract-ocr-setup-4.0.0dev-20161129.exe | 2016-11-29 13:10 | 43M
+tesseract-ocr-setup-4.0.0dev-20170130.exe | 2017-01-30 21:55 | 42M
+tesseract-ocr-setup-4.0.0dev-20170202.exe | 2017-02-02 22:18 | 42M
+tesseract-ocr-setup-4.0.0dev-20170216.exe | 2017-02-16 11:25 | 40M
+tesseract-ocr-setup-4.0.0dev-20170510.exe | 2017-05-10 16:46 | 40M
+tesseract-ocr-w32-setup-5.0.0-alpha-162-ge1525087.exe | 2019-05-27 20:25 | 35M
+tesseract-ocr-w32-setup-5.3.0.20221222.exe | 2022-12-22 22:37 | 50M
+tesseract-ocr-w32-setup-v4.0.0-beta.1.20180414.exe | 2018-04-14 22:39 | 32M
+tesseract-ocr-w32-setup-v4.0.0-beta.1.20180608.exe | 2018-06-08 12:27 | 32M
+tesseract-ocr-w32-setup-v4.0.0-beta.4.20180912.exe | 2018-09-12 17:20 | 31M
+tesseract-ocr-w32-setup-v4.0.0-rc3.20181014.exe | 2018-10-14 20:33 | 31M
+tesseract-ocr-w32-setup-v4.0.0-rc4.20181024.exe | 2018-10-24 16:51 | 31M
+tesseract-ocr-w32-setup-v4.0.0.20181030.exe | 2018-10-30 10:44 | 31M
+tesseract-ocr-w32-setup-v4.1.0-elag2019.exe | 2019-05-09 07:17 | 35M
+tesseract-ocr-w32-setup-v4.1.0.20190314.exe | 2019-03-14 11:45 | 34M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20190623.exe | 2019-06-23 20:43 | 38M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20190708.exe | 2019-07-08 22:38 | 39M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20191010.exe | 2019-10-10 21:16 | 40M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20191030.exe | 2019-10-30 19:30 | 41M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20200223.exe | 2020-02-23 17:18 | 41M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20200328.exe | 2020-03-28 21:45 | 41M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20201127.exe | 2020-11-27 18:15 | 41M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20210506.exe | 2021-05-12 21:22 | 50M
+tesseract-ocr-w32-setup-v5.0.0-alpha.20210811.exe | 2021-08-11 11:03 | 49M
+tesseract-ocr-w32-setup-v5.0.0-rc1.20211030.exe | 2021-10-30 23:53 | 50M
+tesseract-ocr-w32-setup-v5.0.0.20190526.exe | 2019-05-26 18:19 | 35M
+tesseract-ocr-w32-setup-v5.0.0.20190623.exe | 2019-06-23 10:30 | 37M
+tesseract-ocr-w32-setup-v5.0.0.20211201.exe | 2021-12-01 14:52 | 50M
+tesseract-ocr-w32-setup-v5.0.1.20220107.exe | 2022-01-07 14:38 | 50M
+tesseract-ocr-w32-setup-v5.0.1.20220118.exe | 2022-01-18 22:35 | 50M
+tesseract-ocr-w32-setup-v5.1.0.20220510.exe | 2022-05-10 18:27 | 50M
+tesseract-ocr-w32-setup-v5.2.0.20220708.exe | 2022-07-08 19:58 | 52M
+tesseract-ocr-w32-setup-v5.2.0.20220712.exe | 2022-07-12 14:20 | 52M
+tesseract-ocr-w32-setup-v5.3.0.20221214.exe | 2022-12-14 18:57 | 50M
+tesseract-ocr-w64-setup-4.0.0-276-g4d172786.exe | 2019-01-31 11:36 | 25M
+tesseract-ocr-w64-setup-5.0.0-alpha-162-ge1525087.exe | 2019-05-27 17:07 | 36M
+tesseract-ocr-w64-setup-5.3.0.20221222.exe | 2022-12-22 22:42 | 51M
+tesseract-ocr-w64-setup-5.3.1.20230401.exe | 2023-04-01 22:38 | 48M
+tesseract-ocr-w64-setup-5.3.3.20231005.exe | 2023-10-05 21:44 | 48M
+tesseract-ocr-w64-setup-5.3.4.20240503.exe | 2024-05-03 18:06 | 48M
+tesseract-ocr-w64-setup-5.4.0.20240519-1-ga5ff320e.exe | 2024-05-19 12:47 | 48M
+tesseract-ocr-w64-setup-5.4.0.20240606.exe | 2024-06-06 16:49 | 48M
+tesseract-ocr-w64-setup-v4.0.0-beta.1.20180414.exe | 2018-04-14 23:02 | 26M
+tesseract-ocr-w64-setup-v4.0.0-beta.1.20180608.exe | 2018-06-08 12:51 | 33M
+tesseract-ocr-w64-setup-v4.0.0-beta.4.20180912-missing-dlls.exe | 2018-09-12 17:44 | 26M
+tesseract-ocr-w64-setup-v4.0.0-beta.4.20180912.exe | 2018-09-17 16:44 | 32M
+tesseract-ocr-w64-setup-v4.0.0-rc3.20181014.exe | 2018-10-14 20:56 | 32M
+tesseract-ocr-w64-setup-v4.0.0-rc4.20181024.exe | 2018-10-24 17:14 | 32M
+tesseract-ocr-w64-setup-v4.0.0.20181030.exe | 2018-10-30 11:07 | 32M
+tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe | 2019-03-17 14:46 | 28M
+tesseract-ocr-w64-setup-v4.1.0-elag2019.exe | 2019-05-09 07:55 | 36M
+tesseract-ocr-w64-setup-v4.1.0.20190314.exe | 2019-03-14 12:31 | 28M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20190623.exe | 2019-06-23 21:15 | 38M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20190708.exe | 2019-07-08 23:09 | 40M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20191010.exe | 2019-10-10 21:50 | 41M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20191030.exe | 2019-10-30 19:30 | 42M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20200205.exe | 2020-02-05 17:05 | 37M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20200223.exe | 2020-02-23 17:51 | 42M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20200328.exe | 2020-03-28 22:21 | 42M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe | 2020-11-27 18:55 | 42M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20210506.exe | 2021-05-06 14:15 | 51M
+tesseract-ocr-w64-setup-v5.0.0-alpha.20210811.exe | 2021-08-11 11:35 | 51M
+tesseract-ocr-w64-setup-v5.0.0-rc1.20211030.exe | 2021-10-31 00:26 | 51M
+tesseract-ocr-w64-setup-v5.0.0.20190526.exe | 2019-05-26 19:05 | 36M
+tesseract-ocr-w64-setup-v5.0.0.20190623.exe | 2019-06-23 11:30 | 38M
+tesseract-ocr-w64-setup-v5.0.0.20211201.exe | 2021-12-01 14:53 | 51M
+tesseract-ocr-w64-setup-v5.0.1.20220107.exe | 2022-01-07 15:10 | 51M
+tesseract-ocr-w64-setup-v5.0.1.20220118.exe | 2022-01-18 22:38 | 51M
+tesseract-ocr-w64-setup-v5.1.0.20220510.exe | 2022-05-10 18:59 | 51M
+tesseract-ocr-w64-setup-v5.2.0.20220708.exe | 2022-07-08 20:00 | 53M
+tesseract-ocr-w64-setup-v5.2.0.20220712.exe | 2022-07-12 14:26 | 54M
+tesseract-ocr-w64-setup-v5.3.0.20221214.exe | 2022-12-14 19:29 | 51M
+== download + sha256 of current w64/w32 candidates ==
+https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+file	bytes	sha256	source_url
+tesseract-ocr-w64-setup-5.4.0.20240606.exe	50175248	c885fff6998e0608ba4bb8ab51436e1c6775c2bafc2559a19b423e18678b60c9	https://github.com/UB-Mannheim/tesseract/releases/download/v5.4.0.20240606/tesseract-ocr-w64-setup-5.4.0.20240606.exe
+tesseract-ocr-w64-setup-v5.3.0.20221214.exe	53398368	175a326853f87474132c284072a821dd819c63b707b01879b309f80bd6c0ab1e	https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+== Authenticode / version info of downloads ==
+--- dl/tesseract-ocr-w64-setup-5.4.0.20240606.exe
+Signer's certificate:
+	Signer #0:
+		Subject: /C=DE/ST=Baden-W\xC3\xBCrttemberg/O=Universit\xC3\xA4t Mannheim/CN=Universit\xC3\xA4t Mannheim
+		Issuer : /C=NL/O=GEANT Vereniging/CN=GEANT Code Signing CA 4
+	Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Time Stamping CA
+	Signer #2:
+		Subject: /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
+		Issuer : /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
+--- dl/tesseract-ocr-w64-setup-v5.3.0.20221214.exe
+Signer's certificate:
+	Signer #0:
+		Subject: /C=DE/ST=Baden-W\xC3\xBCrttemberg/O=Universit\xC3\xA4t Mannheim/CN=Universit\xC3\xA4t Mannheim
+		Issuer : /C=NL/O=GEANT Vereniging/CN=GEANT Code Signing CA 4
+	Issuer: /C=GB/ST=Greater Manchester/L=Salford/O=Sectigo Limited/CN=Sectigo RSA Time Stamping CA
+	Signer #2:
+		Subject: /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority
+		Issuer : /C=US/ST=New Jersey/L=Jersey City/O=The USERTRUST Network/CN=USERTrust RSA Certification Authority

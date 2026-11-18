@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/v5.5.3.20260724",
+  "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjUuMy4yMDI2MDcyNA==",
+  "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/refs/tags/v5.5.3.20260724",
+  "object": {
+    "sha": "3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+    "type": "tag",
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/tags/3a36b0a6393f679c380e390e35f2dbab183cc4b2"
+  }
+}

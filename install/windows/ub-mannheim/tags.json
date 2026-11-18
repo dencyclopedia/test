@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "v5.5.3.20260724",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.5.3.20260724",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.5.3.20260724",
+    "commit": {
+      "sha": "9f6f68962dbd839d2e5a296d17badf5666d3fe60",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/9f6f68962dbd839d2e5a296d17badf5666d3fe60"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjUuMy4yMDI2MDcyNA=="
+  },
+  {
+    "name": "v5.4.0.20240606",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.4.0.20240606",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.4.0.20240606",
+    "commit": {
+      "sha": "38bfd186cc92e483f24d6257cc4b5e86c4b406b2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/38bfd186cc92e483f24d6257cc4b5e86c4b406b2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjQuMC4yMDI0MDYwNg=="
+  },
+  {
+    "name": "v5.4.0.20240519",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.4.0.20240519",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.4.0.20240519",
+    "commit": {
+      "sha": "946ab8eacdf4a72a4505bc6532c502f26cd05e1b",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/946ab8eacdf4a72a4505bc6532c502f26cd05e1b"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjQuMC4yMDI0MDUxOQ=="
+  },
+  {
+    "name": "v5.3.4.20240503",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.3.4.20240503",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.3.4.20240503",
+    "commit": {
+      "sha": "afd85b81245426bf44c21fd1cf8ee55be67435da",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/afd85b81245426bf44c21fd1cf8ee55be67435da"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjMuNC4yMDI0MDUwMw=="
+  },
+  {
+    "name": "v5.3.3.20231005",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.3.3.20231005",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.3.3.20231005",
+    "commit": {
+      "sha": "992f9d98a81c6118b9300c7145b03a9c8e85fc7d",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/992f9d98a81c6118b9300c7145b03a9c8e85fc7d"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjMuMy4yMDIzMTAwNQ=="
+  },
+  {
+    "name": "v5.3.1.20230401",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.3.1.20230401",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.3.1.20230401",
+    "commit": {
+      "sha": "bd75cd266517bbf7e0a380ae231fa5e8c815c275",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bd75cd266517bbf7e0a380ae231fa5e8c815c275"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjMuMS4yMDIzMDQwMQ=="
+  },
+  {
+    "name": "v5.3.0.20221222",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.3.0.20221222",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.3.0.20221222",
+    "commit": {
+      "sha": "ec3e06a50c4eee9494f28637bef9b5c14f5e9b02",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ec3e06a50c4eee9494f28637bef9b5c14f5e9b02"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjMuMC4yMDIyMTIyMg=="
+  },
+  {
+    "name": "v5.3.0.20221214",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.3.0.20221214",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.3.0.20221214",
+    "commit": {
+      "sha": "4a5ee8c440d55ec3e389bd97983ca8de799c09f4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/4a5ee8c440d55ec3e389bd97983ca8de799c09f4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjMuMC4yMDIyMTIxNA=="
+  },
+  {
+    "name": "v5.2.0.20220712",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.2.0.20220712",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.2.0.20220712",
+    "commit": {
+      "sha": "212b42c747d37700e723a2128f40af362bb9dfc5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/212b42c747d37700e723a2128f40af362bb9dfc5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjIuMC4yMDIyMDcxMg=="
+  },
+  {
+    "name": "v5.2.0.20220708",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.2.0.20220708",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.2.0.20220708",
+    "commit": {
+      "sha": "eb7a1943b5ad1e3b6cfc206c74bd9c102580f9a4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/eb7a1943b5ad1e3b6cfc206c74bd9c102580f9a4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjIuMC4yMDIyMDcwOA=="
+  },
+  {
+    "name": "v5.1.0.20220510",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.1.0.20220510",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.1.0.20220510",
+    "commit": {
+      "sha": "00e0c73e5d5533145c155c1cdaca6018ea5f8e7d",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/00e0c73e5d5533145c155c1cdaca6018ea5f8e7d"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjEuMC4yMDIyMDUxMA=="
+  },
+  {
+    "name": "v5.0.1.20220118",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.1.20220118",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.1.20220118",
+    "commit": {
+      "sha": "04966f7b87d293c517dd665afc122060808eb410",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/04966f7b87d293c517dd665afc122060808eb410"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMS4yMDIyMDExOA=="
+  },
+  {
+    "name": "v5.0.1.20220107",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.1.20220107",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.1.20220107",
+    "commit": {
+      "sha": "b668cf306412e807289028af7167888abf5bbdeb",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b668cf306412e807289028af7167888abf5bbdeb"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMS4yMDIyMDEwNw=="
+  },
+  {
+    "name": "v5.0.0.20211201",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0.20211201",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0.20211201",
+    "commit": {
+      "sha": "f12784472410827a8f505ac342cd2a9a5899775b",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/f12784472410827a8f505ac342cd2a9a5899775b"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC4yMDIxMTIwMQ=="
+  },
+  {
+    "name": "v5.0.0.20190623",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0.20190623",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0.20190623",
+    "commit": {
+      "sha": "9d55188210347998e29e6755fbabd0a661f470ee",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/9d55188210347998e29e6755fbabd0a661f470ee"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC4yMDE5MDYyMw=="
+  },
+  {
+    "name": "v5.0.0.20190526",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0.20190526",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0.20190526",
+    "commit": {
+      "sha": "5a2a13512dd53296167a1082d17edbfb49f62334",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5a2a13512dd53296167a1082d17edbfb49f62334"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC4yMDE5MDUyNg=="
+  },
+  {
+    "name": "v5.0.0-rc2.20211116",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-rc2.20211116",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-rc2.20211116",
+    "commit": {
+      "sha": "c9bb4d4c532620be51e061cf88fc869bca7efca1",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c9bb4d4c532620be51e061cf88fc869bca7efca1"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1yYzIuMjAyMTExMTY="
+  },
+  {
+    "name": "v5.0.0-rc1.20211030",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-rc1.20211030",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-rc1.20211030",
+    "commit": {
+      "sha": "c2e4807ad4d6edf305a9733b3c54e7010669aad5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c2e4807ad4d6edf305a9733b3c54e7010669aad5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1yYzEuMjAyMTEwMzA="
+  },
+  {
+    "name": "v5.0.0-alpha.20210811",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20210811",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20210811",
+    "commit": {
+      "sha": "b4ce30814f614b4dc5d07fd9b70e16afaba21d81",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b4ce30814f614b4dc5d07fd9b70e16afaba21d81"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDIxMDgxMQ=="
+  },
+  {
+    "name": "v5.0.0-alpha.20210506",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20210506",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20210506",
+    "commit": {
+      "sha": "6c4f3336673cf54f42a6e0bf9c2993981df925e4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6c4f3336673cf54f42a6e0bf9c2993981df925e4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDIxMDUwNg=="
+  },
+  {
+    "name": "v5.0.0-alpha.20201127",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20201127",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20201127",
+    "commit": {
+      "sha": "e2bfdb3d17df1bf0642fa2fd6d9c72dded8af255",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e2bfdb3d17df1bf0642fa2fd6d9c72dded8af255"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDIwMTEyNw=="
+  },
+  {
+    "name": "v5.0.0-alpha.20200328",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20200328",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20200328",
+    "commit": {
+      "sha": "292364092b2895427c27612a47ad184a76cb8879",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/292364092b2895427c27612a47ad184a76cb8879"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDIwMDMyOA=="
+  },
+  {
+    "name": "v5.0.0-alpha.20200223",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20200223",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20200223",
+    "commit": {
+      "sha": "3067d604f45f342bf8fc5633b0aa6b96a62d35a7",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3067d604f45f342bf8fc5633b0aa6b96a62d35a7"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDIwMDIyMw=="
+  },
+  {
+    "name": "v5.0.0-alpha.20191030",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20191030",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20191030",
+    "commit": {
+      "sha": "ee46f86799c90dc302688c367b1a7adfd345a105",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ee46f86799c90dc302688c367b1a7adfd345a105"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDE5MTAzMA=="
+  },
+  {
+    "name": "v5.0.0-alpha.20191010",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20191010",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20191010",
+    "commit": {
+      "sha": "5ffdd78e09776c9e43bda7ca610dd6a257c39769",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5ffdd78e09776c9e43bda7ca610dd6a257c39769"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDE5MTAxMA=="
+  },
+  {
+    "name": "v5.0.0-alpha.20190708",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20190708",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20190708",
+    "commit": {
+      "sha": "0bcb4b71f4acaa4f8f63d167451e54b773fd7c76",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0bcb4b71f4acaa4f8f63d167451e54b773fd7c76"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDE5MDcwOA=="
+  },
+  {
+    "name": "v5.0.0-alpha.20190623",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v5.0.0-alpha.20190623",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v5.0.0-alpha.20190623",
+    "commit": {
+      "sha": "8f031e1dc34fbb9315d506f0237185fb179afcf2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/8f031e1dc34fbb9315d506f0237185fb179afcf2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y1LjAuMC1hbHBoYS4yMDE5MDYyMw=="
+  },
+  {
+    "name": "v4.1.0.20190314",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.1.0.20190314",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.1.0.20190314",
+    "commit": {
+      "sha": "3de62dc5dd4a6ca99c05523e672384687131503a",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3de62dc5dd4a6ca99c05523e672384687131503a"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjEuMC4yMDE5MDMxNA=="
+  },
+  {
+    "name": "v4.1.0-elag2019",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.1.0-elag2019",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.1.0-elag2019",
+    "commit": {
+      "sha": "2fe7fcc897d679b1529aee4b4d02861b68c03728",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/2fe7fcc897d679b1529aee4b4d02861b68c03728"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjEuMC1lbGFnMjAxOQ=="
+  },
+  {
+    "name": "v4.1.0-bibtag19",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.1.0-bibtag19",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.1.0-bibtag19",
+    "commit": {
+      "sha": "1635990f032488e3ccd8e6767bbc0ee65bcbce47",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1635990f032488e3ccd8e6767bbc0ee65bcbce47"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjEuMC1iaWJ0YWcxOQ=="
+  },
+  {
+    "name": "v4.0.0.20190124",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0.20190124",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0.20190124",
+    "commit": {
+      "sha": "86472a58d15d3b5240c79ee5096538b409103fd2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/86472a58d15d3b5240c79ee5096538b409103fd2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC4yMDE5MDEyNA=="
+  },
+  {
+    "name": "v4.0.0.20181030",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0.20181030",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0.20181030",
+    "commit": {
+      "sha": "2b20f0dc34fef15e8fe466f6ba4aa6215dabd33c",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/2b20f0dc34fef15e8fe466f6ba4aa6215dabd33c"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC4yMDE4MTAzMA=="
+  },
+  {
+    "name": "v4.0.0-rc4.20181024",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-rc4.20181024",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-rc4.20181024",
+    "commit": {
+      "sha": "41fdbc355a2263567ed76e5b0f386a6aa2efeb75",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/41fdbc355a2263567ed76e5b0f386a6aa2efeb75"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1yYzQuMjAxODEwMjQ="
+  },
+  {
+    "name": "v4.0.0-rc3.20181014",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-rc3.20181014",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-rc3.20181014",
+    "commit": {
+      "sha": "5181f7fe588ab8a6e26c23b8ebb5d8c5410ee9b7",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5181f7fe588ab8a6e26c23b8ebb5d8c5410ee9b7"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1yYzMuMjAxODEwMTQ="
+  },
+  {
+    "name": "v4.0.0-rc2.20181008",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-rc2.20181008",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-rc2.20181008",
+    "commit": {
+      "sha": "bc28e952e591ddd19b5b4fda289867f135d1da10",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bc28e952e591ddd19b5b4fda289867f135d1da10"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1yYzIuMjAxODEwMDg="
+  },
+  {
+    "name": "v4.0.0-rc1.20181002",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-rc1.20181002",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-rc1.20181002",
+    "commit": {
+      "sha": "5a77b6de052249bd1a3dfa99a883e039fc0385bf",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5a77b6de052249bd1a3dfa99a883e039fc0385bf"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1yYzEuMjAxODEwMDI="
+  },
+  {
+    "name": "v4.0.0-beta.4.20180912",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-beta.4.20180912",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-beta.4.20180912",
+    "commit": {
+      "sha": "02c58c4da516958d2abc767c4f25fe48aadbb44f",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/02c58c4da516958d2abc767c4f25fe48aadbb44f"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1iZXRhLjQuMjAxODA5MTI="
+  },
+  {
+    "name": "v4.0.0-beta.1.20180608",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-beta.1.20180608",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-beta.1.20180608",
+    "commit": {
+      "sha": "82a1922a437a0713cb9b1b75f31dc2bae03df1e4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/82a1922a437a0713cb9b1b75f31dc2bae03df1e4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1iZXRhLjEuMjAxODA2MDg="
+  },
+  {
+    "name": "v4.0.0-beta.1.20180414",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-beta.1.20180414",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-beta.1.20180414",
+    "commit": {
+      "sha": "ce641a058d83635150cf83ea2003eb71e5fb4e23",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ce641a058d83635150cf83ea2003eb71e5fb4e23"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1iZXRhLjEuMjAxODA0MTQ="
+  },
+  {
+    "name": "v4.0.0-beta.1.20180311",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-beta.1.20180311",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-beta.1.20180311",
+    "commit": {
+      "sha": "3b1260dcec9d139d268ff5366874c328d95658d4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3b1260dcec9d139d268ff5366874c328d95658d4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1iZXRhLjEuMjAxODAzMTE="
+  },
+  {
+    "name": "v4.0.0-alpha.20180309",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-alpha.20180309",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-alpha.20180309",
+    "commit": {
+      "sha": "f4ef5786dd98b0b7fad995fa3d46a6d9da19a98e",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/f4ef5786dd98b0b7fad995fa3d46a6d9da19a98e"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1hbHBoYS4yMDE4MDMwOQ=="
+  },
+  {
+    "name": "v4.0.0-alpha.20180109",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-alpha.20180109",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-alpha.20180109",
+    "commit": {
+      "sha": "6662b6cf5096b4cd2851bc659928a3a3313197d4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6662b6cf5096b4cd2851bc659928a3a3313197d4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1hbHBoYS4yMDE4MDEwOQ=="
+  },
+  {
+    "name": "v4.0.0-alpha.20170804",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-alpha.20170804",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-alpha.20170804",
+    "commit": {
+      "sha": "1c3e660b576f5ed4b844c613b24652f7aec3ed57",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1c3e660b576f5ed4b844c613b24652f7aec3ed57"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1hbHBoYS4yMDE3MDgwNA=="
+  },
+  {
+    "name": "v4.0.0-alpha.20170801",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-alpha.20170801",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-alpha.20170801",
+    "commit": {
+      "sha": "dc5588d3c4fd4f6082dc85d29c3978efd13aca79",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/dc5588d3c4fd4f6082dc85d29c3978efd13aca79"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1hbHBoYS4yMDE3MDgwMQ=="
+  },
+  {
+    "name": "v4.0.0-alpha.20170703",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-alpha.20170703",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-alpha.20170703",
+    "commit": {
+      "sha": "a4263df3e16e162721162c66eadd8a3ab8fcdc6e",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/a4263df3e16e162721162c66eadd8a3ab8fcdc6e"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC1hbHBoYS4yMDE3MDcwMw=="
+  },
+  {
+    "name": "v4.0.0-20181204",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-20181204",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-20181204",
+    "commit": {
+      "sha": "98f79a3d80ebaf716b468103d223e8081bc8012c",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/98f79a3d80ebaf716b468103d223e8081bc8012c"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC0yMDE4MTIwNA=="
+  },
+  {
+    "name": "v4.0.0-20181201",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/v4.0.0-20181201",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/v4.0.0-20181201",
+    "commit": {
+      "sha": "63515b1c476f992c7306648dcbfea18d33e1bb0e",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/63515b1c476f992c7306648dcbfea18d33e1bb0e"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzL3Y0LjAuMC0yMDE4MTIwMQ=="
+  },
+  {
+    "name": "20170205",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/20170205",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/20170205",
+    "commit": {
+      "sha": "dac2f0c1df5e6910005e20300df5212bccb89d60",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/dac2f0c1df5e6910005e20300df5212bccb89d60"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzIwMTcwMjA1"
+  },
+  {
+    "name": "20160317",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/20160317",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/20160317",
+    "commit": {
+      "sha": "31d87ca541b4ab202d589aeef33aee639ccdf123",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/31d87ca541b4ab202d589aeef33aee639ccdf123"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzIwMTYwMzE3"
+  },
+  {
+    "name": "5.3.4",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.3.4",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.3.4",
+    "commit": {
+      "sha": "8ee020e14cf5be4e3f0e9beb09b6b050a1871854",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/8ee020e14cf5be4e3f0e9beb09b6b050a1871854"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMy40"
+  },
+  {
+    "name": "5.3.3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.3.3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.3.3",
+    "commit": {
+      "sha": "e082522c248d3121e466959a8ba4fd4f7ad1a525",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e082522c248d3121e466959a8ba4fd4f7ad1a525"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMy4z"
+  },
+  {
+    "name": "5.3.2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.3.2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.3.2",
+    "commit": {
+      "sha": "489f101c7e2276c00490f3ab70e9e7926fc6b481",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/489f101c7e2276c00490f3ab70e9e7926fc6b481"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMy4y"
+  },
+  {
+    "name": "5.3.1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.3.1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.3.1",
+    "commit": {
+      "sha": "71af4542990adae6d9f31d6657068bc0139c6ec4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/71af4542990adae6d9f31d6657068bc0139c6ec4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMy4x"
+  },
+  {
+    "name": "5.3.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.3.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.3.0",
+    "commit": {
+      "sha": "080da83cc51c4ef8b324a7e03146fe0bd7e0944b",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/080da83cc51c4ef8b324a7e03146fe0bd7e0944b"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMy4w"
+  },
+  {
+    "name": "5.2.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.2.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.2.0",
+    "commit": {
+      "sha": "5ad5325a0aa8effc47ca033625b6a51682f82767",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5ad5325a0aa8effc47ca033625b6a51682f82767"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMi4w"
+  },
+  {
+    "name": "5.1.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.1.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.1.0",
+    "commit": {
+      "sha": "c2a3efe2824e1c8a0810e82a43406ba8e01527c4",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c2a3efe2824e1c8a0810e82a43406ba8e01527c4"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMS4w"
+  },
+  {
+    "name": "5.0.1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.1",
+    "commit": {
+      "sha": "5d5cd77e3dbb03f8e4c06289baa77bb299ab859a",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5d5cd77e3dbb03f8e4c06289baa77bb299ab859a"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4x"
+  },
+  {
+    "name": "5.0.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0",
+    "commit": {
+      "sha": "924b746e6f8e02e634188de1f15c8a95ebe9680b",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/924b746e6f8e02e634188de1f15c8a95ebe9680b"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4w"
+  },
+  {
+    "name": "5.0.0-rc3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-rc3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-rc3",
+    "commit": {
+      "sha": "ee29fca9cef77584caff06dbd7b7bab23f5a0c38",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ee29fca9cef77584caff06dbd7b7bab23f5a0c38"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLXJjMw=="
+  },
+  {
+    "name": "5.0.0-rc2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-rc2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-rc2",
+    "commit": {
+      "sha": "66dc90bc5f55323aa03fa3174177e0aef53999a3",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/66dc90bc5f55323aa03fa3174177e0aef53999a3"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLXJjMg=="
+  },
+  {
+    "name": "5.0.0-rc1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-rc1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-rc1",
+    "commit": {
+      "sha": "8b6390846e726ecb5678d81490e4ec7df35913d5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/8b6390846e726ecb5678d81490e4ec7df35913d5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLXJjMQ=="
+  },
+  {
+    "name": "5.0.0-beta-20210916",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-beta-20210916",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-beta-20210916",
+    "commit": {
+      "sha": "75f167ac8c0e1dc9bf17af333989988fbe9d6721",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/75f167ac8c0e1dc9bf17af333989988fbe9d6721"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWJldGEtMjAyMTA5MTY="
+  },
+  {
+    "name": "5.0.0-beta-20210815",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-beta-20210815",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-beta-20210815",
+    "commit": {
+      "sha": "547164edae67cfae6768a673ded02c2805843b2f",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/547164edae67cfae6768a673ded02c2805843b2f"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWJldGEtMjAyMTA4MTU="
+  },
+  {
+    "name": "5.0.0-alpha-20210401",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-alpha-20210401",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-alpha-20210401",
+    "commit": {
+      "sha": "bfe1616b4eef525e4fc30405fc41260f40ffee5e",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bfe1616b4eef525e4fc30405fc41260f40ffee5e"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWFscGhhLTIwMjEwNDAx"
+  },
+  {
+    "name": "5.0.0-alpha-20201231",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-alpha-20201231",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-alpha-20201231",
+    "commit": {
+      "sha": "ca114ace387f86821ce061713dc9aa3cc33a3cad",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ca114ace387f86821ce061713dc9aa3cc33a3cad"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWFscGhhLTIwMjAxMjMx"
+  },
+  {
+    "name": "5.0.0-alpha-20201224",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-alpha-20201224",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-alpha-20201224",
+    "commit": {
+      "sha": "5ca4e0062dd5c860e32fbd7da914bef9d8afff59",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5ca4e0062dd5c860e32fbd7da914bef9d8afff59"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWFscGhhLTIwMjAxMjI0"
+  },
+  {
+    "name": "5.0.0-alpha",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/5.0.0-alpha",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/5.0.0-alpha",
+    "commit": {
+      "sha": "bff6aaf3022dd1c9fb16e1a9babe8826282944c2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bff6aaf3022dd1c9fb16e1a9babe8826282944c2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzUuMC4wLWFscGhh"
+  },
+  {
+    "name": "4.1.3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.3",
+    "commit": {
+      "sha": "f38e7a7ba850b668d4505dd4c712238d7ec63ca8",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/f38e7a7ba850b668d4505dd4c712238d7ec63ca8"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4z"
+  },
+  {
+    "name": "4.1.2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.2",
+    "commit": {
+      "sha": "d358270dd4d77da4aaa3e8372010b1972472c166",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d358270dd4d77da4aaa3e8372010b1972472c166"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4y"
+  },
+  {
+    "name": "4.1.1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.1",
+    "commit": {
+      "sha": "75103040c94ffd7fe5e4e3dfce0a7e67a8420849",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/75103040c94ffd7fe5e4e3dfce0a7e67a8420849"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4x"
+  },
+  {
+    "name": "4.1.1-rc2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.1-rc2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.1-rc2",
+    "commit": {
+      "sha": "0c5995568f203009866864c38cf8d1bb11398ca2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0c5995568f203009866864c38cf8d1bb11398ca2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4xLXJjMg=="
+  },
+  {
+    "name": "4.1.1-rc1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.1-rc1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.1-rc1",
+    "commit": {
+      "sha": "0cbd8297e4c0eede4f3bff1f31261ba3d64e34b2",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0cbd8297e4c0eede4f3bff1f31261ba3d64e34b2"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4xLXJjMQ=="
+  },
+  {
+    "name": "4.1.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.0",
+    "commit": {
+      "sha": "5280bbcade4e2dec5eef439a6e189504c2eadcd9",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5280bbcade4e2dec5eef439a6e189504c2eadcd9"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4w"
+  },
+  {
+    "name": "4.1.0-rc4",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.0-rc4",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.0-rc4",
+    "commit": {
+      "sha": "3cdafa0fa1061185efc7040cfca77a505bf894f8",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3cdafa0fa1061185efc7040cfca77a505bf894f8"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4wLXJjNA=="
+  },
+  {
+    "name": "4.1.0-rc3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.0-rc3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.0-rc3",
+    "commit": {
+      "sha": "c400bdff7b6907ea09069f85a3117dfafefd1a0d",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c400bdff7b6907ea09069f85a3117dfafefd1a0d"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4wLXJjMw=="
+  },
+  {
+    "name": "4.1.0-rc2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.0-rc2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.0-rc2",
+    "commit": {
+      "sha": "0df3aa7d20f78c671f615a1bb3adf695c7620066",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0df3aa7d20f78c671f615a1bb3adf695c7620066"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4wLXJjMg=="
+  },
+  {
+    "name": "4.1.0-rc1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.1.0-rc1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.1.0-rc1",
+    "commit": {
+      "sha": "a93ef8e0ae75aac9691394a8372a4d053e796b0c",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/a93ef8e0ae75aac9691394a8372a4d053e796b0c"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMS4wLXJjMQ=="
+  },
+  {
+    "name": "4.0.0",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0",
+    "commit": {
+      "sha": "51316994ccae0b48692d547030f26c0969308214",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/51316994ccae0b48692d547030f26c0969308214"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4w"
+  },
+  {
+    "name": "4.0.0dev-20170510",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0dev-20170510",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0dev-20170510",
+    "commit": {
+      "sha": "a973e7055098d75246db670b0133e9be8462ce69",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/a973e7055098d75246db670b0133e9be8462ce69"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wZGV2LTIwMTcwNTEw"
+  },
+  {
+    "name": "4.0.0dev-20170216",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0dev-20170216",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0dev-20170216",
+    "commit": {
+      "sha": "754e48746255e7a6fe30112114ad38f29d281a92",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/754e48746255e7a6fe30112114ad38f29d281a92"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wZGV2LTIwMTcwMjE2"
+  },
+  {
+    "name": "4.0.0dev-20170202",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0dev-20170202",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0dev-20170202",
+    "commit": {
+      "sha": "02a00ad4f3697ba41de4331c84707060cb4957d0",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/02a00ad4f3697ba41de4331c84707060cb4957d0"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wZGV2LTIwMTcwMjAy"
+  },
+  {
+    "name": "4.0.0dev-20170130",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0dev-20170130",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0dev-20170130",
+    "commit": {
+      "sha": "c9f0ab72598f9226eb3808c7a7c08d273fef425d",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c9f0ab72598f9226eb3808c7a7c08d273fef425d"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wZGV2LTIwMTcwMTMw"
+  },
+  {
+    "name": "4.0.0dev-20161129",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0dev-20161129",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0dev-20161129",
+    "commit": {
+      "sha": "48f60e1e960d29977f94d2d0b3aa3201183a5a29",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/48f60e1e960d29977f94d2d0b3aa3201183a5a29"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wZGV2LTIwMTYxMTI5"
+  },
+  {
+    "name": "4.00.00dev",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.00.00dev",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.00.00dev",
+    "commit": {
+      "sha": "51368c8eb44489b0cb3a803cdc7cf8fbeee730ff",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/51368c8eb44489b0cb3a803cdc7cf8fbeee730ff"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMDAuMDBkZXY="
+  },
+  {
+    "name": "4.00.00alpha",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.00.00alpha",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.00.00alpha",
+    "commit": {
+      "sha": "c1c1e426b32794d5e84134ee81bf895ff0228fe5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c1c1e426b32794d5e84134ee81bf895ff0228fe5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMDAuMDBhbHBoYQ=="
+  },
+  {
+    "name": "4.0.0-rc4",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-rc4",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-rc4",
+    "commit": {
+      "sha": "1066f696dd1439c61ec04ea341666439a97f49a5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1066f696dd1439c61ec04ea341666439a97f49a5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLXJjNA=="
+  },
+  {
+    "name": "4.0.0-rc3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-rc3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-rc3",
+    "commit": {
+      "sha": "d6950eb21c47566dbec4593e934e56f7fca106f8",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d6950eb21c47566dbec4593e934e56f7fca106f8"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLXJjMw=="
+  },
+  {
+    "name": "4.0.0-rc2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-rc2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-rc2",
+    "commit": {
+      "sha": "944816ae3d377cd3015b6d88e3c632bc86096f91",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/944816ae3d377cd3015b6d88e3c632bc86096f91"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLXJjMg=="
+  },
+  {
+    "name": "4.0.0-rc1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-rc1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-rc1",
+    "commit": {
+      "sha": "6ee7f4eac262a4ad69419b344c64bb846467dd32",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6ee7f4eac262a4ad69419b344c64bb846467dd32"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLXJjMQ=="
+  },
+  {
+    "name": "4.0.0-beta.4",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-beta.4",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-beta.4",
+    "commit": {
+      "sha": "18787ea12b2ea9368c8e1c0128d1f8aef2beebc8",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/18787ea12b2ea9368c8e1c0128d1f8aef2beebc8"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWJldGEuNA=="
+  },
+  {
+    "name": "4.0.0-beta.3",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-beta.3",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-beta.3",
+    "commit": {
+      "sha": "b1f7990d9b94bb583d74c7004e85dffb1499fe8c",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b1f7990d9b94bb583d74c7004e85dffb1499fe8c"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWJldGEuMw=="
+  },
+  {
+    "name": "4.0.0-beta.2",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-beta.2",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-beta.2",
+    "commit": {
+      "sha": "10f4998aee3ccc68e9c4931ce744dd292ad6ff19",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/10f4998aee3ccc68e9c4931ce744dd292ad6ff19"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWJldGEuMg=="
+  },
+  {
+    "name": "4.0.0-beta.1",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-beta.1",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-beta.1",
+    "commit": {
+      "sha": "40f43111e05b3dd2f2f8aeae3aba33016523c881",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/40f43111e05b3dd2f2f8aeae3aba33016523c881"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWJldGEuMQ=="
+  },
+  {
+    "name": "4.0.0-alpha.20170915",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-alpha.20170915",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-alpha.20170915",
+    "commit": {
+      "sha": "e62e8f5f802c0d8f3dd67da993327cdafaee9763",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e62e8f5f802c0d8f3dd67da993327cdafaee9763"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWFscGhhLjIwMTcwOTE1"
+  },
+  {
+    "name": "4.0.0-alpha.20170810",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-alpha.20170810",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-alpha.20170810",
+    "commit": {
+      "sha": "518ca0fdd1b571fc3c387daca0931520b2316bb9",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/518ca0fdd1b571fc3c387daca0931520b2316bb9"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWFscGhhLjIwMTcwODEw"
+  },
+  {
+    "name": "4.0.0-alpha",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/4.0.0-alpha",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/4.0.0-alpha",
+    "commit": {
+      "sha": "c1c1e426b32794d5e84134ee81bf895ff0228fe5",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c1c1e426b32794d5e84134ee81bf895ff0228fe5"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzQuMC4wLWFscGhh"
+  },
+  {
+    "name": "3.05.02",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/3.05.02",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/3.05.02",
+    "commit": {
+      "sha": "7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7e5f0d6fc6b214093d5b660cdcf6ce36bbbdd30f"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzMuMDUuMDI="
+  },
+  {
+    "name": "3.05.02-20180621",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/3.05.02-20180621",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/3.05.02-20180621",
+    "commit": {
+      "sha": "89cd0e514ee3ed10c81fb3988e9a41f805c578c1",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/89cd0e514ee3ed10c81fb3988e9a41f805c578c1"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzMuMDUuMDItMjAxODA2MjE="
+  },
+  {
+    "name": "3.05.01",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/3.05.01",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/3.05.01",
+    "commit": {
+      "sha": "215866151e774972c9502282111b998d7a053562",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/215866151e774972c9502282111b998d7a053562"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzMuMDUuMDE="
+  },
+  {
+    "name": "3.05.01dev-20170510",
+    "zipball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/zipball/refs/tags/3.05.01dev-20170510",
+    "tarball_url": "https://api.github.com/repos/UB-Mannheim/tesseract/tarball/refs/tags/3.05.01dev-20170510",
+    "commit": {
+      "sha": "f8e373b4314d2b8cceea4ea018917f3fc95bb55b",
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/f8e373b4314d2b8cceea4ea018917f3fc95bb55b"
+    },
+    "node_id": "MDM6UmVmNDc2MDUwODQ6cmVmcy90YWdzLzMuMDUuMDFkZXYtMjAxNzA1MTA="
+  }
+]

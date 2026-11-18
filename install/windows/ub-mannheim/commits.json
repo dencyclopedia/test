@@ -1,0 +1,2462 @@
+[
+  {
+    "sha": "ddcd04239a19d3992ecc443dfa0aa025843a6614",
+    "node_id": "C_kwDOAtZlXNoAKGRkY2QwNDIzOWExOWQzOTkyZWNjNDQzZGZhMGFhMDI1ODQzYTY2MTQ",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:53:59Z"
+      },
+      "message": "ccmain: set all results of ParagraphInfo and Orientation\n\nPageIterator::ParagraphInfo() only set *just before it returned for a\nparagraph without a model (e.g. on a page with a single line), so\nis_list_item, is_crown and first_line_indent were not set, and\nTessPageIteratorParagraphInfo() returned uninitialized values.\n\nPageIterator::Orientation() did not set deskew_angle if there is no\nblock.\n\nSet defaults for all results.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-O6ZIKBZD).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "06761fab7c5bb88b866f7f6fe02f71745767b2f0",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/06761fab7c5bb88b866f7f6fe02f71745767b2f0"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/ddcd04239a19d3992ecc443dfa0aa025843a6614",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ddcd04239a19d3992ecc443dfa0aa025843a6614",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/ddcd04239a19d3992ecc443dfa0aa025843a6614",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/ddcd04239a19d3992ecc443dfa0aa025843a6614/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "958776bef946e65eeb41dfb8306dd29201932e9b",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/958776bef946e65eeb41dfb8306dd29201932e9b",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/958776bef946e65eeb41dfb8306dd29201932e9b"
+      }
+    ]
+  },
+  {
+    "sha": "958776bef946e65eeb41dfb8306dd29201932e9b",
+    "node_id": "C_kwDOAtZlXNoAKDk1ODc3NmJlZjk0NmU2NWVlYjQxZGZiODMwNmRkMjkyMDE5MzJlOWI",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:59Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:53:59Z"
+      },
+      "message": "wordstrbox: fix missing end of the last line of a page\n\nGetWordStrBoxText() only wrote the end-of-line record and the newline\nfor the last text line if left, top, right and bottom of that line\nwere all non-zero. But 0 is a valid coordinate, so a last line which\ntouches the left or the top edge of the image was not terminated, and\nthe first record of the next page was appended to it.\n\nUse the existing flag first_line, like GetLSTMBoxText() uses\nfirst_word.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-62L14G1E).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "bfa433f3871bb8e5df0ea7149b7fd6a8333880c5",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/bfa433f3871bb8e5df0ea7149b7fd6a8333880c5"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/958776bef946e65eeb41dfb8306dd29201932e9b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/958776bef946e65eeb41dfb8306dd29201932e9b",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/958776bef946e65eeb41dfb8306dd29201932e9b",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/958776bef946e65eeb41dfb8306dd29201932e9b/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d52a4981096140ddc9493790e23a935c458cb2f",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7d52a4981096140ddc9493790e23a935c458cb2f",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/7d52a4981096140ddc9493790e23a935c458cb2f"
+      }
+    ]
+  },
+  {
+    "sha": "7d52a4981096140ddc9493790e23a935c458cb2f",
+    "node_id": "C_kwDOAtZlXNoAKDdkNTJhNDk4MTA5NjE0MGRkYzk0OTM3OTBlMjNhOTM1YzQ1OGNiMmY",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:37:46Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:53:59Z"
+      },
+      "message": "hocr: escape the language name and the document title\n\nGetHOCRText() writes the input name, the font name and the recognized\ntext with HOcrEscape(), but not the language name in the lang\nattribute of ocr_par and ocrx_word. That is the name under which the\nmodel was loaded, so a quote or another markup character in the file\nname of a traineddata gave broken or unwanted markup.\n\nThe same is true for the document title in the title element.\n\nEscape both, and add unit tests.\n\nThe proposed test for the language name copied the model with\nfile::GetContents() and file::SetContents(), which truncate binary\ndata, so the model could not be loaded and the test was skipped. Copy\nthe file with std::filesystem, and fail if the model cannot be loaded.\n\nBased on the fix proposed by the Anthropic OSS Scanner\n(finding ANT-2026-IYB11TST).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "7b606b3d6cbc00dbdd66772ebd90bb951689d29e",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/7b606b3d6cbc00dbdd66772ebd90bb951689d29e"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/7d52a4981096140ddc9493790e23a935c458cb2f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7d52a4981096140ddc9493790e23a935c458cb2f",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/7d52a4981096140ddc9493790e23a935c458cb2f",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7d52a4981096140ddc9493790e23a935c458cb2f/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "66389e5a709f14e45cbb6191cd7e37e8d7919867",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/66389e5a709f14e45cbb6191cd7e37e8d7919867",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/66389e5a709f14e45cbb6191cd7e37e8d7919867"
+      }
+    ]
+  },
+  {
+    "sha": "66389e5a709f14e45cbb6191cd7e37e8d7919867",
+    "node_id": "C_kwDOAtZlXNoAKDY2Mzg5ZTVhNzA5ZjE0ZTQ1Y2JiNjE5MWNkN2UzN2U4ZDc5MTk4Njc",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:10:28Z"
+      },
+      "message": "textord: skip the distance transform for blobs with a huge box\n\nSetBlobStrokeWidth() clips the page to the bounding box of the blob\nand runs pixDistanceFunction() and two scans over it, so the cost is\nthe area of the box, however small the blob is. A page with thin\nnested rings or diagonal lines has hundreds of blobs with boxes of\nnearly the size of the page, and the layout analysis took minutes.\n\nStore zero widths if the area of the box is more than 128 times the\nperimeter of the outline. Zero is what the function already stores\nfor a blob with not enough samples; users of the widths then use the\nestimate from area and perimeter.\n\nThis changes the stroke widths of blobs like page-sized frames or scan\nborders, of long thin lines and of very large glyphs.\n\nThe limit of 128 was tested with 237 pages of books, journals and\nletters and with 101 pages of a newspaper (Deutscher Reichsanzeiger).\n182 of these pages have blobs above the limit, mostly a single blob\nwhich spans the whole page. For all pages of the first set and for\nthe 23 pages of the second set which have such blobs, the text and\nhOCR output with model german_print2_15 and --psm 3 was identical\nwith and without this change, and the run time did not change\nnoticeably. A synthetic page of 2000 x 2000 pixels with nested rings\nneeds 4.3 s instead of 18.7 s.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-LZYJKPKM).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "f83ef86d83762399ab112b9797aff880ddb08d2e",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/f83ef86d83762399ab112b9797aff880ddb08d2e"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/66389e5a709f14e45cbb6191cd7e37e8d7919867",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/66389e5a709f14e45cbb6191cd7e37e8d7919867",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/66389e5a709f14e45cbb6191cd7e37e8d7919867",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/66389e5a709f14e45cbb6191cd7e37e8d7919867/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d41f9fee1db7a12c08208b0c4db63a6aec143060",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d41f9fee1db7a12c08208b0c4db63a6aec143060",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/d41f9fee1db7a12c08208b0c4db63a6aec143060"
+      }
+    ]
+  },
+  {
+    "sha": "d41f9fee1db7a12c08208b0c4db63a6aec143060",
+    "node_id": "C_kwDOAtZlXNoAKGQ0MWY5ZmVlMWRiN2ExMmMwODIwOGIwYzRkYjYzYTZhZWMxNDMwNjA",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:19Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:53Z"
+      },
+      "message": "textord: fix read out of bounds in GAPMAP for a map with one entry\n\nWith gapmap_no_isolated_quanta the test for an isolated quantum read\nmap[i + 1] for i == 0 and map[i - 1] for i == map_max without checking\nwhether these neighbours exist. For a block which is narrower than one\nbucket (map_max == 0) both are outside of the array.\n\nOnly look at neighbours which exist. The result is the same for maps\nwith two or more entries. The single entry of a map with one entry is\nnow always handled as isolated.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-LETONEVL).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "b6a01a04cc57e5af567c831ddcb95aaaa59edc59",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/b6a01a04cc57e5af567c831ddcb95aaaa59edc59"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/d41f9fee1db7a12c08208b0c4db63a6aec143060",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d41f9fee1db7a12c08208b0c4db63a6aec143060",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/d41f9fee1db7a12c08208b0c4db63a6aec143060",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d41f9fee1db7a12c08208b0c4db63a6aec143060/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3624c6bf224719db284d97ccd3360d1e419254c0",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3624c6bf224719db284d97ccd3360d1e419254c0",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/3624c6bf224719db284d97ccd3360d1e419254c0"
+      }
+    ]
+  },
+  {
+    "sha": "3624c6bf224719db284d97ccd3360d1e419254c0",
+    "node_id": "C_kwDOAtZlXNoAKDM2MjRjNmJmMjI0NzE5ZGIyODRkOTdjY2QzMzYwZDFlNDE5MjU0YzA",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:19Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:53Z"
+      },
+      "message": "textord: fix loop counters and a division by zero in GAPMAP\n\n- The loops over the gap map counted with an int16_t and tested\n  i <= map_max. For map_max == INT16_MAX (a block which is 32767\n  pixels wide with a bucket size of 1) that test never fails: the\n  counter wraps, and the loop writes in front of the map and does not\n  end in builds with g++. Use int for the counters.\n\n- The x-height of a row was narrowed to int16_t before it was added to\n  the histogram. Values above 32767, which are possible with a large\n  textord_min_xheight, became small or negative instead of being\n  clipped to the range of the histogram by STATS::add(). That is how\n  the bucket size got as small as 1 or 0.\n\n- A median x-height below 2 gave a bucket size of 0 and a division by\n  zero. Use a bucket size of at least 1.\n\nThe first two changes are the fix which was proposed by the scanner,\nthe third one was suggested by its review.\n\nBased on the fix proposed by the Anthropic OSS Scanner\n(finding ANT-2026-R518F4VZ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "57481acfdee3f4165db4b993f957017f68fe6b7c",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/57481acfdee3f4165db4b993f957017f68fe6b7c"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/3624c6bf224719db284d97ccd3360d1e419254c0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3624c6bf224719db284d97ccd3360d1e419254c0",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/3624c6bf224719db284d97ccd3360d1e419254c0",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/3624c6bf224719db284d97ccd3360d1e419254c0/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b31e8585de29a66e0806faae48befee283e97748",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b31e8585de29a66e0806faae48befee283e97748",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/b31e8585de29a66e0806faae48befee283e97748"
+      }
+    ]
+  },
+  {
+    "sha": "b31e8585de29a66e0806faae48befee283e97748",
+    "node_id": "C_kwDOAtZlXNoAKGIzMWU4NTg1ZGUyOWE2NmUwODA2ZmFhZTQ4YmVmZWUyODNlOTc3NDg",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:59Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:12Z"
+      },
+      "message": "classify: avoid a float overflow in ReadParamDesc\n\nRange and MidRange were calculated in float from the limits Min and\nMax of a normproto file. For limits like -3e38 and 3e38 the difference\noverflows, and the tesseract executable traps FE_OVERFLOW when it was\nbuilt with g++ (SIGFPE in Init()).\n\nCalculate in double and clip the range to the range of float.\n\nAdd a unit test. ReadParamDesc() gets TESS_API for it, as the test\nmust also link with a shared library which hides its symbols.\n\nBased on the fix proposed by the Anthropic OSS Scanner\n(finding ANT-2026-0INCQPMJ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "eb0655a733e4201b3bee38b45e53972fd4731771",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/eb0655a733e4201b3bee38b45e53972fd4731771"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/b31e8585de29a66e0806faae48befee283e97748",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b31e8585de29a66e0806faae48befee283e97748",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/b31e8585de29a66e0806faae48befee283e97748",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b31e8585de29a66e0806faae48befee283e97748/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/bf506ff7daa3f0949d1a89384c4963fa6e775cd1"
+      }
+    ]
+  },
+  {
+    "sha": "bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+    "node_id": "C_kwDOAtZlXNoAKGJmNTA2ZmY3ZGFhM2YwOTQ5ZDFhODkzODRjNDk2M2ZhNmU3NzVjZDE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:50Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:12Z"
+      },
+      "message": "classify: avoid linear searches by unichar id in the adaptive matcher\n\nWith a shape table ExpandShapesAndApplyCorrections() searched\nmapped_results for each unichar of each shape, AddNewResult() searched\nthe results for each new result, and ConvertMatchesToChoices() counted\nthe list of choices for each result. All of that is quadratic in the\nsize of a shape, so a model with a shape of thousands of unichars\nneeded minutes for a few words.\n\nUse an index by unichar id for the first two searches and the existing\ncounter choices_length instead of the list length.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-MMH5CLWJ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "af88b26055041b59b1f4389c386612de60b41a5e",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/af88b26055041b59b1f4389c386612de60b41a5e"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/bf506ff7daa3f0949d1a89384c4963fa6e775cd1",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/bf506ff7daa3f0949d1a89384c4963fa6e775cd1/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0"
+      }
+    ]
+  },
+  {
+    "sha": "0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+    "node_id": "C_kwDOAtZlXNoAKDBkNGUxYTU0ZDgxMmMxMmViMzliZjlkM2ZkODg2ZGZmMmU2MTNiZDA",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:50Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:12Z"
+      },
+      "message": "cutil: fix null pointer dereference for the size of an empty LIST\n\nAn empty LIST is NIL_LIST (nullptr). Commit 2fa96b765 replaced the\nfunction count(LIST) by the member function list_rec::size(). Calling\nit for an empty list is undefined behaviour: clang removes the test\nfor a null pointer, and the code crashes. That happened in\nPrintAdaptedTemplates() and in WriteAdaptedClass() for an adapted\nclass without temporary protos, for example at the end of a run with\nclassify_save_adapted_templates.\n\nRestore the function count(), which handles an empty list.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-8AGHSUUG).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "0df7e9d8f230c18f59da316a97581c4c6446c2f0",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/0df7e9d8f230c18f59da316a97581c4c6446c2f0"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/0d4e1a54d812c12eb39bf9d3fd886dff2e613bd0/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b2968d65cbe62799c2ae316fc00566a07e712c6",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6b2968d65cbe62799c2ae316fc00566a07e712c6",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/6b2968d65cbe62799c2ae316fc00566a07e712c6"
+      }
+    ]
+  },
+  {
+    "sha": "6b2968d65cbe62799c2ae316fc00566a07e712c6",
+    "node_id": "C_kwDOAtZlXNoAKDZiMjk2OGQ2NWNiZTYyNzk5YzJhZTMxNmZjMDA1NjZhMDdlNzEyYzY",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:50Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:09:12Z"
+      },
+      "message": "classify: reject an inttemp class with too many protos\n\nReadIntTemplates() allocates ProtoLengths and ProtoSets[] from\nNumProtoSets, but the adaption code (FindGoodProtos, AddIntProto)\nindexes them by the proto id up to NumProtos. A file with NumProtos >\nNumProtoSets * PROTOS_PER_PROTO_SET therefore caused accesses out of\nbounds.\n\nAdd this condition to the existing check of the counts of a class.\n\nAlso avoid a division by a proto length of 0, which can come from a\nfile, too, in FindGoodProtos() and DisplayProtoDebugInfo().\n\nAdd unit tests.\n\nBased on the fix proposed by the Anthropic OSS Scanner\n(finding ANT-2026-5F5B0BAI).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "1b070b50dcbb43bdbf4f8566c49a3a5a3ef51bed",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/1b070b50dcbb43bdbf4f8566c49a3a5a3ef51bed"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/6b2968d65cbe62799c2ae316fc00566a07e712c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6b2968d65cbe62799c2ae316fc00566a07e712c6",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/6b2968d65cbe62799c2ae316fc00566a07e712c6",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/6b2968d65cbe62799c2ae316fc00566a07e712c6/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9e719c155f8b89372fc5443602acba6d9e67555e",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/9e719c155f8b89372fc5443602acba6d9e67555e",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/9e719c155f8b89372fc5443602acba6d9e67555e"
+      }
+    ]
+  },
+  {
+    "sha": "9e719c155f8b89372fc5443602acba6d9e67555e",
+    "node_id": "C_kwDOAtZlXNoAKDllNzE5YzE1NWY4Yjg5MzcyZmM1NDQzNjAyYWNiYTZkOWU2NzU1NWU",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:08:41Z"
+      },
+      "message": "ccmain: fix read out of bounds in PrerecAllWordsPar for an empty word\n\nPrerecAllWordsPar() (tessedit_parallelize) assumes that each ratings\nmatrix has a cell (0, 0). In LSTM-only mode a word without blobs is\nnot replaced by a fake word, so its ratings matrix has dimension 0,\nand get(0, 0) read behind the empty array.\n\nSkip such a word. It has no blobs which could be classified.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-XHAFVBQP).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "d1cbd1b872376848684a7537efd477b8ad2ee2c3",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/d1cbd1b872376848684a7537efd477b8ad2ee2c3"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/9e719c155f8b89372fc5443602acba6d9e67555e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/9e719c155f8b89372fc5443602acba6d9e67555e",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/9e719c155f8b89372fc5443602acba6d9e67555e",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/9e719c155f8b89372fc5443602acba6d9e67555e/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975"
+      }
+    ]
+  },
+  {
+    "sha": "71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+    "node_id": "C_kwDOAtZlXNoAKDcxNTE1YzRkZDJjZGNiNWJlOTJiZWViMGRkM2VhNjczYjQ0YjM5NzU",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:07:03Z"
+      },
+      "message": "equationdetect: fix the comparators which are used for std::sort\n\nSortCPByTopReverse(), SortCPByBottom() and SortCPByHeight() were\nwritten for qsort: they get pointers to the elements and return an int\ndifference. Since commit 1f94d79c8 they are used with std::sort on a\nstd::vector<ColPartition *>, which passes the elements themselves and\nexpects a bool. Each function therefore used the first field of a\nColPartition as a pointer to a ColPartition and failed its own\nASSERT_HOST, so the page segmentation aborted whenever\ntextord_equation_detect was set and two text partitions had to be\nsorted.\n\nTake ColPartition pointers and return the result of a strict\ncomparison which gives the same order as before.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-ZGL3I80W).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "44102ab66884d7bf10520bf780eff5a8c9a0ae02",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/44102ab66884d7bf10520bf780eff5a8c9a0ae02"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/71515c4dd2cdcb5be92beeb0dd3ea673b44b3975/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4"
+      }
+    ]
+  },
+  {
+    "sha": "e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+    "node_id": "C_kwDOAtZlXNoAKGU4NjgxYjVkYWQ1ZDg1NGIxNjZiNGQ2ZGMyYjM3ZTdkNjQ3YmI2YTQ",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:08Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "ccmain: do not abort on an unsupported tessedit_reject_mode\n\nmake_reject_map() only supports the values 0 and 5 for\ntessedit_reject_mode and called ASSERT_HOST for any other value. That\naborted the process, also for users of the library, as soon as the\nlegacy engine recognized the first word.\n\nPrint a warning and use the default mode instead.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-W4VDS3BJ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "6e8a52e0ffcb5e373df3b4ca4ce70470850bbf63",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/6e8a52e0ffcb5e373df3b4ca4ce70470850bbf63"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e8681b5dad5d854b166b4d6dc2b37e7d647bb6a4/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "32bfe5958e0e52613e53c0f437999e5669689edf",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/32bfe5958e0e52613e53c0f437999e5669689edf",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/32bfe5958e0e52613e53c0f437999e5669689edf"
+      }
+    ]
+  },
+  {
+    "sha": "32bfe5958e0e52613e53c0f437999e5669689edf",
+    "node_id": "C_kwDOAtZlXNoAKDMyYmZlNTk1OGUwZTUyNjEzZTUzYzBmNDM3OTk5ZTU2Njk2ODllZGY",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:08Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "wordrec: let same_point be true for equal points\n\nThe chopper relies on same_point() being true for two equal points:\nnear_point() uses it to refuse the insertion of a point which\ncoincides with the end of a segment. With chop_same_distance <= 0 the\ntest abs(0) < chop_same_distance fails, so vertical_projection_point()\ninserted the same point again and again until the memory was used up.\n\nEqual points are now the same for any value of chop_same_distance.\nNothing changes for values >= 1.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-MQFM0DHQ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "56544af0886c68f6fcb7e76d81e877d21106e1c8",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/56544af0886c68f6fcb7e76d81e877d21106e1c8"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/32bfe5958e0e52613e53c0f437999e5669689edf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/32bfe5958e0e52613e53c0f437999e5669689edf",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/32bfe5958e0e52613e53c0f437999e5669689edf",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/32bfe5958e0e52613e53c0f437999e5669689edf/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed"
+      }
+    ]
+  },
+  {
+    "sha": "c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+    "node_id": "C_kwDOAtZlXNoAKGM3ODliNWE1ZDRmODY1MmEzMmRjMTJiZDQ3ZDgyMmQ3YTk0OWUxZWQ",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:08Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "textord: clip the ratio limits in compute_row_descdrop\n\ncompute_row_descdrop() converts row->xheight multiplied by\ntextord_ascx_ratio_min/max and textord_descx_ratio_min/max to int.\nThe conversion is undefined if the product is out of the int range,\nwhich happens for a huge ratio from a config file. The loop which\ncounts the potential ascenders then ran over up to 2^31 indices for\neach row.\n\nClip the ascender limits to the range of the histogram (they can only\nnarrow it) and the descender limits to +/-INT16_MAX before the\nconversion. Nothing changes for values which were converted correctly\nbefore.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-LSPRDZR1).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "0cf58c1a820fa2c6e971a33dd4f4ac8b07ce97ad",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/0cf58c1a820fa2c6e971a33dd4f4ac8b07ce97ad"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/c789b5a5d4f8652a32dc12bd47d822d7a949e1ed/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/28e7e6768dcc9b292a2dc6baf0e871d05665c161"
+      }
+    ]
+  },
+  {
+    "sha": "28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+    "node_id": "C_kwDOAtZlXNoAKDI4ZTdlNjc2OGRjYzliMjkyYTJkYzZiYWYwZTg3MWQwNTY2NWMxNjE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:08Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "textord: avoid divisions by zero for three integer parameters\n\ntextord_noise_sizefraction, edges_children_per_grandchild and\ntextord_spline_medianwin are used as divisors without any check, so a\nvalue of 0 from a config file ended the process with SIGFPE.\ntextord_spline_medianwin is also used as the size of a median window,\nand a value below 1 caused a read out of bounds in segment_baseline().\n\n- clean_noise_from_row() and clean_noise_from_words() use the blob\n  size as the threshold if textord_noise_sizefraction is not positive.\n- OL_BUCKETS::count_children() counts no grandchildren if\n  edges_children_per_grandchild is not positive.\n- segment_baseline() falls back to a straight baseline if\n  textord_spline_medianwin is not positive.\n\nNothing changes for positive values.\n\nThis is not a complete fix for all parameters: there are more\nparameters which are used as divisors in floating point calculations\nwithout a check.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-I7UIR1ID).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "adc8036cfeecc2a9fac24fde26f11e4356c0f558",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/adc8036cfeecc2a9fac24fde26f11e4356c0f558"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/28e7e6768dcc9b292a2dc6baf0e871d05665c161",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/28e7e6768dcc9b292a2dc6baf0e871d05665c161/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/1d37ffa9651fc517b17bc2373f7d07e638b01c3f"
+      }
+    ]
+  },
+  {
+    "sha": "1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+    "node_id": "C_kwDOAtZlXNoAKDFkMzdmZmE5NjUxZmM1MTdiMTdiYzIzNzNmN2QwN2U2MzhiMDFjM2Y",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:07Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "textord: clamp textord_spline_medianwin in split_stepped_spline\n\nsplit_stepped_spline() derives leftindex and rightindex from multiples\nof textord_spline_medianwin and reads xcoords[leftindex - 1] and\nxcoords[rightindex - 1]. The indices only stay inside\nstartindex..endindex if the window is at least 4. A smaller value\ncaused a read out of bounds, and a huge value overflowed the\nmultiplication by 3.\n\nUse a local copy of the parameter which is clipped to [4, INT16_MAX].\nThe default value (6) is not affected.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-939MIPZ8).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "bfc99505c7254a72bc8bb94264ad62ff72ada9f0",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/bfc99505c7254a72bc8bb94264ad62ff72ada9f0"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/1d37ffa9651fc517b17bc2373f7d07e638b01c3f",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/1d37ffa9651fc517b17bc2373f7d07e638b01c3f/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/467278405f79bb2b0b3eddf9c9e3dbe4bf605862"
+      }
+    ]
+  },
+  {
+    "sha": "467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+    "node_id": "C_kwDOAtZlXNoAKDQ2NzI3ODQwNWY3OWJiMmIwYjNlZGRmOWM5ZTNkYmU0YmY2MDU4NjI",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:07Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "textord: do not chop an outline which is not left of the chop line\n\nfixed_chop_coutline() walks the outline from its leftmost point, and\nthe walk only ends if that point is strictly left of the chop line.\nThe existing test left_edge >= chop_coord - pitch_error only\nguarantees that for a pitch error which is not negative. The pitch\nerror is derived from the parameter textord_fp_chop_error, so a\nnegative value made the loop run forever.\n\nAlso test left_edge >= chop_coord. Nothing changes for parameter\nvalues >= 0.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-RSH5HI6X).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "4235400d70ea1ce0688bfcc430e057a6c28ac279",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/4235400d70ea1ce0688bfcc430e057a6c28ac279"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/467278405f79bb2b0b3eddf9c9e3dbe4bf605862",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/467278405f79bb2b0b3eddf9c9e3dbe4bf605862/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "afdc743a8441a165909a8efe168bcacb30491a2a",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/afdc743a8441a165909a8efe168bcacb30491a2a",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/afdc743a8441a165909a8efe168bcacb30491a2a"
+      }
+    ]
+  },
+  {
+    "sha": "afdc743a8441a165909a8efe168bcacb30491a2a",
+    "node_id": "C_kwDOAtZlXNoAKGFmZGM3NDNhODQ0MWExNjU5MDlhOGVmZTE2OGJjYWNiMzA0OTFhMmE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:07Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:04:38Z"
+      },
+      "message": "textord: clamp the trial pitch in compute_pitch_sd\n\ncompute_pitch_sd() fills the cells with a step of\nstatic_cast<int16_t>(initial_pitch). check_pitch_sync() and\ncheck_pitch_sync2() clamp their copy of the pitch to at least 3, but\nthe caller kept the raw value. With pitsync_linear_version 0 or 1 and\na large textord_pitch_range, tune_row_pitch() tries pitches below 1.\nThe step is 0 then, and the loop allocates cells until the memory is\nused up.\n\nApply the same lower bound in compute_pitch_sd(). The default\n(pitsync_linear_version 6) returns via compute_pitch_sd2() before the\nclamp and is not changed.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-5CCTX4YZ).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "19b7780b329e910754a398739b3466231ee55664",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/19b7780b329e910754a398739b3466231ee55664"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/afdc743a8441a165909a8efe168bcacb30491a2a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/afdc743a8441a165909a8efe168bcacb30491a2a",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/afdc743a8441a165909a8efe168bcacb30491a2a",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/afdc743a8441a165909a8efe168bcacb30491a2a/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5a91677d11b870b5eac021c7178feebe1c9f617c",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5a91677d11b870b5eac021c7178feebe1c9f617c",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/5a91677d11b870b5eac021c7178feebe1c9f617c"
+      }
+    ]
+  },
+  {
+    "sha": "5a91677d11b870b5eac021c7178feebe1c9f617c",
+    "node_id": "C_kwDOAtZlXNoAKDVhOTE2NzdkMTFiODcwYjVlYWMwMjFjNzE3OGZlZWJlMWM5ZjYxN2M",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:39:02Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:03:16Z"
+      },
+      "message": "api: run the recognition if only the layout analysis was done\n\nGetHOCRText(), GetAltoText(), GetPAGEText(), GetTSVText(),\nGetLSTMBoxText() and GetWordStrBoxText() only called Recognize() if\npage_res_ was null. After AnalyseLayout(), which is all that\nProcessPage() does for tessedit_pageseg_mode 2 (PSM_AUTO_ONLY),\npage_res_ exists without recognition results, and the iterator\ndereferenced a null pointer.\n\nTest recognition_done_ like GetUTF8Text(), GetBoxText() and\nGetUNLVText() do.\n\nThe PDF renderer uses the iterator directly and crashed in the same\nway, so it gets the same test. It needs to be a friend class of\nTessBaseAPI for that.\n\nThis change needs the fix for the state of recognition_done_ on empty\npages first (pull request #4528). Without that fix Recognize() does\nnot set recognition_done_ for an empty page, so each of these\nfunctions would run the layout analysis of an empty page again.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-RBQXRM52).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "1d6163d34b1ec247b3e0354e5190abb5f1e91b96",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/1d6163d34b1ec247b3e0354e5190abb5f1e91b96"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/5a91677d11b870b5eac021c7178feebe1c9f617c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5a91677d11b870b5eac021c7178feebe1c9f617c",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/5a91677d11b870b5eac021c7178feebe1c9f617c",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5a91677d11b870b5eac021c7178feebe1c9f617c/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b"
+      }
+    ]
+  },
+  {
+    "sha": "5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+    "node_id": "C_kwDOAtZlXNoAKDVmZDI4ZTMzYTEzMWE1NTcyYjRlYzNlZjBiZmFmOGZiMzQ4MTBjNGI",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:02:37Z"
+      },
+      "message": "fontinfo: check the font ids before they are used as an index\n\nFontInfoTable::SetContainsFontProperties() and\nSetContainsMultipleFontProperties() used the font ids of the classifier\nresults as indices into the table without a check. In classifier_tester\nthe table is made from the font_properties file of the user, while the\nids come from the shape table of the model, so they need not match,\nand the code read out of bounds.\n\nIgnore ids which are not in the table, like\nTesseract::set_word_fonts() does.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-7OLQOJK3).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "e245eab75ea19ad3d7b5ef5713ad24c0c37e2f90",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/e245eab75ea19ad3d7b5ef5713ad24c0c37e2f90"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/5fd28e33a131a5572b4ec3ef0bfaf8fb34810c4b/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "adc444e0edd1fcce11a3ff30b82be250599d4639",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/adc444e0edd1fcce11a3ff30b82be250599d4639",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/adc444e0edd1fcce11a3ff30b82be250599d4639"
+      }
+    ]
+  },
+  {
+    "sha": "adc444e0edd1fcce11a3ff30b82be250599d4639",
+    "node_id": "C_kwDOAtZlXNoAKGFkYzQ0NGUwZWRkMWZjY2UxMWEzZmYzMGI4MmJlMjUwNTk5ZDQ2Mzk",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:02:37Z"
+      },
+      "message": "training: fix crashes in AddSpacingInfo for a missing or bad xheight\n\nMasterTrainer::AddSpacingInfo() divides by xheights_[fontinfo_id], but\nxheights_ only gets its size from LoadXHeights(), which is only called\nif the option -X was given, and LoadXHeights() accepted any integer.\nWithout -X the code read from an empty vector (SIGSEGV), and with an\nx-height of 0 it divided by zero (SIGFPE).\n\nIgnore the spacing file with a message if the font has no valid\nx-height, like it is done for a file which matches no font. Also skip\nx-heights which are not positive in LoadXHeights(), so such a font\ngets the mean of the valid entries.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-TUPX5CXU).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "9004281d379f3f660a2c12e8b03ad70cc7e69222",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/9004281d379f3f660a2c12e8b03ad70cc7e69222"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/adc444e0edd1fcce11a3ff30b82be250599d4639",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/adc444e0edd1fcce11a3ff30b82be250599d4639",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/adc444e0edd1fcce11a3ff30b82be250599d4639",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/adc444e0edd1fcce11a3ff30b82be250599d4639/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d20daaf23ae4224643e76516868ff3b70da7ae6e",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d20daaf23ae4224643e76516868ff3b70da7ae6e",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/d20daaf23ae4224643e76516868ff3b70da7ae6e"
+      }
+    ]
+  },
+  {
+    "sha": "d20daaf23ae4224643e76516868ff3b70da7ae6e",
+    "node_id": "C_kwDOAtZlXNoAKGQyMGRhYWYyM2FlNDIyNDY0M2U3NjUxNjg2OGZmM2I3MGRhN2FlNmU",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:31:00Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:02:37Z"
+      },
+      "message": "training: fix use after free in DeleteDeadSamples\n\nTrainingSampleSet::DeleteDeadSamples() erased the entry of a dead\nsample from the vector and then deleted *it. As erase() moves the\nfollowing entries down, that deleted the next (live) sample and left\na dangling pointer in the vector, while the dead sample was leaked.\nshapeclustering and mftraining crashed.\n\nDelete the sample first, and continue with the iterator which erase()\nreturns.\n\nThis was a regression from commit af131241a.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-6OZE8ZWP).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "ba7940f3fbb1c4182aecff14da620beeb351eb43",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/ba7940f3fbb1c4182aecff14da620beeb351eb43"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/d20daaf23ae4224643e76516868ff3b70da7ae6e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d20daaf23ae4224643e76516868ff3b70da7ae6e",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/d20daaf23ae4224643e76516868ff3b70da7ae6e",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/d20daaf23ae4224643e76516868ff3b70da7ae6e/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3"
+      }
+    ]
+  },
+  {
+    "sha": "60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+    "node_id": "C_kwDOAtZlXNoAKDYwZTNlZTVmZTY2ZTY4YWJjNGEyNTdhMGZmZTI0MGFhYWQwZTUzYjM",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:02:00Z"
+      },
+      "message": "lstm: reject weights which do not fit a float\n\nWith FAST_FLOAT (the default) WeightMatrix::DeSerialize() reads the\nweights of a float matrix and the scales of an int matrix as double\nand narrows them to float. A value beyond FLT_MAX, an infinity or a\nNaN raises FE_OVERFLOW or FE_INVALID, which the tesseract executable\ntraps when it was built with g++ (SIGFPE in Init()).\n\nLet the deserialization fail for such a value, as it does for other\ncorrupt matrices.\n\nAdd a unit test.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-QGN1GTJO).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "0ad6195897e9a1246c20c050b2bcc92bd275b7b2",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/0ad6195897e9a1246c20c050b2bcc92bd275b7b2"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/60e3ee5fe66e68abc4a257a0ffe240aaad0e53b3/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "553a9392a6585aea4a6672a4120a6bb69bad8671",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/553a9392a6585aea4a6672a4120a6bb69bad8671",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/553a9392a6585aea4a6672a4120a6bb69bad8671"
+      }
+    ]
+  },
+  {
+    "sha": "553a9392a6585aea4a6672a4120a6bb69bad8671",
+    "node_id": "C_kwDOAtZlXNoAKDU1M2E5MzkyYTY1ODVhZWE0YTY2NzJhNDEyMGE2YmI2OWJhZDg2NzE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:02:00Z"
+      },
+      "message": "lstm: clip before converting to an integer in Tanh and Logistic\n\nTanh() and Logistic() scaled their argument and converted it to\nunsigned before the index was compared with the size of the table.\nThe conversion of a value which does not fit is undefined: code built\nwith g++ raises FE_INVALID, which the tesseract executable traps\n(SIGFPE), and a truncated index could pass the test, so the result was\nfar outside of the range of the function. The argument is only bounded\nby the weights of the model.\n\nCompare the argument with the saturation point before it is scaled.\n\nNetworkIO::WriteTimeStepPart() had the same pattern (round to int,\nthen clip), so clip first there, too.\n\nAdd a unit test for both functions.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-7A38K5B7).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "d75da4a4af29c2b5da2b167b8445378ddf944f37",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/d75da4a4af29c2b5da2b167b8445378ddf944f37"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/553a9392a6585aea4a6672a4120a6bb69bad8671",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/553a9392a6585aea4a6672a4120a6bb69bad8671",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/553a9392a6585aea4a6672a4120a6bb69bad8671",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/553a9392a6585aea4a6672a4120a6bb69bad8671/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "812aaf36ca7b948cf670e68e42e782a124aaa715",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/812aaf36ca7b948cf670e68e42e782a124aaa715",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/812aaf36ca7b948cf670e68e42e782a124aaa715"
+      }
+    ]
+  },
+  {
+    "sha": "812aaf36ca7b948cf670e68e42e782a124aaa715",
+    "node_id": "C_kwDOAtZlXNoAKDgxMmFhZjM2Y2E3Yjk0OGNmNjcwZTY4ZTQyZTc4MmExMjRhYWE3MTU",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:01:31Z"
+      },
+      "message": "matrix: keep the padding when a GENERIC_2D_ARRAY is copied\n\nNetworkIO allocates its int8_t array with padding, because the SIMD\ncode for the matrix multiplication reads whole registers beyond the\nlast timestep. The copy assignment of GENERIC_2D_ARRAY resized the\ndestination without padding, so a copy (like *output = input in\nInput::Forward()) could be read out of bounds by the following layer.\n\nRemember the padding which was given to ResizeNoInit() and use it for\ncopies and moves.\n\nAdd a unit test.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-MZ7IPJ7U).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "4b9f8efcdf305f4deb0c2e63b009a3dc0ea3bb08",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/4b9f8efcdf305f4deb0c2e63b009a3dc0ea3bb08"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/812aaf36ca7b948cf670e68e42e782a124aaa715",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/812aaf36ca7b948cf670e68e42e782a124aaa715",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/812aaf36ca7b948cf670e68e42e782a124aaa715",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/812aaf36ca7b948cf670e68e42e782a124aaa715/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/7be2757f1ecc67985eb317ed03e5216cc0f9d191"
+      }
+    ]
+  },
+  {
+    "sha": "7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+    "node_id": "C_kwDOAtZlXNoAKDdiZTI3NTdmMWVjYzY3OTg1ZWIzMTdlZDAzZTUyMTZjYzBmOWQxOTE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:01:31Z"
+      },
+      "message": "lstm: limit the choices per timestep in SaveMostCertainChoices\n\nThe outputs of a softmax add up to 1, so at most 100 of them can reach\nthe threshold 0.01. A model whose last layer is not a softmax has no\nsuch limit. The sorted insertion was quadratic in the number of\noutputs then, and a list of all outputs was kept for each timestep.\n\nKeep the 100 most likely choices. Their order is unchanged.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-SS02HWH1).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "f68a347d2768498ae5eb5b4d7fa9184cc91bba5a",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/f68a347d2768498ae5eb5b4d7fa9184cc91bba5a"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/7be2757f1ecc67985eb317ed03e5216cc0f9d191",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7be2757f1ecc67985eb317ed03e5216cc0f9d191/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea"
+      }
+    ]
+  },
+  {
+    "sha": "06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+    "node_id": "C_kwDOAtZlXNoAKDA2ZTE1MWJlOTUzMGU2ZWYzZjVjZDNhOTg0ZTFkNGY3YjcyMjgzZWE",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:01:31Z"
+      },
+      "message": "lstm: zero the back deltas in Reconfig::Backward\n\nForward() truncates the output map, so input rows and columns which do\nnot fill a whole tile of x_scale by y_scale have no part in the\noutput. Backward() resizes back_deltas to the full input map without\ninitializing it and then only writes the positions of whole tiles. The\nother positions kept old heap contents, which the layer below added to\nits weights during training.\n\nZero the buffer after resizing it, as the Maxpool code does.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-T3JM0HM1).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "32bbf09355ad5144a3a28a63fb2ddf7ddf3a7ea5",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/32bbf09355ad5144a3a28a63fb2ddf7ddf3a7ea5"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/06e151be9530e6ef3f5cd3a984e1d4f7b72283ea/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6"
+      }
+    ]
+  },
+  {
+    "sha": "b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+    "node_id": "C_kwDOAtZlXNoAKGI5MTZkNmUwMGJlMzdmMDM4YmJhYWEwMWNmM2ZiMTAyNGYwM2JiZTY",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:49Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:01:31Z"
+      },
+      "message": "lstm: avoid a linear search in NetworkScratch::Stack::Return\n\nReturn() searched for the returned item from the top of the stack.\nThat is fast if the items are returned in reverse order, but a vector\nof items is destroyed in the order in which they were borrowed, so\nreturning n items cost O(n^2). The 2-D LSTM borrows 2 * width items,\nand its forward pass took minutes for a wide image.\n\nStore the index of each item in a map and look it up.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-GSHSMLYD).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "a28ff403bbcbff4379a6142ee482ae73bbe90360",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/a28ff403bbcbff4379a6142ee482ae73bbe90360"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/b916d6e00be37f038bbaaa01cf3fb1024f03bbe6/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e6f09a3772eb5938df7a042de406506e9f53ed03",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e6f09a3772eb5938df7a042de406506e9f53ed03",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/e6f09a3772eb5938df7a042de406506e9f53ed03"
+      }
+    ]
+  },
+  {
+    "sha": "e6f09a3772eb5938df7a042de406506e9f53ed03",
+    "node_id": "C_kwDOAtZlXNoAKGU2ZjA5YTM3NzJlYjU5MzhkZjdhMDQyZGU0MDY1MDZlOWY1M2VkMDM",
+    "commit": {
+      "author": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-13T16:30:40Z"
+      },
+      "committer": {
+        "name": "Stefan Weil",
+        "email": "sw@weilnetz.de",
+        "date": "2026-11-15T19:00:55Z"
+      },
+      "message": "dawg: limit the number of positions in a DawgPositionVector\n\nadd_unique() searches the vector linearly, and nothing limited its\nsize. With dawgs which accept every string, the number of distinct\npositions grows with the square of the word length, and the\nrecognition of a page took minutes.\n\nKeep at most 256 positions. Real dictionaries only need a few.\n\nFix proposed by the Anthropic OSS Scanner (finding ANT-2026-Q7Q3JVSG).\n\nAssisted-by: OpenCode / Claude Fable 5.2 (Anthropic)\nSigned-off-by: Stefan Weil <sw@weilnetz.de>",
+      "tree": {
+        "sha": "d9b30c1a6650ba741e20b9930609206c46035931",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/trees/d9b30c1a6650ba741e20b9930609206c46035931"
+      },
+      "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/e6f09a3772eb5938df7a042de406506e9f53ed03",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e6f09a3772eb5938df7a042de406506e9f53ed03",
+    "html_url": "https://github.com/UB-Mannheim/tesseract/commit/e6f09a3772eb5938df7a042de406506e9f53ed03",
+    "comments_url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/e6f09a3772eb5938df7a042de406506e9f53ed03/comments",
+    "author": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "stweil",
+      "id": 6734573,
+      "node_id": "MDQ6VXNlcjY3MzQ1NzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6734573?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stweil",
+      "html_url": "https://github.com/stweil",
+      "followers_url": "https://api.github.com/users/stweil/followers",
+      "following_url": "https://api.github.com/users/stweil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stweil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stweil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stweil/subscriptions",
+      "organizations_url": "https://api.github.com/users/stweil/orgs",
+      "repos_url": "https://api.github.com/users/stweil/repos",
+      "events_url": "https://api.github.com/users/stweil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stweil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7de6b91f29ab520d6f3eef812dee43d01fec5270",
+        "url": "https://api.github.com/repos/UB-Mannheim/tesseract/commits/7de6b91f29ab520d6f3eef812dee43d01fec5270",
+        "html_url": "https://github.com/UB-Mannheim/tesseract/commit/7de6b91f29ab520d6f3eef812dee43d01fec5270"
+      }
+    ]
+  }
+]

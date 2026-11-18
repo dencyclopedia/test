@@ -1,0 +1,24 @@
+{
+  "node_id": "TA_kwDOAtZlXNoAKDNhMzZiMGE2MzkzZjY3OWMzODBlMzkwZTM1ZjJkYmFiMTgzY2M0YjI",
+  "sha": "3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+  "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/tags/3a36b0a6393f679c380e390e35f2dbab183cc4b2",
+  "tagger": {
+    "name": "Stefan Weil",
+    "email": "sw@weilnetz.de",
+    "date": "2026-07-24T18:42:03Z"
+  },
+  "object": {
+    "sha": "9f6f68962dbd839d2e5a296d17badf5666d3fe60",
+    "type": "commit",
+    "url": "https://api.github.com/repos/UB-Mannheim/tesseract/git/commits/9f6f68962dbd839d2e5a296d17badf5666d3fe60"
+  },
+  "tag": "v5.5.3.20260724",
+  "message": "Tesseract 5.5.3.20260724\n",
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}
