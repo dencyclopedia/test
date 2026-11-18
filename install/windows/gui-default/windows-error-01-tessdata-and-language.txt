@@ -1,24 +1,33 @@
 ## missing language
 > tesseract "D:\a\test\test\samples\receipt.png" - -l xyz
-'tesseract' is not recognized as an internal or external command,
-operable program or batch file.
+Error opening data file C:\Program Files\Tesseract-OCR/tessdata/xyz.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'xyz'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
 [exit code 1]
 
 ## wrong tessdata dir
 > tesseract "D:\a\test\test\samples\receipt.png" - --tessdata-dir C:\wrong\tessdata
-'tesseract' is not recognized as an internal or external command,
-operable program or batch file.
+Error opening data file C:\wrong\tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
 [exit code 1]
 
 ## TESSDATA_PREFIX pointing to wrong folder
 > set TESSDATA_PREFIX=C:\Users& tesseract "D:\a\test\test\samples\receipt.png" -
-'tesseract' is not recognized as an internal or external command,
-operable program or batch file.
+Error opening data file C:\Users/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
 [exit code 1]
 
 ## input file missing
 > tesseract nosuchfile.png -
-'tesseract' is not recognized as an internal or external command,
-operable program or batch file.
+Error, cannot read input file nosuchfile.png: No such file or directory
+Error during processing.
 [exit code 1]
 

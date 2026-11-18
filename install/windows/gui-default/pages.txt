@@ -242,19 +242,6 @@ Click Next to continue.
   [Static id=1023] Space required: 96.9 MB
   [Button id=1042] Description
   [Static id=1043] Deploys the foundational English language pack and the Orientation and Script Detection (OSD) module.
-== Choose Components ==
-  [Button id=3] < &Back
-  [Button id=1] &Next >
-  [Button id=2] Cancel
-  [Static id=1256] Nullsoft Install System v3.11-1
-  [Static id=1028] Nullsoft Install System v3.11-1
-  [Static id=1037] Choose Components
-  [Static id=1038] Choose which features of Tesseract-OCR you want to install.
-  [Static id=1006] Check the components you want to install and uncheck the components you don't want to install. Click Next to continue.
-  [Static id=1022] Select components to install:
-  [Static id=1023] Space required: 96.9 MB
-  [Button id=1042] Description
-  [Static id=1043] Deploys the foundational English language pack and the Orientation and Script Detection (OSD) module.
 == Choose Install Location ==
   [Button id=3] < &Back
   [Button id=1] &Next >
@@ -288,10 +275,8 @@ Click Next to continue.
   [Static id=1028] Nullsoft Install System v3.11-1
   [Static id=1037] Installing
   [Static id=1038] Please wait while Tesseract-OCR is being installed.
-  [Static id=1001] Connecting ...
-  [Button id=2] Cancel
   [Button id=1027] Show &details
-  [Static id=1006] Downloading eng language file
+  [Static id=1006] Create shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Tesseract-OCR\Dokumentation.lnk
 == Installation Complete ==
   [Button id=3] < &Back
   [Button id=1] &Next >

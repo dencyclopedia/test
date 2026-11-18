@@ -3,9 +3,9 @@
   "machine": false,
   "user": false
  },
- "path_fixed_by": "Environment Variables dialog (rundll32 sysdm.cpl,EditEnvironmentVariables), driven with pywinauto",
+ "path_fixed_by": "FALLBACK: registry write of system Path + WM_SETTINGCHANGE broadcast (GUI edit failed, see log)",
  "registry_path_has_tesseract_after_fix": {
-  "machine": false,
+  "machine": true,
   "user": false
  }
 }

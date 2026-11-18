@@ -1,5 +1,5 @@
 > tesseract "D:\a\test\test\samples\receipt.png" -
 (PATH re-read from registry)
-'tesseract' is not recognized as an internal or external command,
-operable program or batch file.
+Error, cannot read input file "D:\a\test\test\samples\receipt.png": Invalid argument
+Error during processing.
 [exit code 1]

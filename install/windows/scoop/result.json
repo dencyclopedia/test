@@ -1,14 +1,14 @@
 {
   "pm": "scoop",
-  "scoop_setup_seconds": 21.9,
-  "install_seconds": 7.1,
+  "scoop_setup_seconds": 19.4,
+  "install_seconds": 6.6,
   "install_exit": 0,
-  "languages_install_seconds": 53.2,
+  "languages_install_seconds": 57.2,
   "languages_bytes": 700369770.0,
   "install_dir": "C:\\Users\\runneradmin\\scoop\\apps\\tesseract\\current",
   "installed_bytes": 101270026.0,
   "traineddata": [],
-  "free_space_delta_bytes": 1286152192,
+  "free_space_delta_bytes": 1278398464,
   "path_entries_added": [
     "C:\\Users\\runneradmin\\scoop\\shims"
   ],
