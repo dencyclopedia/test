@@ -18,614 +18,614 @@ Version:4.00.00alpha:eng:synth20170629:[1,36,0,1Ct3,3,16Mp3,3Lfys64Lfx96Lrx96Lfx
 23:version:size=80, offset=15400517
 unicharset_extractor --output_unicharset "data/ocra300/my.unicharset" --norm_mode 2 "data/ocra300/all-gt"
 Extracting unicharset from plain text file data/ocra300/all-gt
+Other case Q of q is not in unicharset
 Other case U of u is not in unicharset
 Other case X of x is not in unicharset
-Other case Q of q is not in unicharset
 Wrote unicharset file data/ocra300/my.unicharset
 merge_unicharsets data/eng/ocra300.lstm-unicharset data/ocra300/my.unicharset "data/ocra300/unicharset"
 Loaded unicharset of size 112 from file data/eng/ocra300.lstm-unicharset
 Loaded unicharset of size 64 from file data/ocra300/my.unicharset
 Wrote unicharset file data/ocra300/unicharset.
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01689.png" -t "data/ocra300-ground-truth/tr-01689.gt.txt" > "data/ocra300-ground-truth/tr-01689.box"
-tesseract "data/ocra300-ground-truth/tr-01689.png" data/ocra300-ground-truth/tr-01689 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01139.png" -t "data/ocra300-ground-truth/tr-01139.gt.txt" > "data/ocra300-ground-truth/tr-01139.box"
-tesseract "data/ocra300-ground-truth/tr-01139.png" data/ocra300-ground-truth/tr-01139 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00544.png" -t "data/ocra300-ground-truth/tr-00544.gt.txt" > "data/ocra300-ground-truth/tr-00544.box"
 tesseract "data/ocra300-ground-truth/tr-00544.png" data/ocra300-ground-truth/tr-00544 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01637.png" -t "data/ocra300-ground-truth/tr-01637.gt.txt" > "data/ocra300-ground-truth/tr-01637.box"
-tesseract "data/ocra300-ground-truth/tr-01637.png" data/ocra300-ground-truth/tr-01637 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01011.png" -t "data/ocra300-ground-truth/tr-01011.gt.txt" > "data/ocra300-ground-truth/tr-01011.box"
-tesseract "data/ocra300-ground-truth/tr-01011.png" data/ocra300-ground-truth/tr-01011 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00156.png" -t "data/ocra300-ground-truth/tr-00156.gt.txt" > "data/ocra300-ground-truth/tr-00156.box"
-tesseract "data/ocra300-ground-truth/tr-00156.png" data/ocra300-ground-truth/tr-00156 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01391.png" -t "data/ocra300-ground-truth/tr-01391.gt.txt" > "data/ocra300-ground-truth/tr-01391.box"
-tesseract "data/ocra300-ground-truth/tr-01391.png" data/ocra300-ground-truth/tr-01391 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00053.png" -t "data/ocra300-ground-truth/tr-00053.gt.txt" > "data/ocra300-ground-truth/tr-00053.box"
-tesseract "data/ocra300-ground-truth/tr-00053.png" data/ocra300-ground-truth/tr-00053 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00265.png" -t "data/ocra300-ground-truth/tr-00265.gt.txt" > "data/ocra300-ground-truth/tr-00265.box"
-tesseract "data/ocra300-ground-truth/tr-00265.png" data/ocra300-ground-truth/tr-00265 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00126.png" -t "data/ocra300-ground-truth/tr-00126.gt.txt" > "data/ocra300-ground-truth/tr-00126.box"
-tesseract "data/ocra300-ground-truth/tr-00126.png" data/ocra300-ground-truth/tr-00126 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00998.png" -t "data/ocra300-ground-truth/tr-00998.gt.txt" > "data/ocra300-ground-truth/tr-00998.box"
-tesseract "data/ocra300-ground-truth/tr-00998.png" data/ocra300-ground-truth/tr-00998 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01222.png" -t "data/ocra300-ground-truth/tr-01222.gt.txt" > "data/ocra300-ground-truth/tr-01222.box"
-tesseract "data/ocra300-ground-truth/tr-01222.png" data/ocra300-ground-truth/tr-01222 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01004.png" -t "data/ocra300-ground-truth/tr-01004.gt.txt" > "data/ocra300-ground-truth/tr-01004.box"
-tesseract "data/ocra300-ground-truth/tr-01004.png" data/ocra300-ground-truth/tr-01004 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01700.png" -t "data/ocra300-ground-truth/tr-01700.gt.txt" > "data/ocra300-ground-truth/tr-01700.box"
-tesseract "data/ocra300-ground-truth/tr-01700.png" data/ocra300-ground-truth/tr-01700 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00876.png" -t "data/ocra300-ground-truth/tr-00876.gt.txt" > "data/ocra300-ground-truth/tr-00876.box"
-tesseract "data/ocra300-ground-truth/tr-00876.png" data/ocra300-ground-truth/tr-00876 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00136.png" -t "data/ocra300-ground-truth/tr-00136.gt.txt" > "data/ocra300-ground-truth/tr-00136.box"
-tesseract "data/ocra300-ground-truth/tr-00136.png" data/ocra300-ground-truth/tr-00136 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00800.png" -t "data/ocra300-ground-truth/tr-00800.gt.txt" > "data/ocra300-ground-truth/tr-00800.box"
-tesseract "data/ocra300-ground-truth/tr-00800.png" data/ocra300-ground-truth/tr-00800 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00310.png" -t "data/ocra300-ground-truth/tr-00310.gt.txt" > "data/ocra300-ground-truth/tr-00310.box"
-tesseract "data/ocra300-ground-truth/tr-00310.png" data/ocra300-ground-truth/tr-00310 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00233.png" -t "data/ocra300-ground-truth/tr-00233.gt.txt" > "data/ocra300-ground-truth/tr-00233.box"
-tesseract "data/ocra300-ground-truth/tr-00233.png" data/ocra300-ground-truth/tr-00233 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01352.png" -t "data/ocra300-ground-truth/tr-01352.gt.txt" > "data/ocra300-ground-truth/tr-01352.box"
-tesseract "data/ocra300-ground-truth/tr-01352.png" data/ocra300-ground-truth/tr-01352 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00068.png" -t "data/ocra300-ground-truth/tr-00068.gt.txt" > "data/ocra300-ground-truth/tr-00068.box"
-tesseract "data/ocra300-ground-truth/tr-00068.png" data/ocra300-ground-truth/tr-00068 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00632.png" -t "data/ocra300-ground-truth/tr-00632.gt.txt" > "data/ocra300-ground-truth/tr-00632.box"
-tesseract "data/ocra300-ground-truth/tr-00632.png" data/ocra300-ground-truth/tr-00632 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00018.png" -t "data/ocra300-ground-truth/tr-00018.gt.txt" > "data/ocra300-ground-truth/tr-00018.box"
-tesseract "data/ocra300-ground-truth/tr-00018.png" data/ocra300-ground-truth/tr-00018 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00376.png" -t "data/ocra300-ground-truth/tr-00376.gt.txt" > "data/ocra300-ground-truth/tr-00376.box"
 tesseract "data/ocra300-ground-truth/tr-00376.png" data/ocra300-ground-truth/tr-00376 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00182.png" -t "data/ocra300-ground-truth/tr-00182.gt.txt" > "data/ocra300-ground-truth/tr-00182.box"
-tesseract "data/ocra300-ground-truth/tr-00182.png" data/ocra300-ground-truth/tr-00182 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00400.png" -t "data/ocra300-ground-truth/tr-00400.gt.txt" > "data/ocra300-ground-truth/tr-00400.box"
-tesseract "data/ocra300-ground-truth/tr-00400.png" data/ocra300-ground-truth/tr-00400 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00927.png" -t "data/ocra300-ground-truth/tr-00927.gt.txt" > "data/ocra300-ground-truth/tr-00927.box"
-tesseract "data/ocra300-ground-truth/tr-00927.png" data/ocra300-ground-truth/tr-00927 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01671.png" -t "data/ocra300-ground-truth/tr-01671.gt.txt" > "data/ocra300-ground-truth/tr-01671.box"
-tesseract "data/ocra300-ground-truth/tr-01671.png" data/ocra300-ground-truth/tr-01671 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01747.png" -t "data/ocra300-ground-truth/tr-01747.gt.txt" > "data/ocra300-ground-truth/tr-01747.box"
-tesseract "data/ocra300-ground-truth/tr-01747.png" data/ocra300-ground-truth/tr-01747 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01124.png" -t "data/ocra300-ground-truth/tr-01124.gt.txt" > "data/ocra300-ground-truth/tr-01124.box"
-tesseract "data/ocra300-ground-truth/tr-01124.png" data/ocra300-ground-truth/tr-01124 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00399.png" -t "data/ocra300-ground-truth/tr-00399.gt.txt" > "data/ocra300-ground-truth/tr-00399.box"
-tesseract "data/ocra300-ground-truth/tr-00399.png" data/ocra300-ground-truth/tr-00399 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01219.png" -t "data/ocra300-ground-truth/tr-01219.gt.txt" > "data/ocra300-ground-truth/tr-01219.box"
-tesseract "data/ocra300-ground-truth/tr-01219.png" data/ocra300-ground-truth/tr-01219 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00628.png" -t "data/ocra300-ground-truth/tr-00628.gt.txt" > "data/ocra300-ground-truth/tr-00628.box"
-tesseract "data/ocra300-ground-truth/tr-00628.png" data/ocra300-ground-truth/tr-00628 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00721.png" -t "data/ocra300-ground-truth/tr-00721.gt.txt" > "data/ocra300-ground-truth/tr-00721.box"
-tesseract "data/ocra300-ground-truth/tr-00721.png" data/ocra300-ground-truth/tr-00721 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00290.png" -t "data/ocra300-ground-truth/tr-00290.gt.txt" > "data/ocra300-ground-truth/tr-00290.box"
-tesseract "data/ocra300-ground-truth/tr-00290.png" data/ocra300-ground-truth/tr-00290 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01283.png" -t "data/ocra300-ground-truth/tr-01283.gt.txt" > "data/ocra300-ground-truth/tr-01283.box"
-tesseract "data/ocra300-ground-truth/tr-01283.png" data/ocra300-ground-truth/tr-01283 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00597.png" -t "data/ocra300-ground-truth/tr-00597.gt.txt" > "data/ocra300-ground-truth/tr-00597.box"
-tesseract "data/ocra300-ground-truth/tr-00597.png" data/ocra300-ground-truth/tr-00597 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00427.png" -t "data/ocra300-ground-truth/tr-00427.gt.txt" > "data/ocra300-ground-truth/tr-00427.box"
-tesseract "data/ocra300-ground-truth/tr-00427.png" data/ocra300-ground-truth/tr-00427 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01091.png" -t "data/ocra300-ground-truth/tr-01091.gt.txt" > "data/ocra300-ground-truth/tr-01091.box"
-tesseract "data/ocra300-ground-truth/tr-01091.png" data/ocra300-ground-truth/tr-01091 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01655.png" -t "data/ocra300-ground-truth/tr-01655.gt.txt" > "data/ocra300-ground-truth/tr-01655.box"
-tesseract "data/ocra300-ground-truth/tr-01655.png" data/ocra300-ground-truth/tr-01655 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00894.png" -t "data/ocra300-ground-truth/tr-00894.gt.txt" > "data/ocra300-ground-truth/tr-00894.box"
-tesseract "data/ocra300-ground-truth/tr-00894.png" data/ocra300-ground-truth/tr-00894 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01519.png" -t "data/ocra300-ground-truth/tr-01519.gt.txt" > "data/ocra300-ground-truth/tr-01519.box"
-tesseract "data/ocra300-ground-truth/tr-01519.png" data/ocra300-ground-truth/tr-01519 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01607.png" -t "data/ocra300-ground-truth/tr-01607.gt.txt" > "data/ocra300-ground-truth/tr-01607.box"
-tesseract "data/ocra300-ground-truth/tr-01607.png" data/ocra300-ground-truth/tr-01607 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01706.png" -t "data/ocra300-ground-truth/tr-01706.gt.txt" > "data/ocra300-ground-truth/tr-01706.box"
-tesseract "data/ocra300-ground-truth/tr-01706.png" data/ocra300-ground-truth/tr-01706 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00655.png" -t "data/ocra300-ground-truth/tr-00655.gt.txt" > "data/ocra300-ground-truth/tr-00655.box"
-tesseract "data/ocra300-ground-truth/tr-00655.png" data/ocra300-ground-truth/tr-00655 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00837.png" -t "data/ocra300-ground-truth/tr-00837.gt.txt" > "data/ocra300-ground-truth/tr-00837.box"
-tesseract "data/ocra300-ground-truth/tr-00837.png" data/ocra300-ground-truth/tr-00837 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00943.png" -t "data/ocra300-ground-truth/tr-00943.gt.txt" > "data/ocra300-ground-truth/tr-00943.box"
-tesseract "data/ocra300-ground-truth/tr-00943.png" data/ocra300-ground-truth/tr-00943 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00384.png" -t "data/ocra300-ground-truth/tr-00384.gt.txt" > "data/ocra300-ground-truth/tr-00384.box"
-tesseract "data/ocra300-ground-truth/tr-00384.png" data/ocra300-ground-truth/tr-00384 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01728.png" -t "data/ocra300-ground-truth/tr-01728.gt.txt" > "data/ocra300-ground-truth/tr-01728.box"
-tesseract "data/ocra300-ground-truth/tr-01728.png" data/ocra300-ground-truth/tr-01728 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01608.png" -t "data/ocra300-ground-truth/tr-01608.gt.txt" > "data/ocra300-ground-truth/tr-01608.box"
+tesseract "data/ocra300-ground-truth/tr-01608.png" data/ocra300-ground-truth/tr-01608 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01475.png" -t "data/ocra300-ground-truth/tr-01475.gt.txt" > "data/ocra300-ground-truth/tr-01475.box"
 tesseract "data/ocra300-ground-truth/tr-01475.png" data/ocra300-ground-truth/tr-01475 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00153.png" -t "data/ocra300-ground-truth/tr-00153.gt.txt" > "data/ocra300-ground-truth/tr-00153.box"
-tesseract "data/ocra300-ground-truth/tr-00153.png" data/ocra300-ground-truth/tr-00153 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01132.png" -t "data/ocra300-ground-truth/tr-01132.gt.txt" > "data/ocra300-ground-truth/tr-01132.box"
-tesseract "data/ocra300-ground-truth/tr-01132.png" data/ocra300-ground-truth/tr-01132 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00297.png" -t "data/ocra300-ground-truth/tr-00297.gt.txt" > "data/ocra300-ground-truth/tr-00297.box"
-tesseract "data/ocra300-ground-truth/tr-00297.png" data/ocra300-ground-truth/tr-00297 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01081.png" -t "data/ocra300-ground-truth/tr-01081.gt.txt" > "data/ocra300-ground-truth/tr-01081.box"
-tesseract "data/ocra300-ground-truth/tr-01081.png" data/ocra300-ground-truth/tr-01081 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01646.png" -t "data/ocra300-ground-truth/tr-01646.gt.txt" > "data/ocra300-ground-truth/tr-01646.box"
-tesseract "data/ocra300-ground-truth/tr-01646.png" data/ocra300-ground-truth/tr-01646 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01128.png" -t "data/ocra300-ground-truth/tr-01128.gt.txt" > "data/ocra300-ground-truth/tr-01128.box"
-tesseract "data/ocra300-ground-truth/tr-01128.png" data/ocra300-ground-truth/tr-01128 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00042.png" -t "data/ocra300-ground-truth/tr-00042.gt.txt" > "data/ocra300-ground-truth/tr-00042.box"
-tesseract "data/ocra300-ground-truth/tr-00042.png" data/ocra300-ground-truth/tr-00042 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00296.png" -t "data/ocra300-ground-truth/tr-00296.gt.txt" > "data/ocra300-ground-truth/tr-00296.box"
-tesseract "data/ocra300-ground-truth/tr-00296.png" data/ocra300-ground-truth/tr-00296 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01664.png" -t "data/ocra300-ground-truth/tr-01664.gt.txt" > "data/ocra300-ground-truth/tr-01664.box"
-tesseract "data/ocra300-ground-truth/tr-01664.png" data/ocra300-ground-truth/tr-01664 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00988.png" -t "data/ocra300-ground-truth/tr-00988.gt.txt" > "data/ocra300-ground-truth/tr-00988.box"
-tesseract "data/ocra300-ground-truth/tr-00988.png" data/ocra300-ground-truth/tr-00988 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00402.png" -t "data/ocra300-ground-truth/tr-00402.gt.txt" > "data/ocra300-ground-truth/tr-00402.box"
-tesseract "data/ocra300-ground-truth/tr-00402.png" data/ocra300-ground-truth/tr-00402 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01387.png" -t "data/ocra300-ground-truth/tr-01387.gt.txt" > "data/ocra300-ground-truth/tr-01387.box"
-tesseract "data/ocra300-ground-truth/tr-01387.png" data/ocra300-ground-truth/tr-01387 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00785.png" -t "data/ocra300-ground-truth/tr-00785.gt.txt" > "data/ocra300-ground-truth/tr-00785.box"
-tesseract "data/ocra300-ground-truth/tr-00785.png" data/ocra300-ground-truth/tr-00785 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01670.png" -t "data/ocra300-ground-truth/tr-01670.gt.txt" > "data/ocra300-ground-truth/tr-01670.box"
-tesseract "data/ocra300-ground-truth/tr-01670.png" data/ocra300-ground-truth/tr-01670 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00060.png" -t "data/ocra300-ground-truth/tr-00060.gt.txt" > "data/ocra300-ground-truth/tr-00060.box"
-tesseract "data/ocra300-ground-truth/tr-00060.png" data/ocra300-ground-truth/tr-00060 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00180.png" -t "data/ocra300-ground-truth/tr-00180.gt.txt" > "data/ocra300-ground-truth/tr-00180.box"
-tesseract "data/ocra300-ground-truth/tr-00180.png" data/ocra300-ground-truth/tr-00180 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00364.png" -t "data/ocra300-ground-truth/tr-00364.gt.txt" > "data/ocra300-ground-truth/tr-00364.box"
-tesseract "data/ocra300-ground-truth/tr-00364.png" data/ocra300-ground-truth/tr-00364 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00151.png" -t "data/ocra300-ground-truth/tr-00151.gt.txt" > "data/ocra300-ground-truth/tr-00151.box"
-tesseract "data/ocra300-ground-truth/tr-00151.png" data/ocra300-ground-truth/tr-00151 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00525.png" -t "data/ocra300-ground-truth/tr-00525.gt.txt" > "data/ocra300-ground-truth/tr-00525.box"
-tesseract "data/ocra300-ground-truth/tr-00525.png" data/ocra300-ground-truth/tr-00525 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00695.png" -t "data/ocra300-ground-truth/tr-00695.gt.txt" > "data/ocra300-ground-truth/tr-00695.box"
-tesseract "data/ocra300-ground-truth/tr-00695.png" data/ocra300-ground-truth/tr-00695 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00744.png" -t "data/ocra300-ground-truth/tr-00744.gt.txt" > "data/ocra300-ground-truth/tr-00744.box"
-tesseract "data/ocra300-ground-truth/tr-00744.png" data/ocra300-ground-truth/tr-00744 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00486.png" -t "data/ocra300-ground-truth/tr-00486.gt.txt" > "data/ocra300-ground-truth/tr-00486.box"
-tesseract "data/ocra300-ground-truth/tr-00486.png" data/ocra300-ground-truth/tr-00486 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00715.png" -t "data/ocra300-ground-truth/tr-00715.gt.txt" > "data/ocra300-ground-truth/tr-00715.box"
-tesseract "data/ocra300-ground-truth/tr-00715.png" data/ocra300-ground-truth/tr-00715 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01369.png" -t "data/ocra300-ground-truth/tr-01369.gt.txt" > "data/ocra300-ground-truth/tr-01369.box"
-tesseract "data/ocra300-ground-truth/tr-01369.png" data/ocra300-ground-truth/tr-01369 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01592.png" -t "data/ocra300-ground-truth/tr-01592.gt.txt" > "data/ocra300-ground-truth/tr-01592.box"
-tesseract "data/ocra300-ground-truth/tr-01592.png" data/ocra300-ground-truth/tr-01592 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01634.png" -t "data/ocra300-ground-truth/tr-01634.gt.txt" > "data/ocra300-ground-truth/tr-01634.box"
-tesseract "data/ocra300-ground-truth/tr-01634.png" data/ocra300-ground-truth/tr-01634 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00596.png" -t "data/ocra300-ground-truth/tr-00596.gt.txt" > "data/ocra300-ground-truth/tr-00596.box"
+tesseract "data/ocra300-ground-truth/tr-00596.png" data/ocra300-ground-truth/tr-00596 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01329.png" -t "data/ocra300-ground-truth/tr-01329.gt.txt" > "data/ocra300-ground-truth/tr-01329.box"
 tesseract "data/ocra300-ground-truth/tr-01329.png" data/ocra300-ground-truth/tr-01329 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01621.png" -t "data/ocra300-ground-truth/tr-01621.gt.txt" > "data/ocra300-ground-truth/tr-01621.box"
-tesseract "data/ocra300-ground-truth/tr-01621.png" data/ocra300-ground-truth/tr-01621 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01625.png" -t "data/ocra300-ground-truth/tr-01625.gt.txt" > "data/ocra300-ground-truth/tr-01625.box"
-tesseract "data/ocra300-ground-truth/tr-01625.png" data/ocra300-ground-truth/tr-01625 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01008.png" -t "data/ocra300-ground-truth/tr-01008.gt.txt" > "data/ocra300-ground-truth/tr-01008.box"
-tesseract "data/ocra300-ground-truth/tr-01008.png" data/ocra300-ground-truth/tr-01008 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01668.png" -t "data/ocra300-ground-truth/tr-01668.gt.txt" > "data/ocra300-ground-truth/tr-01668.box"
-tesseract "data/ocra300-ground-truth/tr-01668.png" data/ocra300-ground-truth/tr-01668 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01315.png" -t "data/ocra300-ground-truth/tr-01315.gt.txt" > "data/ocra300-ground-truth/tr-01315.box"
-tesseract "data/ocra300-ground-truth/tr-01315.png" data/ocra300-ground-truth/tr-01315 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01262.png" -t "data/ocra300-ground-truth/tr-01262.gt.txt" > "data/ocra300-ground-truth/tr-01262.box"
-tesseract "data/ocra300-ground-truth/tr-01262.png" data/ocra300-ground-truth/tr-01262 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01333.png" -t "data/ocra300-ground-truth/tr-01333.gt.txt" > "data/ocra300-ground-truth/tr-01333.box"
-tesseract "data/ocra300-ground-truth/tr-01333.png" data/ocra300-ground-truth/tr-01333 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01171.png" -t "data/ocra300-ground-truth/tr-01171.gt.txt" > "data/ocra300-ground-truth/tr-01171.box"
-tesseract "data/ocra300-ground-truth/tr-01171.png" data/ocra300-ground-truth/tr-01171 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01027.png" -t "data/ocra300-ground-truth/tr-01027.gt.txt" > "data/ocra300-ground-truth/tr-01027.box"
-tesseract "data/ocra300-ground-truth/tr-01027.png" data/ocra300-ground-truth/tr-01027 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00774.png" -t "data/ocra300-ground-truth/tr-00774.gt.txt" > "data/ocra300-ground-truth/tr-00774.box"
-tesseract "data/ocra300-ground-truth/tr-00774.png" data/ocra300-ground-truth/tr-00774 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00371.png" -t "data/ocra300-ground-truth/tr-00371.gt.txt" > "data/ocra300-ground-truth/tr-00371.box"
-tesseract "data/ocra300-ground-truth/tr-00371.png" data/ocra300-ground-truth/tr-00371 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00159.png" -t "data/ocra300-ground-truth/tr-00159.gt.txt" > "data/ocra300-ground-truth/tr-00159.box"
-tesseract "data/ocra300-ground-truth/tr-00159.png" data/ocra300-ground-truth/tr-00159 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00005.png" -t "data/ocra300-ground-truth/tr-00005.gt.txt" > "data/ocra300-ground-truth/tr-00005.box"
-tesseract "data/ocra300-ground-truth/tr-00005.png" data/ocra300-ground-truth/tr-00005 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01023.png" -t "data/ocra300-ground-truth/tr-01023.gt.txt" > "data/ocra300-ground-truth/tr-01023.box"
-tesseract "data/ocra300-ground-truth/tr-01023.png" data/ocra300-ground-truth/tr-01023 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01154.png" -t "data/ocra300-ground-truth/tr-01154.gt.txt" > "data/ocra300-ground-truth/tr-01154.box"
-tesseract "data/ocra300-ground-truth/tr-01154.png" data/ocra300-ground-truth/tr-01154 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01341.png" -t "data/ocra300-ground-truth/tr-01341.gt.txt" > "data/ocra300-ground-truth/tr-01341.box"
-tesseract "data/ocra300-ground-truth/tr-01341.png" data/ocra300-ground-truth/tr-01341 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00751.png" -t "data/ocra300-ground-truth/tr-00751.gt.txt" > "data/ocra300-ground-truth/tr-00751.box"
-tesseract "data/ocra300-ground-truth/tr-00751.png" data/ocra300-ground-truth/tr-00751 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01078.png" -t "data/ocra300-ground-truth/tr-01078.gt.txt" > "data/ocra300-ground-truth/tr-01078.box"
-tesseract "data/ocra300-ground-truth/tr-01078.png" data/ocra300-ground-truth/tr-01078 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00845.png" -t "data/ocra300-ground-truth/tr-00845.gt.txt" > "data/ocra300-ground-truth/tr-00845.box"
-tesseract "data/ocra300-ground-truth/tr-00845.png" data/ocra300-ground-truth/tr-00845 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01395.png" -t "data/ocra300-ground-truth/tr-01395.gt.txt" > "data/ocra300-ground-truth/tr-01395.box"
-tesseract "data/ocra300-ground-truth/tr-01395.png" data/ocra300-ground-truth/tr-01395 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00681.png" -t "data/ocra300-ground-truth/tr-00681.gt.txt" > "data/ocra300-ground-truth/tr-00681.box"
-tesseract "data/ocra300-ground-truth/tr-00681.png" data/ocra300-ground-truth/tr-00681 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00991.png" -t "data/ocra300-ground-truth/tr-00991.gt.txt" > "data/ocra300-ground-truth/tr-00991.box"
-tesseract "data/ocra300-ground-truth/tr-00991.png" data/ocra300-ground-truth/tr-00991 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00307.png" -t "data/ocra300-ground-truth/tr-00307.gt.txt" > "data/ocra300-ground-truth/tr-00307.box"
-tesseract "data/ocra300-ground-truth/tr-00307.png" data/ocra300-ground-truth/tr-00307 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00869.png" -t "data/ocra300-ground-truth/tr-00869.gt.txt" > "data/ocra300-ground-truth/tr-00869.box"
-tesseract "data/ocra300-ground-truth/tr-00869.png" data/ocra300-ground-truth/tr-00869 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00181.png" -t "data/ocra300-ground-truth/tr-00181.gt.txt" > "data/ocra300-ground-truth/tr-00181.box"
-tesseract "data/ocra300-ground-truth/tr-00181.png" data/ocra300-ground-truth/tr-00181 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01759.png" -t "data/ocra300-ground-truth/tr-01759.gt.txt" > "data/ocra300-ground-truth/tr-01759.box"
-tesseract "data/ocra300-ground-truth/tr-01759.png" data/ocra300-ground-truth/tr-01759 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00288.png" -t "data/ocra300-ground-truth/tr-00288.gt.txt" > "data/ocra300-ground-truth/tr-00288.box"
-tesseract "data/ocra300-ground-truth/tr-00288.png" data/ocra300-ground-truth/tr-00288 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01113.png" -t "data/ocra300-ground-truth/tr-01113.gt.txt" > "data/ocra300-ground-truth/tr-01113.box"
-tesseract "data/ocra300-ground-truth/tr-01113.png" data/ocra300-ground-truth/tr-01113 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00838.png" -t "data/ocra300-ground-truth/tr-00838.gt.txt" > "data/ocra300-ground-truth/tr-00838.box"
-tesseract "data/ocra300-ground-truth/tr-00838.png" data/ocra300-ground-truth/tr-00838 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01167.png" -t "data/ocra300-ground-truth/tr-01167.gt.txt" > "data/ocra300-ground-truth/tr-01167.box"
-tesseract "data/ocra300-ground-truth/tr-01167.png" data/ocra300-ground-truth/tr-01167 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01235.png" -t "data/ocra300-ground-truth/tr-01235.gt.txt" > "data/ocra300-ground-truth/tr-01235.box"
-tesseract "data/ocra300-ground-truth/tr-01235.png" data/ocra300-ground-truth/tr-01235 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00730.png" -t "data/ocra300-ground-truth/tr-00730.gt.txt" > "data/ocra300-ground-truth/tr-00730.box"
-tesseract "data/ocra300-ground-truth/tr-00730.png" data/ocra300-ground-truth/tr-00730 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01540.png" -t "data/ocra300-ground-truth/tr-01540.gt.txt" > "data/ocra300-ground-truth/tr-01540.box"
-tesseract "data/ocra300-ground-truth/tr-01540.png" data/ocra300-ground-truth/tr-01540 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00748.png" -t "data/ocra300-ground-truth/tr-00748.gt.txt" > "data/ocra300-ground-truth/tr-00748.box"
-tesseract "data/ocra300-ground-truth/tr-00748.png" data/ocra300-ground-truth/tr-00748 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01631.png" -t "data/ocra300-ground-truth/tr-01631.gt.txt" > "data/ocra300-ground-truth/tr-01631.box"
-tesseract "data/ocra300-ground-truth/tr-01631.png" data/ocra300-ground-truth/tr-01631 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01276.png" -t "data/ocra300-ground-truth/tr-01276.gt.txt" > "data/ocra300-ground-truth/tr-01276.box"
-tesseract "data/ocra300-ground-truth/tr-01276.png" data/ocra300-ground-truth/tr-01276 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00912.png" -t "data/ocra300-ground-truth/tr-00912.gt.txt" > "data/ocra300-ground-truth/tr-00912.box"
-tesseract "data/ocra300-ground-truth/tr-00912.png" data/ocra300-ground-truth/tr-00912 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00028.png" -t "data/ocra300-ground-truth/tr-00028.gt.txt" > "data/ocra300-ground-truth/tr-00028.box"
-tesseract "data/ocra300-ground-truth/tr-00028.png" data/ocra300-ground-truth/tr-00028 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01451.png" -t "data/ocra300-ground-truth/tr-01451.gt.txt" > "data/ocra300-ground-truth/tr-01451.box"
-tesseract "data/ocra300-ground-truth/tr-01451.png" data/ocra300-ground-truth/tr-01451 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01015.png" -t "data/ocra300-ground-truth/tr-01015.gt.txt" > "data/ocra300-ground-truth/tr-01015.box"
-tesseract "data/ocra300-ground-truth/tr-01015.png" data/ocra300-ground-truth/tr-01015 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01675.png" -t "data/ocra300-ground-truth/tr-01675.gt.txt" > "data/ocra300-ground-truth/tr-01675.box"
-tesseract "data/ocra300-ground-truth/tr-01675.png" data/ocra300-ground-truth/tr-01675 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01531.png" -t "data/ocra300-ground-truth/tr-01531.gt.txt" > "data/ocra300-ground-truth/tr-01531.box"
-tesseract "data/ocra300-ground-truth/tr-01531.png" data/ocra300-ground-truth/tr-01531 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01230.png" -t "data/ocra300-ground-truth/tr-01230.gt.txt" > "data/ocra300-ground-truth/tr-01230.box"
-tesseract "data/ocra300-ground-truth/tr-01230.png" data/ocra300-ground-truth/tr-01230 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00387.png" -t "data/ocra300-ground-truth/tr-00387.gt.txt" > "data/ocra300-ground-truth/tr-00387.box"
-tesseract "data/ocra300-ground-truth/tr-00387.png" data/ocra300-ground-truth/tr-00387 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01261.png" -t "data/ocra300-ground-truth/tr-01261.gt.txt" > "data/ocra300-ground-truth/tr-01261.box"
-tesseract "data/ocra300-ground-truth/tr-01261.png" data/ocra300-ground-truth/tr-01261 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00986.png" -t "data/ocra300-ground-truth/tr-00986.gt.txt" > "data/ocra300-ground-truth/tr-00986.box"
-tesseract "data/ocra300-ground-truth/tr-00986.png" data/ocra300-ground-truth/tr-00986 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00359.png" -t "data/ocra300-ground-truth/tr-00359.gt.txt" > "data/ocra300-ground-truth/tr-00359.box"
-tesseract "data/ocra300-ground-truth/tr-00359.png" data/ocra300-ground-truth/tr-00359 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00354.png" -t "data/ocra300-ground-truth/tr-00354.gt.txt" > "data/ocra300-ground-truth/tr-00354.box"
-tesseract "data/ocra300-ground-truth/tr-00354.png" data/ocra300-ground-truth/tr-00354 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00133.png" -t "data/ocra300-ground-truth/tr-00133.gt.txt" > "data/ocra300-ground-truth/tr-00133.box"
-tesseract "data/ocra300-ground-truth/tr-00133.png" data/ocra300-ground-truth/tr-00133 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01082.png" -t "data/ocra300-ground-truth/tr-01082.gt.txt" > "data/ocra300-ground-truth/tr-01082.box"
-tesseract "data/ocra300-ground-truth/tr-01082.png" data/ocra300-ground-truth/tr-01082 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01443.png" -t "data/ocra300-ground-truth/tr-01443.gt.txt" > "data/ocra300-ground-truth/tr-01443.box"
-tesseract "data/ocra300-ground-truth/tr-01443.png" data/ocra300-ground-truth/tr-01443 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01089.png" -t "data/ocra300-ground-truth/tr-01089.gt.txt" > "data/ocra300-ground-truth/tr-01089.box"
-tesseract "data/ocra300-ground-truth/tr-01089.png" data/ocra300-ground-truth/tr-01089 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01579.png" -t "data/ocra300-ground-truth/tr-01579.gt.txt" > "data/ocra300-ground-truth/tr-01579.box"
-tesseract "data/ocra300-ground-truth/tr-01579.png" data/ocra300-ground-truth/tr-01579 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01530.png" -t "data/ocra300-ground-truth/tr-01530.gt.txt" > "data/ocra300-ground-truth/tr-01530.box"
-tesseract "data/ocra300-ground-truth/tr-01530.png" data/ocra300-ground-truth/tr-01530 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00366.png" -t "data/ocra300-ground-truth/tr-00366.gt.txt" > "data/ocra300-ground-truth/tr-00366.box"
-tesseract "data/ocra300-ground-truth/tr-00366.png" data/ocra300-ground-truth/tr-00366 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00207.png" -t "data/ocra300-ground-truth/tr-00207.gt.txt" > "data/ocra300-ground-truth/tr-00207.box"
-tesseract "data/ocra300-ground-truth/tr-00207.png" data/ocra300-ground-truth/tr-00207 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01353.png" -t "data/ocra300-ground-truth/tr-01353.gt.txt" > "data/ocra300-ground-truth/tr-01353.box"
-tesseract "data/ocra300-ground-truth/tr-01353.png" data/ocra300-ground-truth/tr-01353 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00573.png" -t "data/ocra300-ground-truth/tr-00573.gt.txt" > "data/ocra300-ground-truth/tr-00573.box"
-tesseract "data/ocra300-ground-truth/tr-00573.png" data/ocra300-ground-truth/tr-00573 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01762.png" -t "data/ocra300-ground-truth/tr-01762.gt.txt" > "data/ocra300-ground-truth/tr-01762.box"
-tesseract "data/ocra300-ground-truth/tr-01762.png" data/ocra300-ground-truth/tr-01762 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00935.png" -t "data/ocra300-ground-truth/tr-00935.gt.txt" > "data/ocra300-ground-truth/tr-00935.box"
-tesseract "data/ocra300-ground-truth/tr-00935.png" data/ocra300-ground-truth/tr-00935 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00982.png" -t "data/ocra300-ground-truth/tr-00982.gt.txt" > "data/ocra300-ground-truth/tr-00982.box"
-tesseract "data/ocra300-ground-truth/tr-00982.png" data/ocra300-ground-truth/tr-00982 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01143.png" -t "data/ocra300-ground-truth/tr-01143.gt.txt" > "data/ocra300-ground-truth/tr-01143.box"
-tesseract "data/ocra300-ground-truth/tr-01143.png" data/ocra300-ground-truth/tr-01143 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01414.png" -t "data/ocra300-ground-truth/tr-01414.gt.txt" > "data/ocra300-ground-truth/tr-01414.box"
-tesseract "data/ocra300-ground-truth/tr-01414.png" data/ocra300-ground-truth/tr-01414 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01042.png" -t "data/ocra300-ground-truth/tr-01042.gt.txt" > "data/ocra300-ground-truth/tr-01042.box"
-tesseract "data/ocra300-ground-truth/tr-01042.png" data/ocra300-ground-truth/tr-01042 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01725.png" -t "data/ocra300-ground-truth/tr-01725.gt.txt" > "data/ocra300-ground-truth/tr-01725.box"
-tesseract "data/ocra300-ground-truth/tr-01725.png" data/ocra300-ground-truth/tr-01725 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00378.png" -t "data/ocra300-ground-truth/tr-00378.gt.txt" > "data/ocra300-ground-truth/tr-00378.box"
-tesseract "data/ocra300-ground-truth/tr-00378.png" data/ocra300-ground-truth/tr-00378 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00815.png" -t "data/ocra300-ground-truth/tr-00815.gt.txt" > "data/ocra300-ground-truth/tr-00815.box"
-tesseract "data/ocra300-ground-truth/tr-00815.png" data/ocra300-ground-truth/tr-00815 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01693.png" -t "data/ocra300-ground-truth/tr-01693.gt.txt" > "data/ocra300-ground-truth/tr-01693.box"
-tesseract "data/ocra300-ground-truth/tr-01693.png" data/ocra300-ground-truth/tr-01693 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00259.png" -t "data/ocra300-ground-truth/tr-00259.gt.txt" > "data/ocra300-ground-truth/tr-00259.box"
-tesseract "data/ocra300-ground-truth/tr-00259.png" data/ocra300-ground-truth/tr-00259 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00020.png" -t "data/ocra300-ground-truth/tr-00020.gt.txt" > "data/ocra300-ground-truth/tr-00020.box"
-tesseract "data/ocra300-ground-truth/tr-00020.png" data/ocra300-ground-truth/tr-00020 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00980.png" -t "data/ocra300-ground-truth/tr-00980.gt.txt" > "data/ocra300-ground-truth/tr-00980.box"
-tesseract "data/ocra300-ground-truth/tr-00980.png" data/ocra300-ground-truth/tr-00980 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01007.png" -t "data/ocra300-ground-truth/tr-01007.gt.txt" > "data/ocra300-ground-truth/tr-01007.box"
-tesseract "data/ocra300-ground-truth/tr-01007.png" data/ocra300-ground-truth/tr-01007 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00112.png" -t "data/ocra300-ground-truth/tr-00112.gt.txt" > "data/ocra300-ground-truth/tr-00112.box"
-tesseract "data/ocra300-ground-truth/tr-00112.png" data/ocra300-ground-truth/tr-00112 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01246.png" -t "data/ocra300-ground-truth/tr-01246.gt.txt" > "data/ocra300-ground-truth/tr-01246.box"
-tesseract "data/ocra300-ground-truth/tr-01246.png" data/ocra300-ground-truth/tr-01246 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01214.png" -t "data/ocra300-ground-truth/tr-01214.gt.txt" > "data/ocra300-ground-truth/tr-01214.box"
-tesseract "data/ocra300-ground-truth/tr-01214.png" data/ocra300-ground-truth/tr-01214 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01311.png" -t "data/ocra300-ground-truth/tr-01311.gt.txt" > "data/ocra300-ground-truth/tr-01311.box"
-tesseract "data/ocra300-ground-truth/tr-01311.png" data/ocra300-ground-truth/tr-01311 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01720.png" -t "data/ocra300-ground-truth/tr-01720.gt.txt" > "data/ocra300-ground-truth/tr-01720.box"
-tesseract "data/ocra300-ground-truth/tr-01720.png" data/ocra300-ground-truth/tr-01720 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00027.png" -t "data/ocra300-ground-truth/tr-00027.gt.txt" > "data/ocra300-ground-truth/tr-00027.box"
-tesseract "data/ocra300-ground-truth/tr-00027.png" data/ocra300-ground-truth/tr-00027 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00979.png" -t "data/ocra300-ground-truth/tr-00979.gt.txt" > "data/ocra300-ground-truth/tr-00979.box"
-tesseract "data/ocra300-ground-truth/tr-00979.png" data/ocra300-ground-truth/tr-00979 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01483.png" -t "data/ocra300-ground-truth/tr-01483.gt.txt" > "data/ocra300-ground-truth/tr-01483.box"
-tesseract "data/ocra300-ground-truth/tr-01483.png" data/ocra300-ground-truth/tr-01483 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01755.png" -t "data/ocra300-ground-truth/tr-01755.gt.txt" > "data/ocra300-ground-truth/tr-01755.box"
-tesseract "data/ocra300-ground-truth/tr-01755.png" data/ocra300-ground-truth/tr-01755 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01606.png" -t "data/ocra300-ground-truth/tr-01606.gt.txt" > "data/ocra300-ground-truth/tr-01606.box"
-tesseract "data/ocra300-ground-truth/tr-01606.png" data/ocra300-ground-truth/tr-01606 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00662.png" -t "data/ocra300-ground-truth/tr-00662.gt.txt" > "data/ocra300-ground-truth/tr-00662.box"
-tesseract "data/ocra300-ground-truth/tr-00662.png" data/ocra300-ground-truth/tr-00662 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01458.png" -t "data/ocra300-ground-truth/tr-01458.gt.txt" > "data/ocra300-ground-truth/tr-01458.box"
-tesseract "data/ocra300-ground-truth/tr-01458.png" data/ocra300-ground-truth/tr-01458 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00657.png" -t "data/ocra300-ground-truth/tr-00657.gt.txt" > "data/ocra300-ground-truth/tr-00657.box"
-tesseract "data/ocra300-ground-truth/tr-00657.png" data/ocra300-ground-truth/tr-00657 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01275.png" -t "data/ocra300-ground-truth/tr-01275.gt.txt" > "data/ocra300-ground-truth/tr-01275.box"
-tesseract "data/ocra300-ground-truth/tr-01275.png" data/ocra300-ground-truth/tr-01275 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01024.png" -t "data/ocra300-ground-truth/tr-01024.gt.txt" > "data/ocra300-ground-truth/tr-01024.box"
+tesseract "data/ocra300-ground-truth/tr-01024.png" data/ocra300-ground-truth/tr-01024 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01592.png" -t "data/ocra300-ground-truth/tr-01592.gt.txt" > "data/ocra300-ground-truth/tr-01592.box"
+tesseract "data/ocra300-ground-truth/tr-01592.png" data/ocra300-ground-truth/tr-01592 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00379.png" -t "data/ocra300-ground-truth/tr-00379.gt.txt" > "data/ocra300-ground-truth/tr-00379.box"
 tesseract "data/ocra300-ground-truth/tr-00379.png" data/ocra300-ground-truth/tr-00379 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01260.png" -t "data/ocra300-ground-truth/tr-01260.gt.txt" > "data/ocra300-ground-truth/tr-01260.box"
-tesseract "data/ocra300-ground-truth/tr-01260.png" data/ocra300-ground-truth/tr-01260 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00550.png" -t "data/ocra300-ground-truth/tr-00550.gt.txt" > "data/ocra300-ground-truth/tr-00550.box"
-tesseract "data/ocra300-ground-truth/tr-00550.png" data/ocra300-ground-truth/tr-00550 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01683.png" -t "data/ocra300-ground-truth/tr-01683.gt.txt" > "data/ocra300-ground-truth/tr-01683.box"
-tesseract "data/ocra300-ground-truth/tr-01683.png" data/ocra300-ground-truth/tr-01683 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01158.png" -t "data/ocra300-ground-truth/tr-01158.gt.txt" > "data/ocra300-ground-truth/tr-01158.box"
-tesseract "data/ocra300-ground-truth/tr-01158.png" data/ocra300-ground-truth/tr-01158 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00580.png" -t "data/ocra300-ground-truth/tr-00580.gt.txt" > "data/ocra300-ground-truth/tr-00580.box"
-tesseract "data/ocra300-ground-truth/tr-00580.png" data/ocra300-ground-truth/tr-00580 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01682.png" -t "data/ocra300-ground-truth/tr-01682.gt.txt" > "data/ocra300-ground-truth/tr-01682.box"
-tesseract "data/ocra300-ground-truth/tr-01682.png" data/ocra300-ground-truth/tr-01682 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00693.png" -t "data/ocra300-ground-truth/tr-00693.gt.txt" > "data/ocra300-ground-truth/tr-00693.box"
-tesseract "data/ocra300-ground-truth/tr-00693.png" data/ocra300-ground-truth/tr-00693 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00528.png" -t "data/ocra300-ground-truth/tr-00528.gt.txt" > "data/ocra300-ground-truth/tr-00528.box"
-tesseract "data/ocra300-ground-truth/tr-00528.png" data/ocra300-ground-truth/tr-00528 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00213.png" -t "data/ocra300-ground-truth/tr-00213.gt.txt" > "data/ocra300-ground-truth/tr-00213.box"
-tesseract "data/ocra300-ground-truth/tr-00213.png" data/ocra300-ground-truth/tr-00213 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00767.png" -t "data/ocra300-ground-truth/tr-00767.gt.txt" > "data/ocra300-ground-truth/tr-00767.box"
-tesseract "data/ocra300-ground-truth/tr-00767.png" data/ocra300-ground-truth/tr-00767 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01465.png" -t "data/ocra300-ground-truth/tr-01465.gt.txt" > "data/ocra300-ground-truth/tr-01465.box"
-tesseract "data/ocra300-ground-truth/tr-01465.png" data/ocra300-ground-truth/tr-01465 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00361.png" -t "data/ocra300-ground-truth/tr-00361.gt.txt" > "data/ocra300-ground-truth/tr-00361.box"
-tesseract "data/ocra300-ground-truth/tr-00361.png" data/ocra300-ground-truth/tr-00361 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00225.png" -t "data/ocra300-ground-truth/tr-00225.gt.txt" > "data/ocra300-ground-truth/tr-00225.box"
-tesseract "data/ocra300-ground-truth/tr-00225.png" data/ocra300-ground-truth/tr-00225 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00492.png" -t "data/ocra300-ground-truth/tr-00492.gt.txt" > "data/ocra300-ground-truth/tr-00492.box"
-tesseract "data/ocra300-ground-truth/tr-00492.png" data/ocra300-ground-truth/tr-00492 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01559.png" -t "data/ocra300-ground-truth/tr-01559.gt.txt" > "data/ocra300-ground-truth/tr-01559.box"
-tesseract "data/ocra300-ground-truth/tr-01559.png" data/ocra300-ground-truth/tr-01559 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01181.png" -t "data/ocra300-ground-truth/tr-01181.gt.txt" > "data/ocra300-ground-truth/tr-01181.box"
-tesseract "data/ocra300-ground-truth/tr-01181.png" data/ocra300-ground-truth/tr-01181 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00091.png" -t "data/ocra300-ground-truth/tr-00091.gt.txt" > "data/ocra300-ground-truth/tr-00091.box"
-tesseract "data/ocra300-ground-truth/tr-00091.png" data/ocra300-ground-truth/tr-00091 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01109.png" -t "data/ocra300-ground-truth/tr-01109.gt.txt" > "data/ocra300-ground-truth/tr-01109.box"
-tesseract "data/ocra300-ground-truth/tr-01109.png" data/ocra300-ground-truth/tr-01109 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00368.png" -t "data/ocra300-ground-truth/tr-00368.gt.txt" > "data/ocra300-ground-truth/tr-00368.box"
-tesseract "data/ocra300-ground-truth/tr-00368.png" data/ocra300-ground-truth/tr-00368 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00805.png" -t "data/ocra300-ground-truth/tr-00805.gt.txt" > "data/ocra300-ground-truth/tr-00805.box"
-tesseract "data/ocra300-ground-truth/tr-00805.png" data/ocra300-ground-truth/tr-00805 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00020.png" -t "data/ocra300-ground-truth/tr-00020.gt.txt" > "data/ocra300-ground-truth/tr-00020.box"
+tesseract "data/ocra300-ground-truth/tr-00020.png" data/ocra300-ground-truth/tr-00020 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01017.png" -t "data/ocra300-ground-truth/tr-01017.gt.txt" > "data/ocra300-ground-truth/tr-01017.box"
+tesseract "data/ocra300-ground-truth/tr-01017.png" data/ocra300-ground-truth/tr-01017 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01214.png" -t "data/ocra300-ground-truth/tr-01214.gt.txt" > "data/ocra300-ground-truth/tr-01214.box"
+tesseract "data/ocra300-ground-truth/tr-01214.png" data/ocra300-ground-truth/tr-01214 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00086.png" -t "data/ocra300-ground-truth/tr-00086.gt.txt" > "data/ocra300-ground-truth/tr-00086.box"
+tesseract "data/ocra300-ground-truth/tr-00086.png" data/ocra300-ground-truth/tr-00086 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00730.png" -t "data/ocra300-ground-truth/tr-00730.gt.txt" > "data/ocra300-ground-truth/tr-00730.box"
+tesseract "data/ocra300-ground-truth/tr-00730.png" data/ocra300-ground-truth/tr-00730 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01201.png" -t "data/ocra300-ground-truth/tr-01201.gt.txt" > "data/ocra300-ground-truth/tr-01201.box"
+tesseract "data/ocra300-ground-truth/tr-01201.png" data/ocra300-ground-truth/tr-01201 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01766.png" -t "data/ocra300-ground-truth/tr-01766.gt.txt" > "data/ocra300-ground-truth/tr-01766.box"
+tesseract "data/ocra300-ground-truth/tr-01766.png" data/ocra300-ground-truth/tr-01766 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01139.png" -t "data/ocra300-ground-truth/tr-01139.gt.txt" > "data/ocra300-ground-truth/tr-01139.box"
+tesseract "data/ocra300-ground-truth/tr-01139.png" data/ocra300-ground-truth/tr-01139 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01044.png" -t "data/ocra300-ground-truth/tr-01044.gt.txt" > "data/ocra300-ground-truth/tr-01044.box"
+tesseract "data/ocra300-ground-truth/tr-01044.png" data/ocra300-ground-truth/tr-01044 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01483.png" -t "data/ocra300-ground-truth/tr-01483.gt.txt" > "data/ocra300-ground-truth/tr-01483.box"
+tesseract "data/ocra300-ground-truth/tr-01483.png" data/ocra300-ground-truth/tr-01483 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00744.png" -t "data/ocra300-ground-truth/tr-00744.gt.txt" > "data/ocra300-ground-truth/tr-00744.box"
+tesseract "data/ocra300-ground-truth/tr-00744.png" data/ocra300-ground-truth/tr-00744 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01443.png" -t "data/ocra300-ground-truth/tr-01443.gt.txt" > "data/ocra300-ground-truth/tr-01443.box"
+tesseract "data/ocra300-ground-truth/tr-01443.png" data/ocra300-ground-truth/tr-01443 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00894.png" -t "data/ocra300-ground-truth/tr-00894.gt.txt" > "data/ocra300-ground-truth/tr-00894.box"
+tesseract "data/ocra300-ground-truth/tr-00894.png" data/ocra300-ground-truth/tr-00894 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01464.png" -t "data/ocra300-ground-truth/tr-01464.gt.txt" > "data/ocra300-ground-truth/tr-01464.box"
+tesseract "data/ocra300-ground-truth/tr-01464.png" data/ocra300-ground-truth/tr-01464 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00754.png" -t "data/ocra300-ground-truth/tr-00754.gt.txt" > "data/ocra300-ground-truth/tr-00754.box"
+tesseract "data/ocra300-ground-truth/tr-00754.png" data/ocra300-ground-truth/tr-00754 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01223.png" -t "data/ocra300-ground-truth/tr-01223.gt.txt" > "data/ocra300-ground-truth/tr-01223.box"
+tesseract "data/ocra300-ground-truth/tr-01223.png" data/ocra300-ground-truth/tr-01223 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00988.png" -t "data/ocra300-ground-truth/tr-00988.gt.txt" > "data/ocra300-ground-truth/tr-00988.box"
+tesseract "data/ocra300-ground-truth/tr-00988.png" data/ocra300-ground-truth/tr-00988 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00789.png" -t "data/ocra300-ground-truth/tr-00789.gt.txt" > "data/ocra300-ground-truth/tr-00789.box"
+tesseract "data/ocra300-ground-truth/tr-00789.png" data/ocra300-ground-truth/tr-00789 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00265.png" -t "data/ocra300-ground-truth/tr-00265.gt.txt" > "data/ocra300-ground-truth/tr-00265.box"
+tesseract "data/ocra300-ground-truth/tr-00265.png" data/ocra300-ground-truth/tr-00265 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00648.png" -t "data/ocra300-ground-truth/tr-00648.gt.txt" > "data/ocra300-ground-truth/tr-00648.box"
 tesseract "data/ocra300-ground-truth/tr-00648.png" data/ocra300-ground-truth/tr-00648 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00523.png" -t "data/ocra300-ground-truth/tr-00523.gt.txt" > "data/ocra300-ground-truth/tr-00523.box"
+tesseract "data/ocra300-ground-truth/tr-00523.png" data/ocra300-ground-truth/tr-00523 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01015.png" -t "data/ocra300-ground-truth/tr-01015.gt.txt" > "data/ocra300-ground-truth/tr-01015.box"
+tesseract "data/ocra300-ground-truth/tr-01015.png" data/ocra300-ground-truth/tr-01015 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00024.png" -t "data/ocra300-ground-truth/tr-00024.gt.txt" > "data/ocra300-ground-truth/tr-00024.box"
+tesseract "data/ocra300-ground-truth/tr-00024.png" data/ocra300-ground-truth/tr-00024 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01700.png" -t "data/ocra300-ground-truth/tr-01700.gt.txt" > "data/ocra300-ground-truth/tr-01700.box"
+tesseract "data/ocra300-ground-truth/tr-01700.png" data/ocra300-ground-truth/tr-01700 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00550.png" -t "data/ocra300-ground-truth/tr-00550.gt.txt" > "data/ocra300-ground-truth/tr-00550.box"
+tesseract "data/ocra300-ground-truth/tr-00550.png" data/ocra300-ground-truth/tr-00550 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01701.png" -t "data/ocra300-ground-truth/tr-01701.gt.txt" > "data/ocra300-ground-truth/tr-01701.box"
+tesseract "data/ocra300-ground-truth/tr-01701.png" data/ocra300-ground-truth/tr-01701 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01097.png" -t "data/ocra300-ground-truth/tr-01097.gt.txt" > "data/ocra300-ground-truth/tr-01097.box"
+tesseract "data/ocra300-ground-truth/tr-01097.png" data/ocra300-ground-truth/tr-01097 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01725.png" -t "data/ocra300-ground-truth/tr-01725.gt.txt" > "data/ocra300-ground-truth/tr-01725.box"
+tesseract "data/ocra300-ground-truth/tr-01725.png" data/ocra300-ground-truth/tr-01725 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00628.png" -t "data/ocra300-ground-truth/tr-00628.gt.txt" > "data/ocra300-ground-truth/tr-00628.box"
+tesseract "data/ocra300-ground-truth/tr-00628.png" data/ocra300-ground-truth/tr-00628 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01315.png" -t "data/ocra300-ground-truth/tr-01315.gt.txt" > "data/ocra300-ground-truth/tr-01315.box"
+tesseract "data/ocra300-ground-truth/tr-01315.png" data/ocra300-ground-truth/tr-01315 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00528.png" -t "data/ocra300-ground-truth/tr-00528.gt.txt" > "data/ocra300-ground-truth/tr-00528.box"
+tesseract "data/ocra300-ground-truth/tr-00528.png" data/ocra300-ground-truth/tr-00528 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00320.png" -t "data/ocra300-ground-truth/tr-00320.gt.txt" > "data/ocra300-ground-truth/tr-00320.box"
+tesseract "data/ocra300-ground-truth/tr-00320.png" data/ocra300-ground-truth/tr-00320 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00486.png" -t "data/ocra300-ground-truth/tr-00486.gt.txt" > "data/ocra300-ground-truth/tr-00486.box"
+tesseract "data/ocra300-ground-truth/tr-00486.png" data/ocra300-ground-truth/tr-00486 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00598.png" -t "data/ocra300-ground-truth/tr-00598.gt.txt" > "data/ocra300-ground-truth/tr-00598.box"
+tesseract "data/ocra300-ground-truth/tr-00598.png" data/ocra300-ground-truth/tr-00598 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00180.png" -t "data/ocra300-ground-truth/tr-00180.gt.txt" > "data/ocra300-ground-truth/tr-00180.box"
+tesseract "data/ocra300-ground-truth/tr-00180.png" data/ocra300-ground-truth/tr-00180 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00112.png" -t "data/ocra300-ground-truth/tr-00112.gt.txt" > "data/ocra300-ground-truth/tr-00112.box"
+tesseract "data/ocra300-ground-truth/tr-00112.png" data/ocra300-ground-truth/tr-00112 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01320.png" -t "data/ocra300-ground-truth/tr-01320.gt.txt" > "data/ocra300-ground-truth/tr-01320.box"
+tesseract "data/ocra300-ground-truth/tr-01320.png" data/ocra300-ground-truth/tr-01320 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00474.png" -t "data/ocra300-ground-truth/tr-00474.gt.txt" > "data/ocra300-ground-truth/tr-00474.box"
+tesseract "data/ocra300-ground-truth/tr-00474.png" data/ocra300-ground-truth/tr-00474 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01706.png" -t "data/ocra300-ground-truth/tr-01706.gt.txt" > "data/ocra300-ground-truth/tr-01706.box"
+tesseract "data/ocra300-ground-truth/tr-01706.png" data/ocra300-ground-truth/tr-01706 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00991.png" -t "data/ocra300-ground-truth/tr-00991.gt.txt" > "data/ocra300-ground-truth/tr-00991.box"
+tesseract "data/ocra300-ground-truth/tr-00991.png" data/ocra300-ground-truth/tr-00991 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00729.png" -t "data/ocra300-ground-truth/tr-00729.gt.txt" > "data/ocra300-ground-truth/tr-00729.box"
+tesseract "data/ocra300-ground-truth/tr-00729.png" data/ocra300-ground-truth/tr-00729 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00018.png" -t "data/ocra300-ground-truth/tr-00018.gt.txt" > "data/ocra300-ground-truth/tr-00018.box"
+tesseract "data/ocra300-ground-truth/tr-00018.png" data/ocra300-ground-truth/tr-00018 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00805.png" -t "data/ocra300-ground-truth/tr-00805.gt.txt" > "data/ocra300-ground-truth/tr-00805.box"
+tesseract "data/ocra300-ground-truth/tr-00805.png" data/ocra300-ground-truth/tr-00805 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01567.png" -t "data/ocra300-ground-truth/tr-01567.gt.txt" > "data/ocra300-ground-truth/tr-01567.box"
+tesseract "data/ocra300-ground-truth/tr-01567.png" data/ocra300-ground-truth/tr-01567 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01631.png" -t "data/ocra300-ground-truth/tr-01631.gt.txt" > "data/ocra300-ground-truth/tr-01631.box"
+tesseract "data/ocra300-ground-truth/tr-01631.png" data/ocra300-ground-truth/tr-01631 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01237.png" -t "data/ocra300-ground-truth/tr-01237.gt.txt" > "data/ocra300-ground-truth/tr-01237.box"
+tesseract "data/ocra300-ground-truth/tr-01237.png" data/ocra300-ground-truth/tr-01237 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00632.png" -t "data/ocra300-ground-truth/tr-00632.gt.txt" > "data/ocra300-ground-truth/tr-00632.box"
+tesseract "data/ocra300-ground-truth/tr-00632.png" data/ocra300-ground-truth/tr-00632 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00290.png" -t "data/ocra300-ground-truth/tr-00290.gt.txt" > "data/ocra300-ground-truth/tr-00290.box"
+tesseract "data/ocra300-ground-truth/tr-00290.png" data/ocra300-ground-truth/tr-00290 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01668.png" -t "data/ocra300-ground-truth/tr-01668.gt.txt" > "data/ocra300-ground-truth/tr-01668.box"
+tesseract "data/ocra300-ground-truth/tr-01668.png" data/ocra300-ground-truth/tr-01668 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01670.png" -t "data/ocra300-ground-truth/tr-01670.gt.txt" > "data/ocra300-ground-truth/tr-01670.box"
+tesseract "data/ocra300-ground-truth/tr-01670.png" data/ocra300-ground-truth/tr-01670 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01693.png" -t "data/ocra300-ground-truth/tr-01693.gt.txt" > "data/ocra300-ground-truth/tr-01693.box"
+tesseract "data/ocra300-ground-truth/tr-01693.png" data/ocra300-ground-truth/tr-01693 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00935.png" -t "data/ocra300-ground-truth/tr-00935.gt.txt" > "data/ocra300-ground-truth/tr-00935.box"
+tesseract "data/ocra300-ground-truth/tr-00935.png" data/ocra300-ground-truth/tr-00935 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00359.png" -t "data/ocra300-ground-truth/tr-00359.gt.txt" > "data/ocra300-ground-truth/tr-00359.box"
+tesseract "data/ocra300-ground-truth/tr-00359.png" data/ocra300-ground-truth/tr-00359 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01458.png" -t "data/ocra300-ground-truth/tr-01458.gt.txt" > "data/ocra300-ground-truth/tr-01458.box"
+tesseract "data/ocra300-ground-truth/tr-01458.png" data/ocra300-ground-truth/tr-01458 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01601.png" -t "data/ocra300-ground-truth/tr-01601.gt.txt" > "data/ocra300-ground-truth/tr-01601.box"
 tesseract "data/ocra300-ground-truth/tr-01601.png" data/ocra300-ground-truth/tr-01601 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01736.png" -t "data/ocra300-ground-truth/tr-01736.gt.txt" > "data/ocra300-ground-truth/tr-01736.box"
 tesseract "data/ocra300-ground-truth/tr-01736.png" data/ocra300-ground-truth/tr-01736 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00474.png" -t "data/ocra300-ground-truth/tr-00474.gt.txt" > "data/ocra300-ground-truth/tr-00474.box"
-tesseract "data/ocra300-ground-truth/tr-00474.png" data/ocra300-ground-truth/tr-00474 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01001.png" -t "data/ocra300-ground-truth/tr-01001.gt.txt" > "data/ocra300-ground-truth/tr-01001.box"
-tesseract "data/ocra300-ground-truth/tr-01001.png" data/ocra300-ground-truth/tr-01001 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01708.png" -t "data/ocra300-ground-truth/tr-01708.gt.txt" > "data/ocra300-ground-truth/tr-01708.box"
-tesseract "data/ocra300-ground-truth/tr-01708.png" data/ocra300-ground-truth/tr-01708 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00813.png" -t "data/ocra300-ground-truth/tr-00813.gt.txt" > "data/ocra300-ground-truth/tr-00813.box"
-tesseract "data/ocra300-ground-truth/tr-00813.png" data/ocra300-ground-truth/tr-00813 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00630.png" -t "data/ocra300-ground-truth/tr-00630.gt.txt" > "data/ocra300-ground-truth/tr-00630.box"
-tesseract "data/ocra300-ground-truth/tr-00630.png" data/ocra300-ground-truth/tr-00630 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01223.png" -t "data/ocra300-ground-truth/tr-01223.gt.txt" > "data/ocra300-ground-truth/tr-01223.box"
-tesseract "data/ocra300-ground-truth/tr-01223.png" data/ocra300-ground-truth/tr-01223 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00462.png" -t "data/ocra300-ground-truth/tr-00462.gt.txt" > "data/ocra300-ground-truth/tr-00462.box"
-tesseract "data/ocra300-ground-truth/tr-00462.png" data/ocra300-ground-truth/tr-00462 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00729.png" -t "data/ocra300-ground-truth/tr-00729.gt.txt" > "data/ocra300-ground-truth/tr-00729.box"
-tesseract "data/ocra300-ground-truth/tr-00729.png" data/ocra300-ground-truth/tr-00729 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01786.png" -t "data/ocra300-ground-truth/tr-01786.gt.txt" > "data/ocra300-ground-truth/tr-01786.box"
-tesseract "data/ocra300-ground-truth/tr-01786.png" data/ocra300-ground-truth/tr-01786 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00172.png" -t "data/ocra300-ground-truth/tr-00172.gt.txt" > "data/ocra300-ground-truth/tr-00172.box"
-tesseract "data/ocra300-ground-truth/tr-00172.png" data/ocra300-ground-truth/tr-00172 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00885.png" -t "data/ocra300-ground-truth/tr-00885.gt.txt" > "data/ocra300-ground-truth/tr-00885.box"
-tesseract "data/ocra300-ground-truth/tr-00885.png" data/ocra300-ground-truth/tr-00885 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01357.png" -t "data/ocra300-ground-truth/tr-01357.gt.txt" > "data/ocra300-ground-truth/tr-01357.box"
-tesseract "data/ocra300-ground-truth/tr-01357.png" data/ocra300-ground-truth/tr-01357 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01488.png" -t "data/ocra300-ground-truth/tr-01488.gt.txt" > "data/ocra300-ground-truth/tr-01488.box"
-tesseract "data/ocra300-ground-truth/tr-01488.png" data/ocra300-ground-truth/tr-01488 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00355.png" -t "data/ocra300-ground-truth/tr-00355.gt.txt" > "data/ocra300-ground-truth/tr-00355.box"
-tesseract "data/ocra300-ground-truth/tr-00355.png" data/ocra300-ground-truth/tr-00355 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00132.png" -t "data/ocra300-ground-truth/tr-00132.gt.txt" > "data/ocra300-ground-truth/tr-00132.box"
-tesseract "data/ocra300-ground-truth/tr-00132.png" data/ocra300-ground-truth/tr-00132 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01567.png" -t "data/ocra300-ground-truth/tr-01567.gt.txt" > "data/ocra300-ground-truth/tr-01567.box"
-tesseract "data/ocra300-ground-truth/tr-01567.png" data/ocra300-ground-truth/tr-01567 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00899.png" -t "data/ocra300-ground-truth/tr-00899.gt.txt" > "data/ocra300-ground-truth/tr-00899.box"
-tesseract "data/ocra300-ground-truth/tr-00899.png" data/ocra300-ground-truth/tr-00899 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01201.png" -t "data/ocra300-ground-truth/tr-01201.gt.txt" > "data/ocra300-ground-truth/tr-01201.box"
-tesseract "data/ocra300-ground-truth/tr-01201.png" data/ocra300-ground-truth/tr-01201 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01769.png" -t "data/ocra300-ground-truth/tr-01769.gt.txt" > "data/ocra300-ground-truth/tr-01769.box"
-tesseract "data/ocra300-ground-truth/tr-01769.png" data/ocra300-ground-truth/tr-01769 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01541.png" -t "data/ocra300-ground-truth/tr-01541.gt.txt" > "data/ocra300-ground-truth/tr-01541.box"
-tesseract "data/ocra300-ground-truth/tr-01541.png" data/ocra300-ground-truth/tr-01541 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01154.png" -t "data/ocra300-ground-truth/tr-01154.gt.txt" > "data/ocra300-ground-truth/tr-01154.box"
+tesseract "data/ocra300-ground-truth/tr-01154.png" data/ocra300-ground-truth/tr-01154 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01011.png" -t "data/ocra300-ground-truth/tr-01011.gt.txt" > "data/ocra300-ground-truth/tr-01011.box"
+tesseract "data/ocra300-ground-truth/tr-01011.png" data/ocra300-ground-truth/tr-01011 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00045.png" -t "data/ocra300-ground-truth/tr-00045.gt.txt" > "data/ocra300-ground-truth/tr-00045.box"
 tesseract "data/ocra300-ground-truth/tr-00045.png" data/ocra300-ground-truth/tr-00045 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01320.png" -t "data/ocra300-ground-truth/tr-01320.gt.txt" > "data/ocra300-ground-truth/tr-01320.box"
-tesseract "data/ocra300-ground-truth/tr-01320.png" data/ocra300-ground-truth/tr-01320 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01590.png" -t "data/ocra300-ground-truth/tr-01590.gt.txt" > "data/ocra300-ground-truth/tr-01590.box"
-tesseract "data/ocra300-ground-truth/tr-01590.png" data/ocra300-ground-truth/tr-01590 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00077.png" -t "data/ocra300-ground-truth/tr-00077.gt.txt" > "data/ocra300-ground-truth/tr-00077.box"
-tesseract "data/ocra300-ground-truth/tr-00077.png" data/ocra300-ground-truth/tr-00077 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00443.png" -t "data/ocra300-ground-truth/tr-00443.gt.txt" > "data/ocra300-ground-truth/tr-00443.box"
-tesseract "data/ocra300-ground-truth/tr-00443.png" data/ocra300-ground-truth/tr-00443 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00840.png" -t "data/ocra300-ground-truth/tr-00840.gt.txt" > "data/ocra300-ground-truth/tr-00840.box"
-tesseract "data/ocra300-ground-truth/tr-00840.png" data/ocra300-ground-truth/tr-00840 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01417.png" -t "data/ocra300-ground-truth/tr-01417.gt.txt" > "data/ocra300-ground-truth/tr-01417.box"
-tesseract "data/ocra300-ground-truth/tr-01417.png" data/ocra300-ground-truth/tr-01417 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01774.png" -t "data/ocra300-ground-truth/tr-01774.gt.txt" > "data/ocra300-ground-truth/tr-01774.box"
-tesseract "data/ocra300-ground-truth/tr-01774.png" data/ocra300-ground-truth/tr-01774 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01598.png" -t "data/ocra300-ground-truth/tr-01598.gt.txt" > "data/ocra300-ground-truth/tr-01598.box"
-tesseract "data/ocra300-ground-truth/tr-01598.png" data/ocra300-ground-truth/tr-01598 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00868.png" -t "data/ocra300-ground-truth/tr-00868.gt.txt" > "data/ocra300-ground-truth/tr-00868.box"
-tesseract "data/ocra300-ground-truth/tr-00868.png" data/ocra300-ground-truth/tr-00868 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01347.png" -t "data/ocra300-ground-truth/tr-01347.gt.txt" > "data/ocra300-ground-truth/tr-01347.box"
-tesseract "data/ocra300-ground-truth/tr-01347.png" data/ocra300-ground-truth/tr-01347 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00394.png" -t "data/ocra300-ground-truth/tr-00394.gt.txt" > "data/ocra300-ground-truth/tr-00394.box"
-tesseract "data/ocra300-ground-truth/tr-00394.png" data/ocra300-ground-truth/tr-00394 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00137.png" -t "data/ocra300-ground-truth/tr-00137.gt.txt" > "data/ocra300-ground-truth/tr-00137.box"
-tesseract "data/ocra300-ground-truth/tr-00137.png" data/ocra300-ground-truth/tr-00137 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01051.png" -t "data/ocra300-ground-truth/tr-01051.gt.txt" > "data/ocra300-ground-truth/tr-01051.box"
-tesseract "data/ocra300-ground-truth/tr-01051.png" data/ocra300-ground-truth/tr-01051 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00965.png" -t "data/ocra300-ground-truth/tr-00965.gt.txt" > "data/ocra300-ground-truth/tr-00965.box"
-tesseract "data/ocra300-ground-truth/tr-00965.png" data/ocra300-ground-truth/tr-00965 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01467.png" -t "data/ocra300-ground-truth/tr-01467.gt.txt" > "data/ocra300-ground-truth/tr-01467.box"
-tesseract "data/ocra300-ground-truth/tr-01467.png" data/ocra300-ground-truth/tr-01467 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01464.png" -t "data/ocra300-ground-truth/tr-01464.gt.txt" > "data/ocra300-ground-truth/tr-01464.box"
-tesseract "data/ocra300-ground-truth/tr-01464.png" data/ocra300-ground-truth/tr-01464 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00523.png" -t "data/ocra300-ground-truth/tr-00523.gt.txt" > "data/ocra300-ground-truth/tr-00523.box"
-tesseract "data/ocra300-ground-truth/tr-00523.png" data/ocra300-ground-truth/tr-00523 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00238.png" -t "data/ocra300-ground-truth/tr-00238.gt.txt" > "data/ocra300-ground-truth/tr-00238.box"
-tesseract "data/ocra300-ground-truth/tr-00238.png" data/ocra300-ground-truth/tr-00238 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01701.png" -t "data/ocra300-ground-truth/tr-01701.gt.txt" > "data/ocra300-ground-truth/tr-01701.box"
-tesseract "data/ocra300-ground-truth/tr-01701.png" data/ocra300-ground-truth/tr-01701 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01452.png" -t "data/ocra300-ground-truth/tr-01452.gt.txt" > "data/ocra300-ground-truth/tr-01452.box"
-tesseract "data/ocra300-ground-truth/tr-01452.png" data/ocra300-ground-truth/tr-01452 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00665.png" -t "data/ocra300-ground-truth/tr-00665.gt.txt" > "data/ocra300-ground-truth/tr-00665.box"
-tesseract "data/ocra300-ground-truth/tr-00665.png" data/ocra300-ground-truth/tr-00665 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01487.png" -t "data/ocra300-ground-truth/tr-01487.gt.txt" > "data/ocra300-ground-truth/tr-01487.box"
-tesseract "data/ocra300-ground-truth/tr-01487.png" data/ocra300-ground-truth/tr-01487 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00396.png" -t "data/ocra300-ground-truth/tr-00396.gt.txt" > "data/ocra300-ground-truth/tr-00396.box"
-tesseract "data/ocra300-ground-truth/tr-00396.png" data/ocra300-ground-truth/tr-00396 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01520.png" -t "data/ocra300-ground-truth/tr-01520.gt.txt" > "data/ocra300-ground-truth/tr-01520.box"
-tesseract "data/ocra300-ground-truth/tr-01520.png" data/ocra300-ground-truth/tr-01520 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01024.png" -t "data/ocra300-ground-truth/tr-01024.gt.txt" > "data/ocra300-ground-truth/tr-01024.box"
-tesseract "data/ocra300-ground-truth/tr-01024.png" data/ocra300-ground-truth/tr-01024 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01237.png" -t "data/ocra300-ground-truth/tr-01237.gt.txt" > "data/ocra300-ground-truth/tr-01237.box"
-tesseract "data/ocra300-ground-truth/tr-01237.png" data/ocra300-ground-truth/tr-01237 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01208.png" -t "data/ocra300-ground-truth/tr-01208.gt.txt" > "data/ocra300-ground-truth/tr-01208.box"
-tesseract "data/ocra300-ground-truth/tr-01208.png" data/ocra300-ground-truth/tr-01208 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00761.png" -t "data/ocra300-ground-truth/tr-00761.gt.txt" > "data/ocra300-ground-truth/tr-00761.box"
-tesseract "data/ocra300-ground-truth/tr-00761.png" data/ocra300-ground-truth/tr-00761 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00733.png" -t "data/ocra300-ground-truth/tr-00733.gt.txt" > "data/ocra300-ground-truth/tr-00733.box"
-tesseract "data/ocra300-ground-truth/tr-00733.png" data/ocra300-ground-truth/tr-00733 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01502.png" -t "data/ocra300-ground-truth/tr-01502.gt.txt" > "data/ocra300-ground-truth/tr-01502.box"
-tesseract "data/ocra300-ground-truth/tr-01502.png" data/ocra300-ground-truth/tr-01502 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00682.png" -t "data/ocra300-ground-truth/tr-00682.gt.txt" > "data/ocra300-ground-truth/tr-00682.box"
-tesseract "data/ocra300-ground-truth/tr-00682.png" data/ocra300-ground-truth/tr-00682 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00485.png" -t "data/ocra300-ground-truth/tr-00485.gt.txt" > "data/ocra300-ground-truth/tr-00485.box"
-tesseract "data/ocra300-ground-truth/tr-00485.png" data/ocra300-ground-truth/tr-00485 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01608.png" -t "data/ocra300-ground-truth/tr-01608.gt.txt" > "data/ocra300-ground-truth/tr-01608.box"
-tesseract "data/ocra300-ground-truth/tr-01608.png" data/ocra300-ground-truth/tr-01608 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00320.png" -t "data/ocra300-ground-truth/tr-00320.gt.txt" > "data/ocra300-ground-truth/tr-00320.box"
-tesseract "data/ocra300-ground-truth/tr-00320.png" data/ocra300-ground-truth/tr-00320 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00342.png" -t "data/ocra300-ground-truth/tr-00342.gt.txt" > "data/ocra300-ground-truth/tr-00342.box"
-tesseract "data/ocra300-ground-truth/tr-00342.png" data/ocra300-ground-truth/tr-00342 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01719.png" -t "data/ocra300-ground-truth/tr-01719.gt.txt" > "data/ocra300-ground-truth/tr-01719.box"
-tesseract "data/ocra300-ground-truth/tr-01719.png" data/ocra300-ground-truth/tr-01719 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00789.png" -t "data/ocra300-ground-truth/tr-00789.gt.txt" > "data/ocra300-ground-truth/tr-00789.box"
-tesseract "data/ocra300-ground-truth/tr-00789.png" data/ocra300-ground-truth/tr-00789 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00754.png" -t "data/ocra300-ground-truth/tr-00754.gt.txt" > "data/ocra300-ground-truth/tr-00754.box"
-tesseract "data/ocra300-ground-truth/tr-00754.png" data/ocra300-ground-truth/tr-00754 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00749.png" -t "data/ocra300-ground-truth/tr-00749.gt.txt" > "data/ocra300-ground-truth/tr-00749.box"
-tesseract "data/ocra300-ground-truth/tr-00749.png" data/ocra300-ground-truth/tr-00749 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01407.png" -t "data/ocra300-ground-truth/tr-01407.gt.txt" > "data/ocra300-ground-truth/tr-01407.box"
-tesseract "data/ocra300-ground-truth/tr-01407.png" data/ocra300-ground-truth/tr-01407 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00527.png" -t "data/ocra300-ground-truth/tr-00527.gt.txt" > "data/ocra300-ground-truth/tr-00527.box"
-tesseract "data/ocra300-ground-truth/tr-00527.png" data/ocra300-ground-truth/tr-00527 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00978.png" -t "data/ocra300-ground-truth/tr-00978.gt.txt" > "data/ocra300-ground-truth/tr-00978.box"
-tesseract "data/ocra300-ground-truth/tr-00978.png" data/ocra300-ground-truth/tr-00978 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00086.png" -t "data/ocra300-ground-truth/tr-00086.gt.txt" > "data/ocra300-ground-truth/tr-00086.box"
-tesseract "data/ocra300-ground-truth/tr-00086.png" data/ocra300-ground-truth/tr-00086 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00790.png" -t "data/ocra300-ground-truth/tr-00790.gt.txt" > "data/ocra300-ground-truth/tr-00790.box"
-tesseract "data/ocra300-ground-truth/tr-00790.png" data/ocra300-ground-truth/tr-00790 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00916.png" -t "data/ocra300-ground-truth/tr-00916.gt.txt" > "data/ocra300-ground-truth/tr-00916.box"
-tesseract "data/ocra300-ground-truth/tr-00916.png" data/ocra300-ground-truth/tr-00916 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01075.png" -t "data/ocra300-ground-truth/tr-01075.gt.txt" > "data/ocra300-ground-truth/tr-01075.box"
-tesseract "data/ocra300-ground-truth/tr-01075.png" data/ocra300-ground-truth/tr-01075 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00321.png" -t "data/ocra300-ground-truth/tr-00321.gt.txt" > "data/ocra300-ground-truth/tr-00321.box"
-tesseract "data/ocra300-ground-truth/tr-00321.png" data/ocra300-ground-truth/tr-00321 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00575.png" -t "data/ocra300-ground-truth/tr-00575.gt.txt" > "data/ocra300-ground-truth/tr-00575.box"
-tesseract "data/ocra300-ground-truth/tr-00575.png" data/ocra300-ground-truth/tr-00575 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00853.png" -t "data/ocra300-ground-truth/tr-00853.gt.txt" > "data/ocra300-ground-truth/tr-00853.box"
-tesseract "data/ocra300-ground-truth/tr-00853.png" data/ocra300-ground-truth/tr-00853 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01194.png" -t "data/ocra300-ground-truth/tr-01194.gt.txt" > "data/ocra300-ground-truth/tr-01194.box"
-tesseract "data/ocra300-ground-truth/tr-01194.png" data/ocra300-ground-truth/tr-01194 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00772.png" -t "data/ocra300-ground-truth/tr-00772.gt.txt" > "data/ocra300-ground-truth/tr-00772.box"
-tesseract "data/ocra300-ground-truth/tr-00772.png" data/ocra300-ground-truth/tr-00772 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01343.png" -t "data/ocra300-ground-truth/tr-01343.gt.txt" > "data/ocra300-ground-truth/tr-01343.box"
-tesseract "data/ocra300-ground-truth/tr-01343.png" data/ocra300-ground-truth/tr-01343 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01265.png" -t "data/ocra300-ground-truth/tr-01265.gt.txt" > "data/ocra300-ground-truth/tr-01265.box"
-tesseract "data/ocra300-ground-truth/tr-01265.png" data/ocra300-ground-truth/tr-01265 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00596.png" -t "data/ocra300-ground-truth/tr-00596.gt.txt" > "data/ocra300-ground-truth/tr-00596.box"
-tesseract "data/ocra300-ground-truth/tr-00596.png" data/ocra300-ground-truth/tr-00596 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00857.png" -t "data/ocra300-ground-truth/tr-00857.gt.txt" > "data/ocra300-ground-truth/tr-00857.box"
-tesseract "data/ocra300-ground-truth/tr-00857.png" data/ocra300-ground-truth/tr-00857 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01368.png" -t "data/ocra300-ground-truth/tr-01368.gt.txt" > "data/ocra300-ground-truth/tr-01368.box"
-tesseract "data/ocra300-ground-truth/tr-01368.png" data/ocra300-ground-truth/tr-01368 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01447.png" -t "data/ocra300-ground-truth/tr-01447.gt.txt" > "data/ocra300-ground-truth/tr-01447.box"
-tesseract "data/ocra300-ground-truth/tr-01447.png" data/ocra300-ground-truth/tr-01447 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00199.png" -t "data/ocra300-ground-truth/tr-00199.gt.txt" > "data/ocra300-ground-truth/tr-00199.box"
-tesseract "data/ocra300-ground-truth/tr-00199.png" data/ocra300-ground-truth/tr-00199 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00144.png" -t "data/ocra300-ground-truth/tr-00144.gt.txt" > "data/ocra300-ground-truth/tr-00144.box"
-tesseract "data/ocra300-ground-truth/tr-00144.png" data/ocra300-ground-truth/tr-00144 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00923.png" -t "data/ocra300-ground-truth/tr-00923.gt.txt" > "data/ocra300-ground-truth/tr-00923.box"
-tesseract "data/ocra300-ground-truth/tr-00923.png" data/ocra300-ground-truth/tr-00923 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01697.png" -t "data/ocra300-ground-truth/tr-01697.gt.txt" > "data/ocra300-ground-truth/tr-01697.box"
-tesseract "data/ocra300-ground-truth/tr-01697.png" data/ocra300-ground-truth/tr-01697 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01741.png" -t "data/ocra300-ground-truth/tr-01741.gt.txt" > "data/ocra300-ground-truth/tr-01741.box"
-tesseract "data/ocra300-ground-truth/tr-01741.png" data/ocra300-ground-truth/tr-01741 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00674.png" -t "data/ocra300-ground-truth/tr-00674.gt.txt" > "data/ocra300-ground-truth/tr-00674.box"
-tesseract "data/ocra300-ground-truth/tr-00674.png" data/ocra300-ground-truth/tr-00674 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01017.png" -t "data/ocra300-ground-truth/tr-01017.gt.txt" > "data/ocra300-ground-truth/tr-01017.box"
-tesseract "data/ocra300-ground-truth/tr-01017.png" data/ocra300-ground-truth/tr-01017 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01307.png" -t "data/ocra300-ground-truth/tr-01307.gt.txt" > "data/ocra300-ground-truth/tr-01307.box"
-tesseract "data/ocra300-ground-truth/tr-01307.png" data/ocra300-ground-truth/tr-01307 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01137.png" -t "data/ocra300-ground-truth/tr-01137.gt.txt" > "data/ocra300-ground-truth/tr-01137.box"
-tesseract "data/ocra300-ground-truth/tr-01137.png" data/ocra300-ground-truth/tr-01137 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00401.png" -t "data/ocra300-ground-truth/tr-00401.gt.txt" > "data/ocra300-ground-truth/tr-00401.box"
-tesseract "data/ocra300-ground-truth/tr-00401.png" data/ocra300-ground-truth/tr-00401 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00098.png" -t "data/ocra300-ground-truth/tr-00098.gt.txt" > "data/ocra300-ground-truth/tr-00098.box"
-tesseract "data/ocra300-ground-truth/tr-00098.png" data/ocra300-ground-truth/tr-00098 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00125.png" -t "data/ocra300-ground-truth/tr-00125.gt.txt" > "data/ocra300-ground-truth/tr-00125.box"
-tesseract "data/ocra300-ground-truth/tr-00125.png" data/ocra300-ground-truth/tr-00125 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01709.png" -t "data/ocra300-ground-truth/tr-01709.gt.txt" > "data/ocra300-ground-truth/tr-01709.box"
-tesseract "data/ocra300-ground-truth/tr-01709.png" data/ocra300-ground-truth/tr-01709 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00253.png" -t "data/ocra300-ground-truth/tr-00253.gt.txt" > "data/ocra300-ground-truth/tr-00253.box"
-tesseract "data/ocra300-ground-truth/tr-00253.png" data/ocra300-ground-truth/tr-00253 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00024.png" -t "data/ocra300-ground-truth/tr-00024.gt.txt" > "data/ocra300-ground-truth/tr-00024.box"
-tesseract "data/ocra300-ground-truth/tr-00024.png" data/ocra300-ground-truth/tr-00024 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01674.png" -t "data/ocra300-ground-truth/tr-01674.gt.txt" > "data/ocra300-ground-truth/tr-01674.box"
-tesseract "data/ocra300-ground-truth/tr-01674.png" data/ocra300-ground-truth/tr-01674 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01044.png" -t "data/ocra300-ground-truth/tr-01044.gt.txt" > "data/ocra300-ground-truth/tr-01044.box"
-tesseract "data/ocra300-ground-truth/tr-01044.png" data/ocra300-ground-truth/tr-01044 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00598.png" -t "data/ocra300-ground-truth/tr-00598.gt.txt" > "data/ocra300-ground-truth/tr-00598.box"
-tesseract "data/ocra300-ground-truth/tr-00598.png" data/ocra300-ground-truth/tr-00598 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00709.png" -t "data/ocra300-ground-truth/tr-00709.gt.txt" > "data/ocra300-ground-truth/tr-00709.box"
-tesseract "data/ocra300-ground-truth/tr-00709.png" data/ocra300-ground-truth/tr-00709 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01672.png" -t "data/ocra300-ground-truth/tr-01672.gt.txt" > "data/ocra300-ground-truth/tr-01672.box"
-tesseract "data/ocra300-ground-truth/tr-01672.png" data/ocra300-ground-truth/tr-01672 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01766.png" -t "data/ocra300-ground-truth/tr-01766.gt.txt" > "data/ocra300-ground-truth/tr-01766.box"
-tesseract "data/ocra300-ground-truth/tr-01766.png" data/ocra300-ground-truth/tr-01766 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00634.png" -t "data/ocra300-ground-truth/tr-00634.gt.txt" > "data/ocra300-ground-truth/tr-00634.box"
-tesseract "data/ocra300-ground-truth/tr-00634.png" data/ocra300-ground-truth/tr-00634 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01654.png" -t "data/ocra300-ground-truth/tr-01654.gt.txt" > "data/ocra300-ground-truth/tr-01654.box"
-tesseract "data/ocra300-ground-truth/tr-01654.png" data/ocra300-ground-truth/tr-01654 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00422.png" -t "data/ocra300-ground-truth/tr-00422.gt.txt" > "data/ocra300-ground-truth/tr-00422.box"
-tesseract "data/ocra300-ground-truth/tr-00422.png" data/ocra300-ground-truth/tr-00422 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01190.png" -t "data/ocra300-ground-truth/tr-01190.gt.txt" > "data/ocra300-ground-truth/tr-01190.box"
-tesseract "data/ocra300-ground-truth/tr-01190.png" data/ocra300-ground-truth/tr-01190 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00366.png" -t "data/ocra300-ground-truth/tr-00366.gt.txt" > "data/ocra300-ground-truth/tr-00366.box"
+tesseract "data/ocra300-ground-truth/tr-00366.png" data/ocra300-ground-truth/tr-00366 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01775.png" -t "data/ocra300-ground-truth/tr-01775.gt.txt" > "data/ocra300-ground-truth/tr-01775.box"
 tesseract "data/ocra300-ground-truth/tr-01775.png" data/ocra300-ground-truth/tr-01775 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01198.png" -t "data/ocra300-ground-truth/tr-01198.gt.txt" > "data/ocra300-ground-truth/tr-01198.box"
-tesseract "data/ocra300-ground-truth/tr-01198.png" data/ocra300-ground-truth/tr-01198 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01053.png" -t "data/ocra300-ground-truth/tr-01053.gt.txt" > "data/ocra300-ground-truth/tr-01053.box"
-tesseract "data/ocra300-ground-truth/tr-01053.png" data/ocra300-ground-truth/tr-01053 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00384.png" -t "data/ocra300-ground-truth/tr-00384.gt.txt" > "data/ocra300-ground-truth/tr-00384.box"
+tesseract "data/ocra300-ground-truth/tr-00384.png" data/ocra300-ground-truth/tr-00384 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01222.png" -t "data/ocra300-ground-truth/tr-01222.gt.txt" > "data/ocra300-ground-truth/tr-01222.box"
+tesseract "data/ocra300-ground-truth/tr-01222.png" data/ocra300-ground-truth/tr-01222 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00715.png" -t "data/ocra300-ground-truth/tr-00715.gt.txt" > "data/ocra300-ground-truth/tr-00715.box"
+tesseract "data/ocra300-ground-truth/tr-00715.png" data/ocra300-ground-truth/tr-00715 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00693.png" -t "data/ocra300-ground-truth/tr-00693.gt.txt" > "data/ocra300-ground-truth/tr-00693.box"
+tesseract "data/ocra300-ground-truth/tr-00693.png" data/ocra300-ground-truth/tr-00693 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00060.png" -t "data/ocra300-ground-truth/tr-00060.gt.txt" > "data/ocra300-ground-truth/tr-00060.box"
+tesseract "data/ocra300-ground-truth/tr-00060.png" data/ocra300-ground-truth/tr-00060 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01208.png" -t "data/ocra300-ground-truth/tr-01208.gt.txt" > "data/ocra300-ground-truth/tr-01208.box"
+tesseract "data/ocra300-ground-truth/tr-01208.png" data/ocra300-ground-truth/tr-01208 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00133.png" -t "data/ocra300-ground-truth/tr-00133.gt.txt" > "data/ocra300-ground-truth/tr-00133.box"
+tesseract "data/ocra300-ground-truth/tr-00133.png" data/ocra300-ground-truth/tr-00133 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00132.png" -t "data/ocra300-ground-truth/tr-00132.gt.txt" > "data/ocra300-ground-truth/tr-00132.box"
+tesseract "data/ocra300-ground-truth/tr-00132.png" data/ocra300-ground-truth/tr-00132 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01683.png" -t "data/ocra300-ground-truth/tr-01683.gt.txt" > "data/ocra300-ground-truth/tr-01683.box"
+tesseract "data/ocra300-ground-truth/tr-01683.png" data/ocra300-ground-truth/tr-01683 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00137.png" -t "data/ocra300-ground-truth/tr-00137.gt.txt" > "data/ocra300-ground-truth/tr-00137.box"
+tesseract "data/ocra300-ground-truth/tr-00137.png" data/ocra300-ground-truth/tr-00137 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01689.png" -t "data/ocra300-ground-truth/tr-01689.gt.txt" > "data/ocra300-ground-truth/tr-01689.box"
+tesseract "data/ocra300-ground-truth/tr-01689.png" data/ocra300-ground-truth/tr-01689 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00068.png" -t "data/ocra300-ground-truth/tr-00068.gt.txt" > "data/ocra300-ground-truth/tr-00068.box"
+tesseract "data/ocra300-ground-truth/tr-00068.png" data/ocra300-ground-truth/tr-00068 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00371.png" -t "data/ocra300-ground-truth/tr-00371.gt.txt" > "data/ocra300-ground-truth/tr-00371.box"
+tesseract "data/ocra300-ground-truth/tr-00371.png" data/ocra300-ground-truth/tr-00371 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01347.png" -t "data/ocra300-ground-truth/tr-01347.gt.txt" > "data/ocra300-ground-truth/tr-01347.box"
+tesseract "data/ocra300-ground-truth/tr-01347.png" data/ocra300-ground-truth/tr-01347 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00422.png" -t "data/ocra300-ground-truth/tr-00422.gt.txt" > "data/ocra300-ground-truth/tr-00422.box"
+tesseract "data/ocra300-ground-truth/tr-00422.png" data/ocra300-ground-truth/tr-00422 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01082.png" -t "data/ocra300-ground-truth/tr-01082.gt.txt" > "data/ocra300-ground-truth/tr-01082.box"
+tesseract "data/ocra300-ground-truth/tr-01082.png" data/ocra300-ground-truth/tr-01082 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01664.png" -t "data/ocra300-ground-truth/tr-01664.gt.txt" > "data/ocra300-ground-truth/tr-01664.box"
+tesseract "data/ocra300-ground-truth/tr-01664.png" data/ocra300-ground-truth/tr-01664 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01708.png" -t "data/ocra300-ground-truth/tr-01708.gt.txt" > "data/ocra300-ground-truth/tr-01708.box"
+tesseract "data/ocra300-ground-truth/tr-01708.png" data/ocra300-ground-truth/tr-01708 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00837.png" -t "data/ocra300-ground-truth/tr-00837.gt.txt" > "data/ocra300-ground-truth/tr-00837.box"
+tesseract "data/ocra300-ground-truth/tr-00837.png" data/ocra300-ground-truth/tr-00837 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01023.png" -t "data/ocra300-ground-truth/tr-01023.gt.txt" > "data/ocra300-ground-truth/tr-01023.box"
+tesseract "data/ocra300-ground-truth/tr-01023.png" data/ocra300-ground-truth/tr-01023 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01078.png" -t "data/ocra300-ground-truth/tr-01078.gt.txt" > "data/ocra300-ground-truth/tr-01078.box"
+tesseract "data/ocra300-ground-truth/tr-01078.png" data/ocra300-ground-truth/tr-01078 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00321.png" -t "data/ocra300-ground-truth/tr-00321.gt.txt" > "data/ocra300-ground-truth/tr-00321.box"
+tesseract "data/ocra300-ground-truth/tr-00321.png" data/ocra300-ground-truth/tr-00321 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00042.png" -t "data/ocra300-ground-truth/tr-00042.gt.txt" > "data/ocra300-ground-truth/tr-00042.box"
+tesseract "data/ocra300-ground-truth/tr-00042.png" data/ocra300-ground-truth/tr-00042 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00126.png" -t "data/ocra300-ground-truth/tr-00126.gt.txt" > "data/ocra300-ground-truth/tr-00126.box"
+tesseract "data/ocra300-ground-truth/tr-00126.png" data/ocra300-ground-truth/tr-00126 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01143.png" -t "data/ocra300-ground-truth/tr-01143.gt.txt" > "data/ocra300-ground-truth/tr-01143.box"
+tesseract "data/ocra300-ground-truth/tr-01143.png" data/ocra300-ground-truth/tr-01143 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01786.png" -t "data/ocra300-ground-truth/tr-01786.gt.txt" > "data/ocra300-ground-truth/tr-01786.box"
+tesseract "data/ocra300-ground-truth/tr-01786.png" data/ocra300-ground-truth/tr-01786 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01091.png" -t "data/ocra300-ground-truth/tr-01091.gt.txt" > "data/ocra300-ground-truth/tr-01091.box"
+tesseract "data/ocra300-ground-truth/tr-01091.png" data/ocra300-ground-truth/tr-01091 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01181.png" -t "data/ocra300-ground-truth/tr-01181.gt.txt" > "data/ocra300-ground-truth/tr-01181.box"
+tesseract "data/ocra300-ground-truth/tr-01181.png" data/ocra300-ground-truth/tr-01181 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01672.png" -t "data/ocra300-ground-truth/tr-01672.gt.txt" > "data/ocra300-ground-truth/tr-01672.box"
+tesseract "data/ocra300-ground-truth/tr-01672.png" data/ocra300-ground-truth/tr-01672 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00639.png" -t "data/ocra300-ground-truth/tr-00639.gt.txt" > "data/ocra300-ground-truth/tr-00639.box"
 tesseract "data/ocra300-ground-truth/tr-00639.png" data/ocra300-ground-truth/tr-00639 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01097.png" -t "data/ocra300-ground-truth/tr-01097.gt.txt" > "data/ocra300-ground-truth/tr-01097.box"
-tesseract "data/ocra300-ground-truth/tr-01097.png" data/ocra300-ground-truth/tr-01097 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01440.png" -t "data/ocra300-ground-truth/tr-01440.gt.txt" > "data/ocra300-ground-truth/tr-01440.box"
-tesseract "data/ocra300-ground-truth/tr-01440.png" data/ocra300-ground-truth/tr-01440 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01094.png" -t "data/ocra300-ground-truth/tr-01094.gt.txt" > "data/ocra300-ground-truth/tr-01094.box"
-tesseract "data/ocra300-ground-truth/tr-01094.png" data/ocra300-ground-truth/tr-01094 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00750.png" -t "data/ocra300-ground-truth/tr-00750.gt.txt" > "data/ocra300-ground-truth/tr-00750.box"
-tesseract "data/ocra300-ground-truth/tr-00750.png" data/ocra300-ground-truth/tr-00750 --psm 13 lstm.train
-PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01468.png" -t "data/ocra300-ground-truth/tr-01468.gt.txt" > "data/ocra300-ground-truth/tr-01468.box"
-tesseract "data/ocra300-ground-truth/tr-01468.png" data/ocra300-ground-truth/tr-01468 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01655.png" -t "data/ocra300-ground-truth/tr-01655.gt.txt" > "data/ocra300-ground-truth/tr-01655.box"
+tesseract "data/ocra300-ground-truth/tr-01655.png" data/ocra300-ground-truth/tr-01655 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00368.png" -t "data/ocra300-ground-truth/tr-00368.gt.txt" > "data/ocra300-ground-truth/tr-00368.box"
+tesseract "data/ocra300-ground-truth/tr-00368.png" data/ocra300-ground-truth/tr-00368 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00665.png" -t "data/ocra300-ground-truth/tr-00665.gt.txt" > "data/ocra300-ground-truth/tr-00665.box"
+tesseract "data/ocra300-ground-truth/tr-00665.png" data/ocra300-ground-truth/tr-00665 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00125.png" -t "data/ocra300-ground-truth/tr-00125.gt.txt" > "data/ocra300-ground-truth/tr-00125.box"
+tesseract "data/ocra300-ground-truth/tr-00125.png" data/ocra300-ground-truth/tr-00125 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00927.png" -t "data/ocra300-ground-truth/tr-00927.gt.txt" > "data/ocra300-ground-truth/tr-00927.box"
+tesseract "data/ocra300-ground-truth/tr-00927.png" data/ocra300-ground-truth/tr-00927 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00182.png" -t "data/ocra300-ground-truth/tr-00182.gt.txt" > "data/ocra300-ground-truth/tr-00182.box"
+tesseract "data/ocra300-ground-truth/tr-00182.png" data/ocra300-ground-truth/tr-00182 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00853.png" -t "data/ocra300-ground-truth/tr-00853.gt.txt" > "data/ocra300-ground-truth/tr-00853.box"
+tesseract "data/ocra300-ground-truth/tr-00853.png" data/ocra300-ground-truth/tr-00853 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01741.png" -t "data/ocra300-ground-truth/tr-01741.gt.txt" > "data/ocra300-ground-truth/tr-01741.box"
+tesseract "data/ocra300-ground-truth/tr-01741.png" data/ocra300-ground-truth/tr-01741 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01762.png" -t "data/ocra300-ground-truth/tr-01762.gt.txt" > "data/ocra300-ground-truth/tr-01762.box"
+tesseract "data/ocra300-ground-truth/tr-01762.png" data/ocra300-ground-truth/tr-01762 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00402.png" -t "data/ocra300-ground-truth/tr-00402.gt.txt" > "data/ocra300-ground-truth/tr-00402.box"
+tesseract "data/ocra300-ground-truth/tr-00402.png" data/ocra300-ground-truth/tr-00402 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01311.png" -t "data/ocra300-ground-truth/tr-01311.gt.txt" > "data/ocra300-ground-truth/tr-01311.box"
+tesseract "data/ocra300-ground-truth/tr-01311.png" data/ocra300-ground-truth/tr-01311 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01452.png" -t "data/ocra300-ground-truth/tr-01452.gt.txt" > "data/ocra300-ground-truth/tr-01452.box"
+tesseract "data/ocra300-ground-truth/tr-01452.png" data/ocra300-ground-truth/tr-01452 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01391.png" -t "data/ocra300-ground-truth/tr-01391.gt.txt" > "data/ocra300-ground-truth/tr-01391.box"
+tesseract "data/ocra300-ground-truth/tr-01391.png" data/ocra300-ground-truth/tr-01391 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01369.png" -t "data/ocra300-ground-truth/tr-01369.gt.txt" > "data/ocra300-ground-truth/tr-01369.box"
+tesseract "data/ocra300-ground-truth/tr-01369.png" data/ocra300-ground-truth/tr-01369 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00695.png" -t "data/ocra300-ground-truth/tr-00695.gt.txt" > "data/ocra300-ground-truth/tr-00695.box"
+tesseract "data/ocra300-ground-truth/tr-00695.png" data/ocra300-ground-truth/tr-00695 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00151.png" -t "data/ocra300-ground-truth/tr-00151.gt.txt" > "data/ocra300-ground-truth/tr-00151.box"
+tesseract "data/ocra300-ground-truth/tr-00151.png" data/ocra300-ground-truth/tr-00151 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00840.png" -t "data/ocra300-ground-truth/tr-00840.gt.txt" > "data/ocra300-ground-truth/tr-00840.box"
+tesseract "data/ocra300-ground-truth/tr-00840.png" data/ocra300-ground-truth/tr-00840 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00876.png" -t "data/ocra300-ground-truth/tr-00876.gt.txt" > "data/ocra300-ground-truth/tr-00876.box"
+tesseract "data/ocra300-ground-truth/tr-00876.png" data/ocra300-ground-truth/tr-00876 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00225.png" -t "data/ocra300-ground-truth/tr-00225.gt.txt" > "data/ocra300-ground-truth/tr-00225.box"
+tesseract "data/ocra300-ground-truth/tr-00225.png" data/ocra300-ground-truth/tr-00225 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01307.png" -t "data/ocra300-ground-truth/tr-01307.gt.txt" > "data/ocra300-ground-truth/tr-01307.box"
+tesseract "data/ocra300-ground-truth/tr-01307.png" data/ocra300-ground-truth/tr-01307 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00396.png" -t "data/ocra300-ground-truth/tr-00396.gt.txt" > "data/ocra300-ground-truth/tr-00396.box"
+tesseract "data/ocra300-ground-truth/tr-00396.png" data/ocra300-ground-truth/tr-00396 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00573.png" -t "data/ocra300-ground-truth/tr-00573.gt.txt" > "data/ocra300-ground-truth/tr-00573.box"
+tesseract "data/ocra300-ground-truth/tr-00573.png" data/ocra300-ground-truth/tr-00573 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01447.png" -t "data/ocra300-ground-truth/tr-01447.gt.txt" > "data/ocra300-ground-truth/tr-01447.box"
+tesseract "data/ocra300-ground-truth/tr-01447.png" data/ocra300-ground-truth/tr-01447 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00965.png" -t "data/ocra300-ground-truth/tr-00965.gt.txt" > "data/ocra300-ground-truth/tr-00965.box"
+tesseract "data/ocra300-ground-truth/tr-00965.png" data/ocra300-ground-truth/tr-00965 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00354.png" -t "data/ocra300-ground-truth/tr-00354.gt.txt" > "data/ocra300-ground-truth/tr-00354.box"
+tesseract "data/ocra300-ground-truth/tr-00354.png" data/ocra300-ground-truth/tr-00354 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01531.png" -t "data/ocra300-ground-truth/tr-01531.gt.txt" > "data/ocra300-ground-truth/tr-01531.box"
+tesseract "data/ocra300-ground-truth/tr-01531.png" data/ocra300-ground-truth/tr-01531 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01109.png" -t "data/ocra300-ground-truth/tr-01109.gt.txt" > "data/ocra300-ground-truth/tr-01109.box"
+tesseract "data/ocra300-ground-truth/tr-01109.png" data/ocra300-ground-truth/tr-01109 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00462.png" -t "data/ocra300-ground-truth/tr-00462.gt.txt" > "data/ocra300-ground-truth/tr-00462.box"
+tesseract "data/ocra300-ground-truth/tr-00462.png" data/ocra300-ground-truth/tr-00462 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00655.png" -t "data/ocra300-ground-truth/tr-00655.gt.txt" > "data/ocra300-ground-truth/tr-00655.box"
+tesseract "data/ocra300-ground-truth/tr-00655.png" data/ocra300-ground-truth/tr-00655 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01027.png" -t "data/ocra300-ground-truth/tr-01027.gt.txt" > "data/ocra300-ground-truth/tr-01027.box"
+tesseract "data/ocra300-ground-truth/tr-01027.png" data/ocra300-ground-truth/tr-01027 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00310.png" -t "data/ocra300-ground-truth/tr-00310.gt.txt" > "data/ocra300-ground-truth/tr-00310.box"
+tesseract "data/ocra300-ground-truth/tr-00310.png" data/ocra300-ground-truth/tr-00310 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00580.png" -t "data/ocra300-ground-truth/tr-00580.gt.txt" > "data/ocra300-ground-truth/tr-00580.box"
+tesseract "data/ocra300-ground-truth/tr-00580.png" data/ocra300-ground-truth/tr-00580 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01625.png" -t "data/ocra300-ground-truth/tr-01625.gt.txt" > "data/ocra300-ground-truth/tr-01625.box"
+tesseract "data/ocra300-ground-truth/tr-01625.png" data/ocra300-ground-truth/tr-01625 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01113.png" -t "data/ocra300-ground-truth/tr-01113.gt.txt" > "data/ocra300-ground-truth/tr-01113.box"
+tesseract "data/ocra300-ground-truth/tr-01113.png" data/ocra300-ground-truth/tr-01113 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01654.png" -t "data/ocra300-ground-truth/tr-01654.gt.txt" > "data/ocra300-ground-truth/tr-01654.box"
+tesseract "data/ocra300-ground-truth/tr-01654.png" data/ocra300-ground-truth/tr-01654 --psm 13 lstm.train
 PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00176.png" -t "data/ocra300-ground-truth/tr-00176.gt.txt" > "data/ocra300-ground-truth/tr-00176.box"
 tesseract "data/ocra300-ground-truth/tr-00176.png" data/ocra300-ground-truth/tr-00176 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00630.png" -t "data/ocra300-ground-truth/tr-00630.gt.txt" > "data/ocra300-ground-truth/tr-00630.box"
+tesseract "data/ocra300-ground-truth/tr-00630.png" data/ocra300-ground-truth/tr-00630 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01171.png" -t "data/ocra300-ground-truth/tr-01171.gt.txt" > "data/ocra300-ground-truth/tr-01171.box"
+tesseract "data/ocra300-ground-truth/tr-01171.png" data/ocra300-ground-truth/tr-01171 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01230.png" -t "data/ocra300-ground-truth/tr-01230.gt.txt" > "data/ocra300-ground-truth/tr-01230.box"
+tesseract "data/ocra300-ground-truth/tr-01230.png" data/ocra300-ground-truth/tr-01230 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00233.png" -t "data/ocra300-ground-truth/tr-00233.gt.txt" > "data/ocra300-ground-truth/tr-00233.box"
+tesseract "data/ocra300-ground-truth/tr-00233.png" data/ocra300-ground-truth/tr-00233 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01353.png" -t "data/ocra300-ground-truth/tr-01353.gt.txt" > "data/ocra300-ground-truth/tr-01353.box"
+tesseract "data/ocra300-ground-truth/tr-01353.png" data/ocra300-ground-truth/tr-01353 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01675.png" -t "data/ocra300-ground-truth/tr-01675.gt.txt" > "data/ocra300-ground-truth/tr-01675.box"
+tesseract "data/ocra300-ground-truth/tr-01675.png" data/ocra300-ground-truth/tr-01675 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00199.png" -t "data/ocra300-ground-truth/tr-00199.gt.txt" > "data/ocra300-ground-truth/tr-00199.box"
+tesseract "data/ocra300-ground-truth/tr-00199.png" data/ocra300-ground-truth/tr-00199 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00399.png" -t "data/ocra300-ground-truth/tr-00399.gt.txt" > "data/ocra300-ground-truth/tr-00399.box"
+tesseract "data/ocra300-ground-truth/tr-00399.png" data/ocra300-ground-truth/tr-00399 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01579.png" -t "data/ocra300-ground-truth/tr-01579.gt.txt" > "data/ocra300-ground-truth/tr-01579.box"
+tesseract "data/ocra300-ground-truth/tr-01579.png" data/ocra300-ground-truth/tr-01579 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01333.png" -t "data/ocra300-ground-truth/tr-01333.gt.txt" > "data/ocra300-ground-truth/tr-01333.box"
+tesseract "data/ocra300-ground-truth/tr-01333.png" data/ocra300-ground-truth/tr-01333 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01262.png" -t "data/ocra300-ground-truth/tr-01262.gt.txt" > "data/ocra300-ground-truth/tr-01262.box"
+tesseract "data/ocra300-ground-truth/tr-01262.png" data/ocra300-ground-truth/tr-01262 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01194.png" -t "data/ocra300-ground-truth/tr-01194.gt.txt" > "data/ocra300-ground-truth/tr-01194.box"
+tesseract "data/ocra300-ground-truth/tr-01194.png" data/ocra300-ground-truth/tr-01194 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01637.png" -t "data/ocra300-ground-truth/tr-01637.gt.txt" > "data/ocra300-ground-truth/tr-01637.box"
+tesseract "data/ocra300-ground-truth/tr-01637.png" data/ocra300-ground-truth/tr-01637 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00527.png" -t "data/ocra300-ground-truth/tr-00527.gt.txt" > "data/ocra300-ground-truth/tr-00527.box"
+tesseract "data/ocra300-ground-truth/tr-00527.png" data/ocra300-ground-truth/tr-00527 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00213.png" -t "data/ocra300-ground-truth/tr-00213.gt.txt" > "data/ocra300-ground-truth/tr-00213.box"
+tesseract "data/ocra300-ground-truth/tr-00213.png" data/ocra300-ground-truth/tr-00213 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00845.png" -t "data/ocra300-ground-truth/tr-00845.gt.txt" > "data/ocra300-ground-truth/tr-00845.box"
+tesseract "data/ocra300-ground-truth/tr-00845.png" data/ocra300-ground-truth/tr-00845 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00492.png" -t "data/ocra300-ground-truth/tr-00492.gt.txt" > "data/ocra300-ground-truth/tr-00492.box"
+tesseract "data/ocra300-ground-truth/tr-00492.png" data/ocra300-ground-truth/tr-00492 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00709.png" -t "data/ocra300-ground-truth/tr-00709.gt.txt" > "data/ocra300-ground-truth/tr-00709.box"
+tesseract "data/ocra300-ground-truth/tr-00709.png" data/ocra300-ground-truth/tr-00709 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00098.png" -t "data/ocra300-ground-truth/tr-00098.gt.txt" > "data/ocra300-ground-truth/tr-00098.box"
+tesseract "data/ocra300-ground-truth/tr-00098.png" data/ocra300-ground-truth/tr-00098 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00916.png" -t "data/ocra300-ground-truth/tr-00916.gt.txt" > "data/ocra300-ground-truth/tr-00916.box"
+tesseract "data/ocra300-ground-truth/tr-00916.png" data/ocra300-ground-truth/tr-00916 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01502.png" -t "data/ocra300-ground-truth/tr-01502.gt.txt" > "data/ocra300-ground-truth/tr-01502.box"
+tesseract "data/ocra300-ground-truth/tr-01502.png" data/ocra300-ground-truth/tr-01502 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01465.png" -t "data/ocra300-ground-truth/tr-01465.gt.txt" > "data/ocra300-ground-truth/tr-01465.box"
+tesseract "data/ocra300-ground-truth/tr-01465.png" data/ocra300-ground-truth/tr-01465 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01759.png" -t "data/ocra300-ground-truth/tr-01759.gt.txt" > "data/ocra300-ground-truth/tr-01759.box"
+tesseract "data/ocra300-ground-truth/tr-01759.png" data/ocra300-ground-truth/tr-01759 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00774.png" -t "data/ocra300-ground-truth/tr-00774.gt.txt" > "data/ocra300-ground-truth/tr-00774.box"
+tesseract "data/ocra300-ground-truth/tr-00774.png" data/ocra300-ground-truth/tr-00774 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00986.png" -t "data/ocra300-ground-truth/tr-00986.gt.txt" > "data/ocra300-ground-truth/tr-00986.box"
+tesseract "data/ocra300-ground-truth/tr-00986.png" data/ocra300-ground-truth/tr-00986 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01094.png" -t "data/ocra300-ground-truth/tr-01094.gt.txt" > "data/ocra300-ground-truth/tr-01094.box"
+tesseract "data/ocra300-ground-truth/tr-01094.png" data/ocra300-ground-truth/tr-01094 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00297.png" -t "data/ocra300-ground-truth/tr-00297.gt.txt" > "data/ocra300-ground-truth/tr-00297.box"
+tesseract "data/ocra300-ground-truth/tr-00297.png" data/ocra300-ground-truth/tr-00297 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01190.png" -t "data/ocra300-ground-truth/tr-01190.gt.txt" > "data/ocra300-ground-truth/tr-01190.box"
+tesseract "data/ocra300-ground-truth/tr-01190.png" data/ocra300-ground-truth/tr-01190 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00885.png" -t "data/ocra300-ground-truth/tr-00885.gt.txt" > "data/ocra300-ground-truth/tr-00885.box"
+tesseract "data/ocra300-ground-truth/tr-00885.png" data/ocra300-ground-truth/tr-00885 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01621.png" -t "data/ocra300-ground-truth/tr-01621.gt.txt" > "data/ocra300-ground-truth/tr-01621.box"
+tesseract "data/ocra300-ground-truth/tr-01621.png" data/ocra300-ground-truth/tr-01621 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00657.png" -t "data/ocra300-ground-truth/tr-00657.gt.txt" > "data/ocra300-ground-truth/tr-00657.box"
+tesseract "data/ocra300-ground-truth/tr-00657.png" data/ocra300-ground-truth/tr-00657 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01235.png" -t "data/ocra300-ground-truth/tr-01235.gt.txt" > "data/ocra300-ground-truth/tr-01235.box"
+tesseract "data/ocra300-ground-truth/tr-01235.png" data/ocra300-ground-truth/tr-01235 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01488.png" -t "data/ocra300-ground-truth/tr-01488.gt.txt" > "data/ocra300-ground-truth/tr-01488.box"
+tesseract "data/ocra300-ground-truth/tr-01488.png" data/ocra300-ground-truth/tr-01488 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01001.png" -t "data/ocra300-ground-truth/tr-01001.gt.txt" > "data/ocra300-ground-truth/tr-01001.box"
+tesseract "data/ocra300-ground-truth/tr-01001.png" data/ocra300-ground-truth/tr-01001 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01519.png" -t "data/ocra300-ground-truth/tr-01519.gt.txt" > "data/ocra300-ground-truth/tr-01519.box"
+tesseract "data/ocra300-ground-truth/tr-01519.png" data/ocra300-ground-truth/tr-01519 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00815.png" -t "data/ocra300-ground-truth/tr-00815.gt.txt" > "data/ocra300-ground-truth/tr-00815.box"
+tesseract "data/ocra300-ground-truth/tr-00815.png" data/ocra300-ground-truth/tr-00815 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00028.png" -t "data/ocra300-ground-truth/tr-00028.gt.txt" > "data/ocra300-ground-truth/tr-00028.box"
+tesseract "data/ocra300-ground-truth/tr-00028.png" data/ocra300-ground-truth/tr-00028 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00136.png" -t "data/ocra300-ground-truth/tr-00136.gt.txt" > "data/ocra300-ground-truth/tr-00136.box"
+tesseract "data/ocra300-ground-truth/tr-00136.png" data/ocra300-ground-truth/tr-00136 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00342.png" -t "data/ocra300-ground-truth/tr-00342.gt.txt" > "data/ocra300-ground-truth/tr-00342.box"
+tesseract "data/ocra300-ground-truth/tr-00342.png" data/ocra300-ground-truth/tr-00342 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00053.png" -t "data/ocra300-ground-truth/tr-00053.gt.txt" > "data/ocra300-ground-truth/tr-00053.box"
+tesseract "data/ocra300-ground-truth/tr-00053.png" data/ocra300-ground-truth/tr-00053 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01283.png" -t "data/ocra300-ground-truth/tr-01283.gt.txt" > "data/ocra300-ground-truth/tr-01283.box"
+tesseract "data/ocra300-ground-truth/tr-01283.png" data/ocra300-ground-truth/tr-01283 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01747.png" -t "data/ocra300-ground-truth/tr-01747.gt.txt" > "data/ocra300-ground-truth/tr-01747.box"
+tesseract "data/ocra300-ground-truth/tr-01747.png" data/ocra300-ground-truth/tr-01747 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00027.png" -t "data/ocra300-ground-truth/tr-00027.gt.txt" > "data/ocra300-ground-truth/tr-00027.box"
+tesseract "data/ocra300-ground-truth/tr-00027.png" data/ocra300-ground-truth/tr-00027 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00401.png" -t "data/ocra300-ground-truth/tr-00401.gt.txt" > "data/ocra300-ground-truth/tr-00401.box"
+tesseract "data/ocra300-ground-truth/tr-00401.png" data/ocra300-ground-truth/tr-00401 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00307.png" -t "data/ocra300-ground-truth/tr-00307.gt.txt" > "data/ocra300-ground-truth/tr-00307.box"
+tesseract "data/ocra300-ground-truth/tr-00307.png" data/ocra300-ground-truth/tr-00307 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00923.png" -t "data/ocra300-ground-truth/tr-00923.gt.txt" > "data/ocra300-ground-truth/tr-00923.box"
+tesseract "data/ocra300-ground-truth/tr-00923.png" data/ocra300-ground-truth/tr-00923 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01774.png" -t "data/ocra300-ground-truth/tr-01774.gt.txt" > "data/ocra300-ground-truth/tr-01774.box"
+tesseract "data/ocra300-ground-truth/tr-01774.png" data/ocra300-ground-truth/tr-01774 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00772.png" -t "data/ocra300-ground-truth/tr-00772.gt.txt" > "data/ocra300-ground-truth/tr-00772.box"
+tesseract "data/ocra300-ground-truth/tr-00772.png" data/ocra300-ground-truth/tr-00772 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00525.png" -t "data/ocra300-ground-truth/tr-00525.gt.txt" > "data/ocra300-ground-truth/tr-00525.box"
+tesseract "data/ocra300-ground-truth/tr-00525.png" data/ocra300-ground-truth/tr-00525 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00943.png" -t "data/ocra300-ground-truth/tr-00943.gt.txt" > "data/ocra300-ground-truth/tr-00943.box"
+tesseract "data/ocra300-ground-truth/tr-00943.png" data/ocra300-ground-truth/tr-00943 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01590.png" -t "data/ocra300-ground-truth/tr-01590.gt.txt" > "data/ocra300-ground-truth/tr-01590.box"
+tesseract "data/ocra300-ground-truth/tr-01590.png" data/ocra300-ground-truth/tr-01590 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01728.png" -t "data/ocra300-ground-truth/tr-01728.gt.txt" > "data/ocra300-ground-truth/tr-01728.box"
+tesseract "data/ocra300-ground-truth/tr-01728.png" data/ocra300-ground-truth/tr-01728 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01467.png" -t "data/ocra300-ground-truth/tr-01467.gt.txt" > "data/ocra300-ground-truth/tr-01467.box"
+tesseract "data/ocra300-ground-truth/tr-01467.png" data/ocra300-ground-truth/tr-01467 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00682.png" -t "data/ocra300-ground-truth/tr-00682.gt.txt" > "data/ocra300-ground-truth/tr-00682.box"
+tesseract "data/ocra300-ground-truth/tr-00682.png" data/ocra300-ground-truth/tr-00682 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01387.png" -t "data/ocra300-ground-truth/tr-01387.gt.txt" > "data/ocra300-ground-truth/tr-01387.box"
+tesseract "data/ocra300-ground-truth/tr-01387.png" data/ocra300-ground-truth/tr-01387 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00207.png" -t "data/ocra300-ground-truth/tr-00207.gt.txt" > "data/ocra300-ground-truth/tr-00207.box"
+tesseract "data/ocra300-ground-truth/tr-00207.png" data/ocra300-ground-truth/tr-00207 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01089.png" -t "data/ocra300-ground-truth/tr-01089.gt.txt" > "data/ocra300-ground-truth/tr-01089.box"
+tesseract "data/ocra300-ground-truth/tr-01089.png" data/ocra300-ground-truth/tr-01089 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01167.png" -t "data/ocra300-ground-truth/tr-01167.gt.txt" > "data/ocra300-ground-truth/tr-01167.box"
+tesseract "data/ocra300-ground-truth/tr-01167.png" data/ocra300-ground-truth/tr-01167 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01417.png" -t "data/ocra300-ground-truth/tr-01417.gt.txt" > "data/ocra300-ground-truth/tr-01417.box"
+tesseract "data/ocra300-ground-truth/tr-01417.png" data/ocra300-ground-truth/tr-01417 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01440.png" -t "data/ocra300-ground-truth/tr-01440.gt.txt" > "data/ocra300-ground-truth/tr-01440.box"
+tesseract "data/ocra300-ground-truth/tr-01440.png" data/ocra300-ground-truth/tr-01440 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00674.png" -t "data/ocra300-ground-truth/tr-00674.gt.txt" > "data/ocra300-ground-truth/tr-00674.box"
+tesseract "data/ocra300-ground-truth/tr-00674.png" data/ocra300-ground-truth/tr-00674 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00296.png" -t "data/ocra300-ground-truth/tr-00296.gt.txt" > "data/ocra300-ground-truth/tr-00296.box"
+tesseract "data/ocra300-ground-truth/tr-00296.png" data/ocra300-ground-truth/tr-00296 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00259.png" -t "data/ocra300-ground-truth/tr-00259.gt.txt" > "data/ocra300-ground-truth/tr-00259.box"
+tesseract "data/ocra300-ground-truth/tr-00259.png" data/ocra300-ground-truth/tr-00259 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00813.png" -t "data/ocra300-ground-truth/tr-00813.gt.txt" > "data/ocra300-ground-truth/tr-00813.box"
+tesseract "data/ocra300-ground-truth/tr-00813.png" data/ocra300-ground-truth/tr-00813 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01407.png" -t "data/ocra300-ground-truth/tr-01407.gt.txt" > "data/ocra300-ground-truth/tr-01407.box"
+tesseract "data/ocra300-ground-truth/tr-01407.png" data/ocra300-ground-truth/tr-01407 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01053.png" -t "data/ocra300-ground-truth/tr-01053.gt.txt" > "data/ocra300-ground-truth/tr-01053.box"
+tesseract "data/ocra300-ground-truth/tr-01053.png" data/ocra300-ground-truth/tr-01053 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00427.png" -t "data/ocra300-ground-truth/tr-00427.gt.txt" > "data/ocra300-ground-truth/tr-00427.box"
+tesseract "data/ocra300-ground-truth/tr-00427.png" data/ocra300-ground-truth/tr-00427 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01261.png" -t "data/ocra300-ground-truth/tr-01261.gt.txt" > "data/ocra300-ground-truth/tr-01261.box"
+tesseract "data/ocra300-ground-truth/tr-01261.png" data/ocra300-ground-truth/tr-01261 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01137.png" -t "data/ocra300-ground-truth/tr-01137.gt.txt" > "data/ocra300-ground-truth/tr-01137.box"
+tesseract "data/ocra300-ground-truth/tr-01137.png" data/ocra300-ground-truth/tr-01137 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00761.png" -t "data/ocra300-ground-truth/tr-00761.gt.txt" > "data/ocra300-ground-truth/tr-00761.box"
+tesseract "data/ocra300-ground-truth/tr-00761.png" data/ocra300-ground-truth/tr-00761 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00364.png" -t "data/ocra300-ground-truth/tr-00364.gt.txt" > "data/ocra300-ground-truth/tr-00364.box"
+tesseract "data/ocra300-ground-truth/tr-00364.png" data/ocra300-ground-truth/tr-00364 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00767.png" -t "data/ocra300-ground-truth/tr-00767.gt.txt" > "data/ocra300-ground-truth/tr-00767.box"
+tesseract "data/ocra300-ground-truth/tr-00767.png" data/ocra300-ground-truth/tr-00767 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01341.png" -t "data/ocra300-ground-truth/tr-01341.gt.txt" > "data/ocra300-ground-truth/tr-01341.box"
+tesseract "data/ocra300-ground-truth/tr-01341.png" data/ocra300-ground-truth/tr-01341 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00253.png" -t "data/ocra300-ground-truth/tr-00253.gt.txt" > "data/ocra300-ground-truth/tr-00253.box"
+tesseract "data/ocra300-ground-truth/tr-00253.png" data/ocra300-ground-truth/tr-00253 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01265.png" -t "data/ocra300-ground-truth/tr-01265.gt.txt" > "data/ocra300-ground-truth/tr-01265.box"
+tesseract "data/ocra300-ground-truth/tr-01265.png" data/ocra300-ground-truth/tr-01265 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00485.png" -t "data/ocra300-ground-truth/tr-00485.gt.txt" > "data/ocra300-ground-truth/tr-00485.box"
+tesseract "data/ocra300-ground-truth/tr-00485.png" data/ocra300-ground-truth/tr-00485 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01075.png" -t "data/ocra300-ground-truth/tr-01075.gt.txt" > "data/ocra300-ground-truth/tr-01075.box"
+tesseract "data/ocra300-ground-truth/tr-01075.png" data/ocra300-ground-truth/tr-01075 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00899.png" -t "data/ocra300-ground-truth/tr-00899.gt.txt" > "data/ocra300-ground-truth/tr-00899.box"
+tesseract "data/ocra300-ground-truth/tr-00899.png" data/ocra300-ground-truth/tr-00899 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01008.png" -t "data/ocra300-ground-truth/tr-01008.gt.txt" > "data/ocra300-ground-truth/tr-01008.box"
+tesseract "data/ocra300-ground-truth/tr-01008.png" data/ocra300-ground-truth/tr-01008 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00005.png" -t "data/ocra300-ground-truth/tr-00005.gt.txt" > "data/ocra300-ground-truth/tr-00005.box"
+tesseract "data/ocra300-ground-truth/tr-00005.png" data/ocra300-ground-truth/tr-00005 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00721.png" -t "data/ocra300-ground-truth/tr-00721.gt.txt" > "data/ocra300-ground-truth/tr-00721.box"
+tesseract "data/ocra300-ground-truth/tr-00721.png" data/ocra300-ground-truth/tr-00721 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00634.png" -t "data/ocra300-ground-truth/tr-00634.gt.txt" > "data/ocra300-ground-truth/tr-00634.box"
+tesseract "data/ocra300-ground-truth/tr-00634.png" data/ocra300-ground-truth/tr-00634 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01198.png" -t "data/ocra300-ground-truth/tr-01198.gt.txt" > "data/ocra300-ground-truth/tr-01198.box"
+tesseract "data/ocra300-ground-truth/tr-01198.png" data/ocra300-ground-truth/tr-01198 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01343.png" -t "data/ocra300-ground-truth/tr-01343.gt.txt" > "data/ocra300-ground-truth/tr-01343.box"
+tesseract "data/ocra300-ground-truth/tr-01343.png" data/ocra300-ground-truth/tr-01343 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01607.png" -t "data/ocra300-ground-truth/tr-01607.gt.txt" > "data/ocra300-ground-truth/tr-01607.box"
+tesseract "data/ocra300-ground-truth/tr-01607.png" data/ocra300-ground-truth/tr-01607 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01368.png" -t "data/ocra300-ground-truth/tr-01368.gt.txt" > "data/ocra300-ground-truth/tr-01368.box"
+tesseract "data/ocra300-ground-truth/tr-01368.png" data/ocra300-ground-truth/tr-01368 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00156.png" -t "data/ocra300-ground-truth/tr-00156.gt.txt" > "data/ocra300-ground-truth/tr-00156.box"
+tesseract "data/ocra300-ground-truth/tr-00156.png" data/ocra300-ground-truth/tr-00156 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00394.png" -t "data/ocra300-ground-truth/tr-00394.gt.txt" > "data/ocra300-ground-truth/tr-00394.box"
+tesseract "data/ocra300-ground-truth/tr-00394.png" data/ocra300-ground-truth/tr-00394 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00361.png" -t "data/ocra300-ground-truth/tr-00361.gt.txt" > "data/ocra300-ground-truth/tr-00361.box"
+tesseract "data/ocra300-ground-truth/tr-00361.png" data/ocra300-ground-truth/tr-00361 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01414.png" -t "data/ocra300-ground-truth/tr-01414.gt.txt" > "data/ocra300-ground-truth/tr-01414.box"
+tesseract "data/ocra300-ground-truth/tr-01414.png" data/ocra300-ground-truth/tr-01414 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01051.png" -t "data/ocra300-ground-truth/tr-01051.gt.txt" > "data/ocra300-ground-truth/tr-01051.box"
+tesseract "data/ocra300-ground-truth/tr-01051.png" data/ocra300-ground-truth/tr-01051 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01769.png" -t "data/ocra300-ground-truth/tr-01769.gt.txt" > "data/ocra300-ground-truth/tr-01769.box"
+tesseract "data/ocra300-ground-truth/tr-01769.png" data/ocra300-ground-truth/tr-01769 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01124.png" -t "data/ocra300-ground-truth/tr-01124.gt.txt" > "data/ocra300-ground-truth/tr-01124.box"
+tesseract "data/ocra300-ground-truth/tr-01124.png" data/ocra300-ground-truth/tr-01124 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01007.png" -t "data/ocra300-ground-truth/tr-01007.gt.txt" > "data/ocra300-ground-truth/tr-01007.box"
+tesseract "data/ocra300-ground-truth/tr-01007.png" data/ocra300-ground-truth/tr-01007 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00575.png" -t "data/ocra300-ground-truth/tr-00575.gt.txt" > "data/ocra300-ground-truth/tr-00575.box"
+tesseract "data/ocra300-ground-truth/tr-00575.png" data/ocra300-ground-truth/tr-00575 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01719.png" -t "data/ocra300-ground-truth/tr-01719.gt.txt" > "data/ocra300-ground-truth/tr-01719.box"
+tesseract "data/ocra300-ground-truth/tr-01719.png" data/ocra300-ground-truth/tr-01719 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00400.png" -t "data/ocra300-ground-truth/tr-00400.gt.txt" > "data/ocra300-ground-truth/tr-00400.box"
+tesseract "data/ocra300-ground-truth/tr-00400.png" data/ocra300-ground-truth/tr-00400 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00980.png" -t "data/ocra300-ground-truth/tr-00980.gt.txt" > "data/ocra300-ground-truth/tr-00980.box"
+tesseract "data/ocra300-ground-truth/tr-00980.png" data/ocra300-ground-truth/tr-00980 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00144.png" -t "data/ocra300-ground-truth/tr-00144.gt.txt" > "data/ocra300-ground-truth/tr-00144.box"
+tesseract "data/ocra300-ground-truth/tr-00144.png" data/ocra300-ground-truth/tr-00144 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01598.png" -t "data/ocra300-ground-truth/tr-01598.gt.txt" > "data/ocra300-ground-truth/tr-01598.box"
+tesseract "data/ocra300-ground-truth/tr-01598.png" data/ocra300-ground-truth/tr-01598 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01260.png" -t "data/ocra300-ground-truth/tr-01260.gt.txt" > "data/ocra300-ground-truth/tr-01260.box"
+tesseract "data/ocra300-ground-truth/tr-01260.png" data/ocra300-ground-truth/tr-01260 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00387.png" -t "data/ocra300-ground-truth/tr-00387.gt.txt" > "data/ocra300-ground-truth/tr-00387.box"
+tesseract "data/ocra300-ground-truth/tr-00387.png" data/ocra300-ground-truth/tr-00387 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01530.png" -t "data/ocra300-ground-truth/tr-01530.gt.txt" > "data/ocra300-ground-truth/tr-01530.box"
+tesseract "data/ocra300-ground-truth/tr-01530.png" data/ocra300-ground-truth/tr-01530 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01559.png" -t "data/ocra300-ground-truth/tr-01559.gt.txt" > "data/ocra300-ground-truth/tr-01559.box"
+tesseract "data/ocra300-ground-truth/tr-01559.png" data/ocra300-ground-truth/tr-01559 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01004.png" -t "data/ocra300-ground-truth/tr-01004.gt.txt" > "data/ocra300-ground-truth/tr-01004.box"
+tesseract "data/ocra300-ground-truth/tr-01004.png" data/ocra300-ground-truth/tr-01004 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00912.png" -t "data/ocra300-ground-truth/tr-00912.gt.txt" > "data/ocra300-ground-truth/tr-00912.box"
+tesseract "data/ocra300-ground-truth/tr-00912.png" data/ocra300-ground-truth/tr-00912 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01709.png" -t "data/ocra300-ground-truth/tr-01709.gt.txt" > "data/ocra300-ground-truth/tr-01709.box"
+tesseract "data/ocra300-ground-truth/tr-01709.png" data/ocra300-ground-truth/tr-01709 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01540.png" -t "data/ocra300-ground-truth/tr-01540.gt.txt" > "data/ocra300-ground-truth/tr-01540.box"
+tesseract "data/ocra300-ground-truth/tr-01540.png" data/ocra300-ground-truth/tr-01540 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00238.png" -t "data/ocra300-ground-truth/tr-00238.gt.txt" > "data/ocra300-ground-truth/tr-00238.box"
+tesseract "data/ocra300-ground-truth/tr-00238.png" data/ocra300-ground-truth/tr-00238 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00748.png" -t "data/ocra300-ground-truth/tr-00748.gt.txt" > "data/ocra300-ground-truth/tr-00748.box"
+tesseract "data/ocra300-ground-truth/tr-00748.png" data/ocra300-ground-truth/tr-00748 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01634.png" -t "data/ocra300-ground-truth/tr-01634.gt.txt" > "data/ocra300-ground-truth/tr-01634.box"
+tesseract "data/ocra300-ground-truth/tr-01634.png" data/ocra300-ground-truth/tr-01634 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01352.png" -t "data/ocra300-ground-truth/tr-01352.gt.txt" > "data/ocra300-ground-truth/tr-01352.box"
+tesseract "data/ocra300-ground-truth/tr-01352.png" data/ocra300-ground-truth/tr-01352 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00662.png" -t "data/ocra300-ground-truth/tr-00662.gt.txt" > "data/ocra300-ground-truth/tr-00662.box"
+tesseract "data/ocra300-ground-truth/tr-00662.png" data/ocra300-ground-truth/tr-00662 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00750.png" -t "data/ocra300-ground-truth/tr-00750.gt.txt" > "data/ocra300-ground-truth/tr-00750.box"
+tesseract "data/ocra300-ground-truth/tr-00750.png" data/ocra300-ground-truth/tr-00750 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00785.png" -t "data/ocra300-ground-truth/tr-00785.gt.txt" > "data/ocra300-ground-truth/tr-00785.box"
+tesseract "data/ocra300-ground-truth/tr-00785.png" data/ocra300-ground-truth/tr-00785 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01158.png" -t "data/ocra300-ground-truth/tr-01158.gt.txt" > "data/ocra300-ground-truth/tr-01158.box"
+tesseract "data/ocra300-ground-truth/tr-01158.png" data/ocra300-ground-truth/tr-01158 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01674.png" -t "data/ocra300-ground-truth/tr-01674.gt.txt" > "data/ocra300-ground-truth/tr-01674.box"
+tesseract "data/ocra300-ground-truth/tr-01674.png" data/ocra300-ground-truth/tr-01674 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00181.png" -t "data/ocra300-ground-truth/tr-00181.gt.txt" > "data/ocra300-ground-truth/tr-00181.box"
+tesseract "data/ocra300-ground-truth/tr-00181.png" data/ocra300-ground-truth/tr-00181 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01132.png" -t "data/ocra300-ground-truth/tr-01132.gt.txt" > "data/ocra300-ground-truth/tr-01132.box"
+tesseract "data/ocra300-ground-truth/tr-01132.png" data/ocra300-ground-truth/tr-01132 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01720.png" -t "data/ocra300-ground-truth/tr-01720.gt.txt" > "data/ocra300-ground-truth/tr-01720.box"
+tesseract "data/ocra300-ground-truth/tr-01720.png" data/ocra300-ground-truth/tr-01720 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01042.png" -t "data/ocra300-ground-truth/tr-01042.gt.txt" > "data/ocra300-ground-truth/tr-01042.box"
+tesseract "data/ocra300-ground-truth/tr-01042.png" data/ocra300-ground-truth/tr-01042 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00869.png" -t "data/ocra300-ground-truth/tr-00869.gt.txt" > "data/ocra300-ground-truth/tr-00869.box"
+tesseract "data/ocra300-ground-truth/tr-00869.png" data/ocra300-ground-truth/tr-00869 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00077.png" -t "data/ocra300-ground-truth/tr-00077.gt.txt" > "data/ocra300-ground-truth/tr-00077.box"
+tesseract "data/ocra300-ground-truth/tr-00077.png" data/ocra300-ground-truth/tr-00077 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00749.png" -t "data/ocra300-ground-truth/tr-00749.gt.txt" > "data/ocra300-ground-truth/tr-00749.box"
+tesseract "data/ocra300-ground-truth/tr-00749.png" data/ocra300-ground-truth/tr-00749 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00979.png" -t "data/ocra300-ground-truth/tr-00979.gt.txt" > "data/ocra300-ground-truth/tr-00979.box"
+tesseract "data/ocra300-ground-truth/tr-00979.png" data/ocra300-ground-truth/tr-00979 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00751.png" -t "data/ocra300-ground-truth/tr-00751.gt.txt" > "data/ocra300-ground-truth/tr-00751.box"
+tesseract "data/ocra300-ground-truth/tr-00751.png" data/ocra300-ground-truth/tr-00751 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01246.png" -t "data/ocra300-ground-truth/tr-01246.gt.txt" > "data/ocra300-ground-truth/tr-01246.box"
+tesseract "data/ocra300-ground-truth/tr-01246.png" data/ocra300-ground-truth/tr-01246 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00982.png" -t "data/ocra300-ground-truth/tr-00982.gt.txt" > "data/ocra300-ground-truth/tr-00982.box"
+tesseract "data/ocra300-ground-truth/tr-00982.png" data/ocra300-ground-truth/tr-00982 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00355.png" -t "data/ocra300-ground-truth/tr-00355.gt.txt" > "data/ocra300-ground-truth/tr-00355.box"
+tesseract "data/ocra300-ground-truth/tr-00355.png" data/ocra300-ground-truth/tr-00355 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00091.png" -t "data/ocra300-ground-truth/tr-00091.gt.txt" > "data/ocra300-ground-truth/tr-00091.box"
+tesseract "data/ocra300-ground-truth/tr-00091.png" data/ocra300-ground-truth/tr-00091 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00378.png" -t "data/ocra300-ground-truth/tr-00378.gt.txt" > "data/ocra300-ground-truth/tr-00378.box"
+tesseract "data/ocra300-ground-truth/tr-00378.png" data/ocra300-ground-truth/tr-00378 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00681.png" -t "data/ocra300-ground-truth/tr-00681.gt.txt" > "data/ocra300-ground-truth/tr-00681.box"
+tesseract "data/ocra300-ground-truth/tr-00681.png" data/ocra300-ground-truth/tr-00681 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00288.png" -t "data/ocra300-ground-truth/tr-00288.gt.txt" > "data/ocra300-ground-truth/tr-00288.box"
+tesseract "data/ocra300-ground-truth/tr-00288.png" data/ocra300-ground-truth/tr-00288 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00733.png" -t "data/ocra300-ground-truth/tr-00733.gt.txt" > "data/ocra300-ground-truth/tr-00733.box"
+tesseract "data/ocra300-ground-truth/tr-00733.png" data/ocra300-ground-truth/tr-00733 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01081.png" -t "data/ocra300-ground-truth/tr-01081.gt.txt" > "data/ocra300-ground-truth/tr-01081.box"
+tesseract "data/ocra300-ground-truth/tr-01081.png" data/ocra300-ground-truth/tr-01081 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00800.png" -t "data/ocra300-ground-truth/tr-00800.gt.txt" > "data/ocra300-ground-truth/tr-00800.box"
+tesseract "data/ocra300-ground-truth/tr-00800.png" data/ocra300-ground-truth/tr-00800 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00597.png" -t "data/ocra300-ground-truth/tr-00597.gt.txt" > "data/ocra300-ground-truth/tr-00597.box"
+tesseract "data/ocra300-ground-truth/tr-00597.png" data/ocra300-ground-truth/tr-00597 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00868.png" -t "data/ocra300-ground-truth/tr-00868.gt.txt" > "data/ocra300-ground-truth/tr-00868.box"
+tesseract "data/ocra300-ground-truth/tr-00868.png" data/ocra300-ground-truth/tr-00868 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01219.png" -t "data/ocra300-ground-truth/tr-01219.gt.txt" > "data/ocra300-ground-truth/tr-01219.box"
+tesseract "data/ocra300-ground-truth/tr-01219.png" data/ocra300-ground-truth/tr-01219 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01671.png" -t "data/ocra300-ground-truth/tr-01671.gt.txt" > "data/ocra300-ground-truth/tr-01671.box"
+tesseract "data/ocra300-ground-truth/tr-01671.png" data/ocra300-ground-truth/tr-01671 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01541.png" -t "data/ocra300-ground-truth/tr-01541.gt.txt" > "data/ocra300-ground-truth/tr-01541.box"
+tesseract "data/ocra300-ground-truth/tr-01541.png" data/ocra300-ground-truth/tr-01541 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01697.png" -t "data/ocra300-ground-truth/tr-01697.gt.txt" > "data/ocra300-ground-truth/tr-01697.box"
+tesseract "data/ocra300-ground-truth/tr-01697.png" data/ocra300-ground-truth/tr-01697 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01755.png" -t "data/ocra300-ground-truth/tr-01755.gt.txt" > "data/ocra300-ground-truth/tr-01755.box"
+tesseract "data/ocra300-ground-truth/tr-01755.png" data/ocra300-ground-truth/tr-01755 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01276.png" -t "data/ocra300-ground-truth/tr-01276.gt.txt" > "data/ocra300-ground-truth/tr-01276.box"
+tesseract "data/ocra300-ground-truth/tr-01276.png" data/ocra300-ground-truth/tr-01276 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00978.png" -t "data/ocra300-ground-truth/tr-00978.gt.txt" > "data/ocra300-ground-truth/tr-00978.box"
+tesseract "data/ocra300-ground-truth/tr-00978.png" data/ocra300-ground-truth/tr-00978 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00998.png" -t "data/ocra300-ground-truth/tr-00998.gt.txt" > "data/ocra300-ground-truth/tr-00998.box"
+tesseract "data/ocra300-ground-truth/tr-00998.png" data/ocra300-ground-truth/tr-00998 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00857.png" -t "data/ocra300-ground-truth/tr-00857.gt.txt" > "data/ocra300-ground-truth/tr-00857.box"
+tesseract "data/ocra300-ground-truth/tr-00857.png" data/ocra300-ground-truth/tr-00857 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00172.png" -t "data/ocra300-ground-truth/tr-00172.gt.txt" > "data/ocra300-ground-truth/tr-00172.box"
+tesseract "data/ocra300-ground-truth/tr-00172.png" data/ocra300-ground-truth/tr-00172 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01357.png" -t "data/ocra300-ground-truth/tr-01357.gt.txt" > "data/ocra300-ground-truth/tr-01357.box"
+tesseract "data/ocra300-ground-truth/tr-01357.png" data/ocra300-ground-truth/tr-01357 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01487.png" -t "data/ocra300-ground-truth/tr-01487.gt.txt" > "data/ocra300-ground-truth/tr-01487.box"
+tesseract "data/ocra300-ground-truth/tr-01487.png" data/ocra300-ground-truth/tr-01487 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01606.png" -t "data/ocra300-ground-truth/tr-01606.gt.txt" > "data/ocra300-ground-truth/tr-01606.box"
+tesseract "data/ocra300-ground-truth/tr-01606.png" data/ocra300-ground-truth/tr-01606 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00153.png" -t "data/ocra300-ground-truth/tr-00153.gt.txt" > "data/ocra300-ground-truth/tr-00153.box"
+tesseract "data/ocra300-ground-truth/tr-00153.png" data/ocra300-ground-truth/tr-00153 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01646.png" -t "data/ocra300-ground-truth/tr-01646.gt.txt" > "data/ocra300-ground-truth/tr-01646.box"
+tesseract "data/ocra300-ground-truth/tr-01646.png" data/ocra300-ground-truth/tr-01646 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00790.png" -t "data/ocra300-ground-truth/tr-00790.gt.txt" > "data/ocra300-ground-truth/tr-00790.box"
+tesseract "data/ocra300-ground-truth/tr-00790.png" data/ocra300-ground-truth/tr-00790 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01520.png" -t "data/ocra300-ground-truth/tr-01520.gt.txt" > "data/ocra300-ground-truth/tr-01520.box"
+tesseract "data/ocra300-ground-truth/tr-01520.png" data/ocra300-ground-truth/tr-01520 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01468.png" -t "data/ocra300-ground-truth/tr-01468.gt.txt" > "data/ocra300-ground-truth/tr-01468.box"
+tesseract "data/ocra300-ground-truth/tr-01468.png" data/ocra300-ground-truth/tr-01468 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01451.png" -t "data/ocra300-ground-truth/tr-01451.gt.txt" > "data/ocra300-ground-truth/tr-01451.box"
+tesseract "data/ocra300-ground-truth/tr-01451.png" data/ocra300-ground-truth/tr-01451 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01682.png" -t "data/ocra300-ground-truth/tr-01682.gt.txt" > "data/ocra300-ground-truth/tr-01682.box"
+tesseract "data/ocra300-ground-truth/tr-01682.png" data/ocra300-ground-truth/tr-01682 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00159.png" -t "data/ocra300-ground-truth/tr-00159.gt.txt" > "data/ocra300-ground-truth/tr-00159.box"
+tesseract "data/ocra300-ground-truth/tr-00159.png" data/ocra300-ground-truth/tr-00159 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00838.png" -t "data/ocra300-ground-truth/tr-00838.gt.txt" > "data/ocra300-ground-truth/tr-00838.box"
+tesseract "data/ocra300-ground-truth/tr-00838.png" data/ocra300-ground-truth/tr-00838 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01395.png" -t "data/ocra300-ground-truth/tr-01395.gt.txt" > "data/ocra300-ground-truth/tr-01395.box"
+tesseract "data/ocra300-ground-truth/tr-01395.png" data/ocra300-ground-truth/tr-01395 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01128.png" -t "data/ocra300-ground-truth/tr-01128.gt.txt" > "data/ocra300-ground-truth/tr-01128.box"
+tesseract "data/ocra300-ground-truth/tr-01128.png" data/ocra300-ground-truth/tr-01128 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-00443.png" -t "data/ocra300-ground-truth/tr-00443.gt.txt" > "data/ocra300-ground-truth/tr-00443.box"
+tesseract "data/ocra300-ground-truth/tr-00443.png" data/ocra300-ground-truth/tr-00443 --psm 13 lstm.train
+PYTHONIOENCODING=utf-8 python3 generate_line_box.py -i "data/ocra300-ground-truth/tr-01275.png" -t "data/ocra300-ground-truth/tr-01275.gt.txt" > "data/ocra300-ground-truth/tr-01275.box"
+tesseract "data/ocra300-ground-truth/tr-01275.png" data/ocra300-ground-truth/tr-01275 --psm 13 lstm.train
 python3 shuffle.py 0 "data/ocra300/all-lstmf"
 python3 generate_eval_train.py data/ocra300/all-lstmf 0.90
 combine_lang_model \
