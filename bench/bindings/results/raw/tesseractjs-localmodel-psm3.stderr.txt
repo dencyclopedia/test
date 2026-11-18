@@ -17,20 +17,20 @@ Detected 21 diacritics
 Detected 46 diacritics
 Detected 26 diacritics
 	Command being timed: "node /home/runner/work/test/test/bench/bindings/node/harness.js /opt/tessdata/tessdata_fast eng 3 5 /home/runner/work/_temp/img/tiny.png /home/runner/work/_temp/img/img-01.png /home/runner/work/_temp/img/img-02.png /home/runner/work/_temp/img/img-03.png /home/runner/work/_temp/img/img-04.png /home/runner/work/_temp/img/img-05.png /home/runner/work/_temp/img/img-06.png /home/runner/work/_temp/img/img-07.png /home/runner/work/_temp/img/img-08.png /home/runner/work/_temp/img/img-09.png /home/runner/work/_temp/img/img-10.png"
-	User time (seconds): 31.91
-	System time (seconds): 0.16
+	User time (seconds): 39.21
+	System time (seconds): 0.24
 	Percent of CPU this job got: 103%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.02
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.07
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 229188
+	Maximum resident set size (kbytes): 248412
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 76450
-	Voluntary context switches: 2955
-	Involuntary context switches: 272
+	Minor (reclaiming a frame) page faults: 74814
+	Voluntary context switches: 2947
+	Involuntary context switches: 387
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 8040

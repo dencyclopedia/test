@@ -1,0 +1,180 @@
+[
+  {
+    "strategy": "pytesseract per call (loop)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 23.905,
+    "min_s": 23.832,
+    "max_s": 23.923,
+    "images_per_s": 1.255,
+    "cer_mean_first10": 0.01069,
+    "all_s": [
+      23.905,
+      23.888,
+      23.907,
+      23.832,
+      23.923
+    ]
+  },
+  {
+    "strategy": "pytesseract + multiprocessing.Pool(1)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 23.912,
+    "min_s": 23.823,
+    "max_s": 23.989,
+    "images_per_s": 1.255,
+    "cer_mean_first10": 0.01069,
+    "all_s": [
+      23.989,
+      23.983,
+      23.909,
+      23.912,
+      23.823
+    ]
+  },
+  {
+    "strategy": "pytesseract + multiprocessing.Pool(2)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 12.699,
+    "min_s": 12.691,
+    "max_s": 12.731,
+    "images_per_s": 2.362,
+    "cer_mean_first10": 0.01069,
+    "all_s": [
+      12.731,
+      12.708,
+      12.691,
+      12.692,
+      12.699
+    ]
+  },
+  {
+    "strategy": "pytesseract + multiprocessing.Pool(4)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 8.987,
+    "min_s": 8.971,
+    "max_s": 9.081,
+    "images_per_s": 3.338,
+    "cer_mean_first10": 0.01069,
+    "all_s": [
+      8.971,
+      8.974,
+      9.081,
+      8.987,
+      9.022
+    ]
+  },
+  {
+    "strategy": "tesserocr, one PyTessBaseAPI reused",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 12.441,
+    "min_s": 12.375,
+    "max_s": 12.478,
+    "images_per_s": 2.411,
+    "cer_mean_first10": 0.00861,
+    "all_s": [
+      12.464,
+      12.478,
+      12.441,
+      12.429,
+      12.375
+    ]
+  },
+  {
+    "strategy": "tesserocr, Pool(4), one API per worker",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 4.968,
+    "min_s": 4.931,
+    "max_s": 4.985,
+    "images_per_s": 6.039,
+    "cer_mean_first10": 0.00861,
+    "all_s": [
+      4.967,
+      4.968,
+      4.931,
+      4.974,
+      4.985
+    ]
+  },
+  {
+    "strategy": "pytesseract on one multi-page TIFF (single call)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 13.842,
+    "min_s": 13.823,
+    "max_s": 13.868,
+    "images_per_s": 2.167,
+    "cer_mean_first10": 0.00861,
+    "all_s": [
+      13.853,
+      13.842,
+      13.83,
+      13.823,
+      13.868
+    ]
+  },
+  {
+    "strategy": "tesseract CLI on one multi-page TIFF (single call)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 13.857,
+    "min_s": 13.83,
+    "max_s": 13.892,
+    "images_per_s": 2.165,
+    "cer_mean_first10": 0.00861,
+    "all_s": [
+      13.892,
+      13.873,
+      13.839,
+      13.857,
+      13.83
+    ]
+  },
+  {
+    "strategy": "tesseract CLI on an image list (single call)",
+    "omp_thread_limit": "1",
+    "images": 30,
+    "median_s": 14.368,
+    "min_s": 14.322,
+    "max_s": 14.395,
+    "images_per_s": 2.088,
+    "cer_mean_first10": 0.00861,
+    "all_s": [
+      14.368,
+      14.368,
+      14.344,
+      14.322,
+      14.395
+    ]
+  },
+  {
+    "strategy": "pytesseract per call (loop), OMP_THREAD_LIMIT unset",
+    "omp_thread_limit": "unset",
+    "images": 30,
+    "median_s": 24.293,
+    "min_s": 24.263,
+    "max_s": 24.443,
+    "images_per_s": 1.235,
+    "cer_mean_first10": 0.01069,
+    "all_s": [
+      24.443,
+      24.269,
+      24.3,
+      24.263,
+      24.293
+    ]
+  },
+  {
+    "strategy": "pytesseract + Pool(4), OMP_THREAD_LIMIT unset",
+    "omp_thread_limit": "unset",
+    "images": 30,
+    "status": "stopped after 600 s budget",
+    "completed_timed_runs_s": [],
+    "elapsed_s": 600.1
+  }
+]

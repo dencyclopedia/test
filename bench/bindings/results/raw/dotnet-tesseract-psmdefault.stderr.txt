@@ -17,20 +17,20 @@ Detected 21 diacritics
 Detected 46 diacritics
 Detected 26 diacritics
 	Command being timed: "/home/runner/work/test/test/bench/bindings/dotnet/bin/Release/net8.0/harness /opt/tessdata/tessdata_fast eng default 5 /home/runner/work/_temp/img/tiny.png /home/runner/work/_temp/img/img-01.png /home/runner/work/_temp/img/img-02.png /home/runner/work/_temp/img/img-03.png /home/runner/work/_temp/img/img-04.png /home/runner/work/_temp/img/img-05.png /home/runner/work/_temp/img/img-06.png /home/runner/work/_temp/img/img-07.png /home/runner/work/_temp/img/img-08.png /home/runner/work/_temp/img/img-09.png /home/runner/work/_temp/img/img-10.png"
-	User time (seconds): 21.98
-	System time (seconds): 0.31
+	User time (seconds): 28.48
+	System time (seconds): 0.76
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.34
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.44
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 93804
+	Maximum resident set size (kbytes): 93380
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 52
-	Minor (reclaiming a frame) page faults: 19534
+	Minor (reclaiming a frame) page faults: 19477
 	Voluntary context switches: 118
-	Involuntary context switches: 135
+	Involuntary context switches: 190
 	Swaps: 0
 	File system inputs: 5400
 	File system outputs: 0

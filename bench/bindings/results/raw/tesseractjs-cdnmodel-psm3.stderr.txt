@@ -17,20 +17,20 @@ Detected 21 diacritics
 Detected 46 diacritics
 Detected 26 diacritics
 	Command being timed: "node /home/runner/work/test/test/bench/bindings/node/harness.js default eng 3 5 /home/runner/work/_temp/img/tiny.png /home/runner/work/_temp/img/img-01.png /home/runner/work/_temp/img/img-02.png /home/runner/work/_temp/img/img-03.png /home/runner/work/_temp/img/img-04.png /home/runner/work/_temp/img/img-05.png /home/runner/work/_temp/img/img-06.png /home/runner/work/_temp/img/img-07.png /home/runner/work/_temp/img/img-08.png /home/runner/work/_temp/img/img-09.png /home/runner/work/_temp/img/img-10.png"
-	User time (seconds): 45.54
-	System time (seconds): 0.17
+	User time (seconds): 54.35
+	System time (seconds): 0.26
 	Percent of CPU this job got: 102%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.62
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.14
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 251128
+	Maximum resident set size (kbytes): 250364
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 82262
-	Voluntary context switches: 3203
-	Involuntary context switches: 319
+	Minor (reclaiming a frame) page faults: 83739
+	Voluntary context switches: 3067
+	Involuntary context switches: 428
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 10160
