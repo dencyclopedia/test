@@ -1,0 +1,90 @@
+name: bench-pdf
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/pdf/*.py'
+      - 'bench/pdf/*.sh'
+      - 'bench/train/build-tesseract.sh'
+      - '.github/workflows/bench-pdf.yml'
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: timed runs per measurement (after 1 warm-up)
+        default: '5'
+permissions:
+  contents: write
+concurrency:
+  group: bench-pdf
+  cancel-in-progress: true
+jobs:
+  pdf:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      RUNS: ${{ github.event.inputs.runs || '5' }}
+      TESSDATA_PREFIX: /opt/tessdata/tessdata_fast
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare engine dir
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 (with training tools) + fetch pinned models
+        run: bash bench/train/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-training-${{ runner.os }}-${{ hashFiles('bench/train/build-tesseract.sh') }}
+      - name: Install PDF tools
+        run: |
+          echo "--- preinstalled before apt (runner image):" | tee preinstalled.txt
+          for b in gs pdftoppm qpdf pngquant jbig2 pdfsandwich unpaper convert tesseract; do printf '%s: %s\n' "$b" "$(command -v $b || echo MISSING)"; done | tee -a preinstalled.txt
+          sudo apt-get install -y -qq --no-install-recommends poppler-utils qpdf ghostscript pngquant jbig2 pdfsandwich unpaper imagemagick fonts-liberation fonts-dejavu-core >/dev/null
+          python3 -m venv ~/venv
+          ~/venv/bin/pip install -q ocrmypdf pdf2image pytesseract pypdf pdfplumber img2pdf numpy pillow
+          echo "$HOME/venv/bin" >> "$GITHUB_PATH"
+          echo "/opt/tess554/bin" >> "$GITHUB_PATH"
+      - name: Build synthetic 20-page scan
+        run: python bench/pdf/make_pdf.py "$RUNNER_TEMP/pdf" 20
+      - name: Error captures (verbatim)
+        run: bash bench/pdf/capture_errors.sh "$RUNNER_TEMP/pdf" bench/pdf/results/errors
+      - name: Methods (OCRmyPDF, CLI, textonly, pdf2image, pdfsandwich)
+        run: python bench/pdf/run_pdf.py "$RUNNER_TEMP/pdf" bench/pdf/results --runs "$RUNS" --part methods
+      - name: OCRmyPDF --optimize levels
+        run: python bench/pdf/run_pdf.py "$RUNNER_TEMP/pdf" bench/pdf/results --runs "$RUNS" --part optimize
+      - name: DPI sweeps
+        run: |
+          python bench/pdf/run_pdf.py "$RUNNER_TEMP/pdf" bench/pdf/results --runs "$RUNS" --part dpi
+          python bench/pdf/run_pdf.py "$RUNNER_TEMP/pdf" bench/pdf/results --runs "$RUNS" --part native
+      - name: meta.json + tool versions
+        if: always()
+        run: |
+          mkdir -p bench/pdf/results
+          {
+            cat preinstalled.txt
+            echo "--- versions"
+            tesseract --version 2>&1 | head -1; ocrmypdf --version; pdftoppm -v 2>&1 | head -1; gs --version
+            qpdf --version | head -1; pngquant --version; jbig2 --version 2>&1 | head -1
+            dpkg-query -W pdfsandwich unpaper imagemagick poppler-utils ghostscript qpdf pngquant jbig2 tesseract-ocr 2>/dev/null
+            ~/venv/bin/pip freeze
+          } > bench/pdf/results/tool-versions.txt 2>&1
+          python bench/train/meta.py bench/pdf/results/meta.json \
+            input='"synthetic: 20 A4 pages, Pride and Prejudice ch.1-12 rendered with Liberation Serif 11pt at 300 DPI, seeded scan degradation, JPEG q75, img2pdf"' \
+            model='"eng from tessdata_fast (TESSDATA_PREFIX=/opt/tessdata/tessdata_fast)"' \
+            omp_thread_limit='"1 for every command (OCRmyPDF still runs pages in parallel with its default -j)"' \
+            runs="$RUNS"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/pdf/results
+          git commit -q -m "bench/pdf: results from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done

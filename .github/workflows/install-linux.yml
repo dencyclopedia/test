@@ -1,6 +1,6 @@
 name: install-linux
 # Clean-container installs of Tesseract on common Linux distributions, recorded as asciicast
-# transcripts, plus a survey of popular third-party Docker images.
+# transcripts, plus a survey of popular third-party Docker images. (rev 2)
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]

@@ -6,12 +6,12 @@ F="$1"
 OUT=/out
 HOSTN="$F"
 printf 'step\tseconds\texit\tcommand\n' > $OUT/steps.tsv
-now() { cut -d' ' -f1 /proc/uptime; }
+now() { cut -d' ' -f1 /proc/uptime | tr -d .; }   # centiseconds
 step() {  # step NAME COMMAND...
   name="$1"; shift
   printf '\033[1;32mroot@%s\033[0m:\033[1;34m/\033[0m# %s\n' "$HOSTN" "$*"
   s=$(now); sh -c "$*"; rc=$?; e=$(now)
-  printf '%s\t%s\t%s\t%s\n' "$name" "$(awk -v a="$s" -v b="$e" 'BEGIN{printf "%.2f", b-a}')" "$rc" "$*" >> $OUT/steps.tsv
+  printf '%s\t%s\t%s\t%s\n' "$name" "$(( (e-s)/100 )).$(printf '%02d' $(( (e-s)%100 )))" "$rc" "$*" >> $OUT/steps.tsv
   return $rc
 }
 rootkb() { du -skx / 2>/dev/null | cut -f1; }
@@ -68,6 +68,9 @@ case "$F" in
   alpine)
     step update "apk update"
     step install "apk add tesseract-ocr"
+    step langs-after-base "tesseract --list-langs"
+    step ocr-after-base "tesseract /samples/receipt.png -"
+    step install-eng "apk add tesseract-ocr-data-eng"
     step pkgs "apk info -vv 2>/dev/null | grep -Ei 'tesseract|lept'"
     step info "apk info -s tesseract-ocr tesseract-ocr-data-eng tesseract-ocr-data-osd leptonica 2>/dev/null"
     step langs-search "apk search -q 'tesseract-ocr-data-*' | sort"
@@ -99,7 +102,7 @@ step version "tesseract --version"
 step list-langs "tesseract --list-langs"
 step ocr "tesseract /samples/receipt.png -"
 TD=$(tesseract --list-langs 2>&1 | head -1 | sed -n 's/.*"\(.*\)".*/\1/p')
-step where "command -v tesseract; ls -la '$TD'; du -sh '$TD'"
+if [ -n "$TD" ]; then step where "command -v tesseract; ls -la '$TD'; du -sh '$TD'"; else step where "command -v tesseract"; fi
 # real error captures (missing language, wrong tessdata dir)
 step err-lang "tesseract /samples/receipt.png - -l xyz"
 step err-tessdata "tesseract /samples/receipt.png - --tessdata-dir /nonexistent"
