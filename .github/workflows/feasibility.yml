@@ -41,7 +41,9 @@ jobs:
           (& "$dir\tesseract.exe" samples\receipt.png - 2>&1 | Out-String) | Tee-Object -Append $log
           (cmd /c "tesseract --version" 2>&1 | Out-String) | Tee-Object -Append "$out/not-recognized-check.txt"
           Start-Process cmd -ArgumentList '/k "C:\Program Files\Tesseract-OCR\tesseract.exe" --version' ; Start-Sleep 4; Shot "cmd-version" | Tee-Object -Append $log
+          $global:LASTEXITCODE = 0
       - uses: actions/upload-artifact@v4
+        if: always()
         with: { name: windows, path: results/feasibility/windows }
   macos:
     runs-on: macos-latest
