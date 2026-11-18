@@ -1,0 +1,126 @@
+[
+  {
+    "optimize": 0,
+    "command": "ocrmypdf --optimize 0 -l eng in.pdf out.pdf",
+    "rc": 0,
+    "stderr_tail": "Starting processing with 4 workers concurrently\n    4 [tesseract] lots of diacritics - possibly poor OCR\n   15 [tesseract] lots of diacritics - possibly poor OCR\nParsing 20 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.00 savings: 0.0%\nTotal file size ratio: 0.99 savings: -0.6%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "median_s": 21.761,
+    "min_s": 21.677,
+    "max_s": 21.845,
+    "runs": 5,
+    "all_s": [
+      21.769,
+      21.699,
+      21.845,
+      21.761,
+      21.677
+    ],
+    "output_bytes": 20687788,
+    "size_ratio": 1.006,
+    "cer_doc": 0.00135,
+    "wer_doc": 0.00813,
+    "cer_page_mean": 0.00141,
+    "cer_page_max": 0.00365,
+    "pdf_pages": "20",
+    "pdf_page_size": "595.44 x 841.68 pts (A4)",
+    "pdf_producer": "pikepdf 10.18.2",
+    "pdf_pdf_version": "1.5",
+    "pdf_image_encodings": [
+      "jpeg"
+    ],
+    "pdf_images": 20
+  },
+  {
+    "optimize": 1,
+    "command": "ocrmypdf --optimize 1 -l eng in.pdf out.pdf",
+    "rc": 0,
+    "stderr_tail": "Starting processing with 4 workers concurrently\n    4 [tesseract] lots of diacritics - possibly poor OCR\n   15 [tesseract] lots of diacritics - possibly poor OCR\nParsing 20 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.01 savings: 1.1%\nTotal file size ratio: 1.01 savings: 0.5%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "median_s": 22.213,
+    "min_s": 22.202,
+    "max_s": 22.244,
+    "runs": 5,
+    "all_s": [
+      22.244,
+      22.202,
+      22.22,
+      22.202,
+      22.213
+    ],
+    "output_bytes": 20453726,
+    "size_ratio": 0.995,
+    "cer_doc": 0.00135,
+    "wer_doc": 0.00813,
+    "cer_page_mean": 0.00141,
+    "cer_page_max": 0.00365,
+    "pdf_pages": "20",
+    "pdf_page_size": "595.44 x 841.68 pts (A4)",
+    "pdf_producer": "pikepdf 10.18.2",
+    "pdf_pdf_version": "1.5",
+    "pdf_image_encodings": [
+      "jpeg"
+    ],
+    "pdf_images": 20
+  },
+  {
+    "optimize": 2,
+    "command": "ocrmypdf --optimize 2 -l eng in.pdf out.pdf",
+    "rc": 0,
+    "stderr_tail": "Starting processing with 4 workers concurrently\n    4 [tesseract] lots of diacritics - possibly poor OCR\n   15 [tesseract] lots of diacritics - possibly poor OCR\nParsing 20 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.06 savings: 5.4%\nTotal file size ratio: 1.05 savings: 4.9%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "median_s": 22.452,
+    "min_s": 22.331,
+    "max_s": 22.524,
+    "runs": 5,
+    "all_s": [
+      22.467,
+      22.524,
+      22.405,
+      22.331,
+      22.452
+    ],
+    "output_bytes": 19558444,
+    "size_ratio": 0.951,
+    "cer_doc": 0.00135,
+    "wer_doc": 0.00813,
+    "cer_page_mean": 0.00141,
+    "cer_page_max": 0.00365,
+    "pdf_pages": "20",
+    "pdf_page_size": "595.44 x 841.68 pts (A4)",
+    "pdf_producer": "pikepdf 10.18.2",
+    "pdf_pdf_version": "1.5",
+    "pdf_image_encodings": [
+      "jpeg"
+    ],
+    "pdf_images": 20
+  },
+  {
+    "optimize": 3,
+    "command": "ocrmypdf --optimize 3 -l eng in.pdf out.pdf",
+    "rc": 0,
+    "stderr_tail": "Starting processing with 4 workers concurrently\n    4 [tesseract] lots of diacritics - possibly poor OCR\n   15 [tesseract] lots of diacritics - possibly poor OCR\nParsing 20 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 2.64 savings: 62.1%\nTotal file size ratio: 2.63 savings: 61.9%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "median_s": 22.077,
+    "min_s": 21.981,
+    "max_s": 22.202,
+    "runs": 5,
+    "all_s": [
+      22.202,
+      21.981,
+      22.022,
+      22.077,
+      22.185
+    ],
+    "output_bytes": 7834315,
+    "size_ratio": 0.381,
+    "cer_doc": 0.00135,
+    "wer_doc": 0.00813,
+    "cer_page_mean": 0.00141,
+    "cer_page_max": 0.00365,
+    "pdf_pages": "20",
+    "pdf_page_size": "595.44 x 841.68 pts (A4)",
+    "pdf_producer": "pikepdf 10.18.2",
+    "pdf_pdf_version": "1.5",
+    "pdf_image_encodings": [
+      "jpeg"
+    ],
+    "pdf_images": 20
+  }
+]

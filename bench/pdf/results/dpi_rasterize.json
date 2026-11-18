@@ -1,0 +1,112 @@
+[
+  {
+    "rasterize_dpi": 150,
+    "pages": 5,
+    "source": "300-DPI JPEG scan, re-rasterised with pdftoppm",
+    "ocr_s_per_page_median": 1.16,
+    "median_s": 5.798,
+    "min_s": 5.79,
+    "max_s": 5.809,
+    "runs": 5,
+    "all_s": [
+      5.8,
+      5.798,
+      5.79,
+      5.792,
+      5.809
+    ],
+    "png_bytes_total": 8782139,
+    "output_pdf_bytes": 8798772,
+    "cer": 0.00092,
+    "wer": 0.00501,
+    "cer_text_layer": 0.00099
+  },
+  {
+    "rasterize_dpi": 200,
+    "pages": 5,
+    "source": "300-DPI JPEG scan, re-rasterised with pdftoppm",
+    "ocr_s_per_page_median": 1.406,
+    "median_s": 7.031,
+    "min_s": 6.997,
+    "max_s": 7.062,
+    "runs": 5,
+    "all_s": [
+      6.997,
+      7.001,
+      7.031,
+      7.062,
+      7.051
+    ],
+    "png_bytes_total": 15017631,
+    "output_pdf_bytes": 15025047,
+    "cer": 0.00156,
+    "wer": 0.00771,
+    "cer_text_layer": 0.00149
+  },
+  {
+    "rasterize_dpi": 300,
+    "pages": 5,
+    "source": "300-DPI JPEG scan, re-rasterised with pdftoppm",
+    "ocr_s_per_page_median": 1.992,
+    "median_s": 9.96,
+    "min_s": 9.939,
+    "max_s": 10.016,
+    "runs": 5,
+    "all_s": [
+      9.96,
+      10.016,
+      9.992,
+      9.939,
+      9.942
+    ],
+    "png_bytes_total": 26885265,
+    "output_pdf_bytes": 26875986,
+    "cer": 0.00156,
+    "wer": 0.00694,
+    "cer_text_layer": 0.00156
+  },
+  {
+    "rasterize_dpi": 400,
+    "pages": 5,
+    "source": "300-DPI JPEG scan, re-rasterised with pdftoppm",
+    "ocr_s_per_page_median": 2.716,
+    "median_s": 13.582,
+    "min_s": 13.552,
+    "max_s": 13.61,
+    "runs": 5,
+    "all_s": [
+      13.604,
+      13.552,
+      13.582,
+      13.561,
+      13.61
+    ],
+    "png_bytes_total": 40493350,
+    "output_pdf_bytes": 40464973,
+    "cer": 0.00191,
+    "wer": 0.00848,
+    "cer_text_layer": 0.00205
+  },
+  {
+    "rasterize_dpi": 600,
+    "pages": 5,
+    "source": "300-DPI JPEG scan, re-rasterised with pdftoppm",
+    "ocr_s_per_page_median": 4.631,
+    "median_s": 23.156,
+    "min_s": 22.912,
+    "max_s": 23.183,
+    "runs": 5,
+    "all_s": [
+      22.912,
+      23.183,
+      23.156,
+      23.162,
+      23.027
+    ],
+    "png_bytes_total": 66439293,
+    "output_pdf_bytes": 66373266,
+    "cer": 0.00219,
+    "wer": 0.00886,
+    "cer_text_layer": 0.00248
+  }
+]
