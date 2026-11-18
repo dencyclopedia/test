@@ -53,7 +53,7 @@ python3 -c "import glob,random; f=sorted(glob.glob('gt-train/*.png')); random.Ra
 evaluate() {  # evaluate MODELDIR LANG LABEL -> appends to heldout.jsonl
   python3 "$HERE/eval_heldout.py" "$W/gt-heldout" "$1" "$2" "$3" >> "$RES/heldout.jsonl"
 }
-rm -f "$RES/heldout.jsonl"
+rm -f "$RES/heldout.jsonl" "$RES/training_time.jsonl"
 evaluate /opt/tessdata/tessdata_best eng "base eng tessdata_best"
 evaluate /opt/tessdata/tessdata_fast eng "base eng tessdata_fast"
 
@@ -70,13 +70,18 @@ for N in $SIZES; do
   t1=$(date +%s.%N)
   cp "tesstrain/data/$M/training.log" "$RES/logs/$M.training.log" 2>/dev/null || true
   (cd tesstrain && make traineddata MODEL_NAME=$M START_MODEL=eng TESSDATA=$BEST) > "$RES/logs/$M.traineddata.log" 2>&1
-  python3 - "$N" "$t0" "$t1" "$ITER" >> "$RES/training_time.jsonl" <<'EOF'
-import json, sys; n, t0, t1, it = sys.argv[1:]
-print(json.dumps({"lines": int(n), "max_iterations": int(it), "wall_s": round(float(t1) - float(t0), 1)}))
+  python3 - "$N" "$t0" "$t1" "$ITER" "$RES/logs/$M.training.log" >> "$RES/training_time.jsonl" <<'EOF'
+import json, re, sys; n, t0, t1, it, log = sys.argv[1:]
+txt = open(log).read()
+last = re.findall(r"At iteration (\d+)/(\d+)/(\d+)", txt)
+fin = re.findall(r"Finished! .*", txt)
+print(json.dumps({"lines": int(n), "max_iterations": int(it), "wall_s_make_training": round(float(t1) - float(t0), 1),
+                  "last_iteration_learning_training_sample": [int(x) for x in last[-1]] if last else None,
+                  "finished_line": fin[-1] if fin else None}))
 EOF
   # final model + every checkpoint written as 'best' (CER vs iteration)
   mkdir -p "final-$M"; cp "tesstrain/data/$M.traineddata" "final-$M/$M.traineddata"
-  evaluate "$W/final-$M" "$M" "fine-tuned $N lines, final ($ITER iterations)"
+  evaluate "$W/final-$M" "$M" "fine-tuned $N lines, final model (data/$M.traineddata)"
   for td in tesstrain/data/$M/tessdata_best/*.traineddata; do
     lang=$(basename "$td" .traineddata); evaluate "$W/tesstrain/data/$M/tessdata_best" "$lang" "checkpoint $N lines"
   done
