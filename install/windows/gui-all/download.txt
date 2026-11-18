@@ -1,0 +1,9 @@
+wiki installer link: https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+file: tesseract-ocr-w64-setup-5.5.3.20260724.exe
+bytes: 26573224
+sha256: bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4
+download seconds (runner network): 0.5
+authenticode: UnknownError signer: CN=Universität Mannheim, O=Universität Mannheim, S=Baden-Württemberg, C=DE timestamp: CN=PN: Zeitstempel 2026, O=DFN-CERT Services GmbH, L=Hamburg, S=Hamburg, C=DE
+file version: 2026-07-24-22-07-15 product: Tesseract-OCR 5.5.3.20260724 company: Open Source Community
+manifest: requestedExecutionLevel level="highestAvailable" uiAccess="false"/>
+where tesseract before: INFO: Could not find files for the given pattern(s).

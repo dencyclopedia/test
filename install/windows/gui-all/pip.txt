@@ -1,0 +1,10 @@
+
+
+Name: pywinauto
+Version: 0.6.9
+Name: pytesseract
+Version: 0.3.13
+Name: pillow
+Version: 13.0.0
+
+

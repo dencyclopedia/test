@@ -1,0 +1,12 @@
+{
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "version": "10.0.26100",
+  "build": "26100",
+  "cpu": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "cores": 4,
+  "runner_image": "win25-vs2026 20261103.298.1",
+  "screen": "1024x768",
+  "date_utc": "2026-11-18T06:57:39Z",
+  "run": "https://github.com/dencyclopedia/test/actions/runs/44255158751",
+  "git_sha": "41ffb4156075483f5e25f6652c63633b36a3f825"
+}
