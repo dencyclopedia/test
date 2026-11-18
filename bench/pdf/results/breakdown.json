@@ -1,0 +1,194 @@
+[
+  {
+    "raster_format": "png",
+    "tesseract_output": "txt",
+    "pages": 20,
+    "raster_bytes_total": 109337725,
+    "pdftoppm": {
+      "median_s": 287.995,
+      "min_s": 287.84,
+      "max_s": 288.438,
+      "runs": 5,
+      "all_s": [
+        287.995,
+        287.952,
+        288.438,
+        287.84,
+        288.011
+      ]
+    },
+    "tesseract": {
+      "median_s": 53.022,
+      "min_s": 52.946,
+      "max_s": 53.06,
+      "runs": 5,
+      "all_s": [
+        52.946,
+        53.022,
+        53.054,
+        52.976,
+        53.06
+      ]
+    }
+  },
+  {
+    "raster_format": "png",
+    "tesseract_output": "pdf",
+    "pages": 20,
+    "raster_bytes_total": 109337725,
+    "pdftoppm": {
+      "median_s": 287.995,
+      "min_s": 287.84,
+      "max_s": 288.438,
+      "runs": 5,
+      "all_s": [
+        287.995,
+        287.952,
+        288.438,
+        287.84,
+        288.011
+      ]
+    },
+    "tesseract": {
+      "median_s": 53.792,
+      "min_s": 53.699,
+      "max_s": 53.925,
+      "runs": 5,
+      "all_s": [
+        53.925,
+        53.88,
+        53.74,
+        53.792,
+        53.699
+      ]
+    }
+  },
+  {
+    "raster_format": "png",
+    "tesseract_output": "-c textonly_pdf=1 pdf",
+    "pages": 20,
+    "raster_bytes_total": 109337725,
+    "pdftoppm": {
+      "median_s": 287.995,
+      "min_s": 287.84,
+      "max_s": 288.438,
+      "runs": 5,
+      "all_s": [
+        287.995,
+        287.952,
+        288.438,
+        287.84,
+        288.011
+      ]
+    },
+    "tesseract": {
+      "median_s": 53.732,
+      "min_s": 53.652,
+      "max_s": 54.369,
+      "runs": 5,
+      "all_s": [
+        53.652,
+        53.659,
+        53.732,
+        54.105,
+        54.369
+      ]
+    }
+  },
+  {
+    "raster_format": "jpeg",
+    "tesseract_output": "txt",
+    "pages": 20,
+    "raster_bytes_total": 19543242,
+    "pdftoppm": {
+      "median_s": 4.94,
+      "min_s": 4.91,
+      "max_s": 5.014,
+      "runs": 5,
+      "all_s": [
+        4.933,
+        4.94,
+        4.91,
+        4.988,
+        5.014
+      ]
+    },
+    "tesseract": {
+      "median_s": 51.034,
+      "min_s": 50.766,
+      "max_s": 51.436,
+      "runs": 5,
+      "all_s": [
+        51.044,
+        51.436,
+        51.034,
+        50.867,
+        50.766
+      ]
+    }
+  },
+  {
+    "raster_format": "jpeg",
+    "tesseract_output": "pdf",
+    "pages": 20,
+    "raster_bytes_total": 19543242,
+    "pdftoppm": {
+      "median_s": 4.94,
+      "min_s": 4.91,
+      "max_s": 5.014,
+      "runs": 5,
+      "all_s": [
+        4.933,
+        4.94,
+        4.91,
+        4.988,
+        5.014
+      ]
+    },
+    "tesseract": {
+      "median_s": 51.574,
+      "min_s": 51.536,
+      "max_s": 51.652,
+      "runs": 5,
+      "all_s": [
+        51.536,
+        51.652,
+        51.539,
+        51.574,
+        51.581
+      ]
+    }
+  },
+  {
+    "raster_format": "jpeg",
+    "tesseract_output": "-c textonly_pdf=1 pdf",
+    "pages": 20,
+    "raster_bytes_total": 19543242,
+    "pdftoppm": {
+      "median_s": 4.94,
+      "min_s": 4.91,
+      "max_s": 5.014,
+      "runs": 5,
+      "all_s": [
+        4.933,
+        4.94,
+        4.91,
+        4.988,
+        5.014
+      ]
+    },
+    "tesseract": {
+      "median_s": 51.599,
+      "min_s": 51.493,
+      "max_s": 51.669,
+      "runs": 5,
+      "all_s": [
+        51.636,
+        51.669,
+        51.599,
+        51.597,
+        51.493
+      ]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+$ tesseract one.png t1 textonly_pdf ; ls t1.*
+# exit code: 0
+--- stdout ---
+t1.txt
+--- stderr ---
+read_params_file: Can't open textonly_pdf

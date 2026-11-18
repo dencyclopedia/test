@@ -1,0 +1,7 @@
+$ tesseract one.png t2 -c textonly_pdf=1 pdf ; ls -la t2.* ; pdfimages -list t2.pdf
+# exit code: 0
+--- stdout ---
+-rw-r--r-- 1 runner runner 7258 Nov 18 12:25 t2.pdf
+page   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio
+--------------------------------------------------------------------------------------------
+--- stderr ---

@@ -1,0 +1,21 @@
+$ ocrmypdf --optimize 3 -l eng one.pdf min-o3.pdf
+# env PATH=/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin
+# exit code: 3
+--- stdout ---
+--- stderr ---
+
+The program 'pngquant' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--optimize {2,3} arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install pngquant
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install pngquant
+
+Could not find program 'pngquant' on the PATH

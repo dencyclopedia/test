@@ -1,0 +1,7 @@
+$ tesseract one.pdf out
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error in pixReadStream: Pdf reading is not supported
+Error in pixRead: pix not read
+Error during processing.

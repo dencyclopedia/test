@@ -1,0 +1,5 @@
+$ pdftoppm -r 300 -png enc.pdf encpg
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Command Line Error: Incorrect password

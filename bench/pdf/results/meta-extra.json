@@ -1,0 +1,24 @@
+{
+  "date_utc": "2026-11-18T13:27:19+00:00",
+  "runner": "github-actions",
+  "runner_image": "ubuntu24 20261111.370.1",
+  "os": "Ubuntu 24.04.5 LTS",
+  "kernel": "7.0.0-1017-azure",
+  "cpu_model": "AMD EPYC 7763 64-Core Processor",
+  "cpu_cores_logical": 4,
+  "mem_total": "15Gi",
+  "engine": "tesseract 5.5.4 |  leptonica-1.82.0",
+  "engine_path": "/opt/tess554/bin/tesseract",
+  "models": {
+    "tessdata_fast": "87416418657359cb625c412a48b6e1d6d41c29bd",
+    "tessdata": "ced78752cc61322fb554c280d13360b35b8684e4",
+    "tessdata_best": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  },
+  "git_sha": "6547b29143ea50b0075ea9c8f3d6d512af345296",
+  "run_url": "https://github.com/dencyclopedia/test/actions/runs/44303395469",
+  "python": "3.12.3",
+  "input": "synthetic: 20 A4 pages, Pride and Prejudice ch.1-12 rendered with Liberation Serif 11pt at 300 DPI, seeded scan degradation, JPEG q75, img2pdf",
+  "model": "eng from tessdata_fast (TESSDATA_PREFIX=/opt/tessdata/tessdata_fast)",
+  "omp_thread_limit": "1 for every command (OCRmyPDF still runs pages in parallel with its default -j)",
+  "runs": 5
+}

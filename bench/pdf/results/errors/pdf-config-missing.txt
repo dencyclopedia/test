@@ -1,0 +1,6 @@
+$ tesseract one.png t3 --tessdata-dir /home/runner/work/_temp/pdf/bare pdf ; ls t3.*
+# exit code: 0
+--- stdout ---
+t3.txt
+--- stderr ---
+read_params_file: Can't open pdf

@@ -1,0 +1,5 @@
+$ ocrmypdf -l eng ocred.pdf again.pdf
+# exit code: 6
+--- stdout ---
+--- stderr ---
+PriorOcrFoundError: page 1 already has text! - aborting (use --force-ocr or --mode force to force OCR; see also help for --skip-text, --redo-ocr, and --mode)

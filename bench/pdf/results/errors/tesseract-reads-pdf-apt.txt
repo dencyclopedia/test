@@ -1,0 +1,8 @@
+$ /usr/bin/tesseract --version 2>&1 | head -1; /usr/bin/tesseract one.pdf out
+# exit code: 1
+--- stdout ---
+tesseract 5.5.4
+--- stderr ---
+Error in pixReadStream: Pdf reading is not supported
+Error in pixRead: pix not read
+Error during processing.

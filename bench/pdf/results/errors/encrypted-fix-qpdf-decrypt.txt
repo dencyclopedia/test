@@ -1,0 +1,7 @@
+$ qpdf --password=secret --decrypt enc.pdf dec.pdf && ocrmypdf -q -l eng dec.pdf dec-out.pdf && pdftotext dec-out.pdf - | head -3
+# exit code: 0
+--- stdout ---
+Chapter 1
+
+It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in
+--- stderr ---

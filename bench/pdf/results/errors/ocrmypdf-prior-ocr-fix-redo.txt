@@ -1,0 +1,11 @@
+$ ocrmypdf --redo-ocr -l eng ocred.pdf again3.pdf
+# exit code: 0
+--- stdout ---
+--- stderr ---
+    1 redoing OCR
+Parsing 1 pages with HocrParser
+Postprocessing...
+Speculative PDF/A conversion succeeded - skipping Ghostscript
+Image optimization ratio: 1.00 savings: 0.0%
+Total file size ratio: 1.00 savings: -0.0%
+Output file is a PDF/A-2b (auto mode achieved PDF/A)

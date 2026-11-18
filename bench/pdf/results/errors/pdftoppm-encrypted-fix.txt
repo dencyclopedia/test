@@ -1,0 +1,5 @@
+$ pdftoppm -upw secret -r 300 -png enc.pdf encpg ; ls encpg*
+# exit code: 0
+--- stdout ---
+encpg-1.png
+--- stderr ---

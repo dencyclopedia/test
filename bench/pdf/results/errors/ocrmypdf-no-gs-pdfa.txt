@@ -1,0 +1,19 @@
+$ ocrmypdf --output-type pdfa -l eng one.pdf min-pdfa.pdf
+# env PATH=/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin
+# exit code: 3
+--- stdout ---
+--- stderr ---
+
+The program 'gs' could not be executed or was not found on your
+system PATH.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install ghostscript
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install ghostscript
+
+Could not find program 'gs' on the PATH

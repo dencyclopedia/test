@@ -1,0 +1,13 @@
+$ ocrmypdf -l eng enc.pdf enc-out.pdf
+# exit code: 8
+--- stdout ---
+--- stderr ---
+EncryptedPdfError: Input PDF is encrypted. The encryption must be removed to
+perform OCR.
+
+For information about this PDF's security use
+    qpdf --show-encryption infilename
+
+You can remove the encryption using
+    qpdf --decrypt [--password=[password]] infilename
+

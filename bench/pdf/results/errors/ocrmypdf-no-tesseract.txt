@@ -1,0 +1,19 @@
+$ ocrmypdf -l eng one.pdf none.pdf
+# env PATH=/home/runner/venv/bin
+# exit code: 3
+--- stdout ---
+--- stderr ---
+
+The program 'tesseract' could not be executed or was not found on your
+system PATH.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install tesseract-ocr
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install tesseract-ocr
+
+Could not find program 'tesseract' on the PATH

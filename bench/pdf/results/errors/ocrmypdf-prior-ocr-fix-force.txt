@@ -1,0 +1,11 @@
+$ ocrmypdf --force-ocr -l eng ocred.pdf again2.pdf
+# exit code: 0
+--- stdout ---
+--- stderr ---
+    1 page already has text! - rasterizing text and running OCR anyway
+Parsing 1 pages with HocrParser
+Postprocessing...
+Speculative PDF/A conversion succeeded - skipping Ghostscript
+Image optimization ratio: 1.02 savings: 1.6%
+Total file size ratio: 1.03 savings: 2.5%
+Output file is a PDF/A-2b (auto mode achieved PDF/A)

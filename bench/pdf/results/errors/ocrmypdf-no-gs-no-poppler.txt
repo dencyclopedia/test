@@ -1,0 +1,15 @@
+$ ocrmypdf -l eng one.pdf min.pdf && /usr/bin/pdffonts min.pdf
+# env PATH=/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin
+# exit code: 0
+--- stdout ---
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+MPDFAA+NotoSans                      CID TrueType      Identity-H       yes yes yes      6  0
+--- stderr ---
+Parsing 1 pages with HocrParser
+Postprocessing...
+Speculative PDF/A conversion succeeded - skipping Ghostscript
+xref 13: this image could not be processed by the optimizer and was left unchanged. The output file is still valid.
+Image optimization ratio: 1.02 savings: 1.6%
+Total file size ratio: 1.00 savings: 0.2%
+Output file is a PDF/A-2b (auto mode achieved PDF/A)

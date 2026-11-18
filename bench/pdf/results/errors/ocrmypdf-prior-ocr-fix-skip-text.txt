@@ -1,0 +1,10 @@
+$ ocrmypdf --skip-text -l eng ocred.pdf again.pdf
+# exit code: 0
+--- stdout ---
+--- stderr ---
+    1 skipping all processing on this page
+Postprocessing...
+Speculative PDF/A conversion succeeded - skipping Ghostscript
+Image optimization ratio: 1.00 savings: 0.0%
+Total file size ratio: 1.00 savings: 0.0%
+Output file is a PDF/A-2b (auto mode achieved PDF/A)
