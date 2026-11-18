@@ -1,0 +1,12 @@
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % tesseract samples/receipt.png - -l fra
+Error opening data file /opt/homebrew/share/tessdata/fra.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'fra'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % tesseract samples/receipt.png - -l xyz
+Error opening data file /opt/homebrew/share/tessdata/xyz.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'xyz'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.

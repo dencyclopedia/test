@@ -1,0 +1,7 @@
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % tesseract samples/receipt.png - -l eng+fra | head -5
+Estimating resolution as 246
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
+Sourdough loaf 3.80

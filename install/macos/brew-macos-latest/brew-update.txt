@@ -1,0 +1,159 @@
+[34m==>[0m [1mUpdating Homebrew...[0m
+[34m==>[0m [1mHomebrew's analytics have entirely moved to our InfluxDB instance in the EU.[0m
+We gather less data than before and have destroyed all Google Analytics data:
+  [4mhttps://docs.brew.sh/Analytics[24m[0m
+Please reconsider re-enabling analytics to help our volunteer maintainers with:
+  brew analytics on
+[34m==>[0m [1mHomebrew is run entirely by unpaid volunteers. Please consider donating:[0m
+  [4mhttps://github.com/Homebrew/brew#-donations[24m
+
+Updated 5 taps (aws/tap, azure/bicep, hashicorp/tap, homebrew/core and homebrew/cask).
+[34m==>[0m [1mNew Formulae[0m
+abtop: Terminal monitor for AI coding agent sessions
+agent-desktop: Native desktop automation CLI for AI agents
+beszel-agent: Agent for the Beszel lightweight server monitoring platform
+csound-plugins: Additional opcodes for Csound
+curl-impersonate: Curl build that makes HTTP requests look like they came from a real browser
+designcraft-cli: Headless DesignCraft CLI and MCP server to script, export and validate layouts
+dotnet@10: .NET Core
+drydock: Dashboard for a fleet of Git repositories
+emeraldian: Terminal UI for Obsidian vaults, with a graph and an assistant
+engram: Persistent memory system for AI coding agents
+gam: Command-line management for Google Workspace
+globus-cli: Command-line interface to Globus
+goda: Go dependency analysis toolkit
+godu: Simple golang utility helping to discover large files/folders
+goose-lang: Systems programming language with flat, pointer-free data structures
+gridcraft-cli: Headless GridCraft CLI and MCP server to inspect, convert and script workbooks
+knife: Reverse engineering toolkit for PE, ELF, and Mach-O binaries
+krunkit: CLI tool to start VMs with libkrun
+libgovirt: GObject-based library to access oVirt REST API
+libkrun: Dynamic library providing KVM-based process isolation capabilities
+libpkl: C library calling into Pkl's message passing API
+lightcraft-cli: Headless LightCraft CLI and MCP server to develop and export photos
+llamastash: Terminal-native local LLM orchestrator and proxy
+lsoff: List listening TCP and UDP ports
+mdspan: Reference implementation of mdspan targeting C++23
+muvm: Run programs from your system in a microVM
+nelm@1: Kubernetes deployment tool that manages and deploys Helm Charts
+netbird: Securely connects across any network with one identity-based platform
+otel-tui: Terminal OpenTelemetry viewer
+percona-xtrabackup@8.4: Open source hot backup tool for InnoDB and XtraDB databases
+rea: Reverse engineering CLI and MCP server for agents
+safe-chain: Malware protection for npm, yarn, pnpm, pip, uv and other package managers
+sbom-tools: SBOM multi-tool: diff, quality, compliance, vulnerability tracking, VEXes, etc.
+sping: Real-time connectivity monitor with network diagnostics
+sqlmux: Terminal database client with tmux-style panes and Vim keybindings
+ssh-tpm-agent: SSH agent for Trusted Platform Module (TPM) key storage
+strobealign: Fast short-read aligner using dynamic seed size with strobemers
+tennis: Print stylish CSV tables in your terminal
+tidemail: TUI email client, supports IMAP, Gmail & Outlook OAuth
+upmd: Run tasks and dependency-aware workflows from Markdown
+uutils-grep: Cross-platform Rust rewrite of GNU grep
+uutils-sed: Cross-platform Rust rewrite of GNU sed
+vectorcraft-cli: Headless VectorCraft CLI and MCP server to convert, inspect and script artwork
+wordcraft-cli: Headless WordCraft CLI and MCP server to convert, inspect and script documents
+ziggy: Data serialization language for expressing clear API messages, config files, etc
+[34m==>[0m [1mNew Casks[0m
+agent-orchestrator: Supervisor for coding agents running in parallel Git worktrees
+ardia: Chromium-based web browser with a vertical tab sidebar
+audioroute: System and per-app audio capture tool
+beat-link-trigger: Event trigger and show automation tool for Pioneer CDJs
+blick: Video editor
+byos: Companion app for Byos Secure Edge devices
+bytemail: Email client with an AI assistant
+clipboard-remote: Share clipboard contents between devices over a local network
+devtools: Collection of developer utilities
+dotnet-sdk@10: Developer platform
+emeet-studio: Companion app for EMEET webcams
+emeetlink: Configuration utility for EMEET webcams and speakerphones
+expose: Tunnel for sharing local web services
+fleet-desktop: Self-service portal for devices managed by Fleet
+fore-studio-vitals: System monitor with per-app metrics and history
+freellmapi: Local OpenAI-compatible LLM router
+ftop: System monitor tool
+gallery-remote: Present photo slideshows on devices over a local network
+hora-calendar: Google Calendar client
+hyperframes: Video editor for HTML-based compositions
+image-optimizer: Tool to optimise images and vector graphics
+kiwidesk: Tiling window manager
+kugelblitz: 3D globe and atlas for exploring geodata
+lattice: LaTeX editor
+max-messages: Archive and browse conversations from the Messages app
+multidock: Extra panels for apps, files and folders
+nod: Personal AI agent
+obelisk: Game launcher for Steam, Epic Games and GOG libraries
+oleafly: LaTeX, Typst and Markdown editor for research writing
+open-screen-sharing: Remote desktop client for VNC and RDP
+openscreen: Screen recorder and demo video editor
+pake-app: Turn websites into desktop apps without a toolchain
+parallels@26: Desktop virtualization software
+plezy: Client for Plex, Jellyfin and Emby media servers
+read-ai: Meeting recorder, transcriber and summariser
+realtek-rtl815x-ethernet: DriverKit driver for Realtek USB Ethernet adapters
+rustgis: GIS platform
+sable: Client for the Matrix chat network
+screendrop: Screenshot and screen recording tool
+screenshot-remote: Capture screenshots on remote computers over a local network
+sidebarfavorites-manager: Finder sidebar icon customiser
+spotify-soloist: Headless Spotify client
+tab-finder: Searchable list of open browser tabs
+teamwork-graph-cli: Command-line interface for Atlassian Teamwork Graph
+tendedero: Screenshot and screen recording manager
+texpile: Desktop editor for LaTeX, Typst, and Markdown
+time-messenger: Corporate messenger
+tinycast: Application launcher and productivity tool
+tinycast@beta: Application launcher and productivity tool
+tree-outliner: Text outliner
+upload-remote: Transfer files between devices over a local network
+wallpapermachine: Player for Wallpaper Engine live wallpapers
+weftcut: Video editor controlled from MCP clients
+wiso-steuer-2027: Tax declaration for the fiscal year 2026
+xcasca: SSH terminal and SFTP file transfer client
+yandex-document: Document and spreadsheet editor
+zephium: WebKit-based browser with built-in AI tools
+[34m==>[0m [1mOutdated Formulae[0m
+aws-c-auth
+aws-c-http
+aws-c-io
+aws-c-mqtt
+aws-c-s3
+aws-sam-cli
+bicep
+ca-certificates
+cmake
+gh
+git
+gradle
+harfbuzz
+krb5
+libksba
+libnghttp2
+libnghttp3
+libngtcp2
+libpq
+little-cms2
+lz4
+maven
+node@24
+openjdk
+p11-kit
+pipx
+pkgconf
+pydantic
+rustup
+s2n
+selenium-server
+simdjson
+swiftformat
+xcodes
+yq
+[34m==>[0m [1mOutdated Casks[0m
+azure-cli
+firefox
+google-chrome
+microsoft-edge
+
+You have [1m35[0m outdated formulae and [1m4[0m outdated casks installed.
+You can upgrade them with [1mbrew upgrade[0m
+or list them with [1mbrew outdated[0m.

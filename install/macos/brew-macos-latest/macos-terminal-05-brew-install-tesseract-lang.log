@@ -1,0 +1,26 @@
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % export HOMEBREW_NO_AUTO_UPDATE=1
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % time brew install tesseract-lang
+[32m==>[0m [1mDownloading bottle manifests[0m
+✔︎ Bottle Manifest tesseract-lang (4.1.0)
+[34m==>[0m [1mWould install 1 formula:[0m
+tesseract-lang 4.1.0
+[34m==>[0m [1mWould upgrade 3 dependencies for tesseract-lang:[0m
+harfbuzz     15.0.0_1 -> 15.1.0
+lz4          1.10.0   -> 1.11.1
+little-cms2  2.19.1   -> 2.20
+[32m==>[0m [1mFetching downloads for: [32mtesseract-lang[39m[0m
+✔︎ Bottle harfbuzz (15.1.0)
+✔︎ Bottle little-cms2 (2.20)
+✔︎ Bottle lz4 (1.11.1)
+✔︎ Bottle tesseract-lang (4.1.0)
+[34m==>[0m [1mPouring tesseract-lang--4.1.0.all.bottle.2.tar.gz[0m
+🍺  /opt/homebrew/Cellar/tesseract-lang/4.1.0: 165 files, 685.7MB
+brew install tesseract-lang  11.02s user 7.66s system 121% cpu 15.410 total
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % tesseract --list-langs | head -5
+List of available languages in "/opt/homebrew/share/tessdata/" (162):
+afr
+amh
+ara
+asm
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % tesseract --list-langs | tail -n +2 | wc -l
+     162

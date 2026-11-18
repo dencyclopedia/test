@@ -1,0 +1,76 @@
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % export HOMEBREW_NO_AUTO_UPDATE=1
+[32mrunner@sat12-bq158-03957dea-4ecb-44f5-bc08-fa412783b412-16550B5050C3[39m [34m~[39m % time brew install tesseract
+[32m==>[0m [1mDownloading bottle manifests[0m
+✔︎ Bottle Manifest tesseract (5.5.4)
+[34m==>[0m [1mWould install 1 formula:[0m
+tesseract 5.5.4
+[34m==>[0m [1mWould install 8 dependencies for tesseract:[0m
+openjpeg    2.5.4_1
+leptonica   1.87.0
+libb2       0.98.1
+libarchive  3.8.11
+fribidi     1.0.18
+libdatrie   0.2.14
+libthai     0.1.30
+pango       1.58.2
+[34m==>[0m [1mWould upgrade 3 dependencies for tesseract:[0m
+harfbuzz     15.0.0_1 -> 15.1.0
+lz4          1.10.0   -> 1.11.1
+little-cms2  2.19.1   -> 2.20
+[32m==>[0m [1mFetching downloads for: [32mtesseract[39m[0m
+✔︎ Bottle Manifest lz4 (1.11.1)
+✔︎ Bottle Manifest harfbuzz (15.1.0)
+✔︎ Bottle Manifest openjpeg (2.5.4_1)
+✔︎ Bottle harfbuzz (15.1.0)
+✔︎ Bottle Manifest libb2 (0.98.1)
+✔︎ Bottle Manifest little-cms2 (2.20)
+✔︎ Bottle Manifest libarchive (3.8.11)
+✔︎ Bottle little-cms2 (2.20)
+✔︎ Bottle lz4 (1.11.1)
+✔︎ Bottle Manifest leptonica (1.87.0)
+✔︎ Bottle fribidi (1.0.18)
+✔︎ Bottle leptonica (1.87.0)
+✔︎ Bottle Manifest fribidi (1.0.18)
+✔︎ Bottle Manifest pango (1.58.2)
+✔︎ Bottle libarchive (3.8.11)
+✔︎ Bottle libb2 (0.98.1)
+✔︎ Bottle Manifest libthai (0.1.30)
+✔︎ Bottle libdatrie (0.2.14)
+✔︎ Bottle libthai (0.1.30)
+✔︎ Bottle tesseract (5.5.4)
+✔︎ Bottle openjpeg (2.5.4_1)
+✔︎ Bottle Manifest libdatrie (0.2.14)
+✔︎ Bottle pango (1.58.2)
+[32m==>[0m [1mInstalling dependencies for tesseract:[0m [32mopenjpeg[39m, [32mleptonica[39m, [32mlibb2[39m, [32mlibarchive[39m, [32mfribidi[39m, [32mlibdatrie[39m, [32mlibthai[39m and [32mpango[39m[0m
+[32m==>[0m [1mInstalling tesseract dependency: [32mopenjpeg[39m (2.5.4_1)[0m
+[34m==>[0m [1mPouring openjpeg--2.5.4_1.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/openjpeg/2.5.4_1: 518 files, 14.9MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mleptonica[39m (1.87.0)[0m
+[34m==>[0m [1mPouring leptonica--1.87.0.arm64_tahoe.bottle.1.tar.gz[0m
+🍺  /opt/homebrew/Cellar/leptonica/1.87.0: 55 files, 7.1MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibb2[39m (0.98.1)[0m
+[34m==>[0m [1mPouring libb2--0.98.1.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/libb2/0.98.1: 9 files, 112.7KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibarchive[39m (3.8.11)[0m
+[34m==>[0m [1mPouring libarchive--3.8.11.arm64_tahoe.bottle.1.tar.gz[0m
+🍺  /opt/homebrew/Cellar/libarchive/3.8.11: 65 files, 4.1MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mfribidi[39m (1.0.18)[0m
+[34m==>[0m [1mPouring fribidi--1.0.18.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/fribidi/1.0.18: 69 files, 763.1KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibdatrie[39m (0.2.14)[0m
+[34m==>[0m [1mPouring libdatrie--0.2.14.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/libdatrie/0.2.14: 20 files, 276.1KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibthai[39m (0.1.30)[0m
+[34m==>[0m [1mPouring libthai--0.1.30.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/libthai/0.1.30: 30 files, 955KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mpango[39m (1.58.2)[0m
+[34m==>[0m [1mPouring pango--1.58.2.arm64_tahoe.bottle.1.tar.gz[0m
+🍺  /opt/homebrew/Cellar/pango/1.58.2: 69 files, 3.7MB
+[32m==>[0m [1mInstalling [32mtesseract[39m[0m
+[34m==>[0m [1mPouring tesseract--5.5.4.arm64_tahoe.bottle.tar.gz[0m
+🍺  /opt/homebrew/Cellar/tesseract/5.5.4: 74 files, 26.1MB
+[32m==>[0m [1mCaveats[0m
+[34m==>[0m [1mtesseract[0m
+This formula contains only the "eng" and "osd" language data files.
+If you need any other supported languages, run `brew install tesseract-lang`.
+brew install tesseract  21.98s user 7.95s system 105% cpu 28.345 total

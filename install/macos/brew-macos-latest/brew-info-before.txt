@@ -1,0 +1,18 @@
+[32m==>[0m [1mtesseract[0m: stable 5.5.4 (bottled), HEAD
+OCR (Optical Character Recognition) engine
+[4mhttps://tesseract-ocr.github.io/[24m
+Not installed
+From: [4mhttps://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/t/tesseract.rb[24m
+License: Apache-2.0
+[34m==>[0m [1mDependencies[0m
+Required (10): cairo, fontconfig, glib, harfbuzz, icu4c@79, leptonica, libarchive, pango, freetype, gettext
+[34m==>[0m [1mOptions[0m
+--HEAD
+	Install HEAD version
+[34m==>[0m [1mCaveats[0m
+This formula contains only the "eng" and "osd" language data files.
+If you need any other supported languages, run `brew install tesseract-lang`.
+[34m==>[0m [1mAnalytics[0m
+install: 55,469 (30 days), 104,828 (90 days), 579,895 (365 days)
+install-on-request: 29,242 (30 days), 55,455 (90 days), 268,227 (365 days)
+build-error: 60 (30 days)
