@@ -242,3 +242,59 @@ Click Next to continue.
   [Static id=1023] Space required: 96.9 MB
   [Button id=1042] Description
   [Static id=1043] Deploys the foundational English language pack and the Orientation and Script Detection (OSD) module.
+== Choose Install Location ==
+  [Button id=3] < &Back
+  [Button id=1] &Next >
+  [Button id=2] Cancel
+  [Static id=1256] Nullsoft Install System v3.11-1
+  [Static id=1028] Nullsoft Install System v3.11-1
+  [Static id=1037] Choose Install Location
+  [Static id=1038] Choose the folder in which to install Tesseract-OCR.
+  [Edit id=1019] C:\Program Files\Tesseract-OCR
+  [Button id=1001] B&rowse...
+  [Static id=1024] Space available: 30.8 GB
+  [Static id=1023] Space required: 728.7 MB
+  [Static id=1006] Setup will install Tesseract-OCR in the following folder. To install in a different folder, click Browse and select another folder. Click Next to continue.
+  [Button id=1020] Destination Folder
+== Choose Start Menu Folder ==
+  [Button id=3] < &Back
+  [Button id=1] &Install
+  [Button id=2] Cancel
+  [Static id=1256] Nullsoft Install System v3.11-1
+  [Static id=1028] Nullsoft Install System v3.11-1
+  [Static id=1037] Choose Start Menu Folder
+  [Static id=1038] Choose a Start Menu folder for the Tesseract-OCR shortcuts.
+  [Edit id=1002] Tesseract-OCR
+  [Button id=1005] Do not create shortcuts
+  [Static id=1003] Select the Start Menu folder in which you would like to create the program's shortcuts. You can also enter a name to create a new folder.
+== Installing ==
+  [Button id=3] < &Back
+  [Button id=1] &Next >
+  [Button id=2] Cancel
+  [Static id=1256] Nullsoft Install System v3.11-1
+  [Static id=1028] Nullsoft Install System v3.11-1
+  [Static id=1037] Installing
+  [Static id=1038] Please wait while Tesseract-OCR is being installed.
+  [Static id=1001] Connecting ...
+  [Button id=2] Cancel
+  [Button id=1027] Show &details
+  [Static id=1006] Downloading eng language file
+== Installation Complete ==
+  [Button id=3] < &Back
+  [Button id=1] &Next >
+  [Button id=2] Cancel
+  [Static id=1256] Nullsoft Install System v3.11-1
+  [Static id=1028] Nullsoft Install System v3.11-1
+  [Static id=1037] Installation Complete
+  [Static id=1038] Setup was completed successfully.
+  [Button id=1027] Show &details
+  [Static id=1006] Completed
+== Completing Tesseract-OCR Setup ==
+  [Button id=3] < &Back
+  [Button id=1] &Finish
+  [Button id=2] Cancel
+  [Static id=1201] Completing Tesseract-OCR Setup
+  [Static id=1202] Tesseract-OCR has been installed on your computer.
+
+Click Finish to close Setup.
+  [Button id=1203] View Tesseract on GitHub

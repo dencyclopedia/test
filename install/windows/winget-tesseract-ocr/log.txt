@@ -1,10 +1,10 @@
-captured 2026-11-18T07:13:19Z on Microsoft Windows Server 2025 Datacenter build 26100
+captured 2026-11-18T07:17:28Z on Microsoft Windows Server 2025 Datacenter build 26100
 CPU: AMD EPYC 7763 64-Core Processor                 cores: 4
 
 ### before install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 INFO: Could not find files for the given pattern(s).
-C:\> tesseract --version
+> tesseract --version
 'tesseract' is not recognized as an internal or external command,
 operable program or batch file.
 winget package id: tesseract-ocr.tesseract
@@ -12,7 +12,7 @@ winget package id: tesseract-ocr.tesseract
 ### winget version
 PS> winget --version
 v1.11.510
-[exit 0, 0.5 s]
+[exit 0, 0.6 s]
 
 ### winget search
 PS> winget search tesseract --accept-source-agreements --disable-interactivity
@@ -51,7 +51,7 @@ Tesseract-OCR - open source OCR engine UB-Mannheim.TesseractOCR      5.4.0.20240
 NormCap                                dynobo.NormCap                0.6.0          Tag: tesseract     winget
 gImageReader                           SandroMani.gImageReader       3.4.5          Tag: tesseract     winget
 UWP → MM MIDI Adapter                  TesseractCat.UWP-MIDI-Adapter 0.1.0                             winget
-[exit 0, 3.3 s]
+[exit 0, 2.2 s]
 
 ### winget show
 PS> winget show --id $id -e --accept-source-agreements --disable-interactivity
@@ -130,7 +130,7 @@ Installer:
   Installer SHA256: bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4
   Release Date: 2026-07-24
   Offline Distribution Supported: true
-[exit 0, 0.8 s]
+[exit 0, 0.7 s]
 
 ### winget show versions
 PS> winget show --id $id -e --versions --disable-interactivity
@@ -195,7 +195,7 @@ Starting package install...
    \ 
                                                                                                                         
 Successfully installed
-[exit 0, 9.4 s]
+[exit 0, 9.5 s]
 
 ### winget list
 PS> winget list --id $id -e --disable-interactivity
@@ -208,7 +208,7 @@ PS> winget list --id $id -e --disable-interactivity
 Name                                   Id                      Version Source
 ------------------------------------------------------------------------------
 Tesseract-OCR - open source OCR engine tesseract-ocr.tesseract 5.5.3   winget
-[exit 0, 0.9 s]
+[exit 0, 1 s]
 
 ### --version (full path)
 PS> & $exe.FullName --version
@@ -252,14 +252,14 @@ Estimating resolution as 246
 PATH entries added by the install:
 
 ### after install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 INFO: Could not find files for the given pattern(s).
-C:\> tesseract --version
+> tesseract --version
 'tesseract' is not recognized as an internal or external command,
 operable program or batch file.
 {
   "pm": "winget-tesseract-ocr",
-  "install_seconds": 9.4,
+  "install_seconds": 9.5,
   "install_exit": 0,
   "install_dir": "C:\\Program Files\\Tesseract-OCR",
   "installed_bytes": 116376959.0,
@@ -267,9 +267,9 @@ operable program or batch file.
     "eng.traineddata",
     "osd.traineddata"
   ],
-  "free_space_delta_bytes": 145850368,
+  "free_space_delta_bytes": 141533184,
   "path_entries_added": [],
   "registry_path_has_tesseract_dir": false
 }
-[07:13:46 UTC +    2.0s] console windows-winget-tesseract-ocr-fresh-console: finished=True launcher=explorer
-[07:13:50 UTC +    6.2s] screenshot windows-winget-tesseract-ocr-fresh-console-desktop.png, windows-winget-tesseract-ocr-fresh-console.png
+[07:17:55 UTC +    2.0s] console windows-winget-tesseract-ocr-fresh-console: finished=True launcher=explorer
+[07:17:59 UTC +    6.2s] screenshot windows-winget-tesseract-ocr-fresh-console-desktop.png, windows-winget-tesseract-ocr-fresh-console.png

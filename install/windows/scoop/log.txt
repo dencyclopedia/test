@@ -1,10 +1,10 @@
-captured 2026-11-18T07:13:22Z on Microsoft Windows Server 2025 Datacenter build 26100
-CPU: INTEL(R) XEON(R) PLATINUM 8573C cores: 4
+captured 2026-11-18T07:17:28Z on Microsoft Windows Server 2025 Datacenter build 26100
+CPU: AMD EPYC 7763 64-Core Processor                 cores: 4
 
 ### before install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 INFO: Could not find files for the given pattern(s).
-C:\> tesseract --version
+> tesseract --version
 'tesseract' is not recognized as an internal or external command,
 operable program or batch file.
 
@@ -16,7 +16,7 @@ Creating shim...
 Adding ~\scoop\shims to your path.
 Scoop was installed successfully!
 Type 'scoop help' for instructions.
-[exit 0, 19.4 s]
+[exit 0, 21 s]
 
 ### scoop version
 PS> scoop --version
@@ -30,7 +30,7 @@ Name                Version        Source Binaries
 ----                -------        ------ --------
 tesseract-languages 4.1.0          main   
 tesseract           5.5.3.20260724 main
-[exit 0, 0.3 s]
+[exit 0, 0.4 s]
 
 ### scoop info
 PS> scoop info tesseract
@@ -91,7 +91,7 @@ Notes
 Recognition data files can be installed via "scoop install tesseract-languages"
 or downloaded manually from https://github.com/tesseract-ocr/tessdata_fast
 -----
-[exit 0, 6.6 s]
+[exit 0, 7.1 s]
 
 ### scoop info after
 PS> scoop info tesseract
@@ -111,7 +111,7 @@ Environment : SCROLLVIEW_PATH = $persist_dir\tessdata
 Suggestions : tesseract-languages
 Notes       : Recognition data files can be installed via "scoop install tesseract-languages"
               or downloaded manually from https://github.com/tesseract-ocr/tessdata_fast
-[exit 0, 1.5 s]
+[exit 0, 1.6 s]
 
 ### list-langs right after install
 PS> tesseract --list-langs
@@ -154,7 +154,7 @@ This packages has overwritten the 'TESSDATA_PREFIX' environment variable with
 "C:\Users\runneradmin\scoop\apps\tesseract-languages\current".
 After updating "tesseract" please run "scoop reset tesseract-languages" to update the environment variable!
 -----
-[exit 0, 57.2 s]
+[exit 0, 13.7 s]
 
 ### list-langs count after tesseract-languages
 PS> (tesseract --list-langs | Select-Object -Skip 1 | Measure-Object).Count
@@ -167,9 +167,6 @@ PS> & $exe.FullName --version
 tesseract v5.5.3.20260724
  leptonica-1.87.0
   libgif 5.2.2 : libjpeg 8d (libjpeg-turbo 3.1.3) : libpng 1.6.58 : libtiff 4.7.2 : zlib 1.3.1 : libwebp 1.6.0 : libopenjp2 2.5.4
- Found AVX512BW
- Found AVX512F
- Found AVX512VNNI
  Found AVX2
  Found AVX
  Found FMA
@@ -363,19 +360,16 @@ TOTAL 20.29
 CARD ****4821 APPROVED
 Thank you for shopping!
 Estimating resolution as 246
-[exit 0, 0.2 s]
+[exit 0, 0.3 s]
 PATH entries added by the install: C:\Users\runneradmin\scoop\shims
 
 ### after install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 C:\Users\runneradmin\scoop\shims\tesseract.exe
-C:\> tesseract --version
+> tesseract --version
 tesseract v5.5.3.20260724
  leptonica-1.87.0
   libgif 5.2.2 : libjpeg 8d (libjpeg-turbo 3.1.3) : libpng 1.6.58 : libtiff 4.7.2 : zlib 1.3.1 : libwebp 1.6.0 : libopenjp2 2.5.4
- Found AVX512BW
- Found AVX512F
- Found AVX512VNNI
  Found AVX2
  Found AVX
  Found FMA
@@ -384,19 +378,19 @@ tesseract v5.5.3.20260724
  Found libcurl/8.21.0 Schannel zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 WinLDAP
 {
   "pm": "scoop",
-  "scoop_setup_seconds": 19.4,
-  "install_seconds": 6.6,
+  "scoop_setup_seconds": 21.0,
+  "install_seconds": 7.1,
   "install_exit": 0,
-  "languages_install_seconds": 57.2,
+  "languages_install_seconds": 13.7,
   "languages_bytes": 700369770.0,
   "install_dir": "C:\\Users\\runneradmin\\scoop\\apps\\tesseract\\current",
   "installed_bytes": 101270026.0,
   "traineddata": [],
-  "free_space_delta_bytes": 1278398464,
+  "free_space_delta_bytes": 1288798208,
   "path_entries_added": [
     "C:\\Users\\runneradmin\\scoop\\shims"
   ],
   "registry_path_has_tesseract_dir": false
 }
-[07:15:01 UTC +    2.0s] console windows-scoop-fresh-console: finished=True launcher=explorer
-[07:15:06 UTC +    6.2s] screenshot windows-scoop-fresh-console-desktop.png, windows-scoop-fresh-console.png
+[07:18:29 UTC +    2.0s] console windows-scoop-fresh-console: finished=True launcher=explorer
+[07:18:33 UTC +    6.2s] screenshot windows-scoop-fresh-console-desktop.png, windows-scoop-fresh-console.png

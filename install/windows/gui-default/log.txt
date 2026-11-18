@@ -1,34 +1,34 @@
-[07:13:45 UTC +    1.6s] installer started C:\Users\RUNNER~1\AppData\Local\Temp\tesseract-ocr-w64-setup-5.5.3.20260724.exe
-[07:13:49 UTC +    5.8s] screenshot windows-installer-01-language-desktop.png, windows-installer-01-language.png
-[07:13:49 UTC +    5.8s] language combobox items: 9
-[07:13:50 UTC +    7.1s] page: 'Welcome to Tesseract-OCR Setup' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724'
-[07:13:51 UTC +    7.8s] screenshot windows-installer-02-welcome-to-tesseract-ocr-setup-desktop.png, windows-installer-02-welcome-to-tesseract-ocr-setup.png
-[07:13:52 UTC +    9.1s] page: 'License Agreement' | button1='I &Agree' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:13:53 UTC +    9.8s] screenshot windows-installer-03-license-agreement-desktop.png, windows-installer-03-license-agreement.png
-[07:13:54 UTC +   11.1s] page: 'Choose Users' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:13:55 UTC +   11.8s] screenshot windows-installer-04-choose-users-desktop.png, windows-installer-04-choose-users.png
-[07:13:56 UTC +   13.1s] page: 'Choose Components' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:13:56 UTC +   13.1s] space text (default selection): Space required: 96.9 MB
-[07:13:57 UTC +   13.8s] screenshot windows-installer-05-components-desktop.png, windows-installer-05-components.png
-[07:13:57 UTC +   13.8s] component tree items: 167
-[07:13:58 UTC +   14.4s] expanded 'Additional script data (download)': 37 children
-[07:13:58 UTC +   15.1s] screenshot windows-installer-06-components-additional-script-data-desktop.png, windows-installer-06-components-additional-script-data.png
-[07:13:59 UTC +   15.7s] expanded 'Additional language data (download)': 122 children
-[07:14:00 UTC +   16.3s] screenshot windows-installer-07-components-additional-language-data-desktop.png, windows-installer-07-components-additional-language-data.png
-[07:14:00 UTC +   16.3s] space text (final selection): Space required: 96.9 MB
-[07:14:01 UTC +   17.7s] page: 'Choose Install Location' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:14:02 UTC +   18.4s] screenshot windows-installer-08-choose-install-location-desktop.png, windows-installer-08-choose-install-location.png
-[07:14:03 UTC +   19.7s] page: 'Choose Start Menu Folder' | button1='&Install' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:14:04 UTC +   20.4s] screenshot windows-installer-09-choose-start-menu-folder-desktop.png, windows-installer-09-choose-start-menu-folder.png
-[07:14:05 UTC +   21.7s] page: 'Installing' | button1='&Next >' enabled=False | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:14:06 UTC +   22.3s] screenshot windows-installer-10-installing-desktop.png, windows-installer-10-installing.png
-[07:14:08 UTC +   24.3s] installing finished after 4.0 s since Install click
-[07:14:09 UTC +   25.6s] page: 'Installation Complete' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:14:09 UTC +   26.2s] screenshot windows-installer-11-installation-complete-desktop.png, windows-installer-11-installation-complete.png
-[07:14:11 UTC +   27.6s] page: 'Completing Tesseract-OCR Setup' | button1='&Finish' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
-[07:14:11 UTC +   28.2s] screenshot windows-installer-12-completing-tesseract-ocr-setup-desktop.png, windows-installer-12-completing-tesseract-ocr-setup.png
-[07:14:11 UTC +   28.2s] finish page option: View Tesseract on GitHub checked= 0
-[07:14:12 UTC +   28.3s] {
+[07:17:43 UTC +    1.8s] installer started C:\Users\RUNNER~1\AppData\Local\Temp\tesseract-ocr-w64-setup-5.5.3.20260724.exe
+[07:17:48 UTC +    7.0s] screenshot windows-installer-01-language-desktop.png, windows-installer-01-language.png
+[07:17:48 UTC +    7.0s] language combobox items: 9
+[07:17:49 UTC +    8.3s] page: 'Welcome to Tesseract-OCR Setup' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724'
+[07:17:50 UTC +    9.0s] screenshot windows-installer-02-welcome-to-tesseract-ocr-setup-desktop.png, windows-installer-02-welcome-to-tesseract-ocr-setup.png
+[07:17:51 UTC +   10.3s] page: 'License Agreement' | button1='I &Agree' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:17:52 UTC +   11.0s] screenshot windows-installer-03-license-agreement-desktop.png, windows-installer-03-license-agreement.png
+[07:17:53 UTC +   12.3s] page: 'Choose Users' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:17:54 UTC +   13.0s] screenshot windows-installer-04-choose-users-desktop.png, windows-installer-04-choose-users.png
+[07:17:55 UTC +   14.3s] page: 'Choose Components' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:17:55 UTC +   14.3s] space text (default selection): Space required: 96.9 MB
+[07:17:56 UTC +   15.0s] screenshot windows-installer-05-components-desktop.png, windows-installer-05-components.png
+[07:17:56 UTC +   15.1s] component tree items: 167
+[07:17:57 UTC +   15.8s] expanded 'Additional script data (download)': 37 children
+[07:17:58 UTC +   16.5s] screenshot windows-installer-06-components-additional-script-data-desktop.png, windows-installer-06-components-additional-script-data.png
+[07:17:58 UTC +   17.0s] expanded 'Additional language data (download)': 122 children
+[07:17:59 UTC +   17.7s] screenshot windows-installer-07-components-additional-language-data-desktop.png, windows-installer-07-components-additional-language-data.png
+[07:17:59 UTC +   17.7s] space text (final selection): Space required: 96.9 MB
+[07:18:00 UTC +   19.1s] page: 'Choose Install Location' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:18:01 UTC +   19.8s] screenshot windows-installer-08-choose-install-location-desktop.png, windows-installer-08-choose-install-location.png
+[07:18:02 UTC +   21.1s] page: 'Choose Start Menu Folder' | button1='&Install' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:18:03 UTC +   21.8s] screenshot windows-installer-09-choose-start-menu-folder-desktop.png, windows-installer-09-choose-start-menu-folder.png
+[07:18:04 UTC +   23.1s] page: 'Installing' | button1='&Next >' enabled=False | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:18:05 UTC +   23.8s] screenshot windows-installer-10-installing-desktop.png, windows-installer-10-installing.png
+[07:18:07 UTC +   25.8s] installing finished after 4.0 s since Install click
+[07:18:08 UTC +   27.0s] page: 'Installation Complete' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:18:09 UTC +   27.7s] screenshot windows-installer-11-installation-complete-desktop.png, windows-installer-11-installation-complete.png
+[07:18:10 UTC +   29.0s] page: 'Completing Tesseract-OCR Setup' | button1='&Finish' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:18:11 UTC +   29.6s] screenshot windows-installer-12-completing-tesseract-ocr-setup-desktop.png, windows-installer-12-completing-tesseract-ocr-setup.png
+[07:18:11 UTC +   29.6s] finish page option: View Tesseract on GitHub checked= 0
+[07:18:11 UTC +   29.8s] {
  "mode": "default",
  "installer": "tesseract-ocr-w64-setup-5.5.3.20260724.exe",
  "language_choices_count": 9,
@@ -39,7 +39,7 @@
  },
  "space_required_selected": "Space required: 96.9 MB",
  "installing_seconds": 4.0,
- "wizard_total_seconds_incl_screenshots": 26.7,
+ "wizard_total_seconds_incl_screenshots": 28.0,
  "pages": [
   "Welcome to Tesseract-OCR Setup",
   "License Agreement",
@@ -56,37 +56,42 @@
  "installed_files": 133,
  "tessdata_bytes": 15109185
 }
-[07:14:12 UTC +   28.3s] traineddata count: 2
-[07:14:12 UTC +    0.0s] registry PATH contains Tesseract-OCR after GUI install: {'machine': False, 'user': False}
-[07:14:14 UTC +    2.0s] console windows-path-01-cmd-not-recognized: finished=True launcher=explorer
-[07:14:18 UTC +    6.2s] screenshot windows-path-01-cmd-not-recognized-desktop.png, windows-path-01-cmd-not-recognized.png
-[07:14:19 UTC +    7.3s] windows-path-01-cmd-not-recognized: exit 1
-[07:14:25 UTC +   13.3s] ps console windows-path-02-powershell-not-recognized: finished=True
-[07:14:29 UTC +   17.5s] screenshot windows-path-02-powershell-not-recognized-desktop.png, windows-path-02-powershell-not-recognized.png
-[07:14:31 UTC +   18.9s] windows-path-02-powershell-not-recognized: exit 1
-[07:14:31 UTC +   19.4s] windows-path-02-pwsh7-not-recognized: exit 1
-[07:14:33 UTC +   21.4s] console windows-error-pytesseract-not-found: finished=True launcher=explorer
-[07:14:38 UTC +   25.6s] screenshot windows-error-pytesseract-not-found-desktop.png, windows-error-pytesseract-not-found.png
-[07:14:39 UTC +   26.6s] windows-error-pytesseract-not-found: exit 1
-[07:14:41 UTC +   29.0s] screenshot windows-path-03-environment-variables-desktop.png, windows-path-03-environment-variables.png
-[07:14:41 UTC +   29.0s] listviews: [(402, 3), (400, 76)]
-[07:14:42 UTC +   30.2s] screenshot windows-path-04-system-path-selected-desktop.png, windows-path-04-system-path-selected.png
-[07:14:42 UTC +   30.2s] edit buttons: [(413, '&Edit...'), (408, 'Ed&it...')]
-[07:14:43 UTC +   30.8s] edit dialog title: Edit environment variable
-[07:14:43 UTC +   31.4s] screenshot windows-path-05-edit-path-before-desktop.png, windows-path-05-edit-path-before.png
-[07:14:46 UTC +   33.7s] screenshot windows-path-06-edit-path-added-desktop.png, windows-path-06-edit-path-added.png
-[07:14:47 UTC +   35.3s] edit dialog still open after OK click; pressing Enter
-[07:14:47 UTC +   35.5s] GUI PATH edit failed: ElementNotEnabled()
-[07:14:47 UTC +   35.5s] fixed by: FALLBACK: registry write of system Path + WM_SETTINGCHANGE broadcast (GUI edit failed, see log) {'machine': True, 'user': False}
-[07:14:49 UTC +   37.6s] console windows-path-08-cmd-working: finished=True launcher=explorer
-[07:14:54 UTC +   41.7s] screenshot windows-path-08-cmd-working-desktop.png, windows-path-08-cmd-working.png
-[07:14:57 UTC +   44.7s] console windows-path-09-cmd-ocr-receipt: finished=True launcher=explorer
-[07:15:01 UTC +   48.9s] screenshot windows-path-09-cmd-ocr-receipt-desktop.png, windows-path-09-cmd-ocr-receipt.png
-[07:15:04 UTC +   52.1s] ps console windows-path-10-powershell-working: finished=True
-[07:15:08 UTC +   56.3s] screenshot windows-path-10-powershell-working-desktop.png, windows-path-10-powershell-working.png
-[07:15:11 UTC +   59.3s] console windows-path-11-pytesseract-working: finished=True launcher=explorer
-[07:15:15 UTC +   63.4s] screenshot windows-path-11-pytesseract-working-desktop.png, windows-path-11-pytesseract-working.png
-[07:15:18 UTC +   66.5s] console windows-error-01-tessdata-and-language: finished=True launcher=explorer
-[07:15:23 UTC +   70.6s] screenshot windows-error-01-tessdata-and-language-desktop.png, windows-error-01-tessdata-and-language.png
-[07:15:24 UTC +   71.8s] path demo done
-[07:15:25 UTC +    0.7s] screenshot windows-final-desktop.png
+[07:18:11 UTC +   29.8s] traineddata count: 2
+[07:18:11 UTC +    0.0s] registry PATH contains Tesseract-OCR after GUI install: {'machine': False, 'user': False}
+[07:18:13 UTC +    2.0s] console windows-path-01-cmd-not-recognized: finished=True launcher=explorer
+[07:18:18 UTC +    6.2s] screenshot windows-path-01-cmd-not-recognized-desktop.png, windows-path-01-cmd-not-recognized.png
+[07:18:19 UTC +    7.3s] windows-path-01-cmd-not-recognized: exit 1
+[07:18:24 UTC +   12.3s] ps console windows-path-02-powershell-not-recognized: finished=True
+[07:18:28 UTC +   16.5s] screenshot windows-path-02-powershell-not-recognized-desktop.png, windows-path-02-powershell-not-recognized.png
+[07:18:29 UTC +   18.0s] windows-path-02-powershell-not-recognized: exit 1
+[07:18:30 UTC +   18.7s] windows-path-02-pwsh7-not-recognized: exit 1
+[07:18:32 UTC +   20.7s] console windows-error-pytesseract-not-found: finished=True launcher=explorer
+[07:18:36 UTC +   24.9s] screenshot windows-error-pytesseract-not-found-desktop.png, windows-error-pytesseract-not-found.png
+[07:18:37 UTC +   25.9s] windows-error-pytesseract-not-found: exit 1
+[07:18:40 UTC +   28.3s] screenshot windows-path-03-environment-variables-desktop.png, windows-path-03-environment-variables.png
+[07:18:40 UTC +   28.3s] listviews: [(402, 3), (400, 76)]
+[07:18:41 UTC +   29.5s] screenshot windows-path-04-system-path-selected-desktop.png, windows-path-04-system-path-selected.png
+[07:18:41 UTC +   29.5s] edit buttons: [(413, '&Edit...'), (408, 'Ed&it...')]
+[07:18:41 UTC +   30.1s] edit dialog title: Edit environment variable
+[07:18:42 UTC +   30.8s] screenshot windows-path-05-edit-path-before-desktop.png, windows-path-05-edit-path-before.png
+[07:18:44 UTC +   33.1s] screenshot windows-path-06-edit-path-added-desktop.png, windows-path-06-edit-path-added.png
+[07:18:46 UTC +   34.7s] message box 'System Properties': ['OK', 'This environment variable is too large. This dialog allows setting values up to 2047 characters long.']
+[07:18:47 UTC +   35.4s] screenshot windows-path-06b-message-box-1-desktop.png, windows-path-06b-message-box-1.png
+[07:18:47 UTC +   35.4s] message box buttons: ['OK']
+[07:18:48 UTC +   37.0s] edit dialog closed: False
+[07:18:49 UTC +   37.9s] screenshot windows-path-07-environment-variables-after-desktop.png, windows-path-07-environment-variables-after.png
+[07:18:52 UTC +   41.0s] environment variables dialog closed: False
+[07:18:52 UTC +   41.0s] GUI PATH edit failed: RuntimeError('dialog closed but the system Path in the registry has no Tesseract-OCR entry')
+[07:18:52 UTC +   41.1s] fixed by: FALLBACK: registry write of system Path + WM_SETTINGCHANGE broadcast (GUI edit failed, see log) {'machine': True, 'user': False}
+[07:18:54 UTC +   43.1s] console windows-path-08-cmd-working: finished=True launcher=explorer
+[07:18:59 UTC +   47.3s] screenshot windows-path-08-cmd-working-desktop.png, windows-path-08-cmd-working.png
+[07:19:02 UTC +   50.3s] console windows-path-09-cmd-ocr-receipt: finished=True launcher=explorer
+[07:19:06 UTC +   54.5s] screenshot windows-path-09-cmd-ocr-receipt-desktop.png, windows-path-09-cmd-ocr-receipt.png
+[07:19:10 UTC +   58.7s] ps console windows-path-10-powershell-working: finished=True
+[07:19:14 UTC +   62.9s] screenshot windows-path-10-powershell-working-desktop.png, windows-path-10-powershell-working.png
+[07:19:17 UTC +   65.9s] console windows-path-11-pytesseract-working: finished=True launcher=explorer
+[07:19:21 UTC +   70.1s] screenshot windows-path-11-pytesseract-working-desktop.png, windows-path-11-pytesseract-working.png
+[07:19:24 UTC +   73.1s] console windows-error-01-tessdata-and-language: finished=True launcher=explorer
+[07:19:29 UTC +   77.3s] screenshot windows-error-01-tessdata-and-language-desktop.png, windows-error-01-tessdata-and-language.png
+[07:19:30 UTC +   78.5s] path demo done
+[07:19:31 UTC +    0.7s] screenshot windows-final-desktop.png

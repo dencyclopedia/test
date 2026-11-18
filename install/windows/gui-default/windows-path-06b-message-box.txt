@@ -1,0 +1,4 @@
+System Properties
+OK
+This environment variable is too large. This dialog allows setting values up to 2047 characters long.
+

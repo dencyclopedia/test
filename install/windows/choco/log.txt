@@ -1,17 +1,17 @@
-captured 2026-11-18T07:13:19Z on Microsoft Windows Server 2025 Datacenter build 26100
-CPU: AMD EPYC 7763 64-Core Processor                 cores: 4
+captured 2026-11-18T07:17:27Z on Microsoft Windows Server 2025 Datacenter build 26100
+CPU: AMD EPYC 9V74 80-Core Processor                 cores: 4
 
 ### before install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 INFO: Could not find files for the given pattern(s).
-C:\> tesseract --version
+> tesseract --version
 'tesseract' is not recognized as an internal or external command,
 operable program or batch file.
 
 ### choco version
 PS> choco --version
 2.7.5
-[exit 0, 3.5 s]
+[exit 0, 3.1 s]
 
 ### choco search
 PS> choco search tesseract --limit-output
@@ -68,11 +68,7 @@ tesseract 5.5.3.20260724 [Approved]
  Release Notes: https://github.com/UB-Mannheim/tesseract/wiki
 
 1 packages found.
-
-Did you know Pro / Business automatically syncs with Programs and
- Features? Learn more about Package Synchronizer at
- https://chocolatey.org/compare
-[exit 0, 1.5 s]
+[exit 0, 1.4 s]
 
 ### choco install
 PS> choco install tesseract -y --no-progress
@@ -95,7 +91,7 @@ Environment Vars (like PATH) have changed. Close/reopen your shell to
 
 Chocolatey installed 1/1 packages. 
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
-[exit 0, 17.7 s]
+[exit 0, 20 s]
 
 ### choco list
 PS> choco list tesseract
@@ -151,9 +147,9 @@ Estimating resolution as 246
 PATH entries added by the install: C:\Program Files\Tesseract-OCR
 
 ### after install (new cmd process, PATH re-read from registry Machine+User)
-C:\> where tesseract
+> where tesseract
 C:\Program Files\Tesseract-OCR\tesseract.exe
-C:\> tesseract --version
+> tesseract --version
 tesseract v5.5.3.20260724
  leptonica-1.87.0
   libgif 5.2.2 : libjpeg 8d (libjpeg-turbo 3.1.3) : libpng 1.6.58 : libtiff 4.7.2 : zlib 1.3.1 : libwebp 1.6.0 : libopenjp2 2.5.4
@@ -165,7 +161,7 @@ tesseract v5.5.3.20260724
  Found libcurl/8.21.0 Schannel zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 WinLDAP
 {
   "pm": "choco",
-  "install_seconds": 17.7,
+  "install_seconds": 20.0,
   "install_exit": 0,
   "install_dir": "C:\\Program Files\\Tesseract-OCR",
   "installed_bytes": 116376959.0,
@@ -173,11 +169,11 @@ tesseract v5.5.3.20260724
     "eng.traineddata",
     "osd.traineddata"
   ],
-  "free_space_delta_bytes": 212889600,
+  "free_space_delta_bytes": 228798464,
   "path_entries_added": [
     "C:\\Program Files\\Tesseract-OCR"
   ],
   "registry_path_has_tesseract_dir": true
 }
-[07:13:59 UTC +    2.0s] console windows-choco-fresh-console: finished=True launcher=explorer
-[07:14:03 UTC +    6.2s] screenshot windows-choco-fresh-console-desktop.png, windows-choco-fresh-console.png
+[07:18:07 UTC +    2.0s] console windows-choco-fresh-console: finished=True launcher=explorer
+[07:18:11 UTC +    6.2s] screenshot windows-choco-fresh-console-desktop.png, windows-choco-fresh-console.png
