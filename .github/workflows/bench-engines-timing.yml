@@ -1,0 +1,90 @@
+name: bench-engines-timing
+# Tesseract 5.5.4 vs EasyOCR vs PaddleOCR: per-image seconds (CPU) and install footprint, on a GitHub runner.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/engines/timing.py'
+      - 'bench/engines/footprint.sh'
+      - 'bench/accuracy/build-tesseract.sh'
+      - '.github/workflows/bench-engines-timing.yml'
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: timed runs per image (after 1 warm-up)
+        default: '5'
+permissions:
+  contents: write
+concurrency:
+  group: bench-engines-timing
+  cancel-in-progress: true
+jobs:
+  engines:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    env:
+      RUNS: ${{ github.event.inputs.runs || '5' }}
+      OUT: bench/engines/results/timing
+      PADDLE_PDX_MODEL_SOURCE: huggingface
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare dirs
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-bench-${{ runner.os }}-${{ hashFiles('bench/accuracy/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 + fetch pinned models
+        run: bash bench/accuracy/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-bench-${{ runner.os }}-${{ hashFiles('bench/accuracy/build-tesseract.sh') }}
+      - name: Install engines and measure footprint
+        run: bash bench/engines/footprint.sh "$OUT"
+      - name: Timing, 1 thread
+        env:
+          THREADS: '1'
+        run: |
+          rm -f "$OUT/timing-engines.csv"
+          python3 bench/engines/timing.py tesseract "$OUT/timing-engines.csv" "$RUNS"
+          ~/venv-easyocr/bin/python bench/engines/timing.py easyocr "$OUT/timing-engines.csv" "$RUNS"
+          ~/venv-paddle/bin/python bench/engines/timing.py paddleocr "$OUT/timing-engines.csv" "$RUNS"
+      - name: Timing, default threads (EasyOCR / PaddleOCR use all cores)
+        run: |
+          ~/venv-easyocr/bin/python bench/engines/timing.py easyocr "$OUT/timing-engines.csv" "$RUNS"
+          ~/venv-paddle/bin/python bench/engines/timing.py paddleocr "$OUT/timing-engines.csv" "$RUNS"
+      - name: meta.json
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os, platform, subprocess
+          out = os.environ["OUT"]
+          def sh(c): return subprocess.run(c, shell=True, capture_output=True, text=True).stdout.strip()
+          m = {"machine": f"GitHub Actions runner ({os.environ.get('ImageOS')}, image {os.environ.get('ImageVersion')}, run {os.environ.get('GITHUB_RUN_ID')})",
+               "os": platform.platform(), "cpu": sh("grep -m1 'model name' /proc/cpuinfo | cut -d: -f2").strip(),
+               "cores": os.cpu_count(), "lscpu": sh("lscpu"), "memory": sh("free -m"),
+               "tesseract": sh("/opt/tess554/bin/tesseract --version 2>&1 | head -2"),
+               "tesseract_source_commit": sh("cat /opt/tess554/SOURCE_COMMIT"),
+               "models": {d: sh(f"cat /opt/tessdata/{d}/COMMIT") for d in ("tessdata_fast", "tessdata", "tessdata_best")},
+               "easyocr_freeze": sh("~/venv-easyocr/bin/pip freeze"), "paddle_freeze": sh("~/venv-paddle/bin/pip freeze"),
+               "git_sha": os.environ.get("GITHUB_SHA"), "runs_per_image": os.environ.get("RUNS"), "warmup_runs": 1,
+               "env": {"PADDLE_PDX_MODEL_SOURCE": "huggingface", "tesseract": "OMP_THREAD_LIMIT=1"}}
+          os.makedirs(out, exist_ok=True)
+          json.dump(m, open(f"{out}/meta.json", "w"), indent=1)
+          PY
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/engines/results/timing
+          git commit -q -m "bench/engines: timing + footprint from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done

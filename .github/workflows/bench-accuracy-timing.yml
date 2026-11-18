@@ -1,0 +1,59 @@
+name: bench-accuracy-timing
+# Seconds per page for Tesseract 5.5.4 by DPI and by model (fast/standard/best). Timing is only published from
+# GitHub Actions runners (LAB.md). Accuracy (CER/WER) is deterministic and produced by bench/*/run.py elsewhere.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/accuracy/timing.py'
+      - 'bench/accuracy/benchlib.py'
+      - 'bench/accuracy/build-tesseract.sh'
+      - '.github/workflows/bench-accuracy-timing.yml'
+  workflow_dispatch:
+    inputs:
+      runs:
+        description: timed runs per image (after 1 warm-up)
+        default: '5'
+permissions:
+  contents: write
+concurrency:
+  group: bench-accuracy-timing
+  cancel-in-progress: true
+jobs:
+  timing:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    env:
+      RUNS: ${{ github.event.inputs.runs || '5' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare dirs
+        run: sudo mkdir -p /opt/tess554 /opt/tessdata && sudo chown -R "$(id -u)" /opt/tess554 /opt/tessdata
+      - name: Restore Tesseract 5.5.4 build
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: /opt/tess554
+          key: tess554-bench-${{ runner.os }}-${{ hashFiles('bench/accuracy/build-tesseract.sh') }}
+      - name: Build Tesseract 5.5.4 + fetch pinned models
+        run: bash bench/accuracy/build-tesseract.sh
+      - name: Save Tesseract build
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: /opt/tess554
+          key: tess554-bench-${{ runner.os }}-${{ hashFiles('bench/accuracy/build-tesseract.sh') }}
+      - name: Runner hardware
+        run: |
+          lscpu | head -20
+          nproc
+          free -m
+      - name: Timing (DPI, models)
+        run: python3 bench/accuracy/timing.py bench/accuracy/results/timing "$RUNS"
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/accuracy/results/timing
+          git commit -q -m "bench/accuracy: timing results from run ${{ github.run_id }}" || exit 0
+          for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep $((i*7)); done
