@@ -1,0 +1,72 @@
+name: feasibility-install-capture
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/feasibility.yml']
+permissions:
+  contents: write
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture install on Windows
+        shell: pwsh
+        run: |
+          $out = "results/feasibility/windows"; New-Item -ItemType Directory -Force $out | Out-Null
+          Add-Type -AssemblyName System.Windows.Forms,System.Drawing
+          function Shot($name) {
+            $b = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
+            $bmp = New-Object System.Drawing.Bitmap $b.Width, $b.Height
+            $g = [System.Drawing.Graphics]::FromImage($bmp)
+            try { $g.CopyFromScreen($b.Location, [System.Drawing.Point]::Empty, $b.Size); $bmp.Save("$out/$name.png") ; "shot ok $name $($b.Width)x$($b.Height)" } catch { "shot FAILED $name : $_" }
+          }
+          $log = "$out/log.txt"
+          (Get-CimInstance Win32_OperatingSystem | Select Caption,Version | Out-String) | Tee-Object -Append $log
+          "where before:" | Tee-Object -Append $log; (where.exe tesseract 2>&1 | Out-String) | Tee-Object -Append $log
+          $rel = Invoke-RestMethod -Headers @{Authorization="Bearer ${{ github.token }}"} https://api.github.com/repos/UB-Mannheim/tesseract/releases/latest
+          $asset = $rel.assets | Where-Object name -like "*w64-setup*.exe" | Select -First 1
+          "release: $($rel.tag_name) asset: $($asset.name) bytes: $($asset.size)" | Tee-Object -Append $log
+          Invoke-WebRequest $asset.browser_download_url -OutFile setup.exe
+          "sha256: $((Get-FileHash setup.exe).Hash)" | Tee-Object -Append $log
+          $p = Start-Process .\setup.exe -PassThru; Start-Sleep 12; Shot "installer-first-screen" | Tee-Object -Append $log; Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
+          $t = Measure-Command { Start-Process .\setup.exe -ArgumentList "/S" -Wait }
+          "silent install seconds: $([math]::Round($t.TotalSeconds,1))" | Tee-Object -Append $log
+          $dir = "C:\Program Files\Tesseract-OCR"
+          "install MB: $([math]::Round((Get-ChildItem $dir -Recurse | Measure-Object Length -Sum).Sum/1MB,1))" | Tee-Object -Append $log
+          "where after (new shell):" | Tee-Object -Append $log; (cmd /c "where tesseract" 2>&1 | Out-String) | Tee-Object -Append $log
+          "machine PATH has it: $([Environment]::GetEnvironmentVariable('Path','Machine') -like '*Tesseract-OCR*')" | Tee-Object -Append $log
+          (& "$dir\tesseract.exe" --version 2>&1 | Out-String) | Tee-Object -Append $log
+          (& "$dir\tesseract.exe" --list-langs 2>&1 | Out-String) | Tee-Object -Append $log
+          (& "$dir\tesseract.exe" samples\receipt.png - 2>&1 | Out-String) | Tee-Object -Append $log
+          (cmd /c "tesseract --version" 2>&1 | Out-String) | Tee-Object -Append "$out/not-recognized-check.txt"
+          Start-Process cmd -ArgumentList '/k "C:\Program Files\Tesseract-OCR\tesseract.exe" --version' ; Start-Sleep 4; Shot "cmd-version" | Tee-Object -Append $log
+      - uses: actions/upload-artifact@v4
+        with: { name: windows, path: results/feasibility/windows }
+  macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Capture install on macOS
+        run: |
+          out=results/feasibility/macos; mkdir -p $out; log=$out/log.txt
+          sw_vers | tee -a $log; uname -m | tee -a $log
+          which tesseract >>$log 2>&1 || echo "not installed before" | tee -a $log
+          s=$(date +%s); brew install tesseract > $out/brew.txt 2>&1; echo "brew install seconds: $(( $(date +%s)-s ))" | tee -a $log
+          tesseract --version 2>&1 | tee -a $log
+          du -sh "$(brew --prefix tesseract)/" "$(brew --prefix tesseract)/share/tessdata" 2>&1 | tee -a $log
+          tesseract samples/receipt.png - 2>&1 | tee -a $log
+          screencapture -x $out/screen.png && echo "screencapture ok" | tee -a $log || echo "screencapture FAILED" | tee -a $log
+      - uses: actions/upload-artifact@v4
+        with: { name: macos, path: results/feasibility/macos }
+  collect:
+    needs: [windows, macos]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: results/feasibility }
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results && git commit -m "Feasibility capture results" && git push || echo nothing
