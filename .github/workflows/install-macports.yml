@@ -1,0 +1,32 @@
+name: install-macports
+# MacPorts is not preinstalled on GitHub's macOS runners: install the official .pkg, then port install tesseract.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/install-macports.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  macports:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    env:
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: MacPorts
+        run: |
+          out=out/macports; mkdir -p $out
+          sw_vers > $out/sw_vers.txt; uname -m >> $out/sw_vers.txt
+          bash install/macos/scripts/macports.sh $out
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Commit results
+        if: always()
+        run: |
+          d=install/macos/macports; rm -rf $d; mkdir -p install/macos; cp -R out/macports $d
+          echo "run: $RUN_URL" > $d/RUN.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $d; git commit -q -m "macOS MacPorts capture (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done

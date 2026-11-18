@@ -1,6 +1,6 @@
 name: install-macos
 # macOS install captures: Homebrew (arm64 macos-latest; Intel labels attempted), tesseract-lang,
-# Terminal.app screenshots, pytesseract error, and MacPorts (installed from its official .pkg).
+# Terminal.app screenshots, pytesseract error. MacPorts: see install-macports.yml.
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
@@ -31,24 +31,4 @@ jobs:
           echo "run: $RUN_URL" > $d/RUN.txt
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $d; git commit -q -m "macOS install captures: ${{ matrix.runner }} (run ${{ github.run_id }})" || exit 0
-          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
-  macports:
-    runs-on: macos-latest
-    timeout-minutes: 60
-    env:
-      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: MacPorts
-        run: |
-          out=out/macports; mkdir -p $out
-          sw_vers > $out/sw_vers.txt; uname -m >> $out/sw_vers.txt
-          bash install/macos/scripts/macports.sh $out
-      - name: Commit results
-        if: always()
-        run: |
-          d=install/macos/macports; rm -rf $d; mkdir -p install/macos; cp -R out/macports $d
-          echo "run: $RUN_URL" > $d/RUN.txt
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add $d; git commit -q -m "macOS MacPorts capture (run ${{ github.run_id }})" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done

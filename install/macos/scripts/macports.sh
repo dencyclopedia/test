@@ -6,7 +6,8 @@ OUT=$1; LOG=$OUT/macports.txt
 exec > >(tee -a "$LOG") 2>&1
 echo "port before: $(which port 2>&1 || echo 'not installed')"
 major=$(sw_vers -productVersion | cut -d. -f1)
-curl -sS https://api.github.com/repos/macports/macports-base/releases/latest > /tmp/mp.json
+curl -sS ${GH_TOKEN:+-H "Authorization: Bearer $GH_TOKEN"} https://api.github.com/repos/macports/macports-base/releases/latest > /tmp/mp.json
+head -c 300 /tmp/mp.json; echo
 python3 - "$major" <<'P' > /tmp/mp-url.txt
 import json,sys
 d=json.load(open('/tmp/mp.json')); m=sys.argv[1]
@@ -15,6 +16,10 @@ c=[a['browser_download_url'] for a in d.get('assets',[]) if a['name'].endswith('
 print(c[0] if c else '')
 P
 url=$(cat /tmp/mp-url.txt)
+if [ -z "$url" ]; then  # fallback: the distfiles directory listing
+  f=$(curl -sS https://distfiles.macports.org/MacPorts/ | grep -oE "MacPorts-[0-9.]+-$major-[A-Za-z]+\.pkg" | sort -uV | tail -1)
+  [ -n "$f" ] && url=https://distfiles.macports.org/MacPorts/$f
+fi
 echo "macports pkg for macOS $major: ${url:-NONE FOUND}"
 python3 -c "import json;print('assets:', [a['name'] for a in json.load(open('/tmp/mp.json')).get('assets',[]) if a['name'].endswith('.pkg')])"
 [ -z "$url" ] && { echo "RESULT: no MacPorts installer for this macOS version"; exit 0; }
