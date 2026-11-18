@@ -18,7 +18,7 @@ def mb(b):
     return f'{b / 1e6:.1f}' if b not in (None, '') else 'n/c'
 
 rows = []
-H = ['Method', 'OS (as tested)', 'Tesseract', 'Time to working OCR (s)', 'Download (MB)', 'Installed (MB)', 'Admin / root', 'PATH set automatically?', 'Notes', 'Source']
+H = ['Method', 'OS (as tested)', 'Tesseract', 'Time to working OCR (s)', 'Download', 'Installed', 'Admin / root', 'PATH set automatically?', 'Notes', 'Source']
 
 # ---------------- Windows
 if os.path.exists(P('windows', 'gui-default', 'result.json')):
@@ -31,8 +31,8 @@ if os.path.exists(P('windows', 'gui-default', 'result.json')):
     for mode, label in (('default', 'UB Mannheim installer, default components (GUI)'), ('all', 'UB Mannheim installer, all script + language data ticked (GUI)')):
         r = js('windows', f'gui-{mode}', 'result.json')
         ver = re.search(r'setup-([\d.]+)\.exe', r['installer']).group(1)
-        rows.append([label, wos, ver, f"{r['installing_seconds']} (Installing page only)", f"{mb(inst_bytes)}" + (' + language downloads during install' if mode == 'all' else ''),
-                     mb(r['installed_bytes']), f'installer manifest: `{man}`; installs to Program Files', 'no' if not any(pr['registry_path_has_tesseract_after_gui_install'].values()) else 'yes',
+        rows.append([label, wos, ver, f"{r['installing_seconds']} (Installing page only)", f"{mb(inst_bytes)} MB" + (' + language downloads during install' if mode == 'all' else ''),
+                     mb(r['installed_bytes']) + ' MB', f'installer manifest: `{man}`; installs to Program Files', 'no' if not any(pr['registry_path_has_tesseract_after_gui_install'].values()) else 'yes',
                      f"{len(r['traineddata_files'])} .traineddata; wizard says {r['space_required_selected']}", f'windows/gui-{mode}/result.json, windows/gui-default/download.txt, windows/gui-default/path-result.json'])
     for pm, label in (('winget', 'winget `UB-Mannheim.TesseractOCR`'), ('winget-tesseract-ocr', 'winget `tesseract-ocr.tesseract`'), ('choco', 'Chocolatey `tesseract`'), ('scoop', 'Scoop `tesseract`')):
         if not os.path.exists(P('windows', pm, 'result.json')):
@@ -57,7 +57,7 @@ if os.path.exists(P('windows', 'gui-default', 'result.json')):
         path = ('yes: ' + ', '.join(f'`{a}`' for a in added)) if added else 'no'
         path += '' if works else ' (new shell: "not recognized")'
         adm = 'user profile (runner session was admin)' if pm == 'scoop' else 'yes (Program Files; runner is admin)'
-        rows.append([label, wos, ver, str(t), dlmb, mb(r['installed_bytes']), adm, path, note, f'windows/{pm}/result.json, windows/{pm}/log.txt'])
+        rows.append([label, wos, ver, str(t), dlmb + (' MB' if dlmb != 'n/c' else ''), mb(r['installed_bytes']) + ' MB', adm, path, note, f'windows/{pm}/result.json, windows/{pm}/log.txt'])
     if os.path.exists(P('windows', 'wsl', 'result.json')):
         r = js('windows', 'wsl', 'result.json'); log = rd('windows', 'wsl', 'log.txt')
         ver = re.search(r'^tesseract ([\d.]+)', log, re.M).group(1)
