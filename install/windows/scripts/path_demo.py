@@ -10,7 +10,9 @@ res = {}
 
 def txt(name, cmdline, shell='cmd'):
     """Run the same commands without a window to keep exact text (stdout+stderr)."""
-    if shell == 'cmd':
+    if isinstance(cmdline, list):
+        p = subprocess.run(cmdline, capture_output=True, text=True, encoding='utf-8', errors='replace'); cmdline = ' '.join(f'"{c}"' for c in cmdline)
+    elif shell == 'cmd':
         p = subprocess.run(['cmd.exe', '/d', '/c', cmdline], capture_output=True, text=True, encoding='utf-8', errors='replace')
     else:
         p = subprocess.run([shell, '-NoProfile', '-Command', cmdline], capture_output=True, text=True, encoding='utf-8', errors='replace')
@@ -39,7 +41,7 @@ with open(pyfile, 'w') as f:
             f'print(pytesseract.image_to_string(Image.open(r"{SAMPLE}")))\n')
 PY = sys.executable
 console('Python - pytesseract', [f'echo %CD%^> "{PY}" "{pyfile}"', f'"{PY}" "{pyfile}"'], 'windows-error-pytesseract-not-found', launcher='explorer')
-txt('windows-error-pytesseract-not-found', f'"{PY}" "{pyfile}"')
+txt('windows-error-pytesseract-not-found', [PY, pyfile])
 
 # --- 3. the fix: Environment Variables dialog. Try the System Path first (what most guides say);
 # if Windows refuses (runner's system Path is longer than the dialog's 2047-char limit), cancel and

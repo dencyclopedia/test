@@ -21,8 +21,13 @@ for d in sorted(glob.glob(os.path.join(R, '*/session.log'))):
         return round(sum(v), 2) if v else ''
     install_steps = [s for s in ('update', 'sync', 'refresh', 'prereq', 'add-ppa', 'install', 'install-eng') if s in steps]
     seg = log[log.find('# ' + steps['install']['command']):] if 'install' in steps else log
-    dl = re.search(r'(Need to get [^\n]*|Total size of inbound packages[^\n]*|Total Download Size: *[^\n]*|Package download size: *[^\n]*)', seg)
+    dl = re.search(r'(Need to get [^\n]*|Total size of inbound packages[^\n]*|Total Download Size: *[^\n]*|Package download size: *[^\n]*|Total: +[\d.]+ [MG]B)', seg)
     inst = re.search(r'(After this operation, [^\n]*|Total Installed Size: *[^\n]*|OK: [^\n]* in \d+ packages|[\d.]+ MiB +required by packages that will be installed)', seg)
+    oks = re.findall(r'OK: [\d.]+ MiB in \d+ packages', log)
+    if oks and inst and inst.group(1).startswith('OK:'):
+        inst = None; ok_last = f'{oks[0]} after tesseract-ocr; {oks[-1]} after tesseract-ocr-data-eng (whole system)' if len(oks) > 1 else oks[0]
+    else:
+        ok_last = None
     lc = None
     if 'langs-count' in steps:
         seg = log.split('langs-count')[0]
@@ -34,7 +39,7 @@ for d in sorted(glob.glob(os.path.join(R, '*/session.log'))):
         'tesseract': m.group(1) if m else '', 'leptonica': m.group(2) if m else '',
         'install_cmd_seconds': t('install', 'install-eng'), 'update_seconds': t('update', 'sync', 'refresh'),
         'all_steps_to_installed_seconds': t(*install_steps), 'first_ocr_seconds': t('ocr'),
-        'pm_download': dl.group(1).strip() if dl else '', 'pm_installed': inst.group(1).strip() if inst else '',
+        'pm_download': dl.group(1).strip() if dl else '', 'pm_installed': ok_last or (inst.group(1).strip() if inst else ''),
         'rootfs_growth_MiB_after_cache_clean': round((kb('rootfs_kb_after') - kb('rootfs_kb_before')) / 1024, 1) if kb('rootfs_kb_after') else '',
         'conda_env_growth_MiB': round((kb('conda_kb_after') - kb('conda_kb_before')) / 1024, 1) if kb('conda_kb_after') else '',
         'langs_listed': langs_txt if langs else '',
