@@ -1,6 +1,6 @@
 $ curl -sS -i -F "file=@receipt.png" "http://localhost:8000/ocr?lang=eng"
 HTTP/1.1 200 OK
-date: Wed, 18 Nov 2026 13:00:53 GMT
+date: Wed, 18 Nov 2026 13:50:20 GMT
 server: uvicorn
 content-length: 319
 content-type: application/json
@@ -9,7 +9,7 @@ content-type: application/json
 
 $ curl -sS -i -F "file=@receipt.png" "http://localhost:8000/ocr?lang=fra"
 HTTP/1.1 400 Bad Request
-date: Wed, 18 Nov 2026 13:00:53 GMT
+date: Wed, 18 Nov 2026 13:50:20 GMT
 server: uvicorn
 content-length: 33
 content-type: application/json
@@ -18,7 +18,7 @@ content-type: application/json
 
 $ curl -sS -i http://localhost:8000/health
 HTTP/1.1 200 OK
-date: Wed, 18 Nov 2026 13:00:53 GMT
+date: Wed, 18 Nov 2026 13:50:20 GMT
 server: uvicorn
 content-length: 15
 content-type: application/json
@@ -29,7 +29,7 @@ $ curl -sS -i -F "file=@big.bin" "http://localhost:8000/ocr?lang=eng"   # 11 MB 
 HTTP/1.1 100 Continue
 
 HTTP/1.1 413 Request Entity Too Large
-date: Wed, 18 Nov 2026 13:00:53 GMT
+date: Wed, 18 Nov 2026 13:50:20 GMT
 server: uvicorn
 content-length: 27
 content-type: application/json
@@ -38,7 +38,7 @@ content-type: application/json
 
 $ curl -sS -i -F "file=@bad.png" "http://localhost:8000/ocr?lang=eng"
 HTTP/1.1 500 Internal Server Error
-date: Wed, 18 Nov 2026 13:00:53 GMT
+date: Wed, 18 Nov 2026 13:50:20 GMT
 server: uvicorn
 content-length: 21
 content-type: text/plain; charset=utf-8

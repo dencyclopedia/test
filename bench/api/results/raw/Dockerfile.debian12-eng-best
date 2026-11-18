@@ -1,5 +1,5 @@
 FROM debian:12-slim
-RUN apt-get update && apt-get install -y --no-install-recommends python3 python3-venv tesseract-ocr tesseract-ocr-eng && rm -rf /var/lib/apt/lists/* && python3 -m venv /venv
+RUN apt-get update && apt-get install -y --no-install-recommends python3 python3-venv tesseract-ocr tesseract-ocr-eng && rm -rf /var/lib/apt/lists/* && python3 -m venv /venv && rm -f /usr/share/tesseract-ocr/5/tessdata/eng.traineddata
 ADD https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/e12c65a915945e4c28e237a9b52bc4a8f39a0cec/eng.traineddata /usr/share/tesseract-ocr/5/tessdata/eng.traineddata
 ENV PATH=/venv/bin:$PATH
 ENV OMP_THREAD_LIMIT=1

@@ -1,5 +1,5 @@
 FROM alpine:3.22
-RUN apk add --no-cache python3 tesseract-ocr tesseract-ocr-data-eng && python3 -m venv /venv
+RUN apk add --no-cache python3 tesseract-ocr tesseract-ocr-data-eng && python3 -m venv /venv && rm -f /usr/share/tessdata/eng.traineddata
 ADD https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/e12c65a915945e4c28e237a9b52bc4a8f39a0cec/eng.traineddata /usr/share/tessdata/eng.traineddata
 ENV PATH=/venv/bin:$PATH
 ENV OMP_THREAD_LIMIT=1
