@@ -1,0 +1,52 @@
+repo	pull_count	star_count	is_official	description
+sleeck/tesseract	1137919	1	False	jpg to pdf with flasgger
+demisto/tesseract	296237	1	False	
+minidocks/tesseract	206446	2	False	Minimal tesseract images
+franky1/tesseract	97698	6	False	Docker Image with latest Tesseract OCR Version 5.x.x built from sources
+rosindustrial/tesseract	77290	5	False	
+philiplehmann/tesseract	56795	1	False	small wrapper around tesseract to transform images to text via stream
+mcchae/tesseract	44748	0	False	tesseract V 4 OCR program on Ubuntu 16.04
+devtestdemisto/tesseract	40205	0	False	
+nyanpass/tesseract	25375	0	False	tesseract for all languages. docker run -v "$PWD":/home/work nyanpass/tesseract tesseract test.png -
+gajrajiitr/tesseract	23321	0	False	tesseract 4 image based on Ubuntu:20, spported languages and openjdk 1.8.
+Compatible with Tess4j API
+lharmstrong/tesseract	16064	0	False	
+vimagick/tesseract	13371	18	False	An Open Source OCR engine, available under the Apache 2.0 license.
+v11t/tesseract	7242	0	False	tesseract builds for amazonlinux:2023
+webuni/tesseract	6281	0	False	Minimal tesseract images
+devdemisto/tesseract	6060	0	False	
+polytopelabs/tesseract	5188	3	False	The multi-chain relayer implementation for the ISMP protocol
+dbscale/tesseract	4156	0	False	tesseract
+dokify/tesseract	2540	0	False	
+unblibraries/tesseract	2043	0	False	Tesseract
+braisgabin/tesseract	1925	3	False	Tesseract OCR with its training tools
+imgfarm/tesseract	1640	0	False	
+seemeai/tesseract	1586	1	False	
+onesysadmin/tesseract	1560	0	False	
+otiai10/tesseract	1436	0	False	Docker image with Tesseract OCR of specific version
+thiagoalessio/tesseract	1405	0	False	
+9yuki6/tesseract	1242	0	False	
+toxxin/tesseract	1236	1	False	Tesseract OCR Engine
+nenadzaric/tesseract	1169	0	False	
+yshprasanth/tesseract	1086	0	False	
+ahvishalbala/tesseract	1067	0	False	An Ubuntu 18.04 environment with Tesseract OCR built from source.
+ianblenke/tesseract	1046	0	False	Tesseract OCR
+icodebetter/tesseract	977	0	False	
+bptarpley/tesseract	968	0	False	
+mpowelson/tesseract	962	0	False	
+h3edocker/tesseract	937	0	False	
+hmmbug/tesseract	906	0	False	Tesseract 4.00 (alpha) in an Alpine 3.5 image
+bwdysh/tesseract	895	0	False	
+ognestraz/tesseract	888	0	False	
+rremani/tesseract	871	0	False	
+hlm4380169/tesseract	756	0	False	jdk17-tesseract
+aifrim/tesseract	433	0	False	pre-built tesseract with leptonica
+joergpatz/tesseract	394	0	False	Docker container running tesseract-ocr as executable
+naxalpha/tesseract	363	0	False	docker image for building with tesseract 4.0a
+chapvic/tesseract	331	0	False	Tesseract OCR
+juzai/tesseract	321	0	False	docker image for tesseract, using tesseract_best LSTM model
+mapboss/tesseract	272	0	False	Tesseract OCR
+wartron/tesseract	256	0	False	A small alpine linux base image with tesseract
+containerize/tesseract	234	0	False	tesseract in docker
+crfreire/tesseract	203	1	False	Python + Tesseract
+vishwassharma/tesseract	167	0	False	Tesseract Latest Version

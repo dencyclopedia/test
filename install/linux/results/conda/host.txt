@@ -1,0 +1,3 @@
+pull_seconds=5.13
+image_id=sha256:0025a029fbf2dbcb4229010e8f7150522f459fe3972b249f0b66d130b80a2417 image_size_bytes=561129526 created=2026-11-07T18:23:14.629339938Z digest=condaforge/miniforge3@sha256:0a788afa8b54165d855d08552ce6d86e1e2553be2a9a18d542c69cfb02a6deaa
+container_exit=0

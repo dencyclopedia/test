@@ -1,0 +1,3 @@
+pull_seconds=1.76
+image_id=sha256:214b2bda8a5c1275d9fbb2f84ab57425027b6aa46fa1b2ac99f7dfb13abf4c8c image_size_bytes=116616145 created=2026-11-04T21:23:39Z digest=debian@sha256:268fb24c39bca92d326dd83ea3abebe4a3f7751c804ffef23bb6d857dd343ff8
+container_exit=0

@@ -1,0 +1,432 @@
+[1;32mroot@fedora[0m:[1;34m/[0m# cat /etc/os-release | head -4
+NAME="Fedora Linux"
+VERSION="45 (Container Image)"
+RELEASE_TYPE=stable
+ID=fedora
+[1;32mroot@fedora[0m:[1;34m/[0m# command -v tesseract || echo 'tesseract: not installed'
+tesseract: not installed
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract --version
+sh: line 1: tesseract: command not found
+[1;32mroot@fedora[0m:[1;34m/[0m# dnf install -y tesseract
+Updating and loading repositories:
+[?25l Fedora 45 openh264 (From Cisco) - x86_64                  ???% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   4.0   B/s | 986.0   B |  00m00s
+ Fedora 45 - x86_64 - Updates                              100% [==================] |  23.8 KiB/s |   7.9 KiB |  00m00s
+ Fedora 45 - x86_64                                         78% [==============    ] |  47.0 KiB/s |  15.7 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   4.0   B/s | 986.0   B |  00m00s
+ Fedora 45 - x86_64 - Updates                              100% [==================] |  23.8 KiB/s |   7.9 KiB |  00m00s
+ Fedora 45 - x86_64                                        100% [==================] |  47.0 KiB/s |  20.0 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   4.0   B/s | 986.0   B |  00m00s
+ Fedora 45 - x86_64 - Updates                              100% [==================] |  23.8 KiB/s |  14.8 KiB |  00m00s
+ Fedora 45 - x86_64                                        100% [==================] |  47.0 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   4.0   B/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64 - Updates                              100% [==================] |  23.8 KiB/s |  14.8 KiB |  00m00s
+ Fedora 45 - x86_64                                        100% [==================] |  47.0 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   4.0   B/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64 - Updates                               10% [==                ] |  23.8 KiB/s | 154.5 KiB |  00m53s
+ Fedora 45 - x86_64                                        100% [==================] |  47.0 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   3.8 KiB/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64 - Updates                               11% [==                ] | 619.1 KiB/s | 651.3 KiB |  00m08s
+ Fedora 45 - x86_64                                        100% [==================] |  24.6 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   3.8 KiB/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64 - Updates                               45% [========          ] | 619.1 KiB/s |   2.5 MiB |  00m05s
+ Fedora 45 - x86_64                                        100% [==================] |  24.6 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   3.8 KiB/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64 - Updates                               95% [================= ] | 619.1 KiB/s |   5.4 MiB |  00m00s
+ Fedora 45 - x86_64                                        100% [==================] |  24.6 KiB/s |  25.9 KiB |  00m00s[2A[0J Fedora 45 - x86_64 - Updates                                                   100% |   5.0 MiB/s |   5.4 MiB |  00m01s
+ Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   3.8 KiB/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64                                        100% [==================] |  24.6 KiB/s |  25.9 KiB |  00m00s[1A[0J Fedora 45 openh264 (From Cisco) - x86_64                  100% [==================] |   3.8 KiB/s |   4.0 KiB |  00m00s
+ Fedora 45 - x86_64                                          4% [=                 ] |  24.6 KiB/s |  25.9 KiB |  00m23s[1A[0J Fedora 45 openh264 (From Cisco) - x86_64                                       100% |   4.5 KiB/s |   5.3 KiB |  00m01s
+ Fedora 45 - x86_64                                          4% [=                 ] |  24.6 KiB/s |  25.9 KiB |  00m23s[0J Fedora 45 - x86_64                                          9% [==                ] |  24.6 KiB/s |  57.6 KiB |  00m22s[0J Fedora 45 - x86_64                                         19% [====              ] |  24.6 KiB/s | 185.0 KiB |  00m30s[0J Fedora 45 - x86_64                                         50% [=========         ] |  24.6 KiB/s | 473.0 KiB |  00m18s[0J Fedora 45 - x86_64                                        100% [==================] | 939.1 KiB/s | 938.7 KiB |  00m00s[0J Fedora 45 - x86_64                                          5% [=                 ] | 939.1 KiB/s |   2.1 MiB |  00m40s[0J Fedora 45 - x86_64                                          7% [=                 ] | 939.1 KiB/s |   3.1 MiB |  00m39s[0J Fedora 45 - x86_64                                         15% [===               ] | 939.1 KiB/s |   6.1 MiB |  00m36s[0J Fedora 45 - x86_64                                         36% [=======           ] | 939.1 KiB/s |  14.2 MiB |  00m27s[0J Fedora 45 - x86_64                                         68% [============      ] | 939.1 KiB/s |  27.1 MiB |  00m13s[0J Fedora 45 - x86_64                                                             100% |  14.4 MiB/s |  36.7 MiB |  00m03s
+]9;4;0;0\[?25hRepositories loaded.
+[1mPackage                                [0m [1mArch      [0m [1mVersion                                [0m [1mRepository     [0m [1m         Size[0m
+Installing:
+[32m tesseract                             [0m x86_64     0:5.5.4-1.fc45                          updates              83.5 KiB
+Installing dependencies:
+[32m giflib                                [0m x86_64     0:6.1.3-3.fc45                          fedora              122.1 KiB
+[32m jbigkit-libs                          [0m x86_64     0:2.1-34.fc45                           fedora              117.2 KiB
+[32m leptonica                             [0m x86_64     0:1.87.0-5.fc45                         fedora                3.2 MiB
+[32m libjpeg-turbo                         [0m x86_64     0:3.1.4.1-2.fc45                        fedora              821.8 KiB
+[32m liblerc                               [0m x86_64     0:4.3.0-1.fc45                          updates             665.2 KiB
+[32m libpng                                [0m x86_64     2:1.6.59-1.fc45                         updates             253.7 KiB
+[32m libtiff                               [0m x86_64     0:4.7.2-3.fc45                          updates             644.5 KiB
+[32m libwebp                               [0m x86_64     0:1.6.0-4.fc45                          fedora              968.1 KiB
+[32m tesseract-common                      [0m noarch     0:5.5.4-1.fc45                          updates              14.7 KiB
+[32m tesseract-langpack-eng                [0m noarch     0:4.1.0-13.fc45                         fedora                3.9 MiB
+[32m tesseract-libs                        [0m x86_64     0:5.5.4-1.fc45                          updates               3.4 MiB
+[32m tesseract-tessdata-doc                [0m noarch     0:4.1.0-13.fc45                         fedora               15.0 KiB
+
+Transaction Summary:
+ Installing:        13 packages
+
+Total size of inbound packages is 6 MiB. Need to download 6 MiB.
+After this operation, 14 MiB extra will be used (install 14 MiB, remove 0 B).
+[?25l[ 1/13] tesseract-0:5.5.4-1.fc45.x86_64                      0% [<=>               ] |  15.0   B/s |   0.0   B |  56m41s
+------------------------------------------------------------------------------------------------------------------------
+[ 0/13] Total                                                0% [<=>               ] |  15.0   B/s |   0.0   B |  04d14h]9;4;1;0\[2A[0J[ 1/13] tesseract-0:5.5.4-1.fc45.x86_64                     83% [===============   ] |  15.0   B/s |  41.6 KiB |  09m23s
+[ 2/13] tesseract-libs-0:5.5.4-1.fc45.x86_64                 2% [=                 ] | 250.4 KiB/s |  41.6 KiB |  00m05s
+------------------------------------------------------------------------------------------------------------------------
+[ 0/13] Total                                                1% [                  ] |  15.0   B/s |  83.1 KiB |  04d12h]9;4;1;1\[3A[0J[ 1/13] tesseract-0:5.5.4-1.fc45.x86_64                                         100% | 483.7 KiB/s |  49.8 KiB |  00m00s
+[ 2/13] tesseract-libs-0:5.5.4-1.fc45.x86_64                 2% [=                 ] | 250.4 KiB/s |  41.6 KiB |  00m05s
+------------------------------------------------------------------------------------------------------------------------
+[ 1/13] Total                                                1% [                  ] |  15.0   B/s |  91.4 KiB |  04d12h]9;4;1;1\[2A[0J[ 2/13] tesseract-common-0:5.5.4-1.fc45.noarch                                  100% | 714.2 KiB/s |  24.3 KiB |  00m00s
+[ 3/13] tesseract-libs-0:5.5.4-1.fc45.x86_64                14% [===               ] | 250.4 KiB/s | 208.9 KiB |  00m04s
+[ 4/13] leptonica-0:1.87.0-5.fc45.x86_64                     0% [<=>               ] |   4.0   B/s |   0.0   B |  03d19h
+------------------------------------------------------------------------------------------------------------------------
+[ 2/13] Total                                                4% [=                 ] |  15.0   B/s | 283.0 KiB |  04d09h]9;4;1;4\[3A[0J[ 3/13] tesseract-libs-0:5.5.4-1.fc45.x86_64                35% [======            ] | 250.4 KiB/s | 503.3 KiB |  00m03s
+[ 4/13] leptonica-0:1.87.0-5.fc45.x86_64                     1% [                  ] |   4.0   B/s |  15.7 KiB |  03d18h
+------------------------------------------------------------------------------------------------------------------------
+[ 2/13] Total                                               10% [==                ] |  15.0   B/s | 593.1 KiB |  04d03h]9;4;1;10\[3A[0J[ 3/13] tesseract-libs-0:5.5.4-1.fc45.x86_64                                    100% |   5.7 MiB/s |   1.4 MiB |  00m00s
+[ 4/13] leptonica-0:1.87.0-5.fc45.x86_64                     1% [                  ] |   4.0   B/s |  15.7 KiB |  03d18h
+------------------------------------------------------------------------------------------------------------------------
+[ 3/13] Total                                               25% [=====             ] |  15.0   B/s |   1.5 MiB |  03d10h]9;4;1;25\[2A[0J[ 4/13] leptonica-0:1.87.0-5.fc45.x86_64                     3% [=                 ] |   4.0   B/s |  47.7 KiB |  03d16h
+[ 5/13] giflib-0:6.1.3-3.fc45.x86_64                         0% [<=>               ] |   2.0   B/s |   0.0   B |  07h54m
+------------------------------------------------------------------------------------------------------------------------
+[ 3/13] Total                                               26% [=====             ] |  15.0   B/s |   1.5 MiB |  03d09h]9;4;1;26\[3A[0J[ 4/13] leptonica-0:1.87.0-5.fc45.x86_64                    13% [==                ] |   4.0   B/s | 175.7 KiB |  03d07h
+[ 5/13] giflib-0:6.1.3-3.fc45.x86_64                         0% [<=>               ] |   2.0   B/s |   0.0   B |  07h54m
+[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64                0% [<=>               ] |   2.0   B/s |   0.0   B |  01d10h
+------------------------------------------------------------------------------------------------------------------------
+[ 3/13] Total                                               28% [=====             ] |  15.0   B/s |   1.6 MiB |  03d07h]9;4;1;28\[4A[0J[ 4/13] giflib-0:6.1.3-3.fc45.x86_64                                            100% | 250.5 KiB/s |  55.6 KiB |  00m00s
+[ 5/13] leptonica-0:1.87.0-5.fc45.x86_64                    32% [======            ] |   4.0   B/s | 415.7 KiB |  02d14h
+[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64                0% [<=>               ] |   2.0   B/s |   0.0   B |  01d10h
+------------------------------------------------------------------------------------------------------------------------
+[ 4/13] Total                                               33% [======            ] |  15.0   B/s |   1.9 MiB |  03d01h]9;4;1;33\[3A[0J[ 5/13] leptonica-0:1.87.0-5.fc45.x86_64                    38% [=======           ] |   4.0   B/s | 495.7 KiB |  02d08h
+[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64                0% [<=>               ] |   2.0   B/s |   0.0   B |  01d10h
+[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                        0% [<=>               ] |   1.0   B/s |   0.0   B |  03d21h
+------------------------------------------------------------------------------------------------------------------------
+[ 4/13] Total                                               34% [======            ] |  15.0   B/s |   2.0 MiB |  03d00h]9;4;1;34\[4A[0J[ 5/13] leptonica-0:1.87.0-5.fc45.x86_64                                        100% |   2.5 MiB/s |   1.3 MiB |  00m01s
+[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64               19% [====              ] |   2.0   B/s |  47.7 KiB |  01d03h
+[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                       14% [===               ] |   1.0   B/s |  47.7 KiB |  03d07h
+------------------------------------------------------------------------------------------------------------------------
+[ 5/13] Total                                               50% [=========         ] |  15.0   B/s |   2.8 MiB |  02d07h]9;4;1;50\[3A[0J[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64               19% [====              ] |   2.0   B/s |  47.7 KiB |  01d03h
+[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                       19% [===               ] |   1.0   B/s |  63.7 KiB |  03d03h
+[ 8/13] tesseract-langpack-eng-0:4.1.0-13.fc45.noarch        0% [<=>               ] |   1.0   B/s |   0.0   B |  21d00h
+------------------------------------------------------------------------------------------------------------------------
+[ 5/13] Total                                               50% [=========         ] |  15.0   B/s |   2.9 MiB |  02d06h]9;4;1;50\[4A[0J[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64               65% [============      ] |   2.0   B/s | 159.7 KiB |  11h47m
+[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                       63% [===========       ] |   1.0   B/s | 207.7 KiB |  01d10h
+[ 8/13] tesseract-langpack-eng-0:4.1.0-13.fc45.noarch       62% [===========       ] |   1.0   B/s |   1.1 MiB |  07d22h
+------------------------------------------------------------------------------------------------------------------------
+[ 5/13] Total                                               73% [=============     ] |  15.0   B/s |   4.2 MiB |  01d05h]9;4;1;73\[4A[0J[ 6/13] libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64                                   100% | 661.0 KiB/s | 242.6 KiB |  00m00s
+[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                       97% [================= ] |   1.0   B/s | 319.7 KiB |  02h36m
+[ 8/13] tesseract-langpack-eng-0:4.1.0-13.fc45.noarch       90% [================  ] |   1.0   B/s |   1.6 MiB |  02d01h
+------------------------------------------------------------------------------------------------------------------------
+[ 6/13] Total                                               85% [===============   ] |  15.0   B/s |   4.9 MiB |  16h01m]9;4;1;85\[3A[0J[ 7/13] libwebp-0:1.6.0-4.fc45.x86_64                                           100% |   1.2 MiB/s | 328.9 KiB |  00m00s
+[ 8/13] tesseract-langpack-eng-0:4.1.0-13.fc45.noarch       91% [================= ] |   1.0   B/s |   1.6 MiB |  01d16h
+[ 9/13] tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch        0% [<=>               ] |   1.0   B/s |   0.0   B |  03h47m
+------------------------------------------------------------------------------------------------------------------------
+[ 7/13] Total                                               86% [================  ] |  15.0   B/s |   4.9 MiB |  15h14m]9;4;1;86\[3A[0J[ 8/13] tesseract-langpack-eng-0:4.1.0-13.fc45.noarch                           100% |  11.0 MiB/s |   1.7 MiB |  00m00s
+[ 9/13] tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch        0% [<=>               ] |   1.0   B/s |   0.0   B |  03h47m
+[10/13] libpng-2:1.6.59-1.fc45.x86_64                        0% [<=>               ] |   1.0   B/s |   0.0   B |  01d12h
+------------------------------------------------------------------------------------------------------------------------
+[ 8/13] Total                                               88% [================  ] |  15.0   B/s |   5.0 MiB |  12h31m]9;4;1;88\[3A[0J[ 9/13] libtiff-0:4.7.2-3.fc45.x86_64                                           100% |   6.3 MiB/s | 233.4 KiB |  00m00s
+[10/13] tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch        0% [<=>               ] |   1.0   B/s |   0.0   B |  03h47m
+[11/13] libpng-2:1.6.59-1.fc45.x86_64                       11% [==                ] |   1.0   B/s |  15.1 KiB |  01d08h
+------------------------------------------------------------------------------------------------------------------------
+[ 9/13] Total                                               92% [================= ] |  15.0   B/s |   5.3 MiB |  07h49m]9;4;1;92\[3A[0J[10/13] tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch        0% [<=>               ] |   1.0   B/s |   0.0   B |  03h47m
+[11/13] libpng-2:1.6.59-1.fc45.x86_64                       11% [==                ] |   1.0   B/s |  15.1 KiB |  01d08h
+[12/13] jbigkit-libs-0:2.1-34.fc45.x86_64                    0% [<=>               ] |   1.0   B/s |   0.0   B |  15h23m
+------------------------------------------------------------------------------------------------------------------------
+[ 9/13] Total                                               92% [================= ] |  15.0   B/s |   5.3 MiB |  07h49m]9;4;1;92\[4A[0J[10/13] tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch                           100% | 193.3 KiB/s |  13.3 KiB |  00m00s
+[11/13] libpng-2:1.6.59-1.fc45.x86_64                       35% [======            ] |   1.0   B/s |  45.8 KiB |  23h43m
+[12/13] jbigkit-libs-0:2.1-34.fc45.x86_64                    0% [<=>               ] |   1.0   B/s |   0.0   B |  15h23m
+------------------------------------------------------------------------------------------------------------------------
+[10/13] Total                                               93% [================= ] |  15.0   B/s |   5.3 MiB |  06h59m]9;4;1;93\[3A[0J[11/13] liblerc-0:4.3.0-1.fc45.x86_64                                           100% |   6.1 MiB/s | 230.8 KiB |  00m00s
+[12/13] libpng-2:1.6.59-1.fc45.x86_64                       82% [===============   ] |   1.0   B/s | 107.2 KiB |  06h16m
+[13/13] jbigkit-libs-0:2.1-34.fc45.x86_64                    0% [<=>               ] |   1.0   B/s |   0.0   B |  15h23m
+------------------------------------------------------------------------------------------------------------------------
+[11/13] Total                                               98% [==================] |  15.0   B/s |   5.6 MiB |  01h26m]9;4;1;98\[3A[0J[12/13] jbigkit-libs-0:2.1-34.fc45.x86_64                                       100% | 784.6 KiB/s |  54.1 KiB |  00m00s
+[13/13] libpng-2:1.6.59-1.fc45.x86_64                       82% [===============   ] |   1.0   B/s | 107.2 KiB |  06h16m
+------------------------------------------------------------------------------------------------------------------------
+[12/13] Total                                               99% [==================] |  15.0   B/s |   5.7 MiB |  25m04s]9;4;1;99\[2A[0J[13/13] libpng-2:1.6.59-1.fc45.x86_64                                           100% | 971.3 KiB/s | 129.2 KiB |  00m00s
+------------------------------------------------------------------------------------------------------------------------
+[13/13] Total                                                                   100% |   6.0 MiB/s |   5.7 MiB |  00m01s]9;4;0;0\
+Running transaction
+[?25l[ 1/15] Verify package files                                 0% [<=>               ] |   0.0   B/s |   0.0   B |  00m00s[0J[ 1/15] Verify package files                               100% [==================] | 666.0   B/s |  13.0   B |  00m00s[0J[ 1/15] Verify package files                                                    100% | 619.0   B/s |  13.0   B |  00m00s
+[ 2/15] Prepare transaction                                100% [==================] |   1.1 KiB/s |  13.0   B |  00m00s[0J[ 2/15] Prepare transaction                                                     100% | 928.0   B/s |  13.0   B |  00m00s
+[ 3/15] Installing libwebp-0:1.6.0-4.fc45.x86_64           100% [==================] | 316.5 MiB/s | 972.2 KiB |  00m00s[0J[ 3/15] Installing libwebp-0:1.6.0-4.fc45.x86_64                                100% | 158.2 MiB/s | 972.2 KiB |  00m00s
+[ 4/15] Installing libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64   100% [==================] | 402.1 MiB/s | 823.6 KiB |  00m00s[0J[ 4/15] Installing libjpeg-turbo-0:3.1.4.1-2.fc45.x86_64                        100% | 201.1 MiB/s | 823.6 KiB |  00m00s
+[ 5/15] Installing liblerc-0:4.3.0-1.fc45.x86_64           100% [==================] | 325.6 MiB/s | 666.8 KiB |  00m00s[0J[ 5/15] Installing liblerc-0:4.3.0-1.fc45.x86_64                                100% | 217.0 MiB/s | 666.8 KiB |  00m00s
+[ 6/15] Installing jbigkit-libs-0:2.1-34.fc45.x86_64       100% [==================] |   0.0   B/s | 119.2 KiB |  00m00s[0J[ 6/15] Installing jbigkit-libs-0:2.1-34.fc45.x86_64                            100% |  58.2 MiB/s | 119.2 KiB |  00m00s
+[ 7/15] Installing libtiff-0:4.7.2-3.fc45.x86_64           100% [==================] | 315.8 MiB/s | 646.8 KiB |  00m00s[0J[ 7/15] Installing libtiff-0:4.7.2-3.fc45.x86_64                                100% | 210.5 MiB/s | 646.8 KiB |  00m00s
+[ 8/15] Installing libpng-2:1.6.59-1.fc45.x86_64           100% [==================] | 248.9 MiB/s | 254.9 KiB |  00m00s[0J[ 8/15] Installing libpng-2:1.6.59-1.fc45.x86_64                                100% | 124.5 MiB/s | 254.9 KiB |  00m00s
+[ 9/15] Installing tesseract-tessdata-doc-0:4.1.0-13.fc45. 100% [==================] |   0.0   B/s |  15.7 KiB |  00m00s[0J[ 9/15] Installing tesseract-tessdata-doc-0:4.1.0-13.fc45.noarch                100% |  15.3 MiB/s |  15.7 KiB |  00m00s
+[10/15] Installing tesseract-common-0:5.5.4-1.fc45.noarch  100% [==================] |  20.4 MiB/s |  20.9 KiB |  00m00s[0J[10/15] Installing tesseract-common-0:5.5.4-1.fc45.noarch                       100% |   6.8 MiB/s |  20.9 KiB |  00m00s
+[11/15] Installing tesseract-langpack-eng-0:4.1.0-13.fc45. 100% [==================] | 392.3 MiB/s |   3.9 MiB |  00m00s[0J[11/15] Installing tesseract-langpack-eng-0:4.1.0-13.fc45.noarch                100% | 356.6 MiB/s |   3.9 MiB |  00m00s
+[12/15] Installing giflib-0:6.1.3-3.fc45.x86_64            100% [==================] |   0.0   B/s | 123.8 KiB |  00m00s[0J[12/15] Installing giflib-0:6.1.3-3.fc45.x86_64                                 100% |  60.4 MiB/s | 123.8 KiB |  00m00s
+[13/15] Installing leptonica-0:1.87.0-5.fc45.x86_64        100% [==================] | 457.5 MiB/s |   3.2 MiB |  00m00s[0J[13/15] Installing leptonica-0:1.87.0-5.fc45.x86_64                             100% | 355.8 MiB/s |   3.2 MiB |  00m00s
+[14/15] Installing tesseract-libs-0:5.5.4-1.fc45.x86_64    100% [==================] | 420.2 MiB/s |   3.4 MiB |  00m00s[0J[14/15] Installing tesseract-libs-0:5.5.4-1.fc45.x86_64                         100% | 336.2 MiB/s |   3.4 MiB |  00m00s
+[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64         100% [==================] |   0.0   B/s |  85.2 KiB |  00m00s[0J[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64         100% [==================] |   6.9 MiB/s |  85.2 KiB |  00m00s
+>>> Running %triggerin scriptlet: filesystem-0:3.18-59.fc45.x86_64[1A[0J[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64         100% [==================] |   6.9 MiB/s |  85.2 KiB |  00m00s[0J[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64         100% [==================] |   6.9 MiB/s |  85.2 KiB |  00m00s
+>>> Running %triggerin scriptlet: glibc-common-0:2.44-2.fc45.x86_64[1A[0J[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64         100% [==================] |   6.9 MiB/s |  85.2 KiB |  00m00s[0J[15/15] Installing tesseract-0:5.5.4-1.fc45.x86_64                              100% | 154.6 KiB/s |  85.2 KiB |  00m01s
+]9;4;0;0\[?25hComplete!
+]9;4;0;0\[?25h[1;32mroot@fedora[0m:[1;34m/[0m# dnf clean all
+Removed 18 files, 11 directories (total of 84 MiB). 0 errors occurred.
+[1;32mroot@fedora[0m:[1;34m/[0m# rpm -qa | grep -Ei 'tesseract|lept' | sort
+leptonica-1.87.0-5.fc45.x86_64
+tesseract-5.5.4-1.fc45.x86_64
+tesseract-common-5.5.4-1.fc45.noarch
+tesseract-langpack-eng-4.1.0-13.fc45.noarch
+tesseract-libs-5.5.4-1.fc45.x86_64
+tesseract-tessdata-doc-4.1.0-13.fc45.noarch
+[1;32mroot@fedora[0m:[1;34m/[0m# dnf info --installed tesseract
+Installed packages
+[1m[32mName            : tesseract[0m
+Epoch           : 0
+Version         : 5.5.4
+Release         : 1.fc45
+Architecture    : x86_64
+Installed size  : 83.5 KiB
+Source          : tesseract-5.5.4-1.fc45.src.rpm
+From repository : updates
+Summary         : Raw OCR Engine
+URL             : https://github.com/tesseract-ocr/tesseract
+License         : Apache-2.0
+Description     : A commercial quality OCR engine originally developed at HP between 1985 and
+                : 1995. In 1995, this engine was among the top 3 evaluated by UNLV. It was
+                : open-sourced by HP and UNLV in 2005.
+Vendor          : Fedora Project
+[1;32mroot@fedora[0m:[1;34m/[0m# dnf repoquery --qf '%{name}\n' 'tesseract-langpack-*' 'tesseract-script-*' 2>/dev/null | sort -u
+tesseract-langpack-afr
+tesseract-langpack-amh
+tesseract-langpack-ara
+tesseract-langpack-asm
+tesseract-langpack-aze
+tesseract-langpack-aze_cyrl
+tesseract-langpack-bel
+tesseract-langpack-ben
+tesseract-langpack-bod
+tesseract-langpack-bos
+tesseract-langpack-bre
+tesseract-langpack-bul
+tesseract-langpack-cat
+tesseract-langpack-ceb
+tesseract-langpack-ces
+tesseract-langpack-chi_sim
+tesseract-langpack-chi_sim_vert
+tesseract-langpack-chi_tra
+tesseract-langpack-chi_tra_vert
+tesseract-langpack-chr
+tesseract-langpack-cos
+tesseract-langpack-cym
+tesseract-langpack-dan
+tesseract-langpack-deu
+tesseract-langpack-div
+tesseract-langpack-dzo
+tesseract-langpack-ell
+tesseract-langpack-eng
+tesseract-langpack-enm
+tesseract-langpack-epo
+tesseract-langpack-est
+tesseract-langpack-eus
+tesseract-langpack-fao
+tesseract-langpack-fas
+tesseract-langpack-fil
+tesseract-langpack-fin
+tesseract-langpack-fra
+tesseract-langpack-frk
+tesseract-langpack-frm
+tesseract-langpack-fry
+tesseract-langpack-gla
+tesseract-langpack-gle
+tesseract-langpack-glg
+tesseract-langpack-grc
+tesseract-langpack-guj
+tesseract-langpack-hat
+tesseract-langpack-heb
+tesseract-langpack-hin
+tesseract-langpack-hrv
+tesseract-langpack-hun
+tesseract-langpack-hye
+tesseract-langpack-iku
+tesseract-langpack-ind
+tesseract-langpack-isl
+tesseract-langpack-ita
+tesseract-langpack-ita_old
+tesseract-langpack-jav
+tesseract-langpack-jpn
+tesseract-langpack-jpn_vert
+tesseract-langpack-kan
+tesseract-langpack-kat
+tesseract-langpack-kat_old
+tesseract-langpack-kaz
+tesseract-langpack-khm
+tesseract-langpack-kir
+tesseract-langpack-kmr
+tesseract-langpack-kor
+tesseract-langpack-kor_vert
+tesseract-langpack-lao
+tesseract-langpack-lat
+tesseract-langpack-lav
+tesseract-langpack-lit
+tesseract-langpack-ltz
+tesseract-langpack-mal
+tesseract-langpack-mar
+tesseract-langpack-mkd
+tesseract-langpack-mlt
+tesseract-langpack-mon
+tesseract-langpack-mri
+tesseract-langpack-msa
+tesseract-langpack-mya
+tesseract-langpack-nep
+tesseract-langpack-nld
+tesseract-langpack-nor
+tesseract-langpack-oci
+tesseract-langpack-ori
+tesseract-langpack-pan
+tesseract-langpack-pol
+tesseract-langpack-por
+tesseract-langpack-pus
+tesseract-langpack-que
+tesseract-langpack-ron
+tesseract-langpack-rus
+tesseract-langpack-san
+tesseract-langpack-sin
+tesseract-langpack-slk
+tesseract-langpack-slv
+tesseract-langpack-snd
+tesseract-langpack-spa
+tesseract-langpack-spa_old
+tesseract-langpack-sqi
+tesseract-langpack-srp
+tesseract-langpack-srp_latn
+tesseract-langpack-sun
+tesseract-langpack-swa
+tesseract-langpack-swe
+tesseract-langpack-syr
+tesseract-langpack-tam
+tesseract-langpack-tat
+tesseract-langpack-tel
+tesseract-langpack-tgk
+tesseract-langpack-tha
+tesseract-langpack-tir
+tesseract-langpack-ton
+tesseract-langpack-tur
+tesseract-langpack-uig
+tesseract-langpack-ukr
+tesseract-langpack-urd
+tesseract-langpack-uzb
+tesseract-langpack-uzb_cyrl
+tesseract-langpack-vie
+tesseract-langpack-yid
+tesseract-langpack-yor
+tesseract-script-arabic
+tesseract-script-armenian
+tesseract-script-bengali
+tesseract-script-canadian_aboriginal
+tesseract-script-cherokee
+tesseract-script-cyrillic
+tesseract-script-devanagari
+tesseract-script-ethiopic
+tesseract-script-fraktur
+tesseract-script-georgian
+tesseract-script-greek
+tesseract-script-gujarati
+tesseract-script-gurmukhi
+tesseract-script-hangul
+tesseract-script-hangul_vert
+tesseract-script-hans
+tesseract-script-hans_vert
+tesseract-script-hant
+tesseract-script-hant_vert
+tesseract-script-hebrew
+tesseract-script-japanese
+tesseract-script-japanese_vert
+tesseract-script-kannada
+tesseract-script-khmer
+tesseract-script-lao
+tesseract-script-latin
+tesseract-script-malayalam
+tesseract-script-myanmar
+tesseract-script-oriya
+tesseract-script-sinhala
+tesseract-script-syriac
+tesseract-script-tamil
+tesseract-script-telugu
+tesseract-script-thaana
+tesseract-script-thai
+tesseract-script-tibetan
+tesseract-script-vietnamese
+[1;32mroot@fedora[0m:[1;34m/[0m# dnf repoquery --qf '%{name}\n' 'tesseract-langpack-*' 2>/dev/null | sort -u | wc -l
+123
+[1;32mroot@fedora[0m:[1;34m/[0m# dnf install --assumeno tesseract-devel
+Updating and loading repositories:
+Repositories loaded.
+[1mPackage                                [0m [1mArch      [0m [1mVersion                                [0m [1mRepository     [0m [1m         Size[0m
+Installing:
+[32m tesseract-devel                       [0m x86_64     0:5.5.4-1.fc45                          updates              19.7 MiB
+Installing dependencies:
+[32m cmake-filesystem                      [0m x86_64     0:4.3.0-7.fc45                          updates               0.0   B
+[32m leptonica-devel                       [0m x86_64     0:1.87.0-5.fc45                         fedora              574.6 KiB
+[32m libjpeg-turbo-devel                   [0m x86_64     0:3.1.4.1-2.fc45                        fedora              354.2 KiB
+[32m liblerc-devel                         [0m x86_64     0:4.3.0-1.fc45                          updates               4.3 MiB
+[32m libpkgconf                            [0m x86_64     0:2.5.1-2.fc45                          fedora               90.1 KiB
+[32m libpng-devel                          [0m x86_64     2:1.6.59-1.fc45                         updates             906.6 KiB
+[32m libtiff-devel                         [0m x86_64     0:4.7.2-3.fc45                          updates             885.0 KiB
+[32m libwebp-devel                         [0m x86_64     0:1.6.0-4.fc45                          fedora              121.7 KiB
+[32m libzstd-devel                         [0m x86_64     0:1.5.7-6.fc45                          fedora              217.6 KiB
+[32m pkgconf                               [0m x86_64     0:2.5.1-2.fc45                          fedora               92.7 KiB
+[32m pkgconf-m4                            [0m noarch     0:2.5.1-2.fc45                          fedora               14.3 KiB
+[32m pkgconf-pkg-config                    [0m x86_64     0:2.5.1-2.fc45                          fedora              989.0   B
+[32m xz-devel                              [0m x86_64     1:5.8.3-2.fc45                          fedora              258.8 KiB
+[32m zlib-ng-compat-devel                  [0m x86_64     0:2.3.3-6.fc45                          fedora              107.0 KiB
+
+Transaction Summary:
+ Installing:        15 packages
+
+Total size of inbound packages is 7 MiB. Need to download 7 MiB.
+After this operation, 28 MiB extra will be used (install 28 MiB, remove 0 B).
+Operation aborted by the user.
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract --version
+tesseract 5.5.4
+ leptonica-1.87.0
+  libgif 6.1.3 : libjpeg 6b (libjpeg-turbo 3.1.4.1) : libpng 1.6.59 : libtiff 4.7.2 : zlib 1.3.1.zlib-ng : libwebp 1.6.0
+ Found AVX512BW
+ Found AVX512F
+ Found AVX512VNNI
+ Found AVX2
+ Found AVX
+ Found FMA
+ Found SSE4.1
+ Found libcurl/8.21.0 OpenSSL/4.0.3 zlib/1.3.1.zlib-ng brotli/1.2.1 zstd/1.5.7 libidn2/2.3.8 libpsl/0.23.1 libssh/0.12.2/openssl/zlib nghttp2/1.69.0 ngtcp2/1.22.1 nghttp3/1.18.0 mit-krb5/1.22.2 OpenLDAP/2.6.15
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract --list-langs
+List of available languages in "/usr/share/tesseract/tessdata/" (1):
+eng
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract /samples/receipt.png -
+Estimating resolution as 246
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
+Sourdough loaf 3.80
+Free-range eggs x6 2.95
+Bananas 1.2kg 1.38
+Dark chocolate 85% 2.20
+Coffee beans 250g 6.50
+SUBTOTAL 19.32
+VAT 5% 0.97
+TOTAL 20.29
+
+CARD ****4821 APPROVED
+Thank you for shopping!
+[1;32mroot@fedora[0m:[1;34m/[0m# command -v tesseract; ls -la '/usr/share/tesseract/tessdata/'; du -sh '/usr/share/tesseract/tessdata/'
+/usr/sbin/tesseract
+total 4036
+drwxr-xr-x 4 root root    4096 Nov 18 06:53 .
+drwxr-xr-x 3 root root    4096 Nov 18 06:53 ..
+drwxr-xr-x 2 root root    4096 Nov 18 06:53 configs
+-rw-r--r-- 1 root root 4113088 Oct 30  2019 eng.traineddata
+drwxr-xr-x 2 root root    4096 Nov 18 06:53 tessconfigs
+4.1M	/usr/share/tesseract/tessdata/
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract /samples/receipt.png - -l xyz
+Error opening data file /usr/share/tesseract/tessdata/xyz.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'xyz'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+Error opening data file /nonexistent/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@fedora[0m:[1;34m/[0m# TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+Error opening data file /tmp/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@fedora[0m:[1;34m/[0m# tesseract /samples/missing.png -
+Error, cannot read input file /samples/missing.png: No such file or directory
+Error during processing.

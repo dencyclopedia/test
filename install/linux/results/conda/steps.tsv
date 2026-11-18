@@ -1,0 +1,17 @@
+step	seconds	exit	command
+os	0.01	0	cat /etc/os-release | head -4
+which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
+run-before	0.00	127	tesseract --version
+conda-version	0.04	0	conda --version
+install	8.34	0	conda install -y -c conda-forge tesseract
+clean	0.37	0	conda clean -a -y
+pkgs	0.47	0	conda list | grep -Ei 'tesseract|lept'
+which	0.00	0	command -v tesseract
+version	0.01	0	tesseract --version
+list-langs	0.01	0	tesseract --list-langs
+ocr	0.17	0	tesseract /samples/receipt.png -
+where	0.00	0	command -v tesseract; ls -la '/opt/conda/share/tessdata/'; du -sh '/opt/conda/share/tessdata/'
+err-lang	0.00	1	tesseract /samples/receipt.png - -l xyz
+err-tessdata	0.01	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+err-prefix	0.01	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+err-noimage	0.06	1	tesseract /samples/missing.png -

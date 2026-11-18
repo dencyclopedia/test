@@ -1,0 +1,763 @@
+[1;32mroot@conda[0m:[1;34m/[0m# cat /etc/os-release | head -4
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.5 LTS (Noble Numbat)"
+[1;32mroot@conda[0m:[1;34m/[0m# command -v tesseract || echo 'tesseract: not installed'
+tesseract: not installed
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract --version
+sh: 1: tesseract: not found
+[1;32mroot@conda[0m:[1;34m/[0m# conda --version
+conda 26.9.4
+[1;32mroot@conda[0m:[1;34m/[0m# conda install -y -c conda-forge tesseract
+Retrieving notices: - done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / done
+
+## Package Plan ##
+
+  environment location: /opt/conda
+
+  added / updated specs:
+    - tesseract
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-26.10.0              |  py314h9e666f3_1         1.5 MB  conda-forge
+    conda-pycosat-solver-26.10.0|     pyh5ded981_0          47 KB  conda-forge
+    giflib-6.1.3               |       hebe6cf0_2          84 KB  conda-forge
+    leptonica-1.87.0           |       hd4727f9_2         1.4 MB  conda-forge
+    lerc-4.3.0                 |       he78707d_0         264 KB  conda-forge
+    libdeflate-1.26            |       h351257e_0          73 KB  conda-forge
+    libjpeg-turbo-3.2.1        |       h7cc23a3_0         639 KB  conda-forge
+    libpng-1.6.59              |       h922cc85_0         309 KB  conda-forge
+    libtiff-4.7.2              |       h6d37cbf_2         449 KB  conda-forge
+    libwebp-base-1.6.0         |       hd42ef1d_1         418 KB  conda-forge
+    openjpeg-2.5.4             |       heb1ab33_2         382 KB  conda-forge
+    tesseract-5.5.4            |       h00735b0_0       172.7 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       178.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  conda-pycosat-sol~ conda-forge/noarch::conda-pycosat-solver-26.10.0-pyh5ded981_0 
+  giflib             conda-forge/linux-64::giflib-6.1.3-hebe6cf0_2 
+  leptonica          conda-forge/linux-64::leptonica-1.87.0-hd4727f9_2 
+  lerc               conda-forge/linux-64::lerc-4.3.0-he78707d_0 
+  libdeflate         conda-forge/linux-64::libdeflate-1.26-h351257e_0 
+  libjpeg-turbo      conda-forge/linux-64::libjpeg-turbo-3.2.1-h7cc23a3_0 
+  libpng             conda-forge/linux-64::libpng-1.6.59-h922cc85_0 
+  libtiff            conda-forge/linux-64::libtiff-4.7.2-h6d37cbf_2 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.6.0-hd42ef1d_1 
+  openjpeg           conda-forge/linux-64::openjpeg-2.5.4-heb1ab33_2 
+  tesseract          conda-forge/linux-64::tesseract-5.5.4-h00735b0_0 
+
+The following packages will be UPDATED:
+
+  conda                              26.9.4-py314h9e666f3_0 --> 26.10.0-py314h9e666f3_1 
+
+
+
+Downloading and Extracting Packages:
+tesseract-5.5.4      | 172.7 MB  |                                                                              |   0% 
+conda-26.10.0        | 1.5 MB    |                                                                              |   0% [A
+
+leptonica-1.87.0     | 1.4 MB    |                                                                              |   0% [A[A
+
+
+libjpeg-turbo-3.2.1  | 639 KB    |                                                                              |   0% [A[A[A
+
+
+
+libtiff-4.7.2        | 449 KB    |                                                                              |   0% [A[A[A[A
+
+
+
+
+libwebp-base-1.6.0   | 418 KB    |                                                                              |   0% [A[A[A[A[A
+
+
+
+
+
+openjpeg-2.5.4       | 382 KB    |                                                                              |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libpng-1.6.59        | 309 KB    |                                                                              |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+lerc-4.3.0           | 264 KB    |                                                                              |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+giflib-6.1.3         | 84 KB     |                                                                              |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdeflate-1.26      | 73 KB     |                                                                              |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+conda-pycosat-solver | 47 KB     |                                                                              |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+libtiff-4.7.2        | 449 KB    | ############################################################################ | 100% [A[A[A[A
+
+
+libjpeg-turbo-3.2.1  | 639 KB    | ############################################################################ | 100% [A[A[A
+
+leptonica-1.87.0     | 1.4 MB    | ############################################################################ | 100% [A[A
+
+
+
+
+
+openjpeg-2.5.4       | 382 KB    | ############################################################################ | 100% [A[A[A[A[A[A
+
+
+
+
+libwebp-base-1.6.0   | 418 KB    | ############################################################################ | 100% [A[A[A[A[A
+conda-26.10.0        | 1.5 MB    | ############################################################################ | 100% [Atesseract-5.5.4      | 172.7 MB  | #2                                                                           |   2% 
+
+
+
+
+
+
+libpng-1.6.59        | 309 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+libpng-1.6.59        | 309 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+lerc-4.3.0           | 264 KB    | ####6                                                                        |   6% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+lerc-4.3.0           | 264 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdeflate-1.26      | 73 KB     | ################7                                                            |  22% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+giflib-6.1.3         | 84 KB     | ##############4                                                              |  19% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+conda-pycosat-solver | 47 KB     | #########################6                                                   |  34% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+conda-pycosat-solver | 47 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdeflate-1.26      | 73 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+giflib-6.1.3         | 84 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[Atesseract-5.5.4      | 172.7 MB  | ################4                                                            |  22% tesseract-5.5.4      | 172.7 MB  | ###########################9                                                 |  37% tesseract-5.5.4      | 172.7 MB  | ###############################################1                             |  62% tesseract-5.5.4      | 172.7 MB  | ###################################################################2         |  89% tesseract-5.5.4      | 172.7 MB  | ############################################################################ | 100% 
+
+
+
+
+
+
+libpng-1.6.59        | 309 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+conda-pycosat-solver | 47 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+conda-pycosat-solver | 47 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+lerc-4.3.0           | 264 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+lerc-4.3.0           | 264 KB    | ############################################################################ | 100% [A[A[A[A[A[A[A[A
+conda-26.10.0        | 1.5 MB    | ############################################################################ | 100% [A
+conda-26.10.0        | 1.5 MB    | ############################################################################ | 100% [A
+
+
+
+
+libwebp-base-1.6.0   | 418 KB    | ############################################################################ | 100% [A[A[A[A[A
+
+
+
+
+libwebp-base-1.6.0   | 418 KB    | ############################################################################ | 100% [A[A[A[A[A
+
+
+
+libtiff-4.7.2        | 449 KB    | ############################################################################ | 100% [A[A[A[A
+
+
+
+libtiff-4.7.2        | 449 KB    | ############################################################################ | 100% [A[A[A[A
+
+
+
+
+
+
+
+
+
+libdeflate-1.26      | 73 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdeflate-1.26      | 73 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+openjpeg-2.5.4       | 382 KB    | ############################################################################ | 100% [A[A[A[A[A[A
+
+
+
+
+
+openjpeg-2.5.4       | 382 KB    | ############################################################################ | 100% [A[A[A[A[A[A
+
+leptonica-1.87.0     | 1.4 MB    | ############################################################################ | 100% [A[A
+
+leptonica-1.87.0     | 1.4 MB    | ############################################################################ | 100% [A[A
+
+
+libjpeg-turbo-3.2.1  | 639 KB    | ############################################################################ | 100% [A[A[A
+
+
+libjpeg-turbo-3.2.1  | 639 KB    | ############################################################################ | 100% [A[A[A
+
+
+
+
+
+
+
+
+giflib-6.1.3         | 84 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+giflib-6.1.3         | 84 KB     | ############################################################################ | 100% [A[A[A[A[A[A[A[A[Atesseract-5.5.4      | 172.7 MB  | ############################################################################ | 100%                                                                                                                        
+                                                                                                                       [A
+
+                                                                                                                       [A[A
+
+
+                                                                                                                       [A[A[A
+
+
+
+                                                                                                                       [A[A[A[A
+
+
+
+
+                                                                                                                       [A[A[A[A[A
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A
+
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                                                                                       [A[A[A[A[A[A[A[A[A[A[A
+Preparing transaction: \ done
+Verifying transaction: / done
+Executing transaction: \ | / - \ | / - \ done
+[1;32mroot@conda[0m:[1;34m/[0m# conda clean -a -y
+Will remove 12 (178.1 MB) tarball(s).
+Will remove 1 index cache(s).
+There are no unused package(s) to remove.
+There are no tempfile(s) to remove.
+There are no logfile(s) to remove.
+[1;32mroot@conda[0m:[1;34m/[0m# conda list | grep -Ei 'tesseract|lept'
+leptonica                  1.87.0           hd4727f9_2            conda-forge
+tesseract                  5.5.4            h00735b0_0            conda-forge
+[1;32mroot@conda[0m:[1;34m/[0m# command -v tesseract
+/opt/conda/bin/tesseract
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract --version
+tesseract 5.5.4
+ leptonica-1.87.0
+  libgif 6.1.3 : libjpeg 8d (libjpeg-turbo 3.2.1) : libpng 1.6.59 : libtiff 4.7.2 : zlib 1.3.2 : libwebp 1.6.0 : libopenjp2 2.5.4
+ Found AVX512BW
+ Found AVX512F
+ Found AVX512VNNI
+ Found AVX2
+ Found AVX
+ Found FMA
+ Found SSE4.1
+ Found OpenMP 201511
+ Found libarchive 3.8.11 zlib/1.3.2 liblzma/5.8.3 bz2lib/1.0.8 liblz4/1.10.0 libzstd/1.5.7 liblzo2/2.10 libxml2/2.15.4 openssl/3.5.9 libb2/bundled
+ Found libcurl/8.23.0 OpenSSL/3.6.5 zlib/1.3.2 zstd/1.5.7 libpsl/0.23.1 libssh2/1.11.1 nghttp2/1.71.0 mit-krb5/1.22.2
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract --list-langs
+List of available languages in "/opt/conda/share/tessdata/" (125):
+afr
+amh
+ara
+asm
+aze
+aze_cyrl
+bel
+ben
+bod
+bos
+bre
+bul
+cat
+ceb
+ces
+chi_sim
+chi_sim_vert
+chi_tra
+chi_tra_vert
+chr
+cos
+cym
+dan
+deu
+div
+dzo
+ell
+eng
+enm
+epo
+equ
+est
+eus
+fao
+fas
+fil
+fin
+fra
+frk
+frm
+fry
+gla
+gle
+glg
+grc
+guj
+hat
+heb
+hin
+hrv
+hun
+hye
+iku
+ind
+isl
+ita
+ita_old
+jav
+jpn
+jpn_vert
+kan
+kat
+kat_old
+kaz
+khm
+kir
+kmr
+kor
+kor_vert
+lao
+lat
+lav
+lit
+ltz
+mal
+mar
+mkd
+mlt
+mon
+mri
+msa
+mya
+nep
+nld
+nor
+oci
+ori
+osd
+pan
+pol
+por
+pus
+que
+ron
+rus
+san
+sin
+slk
+slv
+snd
+spa
+spa_old
+sqi
+srp
+srp_latn
+sun
+swa
+swe
+syr
+tam
+tat
+tel
+tgk
+tha
+tir
+ton
+tur
+uig
+ukr
+urd
+uzb
+uzb_cyrl
+vie
+yid
+yor
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract /samples/receipt.png -
+Estimating resolution as 246
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
+Sourdough loaf 3.80
+Free-range eggs x6 2.95
+Bananas 1.2kg 1.38
+Dark chocolate 85% 2.20
+Coffee beans 250g 6.50
+SUBTOTAL 19.32
+VAT 5% 0.97
+TOTAL 20.29
+
+CARD ****4821 APPROVED
+Thank you for shopping!
+[1;32mroot@conda[0m:[1;34m/[0m# command -v tesseract; ls -la '/opt/conda/share/tessdata/'; du -sh '/opt/conda/share/tessdata/'
+/opt/conda/bin/tesseract
+total 347348
+drwxr-xr-x 4 root root     4096 Nov 18 06:53 .
+drwxr-xr-x 1 root root     4096 Nov 18 06:53 ..
+-rw-r--r-- 2 root root  2652786 Nov 11 08:59 afr.traineddata
+-rw-r--r-- 2 root root  5470094 Nov 11 08:59 amh.traineddata
+-rw-r--r-- 2 root root  1432056 Nov 11 08:59 ara.traineddata
+-rw-r--r-- 2 root root  2045427 Nov 11 08:59 asm.traineddata
+-rw-r--r-- 2 root root  3524799 Nov 11 08:59 aze.traineddata
+-rw-r--r-- 2 root root  1943672 Nov 11 08:59 aze_cyrl.traineddata
+-rw-r--r-- 2 root root  3692098 Nov 11 08:59 bel.traineddata
+-rw-r--r-- 2 root root   855841 Nov 11 08:59 ben.traineddata
+-rw-r--r-- 2 root root  1966440 Nov 11 08:59 bod.traineddata
+-rw-r--r-- 2 root root  2498242 Nov 11 08:59 bos.traineddata
+-rw-r--r-- 2 root root  6335007 Nov 11 08:59 bre.traineddata
+-rw-r--r-- 2 root root  1675212 Nov 11 08:59 bul.traineddata
+-rw-r--r-- 2 root root  1146012 Nov 11 08:59 cat.traineddata
+-rw-r--r-- 2 root root   716214 Nov 11 08:59 ceb.traineddata
+-rw-r--r-- 2 root root  3795684 Nov 11 08:59 ces.traineddata
+-rw-r--r-- 2 root root  2469156 Nov 11 08:59 chi_sim.traineddata
+-rw-r--r-- 2 root root  1927902 Nov 11 08:59 chi_sim_vert.traineddata
+-rw-r--r-- 2 root root  2366642 Nov 11 08:59 chi_tra.traineddata
+-rw-r--r-- 2 root root  1824756 Nov 11 08:59 chi_tra_vert.traineddata
+-rw-r--r-- 2 root root   374944 Nov 11 08:59 chr.traineddata
+drwxr-xr-x 2 root root     4096 Nov 18 06:53 configs
+-rw-r--r-- 2 root root  2299099 Nov 11 08:59 cos.traineddata
+-rw-r--r-- 2 root root  2208919 Nov 11 08:59 cym.traineddata
+-rw-r--r-- 2 root root  2580059 Nov 11 08:59 dan.traineddata
+-rw-r--r-- 2 root root  1525436 Nov 11 08:59 deu.traineddata
+-rw-r--r-- 2 root root  1774535 Nov 11 08:59 div.traineddata
+-rw-r--r-- 2 root root   449596 Nov 11 08:59 dzo.traineddata
+-rw-r--r-- 2 root root  1419514 Nov 11 08:59 ell.traineddata
+-rw-r--r-- 2 root root  4113088 Nov 11 08:59 eng.traineddata
+-rw-r--r-- 2 root root  3101551 Nov 11 08:59 enm.traineddata
+-rw-r--r-- 2 root root  4728393 Nov 11 08:59 epo.traineddata
+-rw-r--r-- 2 root root  2251950 Nov 11 08:59 equ.traineddata
+-rw-r--r-- 2 root root  4458101 Nov 11 08:59 est.traineddata
+-rw-r--r-- 2 root root  5175921 Nov 11 08:59 eus.traineddata
+-rw-r--r-- 2 root root  3439772 Nov 11 08:59 fao.traineddata
+-rw-r--r-- 2 root root   431500 Nov 11 08:59 fas.traineddata
+-rw-r--r-- 2 root root  1841715 Nov 11 08:59 fil.traineddata
+-rw-r--r-- 2 root root  7865732 Nov 11 08:59 fin.traineddata
+-rw-r--r-- 2 root root  1130365 Nov 11 08:59 fra.traineddata
+-rw-r--r-- 2 root root  6423052 Nov 11 08:59 frk.traineddata
+-rw-r--r-- 2 root root  2024948 Nov 11 08:59 frm.traineddata
+-rw-r--r-- 2 root root  1906018 Nov 11 08:59 fry.traineddata
+-rw-r--r-- 2 root root  3068307 Nov 11 08:59 gla.traineddata
+-rw-r--r-- 2 root root  1181824 Nov 11 08:59 gle.traineddata
+-rw-r--r-- 2 root root  2554555 Nov 11 08:59 glg.traineddata
+-rw-r--r-- 2 root root  2246328 Nov 11 08:59 grc.traineddata
+-rw-r--r-- 2 root root  1418394 Nov 11 08:59 guj.traineddata
+-rw-r--r-- 2 root root  1976902 Nov 11 08:59 hat.traineddata
+-rw-r--r-- 2 root root   961404 Nov 11 08:59 heb.traineddata
+-rw-r--r-- 2 root root  1122751 Nov 11 08:59 hin.traineddata
+-rw-r--r-- 2 root root  4103348 Nov 11 08:59 hrv.traineddata
+-rw-r--r-- 2 root root  5296273 Nov 11 08:59 hun.traineddata
+-rw-r--r-- 2 root root  3463717 Nov 11 08:59 hye.traineddata
+-rw-r--r-- 2 root root  2802266 Nov 11 08:59 iku.traineddata
+-rw-r--r-- 2 root root  1122661 Nov 11 08:59 ind.traineddata
+-rw-r--r-- 2 root root  2278973 Nov 11 08:59 isl.traineddata
+-rw-r--r-- 2 root root  2701314 Nov 11 08:59 ita.traineddata
+-rw-r--r-- 2 root root  3286123 Nov 11 08:59 ita_old.traineddata
+-rw-r--r-- 2 root root  2982741 Nov 11 08:59 jav.traineddata
+-rw-r--r-- 2 root root  2471260 Nov 11 08:59 jpn.traineddata
+-rw-r--r-- 2 root root  3037480 Nov 11 08:59 jpn_vert.traineddata
+-rw-r--r-- 2 root root  3608331 Nov 11 08:59 kan.traineddata
+-rw-r--r-- 2 root root  2524769 Nov 11 08:59 kat.traineddata
+-rw-r--r-- 2 root root   423167 Nov 11 08:59 kat_old.traineddata
+-rw-r--r-- 2 root root  4734644 Nov 11 08:59 kaz.traineddata
+-rw-r--r-- 2 root root  1446926 Nov 11 08:59 khm.traineddata
+-rw-r--r-- 2 root root  9928497 Nov 11 08:59 kir.traineddata
+-rw-r--r-- 2 root root  3568615 Nov 11 08:59 kmr.traineddata
+-rw-r--r-- 2 root root  1677415 Nov 11 08:59 kor.traineddata
+-rw-r--r-- 2 root root  1113715 Nov 11 08:59 kor_vert.traineddata
+-rw-r--r-- 2 root root  6386744 Nov 11 08:59 lao.traineddata
+-rw-r--r-- 2 root root  3187463 Nov 11 08:59 lat.traineddata
+-rw-r--r-- 2 root root  2717247 Nov 11 08:59 lav.traineddata
+-rw-r--r-- 2 root root  3154896 Nov 11 08:59 lit.traineddata
+-rw-r--r-- 2 root root  2606426 Nov 11 08:59 ltz.traineddata
+-rw-r--r-- 2 root root  5275996 Nov 11 08:59 mal.traineddata
+-rw-r--r-- 2 root root  2118233 Nov 11 08:59 mar.traineddata
+-rw-r--r-- 2 root root  1600188 Nov 11 08:59 mkd.traineddata
+-rw-r--r-- 2 root root  2308796 Nov 11 08:59 mlt.traineddata
+-rw-r--r-- 2 root root  2137042 Nov 11 08:59 mon.traineddata
+-rw-r--r-- 2 root root   862973 Nov 11 08:59 mri.traineddata
+-rw-r--r-- 2 root root  1747801 Nov 11 08:59 msa.traineddata
+-rw-r--r-- 2 root root  4640561 Nov 11 08:59 mya.traineddata
+-rw-r--r-- 2 root root  1002911 Nov 11 08:59 nep.traineddata
+-rw-r--r-- 2 root root  6050296 Nov 11 08:59 nld.traineddata
+-rw-r--r-- 2 root root  3610079 Nov 11 08:59 nor.traineddata
+-rw-r--r-- 2 root root  6322087 Nov 11 08:59 oci.traineddata
+-rw-r--r-- 2 root root  1480066 Nov 11 08:59 ori.traineddata
+-rw-r--r-- 2 root root 10562727 Nov 11 08:59 osd.traineddata
+-rw-r--r-- 2 root root   497721 Nov 11 08:59 pan.traineddata
+-rw-r--r-- 2 root root      572 Nov 11 08:59 pdf.ttf
+-rw-r--r-- 2 root root  4765518 Nov 11 08:59 pol.traineddata
+-rw-r--r-- 2 root root  1982756 Nov 11 08:59 por.traineddata
+-rw-r--r-- 2 root root  1772087 Nov 11 08:59 pus.traineddata
+-rw-r--r-- 2 root root  5026336 Nov 11 08:59 que.traineddata
+-rw-r--r-- 2 root root  2376323 Nov 11 08:59 ron.traineddata
+-rw-r--r-- 2 root root  3861738 Nov 11 08:59 rus.traineddata
+-rw-r--r-- 2 root root 12404677 Nov 11 08:59 san.traineddata
+-rw-r--r-- 2 root root  1727413 Nov 11 08:59 sin.traineddata
+-rw-r--r-- 2 root root  4427661 Nov 11 08:59 slk.traineddata
+-rw-r--r-- 2 root root  3003829 Nov 11 08:59 slv.traineddata
+-rw-r--r-- 2 root root  1694035 Nov 11 08:59 snd.traineddata
+-rw-r--r-- 2 root root  2294433 Nov 11 08:59 spa.traineddata
+-rw-r--r-- 2 root root  2894755 Nov 11 08:59 spa_old.traineddata
+-rw-r--r-- 2 root root  1874705 Nov 11 08:59 sqi.traineddata
+-rw-r--r-- 2 root root  2149931 Nov 11 08:59 srp.traineddata
+-rw-r--r-- 2 root root  3281787 Nov 11 08:59 srp_latn.traineddata
+-rw-r--r-- 2 root root  1369500 Nov 11 08:59 sun.traineddata
+-rw-r--r-- 2 root root  2167651 Nov 11 08:59 swa.traineddata
+-rw-r--r-- 2 root root  4167034 Nov 11 08:59 swe.traineddata
+-rw-r--r-- 2 root root  2207208 Nov 11 08:59 syr.traineddata
+-rw-r--r-- 2 root root  3237963 Nov 11 08:59 tam.traineddata
+-rw-r--r-- 2 root root  1072896 Nov 11 08:59 tat.traineddata
+-rw-r--r-- 2 root root  2769654 Nov 11 08:59 tel.traineddata
+drwxr-xr-x 2 root root     4096 Nov 18 06:53 tessconfigs
+-rw-r--r-- 2 root root  2602685 Nov 11 08:59 tgk.traineddata
+-rw-r--r-- 2 root root  1072600 Nov 11 08:59 tha.traineddata
+-rw-r--r-- 2 root root   378822 Nov 11 08:59 tir.traineddata
+-rw-r--r-- 2 root root   947249 Nov 11 08:59 ton.traineddata
+-rw-r--r-- 2 root root  4550554 Nov 11 08:59 tur.traineddata
+-rw-r--r-- 2 root root  2794272 Nov 11 08:59 uig.traineddata
+-rw-r--r-- 2 root root  3825102 Nov 11 08:59 ukr.traineddata
+-rw-r--r-- 2 root root  1398718 Nov 11 08:59 urd.traineddata
+-rw-r--r-- 2 root root  6470703 Nov 11 08:59 uzb.traineddata
+-rw-r--r-- 2 root root  1563501 Nov 11 08:59 uzb_cyrl.traineddata
+-rw-r--r-- 2 root root   531275 Nov 11 08:59 vie.traineddata
+-rw-r--r-- 2 root root   545606 Nov 11 08:59 yid.traineddata
+-rw-r--r-- 2 root root   963400 Nov 11 08:59 yor.traineddata
+340M	/opt/conda/share/tessdata/
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract /samples/receipt.png - -l xyz
+Error opening data file /opt/conda/share/tessdata/xyz.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'xyz'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+Error opening data file /nonexistent/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@conda[0m:[1;34m/[0m# TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+Error opening data file /tmp/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@conda[0m:[1;34m/[0m# tesseract /samples/missing.png -
+Error, cannot read input file /samples/missing.png: No such file or directory
+Error during processing.

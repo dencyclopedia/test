@@ -1,0 +1,20 @@
+step	seconds	exit	command
+os	0.01	0	cat /etc/os-release | head -4
+which-before	0.00	0	command -v tesseract || echo 'tesseract: not installed'
+run-before	0.00	127	tesseract --version
+sync	0.39	0	pacman -Sy --noconfirm
+provider-default	0.17	0	pacman -Sp --print-format '%n %v' --noconfirm tesseract
+install	0.75	0	pacman -S --noconfirm --needed tesseract tesseract-data-eng
+clean	0.01	0	pacman -Scc --noconfirm
+pkgs	0.01	0	pacman -Q | grep -Ei 'tesseract|lept'
+info	0.01	0	pacman -Qi tesseract
+langs-search	0.19	0	pacman -Ss '^tesseract-data-' | grep -E '^[a-z]+/' | sort
+langs-count	0.19	0	pacman -Ssq '^tesseract-data-' | wc -l
+version	0.01	0	tesseract --version
+list-langs	0.01	0	tesseract --list-langs
+ocr	0.26	0	tesseract /samples/receipt.png -
+where	0.01	0	command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
+err-lang	0.01	1	tesseract /samples/receipt.png - -l xyz
+err-tessdata	0.01	1	tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+err-prefix	0.01	1	TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+err-noimage	0.11	1	tesseract /samples/missing.png -

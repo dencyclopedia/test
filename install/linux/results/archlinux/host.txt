@@ -1,0 +1,3 @@
+pull_seconds=4.36
+image_id=sha256:ad77cf4a18d84f94e1e678496f9f5a5f2adc8bd2a62d2f13bf15598c2b214b1b image_size_bytes=400011580 created=2026-11-09T22:24:24.490710951Z digest=archlinux@sha256:d4594bb2300cba11f41c2f27923eb56f63d9988909c402f9c95517d1e362c899
+container_exit=0

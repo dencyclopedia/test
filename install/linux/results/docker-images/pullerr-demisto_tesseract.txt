@@ -1,0 +1,1 @@
+Error response from daemon: manifest for demisto/tesseract:latest not found: manifest unknown: manifest unknown

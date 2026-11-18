@@ -1,0 +1,1 @@
+docker.io/condaforge/miniforge3:latest

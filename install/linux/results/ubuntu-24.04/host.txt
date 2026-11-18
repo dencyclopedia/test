@@ -1,0 +1,3 @@
+pull_seconds=2.28
+image_id=sha256:7da97f743f397971f35dd21cd2d19a7da070a150e0cfa3eda559e71891ec7533 image_size_bytes=78201136 created=2026-11-10T08:36:35.098007755Z digest=ubuntu@sha256:73b999393d07f2bf65a40373778a44dc9a6d54ad7718d29247d8ff9413c4d6a8
+container_exit=0

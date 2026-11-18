@@ -1,0 +1,580 @@
+[1;32mroot@archlinux[0m:[1;34m/[0m# cat /etc/os-release | head -4
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+[1;32mroot@archlinux[0m:[1;34m/[0m# command -v tesseract || echo 'tesseract: not installed'
+tesseract: not installed
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract --version
+sh: line 1: tesseract: command not found
+[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Sy --noconfirm
+[?25l:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+[?25h[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Sp --print-format '%n %v' --noconfirm tesseract
+[?25lgiflib 6.1.3-2
+libjpeg-turbo 3.2.1-1
+libpng 1.6.59-1
+jbigkit 2.2-1
+libdeflate 1.26-1
+libwebp 1.6.0-2
+libtiff 4.7.2-2
+lcms2 2.20-1
+openjpeg2 2.5.4-1
+leptonica 1.87.0-2
+tesseract-data-afr 2:4.1.0-5
+tesseract-data-osd 2:4.1.0-5
+tesseract 5.5.4-1
+[?25h[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -S --noconfirm --needed tesseract tesseract-data-eng
+[?25lresolving dependencies...
+looking for conflicting packages...
+
+Package (13)              New Version  Net Change  Download Size
+
+extra/giflib              6.1.3-2        0.34 MiB       0.10 MiB
+extra/jbigkit             2.2-1          0.17 MiB       0.05 MiB
+extra/lcms2               2.20-1         0.70 MiB       0.23 MiB
+extra/leptonica           1.87.0-2       3.71 MiB       1.27 MiB
+extra/libdeflate          1.26-1         0.14 MiB       0.06 MiB
+extra/libjpeg-turbo       3.2.1-1        2.66 MiB       0.59 MiB
+extra/libpng              1.6.59-1       0.58 MiB       0.25 MiB
+extra/libtiff             4.7.2-2        1.32 MiB       0.40 MiB
+extra/libwebp             1.6.0-2        1.04 MiB       0.32 MiB
+extra/openjpeg2           2.5.4-1       13.37 MiB       0.87 MiB
+extra/tesseract-data-osd  2:4.1.0-5     10.07 MiB       3.64 MiB
+extra/tesseract           5.5.4-1        4.70 MiB       1.69 MiB
+extra/tesseract-data-eng  2:4.1.0-5     22.38 MiB       9.03 MiB
+
+Total Download Size:   18.52 MiB
+Total Installed Size:  61.18 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ tesseract-data-eng-2:4.1.0-5-any downloading...
+ tesseract-data-osd-2:4.1.0-5-any downloading...
+ tesseract-5.5.4-1-x86_64 downloading...
+ leptonica-1.87.0-2-x86_64 downloading...
+ openjpeg2-2.5.4-1-x86_64 downloading...
+ libjpeg-turbo-3.2.1-1-x86_64 downloading...
+ libtiff-4.7.2-2-x86_64 downloading...
+ libwebp-1.6.0-2-x86_64 downloading...
+ libpng-1.6.59-1-x86_64 downloading...
+ lcms2-2.20-1-x86_64 downloading...
+ giflib-6.1.3-2-x86_64 downloading...
+ libdeflate-1.26-1-x86_64 downloading...
+ jbigkit-2.2-1-x86_64 downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing giflib...
+installing libjpeg-turbo...
+installing libpng...
+installing jbigkit...
+installing libdeflate...
+installing libwebp...
+Optional dependencies for libwebp
+    libwebp-utils: WebP conversion and inspection tools
+installing libtiff...
+Optional dependencies for libtiff
+    freeglut: for using tiffgt
+installing lcms2...
+installing openjpeg2...
+installing leptonica...
+installing tesseract-data-eng...
+installing tesseract-data-osd...
+installing tesseract...
+Optional dependencies for tesseract
+    icu: for text2image [installed]
+    pango: for text2image
+    tesseract-data-afr: OCR data (afr)
+    tesseract-data-amh: OCR data (amh)
+    tesseract-data-ara: OCR data (ara)
+    tesseract-data-asm: OCR data (asm)
+    tesseract-data-aze: OCR data (aze)
+    tesseract-data-aze_cyrl: OCR data (aze_cyrl)
+    tesseract-data-bel: OCR data (bel)
+    tesseract-data-ben: OCR data (ben)
+    tesseract-data-bod: OCR data (bod)
+    tesseract-data-bos: OCR data (bos)
+    tesseract-data-bre: OCR data (bre)
+    tesseract-data-bul: OCR data (bul)
+    tesseract-data-cat: OCR data (cat)
+    tesseract-data-ceb: OCR data (ceb)
+    tesseract-data-ces: OCR data (ces)
+    tesseract-data-chi_sim: OCR data (chi_sim)
+    tesseract-data-chi_tra: OCR data (chi_tra)
+    tesseract-data-chr: OCR data (chr)
+    tesseract-data-cos: OCR data (cos)
+    tesseract-data-cym: OCR data (cym)
+    tesseract-data-dan: OCR data (dan)
+    tesseract-data-dan_frak: OCR data (dan_frak)
+    tesseract-data-deu: OCR data (deu)
+    tesseract-data-deu_frak: OCR data (deu_frak)
+    tesseract-data-div: OCR data (div)
+    tesseract-data-dzo: OCR data (dzo)
+    tesseract-data-ell: OCR data (ell)
+    tesseract-data-eng: OCR data (eng) [installed]
+    tesseract-data-enm: OCR data (enm)
+    tesseract-data-epo: OCR data (epo)
+    tesseract-data-equ: OCR data (equ)
+    tesseract-data-est: OCR data (est)
+    tesseract-data-eus: OCR data (eus)
+    tesseract-data-fao: OCR data (fao)
+    tesseract-data-fas: OCR data (fas)
+    tesseract-data-fil: OCR data (fil)
+    tesseract-data-fin: OCR data (fin)
+    tesseract-data-fra: OCR data (fra)
+    tesseract-data-frk: OCR data (frk)
+    tesseract-data-frm: OCR data (frm)
+    tesseract-data-fry: OCR data (fry)
+    tesseract-data-gla: OCR data (gla)
+    tesseract-data-gle: OCR data (gle)
+    tesseract-data-glg: OCR data (glg)
+    tesseract-data-grc: OCR data (grc)
+    tesseract-data-guj: OCR data (guj)
+    tesseract-data-hat: OCR data (hat)
+    tesseract-data-heb: OCR data (heb)
+    tesseract-data-hin: OCR data (hin)
+    tesseract-data-hrv: OCR data (hrv)
+    tesseract-data-hun: OCR data (hun)
+    tesseract-data-hye: OCR data (hye)
+    tesseract-data-iku: OCR data (iku)
+    tesseract-data-ind: OCR data (ind)
+    tesseract-data-isl: OCR data (isl)
+    tesseract-data-ita: OCR data (ita)
+    tesseract-data-ita_old: OCR data (ita_old)
+    tesseract-data-jav: OCR data (jav)
+    tesseract-data-jpn: OCR data (jpn)
+    tesseract-data-jpn_vert: OCR data (jpn_vert)
+    tesseract-data-kan: OCR data (kan)
+    tesseract-data-kat: OCR data (kat)
+    tesseract-data-kat_old: OCR data (kat_old)
+    tesseract-data-kaz: OCR data (kaz)
+    tesseract-data-khm: OCR data (khm)
+    tesseract-data-kir: OCR data (kir)
+    tesseract-data-kmr: OCR data (kmr)
+    tesseract-data-kor: OCR data (kor)
+    tesseract-data-kor_vert: OCR data (kor_vert)
+    tesseract-data-lao: OCR data (lao)
+    tesseract-data-lat: OCR data (lat)
+    tesseract-data-lav: OCR data (lav)
+    tesseract-data-lit: OCR data (lit)
+    tesseract-data-ltz: OCR data (ltz)
+    tesseract-data-mal: OCR data (mal)
+    tesseract-data-mar: OCR data (mar)
+    tesseract-data-mkd: OCR data (mkd)
+    tesseract-data-mlt: OCR data (mlt)
+    tesseract-data-mon: OCR data (mon)
+    tesseract-data-mri: OCR data (mri)
+    tesseract-data-msa: OCR data (msa)
+    tesseract-data-mya: OCR data (mya)
+    tesseract-data-nep: OCR data (nep)
+    tesseract-data-nld: OCR data (nld)
+    tesseract-data-nor: OCR data (nor)
+    tesseract-data-oci: OCR data (oci)
+    tesseract-data-ori: OCR data (ori)
+    tesseract-data-pan: OCR data (pan)
+    tesseract-data-pol: OCR data (pol)
+    tesseract-data-por: OCR data (por)
+    tesseract-data-pus: OCR data (pus)
+    tesseract-data-que: OCR data (que)
+    tesseract-data-ron: OCR data (ron)
+    tesseract-data-rus: OCR data (rus)
+    tesseract-data-san: OCR data (san)
+    tesseract-data-sin: OCR data (sin)
+    tesseract-data-slk: OCR data (slk)
+    tesseract-data-slk_frak: OCR data (slk_frak)
+    tesseract-data-slv: OCR data (slv)
+    tesseract-data-snd: OCR data (snd)
+    tesseract-data-spa: OCR data (spa)
+    tesseract-data-spa_old: OCR data (spa_old)
+    tesseract-data-sqi: OCR data (sqi)
+    tesseract-data-srp: OCR data (srp)
+    tesseract-data-srp_latn: OCR data (srp_latn)
+    tesseract-data-sun: OCR data (sun)
+    tesseract-data-swa: OCR data (swa)
+    tesseract-data-swe: OCR data (swe)
+    tesseract-data-syr: OCR data (syr)
+    tesseract-data-tam: OCR data (tam)
+    tesseract-data-tat: OCR data (tat)
+    tesseract-data-tel: OCR data (tel)
+    tesseract-data-tgk: OCR data (tgk)
+    tesseract-data-tgl: OCR data (tgl)
+    tesseract-data-tha: OCR data (tha)
+    tesseract-data-tir: OCR data (tir)
+    tesseract-data-ton: OCR data (ton)
+    tesseract-data-tur: OCR data (tur)
+    tesseract-data-uig: OCR data (uig)
+    tesseract-data-ukr: OCR data (ukr)
+    tesseract-data-urd: OCR data (urd)
+    tesseract-data-uzb: OCR data (uzb)
+    tesseract-data-uzb_cyrl: OCR data (uzb_cyrl)
+    tesseract-data-vie: OCR data (vie)
+    tesseract-data-yid: OCR data (yid)
+    tesseract-data-yor: OCR data (yor)
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+[?25h[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Scc --noconfirm
+[?25l
+Cache directory: /var/cache/pacman/pkg/
+:: Do you want to remove ALL files from cache? [y/N] 
+
+Database directory: /var/lib/pacman/
+:: Do you want to remove unused repositories? [Y/n] 
+removing unused sync repositories...
+[?25h[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Q | grep -Ei 'tesseract|lept'
+leptonica 1.87.0-2
+tesseract 5.5.4-1
+tesseract-data-eng 2:4.1.0-5
+tesseract-data-osd 2:4.1.0-5
+[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Qi tesseract
+[?25lName            : tesseract
+Version         : 5.5.4-1
+Description     : An OCR program
+Architecture    : x86_64
+URL             : https://github.com/tesseract-ocr/tesseract
+Licenses        : APACHE
+Groups          : None
+Provides        : libtesseract.so=5-64
+Depends On      : libgcc  libgomp  libstdc++  curl  libarchive  leptonica  tessdata  tesseract-data-osd
+Optional Deps   : icu: for text2image [installed]
+                  pango: for text2image
+                  tesseract-data-afr: OCR data (afr)
+                  tesseract-data-amh: OCR data (amh)
+                  tesseract-data-ara: OCR data (ara)
+                  tesseract-data-asm: OCR data (asm)
+                  tesseract-data-aze: OCR data (aze)
+                  tesseract-data-aze_cyrl: OCR data (aze_cyrl)
+                  tesseract-data-bel: OCR data (bel)
+                  tesseract-data-ben: OCR data (ben)
+                  tesseract-data-bod: OCR data (bod)
+                  tesseract-data-bos: OCR data (bos)
+                  tesseract-data-bre: OCR data (bre)
+                  tesseract-data-bul: OCR data (bul)
+                  tesseract-data-cat: OCR data (cat)
+                  tesseract-data-ceb: OCR data (ceb)
+                  tesseract-data-ces: OCR data (ces)
+                  tesseract-data-chi_sim: OCR data (chi_sim)
+                  tesseract-data-chi_tra: OCR data (chi_tra)
+                  tesseract-data-chr: OCR data (chr)
+                  tesseract-data-cos: OCR data (cos)
+                  tesseract-data-cym: OCR data (cym)
+                  tesseract-data-dan: OCR data (dan)
+                  tesseract-data-dan_frak: OCR data (dan_frak)
+                  tesseract-data-deu: OCR data (deu)
+                  tesseract-data-deu_frak: OCR data (deu_frak)
+                  tesseract-data-div: OCR data (div)
+                  tesseract-data-dzo: OCR data (dzo)
+                  tesseract-data-ell: OCR data (ell)
+                  tesseract-data-eng: OCR data (eng) [installed]
+                  tesseract-data-enm: OCR data (enm)
+                  tesseract-data-epo: OCR data (epo)
+                  tesseract-data-equ: OCR data (equ)
+                  tesseract-data-est: OCR data (est)
+                  tesseract-data-eus: OCR data (eus)
+                  tesseract-data-fao: OCR data (fao)
+                  tesseract-data-fas: OCR data (fas)
+                  tesseract-data-fil: OCR data (fil)
+                  tesseract-data-fin: OCR data (fin)
+                  tesseract-data-fra: OCR data (fra)
+                  tesseract-data-frk: OCR data (frk)
+                  tesseract-data-frm: OCR data (frm)
+                  tesseract-data-fry: OCR data (fry)
+                  tesseract-data-gla: OCR data (gla)
+                  tesseract-data-gle: OCR data (gle)
+                  tesseract-data-glg: OCR data (glg)
+                  tesseract-data-grc: OCR data (grc)
+                  tesseract-data-guj: OCR data (guj)
+                  tesseract-data-hat: OCR data (hat)
+                  tesseract-data-heb: OCR data (heb)
+                  tesseract-data-hin: OCR data (hin)
+                  tesseract-data-hrv: OCR data (hrv)
+                  tesseract-data-hun: OCR data (hun)
+                  tesseract-data-hye: OCR data (hye)
+                  tesseract-data-iku: OCR data (iku)
+                  tesseract-data-ind: OCR data (ind)
+                  tesseract-data-isl: OCR data (isl)
+                  tesseract-data-ita: OCR data (ita)
+                  tesseract-data-ita_old: OCR data (ita_old)
+                  tesseract-data-jav: OCR data (jav)
+                  tesseract-data-jpn: OCR data (jpn)
+                  tesseract-data-jpn_vert: OCR data (jpn_vert)
+                  tesseract-data-kan: OCR data (kan)
+                  tesseract-data-kat: OCR data (kat)
+                  tesseract-data-kat_old: OCR data (kat_old)
+                  tesseract-data-kaz: OCR data (kaz)
+                  tesseract-data-khm: OCR data (khm)
+                  tesseract-data-kir: OCR data (kir)
+                  tesseract-data-kmr: OCR data (kmr)
+                  tesseract-data-kor: OCR data (kor)
+                  tesseract-data-kor_vert: OCR data (kor_vert)
+                  tesseract-data-lao: OCR data (lao)
+                  tesseract-data-lat: OCR data (lat)
+                  tesseract-data-lav: OCR data (lav)
+                  tesseract-data-lit: OCR data (lit)
+                  tesseract-data-ltz: OCR data (ltz)
+                  tesseract-data-mal: OCR data (mal)
+                  tesseract-data-mar: OCR data (mar)
+                  tesseract-data-mkd: OCR data (mkd)
+                  tesseract-data-mlt: OCR data (mlt)
+                  tesseract-data-mon: OCR data (mon)
+                  tesseract-data-mri: OCR data (mri)
+                  tesseract-data-msa: OCR data (msa)
+                  tesseract-data-mya: OCR data (mya)
+                  tesseract-data-nep: OCR data (nep)
+                  tesseract-data-nld: OCR data (nld)
+                  tesseract-data-nor: OCR data (nor)
+                  tesseract-data-oci: OCR data (oci)
+                  tesseract-data-ori: OCR data (ori)
+                  tesseract-data-pan: OCR data (pan)
+                  tesseract-data-pol: OCR data (pol)
+                  tesseract-data-por: OCR data (por)
+                  tesseract-data-pus: OCR data (pus)
+                  tesseract-data-que: OCR data (que)
+                  tesseract-data-ron: OCR data (ron)
+                  tesseract-data-rus: OCR data (rus)
+                  tesseract-data-san: OCR data (san)
+                  tesseract-data-sin: OCR data (sin)
+                  tesseract-data-slk: OCR data (slk)
+                  tesseract-data-slk_frak: OCR data (slk_frak)
+                  tesseract-data-slv: OCR data (slv)
+                  tesseract-data-snd: OCR data (snd)
+                  tesseract-data-spa: OCR data (spa)
+                  tesseract-data-spa_old: OCR data (spa_old)
+                  tesseract-data-sqi: OCR data (sqi)
+                  tesseract-data-srp: OCR data (srp)
+                  tesseract-data-srp_latn: OCR data (srp_latn)
+                  tesseract-data-sun: OCR data (sun)
+                  tesseract-data-swa: OCR data (swa)
+                  tesseract-data-swe: OCR data (swe)
+                  tesseract-data-syr: OCR data (syr)
+                  tesseract-data-tam: OCR data (tam)
+                  tesseract-data-tat: OCR data (tat)
+                  tesseract-data-tel: OCR data (tel)
+                  tesseract-data-tgk: OCR data (tgk)
+                  tesseract-data-tgl: OCR data (tgl)
+                  tesseract-data-tha: OCR data (tha)
+                  tesseract-data-tir: OCR data (tir)
+                  tesseract-data-ton: OCR data (ton)
+                  tesseract-data-tur: OCR data (tur)
+                  tesseract-data-uig: OCR data (uig)
+                  tesseract-data-ukr: OCR data (ukr)
+                  tesseract-data-urd: OCR data (urd)
+                  tesseract-data-uzb: OCR data (uzb)
+                  tesseract-data-uzb_cyrl: OCR data (uzb_cyrl)
+                  tesseract-data-vie: OCR data (vie)
+                  tesseract-data-yid: OCR data (yid)
+                  tesseract-data-yor: OCR data (yor)
+Required By     : tesseract-data-eng
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 4.70 MiB
+Packager        : Caleb Maclennan <alerque@archlinux.org>
+Build Date      : Wed Oct 28 12:31:42 2026
+Install Date    : Wed Nov 18 06:53:47 2026
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
+[?25h[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Ss '^tesseract-data-' | grep -E '^[a-z]+/' | sort
+extra/tesseract-data-afr 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-amh 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ara 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-asm 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-aze 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-aze_cyrl 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-bel 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ben 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-bod 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-bos 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-bre 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-bul 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-cat 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ceb 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ces 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-chi_sim 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-chi_sim_vert 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-chi_tra 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-chi_tra_vert 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-chr 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-cos 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-cym 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-dan 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-dan_frak 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-deu 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-deu_frak 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-div 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-dzo 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ell 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-eng 2:4.1.0-5 (tesseract-data) [installed]
+extra/tesseract-data-enm 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-epo 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-equ 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-est 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-eus 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fao 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fas 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fil 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fin 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fra 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-frk 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-frm 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-fry 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-gla 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-gle 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-glg 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-grc 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-guj 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-hat 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-heb 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-hin 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-hrv 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-hun 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-hye 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-iku 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ind 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-isl 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ita 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ita_old 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-jav 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-jpn 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-jpn_vert 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kan 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kat 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kat_old 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kaz 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-khm 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kir 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kmr 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kor 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-kor_vert 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-lao 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-lat 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-lav 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-lit 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ltz 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mal 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mar 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mkd 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mlt 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mon 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mri 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-msa 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-mya 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-nep 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-nld 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-nor 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-oci 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ori 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-osd 2:4.1.0-5 [installed]
+extra/tesseract-data-pan 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-pol 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-por 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-pus 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-que 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ron 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-rus 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-san 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-sin 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-slk 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-slk_frak 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-slv 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-snd 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-spa 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-spa_old 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-sqi 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-srp 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-srp_latn 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-sun 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-swa 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-swe 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-syr 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tam 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tat 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tel 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tgk 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tgl 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tha 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tir 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ton 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-tur 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-uig 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-ukr 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-urd 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-uzb 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-uzb_cyrl 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-vie 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-yid 2:4.1.0-5 (tesseract-data)
+extra/tesseract-data-yor 2:4.1.0-5 (tesseract-data)
+[1;32mroot@archlinux[0m:[1;34m/[0m# pacman -Ssq '^tesseract-data-' | wc -l
+129
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract --version
+tesseract 5.5.4
+ leptonica-1.87.0
+  libgif 6.1.3 : libjpeg 8d (libjpeg-turbo 3.2.0) : libpng 1.6.59 : libtiff 4.7.2 : zlib 1.3.2 : libwebp 1.6.0 : libopenjp2 2.5.4
+ Found AVX512BW
+ Found AVX512F
+ Found AVX512VNNI
+ Found AVX2
+ Found AVX
+ Found FMA
+ Found SSE4.1
+ Found OpenMP 202111
+ Found libarchive 3.8.11 zlib/1.3.2 liblzma/5.8.4 bz2lib/1.0.8 liblz4/1.11.0 libzstd/1.5.7 libxml2/2.15.4 openssl/3.6.5 libb2/bundled libacl/2.4.0
+ Found libcurl/8.23.0 OpenSSL/3.6.5 zlib/1.3.2 brotli/1.2.1 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 nghttp2/1.71.0 ngtcp2/1.26.0 nghttp3/1.19.0 mit-krb5/1.22.2
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract --list-langs
+List of available languages in "/usr/share/tessdata/" (2):
+eng
+osd
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract /samples/receipt.png -
+Estimating resolution as 246
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
+Sourdough loaf 3.80
+Free-range eggs x6 2.95
+Bananas 1.2kg 1.38
+Dark chocolate 85% 2.20
+Coffee beans 2509 6.50
+SUBTOTAL 19.32
+VAT 5% 0.97
+TOTAL 20.29
+
+CARD ****4821 APPROVED
+Thank you for shopping!
+[1;32mroot@archlinux[0m:[1;34m/[0m# command -v tesseract; ls -la '/usr/share/tessdata/'; du -sh '/usr/share/tessdata/'
+/usr/sbin/tesseract
+total 33260
+drwxr-xr-x 4 root root     4096 Nov 18 06:53 .
+drwxr-xr-x 1 root root     4096 Nov 18 06:53 ..
+drwxr-xr-x 2 root root     4096 Nov 18 06:53 configs
+-rw-r--r-- 1 root root 23466654 Apr  9  2026 eng.traineddata
+-rw-r--r-- 1 root root 10562874 Apr  9  2026 osd.traineddata
+-rw-r--r-- 1 root root      572 Oct 28 12:31 pdf.ttf
+drwxr-xr-x 2 root root     4096 Nov 18 06:53 tessconfigs
+33M	/usr/share/tessdata/
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract /samples/receipt.png - -l xyz
+Error opening data file /usr/share/tessdata/xyz.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'xyz'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract /samples/receipt.png - --tessdata-dir /nonexistent
+Error opening data file /nonexistent/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@archlinux[0m:[1;34m/[0m# TESSDATA_PREFIX=/tmp tesseract /samples/receipt.png -
+Error opening data file /tmp/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+[1;32mroot@archlinux[0m:[1;34m/[0m# tesseract /samples/missing.png -
+Error, cannot read input file /samples/missing.png: No such file or directory
+Error during processing.

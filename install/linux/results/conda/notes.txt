@@ -1,0 +1,4 @@
+rootfs_kb_before=585916
+conda_kb_before=419396
+conda_kb_after=815388
+rootfs_kb_after=981932
