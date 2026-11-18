@@ -1,5 +1,48 @@
 port before: not installed
-None
-macports pkg for macOS 26: NONE FOUND
-assets: []
-RESULT: no MacPorts installer for this macOS version
+{
+  "url": "https://api.github.com/repos/macports/macports-base/releases/411499205",
+  "assets_url": "https://api.github.com/repos/macports/macports-base/releases/411499205/assets",
+  "upload_url": "https://uploads.github.com/repos/macports/macports-base/releases/411499205/assets{?name,label}",
+  "h
+v2.12.7
+macports pkg for macOS 26: https://github.com/macports/macports-base/releases/download/v2.12.7/MacPorts-2.12.7-26-Tahoe.pkg
+assets: ['MacPorts-2.12.7-10.10-Yosemite.pkg', 'MacPorts-2.12.7-10.11-ElCapitan.pkg', 'MacPorts-2.12.7-10.12-Sierra.pkg', 'MacPorts-2.12.7-10.13-HighSierra.pkg', 'MacPorts-2.12.7-10.14-Mojave.pkg', 'MacPorts-2.12.7-10.15-Catalina.pkg', 'MacPorts-2.12.7-10.6-SnowLeopard.pkg', 'MacPorts-2.12.7-10.7-Lion.pkg', 'MacPorts-2.12.7-10.8-MountainLion.pkg', 'MacPorts-2.12.7-10.9-Mavericks.pkg', 'MacPorts-2.12.7-11-BigSur.pkg', 'MacPorts-2.12.7-12-Monterey.pkg', 'MacPorts-2.12.7-13-Ventura.pkg', 'MacPorts-2.12.7-14-Sonoma.pkg', 'MacPorts-2.12.7-15-Sequoia.pkg', 'MacPorts-2.12.7-26-Tahoe.pkg', 'MacPorts-2.12.7-27-GoldenGate.pkg']
+installer: Package name is MacPorts
+installer: Installing at base path /
+installer: The install was successful.
+macports install seconds: 27
+Version: 2.12.7
+--->  Checking for newer releases of MacPorts
+MacPorts base version 2.12.7 installed,
+MacPorts base version 2.12.7 available.
+--->  MacPorts base is already the latest version
+--->  Updating the ports tree
+
+The ports tree has been updated.
+All installed ports are up to date.
+selfupdate seconds: 10
+tesseract @5.5.3 (textproc, graphics, pdf)
+Sub-ports:            tesseract-training, tesseract-afr, tesseract-amh, tesseract-ara, tesseract-asm, tesseract-aze, tesseract-aze-cyrl, tesseract-bel, tesseract-ben, tesseract-bod, tesseract-bos, tesseract-bul, tesseract-cat, tesseract-ceb, tesseract-ces, tesseract-chi-sim, tesseract-chi-tra, tesseract-chr, tesseract-cym, tesseract-dan, tesseract-deu, tesseract-dzo, tesseract-ell, tesseract-eng, tesseract-enm, tesseract-epo, tesseract-est, tesseract-eus, tesseract-fas, tesseract-fin, tesseract-fra, tesseract-frm, tesseract-gle, tesseract-glg, tesseract-grc, tesseract-guj, tesseract-hat, tesseract-heb, tesseract-hin, tesseract-hrv, tesseract-hun, tesseract-iku, tesseract-ind, tesseract-isl, tesseract-ita, tesseract-jav, tesseract-jpn, tesseract-kan, tesseract-kat, tesseract-kaz, tesseract-khm, tesseract-kir, tesseract-kor, tesseract-kmr, tesseract-lao, tesseract-lat, tesseract-lav, tesseract-lit, tesseract-mal, tesseract-mar, tesseract-mkd, tesseract-mlt, tesseract-msa, tesseract-mya, tesseract-nep, tesseract-nld, tesseract-nor, tesseract-ori, tesseract-osd, tesseract-pan, tesseract-pol, tesseract-por, tesseract-pus, tesseract-ron, tesseract-rus, tesseract-san, tesseract-sin, tesseract-slk, tesseract-slv, tesseract-spa, tesseract-sqi, tesseract-srp, tesseract-srp-latn, tesseract-swa, tesseract-swe, tesseract-syr, tesseract-tam, tesseract-tel, tesseract-tgk, tesseract-tgl, tesseract-tha, tesseract-tir, tesseract-tur, tesseract-uig, tesseract-ukr, tesseract-urd, tesseract-uzb, tesseract-uzb-cyrl, tesseract-vie, tesseract-yid
+Variants:             universal
+
+Description:          This package contains an OCR engine - libtesseract and a command line program - tesseract. Tesseract 4 adds a new neural net (LSTM) based OCR engine which is focused on line recognition, but also still supports the legacy Tesseract OCR engine of Tesseract 3 which works by recognizing character patterns.
+Homepage:             https://github.com/tesseract-ocr/tesseract
+
+Build Dependencies:   pkgconfig, autoconf, automake, libtool, asciidoc
+Library Dependencies: curl, leptonica, libarchive, libjpeg-turbo, libpng, zlib
+Platforms:            darwin
+License:              Apache-2
+Maintainers:          Email: mark@macports.org, GitHub: markemer
+Policy: openmaintainer
+language ports found: 100
+install/macos/scripts/macports.sh: line 31: timeout: command not found
+port install tesseract exit=127 seconds: 0
+ports installed:        0
+270M	/opt/local
+install/macos/scripts/macports.sh: line 35: /opt/local/bin/tesseract: No such file or directory
+install/macos/scripts/macports.sh: line 35: /opt/local/bin/tesseract: No such file or directory
+install/macos/scripts/macports.sh: line 36: /opt/local/bin/tesseract: No such file or directory
+install/macos/scripts/macports.sh: line 37: timeout: command not found
+port install tesseract-eng exit=127 seconds: 0
+install/macos/scripts/macports.sh: line 38: /opt/local/bin/tesseract: No such file or directory
+install/macos/scripts/macports.sh: line 39: /opt/local/bin/tesseract: No such file or directory
