@@ -1,0 +1,3 @@
+ocrbench/gosseract
+github.com/otiai10/gosseract/v2 v2.4.1
+github.com/otiai10/mint v1.6.3

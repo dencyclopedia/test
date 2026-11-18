@@ -1,0 +1,109 @@
+{
+ "binding": "tesseract.js (CDN model)",
+ "info": {
+  "tesseract.js": "7.0.0",
+  "tesseract.js-core": "7.0.0",
+  "oem": 1,
+  "model": "@tesseract.js-data/eng/4.0.0_best_int (jsDelivr)",
+  "cache_files": [
+   "eng.traineddata"
+  ]
+ },
+ "init_s": 0.24096338,
+ "tiny_s": [
+  0.014772455000000037,
+  0.017882114,
+  0.013627422000000024,
+  0.016679001000000027,
+  0.012727283999999997,
+  0.014338524000000007,
+  0.012451850999999976,
+  0.012213861000000008,
+  0.012440021999999998,
+  0.012960273000000029,
+  0.012048163000000046,
+  0.01200649599999997,
+  0.011999774999999999,
+  0.012036779999999964,
+  0.012644217000000025,
+  0.011979403000000048,
+  0.012456087000000025,
+  0.011812935000000038,
+  0.01265616,
+  0.011828510999999936
+ ],
+ "pass_s": [
+  [
+   0.635173107999999,
+   0.6001437479999986,
+   0.5455471130000006,
+   0.8796061749999989,
+   0.8463877049999992,
+   0.803982489,
+   0.7867228839999989,
+   0.6798734170000007,
+   0.8548943869999984,
+   0.7369729490000009
+  ],
+  [
+   0.6323379530000002,
+   0.597604312999998,
+   0.5472406420000007,
+   0.8783329690000028,
+   0.8453581570000024,
+   0.8046298569999999,
+   0.7808189239999992,
+   0.6761732129999982,
+   0.8537898139999998,
+   0.7370855699999993
+  ],
+  [
+   0.6335625189999992,
+   0.5949990160000016,
+   0.5446618309999977,
+   0.8737899739999994,
+   0.849332366999999,
+   0.799755455999999,
+   0.7867626810000001,
+   0.6797889340000002,
+   0.8570976389999996,
+   0.7398723869999995
+  ],
+  [
+   0.6363035880000025,
+   0.5986223070000014,
+   0.5467605430000003,
+   0.8790905879999991,
+   0.8495779490000023,
+   0.8067302319999944,
+   0.7841317399999971,
+   0.6807700729999997,
+   0.8567972739999968,
+   0.7395570100000041
+  ],
+  [
+   0.6394627550000005,
+   0.6008737850000034,
+   0.5481839130000008,
+   0.880563596,
+   0.8515055379999976,
+   0.8029179579999982,
+   0.7867311809999955,
+   0.6827848559999984,
+   0.8532423169999965,
+   0.7393649460000015
+  ]
+ ],
+ "texts": [
+  "Chapter 1\n\nIt is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\nHowever little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is\nso well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other\nof their daughters.\n\n\u201cMy dear Mr. Bennet,\u201d said his lady to him one day, \u201chave you heard that Netherfield Park is let at last?\u201d\n\nMr. Bennet replied that he had not.\n\n\u201cBut it is,\u201d returned she; \u201cfor Mrs. Long has just been here, and she told me all about it.\u201d\n\nMr. Bennet made no answer.\n",
+  "\u201cDo you not want to know who has taken it?\u201d cried his wife impatiently.\n\n\u201c_You_ want to tell me, and I have no objection to hearing it.\u201d\n\nThis was invitation enough.\n\n\u201cWhy, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the\nnorth of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted\nwith it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his\nservants are to be in the house by the end of next week.\u201d\n\n\u201cWhat is his name?\u201d\n\n\u201cBingley.\u201d\n",
+  "\u201cIs he married or single?\u201d\n\n\u201cOh! Single, my dear, to be sure! A single man of large fortune; four or five thousand a year. What a fine thing for our\ngirls!\u201d\n\n\u201cHow so? How can it affect them?\u201d\n\n\u201cMy dear Mr. Bennet,\u201d replied his wife, \u201chow can you be so tiresome! You must know that I am thinking of his\nmarrying one of them.\u201d\n\n\u201cIs that his design in settling here?\u201d\n\n\u201cDesign! Nonsense, how can you talk so! But it is ery likely that he _may_ fall in love with one of them, and\ntherefore you must visit him as soon as he comes.\u2019\n",
+  "~ \u201cI see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still\nbetter, for as you are as handsome as any of them, Mr. Bingley may like you the best of the party.\u201d\n\n\u201cMy dear, you flatter me. I certainly _have_ had my share of beauty, but I do not pretend to be anything extraordinary\nnow. When a woman has five grown-up daughters, she ought to give over thinking of her own beauty.\u201d\n\n\u201cIn such cases, a woman has not often much beauty to think of.\u201d\n\u201cBut, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood.\u201d\n\u201cIt is more than I engage for, I assure you.\u201d\n\n\u201cBut consider your daughters. Only think what an establishment it would be for one of them. Sir William and Lady\nLucas are determined to go, merely on that account, for in general, you know, they visit no newcomers. Indeed you\n",
+  "must go, for it will be impossible for _us_ to visit him if you do not.\u201d\n\n\u201cYou are over-scrupulous, surely. I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by\nyou to assure him of my hearty consent to his marrying whichever he chooses of the girls; Lene I must throw in a\ngood word for my little Lizzy.\u201d\n\n\u201cI desire you will i no such thing. Lizzy is not a bit better than the others; and I am sure she is not half so handsome\nas Jane, nor half so good-humoured as Lydia. But you are always giving _her_ the preference.\u201d\n\n\u201cThey have none of them much to recommend them,\u201d plac he; \u201cthey are all silly and ignorant like other girls; but\nLizzy has something more of quickness than her sisters.\u201d\n\n\u201cMr. Bennet, how _can_ you abuse your own children in such a way? You take delight in vexing me. You have no\ncompassion for my poor nerves.\u201d : :\n",
+  "\u201cYou mistake me, my dear. I have a high respect for your nerves. They are my old friends. I have heard you mention\nthem with consideration these last twenty years at least.\u201d\n\n\u201cAh, you do not know what I suffer.\u201d\n\n\u201cBut I hope you will get over it, and live to see many young men of four thousand a year come into the\nneighbourhood.\u201d\n\n\u201cIt will be no use to us, if twenty such should come, since you will not visit them.\u201d\n\u201cDepend upon it, my dear, that when there are twenty, I will visit them all.\u201d\nMr. Bennet was so odd a mixture of quick parts, sarcastic humour, reserve, and caprice, that the experience of\n\nthree-and-twenty years had been insufficient to make his wife understand his character. _Her_ mind was less difficult\nto develop. She was a woman of mean understanding, little information, and uncertain temper. When she was\n",
+  "discontented, she fancied herself nervous. The business of her life was to get her daughters married; its solace was\nvisiting and news.\n\nChapter 2\n\nMr. Bennet was among the earliest of those who waited on Mr. Bingley. He had always intended to visit him, though\nto the last always assuring his wife that he should not go; and till the evening after the visit was paid she had no\nknowledge of it. It was then disclosed in the following manner. Observing his second daughter ie in trimming\na hat, he suddenly addressed her with:\n\n\u201cI hope Mr. Bingley will like it, {hry\n\n\u201cWe are not in a way to know _what_ Mr. Bingley likes,\u201d said her mother resentfully, \u201csince we are not to visit.\u201d\n\n\u201cBut you forget, mamma,\u201d said Elizabeth, \u201cthat we shall meet him at the assemblies, and that Mrs. Long promised to\n",
+  "introduce him.\u201d\n\n\u201cI do not believe Mrs. Long will do any such thing. She has two nieces of her own. She is a selfish, hypocritical\nwoman, and I have no opinion of her.\u201d :\n\n\u201cNo more have I,\u201d said Mr. Bennet; \u201cand I am glad to find that you do not depend on her serving you.\u201d\n\nMrs. Bennet deigned not to make any reply, but, unable to ne herself, began scolding one of her daughters.\n\u201cDon't keep coughing so, Kitty, for Heaven's sake! Have a little compassion on my nerves. You tear them to pieces.\u201d\n\u201cKitty has no discretion in her coughs,\u201d said her father; \u201cshe times them ill.\u201d\n\n\u201cI do not cough for my own amusement,\u201d replied Kitty fretfully. \u201cWhen is your next ball to be, Lizzy?\u201d\n",
+  "\u201cTo-morrow fortnight.\u201d\n\n\u201cAye, so it is,\u201d cried her mother, \u201cand Mrs. Long does not come back till the day before; so it will be impossible for\nher to introduce him, for she will not know him herself.\u201d\n\n\u00bb\n\n\u201cThen, my dear, you may have the advantage of your friend, and introduce Mr. Bingley to _her_.\n\n\u201cImpossible, Mr. Bennet, impossible, when I am not acquainted with him myself; how can you be so teasing?\u201d\n\n\u201cI honour your circumspection. A fortnight's acquaintance is certainly very little. One cannot know what a man really\n\u201cis by the end of a fortnight. But if _we_ do not venture somebody else will; and after all, Mrs. Long and her neices\n\nmust stand their chance; and, therefore, as she will think it an act of kindness, if you decline the office, I will take it\n\non myself.\u201d\n\nThe girls stared at their father. Mrs. Bennet said only, \u201cNonsense, nonsense!\u201d\n",
+  "\u201cWhat can be the meaning of that emphatic exclamation?\u201d cried he. \u201cDo you consider the forms of introduction, and\nthe stress that is laid on them, as nonsense? I cannot quite agree with you _there_. What say you, Mary? For you are a\nyoung lady of deep reflection, I know, and read great books and make extracts.\u201d\n\nMary wished to say something sensible, but knew not how.\n\n\u201cWhile Mary is adjusting her ideas,\u201d he continued, \u201clet us return to Mr. Bingley.\u201d\n\n\u201cI am sick of Mr. Bingley,\u201d cried his wife.\n\n\u201cI am sorry to hear _that_; but why did not you tell me that before? If I had known as much this morning I certainly\n\nwould not have called on him. It is very unlucky; but as I have actually paid the visit; we cannot escape the\nacquaintance now.\u201d\n"
+ ]
+}

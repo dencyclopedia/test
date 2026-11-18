@@ -1,0 +1,25 @@
+{
+  "date_utc": "2026-11-18T09:22:24+00:00",
+  "runner": "github-actions",
+  "runner_image": "ubuntu24 20261111.127.1",
+  "os": "Ubuntu 24.04.5 LTS",
+  "kernel": "7.0.0-1014-aws",
+  "cpu_model": "Intel(R) Xeon(R) 6975P-C",
+  "cpu_cores_logical": 4,
+  "mem_total": "15Gi",
+  "engine": "tesseract 5.5.4 |  leptonica-1.82.0",
+  "engine_path": "/opt/tess554/bin/tesseract",
+  "models": {
+    "tessdata_fast": "87416418657359cb625c412a48b6e1d6d41c29bd",
+    "tessdata": "ced78752cc61322fb554c280d13360b35b8684e4",
+    "tessdata_best": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  },
+  "git_sha": "b56c1b669db30b51ece83af64bdccf5efd5df8af",
+  "run_url": "https://github.com/dencyclopedia/test/actions/runs/44258321224",
+  "python": "3.12.3",
+  "input": "synthetic: 10 images 2481x1170 px 300 DPI (Pride and Prejudice, Liberation Serif 11pt, seeded scan noise) + tiny.png (one word)",
+  "model": "eng from tessdata_fast (pinned commit) unless a row says otherwise",
+  "omp_thread_limit": "1",
+  "passes": 5,
+  "toolchains": "\"go version go1.24.7 linux/amd64 | node v22.23.4 | openjdk version \"21.0.13\" 2026-10-20 LTS | dotnet 11.0.100 | g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\""
+}

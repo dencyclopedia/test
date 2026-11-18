@@ -1,0 +1,19 @@
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Exception in thread "main" java.lang.UnsatisfiedLinkError: Error looking up function 'pixAddMultipleBlackWhiteBorders': /lib/x86_64-linux-gnu/liblept.so.5: undefined symbol: pixAddMultipleBlackWhiteBorders
+	at com.sun.jna.Function.<init>(Function.java:255)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:618)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:594)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:580)
+	at com.sun.jna.Native.register(Native.java:1900)
+	at com.sun.jna.Native.register(Native.java:1771)
+	at com.sun.jna.Native.register(Native.java:1489)
+	at net.sourceforge.lept4j.Leptonica1.<clinit>(Leptonica1.java:41)
+	at net.sourceforge.lept4j.util.LeptUtils.convertImageToPix(LeptUtils.java:104)
+	at net.sourceforge.lept4j.util.LeptUtils.convertImageToPix(LeptUtils.java:92)
+	at net.sourceforge.tess4j.Tesseract.setImage(Tesseract.java:417)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:289)
+	at net.sourceforge.tess4j.Tesseract.doOCR(Tesseract.java:207)
+	at net.sourceforge.tess4j.ITesseract.doOCR(ITesseract.java:59)
+	at bench.Harness.main(Harness.java:25)

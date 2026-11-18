@@ -1,0 +1,18 @@
+
+added 13 packages in 2s
+tesseractjs-harness@ /home/runner/work/test/test/bench/bindings/node
+└─┬ tesseract.js@7.0.0
+  ├── bmp-js@0.1.0
+  ├── idb-keyval@6.3.0
+  ├── is-url@1.2.4
+  ├─┬ node-fetch@2.7.0
+  │ ├── UNMET OPTIONAL DEPENDENCY encoding@^0.1.0
+  │ └─┬ whatwg-url@5.0.0
+  │   ├── tr46@0.0.3
+  │   └── webidl-conversions@3.0.1
+  ├── opencollective-postinstall@2.0.3
+  ├── regenerator-runtime@0.13.11
+  ├── tesseract.js-core@7.0.0
+  ├── wasm-feature-detect@1.10.1
+  └── zlibjs@0.3.1
+

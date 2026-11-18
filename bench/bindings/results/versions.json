@@ -1,0 +1,74 @@
+[
+  {
+    "package": "tesseract (C++ engine, TessBaseAPI)",
+    "registry": "GitHub releases",
+    "latest": "5.5.4",
+    "released": "2026-10-28T11:19:43Z",
+    "license": "Apache-2.0",
+    "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4"
+  },
+  {
+    "package": "pytesseract",
+    "registry": "PyPI",
+    "latest": "0.3.13",
+    "released": "2024-08-16T02:33:56.762649Z",
+    "license": "Apache License 2.0",
+    "url": "https://pypi.org/project/pytesseract/"
+  },
+  {
+    "package": "tesserocr",
+    "registry": "PyPI",
+    "latest": "2.13.0",
+    "released": "2026-11-12T09:43:24.432059Z",
+    "license": "MIT",
+    "url": "https://pypi.org/project/tesserocr/"
+  },
+  {
+    "package": "tesseract.js",
+    "registry": "npm",
+    "latest": "7.0.0",
+    "released": "2025-12-15T03:37:59.222Z",
+    "license": "Apache-2.0",
+    "url": "https://www.npmjs.com/package/tesseract.js"
+  },
+  {
+    "package": "tesseract.js-core",
+    "registry": "npm",
+    "latest": "6.1.2",
+    "released": "2025-12-15T02:47:16.915Z",
+    "license": "Apache-2.0",
+    "url": "https://www.npmjs.com/package/tesseract.js-core"
+  },
+  {
+    "package": "tess4j",
+    "registry": "Maven Central",
+    "latest": "5.16.0",
+    "released": "2025-06-08T23:15:48.242000+00:00",
+    "license": "Apache License 2.0",
+    "url": "https://central.sonatype.com/artifact/net.sourceforge.tess4j/tess4j"
+  },
+  {
+    "package": "gosseract",
+    "registry": "Go module proxy",
+    "latest": "v2.4.1",
+    "released": "2023-09-06T07:15:09Z",
+    "license": "MIT",
+    "url": "https://pkg.go.dev/github.com/otiai10/gosseract/v2"
+  },
+  {
+    "package": "Tesseract (.NET NuGet)",
+    "registry": "NuGet",
+    "latest": "5.2.0",
+    "released": "2022-11-30T09:06:39.837+00:00",
+    "license": "Apache-2.0",
+    "url": "https://www.nuget.org/packages/Tesseract"
+  },
+  {
+    "package": "ocrmypdf",
+    "registry": "PyPI",
+    "latest": "17.14.2",
+    "released": "2026-11-16T01:20:26.986210Z",
+    "license": "MPL-2.0",
+    "url": "https://pypi.org/project/ocrmypdf/"
+  }
+]
