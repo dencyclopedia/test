@@ -64,10 +64,16 @@ jobs:
           PY
           echo "== download + sha256 of current w64/w32 candidates =="
           mkdir -p dl
-          # every w64/w32 setup asset of the newest 3 GitHub releases (incl. pre-releases) + the newest on digi.bib
-          jq -r '[.[] | select(.draft==false)][0:3][] | .assets[] | select(.name|test("setup.*\\.exe$")) | .browser_download_url' $out/releases.json > urls.txt
-          newest_digi=$(grep -oE 'tesseract-ocr-w64-setup-[^ |]+\.exe' $out/digi-listing.txt | sort -V | tail -1)
+          echo "== upstream tesseract-ocr/tesseract releases with Windows installer assets =="
+          api "repos/tesseract-ocr/tesseract/releases?per_page=30" > $out/upstream-releases.json
+          jq -r '.[] | "\(.tag_name)\tpre=\(.prerelease)\t\(.published_at)\t" + ([.assets[] | "\(.name) (\(.size) B, uploaded \(.created_at), downloads \(.download_count), digest \(.digest // "n/a"))"] | join("; "))' $out/upstream-releases.json
+          # every w64 setup exe: upstream release assets, UB-Mannheim release assets, wiki links, newest digi.bib file (by date)
+          jq -r '.[] | .assets[] | select(.name|test("w64-setup.*\\.exe$")) | .browser_download_url' $out/upstream-releases.json > urls.txt
+          jq -r '[.[] | select(.draft==false)][0:2][] | .assets[] | select(.name|test("setup.*\\.exe$")) | .browser_download_url' $out/releases.json >> urls.txt
+          grep -oE 'https://[^ ]*w64-setup-5[^ ]*\.exe' $out/wiki-links.txt >> urls.txt
+          newest_digi=$(grep -E 'w64-setup.*\.exe' $out/digi-listing.txt | sort -t'|' -k2 | tail -1 | cut -d'|' -f1 | tr -d ' ')
           echo "https://digi.bib.uni-mannheim.de/tesseract/$newest_digi" >> urls.txt
+          sort -u urls.txt -o urls.txt
           cat urls.txt
           echo -e "file\tbytes\tsha256\tsource_url" > $out/installers-sha256.tsv
           while read u; do f=dl/$(basename "$u"); curl -sSL -o "$f" "$u" && echo -e "$(basename $f)\t$(stat -c %s $f)\t$(sha256sum $f|cut -d' ' -f1)\t$u" >> $out/installers-sha256.tsv; done < urls.txt

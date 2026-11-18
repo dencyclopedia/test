@@ -1,0 +1,63 @@
+name: install-linux
+# Clean-container installs of Tesseract on common Linux distributions, recorded as asciicast
+# transcripts, plus a survey of popular third-party Docker images.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/install-linux.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  distro:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { f: ubuntu-22.04, img: 'ubuntu:22.04' }
+          - { f: ubuntu-24.04, img: 'ubuntu:24.04' }
+          - { f: ubuntu-24.04-ppa, img: 'ubuntu:24.04' }
+          - { f: debian-12, img: 'debian:12' }
+          - { f: debian-13, img: 'debian:13' }
+          - { f: fedora, img: 'fedora:latest' }
+          - { f: archlinux, img: 'archlinux:latest' }
+          - { f: alpine, img: 'alpine:latest' }
+          - { f: opensuse-tumbleweed, img: 'opensuse/tumbleweed:latest' }
+          - { f: conda, img: 'condaforge/miniforge3:latest' }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install in clean container
+        run: |
+          out=out/${{ matrix.f }}; mkdir -p $out
+          { echo "{"; echo "\"runner_os\": \"$ImageOS\", \"runner_image_version\": \"$ImageVersion\","; echo "\"cpu\": \"$(lscpu | sed -n 's/^Model name: *//p')\", \"cores\": $(nproc),"; echo "\"docker\": \"$(docker --version)\", \"date_utc\": \"$(date -u +%FT%TZ)\","; echo "\"run\": \"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\", \"git_sha\": \"${{ github.sha }}\""; echo "}"; } > $out/meta.json
+          bash install/linux/run-distro.sh "${{ matrix.f }}" "${{ matrix.img }}" "$out"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'linux-${{ matrix.f }}', path: 'out/${{ matrix.f }}' }
+  docker-images:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash install/linux/docker-images.sh out/docker-images
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: linux-docker-images, path: out/docker-images }
+  collect:
+    needs: [distro, docker-images]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'linux-*', path: dl }
+      - name: Commit
+        run: |
+          mkdir -p install/linux/results
+          for d in dl/linux-*; do n=${d#dl/linux-}; rm -rf install/linux/results/$n; mv $d install/linux/results/$n; done
+          echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > install/linux/results/RUN.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add install/linux/results
+          git commit -q -m "Linux install captures (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
