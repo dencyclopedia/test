@@ -1,0 +1,489 @@
+::warning::You are using macOS on Intel x86_64.%0AWe do not provide support for this platform (as-of September 2026, announced August 2025).%0A%0AApple have dropped Intel x86_64 support in macOS Golden Gate (27).%0AGitHub Actions are dropping macOS Intel x86_64 runners in 2027.%0AHomebrew is a non-profit project run entirely by volunteers, not employees.%0AIf the biggest companies in the world cannot support macOS Intel x86_64%0Aany longer, sadly neither can we.%0A%0AHomebrew no longer builds bottles for this configuration.%0AConsider MacPorts, which provides binary packages for this macOS version:%0A  https://www.macports.org
+
+[34m==>[0m [1mWould install 1 formula:[0m
+tesseract 5.5.4
+[34m==>[0m [1mWould install 22 dependencies for tesseract:[0m
+bison                  3.8.2
+python@3.15            3.15.2
+meson                  1.12.1_1
+python-setuptools      84.2.1
+util-macros            1.20.2
+xtrans                 1.6.0
+icu4c@79               79.1
+gobject-introspection  1.86.0_6
+nasm                   3.02
+fmt                    12.2.1
+spdlog                 1.17.0
+doxygen                1.18.0
+openjpeg               2.5.4_1
+leptonica              1.87.0
+libb2                  0.98.1
+libarchive             3.8.11
+help2man               1.49.3_5
+fribidi                1.0.18
+libdatrie              0.2.14
+libthai                0.1.30
+pango                  1.58.2
+automake               1.20
+[34m==>[0m [1mWould upgrade 19 dependencies for tesseract:[0m
+cmake         4.4.2   -> 4.5.0
+brotli        1.2.0   -> 1.2.1
+libpng        1.6.58  -> 1.6.59
+pkgconf       3.0.5   -> 3.0.11
+freetype      2.14.3  -> 2.15.0
+libunistring  1.4.2   -> 1.5
+pcre2         10.47_1 -> 10.49
+readline      8.3.3   -> 8.3.6
+sqlite        3.53.4  -> 3.54.1
+xz            5.8.3   -> 5.8.4
+lz4           1.10.0  -> 1.11.1
+glib          2.88.3  -> 2.90.1
+xorgproto     2025.1  -> 2026.1
+libx11        1.8.13  -> 1.8.14
+libxrender    0.9.12  -> 0.9.13
+cairo         1.18.4  -> 1.18.6
+harfbuzz      14.3.1  -> 15.1.0
+jpeg-turbo    3.2.0   -> 3.2.1
+little-cms2   2.19    -> 2.20
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/c/cmake.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/d9c5a9e5491b926c3eb7e5a5c2135ccf50bf5f568bf2a7880a132799dba98bbd--cmake.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/b/brotli.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/4b681c937e0a854060f0aab178f2b2c8ef673054711730f5b10e1b2cdb682e76--brotli.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/lib/libpng.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/4dfb9edecfb0adeb0493423cf528bfa6364b2399111ff58bb1cebe9e7dad678b--libpng.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/p/pkgconf.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/f2f558182882b75031b892bf622839194132c7dbf7e5075fe738ae7f8f9b61db--pkgconf.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/f/freetype.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/6db8b104a858a5f6c9ccf6476f8dc4dfc6c7d9963015ec173c1a65c20f36514c--freetype.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/lib/libunistring.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/93558a8a427712710a296a4862616ec6bf8fc04fcaef6a9d0bc8a60ddb683683--libunistring.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/p/pcre2.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/4a7dfe599e8d3bec8b8d768d9df683d0bf4cd08e91840b2ff835c4ce17d51ae2--pcre2.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/r/readline.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/4ddf42f70888e11903846dddd093ca00fcc3ec666296c496381008d61cb81abf--readline.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/s/sqlite.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/d4f816dbcef9c6fa61c5f5107e9e7082247a34d229a418fb115334f12dc2b943--sqlite.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/x/xz.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/40d6a01e674d2054c19e0dcfc84c50540dc953a9de6b6bdab6810612386e07de--xz.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/l/lz4.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/8b797255478686a4b8175daa931d1322c72c5ef3c521e612d8dd50f851310f43--lz4.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/p/python@3.15.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/1b4f50bc11c3ed757d18be1ed081efe948b40dcb1f793befa48a113200fd77ad--python@3.15.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Patches/python/3.13-sysconfig.diff[0m
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/g/glib.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/3070f0494b92955a019fcc057703e24e9d2857bf75272450a88ad93610dd4072--glib.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Patches/glib/hardcoded-paths.diff[0m
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/x/xorgproto.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/e44f331b10546fe922ae847b5f5fad2d76083e69deb52c3f0521ee456ca1b538--xorgproto.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/lib/libx11.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/7fffca5466b7c6bc13e7b375f476ad3ac129254fc6adc6d9a334f46cb911d5bb--libx11.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/lib/libxrender.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/f242be9012545984d00d6ce790a2db4b9cd9a110071fb6890dd8b0aff7d54c30--libxrender.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/c/cairo.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/8e0f310f796c2a30bca93c7a4b23c50b37ba6f69cd32e3a5013b2a8d5d0f0d68--cairo.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/i/icu4c@79.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/791ccb38d0411e85ec38bd56f19e05e00bd6d558192721341bdf3ef00197b8ef--icu4c@79.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/g/gobject-introspection.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/634bb103353d6bf9f67d87469b197d8144279c2d2beed17e21b8fb426833739a--gobject-introspection.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/h/harfbuzz.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/f0cd4daadc59d2e742f2f037cb2cc0878efcf392e20cda6948cf9ed1039c4594--harfbuzz.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/j/jpeg-turbo.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/dd1a22e42d6f83ca83f9e9523d3047cf89bfed94f12c7f6c6abb16cd350e3e86--jpeg-turbo.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/l/little-cms2.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/de01a7624a2bc91cea7ff07ea35e538a213988f66cb2b1b14b2c758cca4a5246--little-cms2.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/f/fmt.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/0fcab003571318b5bcfad5ee926a1104e2eadba75d67761f6114f18e3b6ceb34--fmt.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/o/openjpeg.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/8eeec2f8a9ffaf81809790d406f8ba3bfe5ee9716dfea4db360e19e0148b5aba--openjpeg.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/lib/libarchive.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/cd9e79cca58f25d01d7e457e161b7fc04dbce4054e4af39d75ae504622704b80--libarchive.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/f/fribidi.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/2cbf1d48afbd43eb06dda54603297603c04a141b7673d7a906affaaccf94a2cf--fribidi.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/p/pango.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/f4efcf22ad7fd01617013d973f824aa674b1bcddf9557f0c18c55c611c5cdee6--pango.rb
+[34m==>[0m [1mDownloading https://raw.githubusercontent.com/Homebrew/homebrew-core/a7cf3525d7e200e264d58611d597effd11abf0aa/Formula/a/automake.rb[0m
+Already downloaded: /Users/runner/Library/Caches/Homebrew/downloads/d350347eebc7c470a7444af81ea5704b7bbda3e7dc0d124100057bfb56aa6754--automake.rb
+[32m==>[0m [1mFetching downloads for: [32mtesseract[39m[0m
+✔︎ API Source tesseract.rb
+✔︎ API Source cmake.rb
+✔︎ Formula cmake (4.5.0)
+✔︎ API Source brotli.rb
+✔︎ Formula brotli (1.2.1)
+✔︎ API Source libpng.rb
+✔︎ Formula libpng (1.6.59)
+✔︎ API Source pkgconf.rb
+✔︎ Formula pkgconf (3.0.11)
+✔︎ API Source freetype.rb
+✔︎ Formula freetype (2.15.0)
+✔︎ API Source libunistring.rb
+✔︎ Formula libunistring (1.5)
+✔︎ API Source pcre2.rb
+✔︎ Formula pcre2 (10.49)
+✔︎ Bottle Manifest bison (3.8.2)
+✔︎ Bottle bison (3.8.2)
+✔︎ API Source readline.rb
+✔︎ Patch readline83-001
+✔︎ Patch readline83-002
+✔︎ Patch readline83-003
+✔︎ Patch readline83-004
+✔︎ Patch readline83-005
+✔︎ Patch readline83-006
+✔︎ Formula readline (8.3.6)
+✔︎ API Source sqlite.rb
+✔︎ Formula sqlite (3.54.1)
+✔︎ API Source xz.rb
+✔︎ Formula xz (5.8.4)
+✔︎ API Source lz4.rb
+✔︎ Formula lz4 (1.11.1)
+✔︎ API Source python@3.15.rb
+✔︎ Resource python@3.15--flit-core
+✔︎ Resource python@3.15--pip
+✔︎ Formula python@3.15 (3.15.2)
+✔︎ Bottle Manifest meson (1.12.1_1)
+✔︎ Bottle meson (1.12.1_1)
+✔︎ Bottle Manifest python-setuptools (84.2.1)
+✔︎ Bottle python-setuptools (84.2.1)
+✔︎ API Source glib.rb
+✔︎ Resource glib--gobject-introspection
+✔︎ Formula glib (2.90.1)
+✔︎ Bottle Manifest util-macros (1.20.2)
+✔︎ Bottle util-macros (1.20.2)
+✔︎ API Source xorgproto.rb
+✔︎ Formula xorgproto (2026.1)
+✔︎ Bottle Manifest xtrans (1.6.0)
+✔︎ Bottle xtrans (1.6.0)
+✔︎ API Source libx11.rb
+✔︎ Formula libx11 (1.8.14)
+✔︎ API Source libxrender.rb
+✔︎ Formula libxrender (0.9.13)
+✔︎ API Source cairo.rb
+✔︎ Formula cairo (1.18.6)
+✔︎ API Source icu4c@79.rb
+✔︎ Formula icu4c@79 (79.1)
+✔︎ API Source gobject-introspection.rb
+✔︎ Resource gobject-introspection--mako
+✔︎ Resource gobject-introspection--markdown
+✔︎ Resource gobject-introspection--markupsafe
+✔︎ Resource gobject-introspection--setuptools
+✔︎ Formula gobject-introspection (1.86.0)
+✔︎ API Source harfbuzz.rb
+✔︎ Formula harfbuzz (15.1.0)
+✔︎ Bottle Manifest nasm (3.02)
+✔︎ Bottle nasm (3.02)
+✔︎ API Source jpeg-turbo.rb
+✔︎ Formula jpeg-turbo (3.2.1)
+✔︎ API Source little-cms2.rb
+✔︎ Formula little-cms2 (2.20)
+✔︎ API Source fmt.rb
+✔︎ Formula fmt (12.2.1)
+✔︎ Bottle Manifest spdlog (1.17.0)
+✔︎ Bottle spdlog (1.17.0)
+✔︎ Bottle Manifest doxygen (1.18.0)
+✔︎ Bottle doxygen (1.18.0)
+✔︎ API Source openjpeg.rb
+✔︎ Patch 91d08b11a72764f6d199f32fa0c1b1abd4edc2ad.patch?full_index=1
+✔︎ Patch 839936aa33eb8899bbbd80fda02796bb65068951.patch?full_index=1
+✔︎ Formula openjpeg (2.5.4)
+✔︎ Bottle Manifest leptonica (1.87.0)
+✔︎ Bottle leptonica (1.87.0)
+✔︎ Bottle Manifest libb2 (0.98.1)
+✔︎ Bottle libb2 (0.98.1)
+✔︎ API Source libarchive.rb
+✔︎ Formula libarchive (3.8.11)
+✔︎ Bottle Manifest help2man (1.49.3_5)
+✔︎ Bottle help2man (1.49.3_5)
+✔︎ API Source fribidi.rb
+✔︎ Formula fribidi (1.0.18)
+✔︎ Bottle Manifest libdatrie (0.2.14)
+✔︎ Bottle libdatrie (0.2.14)
+✔︎ Bottle Manifest libthai (0.1.30)
+✔︎ Bottle libthai (0.1.30)
+✔︎ API Source pango.rb
+✔︎ Formula pango (1.58.2)
+✔︎ API Source automake.rb
+✔︎ Formula automake (1.20)
+✔︎ Resource tesseract--eng
+✔︎ Resource tesseract--osd
+✔︎ Formula tesseract (5.5.4)
+[32m==>[0m [1mInstalling dependencies for tesseract:[0m [32mautomake[39m, [32mpkgconf[39m, [32mcmake[39m, [32mbrotli[39m, [32mlibpng[39m, [32mfreetype[39m, [32mlibunistring[39m, [32mpcre2[39m, [32mbison[39m, [32mreadline[39m, [32msqlite[39m, [32mxz[39m, [32mlz4[39m, [32mpython@3.15[39m, [32mmeson[39m, [32mpython-setuptools[39m, [32mglib[39m, [32mutil-macros[39m, [32mxorgproto[39m, [32mxtrans[39m, [32mlibx11[39m, [32mlibxrender[39m, [32mcairo[39m, [32micu4c@79[39m, [32mgobject-introspection[39m, [32mharfbuzz[39m, [32mnasm[39m, [32mjpeg-turbo[39m, [32mlittle-cms2[39m, [32mfmt[39m, [32mspdlog[39m, [32mdoxygen[39m, [32mopenjpeg[39m, [32mleptonica[39m, [32mlibb2[39m, [32mlibarchive[39m, [32mhelp2man[39m, [32mfribidi[39m, [32mlibdatrie[39m, [32mlibthai[39m and [32mpango[39m[0m
+[32m==>[0m [1mInstalling tesseract dependency: [32mautomake[39m (1.20)[0m
+[34m==>[0m [1m./configure --sysconfdir=/usr/local/etc --localstatedir=/usr/local/var --dat[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/automake/1.20: 137 files, 3.7MB, built in 15 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mpkgconf[39m (3.0.5 -> 3.0.11)[0m
+[34m==>[0m [1m./configure --disable-silent-rules --with-pkg-config-dir=/usr/local/lib/pkgc[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/pkgconf/3.0.11: 35 files, 608.2KB, built in 31 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mcmake[39m (4.4.2 -> 4.5.0)[0m
+[34m==>[0m [1m./bootstrap --prefix=/usr/local/Cellar/cmake/4.5.0 --no-system-libs --parall[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/cmake/4.5.0: 4,291 files, 75.4MB, built in 21 minutes
+[32m==>[0m [1mUpgrading tesseract dependency: [32mbrotli[39m (1.2.0 -> 1.2.1)[0m
+[34m==>[0m [1mcmake -S . -B build -DCMAKE_INSTALL_RPATH=@loader_path/../lib[0m
+[34m==>[0m [1mcmake --build build --verbose[0m
+[34m==>[0m [1mctest --test-dir build --verbose[0m
+[34m==>[0m [1mcmake --install build[0m
+[34m==>[0m [1mcmake -S . -B build-static -DBUILD_SHARED_LIBS=OFF[0m
+[34m==>[0m [1mcmake --build build-static[0m
+🍺  /usr/local/Cellar/brotli/1.2.1: 33 files, 1.8MB, built in 32 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlibpng[39m (1.6.58 -> 1.6.59)[0m
+[34m==>[0m [1m./configure --disable-silent-rules[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake test[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/libpng/1.6.59: 28 files, 1.3MB, built in 1 minute 53 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mfreetype[39m (2.14.3 -> 2.15.0)[0m
+[34m==>[0m [1m./configure --enable-freetype-config --with-brotli --without-harfbuzz[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/freetype/2.15.0: 68 files, 2.9MB, built in 43 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlibunistring[39m (1.4.2 -> 1.5)[0m
+[34m==>[0m [1m./configure --disable-silent-rules[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/libunistring/1.5: 59 files, 5.9MB, built in 5 minutes
+[32m==>[0m [1mUpgrading tesseract dependency: [32mpcre2[39m (10.47_1 -> 10.49)[0m
+[34m==>[0m [1m./configure --enable-pcre2-16 --enable-pcre2-32 --enable-pcre2grep-libz --en[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/pcre2/10.49: 245 files, 7.4MB, built in 1 minute 16 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mbison[39m (3.8.2)[0m
+[34m==>[0m [1mPouring bison--3.8.2.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/bison/3.8.2: 99 files, 3.9MB
+[32m==>[0m [1mUpgrading tesseract dependency: [32mreadline[39m (8.3.3 -> 8.3.6)[0m
+[34m==>[0m [1mPatching[0m
+[34m==>[0m [1mApplying readline83-001[0m
+patching file input.c
+patching file patchlevel
+[34m==>[0m [1mApplying readline83-002[0m
+patching file display.c
+patching file patchlevel
+[34m==>[0m [1mApplying readline83-003[0m
+patching file input.c
+patching file isearch.c
+patching file patchlevel
+[34m==>[0m [1mApplying readline83-004[0m
+patching file display.c
+patching file patchlevel
+[34m==>[0m [1mApplying readline83-005[0m
+patching file display.c
+patching file patchlevel
+[34m==>[0m [1mApplying readline83-006[0m
+patching file display.c
+patching file patchlevel
+[34m==>[0m [1m./configure --with-curses[0m
+[34m==>[0m [1mmake install SHLIB_LIBS=-lcurses[0m
+🍺  /usr/local/Cellar/readline/8.3.6: 56 files, 2.6MB, built in 42 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32msqlite[39m (3.53.4 -> 3.54.1)[0m
+[34m==>[0m [1m./configure --enable-readline --disable-editline --enable-session --with-rea[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/sqlite/3.54.1: 13 files, 5.3MB, built in 1 minute 12 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mxz[39m (5.8.3 -> 5.8.4)[0m
+[34m==>[0m [1m./configure --disable-silent-rules --disable-nls[0m
+[34m==>[0m [1mmake check[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/xz/5.8.4: 96 files, 2.5MB, built in 1 minute 30 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlz4[39m (1.10.0 -> 1.11.1)[0m
+[34m==>[0m [1mmake install PREFIX=/usr/local/Cellar/lz4/1.11.1[0m
+[34m==>[0m [1mcmake -S build/cmake -B build -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON [0m
+[34m==>[0m [1mcmake --build build[0m
+[34m==>[0m [1mcmake --install build[0m
+🍺  /usr/local/Cellar/lz4/1.11.1: 28 files, 774.8KB, built in 26 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mpython@3.15[39m (3.15.2)[0m
+[34m==>[0m [1mPatching[0m
+[34m==>[0m [1mApplying python/3.13-sysconfig.diff[0m
+patching file 'Lib/sysconfig/__init__.py'
+[34m==>[0m [1m./configure --enable-ipv6 --datarootdir=/usr/local/Cellar/python@3.15/3.15.2[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install PYTHONAPPSDIR=/usr/local/Cellar/python@3.15/3.15.2[0m
+[34m==>[0m [1mmake frameworkinstallextras PYTHONAPPSDIR=/usr/local/Cellar/python@3.15/3.15[0m
+[34m==>[0m [1m/usr/local/Cellar/python@3.15/3.15.2/bin/python3.15 -m venv /private/tmp/s-F[0m
+[34m==>[0m [1m/private/tmp/s-FplNtJgZ/pythonA3.15-20261118-86217-432dvs/Python-3.15.2/whl_[0m
+[34m==>[0m [1m/private/tmp/s-FplNtJgZ/pythonA3.15-20261118-86217-432dvs/Python-3.15.2/whl_[0m
+[34m==>[0m [1m/usr/local/Cellar/python@3.15/3.15.2/bin/python3.15 -Im ensurepip[0m
+[34m==>[0m [1m/usr/local/Cellar/python@3.15/3.15.2/bin/python3.15 -Im pip install -v --no-[0m
+::warning::These files were overwritten during the `brew link` step:
+/usr/local/bin/idle3
+/usr/local/bin/pip3
+/usr/local/bin/pydoc3
+/usr/local/bin/python3
+/usr/local/bin/python3-config
+/usr/local/share/man/man1/python3.1
+/usr/local/lib/pkgconfig/python3-embed.pc
+/usr/local/lib/pkgconfig/python3.pc
+/usr/local/Frameworks/Python.framework/Headers
+/usr/local/Frameworks/Python.framework/Python
+/usr/local/Frameworks/Python.framework/Resources
+/usr/local/Frameworks/Python.framework/Versions/Current
+
+They have been backed up to: /Users/runner/Library/Caches/Homebrew/Backup
+::warning::The post-install step did not complete successfully
+You can try again using:
+  brew postinstall python@3.15
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/python@3.15/3.15.2: 10,548 files, 259MB, built in 11 minutes
+[32m==>[0m [1mInstalling tesseract dependency: [32mmeson[39m (1.12.1_1)[0m
+[34m==>[0m [1mPouring meson--1.12.1_1.all.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/meson/1.12.1_1: 269 files, 4.4MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mpython-setuptools[39m (84.2.1)[0m
+[34m==>[0m [1mPouring python-setuptools--84.2.1.all.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/python-setuptools/84.2.1: 1,691 files, 3.4MB
+[32m==>[0m [1mUpgrading tesseract dependency: [32mglib[39m (2.88.3 -> 2.90.1)[0m
+[34m==>[0m [1mPatching[0m
+[34m==>[0m [1mApplying glib/hardcoded-paths.diff[0m
+patching file 'gio/xdgmime/xdgmime.c'
+patching file 'girepository/girepository.c'
+patching file 'glib/gutils.c'
+[34m==>[0m [1mmeson setup build_staging -Dintrospection=disabled --localstatedir=/usr/loca[0m
+[34m==>[0m [1mmeson compile -C build_staging --verbose[0m
+[34m==>[0m [1mmeson install -C build_staging[0m
+[34m==>[0m [1mmeson setup build -Dcairo=disabled -Ddoctool=disabled -Dtests=false --prefix[0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+[34m==>[0m [1mmeson setup build --default-library=both -Dintrospection=enabled --localstat[0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+::warning::The post-install step did not complete successfully
+You can try again using:
+  brew postinstall glib
+[34m==>[0m [1mSummary[0m
+🍺  /usr/local/Cellar/glib/2.90.1: 502 files, 39.1MB, built in 5 minutes
+[32m==>[0m [1mInstalling tesseract dependency: [32mutil-macros[39m (1.20.2)[0m
+[34m==>[0m [1mPouring util-macros--1.20.2.all.bottle.1.tar.gz[0m
+🍺  /usr/local/Cellar/util-macros/1.20.2: 9 files, 181.5KB
+[32m==>[0m [1mUpgrading tesseract dependency: [32mxorgproto[39m (2025.1 -> 2026.1)[0m
+[34m==>[0m [1m./configure --sysconfdir=/usr/local/etc --localstatedir=/usr/local/var --dis[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/xorgproto/2026.1: 268 files, 4.1MB, built in 23 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mxtrans[39m (1.6.0)[0m
+[34m==>[0m [1mPouring xtrans--1.6.0.all.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/xtrans/1.6.0: 16 files, 300.8KB
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlibx11[39m (1.8.13 -> 1.8.14)[0m
+[34m==>[0m [1m./configure --sysconfdir=/usr/local/etc --localstatedir=/usr/local/var --dis[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/libx11/1.8.14: 1,028 files, 7.1MB, built in 2 minutes 21 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlibxrender[39m (0.9.12 -> 0.9.13)[0m
+[34m==>[0m [1m./configure --sysconfdir=/usr/local/etc --localstatedir=/usr/local/var --dis[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/libxrender/0.9.13: 13 files, 182.5KB, built in 26 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mcairo[39m (1.18.4 -> 1.18.6)[0m
+[34m==>[0m [1mmeson setup build --default-library=both -Dfontconfig=enabled -Dfreetype=ena[0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+🍺  /usr/local/Cellar/cairo/1.18.6: 58 files, 4.4MB, built in 1 minute 8 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32micu4c@79[39m (79.1)[0m
+[34m==>[0m [1m./configure --disable-samples --disable-tests --enable-static --with-library[0m
+[34m==>[0m [1mmake[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/icu4c@79/79.1: 279 files, 87.7MB, built in 5 minutes
+[32m==>[0m [1mInstalling tesseract dependency: [32mgobject-introspection[39m (1.86.0_6)[0m
+[34m==>[0m [1mPatching[0m
+[34m==>[0m [1mApplying embedded DATA patch[0m
+patching file 'girepository/gitypelib.c'
+patching file meson.build
+patching file meson_options.txt
+[34m==>[0m [1m/usr/local/opt/python@3.15/bin/python3.15 -m venv --system-site-packages --w[0m
+[34m==>[0m [1m/usr/local/opt/python@3.15/bin/python3.15 -m pip --python=/usr/local/Cellar/[0m
+[34m==>[0m [1m/usr/local/opt/python@3.15/bin/python3.15 -m pip --python=/usr/local/Cellar/[0m
+[34m==>[0m [1m/usr/local/opt/python@3.15/bin/python3.15 -m pip --python=/usr/local/Cellar/[0m
+[34m==>[0m [1m/usr/local/opt/python@3.15/bin/python3.15 -m pip --python=/usr/local/Cellar/[0m
+[34m==>[0m [1mmeson setup build -Dpython=/usr/local/Cellar/gobject-introspection/1.86.0_6/[0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+🍺  /usr/local/Cellar/gobject-introspection/1.86.0_6: 605 files, 5.8MB, built in 59 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mharfbuzz[39m (14.3.1 -> 15.1.0)[0m
+[34m==>[0m [1mmeson setup build --default-library=both -Dcairo=enabled -Dcoretext=enabled [0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+🍺  /usr/local/Cellar/harfbuzz/15.1.0: 96 files, 17.6MB, built in 2 minutes 40 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mnasm[39m (3.02)[0m
+[34m==>[0m [1mPouring nasm--3.02.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/nasm/3.02: 12 files, 3MB
+[32m==>[0m [1mUpgrading tesseract dependency: [32mjpeg-turbo[39m (3.2.0 -> 3.2.1)[0m
+[34m==>[0m [1mcmake -S . -B build -DWITH_JPEG8=1 -DCMAKE_EXE_LINKER_FLAGS=-Wl,-rpath,@load[0m
+[34m==>[0m [1mcmake --build build[0m
+[34m==>[0m [1mctest --test-dir build --rerun-failed --output-on-failure --parallel 4[0m
+[34m==>[0m [1mcmake --install build[0m
+🍺  /usr/local/Cellar/jpeg-turbo/3.2.1: 47 files, 5.2MB, built in 2 minutes 36 seconds
+[32m==>[0m [1mUpgrading tesseract dependency: [32mlittle-cms2[39m (2.19 -> 2.20)[0m
+[34m==>[0m [1m./configure[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/little-cms2/2.20: 23 files, 1.2MB, built in 36 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mfmt[39m (12.2.1)[0m
+[34m==>[0m [1mcmake -S . -B build -DBUILD_SHARED_LIBS=TRUE[0m
+[34m==>[0m [1mcmake --build build[0m
+[34m==>[0m [1mcmake --install build[0m
+[34m==>[0m [1mcmake -S . -B build-static -DBUILD_SHARED_LIBS=FALSE[0m
+[34m==>[0m [1mcmake --build build-static[0m
+🍺  /usr/local/Cellar/fmt/12.2.1: 31 files, 1.1MB, built in 3 minutes 19 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mspdlog[39m (1.17.0)[0m
+[34m==>[0m [1mPouring spdlog--1.17.0.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/spdlog/1.17.0: 104 files, 1.5MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mdoxygen[39m (1.18.0)[0m
+[34m==>[0m [1mPouring doxygen--1.18.0.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/doxygen/1.18.0: 7 files, 23.8MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mopenjpeg[39m (2.5.4_1)[0m
+[34m==>[0m [1mPatching[0m
+[34m==>[0m [1mApplying 91d08b11a72764f6d199f32fa0c1b1abd4edc2ad.patch[0m
+patching file 'src/lib/openjp2/j2k.c'
+[34m==>[0m [1mApplying 839936aa33eb8899bbbd80fda02796bb65068951.patch[0m
+patching file 'src/lib/openjp2/pi.c'
+[34m==>[0m [1mcmake -S . -B build -DCMAKE_INSTALL_RPATH=@loader_path/../lib -DBUILD_DOC=ON[0m
+[34m==>[0m [1mcmake --build build[0m
+[34m==>[0m [1mcmake --install build[0m
+🍺  /usr/local/Cellar/openjpeg/2.5.4_1: 518 files, 14.8MB, built in 36 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mleptonica[39m (1.87.0)[0m
+[34m==>[0m [1mPouring leptonica--1.87.0.sonoma.bottle.1.tar.gz[0m
+🍺  /usr/local/Cellar/leptonica/1.87.0: 55 files, 6.3MB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibb2[39m (0.98.1)[0m
+[34m==>[0m [1mPouring libb2--0.98.1.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/libb2/0.98.1: 8 files, 282.9KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibarchive[39m (3.8.11)[0m
+[34m==>[0m [1m./configure --without-lzo2 --without-nettle --without-xml2 --without-openssl[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/libarchive/3.8.11: 65 files, 4MB, built in 1 minute 55 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mhelp2man[39m (1.49.3_5)[0m
+[34m==>[0m [1mPouring help2man--1.49.3_5.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/help2man/1.49.3_5: 73 files, 789.5KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mfribidi[39m (1.0.18)[0m
+[34m==>[0m [1m./configure --disable-silent-rules --enable-static[0m
+[34m==>[0m [1mmake install[0m
+🍺  /usr/local/Cellar/fribidi/1.0.18: 69 files, 707.9KB, built in 22 seconds
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibdatrie[39m (0.2.14)[0m
+[34m==>[0m [1mPouring libdatrie--0.2.14.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/libdatrie/0.2.14: 20 files, 231.3KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mlibthai[39m (0.1.30)[0m
+[34m==>[0m [1mPouring libthai--0.1.30.sonoma.bottle.tar.gz[0m
+🍺  /usr/local/Cellar/libthai/0.1.30: 30 files, 923.8KB
+[32m==>[0m [1mInstalling tesseract dependency: [32mpango[39m (1.58.2)[0m
+[34m==>[0m [1mmeson setup build -Ddefault_library=both -Dintrospection=enabled -Dfontconfi[0m
+[34m==>[0m [1mmeson compile -C build --verbose[0m
+[34m==>[0m [1mmeson install -C build[0m
+🍺  /usr/local/Cellar/pango/1.58.2: 69 files, 3.5MB, built in 39 seconds
+[32m==>[0m [1mInstalling [32mtesseract[39m[0m
+[34m==>[0m [1m./autogen.sh[0m
+[34m==>[0m [1m./configure --datarootdir=/usr/local/share --disable-silent-rules[0m
+[34m==>[0m [1mmake training[0m
+[34m==>[0m [1mmake install training-install datarootdir=/usr/local/Cellar/tesseract/5.5.4/[0m
+🍺  /usr/local/Cellar/tesseract/5.5.4: 74 files, 25.9MB, built in 5 minutes
+[32m==>[0m [1mCaveats[0m
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+[34m==>[0m [1mcmake[0m
+To install the CMake documentation, run:
+  brew install cmake-docs
+[34m==>[0m [1mtesseract[0m
+This formula contains only the "eng" and "osd" language data files.
+If you need any other supported languages, run `brew install tesseract-lang`.
+
+This is a Tier 3 configuration:
+  [4mhttps://docs.brew.sh/Support-Tiers#tier-3[24m
+[1mYou can report issues with Tier 3 configurations to Homebrew/* repositories![0m
+  
+Read the above document before opening any issues or PRs.

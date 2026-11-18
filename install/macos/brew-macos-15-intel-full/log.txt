@@ -1,0 +1,15 @@
+ProductName:		macOS
+ProductVersion:		15.7.9
+BuildVersion:		24G830
+x86_64
+Intel(R) Core(TM) i7-8700B CPU @ 3.20GHz
+4
+Homebrew 6.0.18
+runner image: macos15 20260824.0482.1
+Wed Nov 18 07:54:54 UTC 2026
+[32m==>[0m [1mtesseract[0m: stable 5.5.3 (bottled), HEAD
+OCR (Optical Character Recognition) engine
+[4mhttps://tesseract-ocr.github.io/[24m
+Not installed
+From: [4mhttps://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/t/tesseract.rb[24m
+brew update seconds: 498
