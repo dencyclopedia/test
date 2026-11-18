@@ -1,0 +1,6 @@
+
+--- stderr ---
+Warning, detects only orientation with -l eng
+Too few characters. Skipping this page
+Too few characters. Skipping this page
+Error during processing.

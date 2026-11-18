@@ -1,0 +1,19 @@
+NORTHFIELD CORNER SHOP
+4 Placeholder Ave, Testville
+Tel 000-555-6199
+Date 2026-06-12 14:04
+Receipt #81576 Till 7
+Free Range Eggs x12 3.99
+Blueberry Muffin
+3 x 2.95 8.85
+Orange Juice 1.5L 2.79
+Apples 1lkg
+2 x 2.20 4.40
+Sparkling Water
+3 x 0.65 1.95
+SUBTOTAL 21.98
+VAT 20% incl. 3.66
+TOTAL 21.98
+DEBIT 21.98
+Thank you for shopping with us
+Sample receipt - not a real store

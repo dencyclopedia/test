@@ -1,0 +1,71 @@
+MAPLE ROW MARKET
+
+12 Example Street, Sampletown
+
+Tel 000-555-9781
+
+Date 2026-04-26
+
+13:27
+
+Receipt #66618
+
+Till 5
+
+Apples 1lkg
+
+20
+
+Coffee Beans 500g
+
+3 x 8.99
+
+26
+
+97
+
+Flat White
+
+3 x 3.40
+
+10
+
+20
+
+Ibuprofen 200mg
+
+2 x 2.49
+
+98
+
+Cheddar 400g
+
+25
+
+SUBTOTAL
+
+48
+
+60
+
+VAT 20%
+
+incl.
+
+10
+
+TOTAL
+
+48
+
+60
+
+CARD
+
+48
+
+60
+
+Thank you for shopping with us
+
+Sample receipt - not a real store

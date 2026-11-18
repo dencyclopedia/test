@@ -1,0 +1,1 @@
+tesseract scan.png out —-psm 7 -1 eng

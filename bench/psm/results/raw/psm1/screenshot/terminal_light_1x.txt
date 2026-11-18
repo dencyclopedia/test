@@ -1,0 +1,19 @@
+$ tesseract --version
+tesseract 5.5.4
+‘leptonica-1.82.0
+
+$ tesseract page.png out -1 eng —-psm 3
+Estimating resolution as 360
+
+$ we -w out. txt
+
+212 out. txt
+
+$ 1s -1 *.png
+
+-Pw-r--r-- 1 user user 482113 Nov 18 89:
+1 user user 91024 Nov 18 ©
+
+2 page.png
+144 receipt.png
+

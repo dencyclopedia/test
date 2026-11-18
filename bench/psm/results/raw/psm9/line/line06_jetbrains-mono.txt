@@ -1,0 +1,1 @@
+esseract scan.png out —psm 7/7 -ut eng

@@ -41,8 +41,32 @@ def samples():
     return s
 
 
+def osd_default_oem(smp):
+    """--psm 0 fails with --oem 1 ('OSD requires a model for the legacy engine'); rerun it with the default OEM
+    to show what OSD reports. Output goes to results/raw/psm0-default-oem/ and results/osd_default_oem.csv."""
+    rows = []
+    for kind, e in smp:
+        cmd = [c for c in B.tess_cmd(B.CORPUS / e["image"], psm=0)]
+        i = cmd.index("--oem")
+        del cmd[i:i + 2]
+        out, err, rc = B.run(cmd)
+        p = RES / "raw" / "psm0-default-oem" / (e["id"] + ".txt")
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(out + ("\n--- stderr ---\n" + err if err else ""), encoding="utf-8")
+        f = dict(l.split(": ", 1) for l in out.splitlines() if ": " in l)
+        rows.append(dict(kind=kind, id=e["id"], rc=rc, orientation=f.get("Orientation in degrees", ""),
+                         rotate=f.get("Rotate", ""), orientation_conf=f.get("Orientation confidence", ""),
+                         script=f.get("Script", ""), script_conf=f.get("Script confidence", ""),
+                         stderr=err.strip().replace("\n", " | ")[:200]))
+    B.write_csv(RES / "osd_default_oem.csv", rows)
+    return " ".join(c for c in B.tess_cmd("<image>", psm=0) if c not in ("--oem", "1"))
+
+
 def main():
     smp = samples()
+    if sys.argv[1:] == ["osd"]:
+        print(osd_default_oem(smp))
+        return
     jobs, commands = [], {}
     for psm in range(14):
         commands[f"psm{psm}"] = " ".join(B.tess_cmd("<image>", psm=psm))
@@ -70,6 +94,7 @@ def main():
                          word_recall_unordered_mean=B.mean(r["word_recall_unordered"] for r in rs),
                          example_stderr=next((r["stderr"] for r in rs if r["stderr"]), "")))
     B.write_csv(RES / "summary.csv", summ)
+    commands["psm0-default-oem"] = osd_default_oem(smp)
     B.write_meta(RES / "meta.json", commands, {"psm_names": PSM_NAMES, "samples": {k: [e["id"] for kk, e in smp if kk == k]
                                                                                    for k in dict(smp)}})
 

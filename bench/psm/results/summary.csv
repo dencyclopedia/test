@@ -1,0 +1,71 @@
+psm,psm_name,kind,n,empty_outputs,errors,cer_mean,cer_median,wer_mean,word_recall_unordered_mean,example_stderr
+0,Orientation and script detection (OSD) only,line,8,8,8,1.0,1.0,1.0,0.0,"Warning, detects only orientation with -l eng | Error, OSD requires a model for the legacy engine"
+0,Orientation and script detection (OSD) only,page,3,3,3,1.0,1.0,1.0,0.0,"Warning, detects only orientation with -l eng | Error, OSD requires a model for the legacy engine"
+0,Orientation and script detection (OSD) only,receipt,4,4,4,1.0,1.0,1.0,0.0,"Warning, detects only orientation with -l eng | Error, OSD requires a model for the legacy engine"
+0,Orientation and script detection (OSD) only,sparse,9,9,9,1.0,1.0,1.0,0.0,"Warning, detects only orientation with -l eng | Error, OSD requires a model for the legacy engine"
+0,Orientation and script detection (OSD) only,word,10,10,10,1.0,1.0,1.0,0.0,"Warning, detects only orientation with -l eng | Error, OSD requires a model for the legacy engine"
+1,Automatic page segmentation with OSD,line,8,0,0,0.00616,0.0,0.05357,0.94643,"OSD: Weak margin (3.09) for 35 blob text block, but using orientation anyway: 0"
+1,Automatic page segmentation with OSD,page,3,0,0,0.0,0.0,0.0,1.0,
+1,Automatic page segmentation with OSD,receipt,4,0,0,0.08826,0.00348,0.13673,0.94238,
+1,Automatic page segmentation with OSD,sparse,9,0,0,0.20618,0.0801,0.25379,0.95334,Estimating resolution as 128
+1,Automatic page segmentation with OSD,word,10,0,0,0.01667,0.0,0.1,0.9,"Too few characters. Skipping this page | OSD: Weak margin (0.00) for 9 blob text block, but using orientation anyway: 0"
+2,"Automatic page segmentation, but no OSD, or OCR (not implemented)",line,8,8,0,1.0,1.0,1.0,0.0,Orientation: 0 | WritingDirection: 0 | TextlineOrder: 2 | Deskew angle: 0.0000
+2,"Automatic page segmentation, but no OSD, or OCR (not implemented)",page,3,3,0,1.0,1.0,1.0,0.0,Orientation: 0 | WritingDirection: 0 | TextlineOrder: 2 | Deskew angle: 0.0013
+2,"Automatic page segmentation, but no OSD, or OCR (not implemented)",receipt,4,4,0,1.0,1.0,1.0,0.0,Orientation: 0 | WritingDirection: 0 | TextlineOrder: 2 | Deskew angle: -0.0007
+2,"Automatic page segmentation, but no OSD, or OCR (not implemented)",sparse,9,9,0,1.0,1.0,1.0,0.0,Estimating resolution as 128 | Orientation: 0 | WritingDirection: 0 | TextlineOrder: 2 | Deskew angle: 0.0000
+2,"Automatic page segmentation, but no OSD, or OCR (not implemented)",word,10,10,0,1.0,1.0,1.0,0.0,Orientation: 0 | WritingDirection: 0 | TextlineOrder: 2 | Deskew angle: 0.0000
+3,"Fully automatic page segmentation, but no OSD (default)",line,8,0,0,0.00616,0.0,0.05357,0.94643,
+3,"Fully automatic page segmentation, but no OSD (default)",page,3,0,0,0.0,0.0,0.0,1.0,
+3,"Fully automatic page segmentation, but no OSD (default)",receipt,4,0,0,0.08826,0.00348,0.13673,0.94238,
+3,"Fully automatic page segmentation, but no OSD (default)",sparse,9,0,0,0.20618,0.0801,0.25379,0.95334,Estimating resolution as 128
+3,"Fully automatic page segmentation, but no OSD (default)",word,10,0,0,0.01667,0.0,0.1,0.9,
+4,Assume a single column of text of variable sizes,line,8,0,0,0.00616,0.0,0.05357,0.94643,
+4,Assume a single column of text of variable sizes,page,3,0,0,0.0,0.0,0.0,1.0,
+4,Assume a single column of text of variable sizes,receipt,4,0,0,0.00242,0.00278,0.01331,0.98669,
+4,Assume a single column of text of variable sizes,sparse,9,0,0,0.06054,0.0,0.0998,0.95163,Estimating resolution as 128
+4,Assume a single column of text of variable sizes,word,10,0,0,0.01667,0.0,0.1,0.9,
+5,Assume a single uniform block of vertically aligned text,line,8,0,0,1.65612,1.62515,4.32356,0.01786,
+5,Assume a single uniform block of vertically aligned text,page,3,0,0,0.81824,0.80392,1.03437,0.02289,
+5,Assume a single uniform block of vertically aligned text,receipt,4,0,0,1.26193,1.2899,3.07529,0.08798,
+5,Assume a single uniform block of vertically aligned text,sparse,9,0,0,0.91331,0.90181,2.50294,0.01837,
+5,Assume a single uniform block of vertically aligned text,word,10,0,0,2.10473,2.17424,7.5,0.0,
+6,Assume a single uniform block of text,line,8,0,0,0.00616,0.0,0.05357,0.94643,
+6,Assume a single uniform block of text,page,3,0,0,0.0,0.0,0.0,1.0,
+6,Assume a single uniform block of text,receipt,4,0,0,0.0019,0.00238,0.0105,0.9895,
+6,Assume a single uniform block of text,sparse,9,0,0,0.0496,0.0,0.08777,0.9557,
+6,Assume a single uniform block of text,word,10,0,0,0.01667,0.0,0.1,0.9,
+7,Treat the image as a single text line,line,8,0,0,0.00616,0.0,0.05357,0.94643,
+7,Treat the image as a single text line,page,3,2,0,0.9995,1.0,1.0,0.0,
+7,Treat the image as a single text line,receipt,4,4,0,1.0,1.0,1.0,0.0,
+7,Treat the image as a single text line,sparse,9,2,0,0.9544,0.97569,0.95912,0.04088,Image too small to scale!! (2x36 vs min width of 3) | Line cannot be recognized!! | Image too small to scale!! (2x36 vs min width of 3) | Line cannot be recognized!!
+7,Treat the image as a single text line,word,10,0,0,0.01667,0.0,0.1,0.9,
+8,Treat the image as a single word,line,8,0,0,0.02268,0.02247,0.14901,0.86488,
+8,Treat the image as a single word,page,3,0,0,0.99944,1.0,1.0,0.0,
+8,Treat the image as a single word,receipt,4,0,0,0.99626,0.99626,0.99609,0.00391,
+8,Treat the image as a single word,sparse,9,0,0,0.99621,1.0,1.0,0.0,
+8,Treat the image as a single word,word,10,0,0,0.05242,0.0,0.4,0.6,
+9,Treat the image as a single word in a circle,line,8,0,0,0.2322,0.03246,0.39722,0.61667,"Bottom=0, top=136, base=0, x=0 |  | Total count=0 | Min=0.00 Really=0 | Lower quartile=0.00 | Median=0.00, ile(0.5)=0.00 | Upper quartile=0.00 | Max=0.00 Really=0 | Range=1 | Mean= 0.00 | SD= 0.00"
+9,Treat the image as a single word in a circle,page,3,0,0,1.0,1.0,1.0,0.0,"Bottom=0, top=1778, base=0, x=0 |  | Total count=0 | Min=0.00 Really=0 | Lower quartile=0.00 | Median=0.00, ile(0.5)=0.00 | Upper quartile=0.00 | Max=0.00 Really=0 | Range=1 | Mean= 0.00 | SD= 0.00"
+9,Treat the image as a single word in a circle,receipt,4,0,0,0.98677,0.99012,1.0,0.0,
+9,Treat the image as a single word in a circle,sparse,9,0,0,0.99066,0.99262,1.0,0.0,"Bottom=0, top=600, base=0, x=0 |  | Total count=0 | Min=0.00 Really=0 | Lower quartile=0.00 | Median=0.00, ile(0.5)=0.00 | Upper quartile=0.00 | Max=0.00 Really=0 | Range=1 | Mean= 0.00 | SD= 0.00"
+9,Treat the image as a single word in a circle,word,10,0,0,0.37814,0.09545,0.9,0.4,"Bottom=0, top=138, base=0, x=0 |  | Total count=0 | Min=0.00 Really=0 | Lower quartile=0.00 | Median=0.00, ile(0.5)=0.00 | Upper quartile=0.00 | Max=0.00 Really=0 | Range=1 | Mean= 0.00 | SD= 0.00"
+10,Treat the image as a single character,line,8,0,0,0.00616,0.0,0.05357,0.94643,
+10,Treat the image as a single character,page,3,1,0,0.99921,0.99913,1.0,0.0,
+10,Treat the image as a single character,receipt,4,1,0,0.9981,0.99762,0.9895,0.0105,
+10,Treat the image as a single character,sparse,9,0,0,0.99389,1.0,1.0,0.0,
+10,Treat the image as a single character,word,10,0,0,0.01667,0.0,0.1,0.9,
+11,Sparse text. Find as much text as possible in no particular order,line,8,0,0,0.00616,0.0,0.05357,0.94643,
+11,Sparse text. Find as much text as possible in no particular order,page,3,0,0,0.0,0.0,0.0,1.0,
+11,Sparse text. Find as much text as possible in no particular order,receipt,4,0,0,0.05326,0.05978,0.20339,0.87252,
+11,Sparse text. Find as much text as possible in no particular order,sparse,9,0,0,0.08528,0.00725,0.12798,0.95163,Estimating resolution as 128
+11,Sparse text. Find as much text as possible in no particular order,word,10,0,0,0.01667,0.0,0.1,0.9,
+12,Sparse text with OSD,line,8,0,0,0.00616,0.0,0.05357,0.94643,"OSD: Weak margin (3.09) for 35 blob text block, but using orientation anyway: 0"
+12,Sparse text with OSD,page,3,0,0,0.0,0.0,0.0,1.0,
+12,Sparse text with OSD,receipt,4,0,0,0.06525,0.06652,0.223,0.86545,
+12,Sparse text with OSD,sparse,9,0,0,0.08528,0.00725,0.12798,0.95163,Estimating resolution as 128
+12,Sparse text with OSD,word,10,0,0,0.01667,0.0,0.1,0.9,"Too few characters. Skipping this page | OSD: Weak margin (0.00) for 9 blob text block, but using orientation anyway: 0"
+13,"Raw line. Treat the image as a single text line, bypassing Tesseract-specific hacks",line,8,0,0,0.02268,0.02247,0.14901,0.86488,
+13,"Raw line. Treat the image as a single text line, bypassing Tesseract-specific hacks",page,3,0,0,0.99944,1.0,1.0,0.0,
+13,"Raw line. Treat the image as a single text line, bypassing Tesseract-specific hacks",receipt,4,0,0,0.99626,0.99626,0.99609,0.00391,
+13,"Raw line. Treat the image as a single text line, bypassing Tesseract-specific hacks",sparse,9,0,0,0.99621,1.0,1.0,0.0,
+13,"Raw line. Treat the image as a single text line, bypassing Tesseract-specific hacks",word,10,0,0,0.05242,0.0,0.4,0.6,

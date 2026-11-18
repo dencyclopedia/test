@@ -1,0 +1,9 @@
+Page number: 0
+Orientation in degrees: 0
+Rotate: 0
+Orientation confidence: 30.93
+Script: Latin
+Script confidence: 2.26
+
+--- stderr ---
+Warning, detects only orientation with -l eng

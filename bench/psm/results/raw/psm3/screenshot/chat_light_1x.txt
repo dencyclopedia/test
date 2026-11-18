@@ -1,0 +1,13 @@
+#release-planning
+
+Dana 09:12
+Build 5.5.4 passed all tests on Linux and macOS.
+
+Priya 08:15
+Windows is still running. | will post the results here.
+
+Marco 09:31
+Can we freeze the docs by Thursday? The changelog needs two more entries.
+
+Dana 09:33
+Yes. Thursday 17:00 works for me.

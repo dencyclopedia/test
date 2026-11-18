@@ -1,0 +1,71 @@
+Store overview - November 2026
+
+Orders
+
+Returns
+
+Average basket
+
+1,284
+
+37
+
+$48.60
+
++6.2% vs October
+
+2.9% of orders
+
+~1.4% vs October
+
+Recent orders
+
+Order
+
+Customer
+
+Date
+
+Status
+
+Total
+
+#10482
+
+2026-11-17
+
+$129.00
+
+Sample Customer A
+
+Shipped
+
+#10481
+
+2026-11-17
+
+$54.25
+
+Sample Customer B
+
+Processing
+
+#10480
+
+Sample Customer C
+
+2026-11-16
+
+Refunded
+
+$18.99
+
+#10479
+
+Sample Customer D
+
+2026-11-16
+
+Shipped
+
+$302.40

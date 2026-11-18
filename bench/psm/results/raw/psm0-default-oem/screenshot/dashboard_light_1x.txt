@@ -1,0 +1,11 @@
+Page number: 0
+Orientation in degrees: 0
+Rotate: 0
+Orientation confidence: 6.26
+Script: Latin
+Script confidence: 1.38
+
+--- stderr ---
+Warning, detects only orientation with -l eng
+Estimating resolution as 134
+Warning. Invalid resolution 0 dpi. Using 70 instead.
