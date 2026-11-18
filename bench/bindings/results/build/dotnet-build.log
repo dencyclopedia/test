@@ -1,29 +1,29 @@
     0 Error(s)
 
-Time Elapsed 00:00:07.04
+Time Elapsed 00:00:07.79
 bench/bindings/dotnet/bin/Release/net8.0:
 total 244
-drwxr-xr-x 4 runner runner   4096 Nov 18 07:37 .
-drwxr-xr-x 3 runner runner   4096 Nov 18 07:37 ..
+drwxr-xr-x 4 runner runner   4096 Nov 18 12:27 .
+drwxr-xr-x 3 runner runner   4096 Nov 18 12:27 ..
 -rwxr--r-- 1 runner runner 128512 Nov 30  2022 Tesseract.dll
--rwxr-xr-x 1 runner runner  72504 Nov 18 07:37 harness
--rw-r--r-- 1 runner runner    988 Nov 18 07:37 harness.deps.json
--rw-r--r-- 1 runner runner   7168 Nov 18 07:37 harness.dll
--rw-r--r-- 1 runner runner  11992 Nov 18 07:37 harness.pdb
--rw-r--r-- 1 runner runner    328 Nov 18 07:37 harness.runtimeconfig.json
-drwxr-xr-x 2 runner runner   4096 Nov 18 07:37 x64
-drwxr-xr-x 2 runner runner   4096 Nov 18 07:37 x86
+-rwxr-xr-x 1 runner runner  72504 Nov 18 12:27 harness
+-rw-r--r-- 1 runner runner    988 Nov 18 12:27 harness.deps.json
+-rw-r--r-- 1 runner runner   7168 Nov 18 12:27 harness.dll
+-rw-r--r-- 1 runner runner  11996 Nov 18 12:27 harness.pdb
+-rw-r--r-- 1 runner runner    328 Nov 18 12:27 harness.runtimeconfig.json
+drwxr-xr-x 2 runner runner   4096 Nov 18 12:27 x64
+drwxr-xr-x 2 runner runner   4096 Nov 18 12:27 x86
 
 bench/bindings/dotnet/bin/Release/net8.0/x64:
 total 6804
-drwxr-xr-x 2 runner runner    4096 Nov 18 07:37 .
-drwxr-xr-x 4 runner runner    4096 Nov 18 07:37 ..
+drwxr-xr-x 2 runner runner    4096 Nov 18 12:27 .
+drwxr-xr-x 4 runner runner    4096 Nov 18 12:27 ..
 -rwxr--r-- 1 runner runner 4168192 Nov 30  2022 leptonica-1.82.0.dll
 -rwxr--r-- 1 runner runner 2788352 Nov 30  2022 tesseract50.dll
 total 6804
-drwxr-xr-x 2 runner runner    4096 Nov 18 07:37 .
-drwxr-xr-x 4 runner runner    4096 Nov 18 07:37 ..
+drwxr-xr-x 2 runner runner    4096 Nov 18 12:27 .
+drwxr-xr-x 4 runner runner    4096 Nov 18 12:27 ..
 -rwxr--r-- 1 runner runner 4168192 Nov 30  2022 leptonica-1.82.0.dll
-lrwxrwxrwx 1 runner runner      38 Nov 18 07:37 libleptonica-1.82.0.so -> /usr/lib/x86_64-linux-gnu/liblept.so.5
-lrwxrwxrwx 1 runner runner      34 Nov 18 07:37 libtesseract50.so -> /opt/tess554/lib/libtesseract.so.5
+lrwxrwxrwx 1 runner runner      38 Nov 18 12:27 libleptonica-1.82.0.so -> /usr/lib/x86_64-linux-gnu/liblept.so.5
+lrwxrwxrwx 1 runner runner      34 Nov 18 12:27 libtesseract50.so -> /opt/tess554/lib/libtesseract.so.5
 -rwxr--r-- 1 runner runner 2788352 Nov 30  2022 tesseract50.dll

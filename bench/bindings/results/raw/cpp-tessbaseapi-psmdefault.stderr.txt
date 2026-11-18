@@ -1,18 +1,18 @@
 	Command being timed: "/home/runner/work/test/test/bench/bindings/cpp/harness /opt/tessdata/tessdata_fast eng default 5 /home/runner/work/_temp/img/tiny.png /home/runner/work/_temp/img/img-01.png /home/runner/work/_temp/img/img-02.png /home/runner/work/_temp/img/img-03.png /home/runner/work/_temp/img/img-04.png /home/runner/work/_temp/img/img-05.png /home/runner/work/_temp/img/img-06.png /home/runner/work/_temp/img/img-07.png /home/runner/work/_temp/img/img-08.png /home/runner/work/_temp/img/img-09.png /home/runner/work/_temp/img/img-10.png"
-	User time (seconds): 19.82
-	System time (seconds): 0.28
+	User time (seconds): 19.72
+	System time (seconds): 0.27
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.10
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 52392
+	Maximum resident set size (kbytes): 52120
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 15074
+	Minor (reclaiming a frame) page faults: 15075
 	Voluntary context switches: 1
-	Involuntary context switches: 164
+	Involuntary context switches: 120
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

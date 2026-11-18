@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-18T09:22:24+00:00",
+  "date_utc": "2026-11-18T13:13:15+00:00",
   "runner": "github-actions",
   "runner_image": "ubuntu24 20261111.127.1",
   "os": "Ubuntu 24.04.5 LTS",
@@ -14,8 +14,8 @@
     "tessdata": "ced78752cc61322fb554c280d13360b35b8684e4",
     "tessdata_best": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
   },
-  "git_sha": "b56c1b669db30b51ece83af64bdccf5efd5df8af",
-  "run_url": "https://github.com/dencyclopedia/test/actions/runs/44258321224",
+  "git_sha": "bee41e17107544bda2b91841793208f444d322fa",
+  "run_url": "https://github.com/dencyclopedia/test/actions/runs/44303109782",
   "python": "3.12.3",
   "input": "synthetic: 10 images 2481x1170 px 300 DPI (Pride and Prejudice, Liberation Serif 11pt, seeded scan noise) + tiny.png (one word)",
   "model": "eng from tessdata_fast (pinned commit) unless a row says otherwise",
