@@ -11,12 +11,12 @@ function Run($label, [scriptblock]$sb) {
   return [math]::Round($sw.Elapsed.TotalSeconds,1)
 }
 function FreshCheck($label) {
-  # a new process whose PATH is re-read from the registry, like a newly opened terminal
-  L "`n### $label (new process, PATH re-read from registry Machine+User)"
-  $o = powershell -NoProfile -Command {
-    $env:Path = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')
-    "where.exe tesseract:"; where.exe tesseract 2>&1; "tesseract --version:"; tesseract --version 2>&1 | Select-Object -First 2
-  } 2>&1 | Out-String
+  # like a newly opened cmd window: PATH (and TESSDATA_PREFIX) re-read from the registry
+  L "`n### $label (new cmd process, PATH re-read from registry Machine+User)"
+  $p = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')
+  $td = [Environment]::GetEnvironmentVariable('TESSDATA_PREFIX','User'); if (-not $td) { $td = [Environment]::GetEnvironmentVariable('TESSDATA_PREFIX','Machine') }
+  $env:FRESHPATH = $p; $env:FRESHTD = $td
+  $o = cmd /d /c 'set "PATH=%FRESHPATH%"& (if defined FRESHTD set "TESSDATA_PREFIX=%FRESHTD%")& echo C:\^> where tesseract& where tesseract& echo C:\^> tesseract --version& tesseract --version' 2>&1 | Out-String
   L $o.TrimEnd()
 }
 $res = [ordered]@{ pm = $pm }
@@ -27,14 +27,16 @@ $regBefore = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [En
 $fs0 = (Get-PSDrive C).Free
 
 switch ($pm) {
- 'winget' {
+ {$_ -in 'winget','winget-tesseract-ocr'} {
+  $id = if ($pm -eq 'winget') { 'UB-Mannheim.TesseractOCR' } else { 'tesseract-ocr.tesseract' }
+  L "winget package id: $id"
   Run "winget version" { winget --version } | Out-Null
   Run "winget search" { winget search tesseract --accept-source-agreements --disable-interactivity } | Out-Null
-  Run "winget show" { winget show --id UB-Mannheim.TesseractOCR -e --accept-source-agreements --disable-interactivity } | Out-Null
-  Run "winget show versions" { winget show --id UB-Mannheim.TesseractOCR -e --versions --disable-interactivity } | Out-Null
-  $res.install_seconds = Run "winget install" { winget install --id UB-Mannheim.TesseractOCR -e --silent --accept-package-agreements --accept-source-agreements --disable-interactivity }
+  Run "winget show" { winget show --id $id -e --accept-source-agreements --disable-interactivity } | Out-Null
+  Run "winget show versions" { winget show --id $id -e --versions --disable-interactivity } | Out-Null
+  $res.install_seconds = Run "winget install" { winget install --id $id -e --silent --accept-package-agreements --accept-source-agreements --disable-interactivity }
   $res.install_exit = $LASTEXITCODE
-  Run "winget list" { winget list --id UB-Mannheim.TesseractOCR -e --disable-interactivity } | Out-Null
+  Run "winget list" { winget list --id $id -e --disable-interactivity } | Out-Null
   $dir = 'C:\Program Files\Tesseract-OCR'
  }
  'choco' {
@@ -57,6 +59,12 @@ switch ($pm) {
   $res.install_seconds = Run "scoop install" { scoop install tesseract }
   $res.install_exit = $LASTEXITCODE
   Run "scoop info after" { scoop info tesseract } | Out-Null
+  Run "list-langs right after install" { tesseract --list-langs } | Out-Null
+  Run "OCR right after install (no language data yet)" { tesseract samples\receipt.png - } | Out-Null
+  Run "scoop info tesseract-languages" { scoop info tesseract-languages } | Out-Null
+  $res.languages_install_seconds = Run "scoop install tesseract-languages" { scoop install tesseract-languages }
+  $res.languages_bytes = (Get-ChildItem "$env:USERPROFILE\scoop\apps\tesseract-languages" -Recurse -File -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum
+  Run "list-langs count after tesseract-languages" { (tesseract --list-langs | Select-Object -Skip 1 | Measure-Object).Count } | Out-Null
   $dir = "$env:USERPROFILE\scoop\apps\tesseract\current"
  }
 }
@@ -76,6 +84,11 @@ $res.path_entries_added = @(($regAfter -split ';') | Where-Object { $_ -and (($r
 $res.registry_path_has_tesseract_dir = [bool]($regAfter -match 'tesseract')
 L "PATH entries added by the install: $($res.path_entries_added -join ' | ')"
 FreshCheck "after install"
+if ($pm -eq 'winget') {
+  # WSL2 on the runner (nested virtualisation is not available on GitHub-hosted runners; record what happens)
+  Run "wsl --status" { wsl.exe --status } | Out-Null
+  Run "wsl --list --verbose" { wsl.exe --list --verbose } | Out-Null
+}
 $res | ConvertTo-Json -Depth 4 | Set-Content (Join-Path $out "result.json")
 L ($res | ConvertTo-Json -Depth 4)
 $global:LASTEXITCODE = 0

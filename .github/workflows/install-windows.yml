@@ -49,7 +49,9 @@ jobs:
           $bytes = [IO.File]::ReadAllBytes("$PWD\setup.exe"); $txt = [Text.Encoding]::ASCII.GetString($bytes)
           "manifest: $(([regex]::Match($txt, 'requestedExecutionLevel[^>]*>')).Value)" | Tee-Object -Append $log
           "where tesseract before: $((where.exe tesseract 2>&1) -join ' ')" | Tee-Object -Append $log
+          "authenticode status message: $($sig.StatusMessage)" | Tee-Object -Append $log
           Copy-Item setup.exe "$env:TEMP\$(Split-Path $url -Leaf)"; "$env:TEMP\$(Split-Path $url -Leaf)" | Set-Content installer-path.txt
+          $global:LASTEXITCODE = 0
       - name: GUI walkthrough
         run: |
           $exe = Get-Content installer-path.txt
@@ -69,7 +71,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pm: [winget, choco, scoop]
+        pm: [winget, winget-tesseract-ocr, choco, scoop]
     env:
       CAP_OUT: ${{ github.workspace }}\out\${{ matrix.pm }}
     steps:

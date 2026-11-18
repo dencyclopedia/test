@@ -91,7 +91,7 @@ def console(title, batch_lines, name, wait_marker=True, launcher='direct', timeo
     if os.path.exists(marker): os.remove(marker)
     bat = os.path.join(os.environ.get('TEMP', '.'), f'{name}.bat')
     with open(bat, 'w', encoding='utf-8') as f:
-        f.write('@echo off\r\nchcp 65001 >nul\r\n' + f'title {title}\r\ncd /d "{cwd}"\r\n' + '\r\n'.join(batch_lines) + f'\r\necho done> "{marker}"\r\n')
+        f.write('@echo off\r\nchcp 65001 >nul\r\n' + f'title {title}\r\ncd /d "{cwd}"\r\n' + '\r\n'.join(batch_lines) + f'\r\necho done> "{marker}"\r\npause >nul\r\n')
     minimize_all()
     if launcher == 'explorer':
         subprocess.Popen(['explorer.exe', bat])
