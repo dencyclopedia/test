@@ -49,6 +49,9 @@ META = {
     "ocrmypdf-encrypted": ("EncryptedPdfError: Input PDF is encrypted.", "password-protected input", "encrypted-fix-qpdf-decrypt", "qpdf --password=... --decrypt in.pdf out.pdf"),
     "pdftoppm-encrypted": ("Command Line Error: Incorrect password", "encrypted PDF without -upw", "pdftoppm-encrypted-fix", "pdftoppm -upw <password>"),
     "pdf2image-encrypted": ("pdf2image.exceptions.PDFPageCountError: Unable to get page count. Command Line Error: Incorrect password", "encrypted PDF", None, "convert_from_path(..., userpw='...')"),
+    "ocrmypdf-no-gs-pdfa": ("The program 'gs' could not be executed or was not found on your system PATH.", "--output-type pdfa forces the Ghostscript path", None, "apt install ghostscript, or use the default --output-type auto"),
+    "ocrmypdf-no-gs-optimize2": ("The program 'pngquant' could not be executed or was not found on your system PATH.", "--optimize 2/3 need pngquant", None, "apt install pngquant (and jbig2 for JBIG2)"),
+    "ocrmypdf-no-gs-optimize3": ("The program 'pngquant' could not be executed or was not found on your system PATH.", "--optimize 2/3 need pngquant", None, "apt install pngquant"),
     "ocrmypdf-no-tesseract": ("OCRmyPDF without tesseract on PATH", "", None, "install tesseract"),
     "ocrmypdf-no-gs-no-poppler": ("OCRmyPDF 17 with no Ghostscript and no poppler on PATH", "neither is required any more", None, "-"),
     # bench/train captures

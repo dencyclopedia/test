@@ -3,7 +3,7 @@
 Every message here was produced by running the command shown; nothing is retyped. `capture.py` runs one
 command and stores stdout, stderr and the exit code byte-for-byte (`results/captures/<id>.txt`,
 `results/captures/captures.jsonl`). `catalog.py` joins them with a short cause/fix note into
-`results/errors.json` (54 entries: 38 errors/warnings + the captures of the fixes that worked).
+`results/errors.json` (all captures from here, `../train` and `../pdf`; `kind` = error or fix-or-check).
 
 Where it ran: the development container (Ubuntu 24.04.5, Tesseract **5.5.4** built from the upstream tag,
 plus Ubuntu's packaged **5.3.4** for the `*-apt-534` entries) — error text is deterministic, no timings here.

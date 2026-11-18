@@ -561,33 +561,37 @@
     "id": "pdf-config-missing",
     "kind": "error",
     "title": "read_params_file: Can't open pdf (exit code 0, only .txt written)",
-    "command": "mkdir -p bare ; cp /opt/tessdata/tessdata_fast/eng.traineddata bare/ ; /opt/tess554/bin/tesseract line.png out --tessdata-dir /tmp/tmp.qfyif8HqZC/bare pdf ; ls out.*",
+    "command": "tesseract one.png t3 --tessdata-dir /home/runner/work/_temp/pdf/bare pdf ; ls t3.*",
     "env_changed": {},
     "exit_code": 0,
     "stderr": "read_params_file: Can't open pdf\n",
-    "stdout": "out.txt\n",
+    "stdout": "t3.txt\n",
     "cause": "the tessdata dir has no configs/ (a bare tessdata_fast checkout used via --tessdata-dir)",
     "fix": "copy/symlink configs/ (and pdf.ttf) from the installed share/tessdata into that dir, or use -c tessedit_create_pdf=1",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:52:41+00:00",
-    "source": "results/captures/captures.jsonl"
+    "captured_utc": "2026-11-18T12:25:43+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
   },
   {
     "id": "textonly-pdf-as-config",
     "kind": "error",
     "title": "read_params_file: Can't open textonly_pdf (exit code 0, only .txt written)",
-    "command": "/opt/tess554/bin/tesseract line.png out2 textonly_pdf ; ls out2.*",
-    "env_changed": {
-      "TESSDATA_PREFIX": "/opt/tessdata/tessdata_fast"
-    },
+    "command": "tesseract one.png t1 textonly_pdf ; ls t1.*",
+    "env_changed": {},
     "exit_code": 0,
     "stderr": "read_params_file: Can't open textonly_pdf\n",
-    "stdout": "out2.txt\n",
+    "stdout": "t1.txt\n",
     "cause": "textonly_pdf is a parameter, not a config file",
     "fix": "tesseract in out -c textonly_pdf=1 pdf",
-    "fix_capture": null,
-    "captured_utc": "2026-11-18T07:53:35+00:00",
-    "source": "results/captures/captures.jsonl"
+    "fix_capture": {
+      "id": "textonly-pdf-as-parameter",
+      "command": "tesseract one.png t2 -c textonly_pdf=1 pdf ; ls -la t2.* ; pdfimages -list t2.pdf",
+      "exit_code": 0,
+      "stdout": "-rw-r--r-- 1 runner runner 7258 Nov 18 12:25 t2.pdf\npage   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio\n--------------------------------------------------------------------------------------------\n",
+      "stderr": ""
+    },
+    "captured_utc": "2026-11-18T12:25:39+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
   },
   {
     "id": "pytesseract-timeout",
@@ -659,18 +663,18 @@
     "id": "pdf2image-no-poppler",
     "kind": "error",
     "title": "pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?",
-    "command": "/tmp/venv-pdf/bin/python -c 'from pdf2image import convert_from_path; convert_from_path(\"line.pdf\")'",
+    "command": "/home/runner/venv/bin/python -c 'from pdf2image import convert_from_path; convert_from_path(\"one.pdf\")'",
     "env_changed": {
-      "PATH": "/tmp/venv-pdf/bin"
+      "PATH": "/home/runner/venv/bin:/usr/bin/nonexistent"
     },
     "exit_code": 1,
-    "stderr": "Traceback (most recent call last):\n  File \"/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py\", line 581, in pdfinfo_from_path\n    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)\n  File \"/usr/local/lib/python3.13/subprocess.py\", line 1040, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/subprocess.py\", line 1992, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pdfinfo'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from pdf2image import convert_from_path; convert_from_path(\"line.pdf\")\n                                             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^\n  File \"/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py\", line 127, in convert_from_path\n    page_count = pdfinfo_from_path(\n                 ~~~~~~~~~~~~~~~~~^\n        pdf_path, userpw, ownerpw, poppler_path=poppler_path\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )[\"Pages\"]\n    ^\n  File \"/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py\", line 607, in pdfinfo_from_path\n    raise PDFInfoNotInstalledError(\n        \"Unable to get page count. Is poppler installed and in PATH?\"\n    )\npdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?\n",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 581, in pdfinfo_from_path\n    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'pdfinfo'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 127, in convert_from_path\n    page_count = pdfinfo_from_path(\n                 ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 607, in pdfinfo_from_path\n    raise PDFInfoNotInstalledError(\npdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?\n",
     "stdout": "",
     "cause": "pdfinfo/pdftoppm (poppler-utils) missing",
     "fix": "apt install poppler-utils (Windows: poppler_path=)",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:53:36+00:00",
-    "source": "results/captures/captures.jsonl"
+    "captured_utc": "2026-11-18T12:26:17+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
   },
   {
     "id": "node-pdftoppm-enoent",
@@ -777,7 +781,7 @@
     "cause": "",
     "fix": "",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:57:59+00:00",
+    "captured_utc": "2026-11-18T08:33:59+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -792,7 +796,7 @@
     "cause": "tesstrain's Makefile has no FINETUNE_TYPE or BATCH_SIZE variable; make silently accepts unknown variables",
     "fix": "remove them; use START_MODEL / LEARNING_RATE / MAX_ITERATIONS / EPOCHS / NET_SPEC",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:57:59+00:00",
+    "captured_utc": "2026-11-18T08:33:59+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -807,7 +811,7 @@
     "cause": "tesstrain does not download the start model for `make training`",
     "fix": "put eng.traineddata (tessdata_best) in TESSDATA",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:57:59+00:00",
+    "captured_utc": "2026-11-18T08:33:59+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -822,7 +826,7 @@
     "cause": "integer (fast) models cannot be trained",
     "fix": "use tessdata_best",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:57:59+00:00",
+    "captured_utc": "2026-11-18T08:34:00+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -837,7 +841,7 @@
     "cause": "MODEL_NAME does not match the ground-truth folder name",
     "fix": "data/<MODEL_NAME>-ground-truth/",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:57:59+00:00",
+    "captured_utc": "2026-11-18T08:34:00+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -852,7 +856,7 @@
     "cause": "",
     "fix": "",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:58:11+00:00",
+    "captured_utc": "2026-11-18T08:34:11+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -867,7 +871,7 @@
     "cause": "",
     "fix": "",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:58:11+00:00",
+    "captured_utc": "2026-11-18T08:34:11+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -888,7 +892,7 @@
       "stdout": " 49: Liberation Serif Bold\n 50: Liberation Serif Bold Italic\n 51: Liberation Serif Italic\n 52: Noto Color Emoji\n 53: OCRA Medium\n 54: OCRABold Bold\n 55: OCRACondensed Condensed\n 56: OCRAItalic Italic\n",
       "stderr": ""
     },
-    "captured_utc": "2026-11-18T07:58:11+00:00",
+    "captured_utc": "2026-11-18T08:34:11+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -909,7 +913,7 @@
       "stdout": "\"Oh!\" cried Miss Bingley, \"Charles writes in the\n",
       "stderr": ""
     },
-    "captured_utc": "2026-11-18T07:58:11+00:00",
+    "captured_utc": "2026-11-18T08:34:11+00:00",
     "source": "../train/results/errors/captures.jsonl"
   },
   {
@@ -924,7 +928,305 @@
     "cause": "",
     "fix": "",
     "fix_capture": null,
-    "captured_utc": "2026-11-18T07:58:11+00:00",
+    "captured_utc": "2026-11-18T08:34:11+00:00",
     "source": "../train/results/errors/captures.jsonl"
+  },
+  {
+    "id": "tesseract-reads-pdf-554",
+    "kind": "error",
+    "title": "Error in pixReadStream: Pdf reading is not supported",
+    "command": "tesseract one.pdf out",
+    "env_changed": {},
+    "exit_code": 1,
+    "stderr": "Error in pixReadStream: Pdf reading is not supported\nError in pixRead: pix not read\nError during processing.\n",
+    "stdout": "",
+    "cause": "Tesseract 5.5.4 cannot read PDF",
+    "fix": "rasterise (pdftoppm) or OCRmyPDF",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:37+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "tesseract-reads-pdf-apt",
+    "kind": "error",
+    "title": "Error in pixReadStream: Pdf reading is not supported (apt 5.3.4)",
+    "command": "/usr/bin/tesseract --version 2>&1 | head -1; /usr/bin/tesseract one.pdf out",
+    "env_changed": {},
+    "exit_code": 1,
+    "stderr": "Error in pixReadStream: Pdf reading is not supported\nError in pixRead: pix not read\nError during processing.\n",
+    "stdout": "tesseract 5.5.4\n",
+    "cause": "same",
+    "fix": "same",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:37+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "textonly-pdf-as-parameter",
+    "kind": "fix-or-check",
+    "title": "textonly-pdf-as-parameter",
+    "command": "tesseract one.png t2 -c textonly_pdf=1 pdf ; ls -la t2.* ; pdfimages -list t2.pdf",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "-rw-r--r-- 1 runner runner 7258 Nov 18 12:25 t2.pdf\npage   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio\n--------------------------------------------------------------------------------------------\n",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:41+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-prior-ocr",
+    "kind": "error",
+    "title": "PriorOcrFoundError: page 1 already has text!",
+    "command": "ocrmypdf -l eng ocred.pdf again.pdf",
+    "env_changed": {},
+    "exit_code": 6,
+    "stderr": "PriorOcrFoundError: page 1 already has text! - aborting (use --force-ocr or --mode force to force OCR; see also help for --skip-text, --redo-ocr, and --mode)\n",
+    "stdout": "",
+    "cause": "input already has a text layer",
+    "fix": "--skip-text, --redo-ocr or --force-ocr",
+    "fix_capture": {
+      "id": "ocrmypdf-prior-ocr-fix-skip-text",
+      "command": "ocrmypdf --skip-text -l eng ocred.pdf again.pdf",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "    1 skipping all processing on this page\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.00 savings: 0.0%\nTotal file size ratio: 1.00 savings: 0.0%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n"
+    },
+    "captured_utc": "2026-11-18T12:25:48+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-prior-ocr-fix-skip-text",
+    "kind": "fix-or-check",
+    "title": "ocrmypdf-prior-ocr-fix-skip-text",
+    "command": "ocrmypdf --skip-text -l eng ocred.pdf again.pdf",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "    1 skipping all processing on this page\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.00 savings: 0.0%\nTotal file size ratio: 1.00 savings: 0.0%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "stdout": "",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:49+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-prior-ocr-fix-force",
+    "kind": "fix-or-check",
+    "title": "ocrmypdf-prior-ocr-fix-force",
+    "command": "ocrmypdf --force-ocr -l eng ocred.pdf again2.pdf",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "    1 page already has text! - rasterizing text and running OCR anyway\nParsing 1 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.02 savings: 1.6%\nTotal file size ratio: 1.03 savings: 2.5%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "stdout": "",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:53+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-prior-ocr-fix-redo",
+    "kind": "fix-or-check",
+    "title": "ocrmypdf-prior-ocr-fix-redo",
+    "command": "ocrmypdf --redo-ocr -l eng ocred.pdf again3.pdf",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "    1 redoing OCR\nParsing 1 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nImage optimization ratio: 1.00 savings: 0.0%\nTotal file size ratio: 1.00 savings: -0.0%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "stdout": "",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:25:57+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-encrypted",
+    "kind": "error",
+    "title": "EncryptedPdfError: Input PDF is encrypted.",
+    "command": "ocrmypdf -l eng enc.pdf enc-out.pdf",
+    "env_changed": {},
+    "exit_code": 8,
+    "stderr": "EncryptedPdfError: Input PDF is encrypted. The encryption must be removed to\nperform OCR.\n\nFor information about this PDF's security use\n    qpdf --show-encryption infilename\n\nYou can remove the encryption using\n    qpdf --decrypt [--password=[password]] infilename\n\n",
+    "stdout": "",
+    "cause": "password-protected input",
+    "fix": "qpdf --password=... --decrypt in.pdf out.pdf",
+    "fix_capture": {
+      "id": "encrypted-fix-qpdf-decrypt",
+      "command": "qpdf --password=secret --decrypt enc.pdf dec.pdf && ocrmypdf -q -l eng dec.pdf dec-out.pdf && pdftotext dec-out.pdf - | head -3",
+      "exit_code": 0,
+      "stdout": "Chapter 1\n\nIt is a truth universally acknowledged, that a single man in possession of a good fortune, must be in\n",
+      "stderr": ""
+    },
+    "captured_utc": "2026-11-18T12:25:58+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "pdftoppm-encrypted",
+    "kind": "error",
+    "title": "Command Line Error: Incorrect password",
+    "command": "pdftoppm -r 300 -png enc.pdf encpg",
+    "env_changed": {},
+    "exit_code": 1,
+    "stderr": "Command Line Error: Incorrect password\n",
+    "stdout": "",
+    "cause": "encrypted PDF without -upw",
+    "fix": "pdftoppm -upw <password>",
+    "fix_capture": {
+      "id": "pdftoppm-encrypted-fix",
+      "command": "pdftoppm -upw secret -r 300 -png enc.pdf encpg ; ls encpg*",
+      "exit_code": 0,
+      "stdout": "encpg-1.png\n",
+      "stderr": ""
+    },
+    "captured_utc": "2026-11-18T12:25:58+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "pdftoppm-encrypted-fix",
+    "kind": "fix-or-check",
+    "title": "pdftoppm-encrypted-fix",
+    "command": "pdftoppm -upw secret -r 300 -png enc.pdf encpg ; ls encpg*",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "encpg-1.png\n",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:13+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "pdf2image-encrypted",
+    "kind": "error",
+    "title": "pdf2image.exceptions.PDFPageCountError: Unable to get page count. Command Line Error: Incorrect password",
+    "command": "/home/runner/venv/bin/python -c 'from pdf2image import convert_from_path; convert_from_path(\"enc.pdf\")'",
+    "env_changed": {},
+    "exit_code": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 602, in pdfinfo_from_path\n    raise ValueError\nValueError\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 127, in convert_from_path\n    page_count = pdfinfo_from_path(\n                 ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/venv/lib/python3.12/site-packages/pdf2image/pdf2image.py\", line 611, in pdfinfo_from_path\n    raise PDFPageCountError(\npdf2image.exceptions.PDFPageCountError: Unable to get page count.\nCommand Line Error: Incorrect password\n\n",
+    "stdout": "",
+    "cause": "encrypted PDF",
+    "fix": "convert_from_path(..., userpw='...')",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:13+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "encrypted-fix-qpdf-decrypt",
+    "kind": "fix-or-check",
+    "title": "encrypted-fix-qpdf-decrypt",
+    "command": "qpdf --password=secret --decrypt enc.pdf dec.pdf && ocrmypdf -q -l eng dec.pdf dec-out.pdf && pdftotext dec-out.pdf - | head -3",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "Chapter 1\n\nIt is a truth universally acknowledged, that a single man in possession of a good fortune, must be in\n",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:17+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-no-gs-no-poppler",
+    "kind": "error",
+    "title": "OCRmyPDF 17 with no Ghostscript and no poppler on PATH",
+    "command": "ocrmypdf -l eng one.pdf min.pdf && /usr/bin/pdffonts min.pdf",
+    "env_changed": {
+      "PATH": "/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin"
+    },
+    "exit_code": 0,
+    "stderr": "Parsing 1 pages with HocrParser\nPostprocessing...\nSpeculative PDF/A conversion succeeded - skipping Ghostscript\nxref 13: this image could not be processed by the optimizer and was left unchanged. The output file is still valid.\nImage optimization ratio: 1.02 savings: 1.6%\nTotal file size ratio: 1.00 savings: 0.2%\nOutput file is a PDF/A-2b (auto mode achieved PDF/A)\n",
+    "stdout": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nMPDFAA+NotoSans                      CID TrueType      Identity-H       yes yes yes      6  0\n",
+    "cause": "neither is required any more",
+    "fix": "-",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:21+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-no-gs-pdfa",
+    "kind": "error",
+    "title": "The program 'gs' could not be executed or was not found on your system PATH.",
+    "command": "ocrmypdf --output-type pdfa -l eng one.pdf min-pdfa.pdf",
+    "env_changed": {
+      "PATH": "/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin"
+    },
+    "exit_code": 3,
+    "stderr": "\nThe program 'gs' could not be executed or was not found on your\nsystem PATH.\n\n\nOn systems with the aptitude package manager (Debian, Ubuntu), try these\ncommands:\n    sudo apt update\n    sudo apt install ghostscript\n\nOn RPM-based systems (Red Hat, Fedora), try this command:\n    sudo dnf install ghostscript\n\nCould not find program 'gs' on the PATH\n",
+    "stdout": "",
+    "cause": "--output-type pdfa forces the Ghostscript path",
+    "fix": "apt install ghostscript, or use the default --output-type auto",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:22+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-no-gs-optimize2",
+    "kind": "error",
+    "title": "The program 'pngquant' could not be executed or was not found on your system PATH.",
+    "command": "ocrmypdf --optimize 2 -l eng one.pdf min-o2.pdf",
+    "env_changed": {
+      "PATH": "/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin"
+    },
+    "exit_code": 3,
+    "stderr": "\nThe program 'pngquant' could not be executed or was not found on your\nsystem PATH.  This program is required when you use the\n--optimize {2,3} arguments.  You could try omitting these arguments, or install\nthe package.\n\n\nOn systems with the aptitude package manager (Debian, Ubuntu), try these\ncommands:\n    sudo apt update\n    sudo apt install pngquant\n\nOn RPM-based systems (Red Hat, Fedora), try this command:\n    sudo dnf install pngquant\n\nCould not find program 'pngquant' on the PATH\n",
+    "stdout": "",
+    "cause": "--optimize 2/3 need pngquant",
+    "fix": "apt install pngquant (and jbig2 for JBIG2)",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:22+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-no-gs-optimize3",
+    "kind": "error",
+    "title": "The program 'pngquant' could not be executed or was not found on your system PATH.",
+    "command": "ocrmypdf --optimize 3 -l eng one.pdf min-o3.pdf",
+    "env_changed": {
+      "PATH": "/home/runner/work/_temp/pdf/onlytess:/home/runner/venv/bin"
+    },
+    "exit_code": 3,
+    "stderr": "\nThe program 'pngquant' could not be executed or was not found on your\nsystem PATH.  This program is required when you use the\n--optimize {2,3} arguments.  You could try omitting these arguments, or install\nthe package.\n\n\nOn systems with the aptitude package manager (Debian, Ubuntu), try these\ncommands:\n    sudo apt update\n    sudo apt install pngquant\n\nOn RPM-based systems (Red Hat, Fedora), try this command:\n    sudo dnf install pngquant\n\nCould not find program 'pngquant' on the PATH\n",
+    "stdout": "",
+    "cause": "--optimize 2/3 need pngquant",
+    "fix": "apt install pngquant",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:23+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "ocrmypdf-no-tesseract",
+    "kind": "fix-or-check",
+    "title": "OCRmyPDF without tesseract on PATH",
+    "command": "ocrmypdf -l eng one.pdf none.pdf",
+    "env_changed": {
+      "PATH": "/home/runner/venv/bin"
+    },
+    "exit_code": 3,
+    "stderr": "\nThe program 'tesseract' could not be executed or was not found on your\nsystem PATH.\n\n\nOn systems with the aptitude package manager (Debian, Ubuntu), try these\ncommands:\n    sudo apt update\n    sudo apt install tesseract-ocr\n\nOn RPM-based systems (Red Hat, Fedora), try this command:\n    sudo dnf install tesseract-ocr\n\nCould not find program 'tesseract' on the PATH\n",
+    "stdout": "",
+    "cause": "",
+    "fix": "install tesseract",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:23+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
+  },
+  {
+    "id": "pdfsandwich-verbose",
+    "kind": "fix-or-check",
+    "title": "pdfsandwich-verbose",
+    "command": "pdfsandwich -verbose -lang eng -o sw.pdf one.pdf ; pdfimages -list sw.pdf",
+    "env_changed": {},
+    "exit_code": 0,
+    "stderr": "pdfinfo version 24.02.0\nCopyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC\npdfunite version 24.02.0\nCopyright 2005-2024 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC\n[image2 @ 0x558c81bbeb40] Encoder did not produce proper pts, making some up.\n[image2 @ 0x558c81bbeb40] The specified filename '/tmp/pdfsandwich_tmpe0eae6/pdfsandwich93b438_unpaper.pbm' does not contain an image sequence pattern or a pattern is invalid.\n[image2 @ 0x558c81bbeb40] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.\n",
+    "stdout": " rights reserved.\nChecking for pdfinfo:\npdfinfo -v\nChecking for pdfunite:\npdfunite -v\nInput file: \"one.pdf\"\nOutput file: \"sw.pdf\"\nNumber of pages in inputfile: 1\nMore threads than pages. Using 1 threads instead.\nProcessing page 1.\nidentify -format \"%w\\n%h\\n\"  \"/tmp/pdfsandwich_tmpe0eae6/pdfsandwich_inputfile724df1.pdf[0]\" \nconvert -units PixelsPerInch  -type Bilevel -density 300x300  \"/tmp/pdfsandwich_tmpe0eae6/pdfsandwich_inputfile724df1.pdf[0]\" /tmp/pdfsandwich_tmpe0eae6/pdfsandwich76e6d6.pbm\nunpaper --overwrite  --no-grayfilter --layout none /tmp/pdfsandwich_tmpe0eae6/pdfsandwich76e6d6.pbm /tmp/pdfsandwich_tmpe0eae6/pdfsandwich93b438_unpaper.pbm\nProcessing sheet #1: /tmp/pdfsandwich_tmpe0eae6/pdfsandwich76e6d6.pbm -> /tmp/pdfsandwich_tmpe0eae6/pdfsandwich93b438_unpaper.pbm\nconvert -units PixelsPerInch -density 300x300 /tmp/pdfsandwich_tmpe0eae6/pdfsandwich93b438_unpaper.pbm /tmp/pdfsandwich_tmpe0eae6/pdfsandwich177d89.tif\nOMP_THREAD_LIMIT=1 tesseract /tmp/pdfsandwich_tmpe0eae6/pdfsandwich177d89.tif /tmp/pdfsandwich_tmpe0eae6/pdfsandwich12c769  -l eng pdf \nOCR pdf generated. Renaming output file to /tmp/pdfsandwich_tmpe0eae6/pdfsandwich46b117.pdf\n\nOCR done. Writing \"sw.pdf\"\n\nsw.pdf generated.\n\nDone.\npage   num  type   width height color comp bpc  enc interp  object ID x-ppi y-ppi size ratio\n--------------------------------------------------------------------------------------------\n   1     0 image    2481  3507  gray    1   1  ccitt  no        11  0   300   300 34.6K 3.3%\n",
+    "cause": "",
+    "fix": "",
+    "fix_capture": null,
+    "captured_utc": "2026-11-18T12:26:31+00:00",
+    "source": "../pdf/results/errors/captures.jsonl"
   }
 ]
