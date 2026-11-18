@@ -252,7 +252,7 @@ Click Next to continue.
   [Static id=1038] Choose the folder in which to install Tesseract-OCR.
   [Edit id=1019] C:\Program Files\Tesseract-OCR
   [Button id=1001] B&rowse...
-  [Static id=1024] Space available: 27.9 GB
+  [Static id=1024] Space available: 30.8 GB
   [Static id=1023] Space required: 96.9 MB
   [Static id=1006] Setup will install Tesseract-OCR in the following folder. To install in a different folder, click Browse and select another folder. Click Next to continue.
   [Button id=1020] Destination Folder
@@ -275,9 +275,10 @@ Click Next to continue.
   [Static id=1028] Nullsoft Install System v3.11-1
   [Static id=1037] Installing
   [Static id=1038] Please wait while Tesseract-OCR is being installed.
+  [Static id=1001] Connecting ...
+  [Button id=2] Cancel
   [Button id=1027] Show &details
   [Static id=1006] Downloading eng language file
-  [Button id=2] Cancel
 == Installation Complete ==
   [Button id=3] < &Back
   [Button id=1] &Next >
