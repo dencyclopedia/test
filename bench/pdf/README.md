@@ -2,7 +2,7 @@
 
 - **Run:** GitHub Actions `ubuntu-24.04`, Intel Xeon 6975P-C, 4 vCPU — run
   [44258321538](https://github.com/dencyclopedia/test/actions/runs/44258321538) (`results/meta.json`).
-  Errors and the time breakdown: `bench-pdf-extra` (see below).
+  Errors and the time breakdown: `bench-pdf-extra` run [44303395469](https://github.com/dencyclopedia/test/actions/runs/44303395469) (`results/meta-extra.json`).
 - **Engine:** Tesseract 5.5.4 built from the upstream tag, `eng` from tessdata_fast (pinned commit),
   `OMP_THREAD_LIMIT=1` for every command. OCRmyPDF still OCRs pages in parallel with its default `-j` (all 4 cores).
 - **Tools** (`results/tool-versions.txt`): OCRmyPDF 17.14.2 (pikepdf 10.18.2, fpdf2 2.9.0, pypdfium2 5.15.2),
@@ -43,8 +43,13 @@ Findings:
 - **OCRmyPDF was the fastest** (22.2 s for 20 pages, using all 4 cores); with `-j 1` it took 60.0 s. It kept the
   original JPEGs (output 0.995 × input).
 - **Feeding Tesseract PNGs made the PDF 5.3× bigger** (109 MB): Tesseract embeds the PNG pages losslessly.
-  Rasterising to JPEG instead gave 0.956 × input. (Why the PNG paths also took ~286 s instead of ~43 s is
-  measured separately in `results/breakdown.json`, see below.)
+  Rasterising to JPEG instead gave 0.956 × input.
+- **The ~286 s of the PNG paths is pdftoppm, not Tesseract** (`results/breakdown.json`, run
+  [44303395469](https://github.com/dencyclopedia/test/actions/runs/44303395469), median of 5): `pdftoppm -r 300 -png`
+  took **288.0 s** for the 20 noisy grey pages (109 MB of PNG) vs **4.9 s** for `-jpeg` (19.5 MB); Tesseract itself
+  took 51–54 s either way, and `txt`, `pdf` and `-c textonly_pdf=1 pdf` output cost the same (51.0 / 51.6 / 51.6 s from
+  JPEG). (That run landed on an AMD EPYC 7763 runner, the method table on an Intel Xeon 6975P-C, so compare
+  within a table, not across them.)
 - **pdfsandwich made the smallest file (1.2 MB, 6 % of the input) because it replaces the page images**: its
   verbose log shows `convert … -type Bilevel` and the output images are CCITT bi-level — the grey scan is gone.
   Its CER was the lowest (0.079 %), helped by unpaper's cleaning. It ran the 5.5.4 `tesseract` found on PATH.
@@ -105,15 +110,20 @@ See `results/errors/` (captured on Actions by `capture_errors.sh`) and `../error
 - pdf2image without poppler: `pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?`
 - `spawn pdftoppm ENOENT` comes from the npm package **node-pdftoppm** (2.0.1), which spawns `pdftoppm` from PATH;
   reproduced in `../errors/`.
-- **OCRmyPDF 17.14.2 needs neither Ghostscript nor poppler**: with a PATH holding only `tesseract` and the venv,
-  `ocrmypdf in.pdf out.pdf` succeeded and wrote PDF/A-2b (`Speculative PDF/A conversion succeeded - skipping Ghostscript`).
+- **OCRmyPDF 17.14.2 needs neither Ghostscript nor poppler** for the default run: with a PATH holding only
+  `tesseract` and the venv, `ocrmypdf in.pdf out.pdf` succeeded (exit 0) and wrote PDF/A-2b
+  (`Speculative PDF/A conversion succeeded - skipping Ghostscript`). In the same environment:
+  - `--output-type pdfa` → `The program 'gs' could not be executed or was not found on your system PATH.` (exit 3)
+  - `--optimize 2` and `--optimize 3` → `The program 'pngquant' could not be executed or was not found on your system PATH.  This program is required when you use the --optimize {2,3} arguments.` (exit 3)
+  - no tesseract → `The program 'tesseract' could not be executed or was not found on your system PATH.` (exit 3)
+  (Optimisation with jbig2 installed vs not was not separated; with both pngquant and jbig2 present, `-O 3` gave −62 %.)
 
 ## Claims on the live /pdf/ page
 
 | Claim | Result |
 |---|---|
 | `tesseract scan.png out textonly_pdf` | **Wrong**: no PDF; use `-c textonly_pdf=1 pdf` |
-| OCRmyPDF “requires Ghostscript and the poppler tools” | **Out of date** for OCRmyPDF 17: runs with neither (Ghostscript optional for PDF/A fallback) |
+| OCRmyPDF “requires Ghostscript and the poppler tools” | **Out of date** for OCRmyPDF 17: default run works with neither; Ghostscript only for `--output-type pdfa`, pngquant for `-O 2/3` |
 | Method D Python code | **Produces wrongly sized pages** (70-DPI assumption); add `--dpi 300` |
 | 300 DPI is the standard balance | Confirmed (best CER here) |
 | 600 DPI for small fonts | **Not supported**: 7 pt at 600 DPI 0.241 % vs 0.136 % at 300 DPI |
