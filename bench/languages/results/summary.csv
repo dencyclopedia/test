@@ -1,0 +1,57 @@
+lang,model,font,n,cer_mean,cer_nospace_mean,wer_mean,cer_charweighted
+ara,best,Noto Naskh Arabic,2,0.01978,0.01488,0.12991,0.01953
+ara,fast,Noto Naskh Arabic,2,0.02568,0.0275,0.04416,0.02539
+ara,standard,Noto Naskh Arabic,2,0.02693,0.029,0.05157,0.02669
+ara,standard+pis1,Noto Naskh Arabic,2,0.04128,0.029,0.21909,0.04102
+chi_sim,best,Noto Sans SC,2,0.72648,0.03463,19.75,0.72628
+chi_sim,fast,Noto Sans SC,2,0.03692,0.03315,0.58333,0.03577
+chi_sim,standard,Noto Sans SC,2,0.91821,0.01927,25.68333,0.92068
+chi_sim,standard+pis1,Noto Sans SC,2,0.02178,0.01927,0.28333,0.02022
+deu,best,DejaVu Serif,2,0.0,0.0,0.0,0.0
+deu,fast,DejaVu Serif,2,0.0,0.0,0.0,0.0
+deu,standard,DejaVu Serif,2,0.0,0.0,0.0,0.0
+deu,standard+pis1,DejaVu Serif,2,0.0,0.0,0.0,0.0
+eng,best,DejaVu Serif,2,0.0,0.0,0.0,0.0
+eng,fast,DejaVu Serif,2,0.0,0.0,0.0,0.0
+eng,standard,DejaVu Serif,2,0.0,0.0,0.0,0.0
+eng,standard+pis1,DejaVu Serif,2,0.0,0.0,0.0,0.0
+fra,best,DejaVu Serif,2,0.0027,0.00322,0.01659,0.00268
+fra,fast,DejaVu Serif,2,0.00355,0.00422,0.02231,0.00334
+fra,standard,DejaVu Serif,2,0.00392,0.00469,0.02384,0.00401
+fra,standard+pis1,DejaVu Serif,2,0.00392,0.00469,0.02384,0.00401
+hin,best,Noto Sans Devanagari,2,0.00649,0.00706,0.02775,0.00656
+hin,fast,Noto Sans Devanagari,2,0.00655,0.008,0.01988,0.00656
+hin,standard,Noto Sans Devanagari,2,0.00649,0.00706,0.02775,0.00656
+hin,standard+pis1,Noto Sans Devanagari,2,0.00649,0.00706,0.02775,0.00656
+ita,best,DejaVu Serif,2,0.0,0.0,0.0,0.0
+ita,fast,DejaVu Serif,2,0.0,0.0,0.0,0.0
+ita,standard,DejaVu Serif,2,0.0,0.0,0.0,0.0
+ita,standard+pis1,DejaVu Serif,2,0.0,0.0,0.0,0.0
+jpn,best,IPAGothic,2,0.71969,0.01409,20.58333,0.71825
+jpn,fast,IPAGothic,2,0.13044,0.11993,0.65,0.12847
+jpn,standard,IPAGothic,2,0.93228,0.01496,26.45,0.93139
+jpn,standard+pis1,IPAGothic,2,0.01698,0.01496,0.18333,0.01898
+kor,best,Noto Sans KR,2,0.13107,0.12022,0.21658,0.15209
+kor,fast,Noto Sans KR,2,0.13035,0.12382,0.20719,0.15209
+kor,standard,Noto Sans KR,2,0.53006,0.268,2.01323,0.50697
+kor,standard+pis1,Noto Sans KR,2,0.25654,0.268,0.38274,0.23954
+por,best,DejaVu Serif,2,0.0,0.0,0.0,0.0
+por,fast,DejaVu Serif,2,0.0,0.0,0.0,0.0
+por,standard,DejaVu Serif,2,0.0,0.0,0.0,0.0
+por,standard+pis1,DejaVu Serif,2,0.0,0.0,0.0,0.0
+rus,best,DejaVu Serif,2,0.00177,0.00206,0.00413,0.00192
+rus,fast,DejaVu Serif,2,0.00177,0.00206,0.00413,0.00192
+rus,standard,DejaVu Serif,2,0.00177,0.00206,0.00413,0.00192
+rus,standard+pis1,DejaVu Serif,2,0.00177,0.00206,0.00413,0.00192
+spa,best,DejaVu Serif,2,0.00067,0.00081,0.004,0.00071
+spa,fast,DejaVu Serif,2,0.00067,0.00081,0.004,0.00071
+spa,standard,DejaVu Serif,2,0.00067,0.00081,0.004,0.00071
+spa,standard+pis1,DejaVu Serif,2,0.00067,0.00081,0.004,0.00071
+uzb,best,DejaVu Serif,2,0.00861,0.00976,0.0721,0.00844
+uzb,fast,DejaVu Serif,2,0.00802,0.0091,0.06695,0.00779
+uzb,standard,DejaVu Serif,2,0.00802,0.0091,0.06695,0.00779
+uzb,standard+pis1,DejaVu Serif,2,0.00802,0.0091,0.06695,0.00779
+vie,best,DejaVu Serif,2,0.0,0.0,0.0,0.0
+vie,fast,DejaVu Serif,2,0.00075,0.00096,0.00342,0.00073
+vie,standard,DejaVu Serif,2,0.0,0.0,0.0,0.0
+vie,standard+pis1,DejaVu Serif,2,0.0,0.0,0.0,0.0

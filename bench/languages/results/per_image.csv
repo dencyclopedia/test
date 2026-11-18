@@ -1,0 +1,113 @@
+model,lang,id,font,cer,wer,word_recall_unordered,gt_chars,out_chars,rc,stderr,cer_nospace
+best,ara,multilingual/ara_p1_noto-naskh-arabic,Noto Naskh Arabic,0.01375,0.08889,0.94074,800,801,0,Detected 224 diacritics,0.01201
+best,ara,multilingual/ara_p2_noto-naskh-arabic,Noto Naskh Arabic,0.02582,0.17094,0.89744,736,744,0,Detected 132 diacritics,0.01774
+best,chi_sim,multilingual/chi_sim_p1_noto-sans-sc,Noto Sans SC,0.72881,14.2,0.4,295,497,0,"Error opening data file /opt/tessdata/tessdata_best/chi_sim_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_sim_vert'",0.0427
+best,chi_sim,multilingual/chi_sim_p2_noto-sans-sc,Noto Sans SC,0.72414,25.3,0.0,348,591,0,"Error opening data file /opt/tessdata/tessdata_best/chi_sim_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_sim_vert'",0.02655
+best,deu,multilingual/deu_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,823,823,0,,0.0
+best,deu,multilingual/deu_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,751,751,0,,0.0
+best,eng,multilingual/eng_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,736,736,0,,0.0
+best,eng,multilingual/eng_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,710,710,0,,0.0
+best,fra,multilingual/fra_p1_dejavu-serif,DejaVu Serif,0.00245,0.01449,0.98551,815,815,0,,0.00295
+best,fra,multilingual/fra_p2_dejavu-serif,DejaVu Serif,0.00294,0.01869,0.98131,680,680,0,,0.00348
+best,hin,multilingual/hin_p1_noto-sans-devanagari,Noto Sans Devanagari,0.00455,0.01613,0.98387,659,660,0,,0.0056
+best,hin,multilingual/hin_p2_noto-sans-devanagari,Noto Sans Devanagari,0.00843,0.03937,0.9685,712,715,0,,0.00853
+best,ita,multilingual/ita_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,715,715,0,,0.0
+best,ita,multilingual/ita_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,829,829,0,,0.0
+best,jpn,multilingual/jpn_p1_ipagothic,IPAGothic,0.70992,19.06667,0.0,393,664,0,"Error opening data file /opt/tessdata/tessdata_best/jpn_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'jpn_vert'",0.02111
+best,jpn,multilingual/jpn_p2_ipagothic,IPAGothic,0.72945,22.1,0.0,292,503,0,"Error opening data file /opt/tessdata/tessdata_best/jpn_vert.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'jpn_vert'",0.00707
+best,kor,multilingual/kor_p1_noto-sans-kr,Noto Sans KR,0.05172,0.19178,0.83562,290,286,0,,0.03211
+best,kor,multilingual/kor_p2_noto-sans-kr,Noto Sans KR,0.21042,0.24138,0.75862,499,396,0,,0.20833
+best,por,multilingual/por_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,774,774,0,,0.0
+best,por,multilingual/por_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,652,652,0,,0.0
+best,rus,multilingual/rus_p1_dejavu-serif,DejaVu Serif,0.00354,0.00826,0.99174,848,846,0,,0.00412
+best,rus,multilingual/rus_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,714,714,0,,0.0
+best,spa,multilingual/spa_p1_dejavu-serif,DejaVu Serif,0.00134,0.008,0.992,744,744,0,,0.00161
+best,spa,multilingual/spa_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,657,657,0,,0.0
+best,uzb,multilingual/uzb_p1_dejavu-serif,DejaVu Serif,0.01017,0.08235,0.91765,688,688,0,"Error opening data file /opt/tessdata/tessdata_best/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.01159
+best,uzb,multilingual/uzb_p2_dejavu-serif,DejaVu Serif,0.00704,0.06186,0.93814,852,852,0,"Error opening data file /opt/tessdata/tessdata_best/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.00794
+best,vie,multilingual/vie_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,664,664,0,,0.0
+best,vie,multilingual/vie_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,707,707,0,,0.0
+fast,ara,multilingual/ara_p1_noto-naskh-arabic,Noto Naskh Arabic,0.01875,0.03704,0.97037,800,792,0,Detected 224 diacritics,0.01952
+fast,ara,multilingual/ara_p2_noto-naskh-arabic,Noto Naskh Arabic,0.03261,0.05128,0.94872,736,716,0,Detected 132 diacritics,0.03548
+fast,chi_sim,multilingual/chi_sim_p1_noto-sans-sc,Noto Sans SC,0.05085,0.66667,0.53333,295,296,0,,0.0427
+fast,chi_sim,multilingual/chi_sim_p2_noto-sans-sc,Noto Sans SC,0.02299,0.5,0.5,348,348,0,Detected 199 diacritics,0.0236
+fast,deu,multilingual/deu_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,823,823,0,,0.0
+fast,deu,multilingual/deu_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,751,751,0,,0.0
+fast,eng,multilingual/eng_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,736,736,0,,0.0
+fast,eng,multilingual/eng_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,710,710,0,,0.0
+fast,fra,multilingual/fra_p1_dejavu-serif,DejaVu Serif,0.00123,0.00725,0.99275,815,815,0,,0.00147
+fast,fra,multilingual/fra_p2_dejavu-serif,DejaVu Serif,0.00588,0.03738,0.96262,680,680,0,,0.00697
+fast,hin,multilingual/hin_p1_noto-sans-devanagari,Noto Sans Devanagari,0.00607,0.01613,0.98387,659,662,0,,0.00746
+fast,hin,multilingual/hin_p2_noto-sans-devanagari,Noto Sans Devanagari,0.00702,0.02362,0.97638,712,714,0,,0.00853
+fast,ita,multilingual/ita_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,715,715,0,,0.0
+fast,ita,multilingual/ita_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,829,829,0,,0.0
+fast,jpn,multilingual/jpn_p1_ipagothic,IPAGothic,0.11705,1.0,0.4,393,372,0,Detected 201 diacritics,0.09499
+fast,jpn,multilingual/jpn_p2_ipagothic,IPAGothic,0.14384,0.3,0.7,292,251,0,Detected 176 diacritics,0.14488
+fast,kor,multilingual/kor_p1_noto-sans-kr,Noto Sans KR,0.04828,0.16438,0.84932,290,285,0,,0.0367
+fast,kor,multilingual/kor_p2_noto-sans-kr,Noto Sans KR,0.21242,0.25,0.75,499,396,0,,0.21094
+fast,por,multilingual/por_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,774,774,0,,0.0
+fast,por,multilingual/por_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,652,652,0,,0.0
+fast,rus,multilingual/rus_p1_dejavu-serif,DejaVu Serif,0.00354,0.00826,0.99174,848,848,0,,0.00412
+fast,rus,multilingual/rus_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,714,714,0,,0.0
+fast,spa,multilingual/spa_p1_dejavu-serif,DejaVu Serif,0.00134,0.008,0.992,744,743,0,,0.00161
+fast,spa,multilingual/spa_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,657,657,0,,0.0
+fast,uzb,multilingual/uzb_p1_dejavu-serif,DejaVu Serif,0.01017,0.08235,0.91765,688,688,0,"Error opening data file /opt/tessdata/tessdata_fast/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.01159
+fast,uzb,multilingual/uzb_p2_dejavu-serif,DejaVu Serif,0.00587,0.05155,0.94845,852,852,0,"Error opening data file /opt/tessdata/tessdata_fast/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.00661
+fast,vie,multilingual/vie_p1_dejavu-serif,DejaVu Serif,0.00151,0.00685,0.99315,664,663,0,,0.00193
+fast,vie,multilingual/vie_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,707,707,0,,0.0
+standard,ara,multilingual/ara_p1_noto-naskh-arabic,Noto Naskh Arabic,0.02125,0.05185,0.95556,800,790,0,Detected 224 diacritics,0.02252
+standard,ara,multilingual/ara_p2_noto-naskh-arabic,Noto Naskh Arabic,0.03261,0.05128,0.94872,736,716,0,Detected 132 diacritics,0.03548
+standard,chi_sim,multilingual/chi_sim_p1_noto-sans-sc,Noto Sans SC,0.88814,17.46667,0.33333,295,546,0,,0.03559
+standard,chi_sim,multilingual/chi_sim_p2_noto-sans-sc,Noto Sans SC,0.94828,33.9,0.0,348,677,0,,0.00295
+standard,deu,multilingual/deu_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,823,823,0,,0.0
+standard,deu,multilingual/deu_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,751,751,0,,0.0
+standard,eng,multilingual/eng_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,736,736,0,,0.0
+standard,eng,multilingual/eng_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,710,710,0,,0.0
+standard,fra,multilingual/fra_p1_dejavu-serif,DejaVu Serif,0.00491,0.02899,0.97101,815,815,0,,0.0059
+standard,fra,multilingual/fra_p2_dejavu-serif,DejaVu Serif,0.00294,0.01869,0.98131,680,680,0,,0.00348
+standard,hin,multilingual/hin_p1_noto-sans-devanagari,Noto Sans Devanagari,0.00455,0.01613,0.98387,659,660,0,,0.0056
+standard,hin,multilingual/hin_p2_noto-sans-devanagari,Noto Sans Devanagari,0.00843,0.03937,0.9685,712,715,0,,0.00853
+standard,ita,multilingual/ita_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,715,715,0,,0.0
+standard,ita,multilingual/ita_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,829,829,0,,0.0
+standard,jpn,multilingual/jpn_p1_ipagothic,IPAGothic,0.92621,24.6,0.0,393,747,0,,0.02639
+standard,jpn,multilingual/jpn_p2_ipagothic,IPAGothic,0.93836,28.3,0.0,292,565,0,,0.00353
+standard,kor,multilingual/kor_p1_noto-sans-kr,Noto Sans KR,0.61724,2.16438,0.35616,290,413,0,"Error opening data file /opt/tessdata/tessdata/chi_tra.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_tra' | Detected 43 diacritics",0.33028
+standard,kor,multilingual/kor_p2_noto-sans-kr,Noto Sans KR,0.44289,1.86207,0.37931,499,612,0,"Error opening data file /opt/tessdata/tessdata/chi_tra.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_tra' | Detected 111 diacritics",0.20573
+standard,por,multilingual/por_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,774,774,0,,0.0
+standard,por,multilingual/por_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,652,652,0,,0.0
+standard,rus,multilingual/rus_p1_dejavu-serif,DejaVu Serif,0.00354,0.00826,0.99174,848,846,0,,0.00412
+standard,rus,multilingual/rus_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,714,714,0,,0.0
+standard,spa,multilingual/spa_p1_dejavu-serif,DejaVu Serif,0.00134,0.008,0.992,744,744,0,,0.00161
+standard,spa,multilingual/spa_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,657,657,0,,0.0
+standard,uzb,multilingual/uzb_p1_dejavu-serif,DejaVu Serif,0.01017,0.08235,0.91765,688,688,0,"Error opening data file /opt/tessdata/tessdata/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.01159
+standard,uzb,multilingual/uzb_p2_dejavu-serif,DejaVu Serif,0.00587,0.05155,0.94845,852,852,0,"Error opening data file /opt/tessdata/tessdata/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.00661
+standard,vie,multilingual/vie_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,664,664,0,,0.0
+standard,vie,multilingual/vie_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,707,707,0,,0.0
+standard+pis1,ara,multilingual/ara_p1_noto-naskh-arabic,Noto Naskh Arabic,0.035,0.20741,0.8,800,779,0,Detected 224 diacritics,0.02252
+standard+pis1,ara,multilingual/ara_p2_noto-naskh-arabic,Noto Naskh Arabic,0.04755,0.23077,0.76923,736,705,0,Detected 132 diacritics,0.03548
+standard+pis1,chi_sim,multilingual/chi_sim_p1_noto-sans-sc,Noto Sans SC,0.04068,0.46667,0.66667,295,296,0,,0.03559
+standard+pis1,chi_sim,multilingual/chi_sim_p2_noto-sans-sc,Noto Sans SC,0.00287,0.1,0.9,348,348,0,,0.00295
+standard+pis1,deu,multilingual/deu_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,823,823,0,,0.0
+standard+pis1,deu,multilingual/deu_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,751,751,0,,0.0
+standard+pis1,eng,multilingual/eng_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,736,736,0,,0.0
+standard+pis1,eng,multilingual/eng_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,710,710,0,,0.0
+standard+pis1,fra,multilingual/fra_p1_dejavu-serif,DejaVu Serif,0.00491,0.02899,0.97101,815,815,0,,0.0059
+standard+pis1,fra,multilingual/fra_p2_dejavu-serif,DejaVu Serif,0.00294,0.01869,0.98131,680,680,0,,0.00348
+standard+pis1,hin,multilingual/hin_p1_noto-sans-devanagari,Noto Sans Devanagari,0.00455,0.01613,0.98387,659,660,0,,0.0056
+standard+pis1,hin,multilingual/hin_p2_noto-sans-devanagari,Noto Sans Devanagari,0.00843,0.03937,0.9685,712,715,0,,0.00853
+standard+pis1,ita,multilingual/ita_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,715,715,0,,0.0
+standard+pis1,ita,multilingual/ita_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,829,829,0,,0.0
+standard+pis1,jpn,multilingual/jpn_p1_ipagothic,IPAGothic,0.03053,0.26667,0.86667,393,395,0,,0.02639
+standard+pis1,jpn,multilingual/jpn_p2_ipagothic,IPAGothic,0.00342,0.1,0.9,292,292,0,,0.00353
+standard+pis1,kor,multilingual/kor_p1_noto-sans-kr,Noto Sans KR,0.32069,0.50685,0.79452,290,314,0,"Error opening data file /opt/tessdata/tessdata/chi_tra.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_tra' | Detected 43 diacritics",0.33028
+standard+pis1,kor,multilingual/kor_p2_noto-sans-kr,Noto Sans KR,0.19238,0.25862,0.84483,499,470,0,"Error opening data file /opt/tessdata/tessdata/chi_tra.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'chi_tra' | Detected 111 diacritics",0.20573
+standard+pis1,por,multilingual/por_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,774,774,0,,0.0
+standard+pis1,por,multilingual/por_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,652,652,0,,0.0
+standard+pis1,rus,multilingual/rus_p1_dejavu-serif,DejaVu Serif,0.00354,0.00826,0.99174,848,846,0,,0.00412
+standard+pis1,rus,multilingual/rus_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,714,714,0,,0.0
+standard+pis1,spa,multilingual/spa_p1_dejavu-serif,DejaVu Serif,0.00134,0.008,0.992,744,744,0,,0.00161
+standard+pis1,spa,multilingual/spa_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,657,657,0,,0.0
+standard+pis1,uzb,multilingual/uzb_p1_dejavu-serif,DejaVu Serif,0.01017,0.08235,0.91765,688,688,0,"Error opening data file /opt/tessdata/tessdata/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.01159
+standard+pis1,uzb,multilingual/uzb_p2_dejavu-serif,DejaVu Serif,0.00587,0.05155,0.94845,852,852,0,"Error opening data file /opt/tessdata/tessdata/uzb_cyrl.traineddata | Please make sure the TESSDATA_PREFIX environment variable is set to your ""tessdata"" directory. | Failed loading language 'uzb_cyrl'",0.00661
+standard+pis1,vie,multilingual/vie_p1_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,664,664,0,,0.0
+standard+pis1,vie,multilingual/vie_p2_dejavu-serif,DejaVu Serif,0.0,0.0,1.0,707,707,0,,0.0
