@@ -561,17 +561,17 @@ run,id,set,dpi,size_pt,font,font_class,level,base,cer,wer,word_recall_unordered,
 554-standard,clean/austen_courier10_100,clean,100,12,Courier 10 Pitch,mono,none,,0.0,0.0,1.0,1201,1201,0,
 554-standard,clean/austen_courier10_150,clean,150,12,Courier 10 Pitch,mono,none,,0.0,0.0,1.0,1201,1201,0,
 554-standard,clean/austen_courier10_200,clean,200,12,Courier 10 Pitch,mono,none,,0.0,0.0,1.0,1201,1201,0,
-554-standard,clean/austen_courier10_300,clean,300,12,Courier 10 Pitch,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_courier10_300.png: No such file or directory | Error during processing."
-554-standard,clean/austen_courier10_400,clean,400,12,Courier 10 Pitch,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_courier10_400.png: No such file or directory | Error during processing."
-554-standard,clean/austen_courier10_600,clean,600,12,Courier 10 Pitch,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_courier10_600.png: No such file or directory | Error during processing."
-554-standard,clean/austen_courier10_70,clean,70,12,Courier 10 Pitch,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_courier10_70.png: No such file or directory | Error during processing."
-554-standard,clean/austen_dejavu-mono_100,clean,100,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_100.png: No such file or directory | Error during processing."
-554-standard,clean/austen_dejavu-mono_150,clean,150,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_150.png: No such file or directory | Error during processing."
-554-standard,clean/austen_dejavu-mono_200,clean,200,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_200.png: No such file or directory | Error during processing."
-554-standard,clean/austen_dejavu-mono_300,clean,300,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_300.png: No such file or directory | Error during processing."
-554-standard,clean/austen_dejavu-mono_400,clean,400,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_400.png: No such file or directory | Error during processing."
+554-standard,clean/austen_courier10_300,clean,300,12,Courier 10 Pitch,mono,none,,0.0,0.0,1.0,1201,1201,0,
+554-standard,clean/austen_courier10_400,clean,400,12,Courier 10 Pitch,mono,none,,0.0,0.0,1.0,1201,1201,0,
+554-standard,clean/austen_courier10_600,clean,600,12,Courier 10 Pitch,mono,none,,0.00083,0.00429,0.99571,1201,1201,0,
+554-standard,clean/austen_courier10_70,clean,70,12,Courier 10 Pitch,mono,none,,0.00749,0.03863,0.96137,1201,1201,0,Estimating resolution as 110
+554-standard,clean/austen_dejavu-mono_100,clean,100,12,DejaVu Sans Mono,mono,none,,0.00083,0.00429,0.99571,1201,1201,0,
+554-standard,clean/austen_dejavu-mono_150,clean,150,12,DejaVu Sans Mono,mono,none,,0.0,0.0,1.0,1201,1201,0,
+554-standard,clean/austen_dejavu-mono_200,clean,200,12,DejaVu Sans Mono,mono,none,,0.0,0.0,1.0,1201,1201,0,
+554-standard,clean/austen_dejavu-mono_300,clean,300,12,DejaVu Sans Mono,mono,none,,0.0,0.0,1.0,1201,1201,0,
+554-standard,clean/austen_dejavu-mono_400,clean,400,12,DejaVu Sans Mono,mono,none,,0.0,0.0,1.0,1201,1201,0,
 554-standard,clean/austen_dejavu-mono_600,clean,600,12,DejaVu Sans Mono,mono,none,,0.00583,0.03004,0.96996,1201,1202,0,
-554-standard,clean/austen_dejavu-mono_70,clean,70,12,DejaVu Sans Mono,mono,none,,1.0,1.0,0.0,1201,0,1,"Error, cannot read input file /home/user/test/corpus/clean/austen_dejavu-mono_70.png: No such file or directory | Error during processing."
+554-standard,clean/austen_dejavu-mono_70,clean,70,12,DejaVu Sans Mono,mono,none,,0.00749,0.03863,0.96137,1201,1197,0,Estimating resolution as 123
 554-standard,clean/austen_dejavu-mono_8pt_100,clean,100,8,DejaVu Sans Mono,mono,none,,0.01332,0.06438,0.93562,1201,1196,0,
 554-standard,clean/austen_dejavu-mono_8pt_150,clean,150,8,DejaVu Sans Mono,mono,none,,0.00083,0.00429,0.99571,1201,1201,0,
 554-standard,clean/austen_dejavu-mono_8pt_200,clean,200,8,DejaVu Sans Mono,mono,none,,0.0,0.0,1.0,1201,1201,0,
