@@ -1,0 +1,32 @@
+[
+  {
+    "src": "tools/images/raw/train/ground-truth-pairs.png",
+    "name": "tesstrain-ground-truth-line-image-gt-txt-pairs",
+    "page": "train",
+    "kind": "result",
+    "keyword": "tesstrain ground truth",
+    "alt": "Three tesstrain ground-truth pairs: an OCR-A text line image above the matching .gt.txt file with the exact text",
+    "caption": "tesstrain reads one image per text line plus a .gt.txt file with the same base name holding the exact transcription. These are synthetic OCR-A lines from our fine-tuning run.",
+    "machine": "GitHub Actions ubuntu-24.04 runner, AMD EPYC 9V74, 4 vCPU",
+    "bar_machine": "GitHub Actions ubuntu-24.04 (AMD EPYC 9V74)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "44264145436",
+    "synthetic": true
+  },
+  {
+    "src": "tools/images/raw/train/heldout-before-after.png",
+    "name": "tesstrain-fine-tuning-ocr-a-before-after-heldout-lines",
+    "page": "train",
+    "kind": "result",
+    "keyword": "tesseract fine-tuning before after",
+    "alt": "Three held-out OCR-A lines: stock eng (best) makes 3 errors in each; the model fine-tuned on 300 lines reads all exactly",
+    "caption": "On lines it never trained on, the fine-tuned model fixes the comma-to-period, I-to-1 and O-to-0 confusions of the stock model. Synthetic OCR-A lines; output from the bench run.",
+    "machine": "GitHub Actions ubuntu-24.04 runner, AMD EPYC 9V74, 4 vCPU",
+    "bar_machine": "GitHub Actions ubuntu-24.04 (AMD EPYC 9V74)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "44264145436",
+    "synthetic": true
+  }
+]
