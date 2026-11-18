@@ -1,0 +1,10 @@
+Store overview November 2026
+Orders Returns Average basket
+1,284 37 S48.60
++6.2% Vs October 2.9% of orders -1.4% Vs October
+Recent orders
+Order Customer Date Status Total
+#10482 Sample Customer A 2026-11-17 Shipped S129.00
+#10481 Sample Customer B 2026-11-17 Processing 554.25
+#10480 Sample Customer € 2026-11-16 Refunded 518.99
+#10479 Sample Customer D 2026-11-16 Shipped 5302.40

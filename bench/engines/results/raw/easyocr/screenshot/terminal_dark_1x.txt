@@ -1,0 +1,10 @@
+$ tesseract version
+tesseract 5.5.4
+leptonica-1=
+5 tesseract page png out eng pSM
+Estimating resolution 300
+WC out txt
+212 out.txt
+$ I5 -1 *.png
+rW-r_r - user user 482113 Nov 18 09:42 page . png
+rw-rr user user 91024 Mov 18 09:44 receipt.png

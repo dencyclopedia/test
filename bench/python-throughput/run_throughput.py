@@ -68,7 +68,9 @@ def main():
 
     def tesserocr_pool(k):
         def f():
-            with get_context("fork").Pool(k, initializer=_init_tesserocr) as pl:
+            # 'spawn', not 'fork': forking after the parent has run tesserocr (libgomp initialised) hung the
+            # first Actions run (fork + OpenMP); see README
+            with get_context("spawn").Pool(k, initializer=_init_tesserocr) as pl:
                 return pl.map(tesserocr_one, imgs)
         return f
 
@@ -102,10 +104,23 @@ def main():
             os.environ.pop("OMP_THREAD_LIMIT", None)
         else:
             os.environ["OMP_THREAD_LIMIT"] = "1"
-        texts = fn()  # warm-up
-        ts = []
-        for _ in range(a.runs):
-            t = time.perf_counter(); fn(); ts.append(time.perf_counter() - t)
+        import signal
+
+        def _alarm(*_):
+            raise TimeoutError("strategy took longer than 900 s")
+        signal.signal(signal.SIGALRM, _alarm)
+        signal.alarm(900 * (a.runs + 1))
+        try:
+            texts = fn()  # warm-up
+            ts = []
+            for _ in range(a.runs):
+                t = time.perf_counter(); fn(); ts.append(time.perf_counter() - t)
+        except TimeoutError as e:
+            rows.append({"strategy": name, "status": "timed out", "error": str(e)})
+            print(json.dumps(rows[-1]), flush=True)
+            continue
+        finally:
+            signal.alarm(0)
         texts = [t for t in texts if t.strip()][:len(base)]
         cer = statistics.mean(metrics.cer(gts[p], t) for p, t in zip(base, texts)) if len(texts) == len(base) else None
         row = {"strategy": name, "omp_thread_limit": "unset" if o.get("unset_omp") else "1", "images": n,

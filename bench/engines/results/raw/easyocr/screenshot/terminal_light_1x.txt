@@ -1,0 +1,10 @@
+tesseract version
+tesseract 5
+leptonica-1.82.0
+tesseract page png out eng psM
+Estimating resolution 300
+out txt
+212 out txt
+$ Ls png
+rw-r--r-- user user 482113 Nov 18 09:42 page . png
+rw-r--r-- user user 91024 Nov 18 09:44 receipt.png

@@ -1,0 +1,26 @@
+{
+ "easyocr": "1.7.2",
+ "gpu": false,
+ "readtext_args": "detail=1, paragraph=False",
+ "langs": {
+  "eng": [
+   "en"
+  ],
+  "ara": [
+   "ar",
+   "en"
+  ],
+  "chi_sim": [
+   "ch_sim",
+   "en"
+  ],
+  "deu": [
+   "de",
+   "en"
+  ],
+  "rus": [
+   "ru",
+   "en"
+  ]
+ }
+}
