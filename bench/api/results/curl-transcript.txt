@@ -1,0 +1,46 @@
+$ curl -sS -i -F "file=@receipt.png" "http://localhost:8000/ocr?lang=eng"
+HTTP/1.1 200 OK
+date: Wed, 18 Nov 2026 13:00:53 GMT
+server: uvicorn
+content-length: 319
+content-type: application/json
+
+{"text":"CORNER MARKET *\n12 Harbour Street\n\nOat milk 1L\nSourdough loaf\nFree-range eggs x6\nBananas 1.2kg :\nDark chocolate 85%\nCoffee beans 250g\n\nSUBTOTAL\nVAT 5%\nTOTAL\n\nCARD ****4821 APPROVED\nThank you for shopping!\n\nO29NFN WN\n\n19.\n+97\n20.\n\n+49\n.80\n-95\n-38\n+20\n-50\n\n32\n\n29\n","lang":"eng"}
+
+$ curl -sS -i -F "file=@receipt.png" "http://localhost:8000/ocr?lang=fra"
+HTTP/1.1 400 Bad Request
+date: Wed, 18 Nov 2026 13:00:53 GMT
+server: uvicorn
+content-length: 33
+content-type: application/json
+
+{"detail":"Unsupported language"}
+
+$ curl -sS -i http://localhost:8000/health
+HTTP/1.1 200 OK
+date: Wed, 18 Nov 2026 13:00:53 GMT
+server: uvicorn
+content-length: 15
+content-type: application/json
+
+{"status":"ok"}
+
+$ curl -sS -i -F "file=@big.bin" "http://localhost:8000/ocr?lang=eng"   # 11 MB file
+HTTP/1.1 100 Continue
+
+HTTP/1.1 413 Request Entity Too Large
+date: Wed, 18 Nov 2026 13:00:53 GMT
+server: uvicorn
+content-length: 27
+content-type: application/json
+
+{"detail":"File too large"}
+
+$ curl -sS -i -F "file=@bad.png" "http://localhost:8000/ocr?lang=eng"
+HTTP/1.1 500 Internal Server Error
+date: Wed, 18 Nov 2026 13:00:53 GMT
+server: uvicorn
+content-length: 21
+content-type: text/plain; charset=utf-8
+
+Internal Server Error
