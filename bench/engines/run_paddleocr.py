@@ -5,7 +5,7 @@ Default pipeline models for each language; document orientation / unwarping / te
 (plain OCR, comparable with Tesseract PSM 3). enable_mkldnn=False: with paddlepaddle 3.3.1 the oneDNN path
 fails with "ConvertPirAttribute2RuntimeAttribute not support" on this CPU (see README).
 Writes results/raw/paddleocr/<id>.txt and results/paddleocr_info.json."""
-import json, sys
+import json, os, sys
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
@@ -19,10 +19,15 @@ pipes, info = {}, {"paddleocr": paddleocr.__version__, "paddlepaddle": paddle.__
 for kind, e in subset():
     if (OUT / (e["id"] + ".txt")).exists() and "--resume" in sys.argv:
         continue
+    if e["lang"] in os.environ.get("SKIP_LANGS", "").split(","):
+        continue
     lang = PADDLE_LANG[e["lang"]]
     if lang not in pipes:
+        pipes.clear()  # one pipeline in memory at a time (several at once ran out of RAM)
         pipes[lang] = PaddleOCR(lang=lang, use_doc_orientation_classify=False, use_doc_unwarping=False,
-                                use_textline_orientation=False, enable_mkldnn=False)
+                                use_textline_orientation=False, enable_mkldnn=False,
+                                **({"text_det_limit_type": "max", "text_det_limit_side_len": int(os.environ["DET_MAX_SIDE"])}
+                                   if os.environ.get("DET_MAX_SIDE") else {}))
     items = []
     for r in pipes[lang].predict(str(CORPUS / e["image"])):
         info["models"][e["lang"]] = [r.get("model_settings", {}) and str(r["model_settings"])]

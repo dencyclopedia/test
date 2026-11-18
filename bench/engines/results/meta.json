@@ -1,0 +1,50 @@
+{
+ "date_utc": "2026-11-18T13:03:25Z",
+ "machine": "development container (accuracy only; timings from this machine are not published)",
+ "os": "Linux-6.18.44-fc-v595-x86_64-with-glibc2.39",
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz",
+ "cores": 4,
+ "python": "3.13.18",
+ "tesseract_binaries": {
+  "5.5.4": {
+   "path": "/opt/tess554/bin/tesseract",
+   "version": [
+    "tesseract 5.5.4",
+    " leptonica-1.82.0"
+   ]
+  },
+  "5.3.4": {
+   "path": "/usr/bin/tesseract",
+   "version": [
+    "tesseract 5.3.4",
+    " leptonica-1.82.0"
+   ]
+  }
+ },
+ "models": {
+  "fast": {
+   "path": "/opt/tessdata/tessdata_fast",
+   "commit": "87416418657359cb625c412a48b6e1d6d41c29bd"
+  },
+  "standard": {
+   "path": "/opt/tessdata/tessdata",
+   "commit": "ced78752cc61322fb554c280d13360b35b8684e4"
+  },
+  "best": {
+   "path": "/opt/tessdata/tessdata_best",
+   "commit": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  }
+ },
+ "repo_git_sha": "b06387163987d641e5f0b56e78ff70d943ffcacc",
+ "corpus_manifest": "corpus/manifest.json",
+ "env": {
+  "OMP_THREAD_LIMIT": "1"
+ },
+ "metrics": "tools/metrics.py (CER/WER after NFC + whitespace collapse; case and punctuation kept)",
+ "commands": {
+  "tesseract": "/opt/tess554/bin/tesseract <image> stdout --tessdata-dir /opt/tessdata/tessdata -l <lang> --oem 1 --psm 3",
+  "easyocr": "bench/engines/run_easyocr.py",
+  "paddleocr": "bench/engines/run_paddleocr.py"
+ },
+ "images": 56
+}

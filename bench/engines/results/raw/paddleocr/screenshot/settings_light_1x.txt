@@ -1,0 +1,12 @@
+Acme Notes
+General Notification settings
+Notifications Choose how and when you want to be notified.
+Account Email digest
+Privacy A summary of activity, sent every Monday at 9:00. On
+Billing Mentions
+Notify me when someone mentions me in a note. On
+Shared folders
+Notify me when a shared folder changes. Off
+Quiet hours
+From 22:00 to 07:30 in your local time zone. Edit
+Save changes Cancel

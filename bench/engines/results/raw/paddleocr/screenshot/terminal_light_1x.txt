@@ -1,0 +1,10 @@
+$ tesseract --version
+tesseract 5.5.4
+leptonica-1.82.0
+$ tesseract page.png out -l eng --psm 3
+Estimating resolution as 300
+$ wc -w out.txt
+212 out.txt
+$ ls -l *.png
+-rw-r--r-- 1 user user 482113 Nov 18 09:42 page.png
+-rw-r--r-- 1 user user 91024 Nov 18 09:44 receipt.png

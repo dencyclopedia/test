@@ -1,0 +1,6 @@
+[32mCreating model: ('PP-OCRv5_server_det', None, None)[0m
+[32mCreating model: ('PP-OCRv6_medium_det', None, None)[0m
+[32mCreating model: ('PP-OCRv6_medium_rec', None, None)[0m
+[32mCreating model: ('arabic_PP-OCRv5_mobile_rec', None, None)[0m
+[32mCreating model: ('eslav_PP-OCRv5_mobile_rec', None, None)[0m
+    ResourceExhaustedError: Fail to alloc memory of 20384317440 size, error code is 12.
