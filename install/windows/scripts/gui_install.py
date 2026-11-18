@@ -104,16 +104,24 @@ for step in range(30):
             log(f'expanded {label!r}: {len(it.children())} children')
             shot(name('components-' + slugify(label.split('(')[0])), w.handle)
             if mode == 'all':
-                before = space_text(); st0 = (it.state() >> 12) & 0xF
-                it.ensure_visible(); r = it.rectangle(text_area_only=True)
-                # real mouse click on the checkbox (state icon), which sits just left of the label
-                tree.click_input(coords=(r.left - 9, (r.top + r.bottom) // 2)); time.sleep(0.8)
-                st1 = (it.state() >> 12) & 0xF
-                if st1 == st0:
-                    log('mouse click did not change the state image; trying the space key')
-                    it.select(); tree.set_focus(); tree.type_keys('{SPACE}'); time.sleep(0.8); st1 = (it.state() >> 12) & 0xF
+                before = space_text()
+                def st():
+                    try: return (it.state() >> 12) & 0xF
+                    except Exception as e: return f'n/a ({type(e).__name__})'
+                st0 = st()
+                # NSIS toggles the selected component on the space key
+                it.select(); tree.set_focus(); tree.type_keys('{SPACE}'); time.sleep(0.8)
+                st1 = st()
+                log(f'space key on {label!r}: state image {st0} -> {st1}')
+                if st1 == st0 and isinstance(st0, int):
+                    try:
+                        r = it.client_rect(text_area_only=True)
+                        tree.click_input(coords=(r.left - 9, (r.top + r.bottom) // 2)); time.sleep(0.8)
+                        log('mouse click on checkbox: state image ->', st())
+                    except Exception as e:
+                        log('mouse click fallback failed', repr(e))
                 after = space_text()
-                log(f'ticked {label!r}: state image {st0} -> {st1}; space {before!r} -> {after!r}')
+                log(f'ticked {label!r}: space {before!r} -> {after!r}')
                 shot(name('components-' + slugify(label.split('(')[0]) + '-ticked'), w.handle)
             it.collapse()
         result['space_required_selected'] = space_text()

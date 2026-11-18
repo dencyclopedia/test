@@ -6,7 +6,7 @@ function L($x) { $s = ($x | Out-String).TrimEnd(); Write-Host $s; Add-Content -P
 function Run($label, [scriptblock]$sb) {
   L "`n### $label"; L "PS> $($sb.ToString().Trim())"
   $sw = [Diagnostics.Stopwatch]::StartNew()
-  $o = & $sb 2>&1 | Out-String
+  $o = (& $sb 2>&1 | Out-String) -replace "`0", ''
   $sw.Stop(); L $o.TrimEnd(); L "[exit $LASTEXITCODE, $([math]::Round($sw.Elapsed.TotalSeconds,1)) s]"
   return [math]::Round($sw.Elapsed.TotalSeconds,1)
 }
@@ -16,7 +16,7 @@ function FreshCheck($label) {
   $p = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')
   $td = [Environment]::GetEnvironmentVariable('TESSDATA_PREFIX','User'); if (-not $td) { $td = [Environment]::GetEnvironmentVariable('TESSDATA_PREFIX','Machine') }
   $env:FRESHPATH = $p; $env:FRESHTD = $td
-  $o = cmd /d /c 'set "PATH=%FRESHPATH%"& (if defined FRESHTD set "TESSDATA_PREFIX=%FRESHTD%")& echo C:\^> where tesseract& where tesseract& echo C:\^> tesseract --version& tesseract --version' 2>&1 | Out-String
+  $o = cmd /d /c 'set "PATH=%FRESHPATH%"& (if defined FRESHTD set "TESSDATA_PREFIX=%FRESHTD%")& echo ^> where tesseract& where tesseract& echo ^> tesseract --version& tesseract --version' 2>&1 | Out-String
   L $o.TrimEnd()
 }
 $res = [ordered]@{ pm = $pm }
@@ -88,6 +88,10 @@ if ($pm -eq 'winget') {
   # WSL2 on the runner (nested virtualisation is not available on GitHub-hosted runners; record what happens)
   Run "wsl --status" { wsl.exe --status } | Out-Null
   Run "wsl --list --verbose" { wsl.exe --list --verbose } | Out-Null
+  # try to actually install a distro (needs nested virtualisation for WSL2); 10 min cap
+  $j = Start-Job { wsl.exe --install -d Ubuntu-24.04 --no-launch 2>&1 | Out-String }
+  if (Wait-Job $j -Timeout 600) { L "### wsl --install -d Ubuntu-24.04 --no-launch`n$((Receive-Job $j) -replace "`0", '')" } else { L "### wsl --install: still running after 600 s, stopped"; Stop-Job $j }
+  Run "wsl -d Ubuntu-24.04 -u root -- uname -a" { wsl.exe -d Ubuntu-24.04 -u root -- uname -a } | Out-Null
 }
 $res | ConvertTo-Json -Depth 4 | Set-Content (Join-Path $out "result.json")
 L ($res | ConvertTo-Json -Depth 4)

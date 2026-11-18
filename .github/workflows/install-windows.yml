@@ -1,7 +1,7 @@
 name: install-windows
 # Windows install captures on windows-latest (Windows Server 2025 Datacenter, build 26100):
 # UB Mannheim installer GUI walkthrough (default components / all languages), PATH problem + fix,
-# real error messages, and winget / choco / scoop installs. (rev 3)
+# real error messages, and winget / choco / scoop installs. (rev 4)
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]

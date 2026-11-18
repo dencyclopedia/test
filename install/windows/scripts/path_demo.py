@@ -75,8 +75,20 @@ try:
     ed.type_keys(r'C:\Program Files\Tesseract-OCR', with_spaces=True); ed.type_keys('{ENTER}'); time.sleep(0.6)
     shot('windows-path-06-edit-path-added', h2)
     ed.child_window(title='OK', class_name='Button').click_input(); time.sleep(1.5)
-    if ed.exists() and ed.is_visible():
-        log('edit dialog still open after OK click; pressing Enter'); ed.set_focus(); ed.type_keys('{ENTER}'); time.sleep(1.5)
+    # any message box raised by the dialog (e.g. a length warning) is captured and answered with its default button
+    for k in range(3):
+        extra = [tw for tw in Desktop(backend='win32').windows(process=app.process) if tw.handle not in (h, h2) and tw.is_visible()]
+        if not extra: break
+        for tw in extra:
+            texts = [c.window_text() for c in tw.descendants() if c.window_text().strip()]
+            log(f'message box {tw.window_text()!r}: {texts}')
+            with open(os.path.join(OUT, 'windows-path-06b-message-box.txt'), 'a', encoding='utf-8') as f:
+                f.write(f'{tw.window_text()}\n' + '\n'.join(texts) + '\n\n')
+            shot(f'windows-path-06b-message-box-{k+1}', tw.handle)
+            btns = [b for b in tw.children(class_name='Button') if b.is_visible()]
+            log('message box buttons:', [b.window_text() for b in btns])
+            (btns[0] if btns else tw).click_input() if btns else tw.type_keys('{ENTER}')
+            time.sleep(1.5)
     log('edit dialog closed:', not (ed.exists() and ed.is_visible()))
     dlg.set_focus()
     shot('windows-path-07-environment-variables-after', h)
