@@ -1,0 +1,5 @@
+port before: not installed
+None
+macports pkg for macOS 26: NONE FOUND
+assets: []
+RESULT: no MacPorts installer for this macOS version
