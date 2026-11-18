@@ -1,0 +1,95 @@
+name: install-ubm-research
+# Where does UB Mannheim publish its Windows installers? Records release lists, tags, wiki, the
+# digi.bib.uni-mannheim.de directory, and SHA-256 of the current w64 installers.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['.github/workflows/install-ubm-research.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Query sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          out=out/ub-mannheim; mkdir -p $out; log=$out/log.txt
+          exec > >(tee -a $log) 2>&1
+          date -u +"captured %Y-%m-%dT%H:%M:%SZ"
+          api() { curl -sS -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" "https://api.github.com/$1"; }
+          api "repos/UB-Mannheim/tesseract/releases?per_page=100" > $out/releases.json
+          api "repos/UB-Mannheim/tesseract/releases/latest" > $out/releases-latest.json
+          api "repos/UB-Mannheim/tesseract/tags?per_page=100" > $out/tags.json
+          api "repos/UB-Mannheim/tesseract/releases/tags/v5.5.3.20260724" > $out/release-by-tag-v5.5.3.20260724.json
+          api "repos/UB-Mannheim/tesseract/git/ref/tags/v5.5.3.20260724" > $out/git-ref-v5.5.3.20260724.json
+          api "repos/UB-Mannheim/tesseract/commits?per_page=30" > $out/commits.json
+          echo "== releases (tag, prerelease, draft, published, assets) =="
+          jq -r '.[] | "\(.tag_name)\tpre=\(.prerelease)\tdraft=\(.draft)\t\(.published_at)\t\([.assets[] | "\(.name) (\(.size) B, \(.updated_at))"] | join("; "))"' $out/releases.json
+          echo "== latest =="; jq -r '"\(.tag_name) \(.published_at) " + ([.assets[]|.name]|join(","))' $out/releases-latest.json
+          echo "== tags =="; jq -r '.[] | "\(.name) \(.commit.sha)"' $out/tags.json | head -40
+          echo "== release by tag v5.5.3.20260724 =="; jq -r '.message // ("\(.tag_name) pre=\(.prerelease) " + ([.assets[]|.name]|join(",")))' $out/release-by-tag-v5.5.3.20260724.json
+          echo "== git ref =="; cat $out/git-ref-v5.5.3.20260724.json
+          sha=$(jq -r '.object.sha // empty' $out/git-ref-v5.5.3.20260724.json)
+          [ -n "$sha" ] && api "repos/UB-Mannheim/tesseract/git/tags/$sha" | tee $out/git-tag-object.json
+          [ -n "$sha" ] && api "repos/UB-Mannheim/tesseract/commits/$sha" | jq '{sha, date: .commit.committer.date, msg: .commit.message}'
+          echo "== recent commits =="; jq -r '.[] | "\(.commit.committer.date) \(.sha[0:10]) \(.commit.message | split("\n")[0])"' $out/commits.json
+          echo "== wiki =="
+          curl -sSL https://github.com/UB-Mannheim/tesseract/wiki -o $out/wiki.html; echo "wiki http bytes: $(wc -c < $out/wiki.html)"
+          python3 - "$out/wiki.html" <<'PY' > $out/wiki-links.txt
+          import re,sys,html
+          s=open(sys.argv[1],encoding='utf-8',errors='replace').read()
+          m=re.search(r'<div[^>]*class="[^"]*markdown-body[^"]*"[^>]*>(.*?)</div>\s*</div>',s,re.S)
+          body=m.group(1) if m else s
+          txt=re.sub(r'<[^>]+>',' ',body); txt=html.unescape(re.sub(r'[ \t]+',' ',txt))
+          print("---- text ----"); print(re.sub(r'\n\s*\n+','\n',txt)[:8000])
+          print("---- links ----")
+          for h in sorted(set(re.findall(r'href="([^"]+)"',body))): print(html.unescape(h))
+          PY
+          head -c 12000 $out/wiki-links.txt
+          echo "== wiki git history =="
+          git clone -q https://github.com/UB-Mannheim/tesseract.wiki.git wiki && (cd wiki && git log -5 --format='%ci %h %s' && ls) || echo "wiki clone failed"
+          [ -d wiki ] && cp wiki/Home.md $out/wiki-Home.md
+          echo "== digi.bib.uni-mannheim.de/tesseract/ =="
+          curl -sSL -D $out/digi-headers.txt https://digi.bib.uni-mannheim.de/tesseract/ -o $out/digi.html
+          python3 - $out/digi.html <<'PY' | tee $out/digi-listing.txt
+          import re,sys,html
+          s=open(sys.argv[1],encoding='utf-8',errors='replace').read()
+          for row in re.findall(r'<tr>(.*?)</tr>',s,re.S):
+              t=[html.unescape(re.sub(r'<[^>]+>','',c)).strip() for c in re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)]
+              t=[x for x in t if x]
+              if t: print(" | ".join(t))
+          PY
+          echo "== download + sha256 of current w64/w32 candidates =="
+          mkdir -p dl
+          # every w64/w32 setup asset of the newest 3 GitHub releases (incl. pre-releases) + the newest on digi.bib
+          jq -r '[.[] | select(.draft==false)][0:3][] | .assets[] | select(.name|test("setup.*\\.exe$")) | .browser_download_url' $out/releases.json > urls.txt
+          newest_digi=$(grep -oE 'tesseract-ocr-w64-setup-[^ |]+\.exe' $out/digi-listing.txt | sort -V | tail -1)
+          echo "https://digi.bib.uni-mannheim.de/tesseract/$newest_digi" >> urls.txt
+          cat urls.txt
+          echo -e "file\tbytes\tsha256\tsource_url" > $out/installers-sha256.tsv
+          while read u; do f=dl/$(basename "$u"); curl -sSL -o "$f" "$u" && echo -e "$(basename $f)\t$(stat -c %s $f)\t$(sha256sum $f|cut -d' ' -f1)\t$u" >> $out/installers-sha256.tsv; done < urls.txt
+          cat $out/installers-sha256.tsv
+          echo "== Authenticode / version info of downloads =="
+          sudo apt-get install -y -qq osslsigncode >/dev/null 2>&1 || true
+          for f in dl/*.exe; do echo "--- $f"; osslsigncode verify -in "$f" 2>&1 | grep -E 'Signer|Subject|Issuer|Signature verification|No signature' | head -8; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: ub-mannheim, path: out/ub-mannheim }
+  collect:
+    needs: [research]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: ub-mannheim, path: install/windows/ub-mannheim }
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" > install/windows/ub-mannheim/RUN.txt
+          git add install/windows/ub-mannheim
+          git commit -q -m "UB Mannheim installer research capture (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
