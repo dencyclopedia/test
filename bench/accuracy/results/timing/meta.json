@@ -1,0 +1,48 @@
+{
+ "date_utc": "2026-11-18T07:33:23Z",
+ "machine": "GitHub Actions runner (ubuntu24, image 20261111.127.1, run 44258805184)",
+ "os": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+ "cpu": "Intel(R) Xeon(R) 6975P-C",
+ "cores": 4,
+ "python": "3.12.3",
+ "tesseract_binaries": {
+  "5.5.4": {
+   "path": "/opt/tess554/bin/tesseract",
+   "version": [
+    "tesseract 5.5.4",
+    " leptonica-1.82.0"
+   ]
+  },
+  "5.3.4": {
+   "path": "/usr/bin/tesseract",
+   "version": null
+  }
+ },
+ "models": {
+  "fast": {
+   "path": "/opt/tessdata/tessdata_fast",
+   "commit": "87416418657359cb625c412a48b6e1d6d41c29bd"
+  },
+  "standard": {
+   "path": "/opt/tessdata/tessdata",
+   "commit": "ced78752cc61322fb554c280d13360b35b8684e4"
+  },
+  "best": {
+   "path": "/opt/tessdata/tessdata_best",
+   "commit": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  }
+ },
+ "repo_git_sha": "217b6a521ce05a229b8659b516dbddba44903f03",
+ "corpus_manifest": "corpus/manifest.json",
+ "env": {
+  "OMP_THREAD_LIMIT": "1"
+ },
+ "metrics": "tools/metrics.py (CER/WER after NFC + whitespace collapse; case and punctuation kept)",
+ "commands": {
+  "timing": "/opt/tess554/bin/tesseract <image> stdout --tessdata-dir <model> -l eng --oem 1 --psm 3"
+ },
+ "runs_per_image": 5,
+ "warmup_runs": 1,
+ "timer": "time.perf_counter around the full CLI call",
+ "cpu_lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Xeon(R) 6975P-C\nCPU family:                              6\nModel:                                   173\nThread(s) per core:                      2\nCore(s) per socket:                      2\nSocket(s):                               1\nStepping:                                1\nBogoMIPS:                                5400.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq monitor vmx ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 wbnoinvd ida arat vnmi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq rdpid bus_lock_detect cldemote movdiri movdir64b md_clear serialize amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\nVirtualization:                          VT-x\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               96 KiB (2 instances)\nL1i cache:                               128 KiB (2 instances)\nL2 cache:                                4 MiB (2 instances)\nL3 cache:                                480 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n"
+}
