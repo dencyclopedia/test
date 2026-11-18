@@ -70,12 +70,28 @@ if os.path.exists(P('windows', 'gui-default', 'result.json')):
 for d in sorted(os.listdir(P('macos'))):
     if not d.startswith('brew-') or not os.path.exists(P('macos', d, 'log.txt')):
         continue
+    if d.endswith('-full'):
+        log = rd('macos', d, 'log.txt')
+        m = re.search(r'brew install tesseract exit=(\d+) seconds=(\d+)', log)
+        ver = re.search(r'^tesseract ([\d.]+)', log, re.M); sz = re.search(r'^\s*(\S+)\s+/usr/local/Cellar/tesseract', log, re.M)
+        nb = re.search(r'formulae built from source: (\d+)\s+poured from bottles: (\d+)', log)
+        osl = re.search(r'ProductVersion:\s*(\S+)', log)
+        if m:
+            rows.append(['Homebrew `brew install tesseract` (macos-15-intel, run to completion)', f"macOS {osl.group(1) if osl else '?'} x86_64", ver.group(1) if ver else 'n/c',
+                         f"{m.group(2)} (exit {m.group(1)})", 'n/c', (sz.group(1) + 'B (Cellar)') if sz else 'n/c', 'no', 'yes (/usr/local/bin)',
+                         f"{nb.group(1)} formulae built from source, {nb.group(2)} poured from bottles" if nb else '', f'macos/{d}/log.txt'])
+        continue
     meta = js('macos', d, 'meta.json'); log = rd('macos', d, 'log.txt')
     t1 = re.search(r'([\d.]+) total', rd('macos', d, 'macos-terminal-01-brew-install-tesseract.log'))
     ver = re.search(r'^tesseract ([\d.]+)', rd('macos', d, 'macos-terminal-02-version.log'), re.M)
     size = re.search(r'^\s*(\S+)\s+/opt/homebrew/Cellar/tesseract$|^\s*(\S+)\s+/usr/local/Cellar/tesseract$', log, re.M)
     deps = re.search(r'deps already installed on the runner: (\d+)', log); depn = re.search(r'\(recursive\) count: (\d+)', log)
     mos = f"{meta['os']} {meta['arch']}"
+    to = re.search(r'macos-terminal-01-brew-install-tesseract: finished=NO-timeout wall_seconds=(\d+)', log)
+    if to:
+        rows.append([f"Homebrew `brew install tesseract` ({d[5:]}, Terminal capture)", mos, 'not installed', f"> {to.group(1)} (still compiling from source when the capture stopped)", 'n/c', 'n/c', 'no', 'n/a',
+                     f"{re.search(r'count: (\d+)', log).group(1)} recursive deps; brew update took {re.search(r'brew update seconds: (\d+)', log).group(1)} s", f'macos/{d}/log.txt, macos/{d}/macos-terminal-01-brew-install-tesseract.png'])
+        continue
     rows.append([f"Homebrew `brew install tesseract` ({d[5:]})", mos, ver.group(1) if ver else 'n/c', t1.group(1) if t1 else 'n/c', 'n/c',
                  (size.group(1) or size.group(2)) + 'B (Cellar, `du -sh`)' if size else 'n/c', 'no', 'yes (brew bin already on PATH)',
                  f"{depn.group(1)} recursive deps, {deps.group(1)} already on the runner image; `brew update` excluded" if deps else '', f'macos/{d}/log.txt, macos/{d}/macos-terminal-01-brew-install-tesseract.log'])
