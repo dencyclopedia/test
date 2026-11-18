@@ -43,9 +43,17 @@
  "metrics": "tools/metrics.py (CER/WER after NFC + whitespace collapse; case and punctuation kept)",
  "commands": {
   "browser": "node bench/ocr-online/results-2026-11-18-rtl-fix/run.js (see browser_runs.json)",
-  "native": "/opt/tess554/bin/tesseract <image> stdout --tessdata-dir /opt/tessdata/tessdata -l <lang> --oem 1 --psm 3  (and tessdata_best)"
+  "native": "/opt/tess554/bin/tesseract <image> stdout --tessdata-dir /opt/tessdata/tessdata -l <lang> --oem 1 --psm 3  (and tessdata_best)",
+  "before_after": "python3 bench/ocr-online/results-2026-11-18-rtl-fix/compare.py",
+  "privacy": "node bench/ocr-online/results-2026-11-18-rtl-fix/privacy_network.js",
+  "arabic_lines": "node bench/ocr-online/results-2026-11-18-rtl-fix/ara_lines.js"
  },
  "tesseract_js": "5.1.1 (tesseract.js-core v5.1.1, simd-lstm build)",
  "tesseract_js_core_embedded_version_string": "5.1.0-280-ge20b (found in the wasm binary of https://cdn.jsdelivr.net/npm/tesseract.js-core@v5.1.1/tesseract-core-simd-lstm.wasm.js, sha256 ce20eda9533cbed1e6c2b4276fbae1e0adc61b6754b5513084be601787b457cf)",
- "browser_models": "@tesseract.js-data/<lang>/4.0.0_best_int (jsdelivr)"
+ "browser_models": "@tesseract.js-data/<lang>/4.0.0_best_int (jsdelivr)",
+ "purpose": "Re-run of the browser tool after the RTL fix in the site file assets/ocr-tool.js (preserve_interword_spaces off for RTL languages; line junk filter judged by mean word confidence instead of Tesseract line confidence).",
+ "tool_file_sha256": "53edadbecb9d21808b1583a820ad2490341c0561cfad97e049b8933d1b608096",
+ "chromium": "157.0.8103.78 (headless, Playwright 1.63.0)",
+ "wall_times": "wall_ms_dev_container in browser_runs.json: click on Extract text to result, incl. engine start and IndexedDB-cached model load, shared 4-core development container; indicative only",
+ "tesseract_js_upgrade_considered": "tesseract.js 7.0.0 is the latest on npm (core 6.1.2 / 7.0.0); not adopted: two major versions, shared by 10 locale pages, would need a full re-run"
 }

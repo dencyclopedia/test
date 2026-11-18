@@ -71,6 +71,9 @@ Raw outputs: `results/raw/browser/`, `results/raw/native-5.5.4-standard/`, `resu
   complete but in a different order from the page's reading order; CER punishes that.
 - The simulated phone photo of a receipt was the hardest image: 26.56% CER in the browser, 20.09% native.
 
+## Re-run after the RTL fix
+See `results-2026-11-18-rtl-fix/`: the tool now gives 1.25% CER on the Arabic page (was 16.00%); the other 15 images are unchanged.
+
 ## Limits
 - 16 images, one run each, all synthetic (see `corpus/manifest.json`); not a ranking of browser vs native in general.
 - Results depend on the CDN versions the page pins (tesseract.js 5.1.1, `4.0.0_best_int` models) at the time of the run.
