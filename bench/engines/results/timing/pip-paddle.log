@@ -1,0 +1,5 @@
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: python3 -m pip install --upgrade pip
+PP-OCRv6_medium_det
+PP-OCRv6_medium_rec

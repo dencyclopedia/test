@@ -1,0 +1,10 @@
+item,bytes,note
+tesseract-5.5.4-install,265620763,/opt/tess554 built from source (bin+lib+include)
+tesseract-model-eng-tessdata_fast,4113088,eng.traineddata
+tesseract-model-eng-tessdata,23466654,eng.traineddata
+tesseract-model-eng-tessdata_best,15400601,eng.traineddata
+easyocr-default-pip-download,3151370266,all wheels 'pip download easyocr' fetches (CUDA torch on Linux)
+easyocr-cpu-site-packages,1404768144,site-packages growth: torch+torchvision CPU wheels then easyocr
+easyocr-models-en,98296327,~/.EasyOCR/model after Reader(['en']) (detector + english recogniser)
+paddleocr-site-packages,1329355611,site-packages growth: paddlepaddle (CPU) + paddleocr
+paddleocr-models-en,139163791,~/.paddlex/official_models after PaddleOCR(lang='en') default det+rec
