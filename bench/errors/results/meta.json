@@ -1,0 +1,22 @@
+{
+  "date_utc": "2026-11-18T08:08:59+00:00",
+  "runner": "dev-container (timings not publishable)",
+  "runner_image": " ",
+  "os": "Ubuntu 24.04.5 LTS",
+  "kernel": "6.18.44-fc-v595",
+  "cpu_model": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "cpu_cores_logical": 4,
+  "mem_total": "15Gi",
+  "engine": "tesseract 5.5.4 |  leptonica-1.82.0",
+  "engine_path": "/opt/tess554/bin/tesseract",
+  "models": {
+    "tessdata_fast": "87416418657359cb625c412a48b6e1d6d41c29bd",
+    "tessdata": "ced78752cc61322fb554c280d13360b35b8684e4",
+    "tessdata_best": "e12c65a915945e4c28e237a9b52bc4a8f39a0cec"
+  },
+  "git_sha": "3b2f5f4bd689b63b2c213e4f5ee60b959155c297",
+  "run_url": null,
+  "python": "3.13.18",
+  "where": "dev container: errors are deterministic text, no timings",
+  "tesseract_apt": "/usr/bin/tesseract 5.3.4 (Ubuntu 24.04 package) for the *-apt-534 entries"
+}

@@ -1,0 +1,40 @@
+$ /tmp/venv-pdf/bin/python -c 'from pdf2image import convert_from_path; convert_from_path("line.pdf")'
+# env PATH=/tmp/venv-pdf/bin
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Traceback (most recent call last):
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py", line 581, in pdfinfo_from_path
+    proc = Popen(command, env=env, stdout=PIPE, stderr=PIPE)
+  File "/usr/local/lib/python3.13/subprocess.py", line 1040, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 1992, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'pdfinfo'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from pdf2image import convert_from_path; convert_from_path("line.pdf")
+                                             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py", line 127, in convert_from_path
+    page_count = pdfinfo_from_path(
+                 ~~~~~~~~~~~~~~~~~^
+        pdf_path, userpw, ownerpw, poppler_path=poppler_path
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )["Pages"]
+    ^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pdf2image/pdf2image.py", line 607, in pdfinfo_from_path
+    raise PDFInfoNotInstalledError(
+        "Unable to get page count. Is poppler installed and in PATH?"
+    )
+pdf2image.exceptions.PDFInfoNotInstalledError: Unable to get page count. Is poppler installed and in PATH?

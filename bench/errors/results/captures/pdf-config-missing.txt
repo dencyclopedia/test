@@ -1,0 +1,6 @@
+$ mkdir -p bare ; cp /opt/tessdata/tessdata_fast/eng.traineddata bare/ ; /opt/tess554/bin/tesseract line.png out --tessdata-dir /tmp/tmp.qfyif8HqZC/bare pdf ; ls out.*
+# exit code: 0
+--- stdout ---
+out.txt
+--- stderr ---
+read_params_file: Can't open pdf

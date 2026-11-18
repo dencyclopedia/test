@@ -1,0 +1,4 @@
+$ /opt/tess554/bin/tesseract blank.png - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 0
+--- stdout ---
+--- stderr ---

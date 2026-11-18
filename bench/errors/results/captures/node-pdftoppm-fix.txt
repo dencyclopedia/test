@@ -1,0 +1,6 @@
+$ node /home/user/test/bench/errors/node/pdftoppm-missing.js node-pdftoppm /tmp/tmp.qfyif8HqZC/line.pdf
+# env PATH=/opt/node22/bin:/tmp/tmp.qfyif8HqZC/wh:/usr/bin
+# exit code: 0
+--- stdout ---
+result [ { name: 'hello-1.ppm', path: '/tmp/hello-1.ppm' } ]
+--- stderr ---

@@ -1,0 +1,5 @@
+$ /tmp/venv-pdf/bin/python -c 'from PIL import Image; im=Image.open("tiny.png"); im.resize((im.width*4, im.height*4), Image.LANCZOS).save("tiny4.png", dpi=(300,300))' && /opt/tess554/bin/tesseract tiny4.png - --tessdata-dir /opt/tessdata/tessdata_fast --psm 7
+# exit code: 0
+--- stdout ---
+T+
+--- stderr ---

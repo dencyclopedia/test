@@ -1,0 +1,9 @@
+$ /opt/tess554/bin/tesseract line.png - -l eng+fra
+# env TESSDATA_PREFIX=/tmp/tmp.qfyif8HqZC/onlyeng
+# exit code: 0
+--- stdout ---
+It is a truth universally acknowledged
+--- stderr ---
+Error opening data file /tmp/tmp.qfyif8HqZC/onlyeng/fra.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'fra'

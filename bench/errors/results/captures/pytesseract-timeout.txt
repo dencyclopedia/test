@@ -1,0 +1,48 @@
+$ /tmp/venv-pdf/bin/python -c 'import pytesseract; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string("line.png", timeout=0.01, config="--tessdata-dir /opt/tessdata/tessdata_fast"))'
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Traceback (most recent call last):
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 148, in timeout_manager
+    _, error_string = proc.communicate(timeout=seconds)
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 1223, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 2156, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 1270, in _check_timeout
+    raise TimeoutExpired(
+    ...<2 lines>...
+            stderr=b''.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command '['/opt/tess554/bin/tesseract', '/tmp/tmp.qfyif8HqZC/line.png', '/tmp/tess_jhg_47ps', '--tessdata-dir', '/opt/tessdata/tessdata_fast', 'txt']' timed out after 0.01 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import pytesseract; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string("line.png", timeout=0.01, config="--tessdata-dir /opt/tessdata/tessdata_fast"))
+                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 486, in image_to_string
+    return {
+           ~
+    ...<2 lines>...
+        Output.STRING: lambda: run_and_get_output(*args),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    }[output_type]()
+    ~~~~~~~~~~~~~~^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 489, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 352, in run_and_get_output
+    run_tesseract(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 282, in run_tesseract
+    with timeout_manager(proc, timeout) as error_string:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/contextlib.py", line 141, in __enter__
+    return next(self.gen)
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 152, in timeout_manager
+    raise RuntimeError('Tesseract process timeout')
+RuntimeError: Tesseract process timeout

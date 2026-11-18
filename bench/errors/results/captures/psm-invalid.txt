@@ -1,0 +1,5 @@
+$ /opt/tess554/bin/tesseract line.png - --tessdata-dir /opt/tessdata/tessdata_fast --psm 14
+# exit code: 1
+--- stdout ---
+Invalid PSM value, please enter a symbolic PSM value or a number between 0-13
+--- stderr ---

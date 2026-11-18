@@ -1,0 +1,5 @@
+$ (cd /home/user/test/bench/errors/../bindings/java && rm -rf target/lib && mvn -q -B package -DskipTests -Dtess4j.version=5.14.0 >/dev/null 2>&1) ; java -Djna.library.path=/opt/tess554/bin/../lib -cp '/home/user/test/bench/errors/../bindings/java/target/classes:/home/user/test/bench/errors/../bindings/java/target/lib/*' bench.Harness /opt/tessdata/tessdata_fast eng default 0 line.png line.png 2>&1 | grep -v -E "^Picked up|SLF4J" | cut -c1-200
+# exit code: 0
+--- stdout ---
+{"binding":"tess4j","info":{"engine":"system libtesseract via JNA","note":"Tess4J doOCR(File) re-initialises the engine on every call; init_s = new Tesseract() + first doOCR(tiny)"},"init_s":56.954786
+--- stderr ---

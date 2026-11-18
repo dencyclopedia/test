@@ -1,0 +1,11 @@
+$ /tmp/venv-pdf/bin/python -c 'import pytesseract; from PIL import Image; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string(Image.open("line.svg")))'
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import pytesseract; from PIL import Image; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string(Image.open("line.svg")))
+                                                                                                                                                     ~~~~~~~~~~^^^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/PIL/Image.py", line 3730, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'line.svg'

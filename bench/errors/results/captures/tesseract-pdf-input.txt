@@ -1,0 +1,7 @@
+$ /opt/tess554/bin/tesseract line.pdf - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error in pixReadStream: Pdf reading is not supported
+Error in pixRead: pix not read
+Error during processing.

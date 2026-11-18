@@ -1,0 +1,8 @@
+{
+  "name": "errors-node",
+  "private": true,
+  "dependencies": {
+    "node-pdftoppm": "2.0.1",
+    "node-poppler": "11.0.0"
+  }
+}

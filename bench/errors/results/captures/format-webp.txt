@@ -1,0 +1,6 @@
+$ /opt/tess554/bin/tesseract line.webp - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 0
+--- stdout ---
+It is a truth universally acknowledged
+--- stderr ---
+Estimating resolution as 397

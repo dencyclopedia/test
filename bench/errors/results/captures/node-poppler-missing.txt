@@ -1,0 +1,21 @@
+$ node /home/user/test/bench/errors/node/pdftoppm-missing.js node-poppler /tmp/tmp.qfyif8HqZC/line.pdf
+# env PATH=/opt/node22/bin:/tmp/tmp.qfyif8HqZC/wh
+# exit code: 1
+--- stdout ---
+--- stderr ---
+/home/user/test/bench/errors/node/node_modules/node-poppler/src/index.js:284
+			throw new Error(
+			^
+
+Error: Unable to find linux Poppler binaries, please pass the path to the binaries' directory as an argument to the Poppler constructor.
+    at new Poppler (/home/user/test/bench/errors/node/node_modules/node-poppler/src/index.js:284:10)
+    at Object.<anonymous> (/home/user/test/bench/errors/node/pdftoppm-missing.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.23.5

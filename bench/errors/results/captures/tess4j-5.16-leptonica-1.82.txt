@@ -1,0 +1,12 @@
+$ (cd /home/user/test/bench/errors/../bindings/java && rm -rf target/lib && mvn -q -B package -DskipTests -Dtess4j.version=5.16.0 >/dev/null 2>&1) ; java -Djna.library.path=/opt/tess554/bin/../lib -cp '/home/user/test/bench/errors/../bindings/java/target/classes:/home/user/test/bench/errors/../bindings/java/target/lib/*' bench.Harness /opt/tessdata/tessdata_fast eng default 0 line.png line.png 2>&1 | grep -v -E "^Picked up|SLF4J" | head -8
+# exit code: 0
+--- stdout ---
+Exception in thread "main" java.lang.UnsatisfiedLinkError: Error looking up function 'pixAddMultipleBlackWhiteBorders': /lib/x86_64-linux-gnu/liblept.so.5: undefined symbol: pixAddMultipleBlackWhiteBorders
+	at com.sun.jna.Function.<init>(Function.java:255)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:618)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:594)
+	at com.sun.jna.NativeLibrary.getFunction(NativeLibrary.java:580)
+	at com.sun.jna.Native.register(Native.java:1900)
+	at com.sun.jna.Native.register(Native.java:1771)
+	at com.sun.jna.Native.register(Native.java:1489)
+--- stderr ---

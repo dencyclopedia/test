@@ -1,0 +1,14 @@
+$ /tmp/venv-pdf/bin/python -c 'import cv2; img=cv2.imread("line-rgb.jpg"); cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)'
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import cv2; img=cv2.imread("line-rgb.jpg"); cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+                                                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(5.1.0) /io/opencv/modules/imgproc/src/thresh.cpp:1497: error: (-2:Unspecified error) in function 'double cv::threshold(InputArray, OutputArray, double, double, int)'
+> THRESH_OTSU mode:
+>     'src_type == CV_8UC1 || src_type == CV_16UC1'
+> where
+>     'src_type' is 64 (CV_8UC3)
+

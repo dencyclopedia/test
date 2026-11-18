@@ -1,0 +1,5 @@
+$ /opt/tess554/bin/tesseract tiny.png - --tessdata-dir /opt/tessdata/tessdata_fast --psm 7
+# exit code: 0
+--- stdout ---
+Tt
+--- stderr ---

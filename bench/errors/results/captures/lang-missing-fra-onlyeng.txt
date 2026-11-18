@@ -1,0 +1,10 @@
+$ mkdir -p /tmp/tmp.qfyif8HqZC/onlyeng ; cp /opt/tessdata/tessdata_fast/eng.traineddata /tmp/tmp.qfyif8HqZC/onlyeng/ ; /opt/tess554/bin/tesseract line.png - -l fra
+# env TESSDATA_PREFIX=/tmp/tmp.qfyif8HqZC/onlyeng
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error opening data file /tmp/tmp.qfyif8HqZC/onlyeng/fra.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'fra'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.

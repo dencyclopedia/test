@@ -1,0 +1,26 @@
+$ /tmp/venv-pdf/bin/python -c 'import pytesseract; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string("line.png", lang="fra"))'
+# env TESSDATA_PREFIX=/tmp/tmp.qfyif8HqZC/onlyeng
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import pytesseract; pytesseract.pytesseract.tesseract_cmd="/opt/tess554/bin/tesseract"; print(pytesseract.image_to_string("line.png", lang="fra"))
+                                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 486, in image_to_string
+    return {
+           ~
+    ...<2 lines>...
+        Output.STRING: lambda: run_and_get_output(*args),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    }[output_type]()
+    ~~~~~~~~~~~~~~^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 489, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+                           ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 352, in run_and_get_output
+    run_tesseract(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/tmp/venv-pdf/lib/python3.13/site-packages/pytesseract/pytesseract.py", line 284, in run_tesseract
+    raise TesseractError(proc.returncode, get_errors(error_string))
+pytesseract.pytesseract.TesseractError: (1, 'Error opening data file /tmp/tmp.qfyif8HqZC/onlyeng/fra.traineddata Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory. Failed loading language \'fra\' Tesseract couldn\'t load any languages! Could not initialize tesseract.')

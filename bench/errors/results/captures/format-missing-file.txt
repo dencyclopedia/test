@@ -1,0 +1,6 @@
+$ /opt/tess554/bin/tesseract nosuchfile.png - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error, cannot read input file nosuchfile.png: No such file or directory
+Error during processing.

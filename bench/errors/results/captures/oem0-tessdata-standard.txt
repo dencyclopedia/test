@@ -1,0 +1,5 @@
+$ /opt/tess554/bin/tesseract line.png - --tessdata-dir /opt/tessdata/tessdata --oem 0
+# exit code: 0
+--- stdout ---
+It is a truth universally acknowledged
+--- stderr ---

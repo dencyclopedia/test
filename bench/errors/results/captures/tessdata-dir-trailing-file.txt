@@ -1,0 +1,9 @@
+$ /opt/tess554/bin/tesseract line.png - -l eng --tessdata-dir /opt/tessdata/tessdata_fast/eng.traineddata
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error opening data file /opt/tessdata/tessdata_fast/eng.traineddata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.

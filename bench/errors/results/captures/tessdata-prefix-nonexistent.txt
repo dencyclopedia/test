@@ -1,0 +1,11 @@
+$ /opt/tess554/bin/tesseract line.png - -l eng
+# env TESSDATA_PREFIX=/nonexistent/tessdata
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Warning: TESSDATA_PREFIX /nonexistent/tessdata does not exist, ignore it
+Error opening data file /opt/tess554/share/tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.

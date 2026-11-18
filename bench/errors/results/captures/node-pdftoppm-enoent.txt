@@ -1,0 +1,16 @@
+$ node /home/user/test/bench/errors/node/pdftoppm-missing.js node-pdftoppm /tmp/tmp.eamkeiMYnW/line.pdf
+# env PATH=/opt/node22/bin:/tmp/tmp.eamkeiMYnW/wh
+# exit code: 0
+--- stdout ---
+result []
+--- stderr ---
+error Error: spawn pdftoppm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pdftoppm',
+  path: 'pdftoppm',
+  spawnargs: [ '/tmp/tmp.eamkeiMYnW/line.pdf', '/tmp/hello' ]
+}

@@ -1,0 +1,8 @@
+$ /opt/tess554/bin/tesseract line.svg - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: <svg xmlns="http://www.w3.org/2000/svg" width="200" height="50"><text x="5" y="35">Hello</text></svg>
+Image file <svg xmlns="http://www.w3.org/2000/svg" width="200" height="50"><text x="5" y="35">Hello</text></svg> cannot be read!
+Error during processing.

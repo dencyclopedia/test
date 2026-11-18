@@ -1,0 +1,5 @@
+$ /tmp/venv-pdf/bin/python -c 'import cv2; img=cv2.imread("line-rgb.jpg"); g=cv2.cvtColor(img, cv2.COLOR_BGR2GRAY); print(cv2.threshold(g, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[0])'
+# exit code: 0
+--- stdout ---
+138.0
+--- stderr ---

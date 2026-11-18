@@ -1,0 +1,8 @@
+$ /opt/tess554/bin/tesseract line.png - --tessdata-dir /opt/tessdata/tessdata_best --oem 0
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error: Tesseract (legacy) engine requested, but components are not present in /opt/tessdata/tessdata_best/eng.traineddata!!
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.

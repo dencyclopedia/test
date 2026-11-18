@@ -1,0 +1,7 @@
+$ /opt/tess554/bin/tesseract line.png out2 textonly_pdf ; ls out2.*
+# env TESSDATA_PREFIX=/opt/tessdata/tessdata_fast
+# exit code: 0
+--- stdout ---
+out2.txt
+--- stderr ---
+read_params_file: Can't open textonly_pdf

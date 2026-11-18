@@ -1,0 +1,8 @@
+$ /opt/tess554/bin/tesseract notanimage.png - --tessdata-dir /opt/tessdata/tessdata_fast
+# exit code: 1
+--- stdout ---
+--- stderr ---
+Error in fopenReadStream: file not found
+Error in pixRead: image file not found: this is text, not a PNG
+Image file this is text, not a PNG cannot be read!
+Error during processing.
