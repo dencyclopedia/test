@@ -10,7 +10,7 @@ assets: ['MacPorts-2.12.7-10.10-Yosemite.pkg', 'MacPorts-2.12.7-10.11-ElCapitan.
 installer: Package name is MacPorts
 installer: Installing at base path /
 installer: The install was successful.
-macports install seconds: 27
+macports install seconds: 35
 Version: 2.12.7
 --->  Checking for newer releases of MacPorts
 MacPorts base version 2.12.7 installed,
@@ -20,7 +20,7 @@ MacPorts base version 2.12.7 available.
 
 The ports tree has been updated.
 All installed ports are up to date.
-selfupdate seconds: 10
+selfupdate seconds: 18
 tesseract @5.5.3 (textproc, graphics, pdf)
 Sub-ports:            tesseract-training, tesseract-afr, tesseract-amh, tesseract-ara, tesseract-asm, tesseract-aze, tesseract-aze-cyrl, tesseract-bel, tesseract-ben, tesseract-bod, tesseract-bos, tesseract-bul, tesseract-cat, tesseract-ceb, tesseract-ces, tesseract-chi-sim, tesseract-chi-tra, tesseract-chr, tesseract-cym, tesseract-dan, tesseract-deu, tesseract-dzo, tesseract-ell, tesseract-eng, tesseract-enm, tesseract-epo, tesseract-est, tesseract-eus, tesseract-fas, tesseract-fin, tesseract-fra, tesseract-frm, tesseract-gle, tesseract-glg, tesseract-grc, tesseract-guj, tesseract-hat, tesseract-heb, tesseract-hin, tesseract-hrv, tesseract-hun, tesseract-iku, tesseract-ind, tesseract-isl, tesseract-ita, tesseract-jav, tesseract-jpn, tesseract-kan, tesseract-kat, tesseract-kaz, tesseract-khm, tesseract-kir, tesseract-kor, tesseract-kmr, tesseract-lao, tesseract-lat, tesseract-lav, tesseract-lit, tesseract-mal, tesseract-mar, tesseract-mkd, tesseract-mlt, tesseract-msa, tesseract-mya, tesseract-nep, tesseract-nld, tesseract-nor, tesseract-ori, tesseract-osd, tesseract-pan, tesseract-pol, tesseract-por, tesseract-pus, tesseract-ron, tesseract-rus, tesseract-san, tesseract-sin, tesseract-slk, tesseract-slv, tesseract-spa, tesseract-sqi, tesseract-srp, tesseract-srp-latn, tesseract-swa, tesseract-swe, tesseract-syr, tesseract-tam, tesseract-tel, tesseract-tgk, tesseract-tgl, tesseract-tha, tesseract-tir, tesseract-tur, tesseract-uig, tesseract-ukr, tesseract-urd, tesseract-uzb, tesseract-uzb-cyrl, tesseract-vie, tesseract-yid
 Variants:             universal
@@ -35,14 +35,184 @@ License:              Apache-2
 Maintainers:          Email: mark@macports.org, GitHub: markemer
 Policy: openmaintainer
 language ports found: 100
-install/macos/scripts/macports.sh: line 31: timeout: command not found
-port install tesseract exit=127 seconds: 0
-ports installed:        0
-270M	/opt/local
-install/macos/scripts/macports.sh: line 35: /opt/local/bin/tesseract: No such file or directory
-install/macos/scripts/macports.sh: line 35: /opt/local/bin/tesseract: No such file or directory
-install/macos/scripts/macports.sh: line 36: /opt/local/bin/tesseract: No such file or directory
-install/macos/scripts/macports.sh: line 37: timeout: command not found
-port install tesseract-eng exit=127 seconds: 0
-install/macos/scripts/macports.sh: line 38: /opt/local/bin/tesseract: No such file or directory
-install/macos/scripts/macports.sh: line 39: /opt/local/bin/tesseract: No such file or directory
+--->  Computing dependencies for tesseract
+--->  Dependencies to be installed: curl leptonica libarchive libjpeg-turbo libpng zlib brotli nghttp2 libidn2 libpsl openssl curl-ca-bundle zstd gettext-runtime libiconv libunistring openssl3 lz4 xz tiff openjpeg giflib5 webp lerc libdeflate lcms2 jbigkit giflib bzip2 libxml2 lzo2 libb2 icu
+--->  Fetching archive for libjpeg-turbo
+--->  Installing libjpeg-turbo @3.2.1_0
+--->  Activating libjpeg-turbo @3.2.1_0
+--->  Cleaning libjpeg-turbo
+--->  Fetching archive for zlib
+--->  Installing zlib @1.3.2_0
+--->  Activating zlib @1.3.2_0
+--->  Cleaning zlib
+--->  Fetching archive for libpng
+--->  Installing libpng @1.6.59_0
+--->  Activating libpng @1.6.59_0
+--->  Cleaning libpng
+--->  Fetching archive for brotli
+--->  Installing brotli @1.2.1_0
+--->  Activating brotli @1.2.1_0
+--->  Cleaning brotli
+--->  Fetching archive for nghttp2
+--->  Installing nghttp2 @1.71.0_0
+--->  Activating nghttp2 @1.71.0_0
+--->  Cleaning nghttp2
+--->  Fetching archive for curl-ca-bundle
+--->  Installing curl-ca-bundle @8.23.0_1
+--->  Activating curl-ca-bundle @8.23.0_1
+--->  Cleaning curl-ca-bundle
+--->  Fetching archive for libiconv
+--->  Installing libiconv @1.19_0
+--->  Activating libiconv @1.19_0
+--->  Cleaning libiconv
+--->  Fetching archive for gettext-runtime
+--->  Installing gettext-runtime @1.0_0
+--->  Activating gettext-runtime @1.0_0
+--->  Cleaning gettext-runtime
+--->  Fetching archive for libunistring
+--->  Installing libunistring @1.5_0
+--->  Activating libunistring @1.5_0
+--->  Cleaning libunistring
+--->  Fetching archive for libidn2
+--->  Installing libidn2 @2.3.8_0
+--->  Activating libidn2 @2.3.8_0
+--->  Cleaning libidn2
+--->  Fetching archive for libpsl
+--->  Installing libpsl @0.23.3_0
+--->  Activating libpsl @0.23.3_0
+--->  Cleaning libpsl
+--->  Fetching archive for openssl3
+--->  Installing openssl3 @3.6.5_0
+--->  Activating openssl3 @3.6.5_0
+--->  Cleaning openssl3
+--->  Fetching archive for openssl
+--->  Installing openssl @3_33
+--->  Activating openssl @3_33
+--->  Cleaning openssl
+--->  Fetching archive for lz4
+--->  Installing lz4 @1.10.0_0
+--->  Activating lz4 @1.10.0_0
+--->  Cleaning lz4
+--->  Fetching archive for xz
+--->  Installing xz @5.8.4_0
+--->  Activating xz @5.8.4_0
+--->  Cleaning xz
+--->  Fetching archive for zstd
+--->  Installing zstd @1.5.7_0
+--->  Activating zstd @1.5.7_0
+--->  Cleaning zstd
+--->  Fetching archive for curl
+--->  Installing curl @8.23.0_1+brotli+http2+idn+psl+ssl+zstd
+--->  Activating curl @8.23.0_1+brotli+http2+idn+psl+ssl+zstd
+--->  Cleaning curl
+--->  Fetching archive for giflib5
+--->  Installing giflib5 @5.2.2_3
+--->  Activating giflib5 @5.2.2_3
+--->  Cleaning giflib5
+--->  Fetching archive for lerc
+--->  Installing lerc @4.2.0_0
+--->  Activating lerc @4.2.0_0
+--->  Cleaning lerc
+--->  Fetching archive for libdeflate
+--->  Installing libdeflate @1.26_0
+--->  Activating libdeflate @1.26_0
+--->  Cleaning libdeflate
+--->  Fetching archive for tiff
+--->  Installing tiff @4.7.2_0
+--->  Activating tiff @4.7.2_0
+--->  Cleaning tiff
+--->  Fetching archive for lcms2
+--->  Installing lcms2 @2.20_0
+--->  Activating lcms2 @2.20_0
+--->  Cleaning lcms2
+--->  Fetching archive for jbigkit
+--->  Installing jbigkit @2.2_0
+--->  Activating jbigkit @2.2_0
+--->  Cleaning jbigkit
+--->  Fetching archive for openjpeg
+--->  Installing openjpeg @2.5.4_0
+--->  Activating openjpeg @2.5.4_0
+--->  Cleaning openjpeg
+--->  Fetching archive for giflib
+--->  Installing giflib @4.2.3_1
+--->  Activating giflib @4.2.3_1
+--->  Cleaning giflib
+--->  Fetching archive for webp
+--->  Installing webp @1.6.0_0
+--->  Activating webp @1.6.0_0
+--->  Cleaning webp
+--->  Fetching archive for leptonica
+--->  Installing leptonica @1.87.0_2
+--->  Activating leptonica @1.87.0_2
+--->  Cleaning leptonica
+--->  Fetching archive for bzip2
+--->  Installing bzip2 @1.0.8_1
+--->  Activating bzip2 @1.0.8_1
+--->  Cleaning bzip2
+--->  Fetching archive for lzo2
+--->  Installing lzo2 @2.10_0
+--->  Activating lzo2 @2.10_0
+--->  Cleaning lzo2
+--->  Fetching archive for libb2
+--->  Installing libb2 @0.98.1_1
+--->  Activating libb2 @0.98.1_1
+--->  Cleaning libb2
+--->  Fetching archive for icu
+--->  Installing icu @78.3_1
+--->  Activating icu @78.3_1
+--->  Cleaning icu
+--->  Fetching archive for libxml2
+--->  Installing libxml2 @2.15.4_0
+--->  Activating libxml2 @2.15.4_0
+--->  Cleaning libxml2
+--->  Fetching archive for libarchive
+--->  Installing libarchive @3.8.11_0
+--->  Activating libarchive @3.8.11_0
+--->  Cleaning libarchive
+--->  Fetching archive for tesseract
+--->  Installing tesseract @5.5.3_0
+--->  Activating tesseract @5.5.3_0
+--->  Cleaning tesseract
+--->  Updating database of binaries
+--->  Scanning binaries for linking errors
+--->  No broken files found.
+--->  No broken ports found.
+--->  Some of the ports you installed have notes:
+  libpsl has the following notes:
+libpsl API documentation is provided by the libpsl-docs port.
+  tesseract has the following notes:
+To use tesseract you must also install one of its language data subports. (ex tesseract-eng)
+port install tesseract exit=0 seconds: 35
+ports installed:       34
+425M	/opt/local
+tesseract 5.5.3
+ leptonica-1.87.0
+  libgif 5.2.2 : libjpeg 8d (libjpeg-turbo 3.1.4.1) : libpng 1.6.59 : libtiff 4.7.2 : zlib 1.3.2 : libwebp 1.6.0 : libopenjp2 2.5.4
+ Found NEON
+ Found libarchive 3.8.11 zlib/1.3.2 liblzma/5.8.4 bz2lib/1.0.8 liblz4/1.10.0 libzstd/1.5.7 liblzo2/2.10 libxml2/2.15.4 CommonCrypto/system libb2/0.98.1
+ Found libcurl/8.23.0 OpenSSL/3.6.5 zlib/1.3.2 brotli/1.2.1 zstd/1.5.7 libidn2/2.3.8 libpsl/0.23.3 nghttp2/1.71.0
+List of available languages in "/opt/local/share/tessdata/" (0):
+Error opening data file /opt/local/share/tessdata/eng.traineddata
+Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
+Failed loading language 'eng'
+Tesseract couldn't load any languages!
+Could not initialize tesseract.
+--->  Upgrading already installed dependencies of tesseract-eng
+--->  Computing dependencies for tesseract-eng
+--->  Fetching archive for tesseract-eng
+Attempting to fetch https://packages.macports.org/tesseract-eng/tesseract-eng-4.1.0_0.any_any.noarch.tbz2
+Attempting to fetch https://packages.macports.org/tesseract-eng/tesseract-eng-4.1.0_0.any_any.noarch.tbz2.sig
+--->  Installing tesseract-eng @4.1.0_0
+--->  Activating tesseract-eng @4.1.0_0
+--->  Cleaning tesseract-eng
+--->  Scanning binaries for linking errors
+--->  No broken files found.
+--->  No broken ports found.
+port install tesseract-eng exit=0 seconds: 7
+List of available languages in "/opt/local/share/tessdata/" (1):
+eng
+Estimating resolution as 246
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
