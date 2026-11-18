@@ -1,0 +1,32 @@
+{
+ "mode": "all",
+ "installer": "tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+ "language_choices_count": 9,
+ "space_required_default": "Space required: 96.9 MB",
+ "groups": {
+  "Additional script data (download)": 37,
+  "Additional language data (download)": 122
+ },
+ "space_required_selected": "Space required: 96.9 MB",
+ "installing_seconds": 4.1,
+ "wizard_total_seconds_incl_screenshots": 34.0,
+ "pages": [
+  "Welcome to Tesseract-OCR Setup",
+  "License Agreement",
+  "Choose Users",
+  "Choose Components",
+  "Choose Install Location",
+  "Choose Start Menu Folder",
+  "Installing",
+  "Installation Complete",
+  "Completing Tesseract-OCR Setup"
+ ],
+ "install_dir": "C:\\Program Files\\Tesseract-OCR",
+ "installed_bytes": 116376959,
+ "installed_files": 133,
+ "traineddata_files": [
+  "eng.traineddata",
+  "osd.traineddata"
+ ],
+ "tessdata_bytes": 15109185
+}

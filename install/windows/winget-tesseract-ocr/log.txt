@@ -1,0 +1,283 @@
+captured 2026-11-18T07:00:40Z on Microsoft Windows Server 2025 Datacenter build 26100
+CPU: AMD EPYC 9V74 80-Core Processor                 cores: 4
+
+### before install (new cmd process, PATH re-read from registry Machine+User)
+C:\> where tesseract
+INFO: Could not find files for the given pattern(s).
+C:\> tesseract --version
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+winget package id: tesseract-ocr.tesseract
+
+### winget version
+PS> winget --version
+v1.11.510
+[exit 0, 0.6 s]
+
+### winget search
+PS> winget search tesseract --accept-source-agreements --disable-interactivity
+
+   - 
+                                                                                                                        
+
+  ███████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1024 KB / 3.82 MB
+  ███████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  2.00 MB / 3.82 MB
+  ███████████████████████▒▒▒▒▒▒▒  3.00 MB / 3.82 MB
+  ██████████████████████████████  3.82 MB / 3.82 MB
+                                                                                                                        
+
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  0%
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  1%
+  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  2%
+  ███████████████████▒▒▒▒▒▒▒▒▒▒▒  65%
+  ███████████████████▒▒▒▒▒▒▒▒▒▒▒  66%
+  ██████████████████████▒▒▒▒▒▒▒▒  76%
+  █████████████████████████▒▒▒▒▒  84%
+  ███████████████████████████▒▒▒  92%
+  ███████████████████████████▒▒▒  92%
+  ██████████████████████████████  100%
+                                                                                                                        
+The `msstore` source requires that you view the following agreements before using.
+Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
+The source requires the current machine's 2-letter geographic region to be sent to the backend service to function properly (ex. "US").
+
+Name                                   Id                            Version        Match              Source
+--------------------------------------------------------------------------------------------------------------
+Tesseract (Matrix)                     9NZ8V8TCNVJW                  Unknown                           msstore
+Tesseract VR                           9N2Q3RN2DWH7                  Unknown                           msstore
+Tesseract                              Tesseract.Tesseract.Stable    2014.05.12                        winget
+Tesseract-OCR - open source OCR engine tesseract-ocr.tesseract       5.5.3          Moniker: tesseract winget
+Tesseract-OCR - open source OCR engine UB-Mannheim.TesseractOCR      5.4.0.20240606 Moniker: tesseract winget
+NormCap                                dynobo.NormCap                0.6.0          Tag: tesseract     winget
+gImageReader                           SandroMani.gImageReader       3.4.5          Tag: tesseract     winget
+UWP → MM MIDI Adapter                  TesseractCat.UWP-MIDI-Adapter 0.1.0                             winget
+[exit 0, 3.4 s]
+
+### winget show
+PS> winget show --id $id -e --accept-source-agreements --disable-interactivity
+
+   - 
+                                                                                                                        
+Found Tesseract-OCR - open source OCR engine [tesseract-ocr.tesseract]
+Version: 5.5.3
+Publisher: Tesseract-OCR community
+Publisher Url: https://github.com/tesseract-ocr
+Publisher Support Url: https://github.com/tesseract-ocr/tesseract/issues
+Moniker: tesseract
+Description: Tesseract Open Source OCR Engine
+Homepage: https://github.com/tesseract-ocr/tesseract
+License: Apache-2.0
+License Url: https://github.com/tesseract-ocr/tesseract/blob/HEAD/LICENSE
+Copyright: Apache-2.0
+Release Notes:
+  What's Changed
+  - Fix typos by @szepeviktor in #4497
+  - Fix missing closing tags in multi-page PAGE XML output by @stweil with @Copilot in #4506
+  - Fix Apple CMAKE_SYSTEM_PROCESSOR not set when crosscompiling by @ppavacic in #4503
+  - Remove outdated docker-compose.yml (Fixes #4492) by @Mohataseem89 in #4509
+  - docs: document memory ownership and lifecycle in C-API by @markbus-ai in #4511
+  - Add Portuguese language support and section descriptions (Windows installer) by @eduardomozart in #4516
+  - Update Slovak language string in tesseract.nsi by @eduardomozart in #4518
+  - fix(nsi): mask LANGID to 16-bit for reliable auto-detection by @eduardomozart in #4513
+  - Add GitHub Copilot instructions by @stweil with @Copilot in #4508
+  - Correct mutex call to prevent multiple instances by @eduardomozart in #4517
+  - Update versions of GitHub actions by @stweil in #4522
+  - Bump microsoft/setup-msbuild from 2 to 3 by @dependabot[bot] in #4533
+  - Use asciidoctor instead of asciidoc-py for manpage generation by @amitdo with @Copilot in #4534
+  - Bump actions/upload-artifact from 4 to 7 by @dependabot[bot] in #4545
+  - autotools: Fix linker warning on macOS by @stweil in #4559
+  - Fix compiler warning on macOS by @stweil in #4558
+  - Cmake cleanup by @zdenop in #4562
+  - Remove SW_BUILD option from CMake and CI by @amitdo with @Copilot in #4566
+  - Modernize code by @stweil in #4561
+  - Remove some files by @stweil in #4569
+  - Modernize more code by @stweil in #4568
+  - Fix compiler warnings (-Wold-style-cast) by @stweil in #4571
+  - Fix some compiler warnings (-Wunused-parameter) by @stweil in #4570
+  - ci: Improve installer for windows by @stweil in #4572
+  - Fix several issues reported by Codacy (including real bugs) by @stweil in #4573
+  - Bump actions/checkout from 6 to 7 by @dependabot[bot] in #4574
+  - Fix crash when LSTM is missing in disabled-legacy build (#4448) by @gaurav0107 in #4563
+  - ci: Remove unused ilammy/setup-nasm by @stweil in #4575
+  - autotools: Simplify Makefile rules by @stweil in #4579
+  - Fix memory-safety issues in .traineddata deserialization by @stweil in #4581
+  - Handle send() failures in SVNetwork::Flush by @Ramya-9353 in #4576
+  - Small code improvements by @stweil in #4585
+  - doc: Add comprehensive PARAMETERS section to the tesseract man page by @stweil with @Copilot in #4526
+  - Fix integer overflow in LSTM Convolve and Reconfig deserialization by @stweil in #4588
+  New Contributors
+  - @szepeviktor made their first contribution in #4497
+  - @ppavacic made their first contribution in #4503
+  - @Mohataseem89 made their first contribution in #4509
+  - @markbus-ai made their first contribution in #4511
+  - @eduardomozart made their first contribution in #4516
+  - @gaurav0107 made their first contribution in #4563
+  - @Ramya-9353 made their first contribution in #4576
+  Full Changelog: https://github.com/tesseract-ocr/tesseract/compare/5.5.2...5.5.3
+Release Notes Url: https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.3
+Tags:
+  hacktoberfest
+  lstm
+  machine-learning
+  ocr
+  ocr-engine
+  tesseract
+  tesseract-ocr
+Installer:
+  Installer Type: nullsoft
+  Installer Locale: en-US
+  Installer Url: https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+  Installer SHA256: bee9e3434bd94fd65387d9be28cd467a41f61b1275383b55b0f59a1331270ae4
+  Release Date: 2026-07-24
+  Offline Distribution Supported: true
+[exit 0, 0.9 s]
+
+### winget show versions
+PS> winget show --id $id -e --versions --disable-interactivity
+
+   - 
+                                                                                                                        
+Found Tesseract-OCR - open source OCR engine [tesseract-ocr.tesseract]
+Version
+--------------
+5.5.3
+5.5.0.20241111
+[exit 0, 0.5 s]
+
+### winget install
+PS> winget install --id $id -e --silent --accept-package-agreements --accept-source-agreements --disable-interactivity
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Tesseract-OCR - open source OCR engine [tesseract-ocr.tesseract] Version 5.5.3
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Downloading https://github.com/tesseract-ocr/tesseract/releases/download/5.5.3/tesseract-ocr-w64-setup-5.5.3.20260724.exe
+
+   - 
+   \ 
+   | 
+   / 
+                                                                                                                        
+
+  █████████████████████████▒▒▒▒▒  21.3 MB / 25.3 MB
+  ██████████████████████████████  25.3 MB / 25.3 MB
+Successfully verified installer hash
+Starting package install...
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+                                                                                                                        
+Successfully installed
+[exit 0, 10.1 s]
+
+### winget list
+PS> winget list --id $id -e --disable-interactivity
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Name                                   Id                      Version Source
+------------------------------------------------------------------------------
+Tesseract-OCR - open source OCR engine tesseract-ocr.tesseract 5.5.3   winget
+[exit 0, 0.9 s]
+
+### --version (full path)
+PS> & $exe.FullName --version
+tesseract v5.5.3.20260724
+ leptonica-1.87.0
+  libgif 5.2.2 : libjpeg 8d (libjpeg-turbo 3.1.3) : libpng 1.6.58 : libtiff 4.7.2 : zlib 1.3.1 : libwebp 1.6.0 : libopenjp2 2.5.4
+ Found AVX512BW
+ Found AVX512F
+ Found AVX512VNNI
+ Found AVX2
+ Found AVX
+ Found FMA
+ Found SSE4.1
+ Found libarchive 3.8.8 zlib/1.3.2 liblzma/5.8.3 bz2lib/1.0.8 liblz4/1.10.0 libzstd/1.5.7 expat/expat_2.8.2 cng/1.0 libb2/system
+ Found libcurl/8.21.0 Schannel zlib/1.3.2 brotli/1.2.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 WinLDAP
+[exit 0, 0 s]
+
+### --list-langs (full path)
+PS> & $exe.FullName --list-langs
+List of available languages in "C:\Program Files\Tesseract-OCR/tessdata/" (2):
+eng
+osd
+[exit 0, 0 s]
+
+### OCR receipt (full path)
+PS> & $exe.FullName samples\receipt.png -
+CORNER MARKET
+12 Harbour Street
+
+Oat milk 1L 2.49
+Sourdough loaf 3.80
+Free-range eggs x6 2.95
+Bananas 1.2kg 1.38
+Dark chocolate 85% 2.20
+Coffee beans 250g 6.50
+SUBTOTAL 19.32
+VAT 5% 0.97
+TOTAL 20.29
+
+CARD ****4821 APPROVED
+Thank you for shopping!
+Estimating resolution as 246
+[exit 0, 0.2 s]
+PATH entries added by the install:
+
+### after install (new cmd process, PATH re-read from registry Machine+User)
+C:\> where tesseract
+INFO: Could not find files for the given pattern(s).
+C:\> tesseract --version
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+{
+  "pm": "winget-tesseract-ocr",
+  "install_seconds": 10.1,
+  "install_exit": 0,
+  "install_dir": "C:\\Program Files\\Tesseract-OCR",
+  "installed_bytes": 116376959.0,
+  "traineddata": [
+    "eng.traineddata",
+    "osd.traineddata"
+  ],
+  "free_space_delta_bytes": 149487616,
+  "path_entries_added": [],
+  "registry_path_has_tesseract_dir": false
+}
+[07:01:12 UTC +    2.0s] console windows-winget-tesseract-ocr-fresh-console: finished=True launcher=explorer
+[07:01:14 UTC +    4.7s] screenshot windows-winget-tesseract-ocr-fresh-console-desktop.png, windows-winget-tesseract-ocr-fresh-console.png

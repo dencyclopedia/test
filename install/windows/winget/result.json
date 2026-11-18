@@ -1,6 +1,6 @@
 {
   "pm": "winget",
-  "install_seconds": 9.4,
+  "install_seconds": 12.4,
   "install_exit": 0,
   "install_dir": "C:\\Program Files\\Tesseract-OCR",
   "installed_bytes": 249434472.0,
@@ -8,7 +8,7 @@
     "eng.traineddata",
     "osd.traineddata"
   ],
-  "free_space_delta_bytes": 263766016,
+  "free_space_delta_bytes": 283471872,
   "path_entries_added": [],
   "registry_path_has_tesseract_dir": false
 }

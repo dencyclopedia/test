@@ -1,1 +1,67 @@
-[06:57:55 UTC +    0.7s] screenshot windows-final-desktop.png
+[07:00:58 UTC +    1.7s] installer started C:\Users\RUNNER~1\AppData\Local\Temp\tesseract-ocr-w64-setup-5.5.3.20260724.exe
+[07:01:03 UTC +    7.1s] screenshot windows-installer-01-language-desktop.png, windows-installer-01-language.png
+[07:01:03 UTC +    7.1s] language combobox items: 9
+[07:01:04 UTC +    8.4s] page: 'Welcome to Tesseract-OCR Setup' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724'
+[07:01:05 UTC +    9.1s] screenshot windows-installer-02-welcome-to-tesseract-ocr-setup-desktop.png, windows-installer-02-welcome-to-tesseract-ocr-setup.png
+[07:01:06 UTC +   10.5s] page: 'License Agreement' | button1='I &Agree' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:07 UTC +   11.2s] screenshot windows-installer-03-license-agreement-desktop.png, windows-installer-03-license-agreement.png
+[07:01:08 UTC +   12.5s] page: 'Choose Users' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:09 UTC +   13.2s] screenshot windows-installer-04-choose-users-desktop.png, windows-installer-04-choose-users.png
+[07:01:10 UTC +   14.5s] page: 'Choose Components' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:10 UTC +   14.5s] space text (default selection): Space required: 96.9 MB
+[07:01:11 UTC +   15.2s] screenshot windows-installer-05-components-desktop.png, windows-installer-05-components.png
+[07:01:11 UTC +   15.2s] component tree items: 167
+[07:01:12 UTC +   15.9s] expanded 'Additional script data (download)': 37 children
+[07:01:12 UTC +   16.6s] screenshot windows-installer-06-components-additional-script-data-desktop.png, windows-installer-06-components-additional-script-data.png
+[07:01:13 UTC +   17.5s] check click did not change space text; trying space key
+[07:01:14 UTC +   18.5s] ticked 'Additional script data (download)': space 'Space required: 96.9 MB' -> 'Space required: 96.9 MB'
+[07:01:15 UTC +   19.1s] screenshot windows-installer-07-components-additional-script-data-ticked-desktop.png, windows-installer-07-components-additional-script-data-ticked.png
+[07:01:16 UTC +   19.7s] expanded 'Additional language data (download)': 122 children
+[07:01:16 UTC +   20.4s] screenshot windows-installer-08-components-additional-language-data-desktop.png, windows-installer-08-components-additional-language-data.png
+[07:01:17 UTC +   21.3s] check click did not change space text; trying space key
+[07:01:18 UTC +   22.1s] ticked 'Additional language data (download)': space 'Space required: 96.9 MB' -> 'Space required: 96.9 MB'
+[07:01:19 UTC +   22.8s] screenshot windows-installer-09-components-additional-language-data-ticked-desktop.png, windows-installer-09-components-additional-language-data-ticked.png
+[07:01:19 UTC +   22.8s] space text (final selection): Space required: 96.9 MB
+[07:01:19 UTC +   23.5s] screenshot windows-installer-10-components-all-ticked-desktop.png, windows-installer-10-components-all-ticked.png
+[07:01:21 UTC +   24.8s] page: 'Choose Install Location' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:21 UTC +   25.5s] screenshot windows-installer-11-choose-install-location-desktop.png, windows-installer-11-choose-install-location.png
+[07:01:23 UTC +   26.8s] page: 'Choose Start Menu Folder' | button1='&Install' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:23 UTC +   27.5s] screenshot windows-installer-12-choose-start-menu-folder-desktop.png, windows-installer-12-choose-start-menu-folder.png
+[07:01:25 UTC +   28.8s] page: 'Installing' | button1='&Next >' enabled=False | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:25 UTC +   29.6s] screenshot windows-installer-13-installing-desktop.png, windows-installer-13-installing.png
+[07:01:27 UTC +   31.6s] installing finished after 4.1 s since Install click
+[07:01:29 UTC +   32.8s] page: 'Installation Complete' | button1='&Next >' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:29 UTC +   33.5s] screenshot windows-installer-14-installation-complete-desktop.png, windows-installer-14-installation-complete.png
+[07:01:31 UTC +   34.8s] page: 'Completing Tesseract-OCR Setup' | button1='&Finish' enabled=True | window title='Tesseract-OCR 5.5.3.20260724 '
+[07:01:31 UTC +   35.5s] screenshot windows-installer-15-completing-tesseract-ocr-setup-desktop.png, windows-installer-15-completing-tesseract-ocr-setup.png
+[07:01:31 UTC +   35.5s] finish page option: View Tesseract on GitHub checked= 0
+[07:01:32 UTC +   35.6s] {
+ "mode": "all",
+ "installer": "tesseract-ocr-w64-setup-5.5.3.20260724.exe",
+ "language_choices_count": 9,
+ "space_required_default": "Space required: 96.9 MB",
+ "groups": {
+  "Additional script data (download)": 37,
+  "Additional language data (download)": 122
+ },
+ "space_required_selected": "Space required: 96.9 MB",
+ "installing_seconds": 4.1,
+ "wizard_total_seconds_incl_screenshots": 34.0,
+ "pages": [
+  "Welcome to Tesseract-OCR Setup",
+  "License Agreement",
+  "Choose Users",
+  "Choose Components",
+  "Choose Install Location",
+  "Choose Start Menu Folder",
+  "Installing",
+  "Installation Complete",
+  "Completing Tesseract-OCR Setup"
+ ],
+ "install_dir": "C:\\Program Files\\Tesseract-OCR",
+ "installed_bytes": 116376959,
+ "installed_files": 133,
+ "tessdata_bytes": 15109185
+}
+[07:01:32 UTC +   35.6s] traineddata count: 2
+[07:01:33 UTC +    0.7s] screenshot windows-final-desktop.png

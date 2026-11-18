@@ -2,11 +2,11 @@
   "os": "Microsoft Windows Server 2025 Datacenter",
   "version": "10.0.26100",
   "build": "26100",
-  "cpu": "AMD EPYC 7763 64-Core Processor                ",
+  "cpu": "AMD EPYC 9V74 80-Core Processor                ",
   "cores": 4,
   "runner_image": "win25-vs2026 20261103.298.1",
   "screen": "1024x768",
-  "date_utc": "2026-11-18T06:57:37Z",
-  "run": "https://github.com/dencyclopedia/test/actions/runs/44255158751",
-  "git_sha": "41ffb4156075483f5e25f6652c63633b36a3f825"
+  "date_utc": "2026-11-18T07:00:42Z",
+  "run": "https://github.com/dencyclopedia/test/actions/runs/44255532484",
+  "git_sha": "02dfb15ae7298c47a9f3e15fb415828e67f058e4"
 }

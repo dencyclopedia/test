@@ -1,0 +1,24 @@
+## missing language
+> tesseract "D:\a\test\test\samples\receipt.png" - -l xyz
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+[exit code 1]
+
+## wrong tessdata dir
+> tesseract "D:\a\test\test\samples\receipt.png" - --tessdata-dir C:\wrong\tessdata
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+[exit code 1]
+
+## TESSDATA_PREFIX pointing to wrong folder
+> set TESSDATA_PREFIX=C:\Users& tesseract "D:\a\test\test\samples\receipt.png" -
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+[exit code 1]
+
+## input file missing
+> tesseract nosuchfile.png -
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+[exit code 1]
+

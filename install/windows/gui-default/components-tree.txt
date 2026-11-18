@@ -1,0 +1,167 @@
+ScrollView
+Training Tools
+Shortcuts creation
+Language data
+  English
+  Orientation and script detection
+Additional script data (download)
+  Arabic script
+  Armenian script
+  Bengali script
+  Canadian Aboriginal script
+  Cherokee script
+  Cyrillic script
+  Devanagari script
+  Ethiopic script
+  Fraktur script
+  Georgian script
+  Greek script
+  Gujarati script
+  Gurmukhi script
+  Han Simplified script
+  Han Simplified vertical script
+  Han Traditional script
+  Han Traditional vertical script
+  Hangul script
+  Hangul vertical script
+  Hebrew script
+  Japanese script
+  Japanese vertical script
+  Kannada script
+  Khmer script
+  Lao script
+  Latin script
+  Malayalam script
+  Myanmar script
+  Oriya script
+  Sinhala script
+  Syriac script
+  Tamil script
+  Telugu script
+  Thaana script
+  Thai script
+  Tibetan script
+  Vietnamese script
+Additional language data (download)
+  Math / equation detection module
+  Afrikaans
+  Amharic
+  Arabic
+  Assamese
+  Azerbaijani
+  Azerbaijani (Cyrillic)
+  Belarusian
+  Bengali
+  Tibetan
+  Bosnian
+  Breton
+  Bulgarian
+  Catalan
+  Cebuano
+  Czech
+  Chinese (Simplified)
+  Chinese (Simplified vertical)
+  Chinese (Traditional)
+  Chinese (Traditional vertical)
+  Cherokee
+  Corsican
+  Welsh
+  Danish
+  German
+  German Fraktur
+  Divehi
+  Dzongkha
+  Greek
+  English - Middle (1100-1500)
+  Esperanto
+  Estonian
+  Basque
+  Faroese
+  Persian
+  Filipino
+  Finnish
+  French
+  French - Middle (ca. 1400-1600)
+  Frisian (Western)
+  Gaelic (Scots)
+  Irish
+  Galician
+  Greek, Ancient (-1453)
+  Gujarati
+  Haitian
+  Hebrew
+  Hindi
+  Croatian
+  Hungarian
+  Armenian
+  Inuktitut
+  Indonesian
+  Icelandic
+  Italian
+  Italian (Old)
+  Javanese
+  Japanese
+  Japanese (vertical)
+  Kannada
+  Georgian
+  Georgian (Old)
+  Kazakh
+  Central Khmer
+  Kirghiz
+  Korean
+  Kurdish (Kurmanji)
+  Lao
+  Latin
+  Latvian
+  Lithuanian
+  Luxembourgish
+  Malayalam
+  Marathi
+  Macedonian
+  Maltese
+  Mongolian
+  Maori
+  Malay
+  Burmese
+  Nepali
+  Dutch; Flemish
+  Norwegian
+  Occitan (post 1500)
+  Oriya
+  Panjabi / Punjabi
+  Polish
+  Portuguese
+  Pushto / Pashto
+  Quechua
+  Romanian
+  Russian
+  Sanskrit
+  Sinhala / Sinhalese
+  Slovak
+  Slovenian
+  Sindhi
+  Spanish
+  Spanish (Old)
+  Albanian
+  Serbian
+  Serbian (Latin)
+  Sundanese
+  Swahili
+  Swedish
+  Syriac
+  Tamil
+  Tatar
+  Telugu
+  Tajik
+  Thai
+  Tigrinya
+  Tonga
+  Turkish
+  Uighur
+  Ukrainian
+  Urdu
+  Uzbek
+  Uzbek (Cyrillic)
+  Vietnamese
+  Yiddish
+  Yoruba

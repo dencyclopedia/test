@@ -1,0 +1,11 @@
+{
+ "registry_path_has_tesseract_after_gui_install": {
+  "machine": false,
+  "user": false
+ },
+ "path_fixed_by": "Environment Variables dialog (rundll32 sysdm.cpl,EditEnvironmentVariables), driven with pywinauto",
+ "registry_path_has_tesseract_after_fix": {
+  "machine": false,
+  "user": false
+ }
+}

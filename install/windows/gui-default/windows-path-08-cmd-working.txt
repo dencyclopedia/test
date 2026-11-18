@@ -1,0 +1,8 @@
+> where tesseract & tesseract --version & tesseract --list-langs
+(PATH re-read from registry)
+INFO: Could not find files for the given pattern(s).
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+'tesseract' is not recognized as an internal or external command,
+operable program or batch file.
+[exit code 1]
