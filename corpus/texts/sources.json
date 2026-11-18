@@ -1,0 +1,80 @@
+{
+ "gutenberg": {
+  "austen": {
+   "url": "https://gutenberg.pglaf.org/1/3/4/1342/1342-0.txt",
+   "title": "Pride and Prejudice",
+   "author": "Jane Austen",
+   "sha256": "81300b79e8a8d65ac530a97578417d06137e3bbc90622a10a65e5036183d2500",
+   "starts_with": "It is a truth universally acknowledged"
+  },
+  "doyle": {
+   "url": "https://gutenberg.pglaf.org/1/6/6/1661/1661-0.txt",
+   "title": "The Adventures of Sherlock Holmes",
+   "author": "Arthur Conan Doyle",
+   "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+   "starts_with": "To Sherlock Holmes she is always"
+  },
+  "shelley": {
+   "url": "https://gutenberg.pglaf.org/8/84/84-0.txt",
+   "title": "Frankenstein",
+   "author": "Mary Wollstonecraft Shelley",
+   "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+   "starts_with": "Six years have passed since I resolved"
+  },
+  "carroll": {
+   "url": "https://gutenberg.pglaf.org/1/11/11-0.txt",
+   "title": "Alice's Adventures in Wonderland",
+   "author": "Lewis Carroll",
+   "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+   "starts_with": "Alice was beginning to get very tired"
+  }
+ },
+ "udhr": {
+  "eng": {
+   "file": "udhr2/eng.txt"
+  },
+  "deu": {
+   "file": "udhr2/deu.txt"
+  },
+  "fra": {
+   "file": "udhr2/fra.txt"
+  },
+  "spa": {
+   "file": "udhr2/spa.txt"
+  },
+  "por": {
+   "file": "udhr2/por_PT.txt"
+  },
+  "ita": {
+   "file": "udhr2/ita.txt"
+  },
+  "rus": {
+   "file": "udhr2/rus.txt"
+  },
+  "chi_sim": {
+   "file": "udhr2/cmn_hans.txt"
+  },
+  "jpn": {
+   "file": "udhr2/jpn.txt"
+  },
+  "kor": {
+   "file": "udhr2/kor.txt"
+  },
+  "ara": {
+   "file": "udhr2/arb.txt"
+  },
+  "hin": {
+   "file": "udhr2/hin.txt"
+  },
+  "vie": {
+   "file": "udhr2/vie.txt"
+  },
+  "uzb": {
+   "file": "udhr2/uzn_latn.txt"
+  }
+ },
+ "udhr_zip": {
+  "url": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/udhr2.zip",
+  "sha256": "0796c314b09a930c989c6f9d93d226af9af13feccd88496e196c743dd266c7f3"
+ }
+}
