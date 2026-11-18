@@ -1,0 +1,21 @@
+{
+  "a4.png": {
+    "bytes": 4927171,
+    "size_px": [
+      2481,
+      3507
+    ],
+    "dpi": 300,
+    "synthetic": true,
+    "text": "Pride and Prejudice ch.1, Liberation Serif 11 pt, seeded scan noise"
+  },
+  "receipt.png": {
+    "bytes": 318160,
+    "size_px": [
+      600,
+      800
+    ],
+    "dpi": 200,
+    "synthetic": true
+  }
+}
