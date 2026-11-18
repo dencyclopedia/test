@@ -1,0 +1,9 @@
+key,label,mb,source
+win-default,Windows installer · default,116.4,windows/gui-default/result.json
+win-all,Windows installer · all languages,800.9,windows/gui-all/result.json
+scoop-default,Scoop · tesseract,101.3,windows/scoop/result.json
+scoop-all,Scoop · + tesseract-languages,801.6,windows/scoop/result.json
+brew-default,Homebrew · tesseract,26.1,macos/brew-macos-latest/macos-terminal-01-brew-install-tesseract.log
+brew-all,Homebrew · + tesseract-lang,711.8,macos/brew-macos-latest/macos-terminal-05-brew-install-tesseract-lang.log
+apt-default,apt · tesseract-ocr,96.3,linux/results/ubuntu-24.04/session.log
+apt-all,apt · + tesseract-ocr-all,782.3,linux/results/ubuntu-24.04/session.log
