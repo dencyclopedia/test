@@ -1,0 +1,52 @@
+name: bench-ocr-online-timing
+# Times the site's in-browser OCR tool (bench/ocr-online/timing) on a standard GitHub runner and commits the results.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths:
+      - 'bench/ocr-online/timing/timing.js'
+      - 'bench/ocr-online/timing/site-snapshot/**'
+      - '.github/workflows/bench-ocr-online-timing.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bench-ocr-online-timing
+  cancel-in-progress: false
+jobs:
+  timing:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium
+        run: |
+          npm init -y >/dev/null
+          npm install playwright@1.63.0 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+      - name: Run timing
+        run: |
+          OUT=bench/ocr-online/timing/results
+          mkdir -p "$OUT"
+          (cd bench/ocr-online/timing/site-snapshot && python3 -m http.server 8790 --bind 127.0.0.1 >/dev/null 2>&1 &)
+          sleep 2
+          META=$(python3 - <<'EOF'
+          import json, os, platform
+          cpu = next((l.split(':', 1)[1].strip() for l in open('/proc/cpuinfo') if l.startswith('model name')), '')
+          print(json.dumps({"runner": "GitHub Actions ubuntu-24.04", "cpu": cpu, "cores": os.cpu_count(),
+                            "kernel": platform.release(), "run_id": os.environ.get("GITHUB_RUN_ID"),
+                            "repo_commit": os.environ.get("GITHUB_SHA")}))
+          EOF
+          )
+          SITE=http://127.0.0.1:8790 OUT="$OUT" META_JSON="$META" node bench/ocr-online/timing/timing.js | tee "$OUT/log.txt"
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bench/ocr-online/timing/results
+          git commit -m "bench/ocr-online timing results (run ${GITHUB_RUN_ID})" || exit 0
+          for i in 1 2 3 4; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break || sleep $((i*5)); done

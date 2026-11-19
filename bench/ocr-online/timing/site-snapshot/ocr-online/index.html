@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://www.ezojs.com">
+    <link rel="preconnect" href="https://ezoicanalytics.com">
+    <link rel="preconnect" href="https://cmp.gatekeeperconsent.com">
+    <link rel="preconnect" href="https://the.gatekeeperconsent.com">
+    <link rel="dns-prefetch" href="https://g.ezoic.net">
+    <link rel="dns-prefetch" href="https://go.ezoic.net">
+    <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+    <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+    <script>
+        window.ezstandalone = window.ezstandalone || {};
+        ezstandalone.cmd = ezstandalone.cmd || [];
+    </script>
+    <script async src="https://www.ezojs.com/ezoic/sa.min.js"></script>
+    <script async src="https://ezoicanalytics.com/analytics.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEH3DE1YK"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-8CEH3DE1YK');</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online OCR — Extract Text from Images &amp; PDFs | Tesseract</title>
+    <meta name="description" content="Free online OCR powered by Tesseract. Extract text from images and PDFs (up to 20 pages) in 43 languages, then copy it or save a searchable PDF. Runs in your browser.">
+    <meta name="author" content="TesseractOCR.org">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://tesseractocr.org/ocr-online/" />
+    <link rel="alternate" hreflang="x-default" href="https://tesseractocr.org/ocr-online/" />
+    <link rel="alternate" hreflang="en" href="https://tesseractocr.org/ocr-online/" />
+    <link rel="alternate" hreflang="es" href="https://tesseractocr.org/es/ocr-online/" />
+    <link rel="alternate" hreflang="pt" href="https://tesseractocr.org/pt/ocr-online/" />
+    <link rel="alternate" hreflang="de" href="https://tesseractocr.org/de/ocr-online/" />
+    <link rel="alternate" hreflang="fr" href="https://tesseractocr.org/fr/ocr-online/" />
+    <link rel="alternate" hreflang="it" href="https://tesseractocr.org/it/ocr-online/" />
+    <link rel="alternate" hreflang="ja" href="https://tesseractocr.org/ja/ocr-online/" />
+    <link rel="alternate" hreflang="zh" href="https://tesseractocr.org/zh/ocr-online/" />
+    <link rel="alternate" hreflang="tr" href="https://tesseractocr.org/tr/ocr-online/" />
+    <link rel="alternate" hreflang="id" href="https://tesseractocr.org/id/ocr-online/" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Tesseract OCR guides — TesseractOCR.org" href="https://tesseractocr.org/feed.xml">
+    <link rel="icon" href="/favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tesseractocr.org/ocr-online/">
+    <meta property="og:title" content="Free Online OCR — Extract Text from Images &amp; PDFs | Tesseract">
+    <meta property="og:description" content="Free online OCR powered by Tesseract. Extract text from images and PDFs (up to 20 pages) in 43 languages, then copy it or save a searchable PDF. Runs in your browser.">
+    <meta property="og:image" content="https://tesseractocr.org/assets/og/online-ocr-arabic-fix-sideways-16x9.jpg">
+    <meta property="og:image:width" content="1600">
+    <meta property="og:image:height" content="900">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:alt" content="Bar chart: the online OCR tool&#x27;s Arabic character error rate fell from 16.00% to 1.25% after our fix; native Tesseract 5.5.4: 2.12%">
+    <meta property="og:site_name" content="Tesseract OCR">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:modified_time" content="2026-11-18">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Online OCR — Extract Text from Images &amp; PDFs | Tesseract">
+    <meta name="twitter:description" content="Free online OCR powered by Tesseract. Extract text from images and PDFs (up to 20 pages) in 43 languages, then copy it or save a searchable PDF. Runs in your browser.">
+    <meta name="twitter:image" content="https://tesseractocr.org/assets/og/online-ocr-arabic-fix-sideways-16x9.jpg">
+    <meta name="twitter:image:alt" content="Bar chart: the online OCR tool&#x27;s Arabic character error rate fell from 16.00% to 1.25% after our fix; native Tesseract 5.5.4: 2.12%">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Tesseract Online OCR Converter",
+      "url": "https://tesseractocr.org/ocr-online/",
+      "description": "Free web-based OCR tool that runs Tesseract in the browser with tesseract.js 5.1.1 (WebAssembly). Recognises text in images (PNG, JPG, WEBP, BMP, GIF) and PDFs of up to 20 pages and 20 MB in 43 languages, and exports plain text or a searchable PDF. Files are processed on the device and are not uploaded.",
+      "applicationCategory": "UtilitiesApplication",
+      "dateModified": "2026-11-18",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript and WebAssembly. The engine and language model download from cdn.jsdelivr.net on first use.",
+      "softwareVersion": "tesseract.js 5.1.1",
+      "featureList": [
+        "43 recognition languages, up to two at once",
+        "Images and PDFs up to 20 pages and 20 MB",
+        "Automatic retry for sideways and upside-down pages",
+        "Plain-text and searchable PDF export",
+        "Processing in the browser, no upload"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "image": [
+        "https://tesseractocr.org/assets/og/online-ocr-arabic-fix-sideways-16x9.jpg",
+        "https://tesseractocr.org/assets/og/online-ocr-arabic-fix-sideways-4x3.jpg",
+        "https://tesseractocr.org/assets/og/online-ocr-arabic-fix-sideways-1x1.jpg"
+      ],
+      "screenshot": "https://tesseractocr.org/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://tesseractocr.org/#organization",
+        "name": "TesseractOCR.org",
+        "url": "https://tesseractocr.org/"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://tesseractocr.org/ocr-online/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://tesseractocr.org/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Online OCR",
+              "item": "https://tesseractocr.org/ocr-online/"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://tesseractocr.org/ocr-online/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is the online OCR free?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. The tool is free, needs no sign-up and adds no watermark. Its limits are technical: a file can be up to 20 MB, and from a PDF the first 20 pages are recognised."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are my images uploaded to a server?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. OCR runs in your browser with tesseract.js, Tesseract compiled to WebAssembly. Only the engine and the language model are downloaded, from cdn.jsdelivr.net. We recorded every network request during a run with Playwright: all were downloads and none carried the image."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which file formats are supported?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "PNG, JPG/JPEG, WEBP, BMP and GIF images, plus PDF files of up to 20 pages — each page is rendered and recognized in your browser. You can download the result as plain text or as a searchable PDF. For larger batches, use the command-line or Python workflow in the PDF guide."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which languages can it recognize?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "43 languages in 13 writing systems, including English, Spanish, Portuguese, German, French, Italian, Japanese, Chinese, Turkish, Indonesian, Russian, Arabic, Hindi and Korean. You can pick a second language for documents that mix two. The full list is in the language table on this page."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a page or file size limit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes: 20 MB per file and 20 pages per PDF. A longer PDF is not rejected; the tool reads the first 20 pages and tells you how many it skipped. Very large images are scaled down to 16 megapixels before recognition. For long documents, use OCRmyPDF or the Tesseract command line on your computer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does it work offline or on a phone?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "After the first run, yes for the same language: in our test we switched the browser offline and the tool still read a second page, because the engine and the model were already loaded. The first use of each language needs a connection to download the model. On phones the page uses a one-column layout and scales images above 16 megapixels down; we have tested it in Chromium at a phone-sized screen, not on physical phones."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why is my output garbled or in the wrong order?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Check the language first: the wrong model produces nonsense. Then try another Layout mode: Single block (PSM 6) for receipts, Sparse text (PSM 11) for signs and graphics. Tick Enhance contrast for faded or grey scans, and crop photos to the text. In our tests a phone photo of a receipt had 26.56% character errors, and a dashboard screenshot was read column by column (all words found, in a different order). A high confidence badge does not prove the text is correct."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How accurate is it compared with desktop Tesseract?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "On clean pages it gave the same result as native Tesseract 5.5.4 in our 16-image test (0.00% character errors on a 300 DPI page). It was better on sideways and upside-down pages (0.00% vs 84.93% and 84.42%) and on Chinese spacing, and worse on a receipt photo (26.56% vs 20.09%). The browser engine is tesseract.js 5.1.1, built from a Tesseract 5.1.0 development snapshot."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://tesseractocr.org/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.jpg#image",
+          "contentUrl": "https://tesseractocr.org/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.jpg",
+          "width": 820,
+          "height": 867,
+          "caption": "The tool found that the page was sideways, read it upright and outlined every word in green (90–100% confidence): 0.00% character errors. Synthetic test page.",
+          "creator": {
+            "@type": "Organization",
+            "@id": "https://tesseractocr.org/#organization",
+            "name": "TesseractOCR.org"
+          },
+          "creditText": "tesseractocr.org test lab",
+          "copyrightNotice": "© 2026 tesseractocr.org",
+          "license": "https://tesseractocr.org/about/#image-licence",
+          "acquireLicensePage": "https://tesseractocr.org/about/#image-licence"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://tesseractocr.org/assets/img/ocr-online/online-ocr-arabic-text-before-after-rtl-fix.jpg#image",
+          "contentUrl": "https://tesseractocr.org/assets/img/ocr-online/online-ocr-arabic-text-before-after-rtl-fix.jpg",
+          "width": 820,
+          "height": 755,
+          "caption": "Before the fix the tool glued Arabic words together and dropped a whole line (16.00% CER); after it the same page reads at 1.25% CER. Synthetic UDHR test page.",
+          "creator": {
+            "@type": "Organization",
+            "@id": "https://tesseractocr.org/#organization",
+            "name": "TesseractOCR.org"
+          },
+          "creditText": "tesseractocr.org test lab",
+          "copyrightNotice": "© 2026 tesseractocr.org",
+          "license": "https://tesseractocr.org/about/#image-licence",
+          "acquireLicensePage": "https://tesseractocr.org/about/#image-licence"
+        }
+      ]
+    }
+    </script>
+    <link rel="preload" href="/assets/lab/fonts/bricolage-grotesque-sub.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/lab/lab.min.css?v=20261119">
+    <script>(function(){var d=document.documentElement,t=null;try{t=localStorage.getItem('theme');}catch(e){}if(t!=='light'&&t!=='dark'){t=(window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)?'light':'dark';}d.setAttribute('data-theme',t);d.classList.add('js');if(/[?&]zones=1/.test(location.search))d.classList.add('zones');})();</script>
+    <style>
+    /* Online OCR tool (page-scoped; the locale pages keep /style.css) */
+    .tool { margin-top: var(--s6); border: 1px solid var(--line-strong); border-radius: var(--r-lg, 14px); background: var(--bg-raised); padding: var(--s5); }
+    .tool-h { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; margin: 0 0 var(--s4); }
+    .tool-ctl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s4); }
+    .tool-ctl label { display: block; font: 500 12px/1.4 var(--mono); letter-spacing: .04em; color: var(--text-3); margin-bottom: 6px; }
+    .tool-ctl select { width: 100%; height: 40px; padding: 0 10px; border-radius: 8px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text); font: inherit; font-size: .95rem; }
+    .tool-ctl .chk { display: flex; align-items: center; gap: 8px; margin: 8px 0 0; font: 400 .9rem/1.3 var(--font); letter-spacing: 0; color: var(--text-2); }
+    .tool-ws { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s4); margin-top: var(--s5); }
+    .tool-card { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: var(--s4); display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+    .tool-card .card-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; min-height: 28px; }
+    .tool-card .card-title { font-size: 1rem; letter-spacing: -0.01em; margin: 0; }
+    .tool .btn-text { background: none; border: 0; color: var(--accent-text); font: 500 .85rem var(--mono); cursor: pointer; padding: 4px 6px; }
+    .dropzone { position: relative; height: 300px; border: 1.5px dashed var(--line-strong); border-radius: 10px; display: grid; place-items: center; text-align: center; cursor: pointer; padding: 12px; background: var(--bg-raised); }
+    .dropzone.drag-over, .dropzone:focus-visible { border-color: var(--accent-text); }
+    .dropzone-prompt p { margin: 4px 0; color: var(--text-2); font-size: .9rem; }
+    .dropzone-prompt .dropzone-title { color: var(--text); font-weight: 600; font-size: 1rem; }
+    .dropzone-prompt svg { width: 40px; height: 40px; color: var(--text-3); }
+    .preview-container { position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-height: 0; }
+    .preview-container[hidden], .dropzone-prompt[hidden] { display: none; }
+    #image-preview { max-width: 100%; max-height: 250px; object-fit: contain; border-radius: 6px; background: #fff; }
+    #ocr-boxes { position: absolute; border-radius: 6px; pointer-events: none; --box-hi: #4d8a00; --box-mid: #c27400; --box-lo: #d0342c; }
+    .file-meta { margin: 0; font: 500 12px var(--mono); color: var(--text-3); overflow-wrap: anywhere; }
+    .boxes-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; margin: 0; min-height: 24px; font: 500 12px/1.4 var(--mono); color: var(--text-2); }
+    .boxes-legend[hidden] { display: flex; visibility: hidden; }
+    .boxes-legend i { display: inline-block; width: 12px; height: 12px; border: 2px solid; border-radius: 2px; vertical-align: -2px; margin-right: 5px; }
+    .boxes-legend .hi i { border-color: #4d8a00; background: rgba(77,138,0,.2); } .boxes-legend .mid i { border-color: #c27400; background: rgba(194,116,0,.2); } .boxes-legend .lo i { border-color: #d0342c; background: rgba(208,52,44,.2); }
+    .boxes-legend label { display: inline-flex; gap: 6px; align-items: center; color: var(--text); }
+    .sample-images-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font-size: .88rem; color: var(--text-2); }
+    .sample-btn { border: 1px solid var(--line-strong); background: transparent; color: var(--text); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: .85rem; cursor: pointer; }
+    .sample-btn:hover { border-color: var(--text-3); }
+    .tool .btn-block { width: 100%; justify-content: center; }
+    .tool .btn[disabled] { opacity: .45; cursor: not-allowed; transform: none; }
+    .progress-container { min-height: 34px; }
+    .progress-container[hidden] { display: block; visibility: hidden; }
+    .progress-info { display: flex; justify-content: space-between; font: 500 12px var(--mono); color: var(--text-2); margin-bottom: 6px; }
+    .progress-bar-track { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+    .progress-bar-fill { height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+    .tool-message { margin: 0; font-size: .9rem; color: var(--text-2); }
+    .tool-message.is-error { color: var(--conf-lo); } .tool-message.is-warn { color: var(--conf-mid); }
+    .result-stats { display: flex; gap: 6px; }
+    .result-stats[hidden] { display: none; }
+    .stat-badge { font: 500 12px var(--mono); padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--text-2); white-space: nowrap; }
+    .stat-badge[hidden] { display: none; }
+    .badge-success { color: var(--conf-hi); border-color: currentColor; }
+    #output-text { width: 100%; height: 300px; resize: vertical; border-radius: 10px; border: 1px solid var(--line-strong); background: var(--bg-raised); color: var(--text); font: 400 .9rem/1.55 var(--mono); padding: 12px; }
+    .output-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .output-actions .btn { height: 38px; padding: 0 12px; font-size: .88rem; }
+    .ocr-next { border: 1px dashed var(--line-strong); border-radius: 10px; padding: 10px 12px; font-size: .88rem; color: var(--text-2); }
+    .ocr-next.is-ready { border-style: solid; border-color: var(--accent-text); color: var(--text); }
+    .ocr-next-title { margin: 0 0 4px; font: 500 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--text-3); }
+    .ocr-next-links { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+    .ocr-next a { color: var(--accent-text); }
+    .tool-foot { margin: var(--s4) 0 0; }
+    
+    
+    
+    .g-hero h1 { font-size: clamp(2.1rem, 1.2rem + 2.2vw, 3.1rem); }
+    .g-hero .meta { margin-bottom: var(--s4); }
+    @media (max-width: 1199px) { .g-hero + .ad-frame.ad-top { margin-top: var(--s6); } }
+    @media (max-width: 599px) { .g-hero .rec { white-space: normal; } }
+    .num td:not(:first-child), .num th:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    @media (max-width: 899px) {
+      .tool { padding: var(--s4); margin-left: calc(-1 * var(--s2, 8px)); margin-right: calc(-1 * var(--s2, 8px)); }
+      .tool-ctl, .tool-ws { grid-template-columns: 1fr; }
+      .dropzone { height: 240px; }
+      .boxes-legend, .boxes-legend[hidden] { display: none; }
+    }
+    </style>
+</head>
+<body>
+<a href="#main-content" class="skip">Skip to main content</a>
+
+<nav class="nav" aria-label="Main navigation">
+  <div class="nav-in">
+    <a href="/" class="brand" aria-label="Tesseract OCR home"><svg viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11V3h8M21 3h8v8M29 21v8h-8M11 29H3v-8"/><path d="M3 3l8.5 8.5M29 3l-8.5 8.5M29 29l-8.5-8.5M3 29l8.5-8.5" opacity=".55"/></g><rect x="11" y="11" width="10" height="10" rx="1.2" fill="var(--accent, #C8F542)"/></svg><span>Tesseract<b>OCR</b></span></a>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="/ocr-online/" class="nav-tool" aria-current="page">Online OCR</a></li>
+      <li><a href="/install/">Install</a></li>
+      <li><a href="/python/">Python</a></li>
+      <li><a href="/libraries/">Libraries</a></li>
+      <li><a href="/pdf/">PDF</a></li>
+      <li><a href="/train/">Train</a></li>
+      <li><a href="/api/">API</a></li>
+      <li><a href="/doc/">Docs</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+    <div class="nav-act">
+      <div class="lang-pick" data-lang>
+        <button class="icon-btn" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Change language">EN</button>
+        <ul class="lang-menu" id="lang-menu" role="list" hidden>
+          <li><a href="/ocr-online/" hreflang="en" aria-current="page">English <span>en</span></a></li>
+          <li><a href="/es/ocr-online/" hreflang="es" lang="es">Español <span>es</span></a></li>
+          <li><a href="/pt/ocr-online/" hreflang="pt" lang="pt">Português <span>pt</span></a></li>
+          <li><a href="/de/ocr-online/" hreflang="de" lang="de">Deutsch <span>de</span></a></li>
+          <li><a href="/fr/ocr-online/" hreflang="fr" lang="fr">Français <span>fr</span></a></li>
+          <li><a href="/it/ocr-online/" hreflang="it" lang="it">Italiano <span>it</span></a></li>
+          <li><a href="/ja/ocr-online/" hreflang="ja" lang="ja">日本語 <span>ja</span></a></li>
+          <li><a href="/zh/ocr-online/" hreflang="zh" lang="zh">简体中文 <span>zh</span></a></li>
+          <li><a href="/tr/ocr-online/" hreflang="tr" lang="tr">Türkçe <span>tr</span></a></li>
+          <li><a href="/id/ocr-online/" hreflang="id" lang="id">Bahasa Indonesia <span>id</span></a></li>
+        </ul>
+      </div>
+      <a class="icon-btn gh" href="https://github.com/tesseract-ocr/tesseract" rel="noopener noreferrer">GitHub</a>
+      <button id="theme-toggle" class="icon-btn theme-toggle" aria-label="Toggle light or dark theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></svg>
+      </button>
+      <button class="icon-btn nav-menu" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    </div>
+  </div>
+  <span class="nav-progress" aria-hidden="true"></span>
+</nav>
+
+<main id="main-content">
+<div class="g-layout">
+<article class="g-article">
+  <header class="g-hero">
+    <div class="meta">
+      <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Online OCR</li></ol></nav>
+      <span class="label page-updated">Last updated: <time datetime="2026-11-18">November 18, 2026</time></span>
+    </div>
+    <div class="badge"><i aria-hidden="true"></i>100% Private &amp; In-Browser WebAssembly</div>
+    <h1 data-conf="conf 95.7">Free Online OCR Converter.<br>
+    <span class="rec">Extract Text From Image Instantly.</span></h1>
+    <p class="hero-sub">Convert scanned photos, receipts, documents, and screenshots into editable text. Powered by Tesseract Neural Networks. No file uploads needed—processing happens entirely in your browser.</p>
+  </header>
+
+  <!-- Ezoic slot 101 (top_of_page) — position unchanged: before the tool -->
+  <div class="ezoic-ad-wrapper ad-frame ad-top"><div id="ezoic-pub-ad-placeholder-101"></div></div>
+
+  <section class="tool" id="ocr-tool" aria-label="Extract text">
+    <div class="tool-h"><span class="label">Online OCR · tesseract.js 5.1.1 · 43 languages · PDF ≤ 20 pages · max 20 MB · no upload</span></div>
+    <div class="tool-ctl">
+      <div class="control-group">
+        <label for="language-select">Document language</label>
+        <select id="language-select" class="custom-select">
+            <option value="eng" selected>English (eng)</option>
+            <option value="spa">Español (spa)</option>
+            <option value="por">Português (por)</option>
+            <option value="fra">Français (fra)</option>
+            <option value="deu">Deutsch (deu)</option>
+            <option value="ita">Italiano (ita)</option>
+            <option value="nld">Nederlands (nld)</option>
+            <option value="pol">Polski (pol)</option>
+            <option value="tur">Türkçe (tur)</option>
+            <option value="ind">Bahasa Indonesia (ind)</option>
+            <option value="msa">Bahasa Melayu (msa)</option>
+            <option value="vie">Tiếng Việt (vie)</option>
+            <option value="fil">Filipino (fil)</option>
+            <option value="cat">Català (cat)</option>
+            <option value="ces">Čeština (ces)</option>
+            <option value="slk">Slovenčina (slk)</option>
+            <option value="hun">Magyar (hun)</option>
+            <option value="ron">Română (ron)</option>
+            <option value="hrv">Hrvatski (hrv)</option>
+            <option value="swe">Svenska (swe)</option>
+            <option value="dan">Dansk (dan)</option>
+            <option value="nor">Norsk (nor)</option>
+            <option value="fin">Suomi (fin)</option>
+            <option value="ell">Ελληνικά (ell)</option>
+            <option value="rus">Русский (rus)</option>
+            <option value="ukr">Українська (ukr)</option>
+            <option value="bul">Български (bul)</option>
+            <option value="srp">Српски (srp)</option>
+            <option value="heb">עברית (heb)</option>
+            <option value="ara">العربية (ara)</option>
+            <option value="fas">فارسی (fas)</option>
+            <option value="urd">اردو (urd)</option>
+            <option value="hin">हिन्दी (hin)</option>
+            <option value="mar">मराठी (mar)</option>
+            <option value="ben">বাংলা (ben)</option>
+            <option value="tam">தமிழ் (tam)</option>
+            <option value="tel">తెలుగు (tel)</option>
+            <option value="tha">ไทย (tha)</option>
+            <option value="chi_sim">简体中文 (chi_sim)</option>
+            <option value="chi_tra">繁體中文 (chi_tra)</option>
+            <option value="jpn">日本語 (jpn)</option>
+            <option value="jpn_vert">日本語 縦書き (jpn_vert)</option>
+            <option value="kor">한국어 (kor)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="language2-select">Second language (optional)</label>
+        <select id="language2-select" class="custom-select">
+            <option value="" selected>None</option>
+            <option value="eng">English (eng)</option>
+            <option value="spa">Español (spa)</option>
+            <option value="por">Português (por)</option>
+            <option value="fra">Français (fra)</option>
+            <option value="deu">Deutsch (deu)</option>
+            <option value="ita">Italiano (ita)</option>
+            <option value="nld">Nederlands (nld)</option>
+            <option value="pol">Polski (pol)</option>
+            <option value="tur">Türkçe (tur)</option>
+            <option value="ind">Bahasa Indonesia (ind)</option>
+            <option value="msa">Bahasa Melayu (msa)</option>
+            <option value="vie">Tiếng Việt (vie)</option>
+            <option value="fil">Filipino (fil)</option>
+            <option value="cat">Català (cat)</option>
+            <option value="ces">Čeština (ces)</option>
+            <option value="slk">Slovenčina (slk)</option>
+            <option value="hun">Magyar (hun)</option>
+            <option value="ron">Română (ron)</option>
+            <option value="hrv">Hrvatski (hrv)</option>
+            <option value="swe">Svenska (swe)</option>
+            <option value="dan">Dansk (dan)</option>
+            <option value="nor">Norsk (nor)</option>
+            <option value="fin">Suomi (fin)</option>
+            <option value="ell">Ελληνικά (ell)</option>
+            <option value="rus">Русский (rus)</option>
+            <option value="ukr">Українська (ukr)</option>
+            <option value="bul">Български (bul)</option>
+            <option value="srp">Српски (srp)</option>
+            <option value="heb">עברית (heb)</option>
+            <option value="ara">العربية (ara)</option>
+            <option value="fas">فارسی (fas)</option>
+            <option value="urd">اردو (urd)</option>
+            <option value="hin">हिन्दी (hin)</option>
+            <option value="mar">मराठी (mar)</option>
+            <option value="ben">বাংলা (ben)</option>
+            <option value="tam">தமிழ் (tam)</option>
+            <option value="tel">తెలుగు (tel)</option>
+            <option value="tha">ไทย (tha)</option>
+            <option value="chi_sim">简体中文 (chi_sim)</option>
+            <option value="chi_tra">繁體中文 (chi_tra)</option>
+            <option value="jpn">日本語 (jpn)</option>
+            <option value="jpn_vert">日本語 縦書き (jpn_vert)</option>
+            <option value="kor">한국어 (kor)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="ocr-mode-select">Layout mode</label>
+        <select id="ocr-mode-select" class="custom-select">
+            <option value="3" selected>Automatic page layout (PSM 3)</option>
+            <option value="6">Single block / receipt (PSM 6)</option>
+            <option value="7">Single line of text (PSM 7)</option>
+            <option value="11">Sparse text, banners, graphics (PSM 11)</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="enhance-checkbox"> Enhance contrast (grayscale)</label>
+      </div>
+    </div>
+
+    <div class="tool-ws">
+      <div class="tool-card input-card">
+        <div class="card-header">
+          <h2 class="card-title">1. Add an image or PDF</h2>
+          <button type="button" id="clear-btn" class="btn-text" hidden>Clear</button>
+        </div>
+        <div id="dropzone" class="dropzone" tabindex="0" role="button" aria-label="Choose or drop a file">
+          <input type="file" id="file-input" accept="image/png,image/jpeg,image/webp,image/bmp,image/gif,application/pdf,.pdf" hidden>
+          <div id="dropzone-prompt" class="dropzone-prompt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            <p class="dropzone-title">Drag &amp; drop an image or PDF here</p>
+            <p>PNG, JPG, WEBP, BMP, GIF or PDF (up to 20 pages) · max 20 MB</p>
+            <p class="paste-hint">Tip: paste a screenshot with Ctrl+V / ⌘+V</p>
+            <button type="button" id="browse-btn" class="btn btn-sm">Browse files</button>
+          </div>
+          <div id="preview-container" class="preview-container" hidden>
+            <img id="image-preview" alt="Preview of the selected image">
+            <canvas id="ocr-boxes" hidden aria-hidden="true"></canvas>
+            <p id="file-meta" class="file-meta"></p>
+          </div>
+        </div>
+        <p id="ocr-boxes-legend" class="boxes-legend" hidden><label><input type="checkbox" id="ocr-boxes-toggle" checked> Word boxes</label><span class="hi"><i></i>90–100%</span><span class="mid"><i></i>60–89%</span><span class="lo"><i></i>below 60%</span></p>
+        <div class="sample-images-bar">
+          <span>Or try a sample:</span>
+          <button type="button" class="sample-btn" data-sample="receipt">Receipt</button>
+          <button type="button" class="sample-btn" data-sample="book">Book page</button>
+          <button type="button" class="sample-btn" data-sample="sign">Street sign</button>
+        </div>
+        <button type="button" id="extract-btn" class="btn btn-primary btn-block" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg> Extract text</button>
+        <div id="progress-container" class="progress-container" hidden>
+          <div class="progress-info">
+            <span id="status-text"></span>
+            <span id="progress-percent">0%</span>
+          </div>
+          <div class="progress-bar-track"><div id="progress-bar-fill" class="progress-bar-fill"></div></div>
+        </div>
+        <p id="tool-message" class="tool-message" role="status" aria-live="polite" hidden></p>
+      </div>
+
+      <div class="tool-card output-card">
+        <div class="card-header">
+          <h2 class="card-title">2. Recognized text</h2>
+          <div id="result-stats" class="result-stats" hidden>
+            <span id="word-count-badge" class="stat-badge"></span>
+            <span id="confidence-badge" class="stat-badge badge-success"></span>
+          </div>
+        </div>
+        <textarea id="output-text" dir="auto" aria-label="Recognized text" placeholder="The recognized text appears here. You can edit it before copying or downloading." spellcheck="false"></textarea>
+        <div class="output-actions">
+          <button type="button" id="clean-text-btn" class="btn" disabled title="Remove lines that contain only symbols or stray characters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> <span class="btn-label">Clean text</span></button>
+          <button type="button" id="copy-btn" class="btn" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> <span class="btn-label">Copy</span></button>
+          <button type="button" id="download-txt-btn" class="btn" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> <span class="btn-label">Download TXT</span></button>
+          <button type="button" id="export-pdf-btn" class="btn btn-primary" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg> <span class="btn-label">Searchable PDF</span></button>
+        </div>
+        <div class="ocr-next"><p class="ocr-next-title">What next?</p><div class="ocr-next-links"><a href="/python/" target="_blank" rel="noopener">Tesseract OCR in Python</a><a href="/pdf/" target="_blank" rel="noopener">OCR PDFs and create searchable PDFs</a><a href="/train/" target="_blank" rel="noopener">Train Tesseract on custom fonts</a></div></div>
+      </div>
+    </div>
+  </section>
+  <!-- inline TOC (< 1200 px) sits below the tool on this page so the tool stays near the top -->
+  <details class="toc-inline"><summary class="label">On this page</summary>
+    <ol class="toc" data-toc>
+      <li><a href="#tested-heading">Tested on 16 images: what this tool returns</a></li><li><a href="#native-heading">Browser vs native Tesseract on the same images</a></li><li><a href="#why-heading">Why choose Tesseract Online OCR?</a></li><li><a href="#languages-heading">The 43 supported languages, by script</a></li><li><a href="#how-heading">How to extract text from images</a></li><li><a href="#privacy-heading">Privacy: your file stays in the browser</a></li><li><a href="#faq-heading">Frequently asked questions</a></li><li><a href="#related-heading">Next steps</a></li>
+    </ol>
+  </details>
+  <p class="small tool-foot">Your file is read by Tesseract compiled to WebAssembly, inside this tab. The engine (tesseract.js 5.1.1, a Tesseract 5.1.0 development build) and the language model download from cdn.jsdelivr.net the first time you use a language; the image itself is never sent anywhere (<a class="text-link" href="#privacy-heading">network capture below</a>).</p>
+  <span class="src">Source: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online" rel="noopener">bench/ocr-online</a> (results/meta.json: wasm build string 5.1.0-280-ge20b) · tool code: <a href="/assets/ocr-tool.js">/assets/ocr-tool.js</a></span>
+
+  <!-- Ezoic slot 111 (mid_content) — position unchanged: after the tool -->
+  <div class="ezoic-ad-wrapper ad-frame ad-mid"><div id="ezoic-pub-ad-placeholder-111"></div></div>
+
+  <section class="g-sec" id="tested" aria-labelledby="tested-heading">
+    <span class="sec-ix">Tested</span>
+    <h2 id="tested-heading">Tested on 16 images: what this tool returns</h2>
+    <p>We ran this page's own tool, unchanged, on 16 test images with Playwright and scored the text it returned against the known ground truth. Default settings: Layout mode PSM 3, Enhance contrast off, the image's language selected.</p>
+    <aside class="tested" aria-label="Tested on">
+      <div class="tested-h"><span class="label">Tested on · 2026-11-18</span><a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online" rel="noopener">test kit + raw outputs →</a></div>
+      <ul>
+        <li><b>Chromium 157.0.8103.78 (headless)</b><span>Playwright 1.63.0 · development container</span><span>Intel(R) Xeon(R) Processor @ 2.10GHz · 4 cores</span></li>
+        <li><b>tesseract.js 5.1.1</b><span>core build 5.1.0-280-ge20b (simd-lstm)</span><span>models 4.0.0_best_int</span></li>
+        <li><b>Native Tesseract 5.5.4</b><span>--oem 1 --psm 3, no preprocessing</span><span>tessdata + tessdata_best</span></li>
+      </ul>
+    </aside>
+    <div class="table-wrap"><table class="num" aria-label="Online OCR tool results on 16 test images">
+      <thead><tr><th>Test image (synthetic)</th><th>CER in this tool</th><th>Confidence shown</th><th>Native 5.5.4 CER</th></tr></thead>
+      <tbody>
+        <tr><td>Receipt, clean monospace</td><td>0.00%</td><td>93%</td><td>0.28%</td></tr>
+        <tr><td>Receipt, faded thermal print</td><td>1.08%</td><td>89%</td><td>1.63%</td></tr>
+        <tr><td>Receipt, simulated phone photo</td><td><strong>26.56%</strong></td><td>82%</td><td>20.09%</td></tr>
+        <tr><td>Book page, 300 DPI</td><td>0.00%</td><td>95%</td><td>0.00%</td></tr>
+        <tr><td>Book page, 150 DPI</td><td>0.18%</td><td>95%</td><td>0.18%</td></tr>
+        <tr><td>Page, simulated phone photo (level 1)</td><td>0.36%</td><td>95%</td><td>0.36%</td></tr>
+        <tr><td>Page, simulated phone photo (level 2)</td><td>0.00%</td><td>95%</td><td>0.39%</td></tr>
+        <tr><td>Page skewed 5°</td><td>0.17%</td><td>95%</td><td>0.84%</td></tr>
+        <tr><td>Sideways page (90°)</td><td>0.00%</td><td>95%</td><td><strong>84.93%</strong></td></tr>
+        <tr><td>Upside-down page (180°)</td><td>0.00%</td><td>95%</td><td><strong>84.42%</strong></td></tr>
+        <tr><td>Two-column page</td><td>0.00%</td><td>95%</td><td>0.00%</td></tr>
+        <tr><td>App screenshot, dark mode</td><td>7.49%</td><td>95%</td><td>8.01%</td></tr>
+        <tr><td>Dashboard screenshot, light mode</td><td>61.52%</td><td>93%</td><td>61.52%</td></tr>
+        <tr><td>Russian page</td><td>0.35%</td><td>94%</td><td>0.35%</td></tr>
+        <tr><td>Simplified Chinese page</td><td>5.08%</td><td>88%</td><td>88.81%</td></tr>
+        <tr><td>Arabic page (after our fix)</td><td>1.25%</td><td>88%</td><td>2.12%</td></tr>
+      </tbody></table></div>
+    <span class="src">Source: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online/results-2026-11-18-rtl-fix</a> (before_after.csv, browser_runs.json) · CER = character error rate, lower is better · native = tessdata (standard) · Chromium 157 headless, Intel Xeon @ 2.10GHz, 4 cores · tesseract.js 5.1.1 · 2026-11-18</span>
+    <p>How to read it. <strong>Confidence shown</strong> is the badge the tool displays (Tesseract's mean word confidence). It stayed at 82–95% on every image, including the dashboard with 61.52% CER, so a high badge does not prove the text is right. The dashboard's words were all found (100% word recall), but in column order instead of the page's reading order, which CER counts as errors.</p>
+    <figure class="fig">
+  <picture>
+    <source type="image/avif" srcset="/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.avif 1x, /assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result@2x.avif 2x">
+    <source type="image/webp" srcset="/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.webp 1x, /assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result@2x.webp 2x">
+    <img src="/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result.jpg" srcset="/assets/img/ocr-online/online-ocr-tool-sideways-page-word-boxes-result@2x.jpg 2x" width="820" height="867" loading="lazy" decoding="async"
+         alt="Online OCR tool after reading a sideways page: the page turned upright with green word boxes, 105 words at 95% confidence">
+  </picture>
+  <figcaption><span class="label">Fig. 1</span><span>The tool found that the page was sideways, read it upright and outlined every word in green (90–100% confidence): 0.00% character errors. Synthetic test page.</span><small>Tested on development container, Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores, Chromium 157.0.8103.78 · Tesseract 5.1.0-280 · 2026-11 · synthetic test image · <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online</a></small></figcaption>
+</figure>
+  </section>
+
+  <section class="g-sec" id="native" aria-labelledby="native-heading">
+    <h2 id="native-heading">Browser vs native Tesseract on the same images</h2>
+    <p>The browser engine is an older Tesseract build (5.1.0 development snapshot, <code>best_int</code> models) than the current native release (5.5.4). On these 16 images that mattered less than the tool's own steps.</p>
+    <ul class="kpis">
+      <li><b>0.00%</b><span>clean page, two-column page: same CER as native 5.5.4</span></li>
+      <li><b class="good">0.00%</b><span>sideways page in the tool vs 84.93% native PSM 3</span></li>
+      <li><b class="good">5.08%</b><span>Chinese in the tool vs 88.81% native (spaces)</span></li>
+      <li><b class="bad">26.56%</b><span>receipt phone photo vs 20.09% native</span></li>
+    </ul>
+    <span class="src">Source: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online/results-2026-11-18-rtl-fix</a> (comparison.csv) · native: tesseract 5.5.4 --oem 1 --psm 3, tessdata · 2026-11-18</span>
+    <ul class="list">
+      <li><strong>Clean pages match.</strong> The 300 DPI page, the two-column page and the Russian page came out at exactly the same CER as native 5.5.4 (0.00%, 0.00%, 0.35%); the 150 DPI page at 0.18% in both.</li>
+      <li><strong>Sideways and upside-down pages: the tool wins.</strong> When the first pass scores below 50% confidence, the tool tries the other three orientations on a smaller copy and keeps a clearly better one. Both rotated pages came out at 0.00% CER. Plain <code>tesseract --psm 3</code> does not turn pages and returned 84.93% and 84.42% CER; native Tesseract needs orientation detection (<code>--psm 1</code>) for that.</li>
+      <li><strong>Chinese: the tool wins on spacing.</strong> Native Tesseract put a space between almost every character (88.81% CER). The tool sets <code>preserve_interword_spaces=1</code>, which removes them: 5.08%.</li>
+      <li><strong>Receipt photos: native is better.</strong> The simulated phone photo of a receipt was the hardest image for both, 26.56% in the tool and 20.09% natively. For crumpled or shaded receipts, try Layout mode PSM 6 and Enhance contrast, or crop to the text.</li>
+    </ul>
+    <h3 id="arabic-fix">Arabic: a bug in this tool, found and fixed</h3>
+    <p>Our first run of the tool on an Arabic page returned 16.00% CER against 2.12% for native Tesseract, with one whole line missing and words glued together (<span lang="ar" dir="rtl">لحقوقالإنسان</span>, <span lang="ar" dir="rtl">فيالعالم</span>). It was the tool's fault, not tesseract.js:</p>
+    <ul class="list">
+      <li><strong>Glued words:</strong> <code>preserve_interword_spaces=1</code>, which the tool sets to fix Chinese and Japanese spacing, drops the spaces between Arabic words. Native Tesseract 5.5.4 does the same with that setting. The tool now turns it off when the document or second language is written right to left (Arabic, Persian, Urdu, Hebrew and other RTL codes).</li>
+      <li><strong>Missing line:</strong> the tool drops lines below 30% confidence as noise. Tesseract scored the missing line 27% because its first word scored 27%; the other 15 words scored 89–93%. The tool now judges a line by the mean confidence of its words.</li>
+    </ul>
+    <!-- chart:ocr-online-arabic-cer-before-after-chart -->
+<figure class="chart" id="ocr-online-arabic-cer-before-after-chart">
+<svg class="chart-svg" viewBox="0 0 820 288" width="820" height="288" role="img" aria-labelledby="ocr-online-arabic-cer-before-after-chart-t ocr-online-arabic-cer-before-after-chart-d" xmlns="http://www.w3.org/2000/svg"><title id="ocr-online-arabic-cer-before-after-chart-t">Arabic test page: character error rate</title><desc id="ocr-online-arabic-cer-before-after-chart-d">Online tool before the RTL fix: 16.00% CER; after the fix: 1.25%; native Tesseract 5.5.4 with tessdata: 2.12%; with tessdata_best: 1.38%.</desc><text class="ch-title" x="0" y="18">Arabic test page: character error rate</text><line class="ch-grid" x1="190.0" x2="190.0" y1="56" y2="228"/><text class="ch-tick" x="190.0" y="244" text-anchor="middle">0%</text><line class="ch-grid" x1="330.0" x2="330.0" y1="56" y2="228"/><text class="ch-tick" x="330.0" y="244" text-anchor="middle">5%</text><line class="ch-grid" x1="470.0" x2="470.0" y1="56" y2="228"/><text class="ch-tick" x="470.0" y="244" text-anchor="middle">10%</text><line class="ch-grid" x1="610.0" x2="610.0" y1="56" y2="228"/><text class="ch-tick" x="610.0" y="244" text-anchor="middle">15%</text><line class="ch-grid" x1="750.0" x2="750.0" y1="56" y2="228"/><text class="ch-tick" x="750.0" y="244" text-anchor="middle">20%</text><text class="ch-cat" x="178" y="81.0" text-anchor="end">online tool · before fix</text><rect class="ch-bar ch-base-bar" x="190" y="64" width="448.0" height="26" rx="3"/><text class="ch-val" x="646.0" y="81.0">16.00%</text><text class="ch-cat" x="178" y="121.0" text-anchor="end">online tool · after fix</text><rect class="ch-bar ch-good" x="190" y="104" width="35.0" height="26" rx="3"/><text class="ch-val" x="233.0" y="121.0">1.25%</text><text class="ch-cat" x="178" y="161.0" text-anchor="end">native 5.5.4 · tessdata</text><rect class="ch-bar ch-base-bar" x="190" y="144" width="59.5" height="26" rx="3"/><text class="ch-val" x="257.5" y="161.0">2.12%</text><text class="ch-cat" x="178" y="201.0" text-anchor="end">native 5.5.4 · best</text><rect class="ch-bar ch-base-bar" x="190" y="184" width="38.5" height="26" rx="3"/><text class="ch-val" x="236.5" y="201.0">1.38%</text><text class="ch-axis" x="190" y="46">Character error rate on one synthetic Arabic UDHR page (lower is better)</text><line class="ch-foot-rule" x1="0" x2="820" y1="262" y2="262"/><text class="ch-foot" x="0" y="280">Source: tesseractocr.org test lab · data: github.com/dencyclopedia/test · 2026-11-18</text><g class="ch-mark" opacity=".35" transform="translate(804,268) scale(.5)"><g fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11V3h8M21 3h8v8M29 21v8h-8M11 29H3v-8"/><path d="M3 3l8.5 8.5M29 3l-8.5 8.5M29 29l-8.5-8.5M3 29l8.5-8.5" opacity=".55"/></g><rect x="11" y="11" width="10" height="10" rx="1.2" fill="#C8F542"/></g></svg>
+<figcaption>After the fix the online tool reads the Arabic test page at 1.25% CER, down from 16.00% and in line with native Tesseract 5.5.4.<small>Chromium 157, tesseract.js 5.1.1 · native Tesseract 5.5.4 · development container, Intel Xeon @ 2.10GHz · 2026-11-18 · data: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online/results-2026-11-18-rtl-fix</a> · <a href="/assets/img/ocr-online/ocr-online-arabic-cer-before-after-chart.png">PNG</a> · <a href="/assets/img/ocr-online/ocr-online-arabic-cer-before-after-chart.svg">SVG</a></small></figcaption>
+<details><summary>Data table</summary><div class="table-wrap data-table"><table><thead><tr><th>Model</th><th>Character error rate on one synthetic Arabic UDHR page (lower is better)</th></tr></thead><tbody><tr><td>online tool · before fix</td><td>16.00%</td></tr><tr><td>online tool · after fix</td><td>1.25%</td></tr><tr><td>native 5.5.4 · tessdata</td><td>2.12%</td></tr><tr><td>native 5.5.4 · best</td><td>1.38%</td></tr></tbody></table></div></details>
+</figure>
+<!-- /chart:ocr-online-arabic-cer-before-after-chart -->
+    <p>With both changes the same Arabic page scores <strong>1.25% CER</strong> (word recall 67.4% → 94.1%), now slightly better than native 5.5.4 with the standard model (2.12%) and the best model (1.38%). The other 15 images gave exactly the same text before and after the fix. We tested one Arabic page; Persian, Urdu and Hebrew get the same fix but we have not measured them.</p>
+    <figure class="fig">
+  <picture>
+    <source type="image/avif" srcset="/assets/img/ocr-online/online-ocr-arabic-text-before-after-rtl-fix.avif 1x">
+    <source type="image/webp" srcset="/assets/img/ocr-online/online-ocr-arabic-text-before-after-rtl-fix.webp 1x">
+    <img src="/assets/img/ocr-online/online-ocr-arabic-text-before-after-rtl-fix.jpg" width="820" height="755" loading="lazy" decoding="async"
+         alt="Arabic OCR output of the online tool before the fix (16.00% CER, glued words, a line missing) and after it (1.25% CER)">
+  </picture>
+  <figcaption><span class="label">Fig. 2</span><span>Before the fix the tool glued Arabic words together and dropped a whole line (16.00% CER); after it the same page reads at 1.25% CER. Synthetic UDHR test page.</span><small>Tested on development container, Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores, Chromium 157.0.8103.78 · Tesseract 5.1.0-280 · 2026-11 · synthetic test image · <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online</a></small></figcaption>
+</figure>
+  </section>
+
+  <section class="g-sec" id="why" aria-labelledby="why-heading">
+    <h2 id="why-heading">Why choose Tesseract Online OCR?</h2>
+    <p>It is the open-source Tesseract engine with no account, no upload and no watermark, and with the extra steps a browser tool needs to cope with photos and screenshots. What it does, as the code and our tests show:</p>
+    <ul class="list">
+      <li><strong>Private:</strong> recognition runs in a Web Worker in your tab; we captured every network request during a run (below) and none carried the image.</li>
+      <li><strong>43 languages</strong> in the menu, and a second language for mixed documents (for example <code>deu</code> + <code>eng</code>).</li>
+      <li><strong>Preprocessing that runs before Tesseract:</strong> images narrower than 1,200 px are upscaled, uneven lighting is flattened, light-on-dark screenshots are inverted, and dark panels in a light screenshot get a second, inverted pass.</li>
+      <li><strong>Automatic orientation retry</strong> for sideways and upside-down pages (0.00% CER on both test pages).</li>
+      <li><strong>Exports:</strong> copy, a <code>.txt</code> file, or a searchable PDF made by Tesseract's own PDF renderer (image plus an invisible text layer).</li>
+      <li><strong>SIMD WebAssembly:</strong> in our Chromium runs tesseract.js loaded its SIMD build (<code>tesseract-core-simd-lstm</code>). It uses one worker, so pages are recognised one after another, not in parallel.</li>
+    </ul>
+    <div class="check"><span class="label">We checked · claims this page used to make</span><p>Earlier versions of this page said "100+ languages", "no page or usage limits", "multi-threading" and "click Extract Text Now". The menu has 43 languages, the code stops at 20 PDF pages and 20 MB per file, the tool runs a single tesseract.js worker, and the button says <strong>Extract text</strong>. All four are corrected here.</p><span class="src">Source: <a href="/assets/ocr-tool.js">/assets/ocr-tool.js</a> (MAX_PDF_PAGES = 20, MAX_FILE_BYTES = 20 MB, createWorker) and the language menu above · checked 2026-11-18</span></div>
+  </section>
+
+  <section class="g-sec" id="languages" aria-labelledby="languages-heading">
+    <h2 id="languages-heading">The 43 supported languages, by script</h2>
+    <p>Every language in the Document language menu, grouped by writing system. Where we measured a script, the CER is shown: native Tesseract 5.5.4 with tessdata_best on two clean 300 DPI pages per language, and this tool on one page.</p>
+    <div class="table-wrap"><table aria-label="Languages in the online OCR tool by script, with measured character error rate">
+      <thead><tr><th>Script</th><th>Languages (code)</th><th>Measured CER</th></tr></thead>
+      <tbody>
+        <tr><td>Latin</td><td>English (eng), Spanish (spa), Portuguese (por), French (fra), German (deu), Italian (ita), Dutch (nld), Polish (pol), Turkish (tur), Indonesian (ind), Malay (msa), Vietnamese (vie), Filipino (fil), Catalan (cat), Czech (ces), Slovak (slk), Hungarian (hun), Romanian (ron), Croatian (hrv), Swedish (swe), Danish (dan), Norwegian (nor), Finnish (fin)</td><td>native: eng, deu, ita, por, vie 0.00%; spa 0.07%; fra 0.27% · tool: eng 0.00% (book page)</td></tr>
+        <tr><td>Greek</td><td>Greek (ell)</td><td>not tested</td></tr>
+        <tr><td>Cyrillic</td><td>Russian (rus), Ukrainian (ukr), Bulgarian (bul), Serbian (srp)</td><td>native: rus 0.18% · tool: rus 0.35%</td></tr>
+        <tr><td>Hebrew</td><td>Hebrew (heb)</td><td>not tested</td></tr>
+        <tr><td>Arabic</td><td>Arabic (ara), Persian (fas), Urdu (urd)</td><td>native: ara 1.98% · tool: ara 1.25% (after the fix)</td></tr>
+        <tr><td>Devanagari</td><td>Hindi (hin), Marathi (mar)</td><td>native: hin 0.65%</td></tr>
+        <tr><td>Bengali, Tamil, Telugu</td><td>Bengali (ben), Tamil (tam), Telugu (tel)</td><td>not tested</td></tr>
+        <tr><td>Thai</td><td>Thai (tha)</td><td>not tested</td></tr>
+        <tr><td>Chinese</td><td>Simplified (chi_sim), Traditional (chi_tra)</td><td>native: chi_sim 3.46% ignoring spaces · tool: chi_sim 5.08%</td></tr>
+        <tr><td>Japanese</td><td>Japanese (jpn), vertical Japanese (jpn_vert)</td><td>native: jpn 1.41% ignoring spaces</td></tr>
+        <tr><td>Korean</td><td>Korean (kor)</td><td>native: kor 13.11%</td></tr>
+      </tbody></table></div>
+    <span class="src">Source: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/languages" rel="noopener">bench/languages</a> (results/summary.csv, model best) and <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online/results-2026-11-18-rtl-fix</a> · native Tesseract 5.5.4 · synthetic UDHR pages · 2026-11-18</span>
+    <p>Korean was the weakest script natively (13.11% CER with tessdata_best); we have not run it through the browser tool. For a language that is not in the menu, the desktop engine has more: see <a class="text-link" href="/install/">installing Tesseract</a> with extra language data.</p>
+  </section>
+
+  <section class="g-sec" id="how" aria-labelledby="how-heading">
+    <h2 id="how-heading">How to extract text from images</h2>
+    <h3 id="video">Video: get clean text from any image</h3>
+    <p>A 3-minute walkthrough of this tool, including the layout mode setting that fixes most messy results.</p>
+    <figure class="video" style="margin:0">
+      <div class="video-frame"><script data-ezscrex="false" data-cfasync="false">(window.openVideoPlayers = window.openVideoPlayers || []).push({target: document.currentScript, videoID: 'JmgPie_yHWu'});</script></div>
+      <figcaption class="label">3:06 · English narration with on-screen captions</figcaption>
+    </figure>
+    <script async data-ezscrex="false" data-cfasync="false" src="https://open.video/video.js"></script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "Extract Text from Images & PDFs Free: Online OCR Step by Step", "description": "Got messy or missing text from a photo? This walkthrough of the free online OCR tool on tesseractocr.org shows how to add files (drag & drop, browse, paste), pick the language, choose the right layout mode (watch the receipt prices come back), enhance contrast, use the results and save searchable PDFs — all processed privately in your browser.", "thumbnailUrl": ["https://video-meta.open.video/poster/8CqCMz4dsRtt/t1792132058_poster.005.jpg"], "uploadDate": "2026-10-16T06:25:20+00:00", "duration": "PT3M6S", "embedUrl": "https://open.video/embed?contentId=JmgPie_yHWu", "inLanguage": "en", "publisher": {"@type": "Organization", "@id": "https://tesseractocr.org/#organization", "name": "TesseractOCR.org", "url": "https://tesseractocr.org/"}}</script>
+    <h3 id="steps">Step by step</h3>
+    <ol class="list">
+      <li><strong>Add the file.</strong> Drag and drop an image or PDF onto the box, click Browse files, or paste a screenshot with Ctrl+V / ⌘+V.</li>
+      <li><strong>Pick the language</strong> of the document. Add a second language if the text mixes two (each one is a separate model download the first time).</li>
+      <li><strong>Choose a layout mode</strong> if the default fails: <em>Automatic page layout (PSM 3)</em> for pages, <em>Single block / receipt (PSM 6)</em> for receipts and forms, <em>Single line (PSM 7)</em> for one cropped line, <em>Sparse text (PSM 11)</em> for signs, banners and graphics.</li>
+      <li><strong>Click Extract text.</strong> On desktop the word boxes appear over your image, coloured by confidence: 90–100%, 60–89% and below 60%. Red boxes are the words to check.</li>
+      <li><strong>Use the result:</strong> edit it in the box, then Copy, Download TXT or Searchable PDF. Clean text removes lines that hold only symbols or stray letters.</li>
+    </ol>
+  </section>
+
+  <section class="g-sec" id="privacy" aria-labelledby="privacy-heading">
+    <h2 id="privacy-heading">Privacy: your file stays in the browser</h2>
+    <p>We recorded every request the page made while the tool read a receipt, with Playwright's network log. The only requests were downloads: the tesseract.js script, its worker and WebAssembly core, and the English model, all from cdn.jsdelivr.net. No request had a body, so the image was not sent anywhere.</p>
+    <div class="term"><div class="term-h"><div class="dots" aria-hidden="true"><i></i><i></i><i></i></div><div class="t">privacy_network.json · requests while the tool read receipt01 (42,474-byte PNG)</div></div><pre class="term-b">GET cdn.jsdelivr.net /npm/tesseract.js@5.1.1/dist/tesseract.min.js  body 0
+GET cdn.jsdelivr.net /npm/tesseract.js@v5.1.1/dist/worker.min.js  body 0
+GET cdn.jsdelivr.net /npm/tesseract.js-core@v5.1.1/tesseract-core-simd-lstm.wasm.js  body 0
+GET cdn.jsdelivr.net /npm/@tesseract.js-data/eng/4.0.0_best_int/eng.traineddata.gz  body 0
+<span class="c">requests_with_body: 0 · non_get_requests: 0</span>
+<span class="c">offline, 2nd page: 1,209 characters read · requests_while_offline: []</span></pre></div>
+<span class="src">Source: <a href="https://github.com/dencyclopedia/test/tree/claude/upbeat-volta-fdndl6/bench/ocr-online/results-2026-11-18-rtl-fix" rel="noopener">bench/ocr-online/results-2026-11-18-rtl-fix</a> (privacy_network.js, privacy_network.json) · Chromium 157 headless, Playwright 1.63.0 · ad, consent and analytics scripts were blocked in this test, so the log shows the tool's own requests · 2026-11-18</span>
+<p>The same capture answers the offline question: after that first run we switched the browser offline and the tool read a second page (1,209 characters) with zero network requests, because the engine and the English model were already loaded. The ads and analytics on this page make their own requests, as on any page of the site; see the <a class="text-link" href="/privacy/">privacy policy</a>.</p>
+  </section>
+
+  <section class="g-sec" id="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Frequently asked questions</h2>
+    <div class="faq" style="margin-top:24px">
+      <details class="faq-item"><summary>Is the online OCR free?</summary><div class="ans"><p>Yes. The tool is free, needs no sign-up and adds no watermark. Its limits are technical: a file can be up to 20 MB, and from a PDF the first 20 pages are recognised.</p></div></details>
+      <details class="faq-item"><summary>Are my images uploaded to a server?</summary><div class="ans"><p>No. OCR runs in your browser with tesseract.js, Tesseract compiled to WebAssembly. Only the engine and the language model are downloaded, from cdn.jsdelivr.net. We recorded every network request during a run with Playwright: all were downloads and none carried the image.</p></div></details>
+      <details class="faq-item"><summary>Which file formats are supported?</summary><div class="ans"><p>PNG, JPG/JPEG, WEBP, BMP and GIF images, plus PDF files of up to 20 pages — each page is rendered and recognized in your browser. You can download the result as plain text or as a searchable PDF. For larger batches, use the command-line or Python workflow in the <a href="/pdf/">PDF guide</a>.</p></div></details>
+      <details class="faq-item"><summary>Which languages can it recognize?</summary><div class="ans"><p>43 languages in 13 writing systems, including English, Spanish, Portuguese, German, French, Italian, Japanese, Chinese, Turkish, Indonesian, Russian, Arabic, Hindi and Korean. You can pick a second language for documents that mix two. The full list is in the language table on this page.</p></div></details>
+      <details class="faq-item"><summary>Is there a page or file size limit?</summary><div class="ans"><p>Yes: 20 MB per file and 20 pages per PDF. A longer PDF is not rejected; the tool reads the first 20 pages and tells you how many it skipped. Very large images are scaled down to 16 megapixels before recognition. For long documents, use OCRmyPDF or the Tesseract command line on your computer.</p></div></details>
+      <details class="faq-item"><summary>Does it work offline or on a phone?</summary><div class="ans"><p>After the first run, yes for the same language: in our test we switched the browser offline and the tool still read a second page, because the engine and the model were already loaded. The first use of each language needs a connection to download the model. On phones the page uses a one-column layout and scales images above 16 megapixels down; we have tested it in Chromium at a phone-sized screen, not on physical phones.</p></div></details>
+      <details class="faq-item"><summary>Why is my output garbled or in the wrong order?</summary><div class="ans"><p>Check the language first: the wrong model produces nonsense. Then try another Layout mode: Single block (PSM 6) for receipts, Sparse text (PSM 11) for signs and graphics. Tick Enhance contrast for faded or grey scans, and crop photos to the text. In our tests a phone photo of a receipt had 26.56% character errors, and a dashboard screenshot was read column by column (all words found, in a different order). A high confidence badge does not prove the text is correct.</p></div></details>
+      <details class="faq-item"><summary>How accurate is it compared with desktop Tesseract?</summary><div class="ans"><p>On clean pages it gave the same result as native Tesseract 5.5.4 in our 16-image test (0.00% character errors on a 300 DPI page). It was better on sideways and upside-down pages (0.00% vs 84.93% and 84.42%) and on Chinese spacing, and worse on a receipt photo (26.56% vs 20.09%). The browser engine is tesseract.js 5.1.1, built from a Tesseract 5.1.0 development snapshot.</p></div></details>
+    </div>
+  </section>
+
+  <section class="g-sec" data-related="ocr_footer" aria-labelledby="related-heading">
+    <h2 id="related-heading">Next steps</h2>
+    <p>Automate what the tool does, or go further than a browser can.</p>
+    <nav class="related" aria-label="Related guides"><a href="/python/"><strong>Tesseract OCR in Python</strong><span>pytesseract, preprocessing, confidence scores and common errors.</span></a><a href="/pdf/"><strong>OCR PDFs and create searchable PDFs</strong><span>CLI, OCRmyPDF and Python pipelines for scanned PDFs.</span></a><a href="/install/"><strong>Install Tesseract on Windows, macOS &amp; Linux</strong><span>Packages, PATH setup, language data and verification.</span></a><a href="/train/"><strong>Train Tesseract on custom fonts</strong><span>Fine-tune models with tesstrain and measure CER.</span></a></nav>
+  </section>
+  <div class="g-end"></div>
+</article>
+
+<aside class="g-rail" aria-label="On this page and advertisement">
+  <nav aria-labelledby="rail-toc-title">
+    <div class="toc-title"><p class="label" id="rail-toc-title" style="margin:0">On this page</p><span class="toc-pct" aria-hidden="true">0%</span></div>
+    <ol class="toc" data-toc>
+      <li><a href="#tested-heading">Tested on 16 images: what this tool returns</a></li><li><a href="#native-heading">Browser vs native Tesseract on the same images</a></li><li><a href="#why-heading">Why choose Tesseract Online OCR?</a></li><li><a href="#languages-heading">The 43 supported languages, by script</a></li><li><a href="#how-heading">How to extract text from images</a></li><li><a href="#privacy-heading">Privacy: your file stays in the browser</a></li><li><a href="#faq-heading">Frequently asked questions</a></li><li><a href="#related-heading">Next steps</a></li>
+    </ol>
+  </nav>
+  <!-- Ezoic slot 107: rail, floats via Ezoic (sidebar_floating_1). The rail is a tall track; no own sticky layer. -->
+  <div class="ezoic-ad-wrapper ad-frame rail-ad" data-ad-min-vw="1200"><div id="ezoic-pub-ad-placeholder-107"></div></div>
+</aside>
+</div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><a href="/" class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11V3h8M21 3h8v8M29 21v8h-8M11 29H3v-8"/><path d="M3 3l8.5 8.5M29 3l-8.5 8.5M29 29l-8.5-8.5M3 29l8.5-8.5" opacity=".55"/></g><rect x="11" y="11" width="10" height="10" rx="1.2" fill="var(--accent, #C8F542)"/></svg><span>Tesseract<b>OCR</b></span></a><p style="margin-top:16px;max-width:44ch">Independent, tested guides to the open-source Tesseract OCR engine — plus a free online OCR tool.</p></div>
+      <div class="lg"><h4>Developer resources</h4><a href="/install/">Install guide</a><a href="/python/">Python guide</a><a href="/csharp/">C# / .NET guide</a><a href="/libraries/">Libraries</a><a href="/pdf/">PDF guide</a><a href="/train/">Train guide</a><a href="/api/">API guide</a></div>
+      <div class="lg"><h4>Community</h4><a href="https://github.com/tesseract-ocr/tesseract" rel="noopener">GitHub</a><a href="https://groups.google.com/g/tesseract-ocr" rel="noopener">Forum</a><a href="https://github.com/tesseract-ocr/tesseract/releases" rel="noopener">Releases</a></div>
+    </div>
+    <nav class="foot-pages" aria-label="Site pages"><a href="/">Home</a><a href="/install/">Install</a><a href="/python/">Python</a><a href="/csharp/">C#</a><a href="/libraries/">Libraries</a><a href="/pdf/">PDF</a><a href="/train/">Train</a><a href="/api/">API</a><a href="/doc/">Docs</a><a href="/ocr-online/">Online OCR</a><a href="/about/">About</a><a href="/privacy/">Privacy policy</a></nav>
+    <small>Released under the Apache 2.0 License. Maintained by the open source community.<br><strong>Disclaimer:</strong> TesseractOCR.org is an independent, community-driven documentation project and is not affiliated with, endorsed by, or connected to the official Tesseract OCR project or its maintainers.</small>
+  </div>
+</footer>
+
+<script type="application/json" id="ocr-i18n">{"preparing": "Preparing image…", "loadingModel": "Loading OCR engine and language data…", "recognizing": "Recognizing text…", "recognizingPage": "Recognizing page {n} of {total}…", "renderingPage": "Reading PDF page {n} of {total}…", "pageLabel": "Page {n}", "words": "{n} words", "confidence": "Confidence: {n}%", "cleaned": "Cleaned", "copied": "Copied!", "noText": "No text was found. Try another layout mode, the correct language or a sharper image.", "errType": "Unsupported file. Please choose a PNG, JPG, WEBP, BMP or GIF image, or a PDF.", "errSize": "The file is larger than 20 MB. Please use a smaller file.", "errDecode": "This file could not be read.", "errOcr": "Text recognition failed. Check your connection (the language model downloads on first use) and try again.", "errPdf": "The PDF could not be created.", "warnPages": "Only the first {max} of {total} pages will be processed.", "buildingPdf": "Building the PDF…"}</script>
+<script src="/assets/ocr-tool.js?v=4" defer></script>
+<script src="/assets/lab/lab.min.js?v=20261118" defer></script>
+</body>
+</html>
