@@ -1,0 +1,17 @@
+label,id,lang,runs,median_s,min_s,max_s,cold_first_use_s,statuses,output_chars
+receipt,receipt/receipt01_dejavu-mono,eng,5,1.84,1.67,1.84,1.9,ok,623
+receipt-faded,receipt/receipt02_courier10_faded,eng,5,2.5,2.49,2.51,,ok,628
+receipt-phone,receipt/receipt05_carlito_phone1,eng,5,2.59,2.56,2.6,,ok,330
+page,clean/austen_dejavu-serif_300,eng,5,3.83,3.81,3.83,,ok,1209
+page-lowres-150dpi,clean/doyle_carlito_150,eng,5,2.41,2.31,2.42,,ok,1145
+phone-sim,degraded/doyle_carlito_phone1,eng,5,3.7,3.69,3.71,,ok,565
+phone-sim-strong,degraded/austen_dejavu-serif_phone2,eng,5,5.04,5.01,5.05,,ok,524
+skew-5deg,degraded/carroll_inter_skew5,eng,5,2.81,2.74,2.86,,ok,593
+sideways-90,layout/rotated90_doyle_caladea,eng,5,6.97,6.96,7.01,,ok,564
+upside-down-180,layout/rotated180_austen_carlito,eng,5,6.5,6.47,6.5,,ok,523
+two-column,layout/twocolumn01_dejavu-serif,eng,5,3.43,3.41,3.45,,ok,1154
+screenshot-dark,screenshot/settings_dark_1x,eng,5,1.22,1.16,1.27,,ok,367
+screenshot-light,screenshot/dashboard_light_1x,eng,5,1.31,1.29,1.36,,ok,409
+non-latin-rus,multilingual/rus_p1_dejavu-serif,rus,5,3.15,3.12,3.16,3.37,ok,851
+non-latin-chi_sim,multilingual/chi_sim_p1_noto-sans-sc,chi_sim,5,2.63,2.62,2.66,2.73,ok,300
+non-latin-ara,multilingual/ara_p1_noto-naskh-arabic,ara,5,2.71,2.68,2.73,2.87,ok,807

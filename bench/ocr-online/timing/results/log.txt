@@ -1,0 +1,16 @@
+{"label":"receipt","id":"receipt/receipt01_dejavu-mono","lang":"eng","runs":5,"median_s":1.84,"min_s":1.67,"max_s":1.84,"cold_first_use_s":1.9,"statuses":"ok","output_chars":623}
+{"label":"receipt-faded","id":"receipt/receipt02_courier10_faded","lang":"eng","runs":5,"median_s":2.5,"min_s":2.49,"max_s":2.51,"cold_first_use_s":"","statuses":"ok","output_chars":628}
+{"label":"receipt-phone","id":"receipt/receipt05_carlito_phone1","lang":"eng","runs":5,"median_s":2.59,"min_s":2.56,"max_s":2.6,"cold_first_use_s":"","statuses":"ok","output_chars":330}
+{"label":"page","id":"clean/austen_dejavu-serif_300","lang":"eng","runs":5,"median_s":3.83,"min_s":3.81,"max_s":3.83,"cold_first_use_s":"","statuses":"ok","output_chars":1209}
+{"label":"page-lowres-150dpi","id":"clean/doyle_carlito_150","lang":"eng","runs":5,"median_s":2.41,"min_s":2.31,"max_s":2.42,"cold_first_use_s":"","statuses":"ok","output_chars":1145}
+{"label":"phone-sim","id":"degraded/doyle_carlito_phone1","lang":"eng","runs":5,"median_s":3.7,"min_s":3.69,"max_s":3.71,"cold_first_use_s":"","statuses":"ok","output_chars":565}
+{"label":"phone-sim-strong","id":"degraded/austen_dejavu-serif_phone2","lang":"eng","runs":5,"median_s":5.04,"min_s":5.01,"max_s":5.05,"cold_first_use_s":"","statuses":"ok","output_chars":524}
+{"label":"skew-5deg","id":"degraded/carroll_inter_skew5","lang":"eng","runs":5,"median_s":2.81,"min_s":2.74,"max_s":2.86,"cold_first_use_s":"","statuses":"ok","output_chars":593}
+{"label":"sideways-90","id":"layout/rotated90_doyle_caladea","lang":"eng","runs":5,"median_s":6.97,"min_s":6.96,"max_s":7.01,"cold_first_use_s":"","statuses":"ok","output_chars":564}
+{"label":"upside-down-180","id":"layout/rotated180_austen_carlito","lang":"eng","runs":5,"median_s":6.5,"min_s":6.47,"max_s":6.5,"cold_first_use_s":"","statuses":"ok","output_chars":523}
+{"label":"two-column","id":"layout/twocolumn01_dejavu-serif","lang":"eng","runs":5,"median_s":3.43,"min_s":3.41,"max_s":3.45,"cold_first_use_s":"","statuses":"ok","output_chars":1154}
+{"label":"screenshot-dark","id":"screenshot/settings_dark_1x","lang":"eng","runs":5,"median_s":1.22,"min_s":1.16,"max_s":1.27,"cold_first_use_s":"","statuses":"ok","output_chars":367}
+{"label":"screenshot-light","id":"screenshot/dashboard_light_1x","lang":"eng","runs":5,"median_s":1.31,"min_s":1.29,"max_s":1.36,"cold_first_use_s":"","statuses":"ok","output_chars":409}
+{"label":"non-latin-rus","id":"multilingual/rus_p1_dejavu-serif","lang":"rus","runs":5,"median_s":3.15,"min_s":3.12,"max_s":3.16,"cold_first_use_s":3.37,"statuses":"ok","output_chars":851}
+{"label":"non-latin-chi_sim","id":"multilingual/chi_sim_p1_noto-sans-sc","lang":"chi_sim","runs":5,"median_s":2.63,"min_s":2.62,"max_s":2.66,"cold_first_use_s":2.73,"statuses":"ok","output_chars":300}
+{"label":"non-latin-ara","id":"multilingual/ara_p1_noto-naskh-arabic","lang":"ara","runs":5,"median_s":2.71,"min_s":2.68,"max_s":2.73,"cold_first_use_s":2.87,"statuses":"ok","output_chars":807}

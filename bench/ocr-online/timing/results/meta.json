@@ -1,0 +1,15 @@
+{
+ "runner": "GitHub Actions ubuntu-24.04",
+ "cpu": "AMD EPYC 9V74 80-Core Processor",
+ "cores": 4,
+ "kernel": "7.0.0-1017-azure",
+ "run_id": "44431355148",
+ "repo_commit": "27d723a9eb548dcd2b523a80e7a8b88eb78f9321",
+ "chromium": "153.0.8010.12",
+ "playwright": "1.63.0",
+ "tesseract_js_reported_version": null,
+ "site_commit": "98cc2ca250694ebb0afe608e3bf83327d897e205",
+ "method": "per image: cold run on first use of a language, 1 warm-up, then 5 timed runs with a page reload each; time = click to result shown",
+ "settings": "tool defaults (PSM 3, Enhance off), language = image language",
+ "date": "2026-11-19T00:50:19.285Z"
+}
