@@ -1,0 +1,47 @@
+[
+  {
+    "src": "tools/images/raw/home/receipt-psm3-vs-psm6.png",
+    "name": "tesseract-ocr-receipt-to-text-psm-3-vs-psm-6",
+    "page": "home",
+    "kind": "result",
+    "keyword": "tesseract ocr receipt",
+    "alt": "A receipt read by Tesseract 5.5.4: --psm 3 split prices from items (34.34% CER), --psm 6 read it exactly (0.00% CER)",
+    "caption": "On a receipt, the default --psm 3 read the price column as a separate block and lost the prices' place; --psm 6 returned every line intact. Synthetic test receipt; OCR output verbatim from the bench run.",
+    "machine": "development container (accuracy only), Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores",
+    "bar_machine": "dev container (Intel Xeon @ 2.10GHz)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "local-2026-11-18",
+    "synthetic": true
+  },
+  {
+    "src": "tools/images/raw/home/scanned-page-text-layer.png",
+    "name": "tesseract-ocr-scanned-page-to-searchable-pdf-text-layer",
+    "page": "home",
+    "kind": "result",
+    "keyword": "tesseract searchable pdf",
+    "alt": "Scanned page with the hidden text layer Tesseract wrote (red) over the true word positions (green): 0.70 pt median offset",
+    "caption": "Tesseract's PDF output put an invisible, selectable word over each word of the scan: 20 pages in 42.8 s, 0.143% CER in the text layer. Synthetic 20-page scan.",
+    "machine": "GitHub Actions ubuntu-24.04 runner, Intel Xeon 6975P-C, 4 vCPU",
+    "bar_machine": "GitHub Actions ubuntu-24.04 (Intel Xeon 6975P-C)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "44258321538",
+    "synthetic": true
+  },
+  {
+    "src": "tools/images/raw/home/screenshot-psm3-vs-psm6.png",
+    "name": "tesseract-ocr-screenshot-to-text-psm-3-vs-psm-6",
+    "page": "home",
+    "kind": "result",
+    "keyword": "tesseract ocr screenshot",
+    "alt": "An inbox screenshot read by Tesseract 5.5.4: --psm 3 listed the columns apart (50.35% CER), --psm 6 kept each row (0.00%)",
+    "caption": "Every word of the inbox was found either way; --psm 6 kept sender, subject and date on one line, while the default --psm 3 output the three columns one after another. Synthetic UI screenshot.",
+    "machine": "development container (accuracy only), Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores",
+    "bar_machine": "dev container (Intel Xeon @ 2.10GHz)",
+    "version": "5.5.4",
+    "date": "2026-11",
+    "run_id": "local-2026-11-18",
+    "synthetic": true
+  }
+]
