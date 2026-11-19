@@ -1,0 +1,189 @@
+site,requests,cookies,example_cookie_names
+ezoic.net,277,0,
+smartadserver.com,217,4,TestIfCookieP csync pbw pid
+pubmatic.com,132,39,DPSync4 KADUSERCOOKIE KRTBCOOKIE_1003 KRTBCOOKIE_1199 KRTBCOOKIE_1251 KRTBCOOKIE_1253
+inmobi.com,143,2,TEST-COOKIE iid
+rubiconproject.com,135,6,audit audit_p khaos khaos_p receive-cookie-deprecation uids
+cootlogix.com,131,1,vdz_sync
+open.video,126,0,
+doubleclick.net,96,1,IDE
+amazon-adsystem.com,80,2,ad-id ad-privacy
+3lift.com,74,2,sync tluid
+adsrvr.org,59,2,TDCPM TDID
+ezoic.com,59,1,uids
+sonobi.com,16,44,HAPLB8G __uih __uin_a9 __uin_bs __uin_bw __uin_cx
+tesseractocr.org,9,49,__eoi __gads __gpi __qca _au_1d _cc_id
+openx.net,56,2,i pd
+criteo.com,54,1,uid
+bidswitch.net,52,3,c tuuid tuuid_lu
+ezodn.com,55,0,
+yieldmo.com,53,2,re_sync yieldmo_id
+adnxs.com,52,0,
+dotomi.com,48,1,DotomiTest
+minutemedia-prebid.com,44,1,wrvUserID
+onetag-sys.com,39,0,
+rlcdn.com,29,2,pxrc rlas3
+ccgateway.net,28,2,ccsid ccuid
+contextweb.com,23,5,INGRESSCOOKIE V VP pb_rtb_ev pb_rtb_ev_part
+yellowblue.io,27,1,wrvUserID
+presage.io,26,2,presage-freshness presage-ssp
+yahoo.com,25,3,A3 IDSYNC uids
+opera.com,27,1,OAU
+casalemedia.com,24,3,CMID CMPRO CMPS
+ad.gt,24,2,au_3p_check au_id
+ingage.tech,21,5,cf_clearance instPixels instUid
+tapad.com,22,3,TapAd_3WAY_SYNCS TapAd_DID TapAd_TS
+smaato.net,13,11,SCM SCM1124 SCMbrv SCMinmobi SCMlandocs SCMopr
+creativecdn.com,22,2,g ts
+gumgum.com,23,1,vst
+cadent.com,20,4,dt new_app ps uid
+everesttech.net,24,0,
+trustedstack.com,24,0,
+stackadapt.com,17,6,sa-user-id sa-user-id-v2 sa-user-id-v4
+bidr.io,21,2,bito bitoIsSecure
+braveglobal.tv,22,0,
+id5-sync.com,20,1,id5
+disqus.com,20,1,zeta-ssp-user-id
+gstatic.com,21,0,
+googlesyndication.com,21,0,
+lijit.com,19,2,ljt_reader ljtrtbexp
+1rx.io,20,0,
+a-mo.net,16,4,amdt_t amdt_t_p amuid2 amuid2_p
+syncingbridge.com,14,6,did gdpr ids new ssplink uid
+liadm.com,17,1,lidid
+quantserve.com,14,2,mc sp
+blismedia.com,15,1,b
+deepintent.com,14,2,CDIPARTNERS CDIUSER
+measureadv.com,13,2,new uid
+loopme.me,14,1,viewer_token
+adform.net,14,1,uid
+sitescout.com,13,2,_ssuma ssi
+admanmedia.com,13,2,ac_r admtr
+adtrafficquality.google,14,0,
+turn.com,13,1,uid
+360yield.com,11,2,tuuid tuuid_lu
+sharethrough.com,13,0,
+crwdcntrl.net,8,4,_cc_aud _cc_cc _cc_dc _cc_id
+rfihub.com,9,3,eud rud ruds
+media.net,12,0,
+richaudience.com,8,4,avcid-crt-uid avcid-inm-uid avcid-sov-uid pdid
+startappnetwork.com,5,7,siod-m0k2y8l9 siod-mgaui9c3 siod-mgitwnra siod-mxgufvoz siod-mzpiak2k siopnc
+outbrain.com,11,1,obuid
+googleapis.com,11,0,
+bfmio.com,5,6,__106_cid __147_cid __172_cid __181_cid __bfio_sync __io_cid
+temu.com,11,0,
+33across.com,9,2,33x_ps __cf_bm
+a-mx.com,6,4,amdt_t amdt_t_p amuid2 amuid2_p
+adentifi.com,9,1,adtheorent[cuid]
+mediagotechnology.com,9,1,__mguid_
+mfadsrvr.com,5,4,c ssh tuuid tuuid_lu
+ipredictive.com,8,1,cu
+pmbmonetize.live,6,3,s-219 s-249 xeadiu
+gatekeeperconsent.com,9,0,
+anyrtb.com,8,1,topon_identity
+eskimi.com,6,3,__eDId __eDSync __eSSync
+connectad.io,7,2,id uid
+fastclick.net,8,0,
+eyeota.net,5,2,SERVERID mako_uid
+simpli.fi,6,1,suid
+liftdsp.com,4,3,c tuuid tuuid_lu
+ymmobi.com,6,1,ym_user_cookie
+vistarsagency.com,4,3,ADKUID DSP2F_142 SSPZ
+sportradarserving.com,2,5,c zuuid zuuid_k zuuid_k_lu zuuid_lu
+adkernel.com,3,4,ADKUID DSP2F_40 SSPR_40 SSPZ
+demdex.net,5,2,demdex dpm
+company-target.com,5,2,tuuid tuuid_lu
+linkedin.com,3,4,__cf_bm bcookie li_sugr lidc
+seedtag.com,3,4,st_cs st_csd st_uid st_usi
+onaudience.com,3,4,cookie done_redirects252 done_redirects271 done_redirects297
+adgrx.com,3,3,ADGRX_CM_CASALE_BRIDGED ADGRX_CM_PUBMATIC_BRIDGED ADGRX_UID
+copper6.com,4,2,copr_key copr_red
+pinklion.io,4,2,pili_key pili_red
+adroll.com,2,4,__adroll __adroll_shared receive-cookie-deprecation
+rtbwise.com,2,4,novaexp novasig novasyncts novauid
+ortb.net,4,2,lluid llum
+hadronid.net,6,0,
+semasio.net,5,1,SEUNCY
+cognitivlabs.com,4,2,UID ss
+postrelease.com,3,3,status ver visitor
+fwmrm.net,6,0,
+agkn.com,5,1,ab
+playdigo.com,4,2,pd_key pd_red
+sundaysky.com,3,3,sskyCreationTime sskya sskyu
+ctnsnet.com,4,1,cid
+acuityplatform.com,3,2,auid aum
+rqtrk.eu,4,1,browser_id
+privacymanager.io,5,0,
+connatix.com,4,1,cnx_userId
+ezojs.com,5,0,
+pippio.com,1,4,did didts nnls pxrc
+creative-serving.com,2,3,c tuuid tuuid_lu
+adotmob.com,2,3,partners uid uuid
+flashtalking.com,4,1,_D9J
+rbstsystems.live,2,3,xeroid xeroid_311 xeroid_3111214
+mathtag.com,4,1,uuid
+mgid.com,3,2,mg_sync muidn
+krushmedia.com,2,2,krm_r krm_usr
+nextmillmedia.com,1,3,nm_lastSync nm_rubicon nm_syncedBidders
+teads.tv,4,0,
+google-analytics.com,4,0,
+iionads.com,2,2,lluid llum
+iqm.com,2,2,equativ iqm.retarget.uid
+ck-ie.com,4,0,
+tribalfusion.com,3,1,ANON_ID
+marketiq.com,2,2,MARKETOPS_CM_INDEX_BRIDGED MARKETOPS_UID
+iqzonertb.live,2,2,s-444 xeiqid
+bttrack.com,3,1,GLOBALID
+bidtheatre.com,2,2,__ktpct __kuid
+mxptint.net,3,1,mxpim
+emxdgt.com,3,0,
+shb-sync.com,1,2,smart_r smart_usr
+adition.com,3,0,
+omnitagjs.com,2,1,ayl_visitor
+bing.com,1,2,MR MUID
+googletagmanager.com,3,0,
+pro-market.net,2,1,anProfile
+bluevoox.com,2,1,BSXUID
+floxis.tech,2,1,__fxId
+storygize.net,2,1,U
+chocolateplatform.com,2,1,ADKUID
+jsdelivr.net,3,0,
+resetdigital.co,2,1,ckbk
+clickagy.com,1,2,cb chs
+rtbscale.com,1,1,OAU
+primis.tech,1,1,csuuid
+eu-1-id5-sync.com,2,0,
+intentiq.com,1,1,IQver
+appnerve.net,1,1,bidexchange_uid
+quantcount.com,2,0,
+nrich.ai,1,1,_nauid
+smilewanted.com,1,1,sw_marker
+zencdn.net,2,0,
+google.com,2,0,
+getpublica.com,1,1,p_uid
+thisisdax.com,1,1,dax_listenerid
+adtech.ink,1,1,xeadth
+rakuten.com,1,1,Rp
+wp.pl,2,0,
+pacvue.com,1,1,prism_dsp_uid
+ezoicanalytics.com,2,0,
+nexverse.ai,1,1,nxv_uid
+2mdn.net,2,0,
+advolve.io,1,1,x
+rtb-oveeo.com,1,1,lluid
+loudecho.ai,1,1,LoudEcho
+iprom.net,1,0,
+de17a.com,1,0,
+digitalaudience.io,1,0,
+frvr.com,1,0,
+adstanding.com,1,0,
+atmtd.com,1,0,
+appier.net,1,0,
+undertone.com,1,0,
+openxcdn.net,1,0,
+mediago.io,1,0,
+kargo.com,1,0,
+zemanta.com,1,0,
+p7cloud.net,1,0,
+criteo.net,1,0,
+cloudflareinsights.com,1,0,
