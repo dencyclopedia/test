@@ -1,0 +1,19 @@
+	FILE	C:\Program Files\Zoom
+	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zoom
+	FILE	C:\Users\Public\Desktop\Zoom Workplace.lnk
+	FILE	C:\Users\runneradmin\AppData\Local\Zoom
+	FILE	C:\Users\runneradmin\AppData\Roaming\Zoom
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\ZoomContactCenterCall
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\ZoomPbx.zoomphonecall
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\ZoomPhoneCall
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\ZoomPhoneSMS
+	REG	HKEY_CURRENT_USER\SOFTWARE\Zoom
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ZoomLauncher
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\zoommtg
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ZoomPbx.zoomphonecall
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ZoomPhoneCall
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ZoomRecording
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\zoomus
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Zoom
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\ZoomUMX
+	SERVICE	ZoomCptService

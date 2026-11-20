@@ -1,0 +1,26 @@
+[07:53:18] start firefox
+[07:53:21] brew install exit=0 seconds=2
+[07:53:22] app=Firefox.app bundle_id=org.mozilla.firefox exe=firefox version=160.0 team=43AQ936H96 size=526M
+[07:53:24] launch requested
+[07:53:55] screenshot 01-app-first-launch.png (window of 'firefox')
+[07:53:55] screenshot 01-app-first-launch-desktop.png
+[07:54:10] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[07:54:10] screenshot 02-finder-app-in-applications-desktop.png
+application file Firefox.app of item .Trash of folder runner of folder Users of startup disk
+[07:54:11] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[07:54:16] screenshot 03-trash-with-app.png (window of 'Finder')
+[07:54:16] screenshot 03-trash-with-app-desktop.png
+[07:54:19] attribution tokens: 43AQ936H96 Firefox firefox org.mozilla org.mozilla.firefox 
+[07:54:20] app created 3 items; other system changes during test: 6
+[07:54:20] LEFTOVERS after Trash: 3 items, 157980 KB
+[07:54:25] screenshot 04-finder-leftover.png (window of 'Finder')
+[07:54:26] screenshot 04-finder-leftover-desktop.png
+[07:54:29] brew uninstall --zap exit=0 seconds=3
+[07:54:30] LEFTOVERS after brew --zap: 0 items
+[07:54:31] screenshot 05-final-desktop-desktop.png
+[07:58:00] recording exit=0
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[07:58:02] recording: 364034 /Users/runner/work/test/test/out/macos-firefox/recording.mp4 
+[07:58:02] done

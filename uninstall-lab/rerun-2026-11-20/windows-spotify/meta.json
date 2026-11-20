@@ -1,0 +1,9 @@
+{
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "build": "26100",
+  "runner_image": "win25-vs2026 20261103.298.1",
+  "winget_id": "Spotify.Spotify",
+  "date_utc": "2026-11-20T07:43:23Z",
+  "run": "https://github.com/dencyclopedia/test/actions/runs/44697000927",
+  "git_sha": "7fd8fc08c0522b199b84e8c9d8600e13defd8dcf"
+}

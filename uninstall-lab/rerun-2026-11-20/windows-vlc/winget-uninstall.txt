@@ -1,0 +1,13 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found VLC media player [VideoLAN.VLC]
+Starting package uninstall...
+
+   - 
+                                                                                                                        
+Successfully uninstalled
+EXIT=0

@@ -1,0 +1,19 @@
+[07:43:26] start Discord.Discord
+[07:44:25] winget install: EXIT=0 seconds=29
+[07:44:34] registry entry: Discord 1.0.9269 | publisher: Discord Inc. | uninstall: C:\Users\runneradmin\AppData\Local\Discord\Update.exe --uninstall
+[07:44:35] shortcuts: C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk | C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord.lnk | C:\Users\runneradmin\Desktop\Discord.lnk ; launching: C:\Users\runneradmin\AppData\Local\Discord\Discord.exe
+[07:45:07 UTC +    2.1s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[07:45:35 UTC +   22.5s] settings search failed: TimeoutError('timed out')
+[07:45:36 UTC +   23.2s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:45:57 UTC +   21.1s] control panel search failed: TimeoutError('timed out')
+[07:45:58 UTC +   21.8s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:46:07 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[07:46:18] standard uninstall: EXIT=-1978335184 seconds=8 (waited 0 s for background uninstaller)
+[07:46:42 UTC +   22.0s] settings search failed: TimeoutError('timed out')
+[07:46:43 UTC +   22.6s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:46:43] attribution tokens: Discord
+[07:46:43] app created 8 items (+6 other changes during test). LEFTOVERS after standard uninstall: 6 items, 41940 KB
+[07:46:49 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[07:46:50 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:46:52] recording: 262180 bytes
+[07:46:52] done

@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Mozilla Firefox (x64 en-US)",
+  "DisplayVersion": "160.0.1",
+  "Publisher": "Mozilla",
+  "InstallLocation": "C:\\Program Files\\Mozilla Firefox",
+  "UninstallString": "\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\"",
+  "QuietUninstallString": null,
+  "EstimatedSize": 369196,
+  "DisplayIcon": "C:\\Program Files\\Mozilla Firefox\\firefox.exe,0"
+}

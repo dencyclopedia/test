@@ -1,0 +1,4 @@
+	APPX	MSTeams_26288.2004.5269.3420_x64__8wekyb3d8bbwe
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\msteams
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\msteamscanary
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\web+msteams

@@ -1,0 +1,18 @@
+[07:43:24] start Microsoft.Teams
+[07:44:52] winget install: EXIT=0 seconds=58
+[07:44:59] registry entry:   | publisher:  | uninstall: 
+[07:44:59] shortcuts:  ; launching: 
+[07:44:59] no launchable exe found
+[07:45:00 UTC +    1.2s] screenshot 01-app-first-launch.png
+[07:45:27 UTC +   22.5s] settings search failed: TimeoutError('timed out')
+[07:45:28 UTC +   23.2s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:45:49 UTC +   20.8s] control panel search failed: TimeoutError('timed out')
+[07:45:49 UTC +   21.5s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:45:59] standard uninstall: EXIT=0 seconds=9 (waited 0 s for background uninstaller)
+[07:46:22 UTC +   21.9s] settings search failed: TimeoutError('timed out')
+[07:46:23 UTC +   22.6s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:46:23] attribution tokens: Teams
+[07:46:23] app created 4 items (+19 other changes during test). LEFTOVERS after standard uninstall: 0 items, 0 KB
+[07:46:24 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:46:26] recording: 262180 bytes
+[07:46:26] done

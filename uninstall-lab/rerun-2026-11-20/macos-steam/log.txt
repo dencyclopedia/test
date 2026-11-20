@@ -1,0 +1,25 @@
+[07:43:17] start steam
+[07:43:24] brew install exit=0 seconds=6
+[07:43:24] app=Steam.app bundle_id=com.valvesoftware.steam exe=steam_osx version= team=MXGJJ98X76 size= 11M
+[07:43:26] launch requested
+[07:43:57] screenshot 01-app-first-launch-desktop.png
+[07:44:11] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[07:44:11] screenshot 02-finder-app-in-applications-desktop.png
+application file Steam.app of item .Trash of folder runner of folder Users of startup disk
+[07:44:12] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[07:44:17] screenshot 03-trash-with-app.png (window of 'Finder')
+[07:44:17] screenshot 03-trash-with-app-desktop.png
+[07:44:20] attribution tokens: MXGJJ98X76 Steam com.valvesoftware com.valvesoftware.steam steam steam_osx 
+[07:44:20] app created 1 items; other system changes during test: 4
+[07:44:20] LEFTOVERS after Trash: 1 items, 543972 KB
+[07:44:26] screenshot 04-finder-leftover.png (window of 'Finder')
+[07:44:26] screenshot 04-finder-leftover-desktop.png
+[07:44:28] brew uninstall --zap exit=0 seconds=2
+[07:44:29] LEFTOVERS after brew --zap: 0 items
+[07:44:30] screenshot 05-final-desktop-desktop.png
+[07:48:00] recording exit=0
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[07:48:06] recording: 1196266 /Users/runner/work/test/test/out/macos-steam/recording.mp4 
+[07:48:06] done

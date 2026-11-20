@@ -1,0 +1,20 @@
+[07:43:22] start discord
+[07:43:55] brew install exit=0 seconds=32
+[07:43:56] app=Discord.app bundle_id=com.hnc.Discord exe=Discord version=0.0.422 team=53Q6R32WPB size=522M
+[07:43:57] launch requested
+[07:44:40] screenshot 01-app-first-launch.png (window of 'Discord')
+[07:44:41] screenshot 01-app-first-launch-desktop.png
+[07:44:58] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[07:44:58] screenshot 02-finder-app-in-applications-desktop.png
+application file Discord.app of item .Trash of folder runner of folder Users of startup disk
+[07:44:59] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[07:45:04] screenshot 03-trash-with-app.png (window of 'Finder')
+[07:45:04] screenshot 03-trash-with-app-desktop.png
+[07:45:08] attribution tokens: 53Q6R32WPB Discord com.hnc com.hnc.Discord discord 
+[07:45:09] app created 2 items; other system changes during test: 13
+[07:45:09] LEFTOVERS after Trash: 2 items, 799092 KB
+[07:45:15] screenshot 04-finder-leftover.png (window of 'Finder')
+[07:45:15] screenshot 04-finder-leftover-desktop.png
+[07:45:20] brew uninstall --zap exit=0 seconds=5
+[07:45:20] LEFTOVERS after brew --zap: 0 items
+[07:45:22] screenshot 05-final-desktop-desktop.png

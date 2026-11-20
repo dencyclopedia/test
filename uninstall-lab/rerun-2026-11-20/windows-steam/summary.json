@@ -1,0 +1,25 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Valve.Steam",
+  "display_name": "Steam",
+  "version": "2.10.91.91",
+  "publisher": "Valve Corporation",
+  "uninstall_string": "C:\\Program Files (x86)\\Steam\\uninstall.exe",
+  "created_items": 12,
+  "leftover_items": 12,
+  "leftover_kb": 957927.0,
+  "leftovers": [
+    "FILE C:\\Program Files (x86)\\Steam",
+    "FILE C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Steam",
+    "FILE C:\\Users\\Public\\Desktop\\Steam.lnk",
+    "REG HKEY_CURRENT_USER\\SOFTWARE\\Classes\\steam",
+    "REG HKEY_CURRENT_USER\\SOFTWARE\\Classes\\steamlink",
+    "REG HKEY_CURRENT_USER\\SOFTWARE\\Valve",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\steam",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\steamlink",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Valve",
+    "RUN HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Steam",
+    "SERVICE Steam Client Service",
+    "UNINSTALLKEY HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam"
+  ]
+}

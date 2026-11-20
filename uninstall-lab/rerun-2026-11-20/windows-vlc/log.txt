@@ -1,0 +1,19 @@
+[07:43:39] start VideoLAN.VLC
+[07:44:37] winget install: EXIT=0 seconds=24
+[07:44:44] registry entry: VLC media player 3.0.24 | publisher: VideoLAN | uninstall: "C:\Program Files\VideoLAN\VLC\uninstall.exe"
+[07:44:44] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\Documentation.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\Release Notes.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VideoLAN Website.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player - reset preferences and cache files.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player skinned.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player.lnk | C:\Users\Public\Desktop\VLC media player.lnk ; launching: C:\Program Files\VideoLAN\VLC\vlc.exe
+[07:45:17 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[07:45:45 UTC +   22.6s] settings search failed: TimeoutError('timed out')
+[07:45:46 UTC +   23.3s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:46:07 UTC +   21.1s] control panel search failed: TimeoutError('timed out')
+[07:46:08 UTC +   21.8s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:46:17 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[07:46:27] standard uninstall: EXIT=0 seconds=7 (waited 0 s for background uninstaller)
+[07:46:51 UTC +   21.9s] settings search failed: TimeoutError('timed out')
+[07:46:51 UTC +   22.6s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:46:51] attribution tokens: VideoLAN
+[07:46:52] app created 4 items (+137 other changes during test). LEFTOVERS after standard uninstall: 4 items, 192725 KB
+[07:46:58 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[07:46:59 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:47:01] recording: 262180 bytes
+[07:47:01] done

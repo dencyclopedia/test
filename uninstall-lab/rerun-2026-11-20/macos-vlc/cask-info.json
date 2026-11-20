@@ -1,0 +1,101 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "vlc",
+      "full_token": "vlc",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "VLC media player"
+      ],
+      "desc": "Multimedia player",
+      "homepage": "https://www.videolan.org/vlc/",
+      "url": "https://get.videolan.org/vlc/3.0.24/macosx/vlc-3.0.24-arm64.dmg",
+      "url_specs": {},
+      "version": "3.0.24",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "3.0.24",
+      "installed_time": 1795160668,
+      "bundle_version": "3.0.24",
+      "bundle_short_version": "3.0.24",
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "64a89d93cdd30b0e97131743e246373db82d6826ea882d265d46d74b136da2b7",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "quit": "org.videolan.vlc"
+            }
+          ]
+        },
+        {
+          "app": [
+            "VLC.app"
+          ],
+          "target": "/Applications/VLC.app"
+        },
+        {
+          "command_wrapper": [
+            "vlc",
+            {
+              "executable": "/Applications/VLC.app/Contents/MacOS/VLC"
+            }
+          ],
+          "target": "/opt/homebrew/bin/vlc"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.videolan.vlc.sfl*",
+                "~/Library/Application Support/org.videolan.vlc",
+                "~/Library/Application Support/VLC",
+                "~/Library/Caches/org.videolan.vlc",
+                "~/Library/HTTPStorages/org.videolan.vlc",
+                "~/Library/Preferences/org.videolan.vlc",
+                "~/Library/Preferences/org.videolan.vlc.plist",
+                "~/Library/Saved Application State/org.videolan.vlc.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": {
+        "cask": [
+          "vlc@nightly"
+        ]
+      },
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b9aac88a18c0fc2eaaf049a70c954318550fcc3b",
+      "languages": [],
+      "ruby_source_path": "Casks/v/vlc.rb",
+      "ruby_source_checksum": {
+        "sha256": "3b58cdab0f9524b06fa8a142e6dc0211700a8670007aee3615fb551b0e7add71"
+      }
+    }
+  ]
+}

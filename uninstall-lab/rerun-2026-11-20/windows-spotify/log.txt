@@ -1,0 +1,18 @@
+[07:43:23] start Spotify.Spotify
+[07:44:07] winget install: EXIT=-1978335146 seconds=4
+[07:44:14] registry entry:   | publisher:  | uninstall: 
+[07:44:14] shortcuts:  ; launching: 
+[07:44:14] no launchable exe found
+[07:44:15 UTC +    1.2s] screenshot 01-app-first-launch.png
+[07:44:42 UTC +   22.6s] settings search failed: TimeoutError('timed out')
+[07:44:42 UTC +   23.3s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:45:04 UTC +   20.9s] control panel search failed: TimeoutError('timed out')
+[07:45:04 UTC +   21.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:45:11] standard uninstall: EXIT=-1978335212 seconds=6 (waited 0 s for background uninstaller)
+[07:45:34 UTC +   21.7s] settings search failed: TimeoutError('timed out')
+[07:45:34 UTC +   22.4s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:45:34] attribution tokens: Spotify
+[07:45:35] app created 0 items (+4 other changes during test). LEFTOVERS after standard uninstall: 0 items, 0 KB
+[07:45:36 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:45:38] recording: 262180 bytes
+[07:45:38] done

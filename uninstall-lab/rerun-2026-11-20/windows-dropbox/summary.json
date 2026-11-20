@@ -1,0 +1,18 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Dropbox.Dropbox",
+  "display_name": "Dropbox",
+  "version": "280.4.5053",
+  "publisher": "Dropbox, Inc.",
+  "uninstall_string": "MsiExec.exe /X{CE922144-7611-5D01-B9FF-521F54446B17}",
+  "created_items": 27,
+  "leftover_items": 5,
+  "leftover_kb": 6401.0,
+  "leftovers": [
+    "APPX DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga",
+    "FILE C:\\Program Files (x86)\\Dropbox",
+    "FILE C:\\Program Files\\Dropbox",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Dropbox.AutoplayEventHandler",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\DropboxUpdate"
+  ]
+}

@@ -1,0 +1,26 @@
+[07:48:34] start spotify
+[07:49:51] brew install exit=0 seconds=76
+[07:49:53] app=Spotify.app bundle_id=com.spotify.client exe=Spotify version=1.3.10.2586 team=2FNC3A47ZF size=439M
+[07:49:54] launch requested
+[07:50:25] screenshot 01-app-first-launch.png (window of 'Spotify')
+[07:50:26] screenshot 01-app-first-launch-desktop.png
+[07:50:40] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[07:50:40] screenshot 02-finder-app-in-applications-desktop.png
+application file Spotify.app of item .Trash of folder runner of folder Users of startup disk
+[07:50:41] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[07:50:46] screenshot 03-trash-with-app.png (window of 'Finder')
+[07:50:46] screenshot 03-trash-with-app-desktop.png
+[07:50:49] attribution tokens: 2FNC3A47ZF Spotify com.spotify com.spotify.client spotify 
+[07:50:50] app created 5 items; other system changes during test: 17
+[07:50:50] LEFTOVERS after Trash: 5 items, 143084 KB
+[07:50:55] screenshot 04-finder-leftover.png (window of 'Finder')
+[07:50:55] screenshot 04-finder-leftover-desktop.png
+[07:50:59] brew uninstall --zap exit=0 seconds=4
+[07:51:00] LEFTOVERS after brew --zap: 0 items
+[07:51:01] screenshot 05-final-desktop-desktop.png
+[07:52:50] recording exit=0
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[07:52:54] recording: 280386 /Users/runner/work/test/test/out/macos-spotify/recording.mp4 
+[07:52:54] done

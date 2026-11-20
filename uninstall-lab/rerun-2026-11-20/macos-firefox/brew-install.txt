@@ -1,0 +1,1 @@
+::warning::Not upgrading firefox, the latest version is already installed

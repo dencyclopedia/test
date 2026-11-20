@@ -1,0 +1,19 @@
+[07:43:24] start Google.Chrome
+[07:45:35] winget install: EXIT=0 seconds=103
+[07:45:43] registry entry: Google Chrome 158.0.8127.37 | publisher: Google LLC | uninstall: MsiExec.exe /X{1B4E8B6D-8317-3063-B39C-D6EFE62A6D47}
+[07:45:43] shortcuts:  ; launching: 
+[07:45:43] no launchable exe found
+[07:45:45 UTC +    1.2s] screenshot 01-app-first-launch.png
+[07:46:12 UTC +   22.5s] settings search failed: TimeoutError('timed out')
+[07:46:12 UTC +   23.2s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:46:34 UTC +   21.0s] control panel search failed: TimeoutError('timed out')
+[07:46:34 UTC +   21.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:46:44 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[07:50:01] standard uninstall: EXIT=0 seconds=194 (waited 180 s for background uninstaller)
+[07:50:24 UTC +   21.9s] settings search failed: TimeoutError('timed out')
+[07:50:25 UTC +   22.6s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:50:25] attribution tokens: Chrome Google Google Chrome
+[07:50:25] app created 0 items (+2 other changes during test). LEFTOVERS after standard uninstall: 0 items, 0 KB
+[07:50:26 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:50:26] recording: 691608 bytes
+[07:50:26] done

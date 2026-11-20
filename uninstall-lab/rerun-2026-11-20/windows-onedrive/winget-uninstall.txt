@@ -1,0 +1,22 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Microsoft OneDrive [Microsoft.OneDrive]
+Starting package uninstall...
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+                                                                                                                        
+Successfully uninstalled
+EXIT=0

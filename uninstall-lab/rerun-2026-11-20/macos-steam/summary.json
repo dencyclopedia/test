@@ -1,0 +1,17 @@
+{
+ "os": "macOS",
+ "cask": "steam",
+ "app": "Steam.app",
+ "bundle_id": "com.valvesoftware.steam",
+ "version": "",
+ "removal_method": "Finder Move to Trash (AppleScript)",
+ "created_items": 1,
+ "created_kb": 543972,
+ "leftover_items_after_trash": 1,
+ "leftover_kb_after_trash": 543972,
+ "leftovers_after_trash": [
+  "~/Library/Application Support/Steam"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}

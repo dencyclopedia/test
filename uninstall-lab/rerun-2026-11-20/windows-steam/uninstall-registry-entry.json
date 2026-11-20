@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Steam",
+  "DisplayVersion": "2.10.91.91",
+  "Publisher": "Valve Corporation",
+  "InstallLocation": null,
+  "UninstallString": "C:\\Program Files (x86)\\Steam\\uninstall.exe",
+  "QuietUninstallString": null,
+  "EstimatedSize": null,
+  "DisplayIcon": "C:\\Program Files (x86)\\Steam\\uninstall.exe"
+}

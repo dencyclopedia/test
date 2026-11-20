@@ -1,0 +1,18 @@
+[07:43:25] start Zoom.Zoom
+[07:44:16] winget install: EXIT=0 seconds=24
+[07:44:22] registry entry: Zoom Workplace (64-bit) 7.2.51704 | publisher: Zoom | uninstall: MsiExec.exe /X{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}
+[07:44:23] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zoom\Zoom Workplace.lnk | C:\Users\Public\Desktop\Zoom Workplace.lnk ; launching: C:\Program Files\Zoom\bin\Zoom.exe
+[07:44:55 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[07:45:21 UTC +   22.4s] settings search failed: TimeoutError('timed out')
+[07:45:22 UTC +   23.1s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:45:43 UTC +   20.9s] control panel search failed: TimeoutError('timed out')
+[07:45:44 UTC +   21.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:45:53 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[07:49:08] standard uninstall: EXIT=0 seconds=192 (waited 180 s for background uninstaller)
+[07:49:31 UTC +   21.7s] settings search failed: TimeoutError('timed out')
+[07:49:32 UTC +   22.4s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:49:32] attribution tokens: Workplace Zoom
+[07:49:32] app created 19 items (+8 other changes during test). LEFTOVERS after standard uninstall: 7 items, 0 KB
+[07:49:33 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:49:33] recording: 718486 bytes
+[07:49:33] done

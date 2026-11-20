@@ -1,0 +1,19 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Discord.Discord",
+  "display_name": "Discord",
+  "version": "1.0.9269",
+  "publisher": "Discord Inc.",
+  "uninstall_string": "C:\\Users\\runneradmin\\AppData\\Local\\Discord\\Update.exe --uninstall",
+  "created_items": 8,
+  "leftover_items": 6,
+  "leftover_kb": 41940.0,
+  "leftovers": [
+    "FILE C:\\Users\\runneradmin\\AppData\\Local\\Discord",
+    "FILE C:\\Users\\runneradmin\\AppData\\Roaming\\discord",
+    "FILE C:\\Users\\runneradmin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc",
+    "FILE C:\\Users\\runneradmin\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Discord.lnk",
+    "FILE C:\\Users\\runneradmin\\Desktop\\Discord.lnk",
+    "UNINSTALLKEY HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
+  ]
+}

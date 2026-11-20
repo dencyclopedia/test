@@ -1,0 +1,3 @@
+[07:43:19] start microsoft-teams
+[07:44:01] brew install exit=0 seconds=41
+[07:44:02] FAILED: no app bundle after install ()

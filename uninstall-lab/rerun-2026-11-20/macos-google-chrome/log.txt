@@ -1,0 +1,20 @@
+[07:43:19] start google-chrome
+[07:43:23] brew install exit=0 seconds=3
+[07:43:24] app=Google Chrome.app bundle_id=com.google.Chrome exe=Google Chrome version=157.0.8103.79 team=EQHXZ8M8AV size=739M
+[07:43:25] launch requested
+[07:43:56] screenshot 01-app-first-launch.png (window of 'Google Chrome')
+[07:43:57] screenshot 01-app-first-launch-desktop.png
+[07:44:10] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[07:44:11] screenshot 02-finder-app-in-applications-desktop.png
+application file Google Chrome.app of item .Trash of folder runner of folder Users of startup disk
+[07:44:12] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[07:44:17] screenshot 03-trash-with-app.png (window of 'Finder')
+[07:44:17] screenshot 03-trash-with-app-desktop.png
+[07:44:21] attribution tokens: Chrome EQHXZ8M8AV Google Chrome chrome com.google com.google.Chrome google-chrome 
+[07:44:21] app created 2 items; other system changes during test: 6
+[07:44:21] LEFTOVERS after Trash: 2 items, 8 KB
+[07:44:27] screenshot 04-finder-leftover.png (window of 'Finder')
+[07:44:27] screenshot 04-finder-leftover-desktop.png
+[07:44:31] brew uninstall --zap exit=0 seconds=4
+[07:44:32] LEFTOVERS after brew --zap: 0 items
+[07:44:33] screenshot 05-final-desktop-desktop.png

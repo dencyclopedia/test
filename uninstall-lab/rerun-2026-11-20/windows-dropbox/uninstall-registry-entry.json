@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Dropbox",
+  "DisplayVersion": "280.4.5053",
+  "Publisher": "Dropbox, Inc.",
+  "InstallLocation": "",
+  "UninstallString": "MsiExec.exe /X{CE922144-7611-5D01-B9FF-521F54446B17}",
+  "QuietUninstallString": null,
+  "EstimatedSize": 311845,
+  "DisplayIcon": null
+}

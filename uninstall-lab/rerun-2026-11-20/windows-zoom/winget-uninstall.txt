@@ -1,0 +1,26 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Zoom Workplace (64-bit) [Zoom.Zoom]
+Starting package uninstall...
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+                                                                                                                        
+Successfully uninstalled
+EXIT=0

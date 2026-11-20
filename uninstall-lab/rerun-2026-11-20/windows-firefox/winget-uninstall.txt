@@ -1,0 +1,13 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Mozilla Firefox (x64 en-US) [Mozilla.Firefox]
+Starting package uninstall...
+
+   - 
+                                                                                                                        
+Successfully uninstalled
+EXIT=0

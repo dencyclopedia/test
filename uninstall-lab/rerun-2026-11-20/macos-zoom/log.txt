@@ -1,0 +1,3 @@
+[07:48:18] start zoom
+[07:48:34] brew install exit=0 seconds=16
+[07:48:35] FAILED: no app bundle after install ()

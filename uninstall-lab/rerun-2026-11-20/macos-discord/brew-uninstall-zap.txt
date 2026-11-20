@@ -1,0 +1,16 @@
+[32m==>[0m [1mZapping Cask [32mdiscord[39m[0m
+[34m==>[0m [1mRemoving launchctl service com.discord.discord.ShipIt[0m
+[34m==>[0m [1mTrashing files:[0m
+~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.hnc.discord.sfl*
+~/Library/Application Support/discord
+~/Library/Application%20Support/discord
+~/Library/Caches/com.hnc.Discord
+~/Library/Caches/com.hnc.Discord.ShipIt
+~/Library/Cookies/com.hnc.Discord.binarycookies
+~/Library/HTTPStorages/com.hnc.Discord
+~/Library/HTTPStorages/com.hnc.Discord.binarycookies
+~/Library/Preferences/ByHost/com.discord.discord.ShipIt.*.plist
+~/Library/Preferences/com.hnc.Discord.helper.plist
+~/Library/Preferences/com.hnc.Discord.plist
+~/Library/Saved Application State/com.hnc.Discord.savedState
+[34m==>[0m [1mRemoving all staged versions of Cask 'discord'[0m

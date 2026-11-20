@@ -1,0 +1,19 @@
+[07:43:24] start Mozilla.Firefox
+[07:44:13] winget install: EXIT=0 seconds=22
+[07:44:19] registry entry: Mozilla Firefox (x64 en-US) 160.0.1 | publisher: Mozilla | uninstall: "C:\Program Files\Mozilla Firefox\uninstall\helper.exe"
+[07:44:19] shortcuts:  ; launching: C:\Program Files\Mozilla Firefox\firefox.exe
+[07:44:51 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[07:45:23 UTC +   26.1s] settings search failed: TimeoutError('timed out')
+[07:45:24 UTC +   26.8s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[07:45:45 UTC +   21.0s] control panel search failed: TimeoutError('timed out')
+[07:45:46 UTC +   21.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[07:45:55 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[07:49:08] standard uninstall: EXIT=0 seconds=190 (waited 180 s for background uninstaller)
+[07:49:31 UTC +   21.8s] settings search failed: TimeoutError('timed out')
+[07:49:31 UTC +   22.4s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[07:49:31] attribution tokens: Firefox Mozilla
+[07:49:31] app created 6 items (+1 other changes during test). LEFTOVERS after standard uninstall: 6 items, 155284 KB
+[07:49:38 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[07:49:39 UTC +    1.2s] screenshot 07-final-desktop.png
+[07:49:39] recording: 765911 bytes
+[07:49:39] done

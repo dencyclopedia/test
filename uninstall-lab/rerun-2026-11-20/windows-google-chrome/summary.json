@@ -1,0 +1,12 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Google.Chrome",
+  "display_name": "Google Chrome",
+  "version": "158.0.8127.37",
+  "publisher": "Google LLC",
+  "uninstall_string": "MsiExec.exe /X{1B4E8B6D-8317-3063-B39C-D6EFE62A6D47}",
+  "created_items": 0,
+  "leftover_items": 0,
+  "leftover_kb": 0.0,
+  "leftovers": []
+}

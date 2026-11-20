@@ -1,0 +1,5 @@
+	APPX	DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga
+6401	FILE	C:\Program Files (x86)\Dropbox
+0	FILE	C:\Program Files\Dropbox
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.AutoplayEventHandler
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DropboxUpdate
