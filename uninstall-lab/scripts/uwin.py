@@ -38,12 +38,36 @@ def front(h):
 def uia_type(win_title_re, edit_name_re, text):
     from pywinauto import Desktop
     w = Desktop(backend='uia').window(title_re=win_title_re)
-    w.wait('visible', timeout=25)
+    w.wait('visible', timeout=8)
     e = w.child_window(title_re=edit_name_re, control_type='Edit')
-    e.wait('visible', timeout=15)
+    e.wait('visible', timeout=6)
     e.click_input(); e.type_keys(text, with_spaces=True)
     time.sleep(3)
     return w.handle
+
+def click_type(h, rel, text):
+    """Fallback: click a point given relative to the window (dx from left or, if negative, from right; dy from top) and type."""
+    from wincap import window_rect
+    from pywinauto import keyboard, mouse
+    l, t, r, b = window_rect(h)
+    dx, dy = rel
+    x = l + dx if dx >= 0 else r + dx
+    mouse.click(coords=(x, t + dy)); time.sleep(0.7)
+    keyboard.send_keys('^a{BACKSPACE}'); keyboard.send_keys(text, with_spaces=True)
+    time.sleep(3)
+    log(f'typed {text!r} at ({x},{t + dy}) by coordinates')
+
+def search_in(title_pred, uia_title, uia_edit, rel, text):
+    h = find(title_pred, 20)
+    if not h:
+        log('window not found for search'); return None
+    front(h)
+    try:
+        h2 = uia_type(uia_title, uia_edit, text); log('typed via UI Automation'); return h2
+    except Exception as ex:
+        log('UI Automation search failed:', repr(ex), '- falling back to coordinates')
+    front(h); click_type(h, rel, text)
+    return h
 
 def main():
     action, name = sys.argv[1], (sys.argv[2] if len(sys.argv) > 2 else '')
@@ -62,17 +86,17 @@ def main():
             log(f'no window found for {arg}; desktop only'); shot(name)
     elif action == 'settings':
         subprocess.Popen(['cmd', '/c', 'start', '', 'ms-settings:appsfeatures']); time.sleep(6)
-        try:
-            h = uia_type('Settings', 'Search apps', arg); front(h); shot(name, h)
-        except Exception as ex:
-            log('settings search failed:', repr(ex)); h = find(lambda t, c, p: t == 'Settings', 5); shot(name, h)
+        # "Search apps" box: ~490 px from the window's left edge, ~128 px from its top (1024x768 runner screen)
+        h = search_in(lambda t, c, p: t == 'Settings', 'Settings', 'Search apps', (490, 128), arg)
+        if h: front(h)
+        shot(name, h)
         subprocess.run(['taskkill', '/IM', 'SystemSettings.exe', '/F'], capture_output=True)
     elif action == 'cpl':
         subprocess.Popen(['control.exe', 'appwiz.cpl']); time.sleep(5)
-        try:
-            h = uia_type('Programs and Features', 'Search Programs and Features', arg); front(h); shot(name, h)
-        except Exception as ex:
-            log('control panel search failed:', repr(ex)); h = find(lambda t, c, p: 'Programs and Features' in t, 5); shot(name, h)
+        # search box: top-right of the window, ~120 px from the right edge, ~57 px from the top
+        h = search_in(lambda t, c, p: 'Programs and Features' in t, '.*Programs and Features.*', 'Search Programs and Features', (-120, 57), arg)
+        if h: front(h)
+        shot(name, h)
         if h: user32.PostMessageW(h, 0x0010, 0, 0)   # WM_CLOSE
     elif action == 'explorer':
         subprocess.Popen(['explorer.exe', f'/select,{arg}']); time.sleep(4)

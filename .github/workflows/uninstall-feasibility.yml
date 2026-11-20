@@ -1,6 +1,7 @@
 name: uninstall-feasibility
 # Uninstall-guide captures on GitHub runners: real screenshots, a screen recording and measured
 # leftover files/registry/services for 10 popular apps on macOS and Windows (Server 2025).
+# Windows list swaps Spotify (refuses admin installs) and Teams (no Windows Server support) for Python and Acrobat Reader.
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
@@ -36,11 +37,11 @@ jobs:
           - { id: Dropbox.Dropbox, name: Dropbox, slug: dropbox }
           - { id: Google.Chrome, name: Google Chrome, slug: google-chrome }
           - { id: Discord.Discord, name: Discord, slug: discord }
-          - { id: Microsoft.Teams, name: Teams, slug: microsoft-teams }
+          - { id: Python.Python.3.13, name: Python 3.13, slug: python }
           - { id: Microsoft.OneDrive, name: OneDrive, slug: onedrive }
           - { id: Mozilla.Firefox, name: Firefox, slug: firefox }
           - { id: VideoLAN.VLC, name: VLC, slug: vlc }
-          - { id: Spotify.Spotify, name: Spotify, slug: spotify }
+          - { id: Adobe.Acrobat.Reader.64-bit, name: Adobe Acrobat, slug: adobe-acrobat-reader }
     defaults: { run: { shell: pwsh } }
     steps:
       - uses: actions/checkout@v4
@@ -59,7 +60,7 @@ jobs:
         with: { pattern: 'u-*', path: dl }
       - name: Commit
         run: |
-          D=uninstall-lab/rerun-2026-11-20; mkdir -p $D
+          D=uninstall-lab/rerun3-2026-11-20; mkdir -p $D
           for d in dl/u-*; do n=${d#dl/u-}; rm -rf $D/$n; find $d -size +20M -print -delete; rm -f $d/snap-*.txt.gz; gzip -9 $d/snap-*.txt 2>/dev/null; mv $d $D/$n; done
           echo "run: $RUN_URL" > $D/RUN.txt
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

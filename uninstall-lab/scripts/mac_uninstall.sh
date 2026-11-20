@@ -49,9 +49,34 @@ cat > "$OUT/meta.json" <<J
  "date_utc": "$(date -u +%FT%TZ)", "run": "${RUN_URL:-}", "git_sha": "${GITHUB_SHA:-}"}
 J
 log "start $CASK"
+# --- pre-clean: some apps (Chrome, Firefox...) come preinstalled on the runner image. Remove the app
+# and every path in the cask's zap list first, so the test starts from a machine without the app.
+brew info --json=v2 --cask "$CASK" > "$OUT/cask-info-before.json" 2>&1
+python3 - "$OUT/cask-info-before.json" > /tmp/preclean.txt <<'P'
+import json, sys, glob, os
+c = json.load(open(sys.argv[1]))['casks'][0]
+paths = []
+for a in c['artifacts']:
+    if 'app' in a: paths.append('/Applications/' + a['app'][0])
+    for k in ('zap', 'uninstall'):
+        for st in a.get(k, []):
+            if isinstance(st, dict):
+                for kk in ('trash', 'delete', 'rmdir'):
+                    v = st.get(kk, [])
+                    paths += [v] if isinstance(v, str) else v
+for p in paths:
+    for g in glob.glob(os.path.expanduser(p)):
+        print(g)
+P
+if [ -s /tmp/preclean.txt ]; then
+  log "pre-clean (already on runner image): $(tr '\n' ' ' < /tmp/preclean.txt)"
+  while IFS= read -r p; do sudo rm -rf "$p"; done < /tmp/preclean.txt
+fi
+brew list --cask "$CASK" >/dev/null 2>&1 && tmo 120 brew uninstall --force --cask "$CASK" >/dev/null 2>&1
 close_finder
 snap "$OUT/snap-0-before.txt"
 screencapture -x -V 240 "$OUT/recording-raw.mov" > "$OUT/recording.log" 2>&1 & REC=$!
+stop_rec() { for i in $(seq 1 30); do kill -0 $REC 2>/dev/null || break; sleep 10; done; kill -INT $REC 2>/dev/null; sleep 3; kill -9 $REC 2>/dev/null; }
 
 s=$(date +%s); tmo 900 brew install --cask "$CASK" > "$OUT/brew-install.txt" 2>&1; rc=$?
 log "brew install exit=$rc seconds=$(( $(date +%s)-s ))"
@@ -60,8 +85,14 @@ APPNAME=$(python3 -c "
 import json; c=json.load(open('$OUT/cask-info.json'))['casks'][0]
 apps=[a['app'][0] for a in c['artifacts'] if 'app' in a]
 print(apps[0] if apps else '')" 2>/dev/null)
+snap /tmp/snap-installed-probe.txt
+if [ -z "$APPNAME" ] || [ ! -d "/Applications/$APPNAME" ]; then
+  # .pkg-based casks (Zoom, Teams, OneDrive) have no `app` artifact: take the new bundle in /Applications
+  APPNAME=$(comm -13 "$OUT/snap-0-before.txt" /tmp/snap-installed-probe.txt | grep -E '^/Applications/[^/]+\.app$' | head -1 | sed 's#^/Applications/##')
+  log "app bundle found by diff (pkg cask): $APPNAME"
+fi
 APP=/Applications/$APPNAME
-if [ -z "$APPNAME" ] || [ ! -d "$APP" ]; then log "FAILED: no app bundle after install ($APPNAME)"; wait $REC; exit 0; fi
+if [ -z "$APPNAME" ] || [ ! -d "$APP" ]; then log "FAILED: no app bundle after install ($APPNAME)"; stop_rec; exit 0; fi
 sudo xattr -dr com.apple.quarantine "$APP" 2>/dev/null   # skip the first-launch "downloaded from the internet" prompt
 BID=$(defaults read "$APP/Contents/Info" CFBundleIdentifier 2>/dev/null)
 EXE=$(defaults read "$APP/Contents/Info" CFBundleExecutable 2>/dev/null)
@@ -134,7 +165,7 @@ print(json.dumps({'os': 'macOS', 'cask': cask, 'app': app, 'bundle_id': bid, 've
   'created_items': len(c), 'created_kb': kb(c), 'leftover_items_after_trash': len(t), 'leftover_kb_after_trash': kb(t),
   'leftovers_after_trash': [x[1] for x in t], 'leftover_items_after_zap': len(z), 'leftovers_after_zap': [x[1] for x in z]}, indent=1))
 P
-wait $REC; log "recording exit=$?"
+stop_rec; log "recording stopped"
 if [ -s "$OUT/recording-raw.mov" ]; then
   tmo 300 avconvert --preset Preset640x480 --source "$OUT/recording-raw.mov" --output "$OUT/recording.mp4" >>"$LOG" 2>&1 && rm -f "$OUT/recording-raw.mov"
 fi
