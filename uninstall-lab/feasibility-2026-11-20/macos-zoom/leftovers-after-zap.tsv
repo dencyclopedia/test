@@ -1,0 +1,47 @@
+0	~/Library/Application Scripts/com.apple.aiml.UnilogTelemetryWorker
+0	~/Library/Application Scripts/com.apple.DifferentialPrivacy.TelemetryAggregator
+0	~/Library/Application Scripts/com.apple.lighthouse.PnROnDeviceWorker
+0	~/Library/Application Scripts/com.apple.LighthouseBitacoraFramework.BitacoraWorker
+0	~/Library/Application Scripts/com.apple.MediaMLPluginApp.MediaMLExtension
+0	~/Library/Application Scripts/com.apple.mlhost.CloudWorker
+0	~/Library/Application Scripts/com.apple.mlhost.TelemetryWorker
+0	~/Library/Application Scripts/com.apple.parsec.SafariBrowsingAssistantWorker
+0	~/Library/Application Scripts/com.apple.poirot.MessagesAnalyticsWorker
+0	~/Library/Application Scripts/com.apple.poirot.poirot_tool
+0	~/Library/Application Scripts/com.apple.siri.metrics.AssetMetricsExtension
+0	~/Library/Application Scripts/com.apple.siri.metrics.DevicePropertiesExtension
+0	~/Library/Application Scripts/com.apple.siri.metrics.MetricsExtension
+0	~/Library/Application Scripts/com.apple.siri.ODDExperimentationExtension
+0	~/Library/Application Scripts/com.apple.siri.ODDIPoirotExperimentationExtension
+0	~/Library/Application Scripts/com.apple.siri.ODDIPoirotMetricsExtension
+0	~/Library/Application Scripts/com.apple.siri.SiriSuggestionsLightHousePlugin
+0	~/Library/Application Scripts/group.com.apple.poirot.MessagesAnalyticsWorker
+0	~/Library/Application Scripts/group.com.apple.replayd
+0	~/Library/Application Scripts/group.com.apple.screencapture
+0	~/Library/Application Support/locationaccessstored
+60	~/Library/Caches/com.apple.geoanalyticsd
+32	~/Library/Containers/com.apple.aiml.UnilogTelemetryWorker
+32	~/Library/Containers/com.apple.DifferentialPrivacy.TelemetryAggregator
+36	~/Library/Containers/com.apple.lighthouse.PnROnDeviceWorker
+40	~/Library/Containers/com.apple.LighthouseBitacoraFramework.BitacoraWorker
+32	~/Library/Containers/com.apple.MediaMLPluginApp.MediaMLExtension
+36	~/Library/Containers/com.apple.mlhost.CloudWorker
+32	~/Library/Containers/com.apple.mlhost.TelemetryWorker
+32	~/Library/Containers/com.apple.parsec.SafariBrowsingAssistantWorker
+36	~/Library/Containers/com.apple.poirot.MessagesAnalyticsWorker
+40	~/Library/Containers/com.apple.siri.metrics.AssetMetricsExtension
+36	~/Library/Containers/com.apple.siri.metrics.DevicePropertiesExtension
+36	~/Library/Containers/com.apple.siri.metrics.MetricsExtension
+40	~/Library/Containers/com.apple.siri.ODDIPoirotExperimentationExtension
+40	~/Library/Containers/com.apple.siri.ODDIPoirotMetricsExtension
+40	~/Library/Containers/com.apple.siri.SiriSuggestionsLightHousePlugin
+4	~/Library/Group Containers/com.apple.poirot.poirot_tool
+4	~/Library/Group Containers/com.apple.siri.ODDExperimentationExtension
+4	~/Library/Group Containers/com.apple.siri.ODDIPoirotMetricsExtension
+4	~/Library/Group Containers/group.com.apple.poirot.MessagesAnalyticsWorker
+4	~/Library/Group Containers/group.com.apple.screencapture
+4	~/Library/Preferences/com.apple.locationaccessstored.plist
+4	~/Library/Preferences/com.apple.mlhost.plist
+4	~/Library/Preferences/com.apple.protectedcloudstorage.protectedcloudkeysyncing.plist
+4	~/Library/Preferences/com.apple.siri.ODDI.PoirotExperimentationWorker.plist
+4	~/Library/Preferences/com.apple.spotlightknowledge.plist

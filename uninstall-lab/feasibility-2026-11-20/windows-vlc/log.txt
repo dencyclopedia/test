@@ -1,0 +1,16 @@
+[07:05:05] start VideoLAN.VLC
+[07:05:33] ffmpeg: C:\ProgramData\Chocolatey\bin\ffmpeg.exe
+[07:05:56] winget install exit=0 seconds=23
+[07:05:57] registry entry: VLC media player 3.0.24 | uninstall: "C:\Program Files\VideoLAN\VLC\uninstall.exe"
+[07:05:57] launching: C:\Program Files\VideoLAN\VLC\vlc.exe
+[07:06:23 UTC +    0.7s] screenshot 01-app-first-launch.png
+[07:06:26] items created by install + first run: 5
+[07:06:37 UTC +    0.7s] screenshot 02-settings-installed-apps.png
+[07:06:44 UTC +    0.7s] screenshot 03-control-panel-programs.png
+[07:06:53 UTC +    0.7s] screenshot 04-official-uninstaller-first-screen.png
+[07:06:57] standard uninstall (winget -> app's own uninstaller, silent) exit=0 seconds=3
+[07:07:02] LEFTOVERS after standard uninstall: 5 items; files KB total: 192726
+[07:07:08 UTC +    0.7s] screenshot 05-explorer-leftover-folder.png
+[07:07:09 UTC +    0.7s] screenshot 06-final-desktop.png
+[07:08:24] recording: 909193 bytes
+[07:08:24] done

@@ -1,0 +1,5 @@
+FILE	C:\Program Files\VideoLAN
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN
+FILE	C:\Users\Public\Desktop\VLC media player.lnk
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\VideoLAN
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\VLC media player

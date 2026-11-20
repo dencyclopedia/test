@@ -1,0 +1,25 @@
+[07:04:58] start zoom (zoom.us.app)
+[07:05:22] brew install exit=0 seconds=23
+[07:05:23] version: 7.2.5.90525
+[07:05:23] app bundle size: 501M
+[07:05:24] launched
+[07:05:51] screenshot 01-app-first-launch.png
+[07:06:17] items created by install + first run:       64
+[07:06:23] screenshot 02-finder-app-selected.png
+29:85: execution error: Finder got an error: AppleEvent timed out. (-1712)
+[07:08:24] Finder AppleScript refused; falling back to mv into ~/.Trash
+mv: rename /Applications/zoom.us.app to /Users/runner/.Trash/zoom.us.app: Permission denied
+[07:08:28] screenshot 03-after-move-to-trash.png
+[07:08:33] screenshot 04-trash-window.png
+29:40: execution error: Finder got an error: The operation can’t be completed. (-128)
+[07:08:36] LEFTOVERS after drag-to-Trash:       64 items, 519044 KB
+[07:08:41] screenshot 05-finder-leftover-files.png
+[07:08:48] brew uninstall --zap exit=0 seconds=7
+[07:08:49] LEFTOVERS after brew --zap:       47 items
+[07:08:50] screenshot 06-final-desktop.png
+[07:08:50] recording exit=0 -rw-r--r--  1 runner  staff  15174573 Nov 20 07:07 /Users/runner/work/test/test/out/macos-zoom/recording-raw.mov
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[07:09:05] recording: -rw-r--r--  1 runner  staff         0 Nov 20 07:04 /Users/runner/work/test/test/out/macos-zoom/recording.log -rw-r--r--  1 runner  staff  26534031 Nov 20 07:09 /Users/runner/work/test/test/out/macos-zoom/recording.mp4 
+[07:09:05] done

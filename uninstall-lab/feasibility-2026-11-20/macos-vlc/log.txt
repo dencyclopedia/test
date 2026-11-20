@@ -1,0 +1,4 @@
+[07:04:53] start vlc (VLC.app)
+[07:06:11] brew install exit=0 seconds=78
+[07:06:12] version: 3.0.24
+[07:06:12] app bundle size: 147M

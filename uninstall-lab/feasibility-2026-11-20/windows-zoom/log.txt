@@ -1,0 +1,14 @@
+[07:05:06] start Zoom.Zoom
+[07:05:35] ffmpeg: C:\ProgramData\Chocolatey\bin\ffmpeg.exe
+[07:06:02] winget install exit=0 seconds=27
+[07:06:03] registry entry: Zoom Workplace (64-bit) 7.2.51704 | uninstall: MsiExec.exe /X{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}
+[07:06:04] launching: 
+[07:06:09] items created by install + first run: 8
+[07:06:19 UTC +    0.7s] screenshot 02-settings-installed-apps.png
+[07:06:28 UTC +    0.9s] screenshot 03-control-panel-programs.png
+[07:06:37 UTC +    0.7s] screenshot 04-official-uninstaller-first-screen.png
+[07:06:45] standard uninstall (winget -> app's own uninstaller, silent) exit=0 seconds=8
+[07:06:51] LEFTOVERS after standard uninstall: 3 items; files KB total: 0
+[07:06:52 UTC +    0.7s] screenshot 06-final-desktop.png
+[07:08:26] recording: 1078408 bytes
+[07:08:26] done

@@ -1,0 +1,1311 @@
+/Applications/.DS_Store
+/Applications/.localized
+/Applications/Firefox.app
+/Applications/Google Chrome for Testing.app
+/Applications/Google Chrome.app
+/Applications/Microsoft Edge.app
+/Applications/PowerShell.app
+/Applications/Python 3.11
+/Applications/Python 3.12
+/Applications/Python 3.13
+/Applications/Python 3.14
+/Applications/Safari.app
+/Applications/Utilities
+/Applications/Xcode_26.0.1.app
+/Applications/Xcode_26.0.app
+/Applications/Xcode_26.1.1.app
+/Applications/Xcode_26.1.app
+/Applications/Xcode_26.2.0.app
+/Applications/Xcode_26.2.app
+/Applications/Xcode_26.3.0.app
+/Applications/Xcode_26.3.app
+/Applications/Xcode_26.4.1.app
+/Applications/Xcode_26.4.app
+/Applications/Xcode_26.5.0.app
+/Applications/Xcode_26.5.app
+/Applications/Xcode_26.6.0.app
+/Applications/Xcode_26.6.app
+/Applications/Xcode.app
+/Library/Application Support/Apple
+/Library/Application Support/BTServer
+/Library/Application Support/com.apple.backgroundassets.user
+/Library/Application Support/com.apple.TCC
+/Library/Application Support/CrashReporter
+/Library/Application Support/iLifeMediaBrowser
+/Library/Application Support/Mozilla
+/Library/Application Support/ProApps
+/Library/Application Support/Script Editor
+/Library/Application Support/Veertu
+/Library/LaunchAgents/com.veertu.anka.addons.ankacp.plist
+/Library/LaunchAgents/com.veertu.anka.addons.ankarun.plist
+/Library/LaunchAgents/com.veertu.anka.addons.copypaste.plist
+/Library/LaunchAgents/com.veertu.anka.addons.locale.plist
+/Library/LaunchAgents/com.veertu.anka.addons.screenunsaver.plist
+/Library/LaunchDaemons/change_hostname.plist
+/Library/LaunchDaemons/com.veertu.anka.addons.ankaupd.plist
+/Library/LaunchDaemons/com.veertu.anka.addons.plist
+/Library/LaunchDaemons/com.veertu.anka.addons.proxy.plist
+/Library/LaunchDaemons/com.veertu.anka.addons.ssh.plist
+/Library/LaunchDaemons/com.veertu.anka.addons.systemsetup.plist
+/Library/LaunchDaemons/SessionManagerPlugin.plist
+/Library/Preferences/.GlobalPreferences.plist
+/Library/Preferences/Audio
+/Library/Preferences/com.apple.AppleFileServer.plist
+/Library/Preferences/com.apple.apsd.launchd
+/Library/Preferences/com.apple.apsd.plist
+/Library/Preferences/com.apple.AssetCache.plist
+/Library/Preferences/com.apple.BezelServices.plist
+/Library/Preferences/com.apple.ByteRangeLocking.plist
+/Library/Preferences/com.apple.commerce.plist
+/Library/Preferences/com.apple.dock.plist
+/Library/Preferences/com.apple.driver.AppleIRController.plist
+/Library/Preferences/com.apple.dt.Xcode.plist
+/Library/Preferences/com.apple.FindMyMac.plist
+/Library/Preferences/com.apple.HIToolbox.plist
+/Library/Preferences/com.apple.iclouddrive.features.plist
+/Library/Preferences/com.apple.keyboardtype.plist
+/Library/Preferences/com.apple.loginwindow.plist
+/Library/Preferences/com.apple.MCX.plist
+/Library/Preferences/com.apple.mdmclient.plist
+/Library/Preferences/com.apple.networkd.networknomicon.plist
+/Library/Preferences/com.apple.networkd.plist
+/Library/Preferences/com.apple.networkd.sysctl.plist
+/Library/Preferences/com.apple.networkextension.control.plist
+/Library/Preferences/com.apple.networkextension.necp.plist
+/Library/Preferences/com.apple.networkextension.plist
+/Library/Preferences/com.apple.networkextension.uuidcache.plist
+/Library/Preferences/com.apple.noticeboard.plist
+/Library/Preferences/com.apple.powerlogd.plist
+/Library/Preferences/com.apple.PowerManagement.8DBF21A6-4AC6-52E4-A8D5-686425A02B3D.plist
+/Library/Preferences/com.apple.PowerManagement.plist
+/Library/Preferences/com.apple.security.appsandbox.plist
+/Library/Preferences/com.apple.security.plist
+/Library/Preferences/com.apple.security.systemidentities.plist
+/Library/Preferences/com.apple.seeding.plist
+/Library/Preferences/com.apple.setupassistant.plist
+/Library/Preferences/com.apple.SoftwareUpdate.plist
+/Library/Preferences/com.apple.TimeMachine.plist
+/Library/Preferences/com.apple.timezone.auto.plist
+/Library/Preferences/com.apple.updatesettings.plist
+/Library/Preferences/com.apple.windowserver.displays.plist
+/Library/Preferences/DirectoryService
+/Library/Preferences/Logging
+/Library/Preferences/OpenDirectory
+/Library/Preferences/org.cups.printers.plist
+/Library/Preferences/SystemConfiguration
+/Library/Preferences/Xsan
+/private/var/db/receipts/com.amazon.aws.cli2.bom
+/private/var/db/receipts/com.amazon.aws.cli2.plist
+/private/var/db/receipts/com.microsoft.powershell.bom
+/private/var/db/receipts/com.microsoft.powershell.plist
+/private/var/db/receipts/com.veertu.anka.addons.core.pkg.bom
+/private/var/db/receipts/com.veertu.anka.addons.core.pkg.plist
+/private/var/db/receipts/com.veertu.anka.addons.nullaudio.pkg.bom
+/private/var/db/receipts/com.veertu.anka.addons.nullaudio.pkg.plist
+/private/var/db/receipts/org.python.Python.PythonApplications-3.11.bom
+/private/var/db/receipts/org.python.Python.PythonApplications-3.11.plist
+/private/var/db/receipts/org.python.Python.PythonApplications-3.12.bom
+/private/var/db/receipts/org.python.Python.PythonApplications-3.12.plist
+/private/var/db/receipts/org.python.Python.PythonApplications-3.13.bom
+/private/var/db/receipts/org.python.Python.PythonApplications-3.13.plist
+/private/var/db/receipts/org.python.Python.PythonApplications-3.14.bom
+/private/var/db/receipts/org.python.Python.PythonApplications-3.14.plist
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.11.bom
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.11.plist
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.12.bom
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.12.plist
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.13.bom
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.13.plist
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.14.bom
+/private/var/db/receipts/org.python.Python.PythonDocumentation-3.14.plist
+/private/var/db/receipts/org.python.Python.PythonFramework-3.11.bom
+/private/var/db/receipts/org.python.Python.PythonFramework-3.11.plist
+/private/var/db/receipts/org.python.Python.PythonFramework-3.12.bom
+/private/var/db/receipts/org.python.Python.PythonFramework-3.12.plist
+/private/var/db/receipts/org.python.Python.PythonFramework-3.13.bom
+/private/var/db/receipts/org.python.Python.PythonFramework-3.13.plist
+/private/var/db/receipts/org.python.Python.PythonFramework-3.14.bom
+/private/var/db/receipts/org.python.Python.PythonFramework-3.14.plist
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.11.bom
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.11.plist
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.12.bom
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.12.plist
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.13.bom
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.13.plist
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.14.bom
+/private/var/db/receipts/org.python.Python.PythonUnixTools-3.14.plist
+/private/var/db/receipts/session-manager-plugin.bom
+/private/var/db/receipts/session-manager-plugin.plist
+/Users/runner/Library/Application Scripts/17539096-B884-479C-874E-1861C142409A
+/Users/runner/Library/Application Scripts/1E6D7959-D45A-4982-8B75-A8C09E019668
+/Users/runner/Library/Application Scripts/243LU875E5.groups.com.apple.podcasts
+/Users/runner/Library/Application Scripts/2ACD2228-8B90-4216-AD45-1B04FB9C8C9E
+/Users/runner/Library/Application Scripts/2FF77863-358D-492A-8FB3-CD9A68B69410
+/Users/runner/Library/Application Scripts/34A8998E-2A77-436F-817C-A33099AEFD61
+/Users/runner/Library/Application Scripts/4AB453DE-E5D2-4962-9ECE-78B623FFBD82
+/Users/runner/Library/Application Scripts/4B95A62F-FECE-44BB-B524-94BFEECC4032
+/Users/runner/Library/Application Scripts/5234E6C4-6EB9-4064-9058-E2F5631D87D6
+/Users/runner/Library/Application Scripts/5E5956C1-6E48-43E4-8CF2-03E2034ABEDC
+/Users/runner/Library/Application Scripts/74520D9C-CE2D-487A-8EAE-B1067FA1901F
+/Users/runner/Library/Application Scripts/8FD3D44E-EF86-4340-A492-BEDD3D19D638
+/Users/runner/Library/Application Scripts/com.apple.accessibility.axassetsd
+/Users/runner/Library/Application Scripts/com.apple.accessibility.NameRecognitionNotificationsExtension
+/Users/runner/Library/Application Scripts/com.apple.AccessibilitySettingsWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.aiml.UnilogTelemetryWorker
+/Users/runner/Library/Application Scripts/com.apple.AirPlayUIAgent
+/Users/runner/Library/Application Scripts/com.apple.AMPArtworkAgent
+/Users/runner/Library/Application Scripts/com.apple.AMPDeviceDiscoveryAgent
+/Users/runner/Library/Application Scripts/com.apple.AppSSOKerberos.KerberosExtension
+/Users/runner/Library/Application Scripts/com.apple.Arabesque
+/Users/runner/Library/Application Scripts/com.apple.AuthKit.AKDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.AuthKitUI.AKAppSSOExtension
+/Users/runner/Library/Application Scripts/com.apple.AvatarUI.AvatarPickerMemojiEditor
+/Users/runner/Library/Application Scripts/com.apple.AvatarUI.AvatarPickerMemojiPicker
+/Users/runner/Library/Application Scripts/com.apple.AvatarUI.AvatarPickerPosePicker
+/Users/runner/Library/Application Scripts/com.apple.AVConference.Diagnostic
+/Users/runner/Library/Application Scripts/com.apple.ax.KonaTTSSupport.KonaSynthesizer
+/Users/runner/Library/Application Scripts/com.apple.ax.MauiTTSSupport.MauiAUSP
+/Users/runner/Library/Application Scripts/com.apple.Batteries
+/Users/runner/Library/Application Scripts/com.apple.Batteries.BatteriesAvocadoWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.batteryui.BatterySettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.BiometricKit.BioLogDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.bird
+/Users/runner/Library/Application Scripts/com.apple.BluetoothSettingsApp.BluetoothSettingsAppIntentsWidget
+/Users/runner/Library/Application Scripts/com.apple.calculator
+/Users/runner/Library/Application Scripts/com.apple.calculator.CalculatorWidget
+/Users/runner/Library/Application Scripts/com.apple.calendar.CalendarIntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.CalendarWidget.IntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.ClassKit.diagnosticextension
+/Users/runner/Library/Application Scripts/com.apple.clock
+/Users/runner/Library/Application Scripts/com.apple.clock.WorldClockWidget
+/Users/runner/Library/Application Scripts/com.apple.CloudDocs.iCloudDriveFileProvider
+/Users/runner/Library/Application Scripts/com.apple.CloudDocs.iCloudDriveFileProviderManaged
+/Users/runner/Library/Application Scripts/com.apple.CloudSharingUI.CopyLink
+/Users/runner/Library/Application Scripts/com.apple.CloudSharingUI.CreateiCloudLinkExtension
+/Users/runner/Library/Application Scripts/com.apple.CloudSharingUI.invite
+/Users/runner/Library/Application Scripts/com.apple.contacts.ContactsCoreSpotlightExtension
+/Users/runner/Library/Application Scripts/com.apple.contacts.donation-agent
+/Users/runner/Library/Application Scripts/com.apple.controlcenter.ControlCenterSettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.controls.display
+/Users/runner/Library/Application Scripts/com.apple.controls.screenshot
+/Users/runner/Library/Application Scripts/com.apple.CoreEmbeddedSpeechRecognition.SpeechAudioDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.CoreEmbeddedSpeechRecognition.SpeechProfileDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.corerecents.recentsd
+/Users/runner/Library/Application Scripts/com.apple.CoreRoutine.RTDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.CryptoTokenKit.ctkcard.ctkcardtoken
+/Users/runner/Library/Application Scripts/com.apple.CryptoTokenKit.pivtoken
+/Users/runner/Library/Application Scripts/com.apple.CTLazuliSupport.diagnosticextension
+/Users/runner/Library/Application Scripts/com.apple.das.DASDaemon.DuetDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DEC.AppPredictionInternal.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.desktopsettings.DesktopSettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.AirPlay
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.AppleBtcDiagnosis
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.BluetoothDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.BluetoothHeadset
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.ConnectivityDE
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.ConnectivityWiFiDE
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.CoreSensingDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.IMDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.IntelligentRoutingDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.MiLoDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.filevault
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.installlog
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.spotlight
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.syslog
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.systemprofile
+/Users/runner/Library/Application Scripts/com.apple.diagnosticextensions.osx.timemachine
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.PICSDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.ScreenTime
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.shortcuts
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.StorageDESDXC
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.StorageDESSD
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.sysdiagnose
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.ToolKit.shortcuts
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.WallpaperMac
+/Users/runner/Library/Application Scripts/com.apple.DiagnosticExtensions.WiFi
+/Users/runner/Library/Application Scripts/com.apple.DifferentialPrivacy.TelemetryAggregator
+/Users/runner/Library/Application Scripts/com.apple.DiskSpaceDiagnostics.diagnosticextension
+/Users/runner/Library/Application Scripts/com.apple.dock.controls
+/Users/runner/Library/Application Scripts/com.apple.eventkit.CalendarDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.FaceTime
+/Users/runner/Library/Application Scripts/com.apple.Family-Settings.extension
+/Users/runner/Library/Application Scripts/com.apple.FileProviderDaemon.diagnostic
+/Users/runner/Library/Application Scripts/com.apple.findmy
+/Users/runner/Library/Application Scripts/com.apple.findmy.FindMyWidgetItems
+/Users/runner/Library/Application Scripts/com.apple.findmy.FindMyWidgetPeople
+/Users/runner/Library/Application Scripts/com.apple.Flurry
+/Users/runner/Library/Application Scripts/com.apple.FollowUpSettings.FollowUpSettingsExtension
+/Users/runner/Library/Application Scripts/com.apple.freeform
+/Users/runner/Library/Application Scripts/com.apple.freeform.sharingextension
+/Users/runner/Library/Application Scripts/com.apple.gamecenter.GameCenterUIService.GameCenterMessageExtension
+/Users/runner/Library/Application Scripts/com.apple.GameCenterDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.geod
+/Users/runner/Library/Application Scripts/com.apple.HeadGestures.diagnosticextension.HeadGesturesDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.helpviewer
+/Users/runner/Library/Application Scripts/com.apple.Home
+/Users/runner/Library/Application Scripts/com.apple.Home.group
+/Users/runner/Library/Application Scripts/com.apple.Home.HomeEnergyWidgets
+/Users/runner/Library/Application Scripts/com.apple.Home.HomeWidget.Interactive
+/Users/runner/Library/Application Scripts/com.apple.HomeKit.HomeKitCustomerDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.HomeKitEvents.HomeKitEventsDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.ibooks.BookLibrary.BooksDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.iBooks.BooksNotificationContentExtension
+/Users/runner/Library/Application Scripts/com.apple.iBooks.iBooksSpotlightExtension
+/Users/runner/Library/Application Scripts/com.apple.iBooksX
+/Users/runner/Library/Application Scripts/com.apple.iBooksX.SharingExtension
+/Users/runner/Library/Application Scripts/com.apple.iCal
+/Users/runner/Library/Application Scripts/com.apple.iCal.CalendarNotificationContentExtention-OSX
+/Users/runner/Library/Application Scripts/com.apple.iCal.CalendarWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.icloud.SPOwner.SearchPartyDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.iCloudDriveCore.diagnostic
+/Users/runner/Library/Application Scripts/com.apple.ImageIO.imageimporter
+/Users/runner/Library/Application Scripts/com.apple.ImagePlayground.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.ChineseHandwriting
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.EmojiFunctionRowItem
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.Korean
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.Kotoeri.KanaTyping
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.Kotoeri.RomajiTyping
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.SCIM
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.TCIM
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.TransliterationIM
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.TYIM
+/Users/runner/Library/Application Scripts/com.apple.inputmethod.VietnameseIM
+/Users/runner/Library/Application Scripts/com.apple.intelligenceflow.IntelligenceFlowRuntime.IntelligenceFlowDiagnostics
+/Users/runner/Library/Application Scripts/com.apple.intelligenceplatform.IntelligencePlatform.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.Internet-Accounts-Settings.extension
+/Users/runner/Library/Application Scripts/com.apple.IOUIAgent
+/Users/runner/Library/Application Scripts/com.apple.journal
+/Users/runner/Library/Application Scripts/com.apple.journal.JournalShareExtension
+/Users/runner/Library/Application Scripts/com.apple.journal.widgets
+/Users/runner/Library/Application Scripts/com.apple.journal.widgets.secure
+/Users/runner/Library/Application Scripts/com.apple.languageassetd
+/Users/runner/Library/Application Scripts/com.apple.lighthouse.PnROnDeviceWorker
+/Users/runner/Library/Application Scripts/com.apple.LighthouseBitacoraFramework.BitacoraWorker
+/Users/runner/Library/Application Scripts/com.apple.LoginUserService
+/Users/runner/Library/Application Scripts/com.apple.mail
+/Users/runner/Library/Application Scripts/com.apple.mail.MailNotificationContentExtension
+/Users/runner/Library/Application Scripts/com.apple.mail.SpotlightIndexExtension
+/Users/runner/Library/Application Scripts/com.apple.MailCacheDelete
+/Users/runner/Library/Application Scripts/com.apple.MailShareExtension
+/Users/runner/Library/Application Scripts/com.apple.ManagedSettings.ManagedSettingsMacOSExtension
+/Users/runner/Library/Application Scripts/com.apple.Maps
+/Users/runner/Library/Application Scripts/com.apple.Maps.DEMapsExtension
+/Users/runner/Library/Application Scripts/com.apple.MarkupUI.Markup
+/Users/runner/Library/Application Scripts/com.apple.mediaanalysisd
+/Users/runner/Library/Application Scripts/com.apple.MediaMLPluginApp.MediaMLExtension
+/Users/runner/Library/Application Scripts/com.apple.MediaPlayer.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.mediastream.mstreamd
+/Users/runner/Library/Application Scripts/com.apple.messages.ReplyExtension
+/Users/runner/Library/Application Scripts/com.apple.messages.ShareExtension
+/Users/runner/Library/Application Scripts/com.apple.mlhost.CloudWorker
+/Users/runner/Library/Application Scripts/com.apple.mlhost.TelemetryWorker
+/Users/runner/Library/Application Scripts/com.apple.MobileSMS
+/Users/runner/Library/Application Scripts/com.apple.MobileSMS.MessagesActionExtension
+/Users/runner/Library/Application Scripts/com.apple.MobileSMS.MessagesPluginNotificationExtension
+/Users/runner/Library/Application Scripts/com.apple.mobiletimer-framework.MobileTimerIntents
+/Users/runner/Library/Application Scripts/com.apple.Music.MusicCacheExtension
+/Users/runner/Library/Application Scripts/com.apple.NeptuneOneExtension
+/Users/runner/Library/Application Scripts/com.apple.NetworkInfo.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.networkquality.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.news
+/Users/runner/Library/Application Scripts/com.apple.news.articlenotificationextension
+/Users/runner/Library/Application Scripts/com.apple.news.openinnews
+/Users/runner/Library/Application Scripts/com.apple.news.tag
+/Users/runner/Library/Application Scripts/com.apple.news.widget
+/Users/runner/Library/Application Scripts/com.apple.news.widgetintents
+/Users/runner/Library/Application Scripts/com.apple.Notes
+/Users/runner/Library/Application Scripts/com.apple.Notes.IntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.Notes.QuickLookExtension
+/Users/runner/Library/Application Scripts/com.apple.Notes.SharingExtension
+/Users/runner/Library/Application Scripts/com.apple.Notes.SpotlightIndexExtension
+/Users/runner/Library/Application Scripts/com.apple.Notes.WidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.notificationcenterui
+/Users/runner/Library/Application Scripts/com.apple.notifications.NotificationsSettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.omniSearch.SearchToolDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.osx-tailspin
+/Users/runner/Library/Application Scripts/com.apple.parsec.SafariBrowsingAssistantWorker
+/Users/runner/Library/Application Scripts/com.apple.PDFKit.PDFImporter
+/Users/runner/Library/Application Scripts/com.apple.PeopleViewService
+/Users/runner/Library/Application Scripts/com.apple.PeopleViewService.PeopleWidget-macOS
+/Users/runner/Library/Application Scripts/com.apple.PeopleViewService.SelectPerson-iOS
+/Users/runner/Library/Application Scripts/com.apple.photoanalysisd
+/Users/runner/Library/Application Scripts/com.apple.photolibraryd
+/Users/runner/Library/Application Scripts/com.apple.PhotoLibraryServices.PhotosDiagnostics
+/Users/runner/Library/Application Scripts/com.apple.Photos
+/Users/runner/Library/Application Scripts/com.apple.Photos.PhotosFileProvider
+/Users/runner/Library/Application Scripts/com.apple.Photos.PhotosReliveWidget
+/Users/runner/Library/Application Scripts/com.apple.PhotosIntelligence.PhotosStoryDiagnostics
+/Users/runner/Library/Application Scripts/com.apple.PhotosUIPrivate.PhotosPosterProvider
+/Users/runner/Library/Application Scripts/com.apple.PlatformSSO.AccessKey
+/Users/runner/Library/Application Scripts/com.apple.PlatformSSOToken
+/Users/runner/Library/Application Scripts/com.apple.podcasts
+/Users/runner/Library/Application Scripts/com.apple.podcasts.PodcastsNotificationExtension
+/Users/runner/Library/Application Scripts/com.apple.podcasts.SpotlightIndexExtension
+/Users/runner/Library/Application Scripts/com.apple.podcasts.widget
+/Users/runner/Library/Application Scripts/com.apple.poirot.MessagesAnalyticsWorker
+/Users/runner/Library/Application Scripts/com.apple.poirot.poirot_tool
+/Users/runner/Library/Application Scripts/com.apple.PressAndHold
+/Users/runner/Library/Application Scripts/com.apple.priml.pfl.Vermillion
+/Users/runner/Library/Application Scripts/com.apple.priml.PFLMLHostPlugins.AVCPlugin
+/Users/runner/Library/Application Scripts/com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin
+/Users/runner/Library/Application Scripts/com.apple.priml.PFLMLHostPlugins.PrivateEvolutionPlugin
+/Users/runner/Library/Application Scripts/com.apple.priml.PFLMLHostPlugins.SiriAutoEvalPlugin
+/Users/runner/Library/Application Scripts/com.apple.priml.PFLMLHostPlugins.SiriMASPFLPush
+/Users/runner/Library/Application Scripts/com.apple.priml.PRIMLCKPreemptivePing
+/Users/runner/Library/Application Scripts/com.apple.printcenter
+/Users/runner/Library/Application Scripts/com.apple.printcenter.PrintCenterWidget
+/Users/runner/Library/Application Scripts/com.apple.quicklook.QuickLookUIService
+/Users/runner/Library/Application Scripts/com.apple.quicklook.ui.helper
+/Users/runner/Library/Application Scripts/com.apple.RelativeMotion.TempestDiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.reminders
+/Users/runner/Library/Application Scripts/com.apple.reminders.macOSIntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.reminders.sharingextension
+/Users/runner/Library/Application Scripts/com.apple.reminders.spotlightindexextension
+/Users/runner/Library/Application Scripts/com.apple.reminders.WidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.routined
+/Users/runner/Library/Application Scripts/com.apple.Safari
+/Users/runner/Library/Application Scripts/com.apple.Safari.CacheDeleteExtension
+/Users/runner/Library/Application Scripts/com.apple.Safari.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.Safari.SafariLinkExtension
+/Users/runner/Library/Application Scripts/com.apple.Safari.SafariQuickLookPreview
+/Users/runner/Library/Application Scripts/com.apple.Safari.SafariWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.Safari.WebApp
+/Users/runner/Library/Application Scripts/com.apple.screensaver.AlbumArtwork
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Computer-Name
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Drift
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Engine.legacyScreenSaver
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Engine.legacyScreenSaver.x86-64
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Hello
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.iLife-Slideshow-Extension
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Monterey
+/Users/runner/Library/Application Scripts/com.apple.ScreenSaver.Ventura
+/Users/runner/Library/Application Scripts/com.apple.ScreenTimeAgent
+/Users/runner/Library/Application Scripts/com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetIntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.AirDropHandoffIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.AppearanceIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.DateTimeIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.LockScreenIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.LoginItemsIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.mouse
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.NetworkSettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.PrinterScannerIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.trackpad
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.TransferResetIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.UsersGroupsIntents
+/Users/runner/Library/Application Scripts/com.apple.settings-intents.WallpaperIntents
+/Users/runner/Library/Application Scripts/com.apple.settings.SecurityPrefQADirector.SecurityPrivacyIntents
+/Users/runner/Library/Application Scripts/com.apple.share.AirDrop.send
+/Users/runner/Library/Application Scripts/com.apple.share.Mail.compose
+/Users/runner/Library/Application Scripts/com.apple.share.Mail.compose-back-to-sender
+/Users/runner/Library/Application Scripts/com.apple.share.Messages.window
+/Users/runner/Library/Application Scripts/com.apple.share.System.add-to-iphoto
+/Users/runner/Library/Application Scripts/com.apple.share.System.add-to-safari-reading-list
+/Users/runner/Library/Application Scripts/com.apple.share.System.set-account-picture
+/Users/runner/Library/Application Scripts/com.apple.share.System.set-desktop-image
+/Users/runner/Library/Application Scripts/com.apple.sharing.ShareSheetUI
+/Users/runner/Library/Application Scripts/com.apple.Shell
+/Users/runner/Library/Application Scripts/com.apple.shortcuts
+/Users/runner/Library/Application Scripts/com.apple.shortcuts.Run-Workflow
+/Users/runner/Library/Application Scripts/com.apple.shortcuts.ShortcutLiveActivityWidget
+/Users/runner/Library/Application Scripts/com.apple.shortcuts.ShortcutsWidget
+/Users/runner/Library/Application Scripts/com.apple.siri.AssistantSettingsControls
+/Users/runner/Library/Application Scripts/com.apple.siri.inference.SiriInference.SiriInferenceRuntimeDiagnostics
+/Users/runner/Library/Application Scripts/com.apple.siri.media-indexer
+/Users/runner/Library/Application Scripts/com.apple.siri.metrics.AssetMetricsExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.metrics.DevicePropertiesExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.metrics.MetricsExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.ODDExperimentationExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.ODDIExperimentationExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.ODDIMetricsExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.ODDIPoirotExperimentationExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.ODDIPoirotMetricsExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.parsec.HashtagImagesApp.HashtagImagesExtension
+/Users/runner/Library/Application Scripts/com.apple.siri.SiriSuggestionsLightHousePlugin
+/Users/runner/Library/Application Scripts/com.apple.siri.SiriTTSService.STSDiagnostic
+/Users/runner/Library/Application Scripts/com.apple.SoftwareUpdate.SoftwareUpdateSettingsWidget
+/Users/runner/Library/Application Scripts/com.apple.SonicKit.diagnostics
+/Users/runner/Library/Application Scripts/com.apple.Sound-Settings.SoundIntents
+/Users/runner/Library/Application Scripts/com.apple.speech.MacinTalkFramework.MacinTalkAUSP
+/Users/runner/Library/Application Scripts/com.apple.speech.MacinTalkFramework.WardaSynthesizer
+/Users/runner/Library/Application Scripts/com.apple.speech.SpeechSynthesisServerXPC
+/Users/runner/Library/Application Scripts/com.apple.spotlightui
+/Users/runner/Library/Application Scripts/com.apple.StartupDisk.StartupDiskWidgetExtension
+/Users/runner/Library/Application Scripts/com.apple.stickersd.group
+/Users/runner/Library/Application Scripts/com.apple.stocks
+/Users/runner/Library/Application Scripts/com.apple.stocks.widget
+/Users/runner/Library/Application Scripts/com.apple.systempreferences
+/Users/runner/Library/Application Scripts/com.apple.systempreferences.AppleIDSettings
+/Users/runner/Library/Application Scripts/com.apple.systempreferences.cache
+/Users/runner/Library/Application Scripts/com.apple.systempreferences.DisplaysSettingsIntents
+/Users/runner/Library/Application Scripts/com.apple.systempreferences.SpotlightIndexExtension
+/Users/runner/Library/Application Scripts/com.apple.texttospeech.SiriAUSP
+/Users/runner/Library/Application Scripts/com.apple.TextToSpeechVoiceBankingSupport.VoiceBankingDiagnostics
+/Users/runner/Library/Application Scripts/com.apple.Time-Machine-Settings-Intents.extension
+/Users/runner/Library/Application Scripts/com.apple.tips.Widget
+/Users/runner/Library/Application Scripts/com.apple.TV.TVCacheExtension
+/Users/runner/Library/Application Scripts/com.apple.UIUnderstanding.diagnosticextension
+/Users/runner/Library/Application Scripts/com.apple.unilog.SearchUploadWorker
+/Users/runner/Library/Application Scripts/com.apple.unilog.SiriUploadWorker
+/Users/runner/Library/Application Scripts/com.apple.UsageTrackingAgent
+/Users/runner/Library/Application Scripts/com.apple.voicebankingd
+/Users/runner/Library/Application Scripts/com.apple.VoiceMemos
+/Users/runner/Library/Application Scripts/com.apple.VoiceMemos.RecordWidget
+/Users/runner/Library/Application Scripts/com.apple.VoiceMemos.SpotlightIndexExtension
+/Users/runner/Library/Application Scripts/com.apple.VoiceMemos.VoiceMemosIntentsExtension
+/Users/runner/Library/Application Scripts/com.apple.VoiceMemos.VoiceMemosSettingsWidget
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.agent
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.agent.controls
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.aerials
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.dynamic
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.gradient
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.image
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.legacy
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.macintosh
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.sequoia
+/Users/runner/Library/Application Scripts/com.apple.wallpaper.extension.sonoma
+/Users/runner/Library/Application Scripts/com.apple.weather
+/Users/runner/Library/Application Scripts/com.apple.weather.diagnosticextension
+/Users/runner/Library/Application Scripts/com.apple.weather.menu
+/Users/runner/Library/Application Scripts/com.apple.weather.WeatherAppIntents
+/Users/runner/Library/Application Scripts/com.apple.weather.WeatherIntents
+/Users/runner/Library/Application Scripts/com.apple.weather.widget
+/Users/runner/Library/Application Scripts/com.apple.wifiqa.NPTKit.NPTWiFiDiagnosticsExtension
+/Users/runner/Library/Application Scripts/com.apple.WiFiVelocity.DiagnosticExtension
+/Users/runner/Library/Application Scripts/com.apple.WindowManager.controls
+/Users/runner/Library/Application Scripts/com.apple.WordOfTheDay
+/Users/runner/Library/Application Scripts/com.apple.WorkflowKit.ShortcutsViewService
+/Users/runner/Library/Application Scripts/D2191F20-1A5E-482E-AEB2-7AE80879378D
+/Users/runner/Library/Application Scripts/F760EBF6-29C8-4C62-930E-60A2E21A8EDE
+/Users/runner/Library/Application Scripts/FF5C39B0-25E3-4BEB-8EFA-91C918FE4C94
+/Users/runner/Library/Application Scripts/group.com.apple.accessibility.voicebanking
+/Users/runner/Library/Application Scripts/group.com.apple.amsondevicestoraged
+/Users/runner/Library/Application Scripts/group.com.apple.AppleSpell
+/Users/runner/Library/Application Scripts/group.com.apple.appstoreagent
+/Users/runner/Library/Application Scripts/group.com.apple.calendar
+/Users/runner/Library/Application Scripts/group.com.apple.chronod
+/Users/runner/Library/Application Scripts/group.com.apple.contacts
+/Users/runner/Library/Application Scripts/group.com.apple.controlcenter
+/Users/runner/Library/Application Scripts/group.com.apple.corerepair
+/Users/runner/Library/Application Scripts/group.com.apple.CoreSpeech
+/Users/runner/Library/Application Scripts/group.com.apple.DeviceActivity
+/Users/runner/Library/Application Scripts/group.com.apple.energykit
+/Users/runner/Library/Application Scripts/group.com.apple.feedback
+/Users/runner/Library/Application Scripts/group.com.apple.feedbacklogger
+/Users/runner/Library/Application Scripts/group.com.apple.FileProvider.DomainCaching
+/Users/runner/Library/Application Scripts/group.com.apple.findmy.findmylocateagent
+/Users/runner/Library/Application Scripts/group.com.apple.fskit.settings
+/Users/runner/Library/Application Scripts/group.com.apple.helpviewer.content
+/Users/runner/Library/Application Scripts/group.com.apple.icloud.searchpartyuseragent
+/Users/runner/Library/Application Scripts/group.com.apple.iCloudDrive
+/Users/runner/Library/Application Scripts/group.com.apple.Journal
+/Users/runner/Library/Application Scripts/group.com.apple.liveactivitiesd
+/Users/runner/Library/Application Scripts/group.com.apple.loginwindow.persistent-apps
+/Users/runner/Library/Application Scripts/group.com.apple.mail
+/Users/runner/Library/Application Scripts/group.com.apple.managedappdistributionagent
+/Users/runner/Library/Application Scripts/group.com.apple.ManagedSettings
+/Users/runner/Library/Application Scripts/group.com.apple.mlhost
+/Users/runner/Library/Application Scripts/group.com.apple.mobiletimerd
+/Users/runner/Library/Application Scripts/group.com.apple.moments
+/Users/runner/Library/Application Scripts/group.com.apple.NetworkAuthorization.ServerMarkers
+/Users/runner/Library/Application Scripts/group.com.apple.news
+/Users/runner/Library/Application Scripts/group.com.apple.newsd
+/Users/runner/Library/Application Scripts/group.com.apple.notes
+/Users/runner/Library/Application Scripts/group.com.apple.PegasusConfiguration
+/Users/runner/Library/Application Scripts/group.com.apple.people
+/Users/runner/Library/Application Scripts/group.com.apple.photolibraryd.private
+/Users/runner/Library/Application Scripts/group.com.apple.Photos.PhotosFileProvider
+/Users/runner/Library/Application Scripts/group.com.apple.poirot.MessagesAnalyticsWorker
+/Users/runner/Library/Application Scripts/group.com.apple.portrait.BackgroundReplacement
+/Users/runner/Library/Application Scripts/group.com.apple.printcenter
+/Users/runner/Library/Application Scripts/group.com.apple.private.translation
+/Users/runner/Library/Application Scripts/group.com.apple.reminders
+/Users/runner/Library/Application Scripts/group.com.apple.replayd
+/Users/runner/Library/Application Scripts/group.com.apple.replicatord
+/Users/runner/Library/Application Scripts/group.com.apple.scopedbookmarkagent
+/Users/runner/Library/Application Scripts/group.com.apple.screencapture
+/Users/runner/Library/Application Scripts/group.com.apple.ScreenContinuityServices
+/Users/runner/Library/Application Scripts/group.com.apple.ScreenTime
+/Users/runner/Library/Application Scripts/group.com.apple.secure-control-center-preferences
+/Users/runner/Library/Application Scripts/group.com.apple.sharingd
+/Users/runner/Library/Application Scripts/group.com.apple.shortcuts
+/Users/runner/Library/Application Scripts/group.com.apple.siri.ASR.shared
+/Users/runner/Library/Application Scripts/group.com.apple.siri.findmy
+/Users/runner/Library/Application Scripts/group.com.apple.siri.inference
+/Users/runner/Library/Application Scripts/group.com.apple.siri.referenceResolution
+/Users/runner/Library/Application Scripts/group.com.apple.siri.sirisuggestions
+/Users/runner/Library/Application Scripts/group.com.apple.SiriTTS
+/Users/runner/Library/Application Scripts/group.com.apple.stocks
+/Users/runner/Library/Application Scripts/group.com.apple.stocks-news
+/Users/runner/Library/Application Scripts/group.com.apple.studentd
+/Users/runner/Library/Application Scripts/group.com.apple.swtransparency
+/Users/runner/Library/Application Scripts/group.com.apple.telephonyutilities.callservicesd
+/Users/runner/Library/Application Scripts/group.com.apple.tips
+/Users/runner/Library/Application Scripts/group.com.apple.tipsnext
+/Users/runner/Library/Application Scripts/group.com.apple.transparency
+/Users/runner/Library/Application Scripts/group.com.apple.usernoted
+/Users/runner/Library/Application Scripts/group.com.apple.UserNotifications
+/Users/runner/Library/Application Scripts/group.com.apple.VoiceMemos.shared
+/Users/runner/Library/Application Scripts/group.com.apple.weather
+/Users/runner/Library/Application Scripts/group.is.workflow.my.app
+/Users/runner/Library/Application Scripts/group.is.workflow.shortcuts
+/Users/runner/Library/Application Support/.IdentityService
+/Users/runner/Library/Application Support/AddressBook
+/Users/runner/Library/Application Support/Animoji
+/Users/runner/Library/Application Support/CallHistoryDB
+/Users/runner/Library/Application Support/CallHistoryTransactions
+/Users/runner/Library/Application Support/com.apple.ap.promotedcontentd
+/Users/runner/Library/Application Support/com.apple.appleintelligencereporting.processing
+/Users/runner/Library/Application Support/com.apple.controlcenter
+/Users/runner/Library/Application Support/com.apple.exchangesync
+/Users/runner/Library/Application Support/com.apple.NewDeviceOutreach
+/Users/runner/Library/Application Support/com.apple.ProtectedCloudStorage
+/Users/runner/Library/Application Support/com.apple.RemoteManagementAgent
+/Users/runner/Library/Application Support/com.apple.replayd
+/Users/runner/Library/Application Support/com.apple.sharedfilelist
+/Users/runner/Library/Application Support/com.apple.TCC
+/Users/runner/Library/Application Support/com.apple.wallpaper
+/Users/runner/Library/Application Support/CrashReporter
+/Users/runner/Library/Application Support/DiskImages
+/Users/runner/Library/Application Support/FaceTime
+/Users/runner/Library/Application Support/FileProvider
+/Users/runner/Library/Application Support/go
+/Users/runner/Library/Application Support/homeenergyd
+/Users/runner/Library/Application Support/icdd
+/Users/runner/Library/Application Support/Knowledge
+/Users/runner/Library/Application Support/locationaccessstored
+/Users/runner/Library/Application Support/Microsoft
+/Users/runner/Library/Application Support/networkserviceproxy
+/Users/runner/Library/Caches/Animoji
+/Users/runner/Library/Caches/bazel
+/Users/runner/Library/Caches/bazelisk
+/Users/runner/Library/Caches/carthage
+/Users/runner/Library/Caches/CloudKit
+/Users/runner/Library/Caches/com.apple.accountsd
+/Users/runner/Library/Caches/com.apple.akd
+/Users/runner/Library/Caches/com.apple.AMPLibraryAgent
+/Users/runner/Library/Caches/com.apple.amsaccountsd
+/Users/runner/Library/Caches/com.apple.amsengagementd
+/Users/runner/Library/Caches/com.apple.ap.adprivacyd
+/Users/runner/Library/Caches/com.apple.ap.PromotedContentJetService
+/Users/runner/Library/Caches/com.apple.appleaccountd
+/Users/runner/Library/Caches/com.apple.AppleMediaServices
+/Users/runner/Library/Caches/com.apple.appstoreagent
+/Users/runner/Library/Caches/com.apple.askpermissiond
+/Users/runner/Library/Caches/com.apple.AuthenticationServicesCore.AuthenticationServicesAgent
+/Users/runner/Library/Caches/com.apple.AvatarKit
+/Users/runner/Library/Caches/com.apple.businessservicesd
+/Users/runner/Library/Caches/com.apple.cache_delete
+/Users/runner/Library/Caches/com.apple.chrono
+/Users/runner/Library/Caches/com.apple.CloudTelemetry
+/Users/runner/Library/Caches/com.apple.commerce
+/Users/runner/Library/Caches/com.apple.containermanagerd
+/Users/runner/Library/Caches/com.apple.dataaccess.dataaccessd
+/Users/runner/Library/Caches/com.apple.dt.xcodebuild
+/Users/runner/Library/Caches/com.apple.duetexpertd
+/Users/runner/Library/Caches/com.apple.feedbacklogger
+/Users/runner/Library/Caches/com.apple.geoanalyticsd
+/Users/runner/Library/Caches/com.apple.helpd
+/Users/runner/Library/Caches/com.apple.homed
+/Users/runner/Library/Caches/com.apple.HomeKit
+/Users/runner/Library/Caches/com.apple.itunescloudd
+/Users/runner/Library/Caches/com.apple.managedappdistributionagent
+/Users/runner/Library/Caches/com.apple.nbagent
+/Users/runner/Library/Caches/com.apple.nsservicescache.plist
+/Users/runner/Library/Caches/com.apple.nsurlsessiond
+/Users/runner/Library/Caches/com.apple.parsecd
+/Users/runner/Library/Caches/com.apple.passd
+/Users/runner/Library/Caches/com.apple.preferencepanes.usercache
+/Users/runner/Library/Caches/com.apple.proactive.eventtracker
+/Users/runner/Library/Caches/com.apple.remindd
+/Users/runner/Library/Caches/com.apple.Safari
+/Users/runner/Library/Caches/com.apple.Safari.SafeBrowsing
+/Users/runner/Library/Caches/com.apple.siri.bundleservicecache.plist
+/Users/runner/Library/Caches/com.apple.siri.transformationplugincache.plist
+/Users/runner/Library/Caches/com.apple.sirittsd
+/Users/runner/Library/Caches/com.apple.Spotlight
+/Users/runner/Library/Caches/com.apple.systemsettings.menucache
+/Users/runner/Library/Caches/com.apple.tipsd
+/Users/runner/Library/Caches/com.apple.tiswitcher.cache
+/Users/runner/Library/Caches/com.apple.translationd
+/Users/runner/Library/Caches/GeoServices
+/Users/runner/Library/Caches/Homebrew
+/Users/runner/Library/Caches/PassKit
+/Users/runner/Library/Caches/pip
+/Users/runner/Library/Caches/softwareupdate
+/Users/runner/Library/Caches/XcodeInstall
+/Users/runner/Library/Caches/Yarn
+/Users/runner/Library/Containers/com.apple.accessibility.axassetsd
+/Users/runner/Library/Containers/com.apple.accessibility.NameRecognitionNotificationsExtension
+/Users/runner/Library/Containers/com.apple.AccessibilitySettingsWidgetExtension
+/Users/runner/Library/Containers/com.apple.aiml.UnilogTelemetryWorker
+/Users/runner/Library/Containers/com.apple.AirPlayUIAgent
+/Users/runner/Library/Containers/com.apple.AMPArtworkAgent
+/Users/runner/Library/Containers/com.apple.AMPDeviceDiscoveryAgent
+/Users/runner/Library/Containers/com.apple.AppSSOKerberos.KerberosExtension
+/Users/runner/Library/Containers/com.apple.Arabesque
+/Users/runner/Library/Containers/com.apple.assessmentagent
+/Users/runner/Library/Containers/com.apple.AuthKit.AKDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.AuthKitUI.AKAppSSOExtension
+/Users/runner/Library/Containers/com.apple.AvatarUI.AvatarPickerMemojiEditor
+/Users/runner/Library/Containers/com.apple.AvatarUI.AvatarPickerMemojiPicker
+/Users/runner/Library/Containers/com.apple.AvatarUI.AvatarPickerPosePicker
+/Users/runner/Library/Containers/com.apple.AVConference.Diagnostic
+/Users/runner/Library/Containers/com.apple.ax.KonaTTSSupport.KonaSynthesizer
+/Users/runner/Library/Containers/com.apple.ax.MauiTTSSupport.MauiAUSP
+/Users/runner/Library/Containers/com.apple.Batteries
+/Users/runner/Library/Containers/com.apple.Batteries.BatteriesAvocadoWidgetExtension
+/Users/runner/Library/Containers/com.apple.batteryui.BatterySettingsIntents
+/Users/runner/Library/Containers/com.apple.BiometricKit.BioLogDiagnostic
+/Users/runner/Library/Containers/com.apple.BluetoothSettingsApp.BluetoothSettingsAppIntentsWidget
+/Users/runner/Library/Containers/com.apple.calculator
+/Users/runner/Library/Containers/com.apple.calculator.CalculatorWidget
+/Users/runner/Library/Containers/com.apple.calendar.CalendarIntentsExtension
+/Users/runner/Library/Containers/com.apple.CalendarWidget.IntentsExtension
+/Users/runner/Library/Containers/com.apple.ClassKit.diagnosticextension
+/Users/runner/Library/Containers/com.apple.clock
+/Users/runner/Library/Containers/com.apple.clock.WorldClockWidget
+/Users/runner/Library/Containers/com.apple.CloudDocs.iCloudDriveFileProvider
+/Users/runner/Library/Containers/com.apple.CloudDocs.iCloudDriveFileProviderManaged
+/Users/runner/Library/Containers/com.apple.CloudSharingUI.CopyLink
+/Users/runner/Library/Containers/com.apple.CloudSharingUI.CreateiCloudLinkExtension
+/Users/runner/Library/Containers/com.apple.CloudSharingUI.invite
+/Users/runner/Library/Containers/com.apple.contacts.ContactsCoreSpotlightExtension
+/Users/runner/Library/Containers/com.apple.contacts.donation-agent
+/Users/runner/Library/Containers/com.apple.controlcenter.ControlCenterSettingsIntents
+/Users/runner/Library/Containers/com.apple.controls.display
+/Users/runner/Library/Containers/com.apple.controls.screenshot
+/Users/runner/Library/Containers/com.apple.CoreEmbeddedSpeechRecognition.SpeechAudioDiagnostic
+/Users/runner/Library/Containers/com.apple.CoreEmbeddedSpeechRecognition.SpeechProfileDiagnostic
+/Users/runner/Library/Containers/com.apple.corerecents.recentsd
+/Users/runner/Library/Containers/com.apple.CoreRoutine.RTDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.CryptoTokenKit.ctkcard.ctkcardtoken
+/Users/runner/Library/Containers/com.apple.CryptoTokenKit.pivtoken
+/Users/runner/Library/Containers/com.apple.CTLazuliSupport.diagnosticextension
+/Users/runner/Library/Containers/com.apple.das.DASDaemon.DuetDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DEC.AppPredictionInternal.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.desktopsettings.DesktopSettingsIntents
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.AirPlay
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.AppleBtcDiagnosis
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.BluetoothDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.BluetoothHeadset
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.ConnectivityDE
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.ConnectivityWiFiDE
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.CoreSensingDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.IMDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.IntelligentRoutingDiagnostic
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.MiLoDiagnostic
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.filevault
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.installlog
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.spotlight
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.syslog
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.systemprofile
+/Users/runner/Library/Containers/com.apple.diagnosticextensions.osx.timemachine
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.PICSDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.ScreenTime
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.shortcuts
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.StorageDESDXC
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.StorageDESSD
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.sysdiagnose
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.ToolKit.shortcuts
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.WallpaperMac
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.WiFi
+/Users/runner/Library/Containers/com.apple.DifferentialPrivacy.TelemetryAggregator
+/Users/runner/Library/Containers/com.apple.DiskSpaceDiagnostics.diagnosticextension
+/Users/runner/Library/Containers/com.apple.dock.controls
+/Users/runner/Library/Containers/com.apple.eventkit.CalendarDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.FaceTime
+/Users/runner/Library/Containers/com.apple.Family-Settings.extension
+/Users/runner/Library/Containers/com.apple.FileProviderDaemon.diagnostic
+/Users/runner/Library/Containers/com.apple.findmy
+/Users/runner/Library/Containers/com.apple.findmy.FindMyWidgetItems
+/Users/runner/Library/Containers/com.apple.findmy.FindMyWidgetPeople
+/Users/runner/Library/Containers/com.apple.Flurry
+/Users/runner/Library/Containers/com.apple.FollowUpSettings.FollowUpSettingsExtension
+/Users/runner/Library/Containers/com.apple.freeform
+/Users/runner/Library/Containers/com.apple.freeform.sharingextension
+/Users/runner/Library/Containers/com.apple.gamecenter.GameCenterUIService.GameCenterMessageExtension
+/Users/runner/Library/Containers/com.apple.GameCenterDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.geod
+/Users/runner/Library/Containers/com.apple.HeadGestures.diagnosticextension.HeadGesturesDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.helpviewer
+/Users/runner/Library/Containers/com.apple.Home
+/Users/runner/Library/Containers/com.apple.Home.HomeEnergyWidgets
+/Users/runner/Library/Containers/com.apple.Home.HomeWidget.Interactive
+/Users/runner/Library/Containers/com.apple.HomeKit.HomeKitCustomerDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.HomeKitEvents.HomeKitEventsDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.ibooks.BookLibrary.BooksDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.iBooks.BooksNotificationContentExtension
+/Users/runner/Library/Containers/com.apple.iBooks.iBooksSpotlightExtension
+/Users/runner/Library/Containers/com.apple.iBooksX
+/Users/runner/Library/Containers/com.apple.iBooksX.SharingExtension
+/Users/runner/Library/Containers/com.apple.iCal
+/Users/runner/Library/Containers/com.apple.iCal.CalendarNotificationContentExtention-OSX
+/Users/runner/Library/Containers/com.apple.iCal.CalendarWidgetExtension
+/Users/runner/Library/Containers/com.apple.icloud.SPOwner.SearchPartyDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.iCloudDriveCore.diagnostic
+/Users/runner/Library/Containers/com.apple.ImageIO.imageimporter
+/Users/runner/Library/Containers/com.apple.ImagePlayground.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.inputmethod.ChineseHandwriting
+/Users/runner/Library/Containers/com.apple.inputmethod.EmojiFunctionRowItem
+/Users/runner/Library/Containers/com.apple.inputmethod.Korean
+/Users/runner/Library/Containers/com.apple.inputmethod.Kotoeri.KanaTyping
+/Users/runner/Library/Containers/com.apple.inputmethod.Kotoeri.RomajiTyping
+/Users/runner/Library/Containers/com.apple.inputmethod.SCIM
+/Users/runner/Library/Containers/com.apple.inputmethod.TCIM
+/Users/runner/Library/Containers/com.apple.inputmethod.TransliterationIM
+/Users/runner/Library/Containers/com.apple.inputmethod.TYIM
+/Users/runner/Library/Containers/com.apple.inputmethod.VietnameseIM
+/Users/runner/Library/Containers/com.apple.intelligenceflow.IntelligenceFlowRuntime.IntelligenceFlowDiagnostics
+/Users/runner/Library/Containers/com.apple.intelligenceplatform.IntelligencePlatform.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.Internet-Accounts-Settings.extension
+/Users/runner/Library/Containers/com.apple.IOUIAgent
+/Users/runner/Library/Containers/com.apple.journal
+/Users/runner/Library/Containers/com.apple.journal.JournalShareExtension
+/Users/runner/Library/Containers/com.apple.journal.widgets
+/Users/runner/Library/Containers/com.apple.journal.widgets.secure
+/Users/runner/Library/Containers/com.apple.languageassetd
+/Users/runner/Library/Containers/com.apple.lighthouse.PnROnDeviceWorker
+/Users/runner/Library/Containers/com.apple.LighthouseBitacoraFramework.BitacoraWorker
+/Users/runner/Library/Containers/com.apple.LoginUserService
+/Users/runner/Library/Containers/com.apple.mail
+/Users/runner/Library/Containers/com.apple.mail.MailNotificationContentExtension
+/Users/runner/Library/Containers/com.apple.mail.SpotlightIndexExtension
+/Users/runner/Library/Containers/com.apple.MailCacheDelete
+/Users/runner/Library/Containers/com.apple.MailShareExtension
+/Users/runner/Library/Containers/com.apple.managedcorespotlightd
+/Users/runner/Library/Containers/com.apple.ManagedSettings.ManagedSettingsMacOSExtension
+/Users/runner/Library/Containers/com.apple.Maps
+/Users/runner/Library/Containers/com.apple.Maps.DEMapsExtension
+/Users/runner/Library/Containers/com.apple.MarkupUI.Markup
+/Users/runner/Library/Containers/com.apple.mediaanalysisd
+/Users/runner/Library/Containers/com.apple.MediaMLPluginApp.MediaMLExtension
+/Users/runner/Library/Containers/com.apple.MediaPlayer.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.mediastream.mstreamd
+/Users/runner/Library/Containers/com.apple.messages.ReplyExtension
+/Users/runner/Library/Containers/com.apple.messages.ShareExtension
+/Users/runner/Library/Containers/com.apple.mlhost.CloudWorker
+/Users/runner/Library/Containers/com.apple.mlhost.TelemetryWorker
+/Users/runner/Library/Containers/com.apple.MobileSMS
+/Users/runner/Library/Containers/com.apple.MobileSMS.MessagesActionExtension
+/Users/runner/Library/Containers/com.apple.MobileSMS.MessagesPluginNotificationExtension
+/Users/runner/Library/Containers/com.apple.mobiletimer-framework.MobileTimerIntents
+/Users/runner/Library/Containers/com.apple.Music.MusicCacheExtension
+/Users/runner/Library/Containers/com.apple.NeptuneOneExtension
+/Users/runner/Library/Containers/com.apple.NetworkInfo.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.networkquality.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.news
+/Users/runner/Library/Containers/com.apple.news.articlenotificationextension
+/Users/runner/Library/Containers/com.apple.news.openinnews
+/Users/runner/Library/Containers/com.apple.news.tag
+/Users/runner/Library/Containers/com.apple.news.widget
+/Users/runner/Library/Containers/com.apple.news.widgetintents
+/Users/runner/Library/Containers/com.apple.Notes
+/Users/runner/Library/Containers/com.apple.Notes.IntentsExtension
+/Users/runner/Library/Containers/com.apple.Notes.QuickLookExtension
+/Users/runner/Library/Containers/com.apple.Notes.SharingExtension
+/Users/runner/Library/Containers/com.apple.Notes.SpotlightIndexExtension
+/Users/runner/Library/Containers/com.apple.Notes.WidgetExtension
+/Users/runner/Library/Containers/com.apple.notificationcenterui
+/Users/runner/Library/Containers/com.apple.notifications.NotificationsSettingsIntents
+/Users/runner/Library/Containers/com.apple.omniSearch.SearchToolDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.osx-tailspin
+/Users/runner/Library/Containers/com.apple.parsec.SafariBrowsingAssistantWorker
+/Users/runner/Library/Containers/com.apple.PDFKit.PDFImporter
+/Users/runner/Library/Containers/com.apple.PeopleViewService
+/Users/runner/Library/Containers/com.apple.PeopleViewService.PeopleWidget-macOS
+/Users/runner/Library/Containers/com.apple.PeopleViewService.SelectPerson-iOS
+/Users/runner/Library/Containers/com.apple.photoanalysisd
+/Users/runner/Library/Containers/com.apple.photolibraryd
+/Users/runner/Library/Containers/com.apple.PhotoLibraryServices.PhotosDiagnostics
+/Users/runner/Library/Containers/com.apple.Photos
+/Users/runner/Library/Containers/com.apple.Photos.PhotosFileProvider
+/Users/runner/Library/Containers/com.apple.Photos.PhotosReliveWidget
+/Users/runner/Library/Containers/com.apple.PhotosIntelligence.PhotosStoryDiagnostics
+/Users/runner/Library/Containers/com.apple.PhotosUIPrivate.PhotosPosterProvider
+/Users/runner/Library/Containers/com.apple.PlatformSSO.AccessKey
+/Users/runner/Library/Containers/com.apple.PlatformSSOToken
+/Users/runner/Library/Containers/com.apple.podcasts
+/Users/runner/Library/Containers/com.apple.podcasts.PodcastsNotificationExtension
+/Users/runner/Library/Containers/com.apple.podcasts.SpotlightIndexExtension
+/Users/runner/Library/Containers/com.apple.podcasts.widget
+/Users/runner/Library/Containers/com.apple.poirot.MessagesAnalyticsWorker
+/Users/runner/Library/Containers/com.apple.PressAndHold
+/Users/runner/Library/Containers/com.apple.priml.pfl.Vermillion
+/Users/runner/Library/Containers/com.apple.priml.PFLMLHostPlugins.AVCPlugin
+/Users/runner/Library/Containers/com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin
+/Users/runner/Library/Containers/com.apple.priml.PFLMLHostPlugins.PrivateEvolutionPlugin
+/Users/runner/Library/Containers/com.apple.priml.PFLMLHostPlugins.SiriAutoEvalPlugin
+/Users/runner/Library/Containers/com.apple.priml.PFLMLHostPlugins.SiriMASPFLPush
+/Users/runner/Library/Containers/com.apple.priml.PRIMLCKPreemptivePing
+/Users/runner/Library/Containers/com.apple.printcenter
+/Users/runner/Library/Containers/com.apple.printcenter.PrintCenterWidget
+/Users/runner/Library/Containers/com.apple.quicklook.QuickLookUIService
+/Users/runner/Library/Containers/com.apple.quicklook.ui.helper
+/Users/runner/Library/Containers/com.apple.RelativeMotion.TempestDiagnosticExtension
+/Users/runner/Library/Containers/com.apple.reminders
+/Users/runner/Library/Containers/com.apple.reminders.macOSIntentsExtension
+/Users/runner/Library/Containers/com.apple.reminders.sharingextension
+/Users/runner/Library/Containers/com.apple.reminders.spotlightindexextension
+/Users/runner/Library/Containers/com.apple.reminders.WidgetExtension
+/Users/runner/Library/Containers/com.apple.routined
+/Users/runner/Library/Containers/com.apple.Safari
+/Users/runner/Library/Containers/com.apple.Safari.CacheDeleteExtension
+/Users/runner/Library/Containers/com.apple.Safari.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.Safari.SafariLinkExtension
+/Users/runner/Library/Containers/com.apple.Safari.SafariQuickLookPreview
+/Users/runner/Library/Containers/com.apple.Safari.SafariWidgetExtension
+/Users/runner/Library/Containers/com.apple.Safari.WebApp
+/Users/runner/Library/Containers/com.apple.screensaver.AlbumArtwork
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Computer-Name
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Drift
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver.x86-64
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Hello
+/Users/runner/Library/Containers/com.apple.ScreenSaver.iLife-Slideshow-Extension
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Monterey
+/Users/runner/Library/Containers/com.apple.ScreenSaver.Ventura
+/Users/runner/Library/Containers/com.apple.ScreenTimeAgent
+/Users/runner/Library/Containers/com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+/Users/runner/Library/Containers/com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetIntentsExtension
+/Users/runner/Library/Containers/com.apple.settings-intents.AirDropHandoffIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.AppearanceIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.DateTimeIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.LockScreenIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.LoginItemsIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.mouse
+/Users/runner/Library/Containers/com.apple.settings-intents.NetworkSettingsIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.PrinterScannerIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.trackpad
+/Users/runner/Library/Containers/com.apple.settings-intents.TransferResetIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.UsersGroupsIntents
+/Users/runner/Library/Containers/com.apple.settings-intents.WallpaperIntents
+/Users/runner/Library/Containers/com.apple.settings.SecurityPrefQADirector.SecurityPrivacyIntents
+/Users/runner/Library/Containers/com.apple.share.AirDrop.send
+/Users/runner/Library/Containers/com.apple.share.Mail.compose
+/Users/runner/Library/Containers/com.apple.share.Mail.compose-back-to-sender
+/Users/runner/Library/Containers/com.apple.share.Messages.window
+/Users/runner/Library/Containers/com.apple.share.System.add-to-iphoto
+/Users/runner/Library/Containers/com.apple.share.System.add-to-safari-reading-list
+/Users/runner/Library/Containers/com.apple.share.System.set-account-picture
+/Users/runner/Library/Containers/com.apple.share.System.set-desktop-image
+/Users/runner/Library/Containers/com.apple.sharing.ShareSheetUI
+/Users/runner/Library/Containers/com.apple.Shell
+/Users/runner/Library/Containers/com.apple.shortcuts
+/Users/runner/Library/Containers/com.apple.shortcuts.Run-Workflow
+/Users/runner/Library/Containers/com.apple.shortcuts.ShortcutLiveActivityWidget
+/Users/runner/Library/Containers/com.apple.shortcuts.ShortcutsWidget
+/Users/runner/Library/Containers/com.apple.siri.AssistantSettingsControls
+/Users/runner/Library/Containers/com.apple.siri.inference.SiriInference.SiriInferenceRuntimeDiagnostics
+/Users/runner/Library/Containers/com.apple.siri.media-indexer
+/Users/runner/Library/Containers/com.apple.siri.metrics.AssetMetricsExtension
+/Users/runner/Library/Containers/com.apple.siri.metrics.DevicePropertiesExtension
+/Users/runner/Library/Containers/com.apple.siri.metrics.MetricsExtension
+/Users/runner/Library/Containers/com.apple.siri.ODDIExperimentationExtension
+/Users/runner/Library/Containers/com.apple.siri.ODDIMetricsExtension
+/Users/runner/Library/Containers/com.apple.siri.ODDIPoirotExperimentationExtension
+/Users/runner/Library/Containers/com.apple.siri.ODDIPoirotMetricsExtension
+/Users/runner/Library/Containers/com.apple.siri.parsec.HashtagImagesApp.HashtagImagesExtension
+/Users/runner/Library/Containers/com.apple.siri.SiriSuggestionsLightHousePlugin
+/Users/runner/Library/Containers/com.apple.siri.SiriTTSService.STSDiagnostic
+/Users/runner/Library/Containers/com.apple.SoftwareUpdate.SoftwareUpdateSettingsWidget
+/Users/runner/Library/Containers/com.apple.SonicKit.diagnostics
+/Users/runner/Library/Containers/com.apple.Sound-Settings.SoundIntents
+/Users/runner/Library/Containers/com.apple.speech.MacinTalkFramework.MacinTalkAUSP
+/Users/runner/Library/Containers/com.apple.speech.MacinTalkFramework.WardaSynthesizer
+/Users/runner/Library/Containers/com.apple.speech.SpeechSynthesisServerXPC
+/Users/runner/Library/Containers/com.apple.StartupDisk.StartupDiskWidgetExtension
+/Users/runner/Library/Containers/com.apple.stocks
+/Users/runner/Library/Containers/com.apple.stocks.widget
+/Users/runner/Library/Containers/com.apple.systempreferences
+/Users/runner/Library/Containers/com.apple.systempreferences.AppleIDSettings
+/Users/runner/Library/Containers/com.apple.systempreferences.DisplaysSettingsIntents
+/Users/runner/Library/Containers/com.apple.systempreferences.SpotlightIndexExtension
+/Users/runner/Library/Containers/com.apple.texttospeech.SiriAUSP
+/Users/runner/Library/Containers/com.apple.TextToSpeechVoiceBankingSupport.VoiceBankingDiagnostics
+/Users/runner/Library/Containers/com.apple.Time-Machine-Settings-Intents.extension
+/Users/runner/Library/Containers/com.apple.tips.Widget
+/Users/runner/Library/Containers/com.apple.TV.TVCacheExtension
+/Users/runner/Library/Containers/com.apple.UIUnderstanding.diagnosticextension
+/Users/runner/Library/Containers/com.apple.unilog.SearchUploadWorker
+/Users/runner/Library/Containers/com.apple.unilog.SiriUploadWorker
+/Users/runner/Library/Containers/com.apple.UsageTrackingAgent
+/Users/runner/Library/Containers/com.apple.voicebankingd
+/Users/runner/Library/Containers/com.apple.VoiceMemos
+/Users/runner/Library/Containers/com.apple.VoiceMemos.RecordWidget
+/Users/runner/Library/Containers/com.apple.VoiceMemos.SpotlightIndexExtension
+/Users/runner/Library/Containers/com.apple.VoiceMemos.VoiceMemosIntentsExtension
+/Users/runner/Library/Containers/com.apple.VoiceMemos.VoiceMemosSettingsWidget
+/Users/runner/Library/Containers/com.apple.wallpaper.agent
+/Users/runner/Library/Containers/com.apple.wallpaper.agent.controls
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.aerials
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.dynamic
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.gradient
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.image
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.legacy
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.macintosh
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.sequoia
+/Users/runner/Library/Containers/com.apple.wallpaper.extension.sonoma
+/Users/runner/Library/Containers/com.apple.weather
+/Users/runner/Library/Containers/com.apple.weather.diagnosticextension
+/Users/runner/Library/Containers/com.apple.weather.menu
+/Users/runner/Library/Containers/com.apple.weather.WeatherAppIntents
+/Users/runner/Library/Containers/com.apple.weather.WeatherIntents
+/Users/runner/Library/Containers/com.apple.weather.widget
+/Users/runner/Library/Containers/com.apple.wifiqa.NPTKit.NPTWiFiDiagnosticsExtension
+/Users/runner/Library/Containers/com.apple.WiFiVelocity.DiagnosticExtension
+/Users/runner/Library/Containers/com.apple.WindowManager.controls
+/Users/runner/Library/Containers/com.apple.WordOfTheDay
+/Users/runner/Library/Containers/com.apple.WorkflowKit.ShortcutsViewService
+/Users/runner/Library/Group Containers/243LU875E5.groups.com.apple.podcasts
+/Users/runner/Library/Group Containers/com.apple.bird
+/Users/runner/Library/Group Containers/com.apple.Home.group
+/Users/runner/Library/Group Containers/com.apple.poirot.poirot_tool
+/Users/runner/Library/Group Containers/com.apple.siri.ODDExperimentationExtension
+/Users/runner/Library/Group Containers/com.apple.siri.ODDIPoirotMetricsExtension
+/Users/runner/Library/Group Containers/com.apple.spotlightui
+/Users/runner/Library/Group Containers/com.apple.stickersd.group
+/Users/runner/Library/Group Containers/com.apple.systempreferences.cache
+/Users/runner/Library/Group Containers/group.com.apple.accessibility.voicebanking
+/Users/runner/Library/Group Containers/group.com.apple.amsondevicestoraged
+/Users/runner/Library/Group Containers/group.com.apple.AppleSpell
+/Users/runner/Library/Group Containers/group.com.apple.appstoreagent
+/Users/runner/Library/Group Containers/group.com.apple.calendar
+/Users/runner/Library/Group Containers/group.com.apple.chronod
+/Users/runner/Library/Group Containers/group.com.apple.contacts
+/Users/runner/Library/Group Containers/group.com.apple.controlcenter
+/Users/runner/Library/Group Containers/group.com.apple.corerepair
+/Users/runner/Library/Group Containers/group.com.apple.CoreSpeech
+/Users/runner/Library/Group Containers/group.com.apple.DeviceActivity
+/Users/runner/Library/Group Containers/group.com.apple.energykit
+/Users/runner/Library/Group Containers/group.com.apple.feedback
+/Users/runner/Library/Group Containers/group.com.apple.feedbacklogger
+/Users/runner/Library/Group Containers/group.com.apple.FileProvider.DomainCaching
+/Users/runner/Library/Group Containers/group.com.apple.findmy.findmylocateagent
+/Users/runner/Library/Group Containers/group.com.apple.fskit.settings
+/Users/runner/Library/Group Containers/group.com.apple.helpviewer.content
+/Users/runner/Library/Group Containers/group.com.apple.icloud.searchpartyuseragent
+/Users/runner/Library/Group Containers/group.com.apple.iCloudDrive
+/Users/runner/Library/Group Containers/group.com.apple.Journal
+/Users/runner/Library/Group Containers/group.com.apple.liveactivitiesd
+/Users/runner/Library/Group Containers/group.com.apple.loginwindow.persistent-apps
+/Users/runner/Library/Group Containers/group.com.apple.mail
+/Users/runner/Library/Group Containers/group.com.apple.managedappdistributionagent
+/Users/runner/Library/Group Containers/group.com.apple.ManagedSettings
+/Users/runner/Library/Group Containers/group.com.apple.mlhost
+/Users/runner/Library/Group Containers/group.com.apple.mobiletimerd
+/Users/runner/Library/Group Containers/group.com.apple.moments
+/Users/runner/Library/Group Containers/group.com.apple.NetworkAuthorization.ServerMarkers
+/Users/runner/Library/Group Containers/group.com.apple.news
+/Users/runner/Library/Group Containers/group.com.apple.newsd
+/Users/runner/Library/Group Containers/group.com.apple.notes
+/Users/runner/Library/Group Containers/group.com.apple.PegasusConfiguration
+/Users/runner/Library/Group Containers/group.com.apple.people
+/Users/runner/Library/Group Containers/group.com.apple.photolibraryd.private
+/Users/runner/Library/Group Containers/group.com.apple.Photos.PhotosFileProvider
+/Users/runner/Library/Group Containers/group.com.apple.poirot.MessagesAnalyticsWorker
+/Users/runner/Library/Group Containers/group.com.apple.portrait.BackgroundReplacement
+/Users/runner/Library/Group Containers/group.com.apple.printcenter
+/Users/runner/Library/Group Containers/group.com.apple.private.translation
+/Users/runner/Library/Group Containers/group.com.apple.reminders
+/Users/runner/Library/Group Containers/group.com.apple.replayd
+/Users/runner/Library/Group Containers/group.com.apple.replicatord
+/Users/runner/Library/Group Containers/group.com.apple.scopedbookmarkagent
+/Users/runner/Library/Group Containers/group.com.apple.screencapture
+/Users/runner/Library/Group Containers/group.com.apple.ScreenContinuityServices
+/Users/runner/Library/Group Containers/group.com.apple.ScreenTime
+/Users/runner/Library/Group Containers/group.com.apple.secure-control-center-preferences
+/Users/runner/Library/Group Containers/group.com.apple.sharingd
+/Users/runner/Library/Group Containers/group.com.apple.shortcuts
+/Users/runner/Library/Group Containers/group.com.apple.siri.ASR.shared
+/Users/runner/Library/Group Containers/group.com.apple.siri.findmy
+/Users/runner/Library/Group Containers/group.com.apple.siri.inference
+/Users/runner/Library/Group Containers/group.com.apple.siri.referenceResolution
+/Users/runner/Library/Group Containers/group.com.apple.siri.sirisuggestions
+/Users/runner/Library/Group Containers/group.com.apple.SiriTTS
+/Users/runner/Library/Group Containers/group.com.apple.stocks
+/Users/runner/Library/Group Containers/group.com.apple.stocks-news
+/Users/runner/Library/Group Containers/group.com.apple.studentd
+/Users/runner/Library/Group Containers/group.com.apple.swtransparency
+/Users/runner/Library/Group Containers/group.com.apple.telephonyutilities.callservicesd
+/Users/runner/Library/Group Containers/group.com.apple.tips
+/Users/runner/Library/Group Containers/group.com.apple.tipsnext
+/Users/runner/Library/Group Containers/group.com.apple.transparency
+/Users/runner/Library/Group Containers/group.com.apple.usernoted
+/Users/runner/Library/Group Containers/group.com.apple.UserNotifications
+/Users/runner/Library/Group Containers/group.com.apple.VoiceMemos.shared
+/Users/runner/Library/Group Containers/group.com.apple.weather
+/Users/runner/Library/Group Containers/group.is.workflow.my.app
+/Users/runner/Library/Group Containers/group.is.workflow.shortcuts
+/Users/runner/Library/HTTPStorages/carthage
+/Users/runner/Library/HTTPStorages/com.apple.accountsd
+/Users/runner/Library/HTTPStorages/com.apple.akd
+/Users/runner/Library/HTTPStorages/com.apple.AMPLibraryAgent
+/Users/runner/Library/HTTPStorages/com.apple.amsaccountsd
+/Users/runner/Library/HTTPStorages/com.apple.amsondevicestoraged
+/Users/runner/Library/HTTPStorages/com.apple.ap.PromotedContentJetService
+/Users/runner/Library/HTTPStorages/com.apple.appleaccountd
+/Users/runner/Library/HTTPStorages/com.apple.appstoreagent
+/Users/runner/Library/HTTPStorages/com.apple.askpermissiond
+/Users/runner/Library/HTTPStorages/com.apple.dt.xcodebuild
+/Users/runner/Library/HTTPStorages/com.apple.helpd
+/Users/runner/Library/HTTPStorages/com.apple.itunescloudd
+/Users/runner/Library/HTTPStorages/com.apple.jetpackassetd
+/Users/runner/Library/HTTPStorages/com.apple.managedappdistributionagent
+/Users/runner/Library/HTTPStorages/com.apple.nbagent
+/Users/runner/Library/HTTPStorages/com.apple.SetupAssistant
+/Users/runner/Library/HTTPStorages/com.apple.siriknowledged
+/Users/runner/Library/HTTPStorages/com.apple.tipsd
+/Users/runner/Library/HTTPStorages/com.apple.translationd
+/Users/runner/Library/HTTPStorages/softwareupdate
+/Users/runner/Library/LaunchAgents/hca.plist
+/Users/runner/Library/Logs/Assistant
+/Users/runner/Library/Logs/Baseband
+/Users/runner/Library/Logs/com.apple.AMPLibraryAgent
+/Users/runner/Library/Logs/com.apple.CloudTelemetry
+/Users/runner/Library/Logs/CoreSimulator
+/Users/runner/Library/Logs/CrashReporter
+/Users/runner/Library/Logs/DiagnosticReports
+/Users/runner/Library/Logs/fsck_hfs.log
+/Users/runner/Library/Logs/hca.log
+/Users/runner/Library/Logs/Homebrew
+/Users/runner/Library/Logs/PhotosSearch.aapbz
+/Users/runner/Library/Logs/SiriTTSService
+/Users/runner/Library/Preferences/.GlobalPreferences_m.plist
+/Users/runner/Library/Preferences/.GlobalPreferences.plist
+/Users/runner/Library/Preferences/ByHost
+/Users/runner/Library/Preferences/com.apple.Accessibility.Assets.plist
+/Users/runner/Library/Preferences/com.apple.accessibility.heard.plist
+/Users/runner/Library/Preferences/com.apple.Accessibility.plist
+/Users/runner/Library/Preferences/com.apple.AccessibilityUIServer.plist
+/Users/runner/Library/Preferences/com.apple.accountsd.plist
+/Users/runner/Library/Preferences/com.apple.AddressBook.abd.plist
+/Users/runner/Library/Preferences/com.apple.AddressBook.plist
+/Users/runner/Library/Preferences/com.apple.AdLib.plist
+/Users/runner/Library/Preferences/com.apple.AdPlatforms.plist
+/Users/runner/Library/Preferences/com.apple.amp.mediasharingd.plist
+/Users/runner/Library/Preferences/com.apple.AMPLibraryAgent.plist
+/Users/runner/Library/Preferences/com.apple.amsaccountsd.plist
+/Users/runner/Library/Preferences/com.apple.amsengagementd.plist
+/Users/runner/Library/Preferences/com.apple.animoji.plist
+/Users/runner/Library/Preferences/com.apple.APFSUserAgent.plist
+/Users/runner/Library/Preferences/com.apple.appleaccount.plist
+/Users/runner/Library/Preferences/com.apple.appleintelligencereporting.plist
+/Users/runner/Library/Preferences/com.apple.AppleMediaServices.plist
+/Users/runner/Library/Preferences/com.apple.AppleMultitouchMouse.plist
+/Users/runner/Library/Preferences/com.apple.AppleMultitouchTrackpad.plist
+/Users/runner/Library/Preferences/com.apple.appplaceholdersyncd.plist
+/Users/runner/Library/Preferences/com.apple.appstored.plist
+/Users/runner/Library/Preferences/com.apple.assistant.backedup.plist
+/Users/runner/Library/Preferences/com.apple.assistant.plist
+/Users/runner/Library/Preferences/com.apple.assistant.support.plist
+/Users/runner/Library/Preferences/com.apple.assistantd.plist
+/Users/runner/Library/Preferences/com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.plist
+/Users/runner/Library/Preferences/com.apple.AuthKit.AgeRangeSettingsCache.plist
+/Users/runner/Library/Preferences/com.apple.AuthKit.plist
+/Users/runner/Library/Preferences/com.apple.AvatarUI.Staryu.plist
+/Users/runner/Library/Preferences/com.apple.BezelServices.plist
+/Users/runner/Library/Preferences/com.apple.biomesyncd.plist
+/Users/runner/Library/Preferences/com.apple.bluetoothuserd.plist
+/Users/runner/Library/Preferences/com.apple.bookstoreagent.plist
+/Users/runner/Library/Preferences/com.apple.businessservicesd.plist
+/Users/runner/Library/Preferences/com.apple.calaccessd.plist
+/Users/runner/Library/Preferences/com.apple.CallHistorySyncHelper.plist
+/Users/runner/Library/Preferences/com.apple.chronod.plist
+/Users/runner/Library/Preferences/com.apple.Classroom-Settings.extension.plist
+/Users/runner/Library/Preferences/com.apple.classroom.plist
+/Users/runner/Library/Preferences/com.apple.cloudd.plist
+/Users/runner/Library/Preferences/com.apple.CloudKit.plist
+/Users/runner/Library/Preferences/com.apple.cloudpaird.plist
+/Users/runner/Library/Preferences/com.apple.cloudphotod.plist
+/Users/runner/Library/Preferences/com.apple.CloudSubscriptionFeatures.config.plist
+/Users/runner/Library/Preferences/com.apple.CloudSubscriptionFeatures.diagnostic.plist
+/Users/runner/Library/Preferences/com.apple.ComfortSounds.plist
+/Users/runner/Library/Preferences/com.apple.CommCenter.counts.plist
+/Users/runner/Library/Preferences/com.apple.commcenter.data.plist
+/Users/runner/Library/Preferences/com.apple.commcenter.plist
+/Users/runner/Library/Preferences/com.apple.commerce.configurator.plist
+/Users/runner/Library/Preferences/com.apple.commerce.plist
+/Users/runner/Library/Preferences/com.apple.contacts.postersyncd.plist
+/Users/runner/Library/Preferences/com.apple.contactsd.plist
+/Users/runner/Library/Preferences/com.apple.contextsync.subscriptions.plist
+/Users/runner/Library/Preferences/com.apple.controlcenter.plist
+/Users/runner/Library/Preferences/com.apple.CoreGraphics.plist
+/Users/runner/Library/Preferences/com.apple.coreservices.useractivityd.dynamicuseractivites.plist
+/Users/runner/Library/Preferences/com.apple.coreservices.useractivityd.plist
+/Users/runner/Library/Preferences/com.apple.corespotlightui.plist
+/Users/runner/Library/Preferences/com.apple.dataaccess.babysitter.plist
+/Users/runner/Library/Preferences/com.apple.dataaccess.dataaccessd.plist
+/Users/runner/Library/Preferences/com.apple.DataDeliveryServices.plist
+/Users/runner/Library/Preferences/com.apple.DiagnosticExtensions.extensionTracker.plist
+/Users/runner/Library/Preferences/com.apple.diagnosticextensionsd.plist
+/Users/runner/Library/Preferences/com.apple.DictionaryServices.plist
+/Users/runner/Library/Preferences/com.apple.dock.plist
+/Users/runner/Library/Preferences/com.apple.donotdisturbd.plist
+/Users/runner/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.mouse.plist
+/Users/runner/Library/Preferences/com.apple.driver.AppleBluetoothMultitouch.trackpad.plist
+/Users/runner/Library/Preferences/com.apple.driver.AppleHIDMouse.plist
+/Users/runner/Library/Preferences/com.apple.dt.Xcode.plist
+/Users/runner/Library/Preferences/com.apple.dt.xcodebuild.plist
+/Users/runner/Library/Preferences/com.apple.DuetExpertCenter.AppPredictionExpert.plist
+/Users/runner/Library/Preferences/com.apple.facetime.bag.plist
+/Users/runner/Library/Preferences/com.apple.fileproviderd.plist
+/Users/runner/Library/Preferences/com.apple.financed.plist
+/Users/runner/Library/Preferences/com.apple.finder.plist
+/Users/runner/Library/Preferences/com.apple.findmy.findmylocateagent.plist
+/Users/runner/Library/Preferences/com.apple.FolderActionsDispatcher.plist
+/Users/runner/Library/Preferences/com.apple.FontRegistry.user.plist
+/Users/runner/Library/Preferences/com.apple.frauddefensed.plist
+/Users/runner/Library/Preferences/com.apple.GamePolicyAgent.plist
+/Users/runner/Library/Preferences/com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation.plist
+/Users/runner/Library/Preferences/com.apple.generativepartnerservicesettings.plist
+/Users/runner/Library/Preferences/com.apple.GEO.plist
+/Users/runner/Library/Preferences/com.apple.gms.availability.plist
+/Users/runner/Library/Preferences/com.apple.helpd.plist
+/Users/runner/Library/Preferences/com.apple.HIToolbox.plist
+/Users/runner/Library/Preferences/com.apple.homed.notbackedup.plist
+/Users/runner/Library/Preferences/com.apple.homed.plist
+/Users/runner/Library/Preferences/com.apple.homeenergyd.plist
+/Users/runner/Library/Preferences/com.apple.homeeventsd.plist
+/Users/runner/Library/Preferences/com.apple.iCal.plist
+/Users/runner/Library/Preferences/com.apple.iChat.plist
+/Users/runner/Library/Preferences/com.apple.icloud.searchpartyuseragent.plist
+/Users/runner/Library/Preferences/com.apple.iclouddrive.features.plist
+/Users/runner/Library/Preferences/com.apple.iCloudNotificationAgent.plist
+/Users/runner/Library/Preferences/com.apple.identityservicesd.plist
+/Users/runner/Library/Preferences/com.apple.ids.subservices.plist
+/Users/runner/Library/Preferences/com.apple.imagecapture.plist
+/Users/runner/Library/Preferences/com.apple.imagent.plist
+/Users/runner/Library/Preferences/com.apple.IMCoreSpotlight.plist
+/Users/runner/Library/Preferences/com.apple.imdpersistence.IMDPersistenceAgent.plist
+/Users/runner/Library/Preferences/com.apple.imdsmsrecordstore.plist
+/Users/runner/Library/Preferences/com.apple.imessage.bag.plist
+/Users/runner/Library/Preferences/com.apple.imessage.plist
+/Users/runner/Library/Preferences/com.apple.imservice.ids.FaceTime.plist
+/Users/runner/Library/Preferences/com.apple.imservice.ids.iMessage.plist
+/Users/runner/Library/Preferences/com.apple.inputAnalytics.serverStats.plist
+/Users/runner/Library/Preferences/com.apple.ipTelephony.plist
+/Users/runner/Library/Preferences/com.apple.iTunes.plist
+/Users/runner/Library/Preferences/com.apple.itunescloud.daemon.plist
+/Users/runner/Library/Preferences/com.apple.itunescloud.plist
+/Users/runner/Library/Preferences/com.apple.itunescloudd.plist
+/Users/runner/Library/Preferences/com.apple.itunesstored.plist
+/Users/runner/Library/Preferences/com.apple.jetpackassetd.plist
+/Users/runner/Library/Preferences/com.apple.keyboardservicesd.plist
+/Users/runner/Library/Preferences/com.apple.knowledge-agent.plist
+/Users/runner/Library/Preferences/com.apple.LaunchServices
+/Users/runner/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
+/Users/runner/Library/Preferences/com.apple.liveactivitiesd.plist
+/Users/runner/Library/Preferences/com.apple.locationaccessstored.plist
+/Users/runner/Library/Preferences/com.apple.loginwindow.plist
+/Users/runner/Library/Preferences/com.apple.madrid.plist
+/Users/runner/Library/Preferences/com.apple.managedappdistributionagent.plist
+/Users/runner/Library/Preferences/com.apple.Maps.mapssyncd.plist
+/Users/runner/Library/Preferences/com.apple.mediaanalysisd.plist
+/Users/runner/Library/Preferences/com.apple.menuextra.clock.plist
+/Users/runner/Library/Preferences/com.apple.messages.critical-messaging.storage.plist
+/Users/runner/Library/Preferences/com.apple.messages.nicknames.plist
+/Users/runner/Library/Preferences/com.apple.messages.plist
+/Users/runner/Library/Preferences/com.apple.mlhost.plist
+/Users/runner/Library/Preferences/com.apple.mmcs.plist
+/Users/runner/Library/Preferences/com.apple.mobileipod.plist
+/Users/runner/Library/Preferences/com.apple.MobileSMS.plist
+/Users/runner/Library/Preferences/com.apple.mobiletimer.plist
+/Users/runner/Library/Preferences/com.apple.mobiletimerd.plist
+/Users/runner/Library/Preferences/com.apple.networkserviceproxy.plist
+/Users/runner/Library/Preferences/com.apple.NewDeviceOutreach.plist
+/Users/runner/Library/Preferences/com.apple.newscore.plist
+/Users/runner/Library/Preferences/com.apple.parsecd.plist
+/Users/runner/Library/Preferences/com.apple.passd.class-d.plist
+/Users/runner/Library/Preferences/com.apple.passd.plist
+/Users/runner/Library/Preferences/com.apple.Passwords.plist
+/Users/runner/Library/Preferences/com.apple.PersonalAudio.plist
+/Users/runner/Library/Preferences/com.apple.personalizationportrait.TextUnderstandingObserver.plist
+/Users/runner/Library/Preferences/com.apple.photos.shareddefaults.plist
+/Users/runner/Library/Preferences/com.apple.proactive.PersonalizationPortrait.plist
+/Users/runner/Library/Preferences/com.apple.protectedcloudstorage.protectedcloudkeysyncing.plist
+/Users/runner/Library/Preferences/com.apple.quicklook.ThumbnailsAgent.plist
+/Users/runner/Library/Preferences/com.apple.rapport.plist
+/Users/runner/Library/Preferences/com.apple.remindd.babysitter.plist
+/Users/runner/Library/Preferences/com.apple.remindd.plist
+/Users/runner/Library/Preferences/com.apple.remotemanagement.ManagedSettingsSubscriber.plist
+/Users/runner/Library/Preferences/com.apple.replayd.plist
+/Users/runner/Library/Preferences/com.apple.Safari.PasswordBreachAgent.plist
+/Users/runner/Library/Preferences/com.apple.Safari.SafeBrowsing.plist
+/Users/runner/Library/Preferences/com.apple.SafariBookmarksSyncAgent.plist
+/Users/runner/Library/Preferences/com.apple.scheduler.plist
+/Users/runner/Library/Preferences/com.apple.screencapture.plist
+/Users/runner/Library/Preferences/com.apple.screensaver.plist
+/Users/runner/Library/Preferences/com.apple.ScreenTimeSettingsAgent.plist
+/Users/runner/Library/Preferences/com.apple.scriptmenu.plist
+/Users/runner/Library/Preferences/com.apple.security.ctkd-db.plist
+/Users/runner/Library/Preferences/com.apple.seeding.plist
+/Users/runner/Library/Preferences/com.apple.ServicesMenu.Services.plist
+/Users/runner/Library/Preferences/com.apple.SetupAssistant.plist
+/Users/runner/Library/Preferences/com.apple.sharingd.plist
+/Users/runner/Library/Preferences/com.apple.siri.context.service.plist
+/Users/runner/Library/Preferences/com.apple.siri.morphun.plist
+/Users/runner/Library/Preferences/com.apple.siri.ODDI.ExperimentationWorker.plist
+/Users/runner/Library/Preferences/com.apple.siri.ODDI.MetricsWorker.plist
+/Users/runner/Library/Preferences/com.apple.siri.ODDI.PoirotExperimentationWorker.plist
+/Users/runner/Library/Preferences/com.apple.siri.shortcuts.plist
+/Users/runner/Library/Preferences/com.apple.siri.sirisuggestions.plist
+/Users/runner/Library/Preferences/com.apple.siriactionsd.plist
+/Users/runner/Library/Preferences/com.apple.siriknowledged.plist
+/Users/runner/Library/Preferences/com.apple.sms.plist
+/Users/runner/Library/Preferences/com.apple.sociallayerd.CloudKit.ckwriter.plist
+/Users/runner/Library/Preferences/com.apple.sociallayerd.plist
+/Users/runner/Library/Preferences/com.apple.spaces.plist
+/Users/runner/Library/Preferences/com.apple.SpeakSelection.plist
+/Users/runner/Library/Preferences/com.apple.Spotlight.plist
+/Users/runner/Library/Preferences/com.apple.spotlightknowledge.plist
+/Users/runner/Library/Preferences/com.apple.spotlightknowledged.pipeline.plist
+/Users/runner/Library/Preferences/com.apple.SpotlightResources.Defaults.plist
+/Users/runner/Library/Preferences/com.apple.StatusKitAgent.plist
+/Users/runner/Library/Preferences/com.apple.stickersd.plist
+/Users/runner/Library/Preferences/com.apple.stockholm.plist
+/Users/runner/Library/Preferences/com.apple.stocks.stockskit.plist
+/Users/runner/Library/Preferences/com.apple.StocksKitService.plist
+/Users/runner/Library/Preferences/com.apple.storeagent.plist
+/Users/runner/Library/Preferences/com.apple.studentd.plist
+/Users/runner/Library/Preferences/com.apple.suggestd.plist
+/Users/runner/Library/Preferences/com.apple.suggestions.plist
+/Users/runner/Library/Preferences/com.apple.suggestions.TextUnderstandingObserver.plist
+/Users/runner/Library/Preferences/com.apple.symbolichotkeys.plist
+/Users/runner/Library/Preferences/com.apple.syncdefaultsd.plist
+/Users/runner/Library/Preferences/com.apple.systempreferences.plist
+/Users/runner/Library/Preferences/com.apple.systemuiserver.plist
+/Users/runner/Library/Preferences/com.apple.talagent.plist
+/Users/runner/Library/Preferences/com.apple.TelephonyUtilities.plist
+/Users/runner/Library/Preferences/com.apple.TelephonyUtilities.sharePlayAppPolicies.plist
+/Users/runner/Library/Preferences/com.apple.textInput.keyboardServices.textReplacement.plist
+/Users/runner/Library/Preferences/com.apple.TextInputMenu.plist
+/Users/runner/Library/Preferences/com.apple.tipsd.plist
+/Users/runner/Library/Preferences/com.apple.transparencyd.plist
+/Users/runner/Library/Preferences/com.apple.triald.plist
+/Users/runner/Library/Preferences/com.apple.TTY.plist
+/Users/runner/Library/Preferences/com.apple.universalaccess.plist
+/Users/runner/Library/Preferences/com.apple.UserAccountUpdater.plist
+/Users/runner/Library/Preferences/com.apple.VoiceOver4
+/Users/runner/Library/Preferences/com.apple.voiceservices.plist
+/Users/runner/Library/Preferences/com.apple.voicetrigger.plist
+/Users/runner/Library/Preferences/com.apple.wallpaper.aerial.plist
+/Users/runner/Library/Preferences/com.apple.wallpaper.plist
+/Users/runner/Library/Preferences/com.apple.weather.sensitive.plist
+/Users/runner/Library/Preferences/com.apple.WindowManager.plist
+/Users/runner/Library/Preferences/com.apple.xpc.activity2.plist
+/Users/runner/Library/Preferences/ContextStoreAgent.plist
+/Users/runner/Library/Preferences/diagnostics_agent.plist
+/Users/runner/Library/Preferences/loginwindow.plist
+/Users/runner/Library/Preferences/mbuseragent.plist
+/Users/runner/Library/Preferences/no_backup
+/Users/runner/Library/Preferences/pbs.plist
+/Users/runner/Library/Preferences/sharedfilelistd.plist
+/Users/runner/Library/Preferences/systemgroup.com.apple.icloud.searchpartyd.sharedsettings.plist
+/Users/runner/Library/Preferences/TokenBucketRateLimiter.plist
+/Users/runner/Library/WebKit/Databases
+/Users/Shared/.betamigrated
+/Users/Shared/.localized
+/Users/Shared/Relocated Items

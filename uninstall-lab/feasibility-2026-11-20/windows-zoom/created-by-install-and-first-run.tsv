@@ -1,0 +1,8 @@
+576496	FILE	C:\Program Files\Zoom
+2	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zoom
+2	FILE	C:\Users\Public\Desktop\Zoom Workplace.lnk
+	REG	HKEY_CURRENT_USER\SOFTWARE\Clients
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Zoom
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\ZoomUMX
+	SERVICE	ZoomCptService
+	UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}

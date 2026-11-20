@@ -1,0 +1,1194 @@
+FILE	C:\Program Files (x86)\Android
+FILE	C:\Program Files (x86)\Application Verifier
+FILE	C:\Program Files (x86)\Common Files
+FILE	C:\Program Files (x86)\desktop.ini
+FILE	C:\Program Files (x86)\dotnet
+FILE	C:\Program Files (x86)\Google
+FILE	C:\Program Files (x86)\HTML Help Workshop
+FILE	C:\Program Files (x86)\IIS
+FILE	C:\Program Files (x86)\IIS Express
+FILE	C:\Program Files (x86)\Inno Setup 6
+FILE	C:\Program Files (x86)\Internet Explorer
+FILE	C:\Program Files (x86)\Microsoft
+FILE	C:\Program Files (x86)\Microsoft Analysis Services
+FILE	C:\Program Files (x86)\Microsoft SDKs
+FILE	C:\Program Files (x86)\Microsoft SQL Server
+FILE	C:\Program Files (x86)\Microsoft Visual Studio
+FILE	C:\Program Files (x86)\Microsoft Visual Studio 14.0
+FILE	C:\Program Files (x86)\Microsoft Web Tools
+FILE	C:\Program Files (x86)\Microsoft.NET
+FILE	C:\Program Files (x86)\Mozilla Maintenance Service
+FILE	C:\Program Files (x86)\MSBuild
+FILE	C:\Program Files (x86)\Nuget
+FILE	C:\Program Files (x86)\pipx
+FILE	C:\Program Files (x86)\pipx_bin
+FILE	C:\Program Files (x86)\Reference Assemblies
+FILE	C:\Program Files (x86)\sbt
+FILE	C:\Program Files (x86)\Visual Studio
+FILE	C:\Program Files (x86)\Windows Application Driver
+FILE	C:\Program Files (x86)\Windows Defender
+FILE	C:\Program Files (x86)\Windows Kits
+FILE	C:\Program Files (x86)\Windows Mail
+FILE	C:\Program Files (x86)\Windows Media Player
+FILE	C:\Program Files (x86)\Windows NT
+FILE	C:\Program Files (x86)\Windows Photo Viewer
+FILE	C:\Program Files (x86)\Windows Sidebar
+FILE	C:\Program Files (x86)\WindowsPowerShell
+FILE	C:\Program Files (x86)\WiX Toolset v3.14
+FILE	C:\Program Files (x86)\Workflow Manager Tools
+FILE	C:\Program Files\7-Zip
+FILE	C:\Program Files\Amazon
+FILE	C:\Program Files\Android
+FILE	C:\Program Files\Application Verifier
+FILE	C:\Program Files\Azure Cosmos DB Emulator
+FILE	C:\Program Files\CMake
+FILE	C:\Program Files\Common Files
+FILE	C:\Program Files\desktop.ini
+FILE	C:\Program Files\docker
+FILE	C:\Program Files\dotnet
+FILE	C:\Program Files\Git
+FILE	C:\Program Files\GitHub CLI
+FILE	C:\Program Files\Google
+FILE	C:\Program Files\Hyper-V
+FILE	C:\Program Files\IIS
+FILE	C:\Program Files\IIS Express
+FILE	C:\Program Files\ImageMagick-7.1.2-Q16-HDRI
+FILE	C:\Program Files\Internet Explorer
+FILE	C:\Program Files\LLVM
+FILE	C:\Program Files\Microsoft
+FILE	C:\Program Files\Microsoft SDKs
+FILE	C:\Program Files\Microsoft Service Fabric
+FILE	C:\Program Files\Microsoft SQL Server
+FILE	C:\Program Files\Microsoft Visual Studio
+FILE	C:\Program Files\Microsoft Visual Studio 14.0
+FILE	C:\Program Files\ModifiableWindowsApps
+FILE	C:\Program Files\MongoDB
+FILE	C:\Program Files\mongosh
+FILE	C:\Program Files\Mozilla Firefox
+FILE	C:\Program Files\MSBuild
+FILE	C:\Program Files\MySQL
+FILE	C:\Program Files\nodejs
+FILE	C:\Program Files\OpenSSL
+FILE	C:\Program Files\PackageManagement
+FILE	C:\Program Files\PostgreSQL
+FILE	C:\Program Files\PowerShell
+FILE	C:\Program Files\R
+FILE	C:\Program Files\Reference Assemblies
+FILE	C:\Program Files\Uninstall Information
+FILE	C:\Program Files\Unity Hub
+FILE	C:\Program Files\Windows Defender
+FILE	C:\Program Files\Windows Defender Advanced Threat Protection
+FILE	C:\Program Files\Windows Mail
+FILE	C:\Program Files\Windows Media Player
+FILE	C:\Program Files\Windows NT
+FILE	C:\Program Files\Windows Photo Viewer
+FILE	C:\Program Files\Windows Sidebar
+FILE	C:\Program Files\WindowsApps
+FILE	C:\Program Files\WindowsPowerShell
+FILE	C:\Program Files\WSL
+FILE	C:\ProgramData\Application Data
+FILE	C:\ProgramData\chocolatey
+FILE	C:\ProgramData\ChocolateyHttpCache
+FILE	C:\ProgramData\dbg
+FILE	C:\ProgramData\Desktop
+FILE	C:\ProgramData\docker
+FILE	C:\ProgramData\Documents
+FILE	C:\ProgramData\gemrc
+FILE	C:\ProgramData\GitHub
+FILE	C:\ProgramData\kind
+FILE	C:\ProgramData\m2
+FILE	C:\ProgramData\Microsoft
+FILE	C:\ProgramData\Microsoft DevDiv
+FILE	C:\ProgramData\Microsoft Service Fabric
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Anaconda (Miniconda)
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Azure Arc Setup.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Azure Cosmos DB Emulator
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Blend for Visual Studio.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Calculator.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\CMake
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\desktop.ini
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox Private Browsing.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ImageMagick 7.1.2 Q16-HDRI (64-bit)
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Inno Setup 6
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\LLVM
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Web Platform Installer.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Notepad.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OpenSSL
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Paint.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PostgreSQL 17
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PowerShell
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.11
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.12
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.13
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.14
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.15
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\R
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Rtools 4.5
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Server Manager.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\ServiceFabricLocalClusterManager
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Snipping Tool.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Strawberry Perl (64-bit)
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Unity Hub.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2026
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio Installer.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Admin Center Setup.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WiX Toolset v3.14
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WSL Settings.lnk
+FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WSL.lnk
+FILE	C:\ProgramData\Mozilla-1de4eec8-1241-4177-a864-e594e8d1fb38
+FILE	C:\ProgramData\Package Cache
+FILE	C:\ProgramData\Packages
+FILE	C:\ProgramData\primer
+FILE	C:\ProgramData\regid.1991-06.com.microsoft
+FILE	C:\ProgramData\runner
+FILE	C:\ProgramData\shimgen
+FILE	C:\ProgramData\SoftwareDistribution
+FILE	C:\ProgramData\ssh
+FILE	C:\ProgramData\Start Menu
+FILE	C:\ProgramData\Templates
+FILE	C:\ProgramData\USOPrivate
+FILE	C:\ProgramData\USOShared
+FILE	C:\ProgramData\Windows App Certification Kit
+FILE	C:\Users\Public\Desktop\desktop.ini
+FILE	C:\Users\Public\Desktop\Firefox.lnk
+FILE	C:\Users\Public\Desktop\Google Chrome.lnk
+FILE	C:\Users\Public\Desktop\Microsoft Edge.lnk
+FILE	C:\Users\Public\Desktop\R 4.6.2.lnk
+FILE	C:\Users\Public\Desktop\Unity Hub.lnk
+FILE	C:\Users\runneradmin\AppData\Local\.IdentityService
+FILE	C:\Users\runneradmin\AppData\Local\Application Data
+FILE	C:\Users\runneradmin\AppData\Local\AzureFunctionsTools
+FILE	C:\Users\runneradmin\AppData\Local\D3DSCache
+FILE	C:\Users\runneradmin\AppData\Local\Google
+FILE	C:\Users\runneradmin\AppData\Local\History
+FILE	C:\Users\runneradmin\AppData\Local\Microsoft
+FILE	C:\Users\runneradmin\AppData\Local\Packages
+FILE	C:\Users\runneradmin\AppData\Local\pip
+FILE	C:\Users\runneradmin\AppData\Local\Temp
+FILE	C:\Users\runneradmin\AppData\Local\Temporary Internet Files
+FILE	C:\Users\runneradmin\AppData\LocalLow\Microsoft
+FILE	C:\Users\runneradmin\AppData\Roaming\Adobe
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools.lnk
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\File Explorer.lnk
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools
+FILE	C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell
+FILE	C:\Users\runneradmin\AppData\Roaming\NuGet
+FILE	C:\Users\runneradmin\Desktop\desktop.ini
+REG	HKEY_CURRENT_USER\SOFTWARE\appdatalow
+REG	HKEY_CURRENT_USER\SOFTWARE\ChangeTracker
+REG	HKEY_CURRENT_USER\SOFTWARE\Classes
+REG	HKEY_CURRENT_USER\SOFTWARE\Google
+REG	HKEY_CURRENT_USER\SOFTWARE\Microsoft
+REG	HKEY_CURRENT_USER\SOFTWARE\Policies
+REG	HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications
+REG	HKEY_CURRENT_USER\SOFTWARE\Wow6432Node
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\7-Zip
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Clients
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\DefaultUserEnvironment
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\dotnet
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\GitForWindows
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\GitHub
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Google
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\ImageMagick
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Intel
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Kitware
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\MongoDB
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\mozilla.org
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\MySQL AB
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Node.js
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\ODBC
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\OEM
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\OpenDTrace
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\OpenSSH
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Partner
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Policies
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\PostgreSQL
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\PostgreSQL Global Development Group
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Python
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\R-core
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Setup
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Unity Technologies
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Classes
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\dotnet
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Intel
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\LLVM
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\NuGet
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\ODBC
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Policies
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Python
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\RegisteredApplications
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\SNIA
+REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Xamarin
+RUN	AzureArcSetup
+RUN	SecurityHealth
+SERVICE	ALG
+SERVICE	Apache
+SERVICE	AppHostSvc
+SERVICE	AppIDSvc
+SERVICE	Appinfo
+SERVICE	AppMgmt
+SERVICE	AppReadiness
+SERVICE	AppVClient
+SERVICE	AppXSvc
+SERVICE	aspnet_state
+SERVICE	AudioEndpointBuilder
+SERVICE	Audiosrv
+SERVICE	AxInstSV
+SERVICE	BDESVC
+SERVICE	BFE
+SERVICE	BITS
+SERVICE	BluetoothUserService_b466e
+SERVICE	BrokerInfrastructure
+SERVICE	BTAGService
+SERVICE	BthAvctpSvc
+SERVICE	bthserv
+SERVICE	camsvc
+SERVICE	CaptureService_b466e
+SERVICE	cbdhsvc_b466e
+SERVICE	CDPSvc
+SERVICE	CertPropSvc
+SERVICE	ClipSVC
+SERVICE	CloudBackupRestoreSvc_b466e
+SERVICE	COMSysApp
+SERVICE	ConsentUxUserSvc_b466e
+SERVICE	CoreMessagingRegistrar
+SERVICE	CredentialEnrollmentManagerUserSvc_b466e
+SERVICE	CryptSvc
+SERVICE	CscService
+SERVICE	DcomLaunch
+SERVICE	dcsvc
+SERVICE	defragsvc
+SERVICE	DeviceAssociationBrokerSvc_b466e
+SERVICE	DeviceAssociationService
+SERVICE	DeviceInstall
+SERVICE	DevicePickerUserSvc_b466e
+SERVICE	DevicesFlowUserSvc_b466e
+SERVICE	DevQueryBroker
+SERVICE	Dhcp
+SERVICE	DiagTrack
+SERVICE	DispBrokerDesktopSvc
+SERVICE	DisplayEnhancementService
+SERVICE	DmEnrollmentSvc
+SERVICE	dmwappushservice
+SERVICE	Dnscache
+SERVICE	docker
+SERVICE	DoSvc
+SERVICE	dot3svc
+SERVICE	DPS
+SERVICE	DsmSvc
+SERVICE	DsSvc
+SERVICE	EapHost
+SERVICE	edgeupdate
+SERVICE	edgeupdatem
+SERVICE	EFS
+SERVICE	embeddedmode
+SERVICE	EntAppSvc
+SERVICE	EventLog
+SERVICE	EventSystem
+SERVICE	FabricHostSvc
+SERVICE	fdPHost
+SERVICE	FDResPub
+SERVICE	FontCache
+SERVICE	FontCache3.0.0.0
+SERVICE	FrameServer
+SERVICE	FrameServerMonitor
+SERVICE	GameInputSvc
+SERVICE	GoogleChromeElevationService
+SERVICE	GoogleUpdaterInternalService157.0.8089.0
+SERVICE	GoogleUpdaterService157.0.8089.0
+SERVICE	gpsvc
+SERVICE	GraphicsPerfSvc
+SERVICE	HgClientService
+SERVICE	hidserv
+SERVICE	hns
+SERVICE	hpatchmon
+SERVICE	HvHost
+SERVICE	IKEEXT
+SERVICE	InstallService
+SERVICE	InventorySvc
+SERVICE	iphlpsvc
+SERVICE	KeyIso
+SERVICE	KPSSVC
+SERVICE	KtmRm
+SERVICE	LanmanServer
+SERVICE	LanmanWorkstation
+SERVICE	lfsvc
+SERVICE	LicenseManager
+SERVICE	lltdsvc
+SERVICE	lmhosts
+SERVICE	LocalKdc
+SERVICE	LSM
+SERVICE	LxpSvc
+SERVICE	MapsBroker
+SERVICE	McpManagementService
+SERVICE	MDCoreSvc
+SERVICE	MicrosoftEdgeElevationService
+SERVICE	MongoDB
+SERVICE	MozillaMaintenance
+SERVICE	mpssvc
+SERVICE	MSDTC
+SERVICE	MSiSCSI
+SERVICE	msiserver
+SERVICE	MSMQ
+SERVICE	NaturalAuthentication
+SERVICE	NcaSvc
+SERVICE	NcbService
+SERVICE	Netlogon
+SERVICE	Netman
+SERVICE	NetMsmqActivator
+SERVICE	NetPipeActivator
+SERVICE	netprofm
+SERVICE	NetSetupSvc
+SERVICE	NetTcpActivator
+SERVICE	NetTcpPortSharing
+SERVICE	NgcCtnrSvc
+SERVICE	NgcSvc
+SERVICE	nginx
+SERVICE	NlaSvc
+SERVICE	NPSMSvc_b466e
+SERVICE	nsi
+SERVICE	nvagent
+SERVICE	P9RdrService_b466e
+SERVICE	PcaSvc
+SERVICE	PerfHost
+SERVICE	pla
+SERVICE	PlugPlay
+SERVICE	PolicyAgent
+SERVICE	postgresql-x64-17
+SERVICE	Power
+SERVICE	PrintDeviceConfigurationService
+SERVICE	PrintNotify
+SERVICE	PrintScanBrokerService
+SERVICE	PrintWorkflowUserSvc_b466e
+SERVICE	ProfSvc
+SERVICE	PushToInstall
+SERVICE	QWAVE
+SERVICE	RasAuto
+SERVICE	RasMan
+SERVICE	RdAgent
+SERVICE	refsdedupsvc
+SERVICE	RemoteAccess
+SERVICE	RemoteRegistry
+SERVICE	RmSvc
+SERVICE	RpcEptMapper
+SERVICE	RpcLocator
+SERVICE	RpcSs
+SERVICE	RSoPProv
+SERVICE	sacsvr
+SERVICE	SamSs
+SERVICE	SCardSvr
+SERVICE	ScDeviceEnum
+SERVICE	Schedule
+SERVICE	SCPolicySvc
+SERVICE	seclogon
+SERVICE	SecurityHealthService
+SERVICE	SEMgrSvc
+SERVICE	SENS
+SERVICE	Sense
+SERVICE	SensorDataService
+SERVICE	SensorService
+SERVICE	SensrSvc
+SERVICE	SessionEnv
+SERVICE	SharedAccess
+SERVICE	ShellHWDetection
+SERVICE	shpamsvc
+SERVICE	smphost
+SERVICE	SNMPTrap
+SERVICE	Spooler
+SERVICE	sppsvc
+SERVICE	SQLWriter
+SERVICE	SSDPSRV
+SERVICE	ssh-agent
+SERVICE	sshd
+SERVICE	SstpSvc
+SERVICE	StateRepository
+SERVICE	StiSvc
+SERVICE	StorSvc
+SERVICE	svsvc
+SERVICE	swprv
+SERVICE	SysMain
+SERVICE	SystemEventsBroker
+SERVICE	tapisrv
+SERVICE	TermService
+SERVICE	TextInputManagementService
+SERVICE	Themes
+SERVICE	TieringEngineService
+SERVICE	TimeBrokerSvc
+SERVICE	TokenBroker
+SERVICE	TrkWks
+SERVICE	TrustedInstaller
+SERVICE	tzautoupdate
+SERVICE	UALSVC
+SERVICE	UdkUserSvc_b466e
+SERVICE	UevAgentService
+SERVICE	UmRdpService
+SERVICE	upnphost
+SERVICE	UserManager
+SERVICE	UsoSvc
+SERVICE	VaultSvc
+SERVICE	vds
+SERVICE	vmcompute
+SERVICE	vmicguestinterface
+SERVICE	vmicheartbeat
+SERVICE	vmickvpexchange
+SERVICE	vmicrdv
+SERVICE	vmicshutdown
+SERVICE	vmictimesync
+SERVICE	vmicvmsession
+SERVICE	vmicvss
+SERVICE	vmms
+SERVICE	VSInstallerElevationService
+SERVICE	VSS
+SERVICE	VSStandardCollectorService150
+SERVICE	W32Time
+SERVICE	w3logsvc
+SERVICE	W3SVC
+SERVICE	WaaSMedicSvc
+SERVICE	WalletService
+SERVICE	WarpJITSvc
+SERVICE	WAS
+SERVICE	WbioSrvc
+SERVICE	Wcmsvc
+SERVICE	wcncsvc
+SERVICE	WdiServiceHost
+SERVICE	WdiSystemHost
+SERVICE	WdNisSvc
+SERVICE	Wecsvc
+SERVICE	WEPHOSTSVC
+SERVICE	wercplsupport
+SERVICE	WerSvc
+SERVICE	WFDSConMgrSvc
+SERVICE	WiaRpc
+SERVICE	WinDefend
+SERVICE	WindowsAzureGuestAgent
+SERVICE	WinHttpAutoProxySvc
+SERVICE	Winmgmt
+SERVICE	WinRM
+SERVICE	wisvc
+SERVICE	WlanSvc
+SERVICE	wlidsvc
+SERVICE	WManSvc
+SERVICE	wmiApSrv
+SERVICE	WMPNetworkSvc
+SERVICE	workfolderssvc
+SERVICE	WPDBusEnum
+SERVICE	WpnService
+SERVICE	WpnUserService_b466e
+SERVICE	WSAIFabricSvc
+SERVICE	WSearch
+SERVICE	WSLService
+SERVICE	wuauserv
+SERVICE	XblAuthManager
+SERVICE	ZTHELPER
+TASK	\GoogleSystem\GoogleUpdater\GoogleUpdaterTaskSystem157.0.8089.0{23EE9A09-1F83-4547-B897-2B3B64E8D067}
+TASK	\HostedComputeAgent
+TASK	\Microsoft\VisualStudio\Updates\UpdateConfiguration_S-1-5-21-3414932011-3134797172-3625386099-1000
+TASK	\Microsoft\VisualStudio\Updates\UpdateConfiguration_S-1-5-21-3414932011-3134797172-3625386099-500
+TASK	\Microsoft\VisualStudio\VSIX Auto Update
+TASK	\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319
+TASK	\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64
+TASK	\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical
+TASK	\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical
+TASK	\Microsoft\Windows\AccountHealth\RecoverabilityToastTask
+TASK	\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+TASK	\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)
+TASK	\Microsoft\Windows\AppID\EDP Policy Manager
+TASK	\Microsoft\Windows\AppID\PolicyConverter
+TASK	\Microsoft\Windows\AppID\VerifiedPublisherCertStoreCheck
+TASK	\Microsoft\Windows\Application Experience\MareBackup
+TASK	\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser Exp
+TASK	\Microsoft\Windows\Application Experience\PcaPatchDbTask
+TASK	\Microsoft\Windows\Application Experience\SdbinstMergeDbTask
+TASK	\Microsoft\Windows\Application Experience\StartupAppTask
+TASK	\Microsoft\Windows\ApplicationData\appuriverifierdaily
+TASK	\Microsoft\Windows\ApplicationData\appuriverifierinstall
+TASK	\Microsoft\Windows\ApplicationData\CleanupTemporaryState
+TASK	\Microsoft\Windows\ApplicationData\DsSvcCleanup
+TASK	\Microsoft\Windows\AppxDeploymentClient\Pre-staged app cleanup
+TASK	\Microsoft\Windows\Autochk\Proxy
+TASK	\Microsoft\Windows\BitLocker\BitLocker Encrypt All Drives
+TASK	\Microsoft\Windows\BitLocker\BitLocker MDM policy Refresh
+TASK	\Microsoft\Windows\Bluetooth\UninstallDeviceTask
+TASK	\Microsoft\Windows\BrokerInfrastructure\BgTaskRegistrationMaintenanceTask
+TASK	\Microsoft\Windows\capabilityaccessmanager\maintenancetasks
+TASK	\Microsoft\Windows\CertificateServicesClient\AikCertEnrollTask
+TASK	\Microsoft\Windows\CertificateServicesClient\CryptoPolicyTask
+TASK	\Microsoft\Windows\CertificateServicesClient\KeyPreGenTask
+TASK	\Microsoft\Windows\CertificateServicesClient\SystemTask
+TASK	\Microsoft\Windows\CertificateServicesClient\UserTask
+TASK	\Microsoft\Windows\CertificateServicesClient\UserTask-Roam
+TASK	\Microsoft\Windows\Chkdsk\ProactiveScan
+TASK	\Microsoft\Windows\Chkdsk\SyspartRepair
+TASK	\Microsoft\Windows\Clip\License Validation
+TASK	\Microsoft\Windows\CloudExperienceHost\CreateObjectTask
+TASK	\Microsoft\Windows\CloudRestore\Backup
+TASK	\Microsoft\Windows\CloudRestore\Restore
+TASK	\Microsoft\Windows\Customer Experience Improvement Program\Consolidator
+TASK	\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip
+TASK	\Microsoft\Windows\Data Integrity Scan\Data Integrity Check And Scan
+TASK	\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan
+TASK	\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan for Crash Recovery
+TASK	\Microsoft\Windows\Defrag\ScheduledDefrag
+TASK	\Microsoft\Windows\Device Information\Device
+TASK	\Microsoft\Windows\Device Information\Device User
+TASK	\Microsoft\Windows\Device Setup\Driver Recovery on Reboot
+TASK	\Microsoft\Windows\Device Setup\Metadata Refresh
+TASK	\Microsoft\Windows\DeviceDirectoryClient\HandleCommand
+TASK	\Microsoft\Windows\DeviceDirectoryClient\HandleWnsCommand
+TASK	\Microsoft\Windows\DeviceDirectoryClient\IntegrityCheck
+TASK	\Microsoft\Windows\DeviceDirectoryClient\LocateCommandUserSession
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceAccountChange
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceLocationRightsChange
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDevicePeriodic24
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDevicePolicyChange
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceProtectionStateChanged
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceSettingChange
+TASK	\Microsoft\Windows\DeviceDirectoryClient\RegisterUserDevice
+TASK	\Microsoft\Windows\Diagnosis\Scheduled
+TASK	\Microsoft\Windows\Diagnosis\UnexpectedCodepath
+TASK	\Microsoft\Windows\DirectX\DirectXDatabaseUpdater
+TASK	\Microsoft\Windows\DirectX\DXGIAdapterCache
+TASK	\Microsoft\Windows\DiskCleanup\SilentCleanup
+TASK	\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector
+TASK	\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver
+TASK	\Microsoft\Windows\DiskFootprint\Diagnostics
+TASK	\Microsoft\Windows\DiskFootprint\StorageSense
+TASK	\Microsoft\Windows\EDP\EDP App Launch Task
+TASK	\Microsoft\Windows\EDP\EDP Auth Task
+TASK	\Microsoft\Windows\EDP\EDP Inaccessible Credentials Task
+TASK	\Microsoft\Windows\EDP\StorageCardEncryption Task
+TASK	\Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh
+TASK	\Microsoft\Windows\File Classification Infrastructure\Property Definition Sync
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\BootstrapUsageDataReporting
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\GovernedFeatureUsageProcessing
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\ReconcileConfigs
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\ReconcileFeatures
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\UsageDataFlushing
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\UsageDataReceiver
+TASK	\Microsoft\Windows\Flighting\FeatureConfig\UsageDataReporting
+TASK	\Microsoft\Windows\Flighting\OneSettings\RefreshCache
+TASK	\Microsoft\Windows\Hotpatch\Monitoring
+TASK	\Microsoft\Windows\input\InputSettingsRestoreDataAvailable
+TASK	\Microsoft\Windows\input\LocalUserSyncDataAvailable
+TASK	\Microsoft\Windows\input\MouseSyncDataAvailable
+TASK	\Microsoft\Windows\input\PenSyncDataAvailable
+TASK	\Microsoft\Windows\input\RemoteMouseSyncDataAvailable
+TASK	\Microsoft\Windows\input\RemotePenSyncDataAvailable
+TASK	\Microsoft\Windows\input\RemoteTouchpadSyncDataAvailable
+TASK	\Microsoft\Windows\input\syncpensettings
+TASK	\Microsoft\Windows\input\TouchpadSyncDataAvailable
+TASK	\Microsoft\Windows\InstallService\RestoreDevice
+TASK	\Microsoft\Windows\InstallService\ScanForUpdates
+TASK	\Microsoft\Windows\InstallService\ScanForUpdatesAsUser
+TASK	\Microsoft\Windows\InstallService\SmartRetry
+TASK	\Microsoft\Windows\InstallService\WakeUpAndContinueUpdates
+TASK	\Microsoft\Windows\InstallService\WakeUpAndScanForUpdates
+TASK	\Microsoft\Windows\International\Synchronize Language Settings
+TASK	\Microsoft\Windows\Kernel\La57Cleanup
+TASK	\Microsoft\Windows\LanguageComponentsInstaller\Installation
+TASK	\Microsoft\Windows\LanguageComponentsInstaller\ReconcileLanguageResources
+TASK	\Microsoft\Windows\LanguageComponentsInstaller\Uninstallation
+TASK	\Microsoft\Windows\License Manager\TempSignedLicenseExchange
+TASK	\Microsoft\Windows\Location\WindowsActionDialog
+TASK	\Microsoft\Windows\Maintenance\WinSAT
+TASK	\Microsoft\Windows\Management\Autopilot\DetectHardwareChange
+TASK	\Microsoft\Windows\Management\Autopilot\RemediateHardwareChange
+TASK	\Microsoft\Windows\Management\Provisioning\Cellular
+TASK	\Microsoft\Windows\Management\Provisioning\Logon
+TASK	\Microsoft\Windows\Management\Provisioning\MdmDiagnosticsCleanup
+TASK	\Microsoft\Windows\Management\Provisioning\Retry
+TASK	\Microsoft\Windows\Management\Provisioning\RunOnReboot
+TASK	\Microsoft\Windows\Maps\MapsToastTask
+TASK	\Microsoft\Windows\Maps\MapsUpdateTask
+TASK	\Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+TASK	\Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic
+TASK	\Microsoft\Windows\MUI\LPRemove
+TASK	\Microsoft\Windows\Multimedia\SystemSoundsService
+TASK	\Microsoft\Windows\Network Connectivity Status Indicator\NcsiIdentifyUserProxies
+TASK	\Microsoft\Windows\Network Controller\SDN Diagnostics Task
+TASK	\Microsoft\Windows\Offline Files\Background Synchronization
+TASK	\Microsoft\Windows\Offline Files\Logon Synchronization
+TASK	\Microsoft\Windows\PCRPF\PCR Prediction Framework Firmware Update Task
+TASK	\Microsoft\Windows\PI\Secure-Boot-Update
+TASK	\Microsoft\Windows\PI\Sqm-Tasks
+TASK	\Microsoft\Windows\PLA\GAEvents
+TASK	\Microsoft\Windows\PLA\RTEvents
+TASK	\Microsoft\Windows\PLA\Server Manager Performance Monitor
+TASK	\Microsoft\Windows\Plug and Play\Device Install Group Policy
+TASK	\Microsoft\Windows\Plug and Play\Device Install Reboot Required
+TASK	\Microsoft\Windows\Plug and Play\Sysprep Generalize Drivers
+TASK	\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem
+TASK	\Microsoft\Windows\Printing\PrinterCleanupTask
+TASK	\Microsoft\Windows\Printing\PrintJobCleanupTask
+TASK	\Microsoft\Windows\PushToInstall\LoginCheck
+TASK	\Microsoft\Windows\PushToInstall\Registration
+TASK	\Microsoft\Windows\Ras\MobilityManager
+TASK	\Microsoft\Windows\RecoveryEnvironment\VerifyWinRE
+TASK	\Microsoft\Windows\ReFsDedupSvc\Initialization
+TASK	\Microsoft\Windows\Registry\RegIdleBackup
+TASK	\Microsoft\Windows\Server Initial Configuration Task
+TASK	\Microsoft\Windows\Server Manager\CleanupOldPerfLogs
+TASK	\Microsoft\Windows\Server Manager\ServerManager
+TASK	\Microsoft\Windows\Servicing\OOBEFodSetup
+TASK	\Microsoft\Windows\Servicing\StartComponentCleanup
+TASK	\Microsoft\Windows\SharedPC\Account Cleanup
+TASK	\Microsoft\Windows\Shell\CreateObjectTask
+TASK	\Microsoft\Windows\Shell\IndexerAutomaticMaintenance
+TASK	\Microsoft\Windows\Shell\UpdateUserPictureTask
+TASK	\Microsoft\Windows\Shell\UpdateUserPictureTaskContained
+TASK	\Microsoft\Windows\Software Inventory Logging\Collection
+TASK	\Microsoft\Windows\Software Inventory Logging\Configuration
+TASK	\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTask
+TASK	\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskLogon
+TASK	\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskNetwork
+TASK	\Microsoft\Windows\SpacePort\SpaceAgentTask
+TASK	\Microsoft\Windows\SpacePort\SpaceManagerTask
+TASK	\Microsoft\Windows\Speech\SpeechModelDownloadTask
+TASK	\Microsoft\Windows\StateRepository\MaintenanceTasks
+TASK	\Microsoft\Windows\Storage Tiers Management\Storage Tiers Management Initialization
+TASK	\Microsoft\Windows\Storage Tiers Management\Storage Tiers Optimization
+TASK	\Microsoft\Windows\Task Manager\Interactive
+TASK	\Microsoft\Windows\TextServicesFramework\MsCtfMonitor
+TASK	\Microsoft\Windows\Time Synchronization\ForceSynchronizeTime
+TASK	\Microsoft\Windows\Time Synchronization\SynchronizeTime
+TASK	\Microsoft\Windows\Time Zone\SynchronizeTimeZone
+TASK	\Microsoft\Windows\TPM\Tpm-HASCertRetr
+TASK	\Microsoft\Windows\TPM\Tpm-Maintenance
+TASK	\Microsoft\Windows\TPM\Tpm-PreAttestationHealthCheck
+TASK	\Microsoft\Windows\UpdateOrchestrator\Report policies
+TASK	\Microsoft\Windows\UpdateOrchestrator\Schedule Maintenance Work
+TASK	\Microsoft\Windows\UpdateOrchestrator\Schedule Scan
+TASK	\Microsoft\Windows\UpdateOrchestrator\Schedule Scan Static Task
+TASK	\Microsoft\Windows\UpdateOrchestrator\Schedule Wake To Work
+TASK	\Microsoft\Windows\UpdateOrchestrator\Schedule Work
+TASK	\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker
+TASK	\Microsoft\Windows\UpdateOrchestrator\UUS Failover Task
+TASK	\Microsoft\Windows\UPnP\UPnPHostConfig
+TASK	\Microsoft\Windows\User Profile Service\HiveUploadTask
+TASK	\Microsoft\Windows\WaaSMedic\PerformRemediation
+TASK	\Microsoft\Windows\WDI\ResolutionHost
+TASK	\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance
+TASK	\Microsoft\Windows\Windows Defender\Windows Defender Cleanup
+TASK	\Microsoft\Windows\Windows Defender\Windows Defender Verification
+TASK	\Microsoft\Windows\Windows Error Reporting\QueueReporting
+TASK	\Microsoft\Windows\Windows Filtering Platform\BfeOnServiceStartTypeChange
+TASK	\Microsoft\Windows\Windows Media Sharing\UpdateLibrary
+TASK	\Microsoft\Windows\WindowsAI\Settings\InitialConfiguration
+TASK	\Microsoft\Windows\WindowsColorSystem\Calibration Loader
+TASK	\Microsoft\Windows\WindowsUpdate\Refresh Group Policy Cache
+TASK	\Microsoft\Windows\WindowsUpdate\Scheduled Start
+TASK	\Microsoft\Windows\Wininet\CacheTask
+TASK	\Microsoft\Windows\WlanSvc\MoProfileManagement
+TASK	\Microsoft\Windows\Work Folders\Work Folders Logon Synchronization
+TASK	\Microsoft\Windows\Work Folders\Work Folders Maintenance Work
+TASK	\Microsoft\Windows\Workplace Join\Automatic-Device-Join
+TASK	\Microsoft\Windows\Workplace Join\Device-Sync
+TASK	\Microsoft\Windows\Workplace Join\Recovery-Check
+TASK	\Microsoft\Windows\WwanSvc\OobeDiscovery
+TASK	\MicrosoftEdgeUpdateBrowserReplacementTask
+TASK	\MicrosoftEdgeUpdateTaskMachineCore{DF8F3154-08CC-4D5D-8AE1-6C92A04B3D7B}
+TASK	\MicrosoftEdgeUpdateTaskMachineUA{8E9DA641-AD47-4A76-B552-5E94A8B12F34}
+TASK	\Mozilla\Firefox Default Browser Agent 308046B0AF4A39CB
+TASK	\primer
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{009E3C28-3D7A-305A-8A2A-CC9AC49FF9E8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{00D5F095-3253-44EB-B3C7-10C7A8296D47}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0158093D-F809-455B-9429-6D16A4B5D118}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{01F171AF-1F21-435E-BEE4-FCC4360C896C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{02DB1925-3F84-47DA-BA91-4EC4132BD8A7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{03DB29EB-F553-4A6F-B173-FF8CA4E39752}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{03DF002B-1D83-4349-B267-4C533145283C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{04A17E40-CC31-4E98-93BA-0E9E766372D5}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{04AB0737-B64C-48B5-8A40-C891E30F77DC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{04AE0362-8606-4112-A618-0BE566C5A4BA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{08274920-8908-45c2-9258-8ad67ff77b09}.sdb
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0905ED51-AC56-461C-9FB4-E2452E1B47F0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{09D16EED-4DDC-4565-ABB1-8FA5B331657D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0AB3C1FB-C393-4701-B5A4-12E6C37A04A8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0D0BD025-7CEC-44ED-AC9F-06B8A57F1CBA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0DF34FE9-11BE-4C78-B1CE-216B94F17562}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0E0F96AC-80DE-4400-A40C-429D63293651}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0E359BC1-76FA-1014-8E4D-A688F4A101C4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0EA4AD7F-3EF2-40B9-B0C6-12F626F71E93}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0F113663-8C98-4AA8-866D-4F4E9743CD4B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{0FF8F1C1-CCB7-452C-8157-DCAD2C1B343D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{11C2E64A-A24D-4C07-8834-2FFD590D72E0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{13B44A9A-A962-4EAC-8BEC-57F687CD2F7B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{146870B2-D481-36BC-886E-CCF517CD5E5E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{14859200-F932-4612-9977-9A7769B535A8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{160E2435-CC4E-4D5A-88BE-2914BBB8B9A0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{18147411-4C94-48F8-B243-026D997F9D20}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{18DF3488-2245-432B-A023-3AA05C2A00C8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1D44E489-40E4-42B3-A886-D1329CB162B5}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1D653E80-09B2-40AB-9530-7DF12E632F8A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1D701FC9-914A-48C9-B78E-73B8939A194F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1E4641CE-4DCA-410D-AB23-0393727AF45A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1E56EAFD-C46F-469F-9A4D-847AC31B95A6}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{1F16F8CD-BC1A-41EB-9C3F-62FA188071C9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2007694E-AB37-428D-9F5C-F346BA1B0BF1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{22221111-1111-1111-1111-111111111111}.sdb
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{24486C0E-319F-4DF7-A234-5F6B153E4846}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2466F935-5B72-42FD-9CD4-AE79B645E8AA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{250BD575-2087-42A0-A81F-5BC767693F8A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{25FE4D4A-15A8-437A-A597-7A59BE8C884E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{274809B9-783B-2FA4-5D44-F8EC2E951E7F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{28A1F13E-383C-4753-B95A-09804B30DC7A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2933095D-F61B-4A05-ABF0-0A1474969E8E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{29CEC70F-9D96-472B-B6A1-AE7578376985}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2ADD179E-CA4B-4DAF-A2E5-C641CFF9BA15}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2C7CF1E9-C453-4DF1-8567-04612334F5BA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2DB42E4F-3AD1-4B53-818B-AE89FF2F651B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2E334F2C-291A-46DA-9D05-1697F697E04D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2EA3F214-1786-46DF-AF3A-445C7459170B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2F453F5A-23E4-4AE8-A333-C7D4E5026A68}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{2FC29949-7A3B-4D82-88A5-078919E2925E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{30357C81-D55D-49C3-A8CB-C1F9349D2302}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{323F95B5-FE22-47DE-B205-4165556227D1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{33D8A8F5-22DB-48CD-B50C-4FD5378D7BAC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3498A02C-0767-4653-94AF-0344280333E2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{34A429A0-C5D6-46A1-82E4-214FF9F1F9F1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{350EEA11-E5D9-4425-B5D0-2DDF0A91D881}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{351C3068-4D44-4211-934A-BD6D0E146B4A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{35A3AC44-8278-021E-9270-E99D8B6882D1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{36F185CA-5A7A-4C08-B7B8-6940827E04DE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3861D616-89DD-4E91-9B02-9ED2601371D4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{38B7ED99-01EA-48DD-BA1D-EFF6DCA3E890}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3A323A38-6579-4FEA-903A-A1ADD4AFAA60}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3AEAE65A-589C-47F3-9FBB-1CB560109A05}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{3CDD3E9D-B7B2-4FF2-9E51-0CB74B6EFD19}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{41976050-8581-4A68-BE59-F3FE40A20FFB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{41C0DB18-1790-465E-B0DD-D9CAA35CACBE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{425B36E9-4EA6-47B4-88C3-E798BA903188}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{454E4664-1784-4DF6-B45D-25CFCFD226B4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{474DD9C2-FBFC-4C00-BAB2-B0F3F3EAE033}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4964941B-B5D0-BD30-271C-02DF4C5D1B6C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{496EA5F6-C97E-448B-8D87-48FBF7BD55A1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{49B47315-3089-484A-B807-34D47E80ADEF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4A8EBCAC-A204-40CF-9492-05F246D9083E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4AEF6D57-922B-4695-84A0-18458325084B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4BFB652A-E510-4B01-B7A4-B532E2721FAE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4D0D5C48-CCFF-4E37-B925-7D33C3A2F938}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4D38C3A3-B685-4AB5-BD6D-FD88BCED5805}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4D5E6F95-BBF3-4C8C-9E1E-9050D3D6B882}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{4DEC2C1B-C001-4083-8071-518AE7EB5458}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{558C4CF1-82E8-4C42-BC91-5F1E96E9C99C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{56239904-8F00-40A3-B10E-3DF692E0DE3F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5740BD44-B58D-321A-AFC0-6D3D4556DD6C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5763D013-E5A0-4C5B-8B3A-9A41E8B558CE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5786DA87-FD67-4879-A53A-60EB29BCC663}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5793D6C5-6A50-40BA-902C-32BCC9BDA278}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{57AC2A86-EC99-4E9C-9FF9-15DAA88D1FAE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{58A2853D-736F-464E-8F59-E39D331D261C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5A8B346C-CD6D-4765-BCEE-DEEA20EDB81A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5B034B7D-ECFF-4035-B90F-7017B76B4FD7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5BC7E9EB-13E8-45DB-8A60-F2481FEB4595}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5D8EFC2A-A24B-4B83-B156-CF3DD64973E3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5ED64EDF-A2FB-446A-942B-0413E0A29023}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5F1547E1-DD47-4309-9361-D004025B0F39}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5F1EBCB8-3C24-4C04-9BD7-4EB654E2D559}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5FB69137-3AEC-403F-B4F7-AD58BB646531}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5FF498C2-7CDC-447E-B8AF-33B563DD4604}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6357D36A-44BC-42B7-BC4C-C3D4F4A7CEA1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6361F810-69F8-4F82-91F0-8D08D741AF37}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{66674362-34AE-4C92-854B-AEF1C07E3F15}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{68BCF6E5-EEAA-4434-B8CB-23A6D7D3BA5B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{69394459-97B9-47BA-9FD0-5A30DDBE8056}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{69CD1F2D-DF68-4E23-9108-1B70783F2855}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6AB9FC67-A53D-4560-B476-486DAEECFAEF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6AF97053-2963-415A-A01D-B0ADF7C0062F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6B2E4A4C-5493-477F-BB0F-FB6837061387}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6C1EDC0A-E71D-44D2-821C-213A5CD15498}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6C8319E8-2DB9-4C3D-8706-17A9F8CBA172}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6E3069F6-510A-41A6-B25B-4F914ABBD971}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6F320B93-EE3C-4826-85E0-ADF79F8D4C61}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6F4D49FA-E2CA-20B5-86AE-BB9DD924A4F5}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{6FC57810-C9A6-4863-9178-E49BCFFB8BA2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{74915678-9F2A-4BE8-9498-297893869992}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{75485683-EF03-41E6-BF21-D1491694548C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{759853F8-699B-42A2-82E0-A5DE2273D46A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{767BE892-2027-459A-BBB5-062FF785F098}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7B3D6C8F-F806-4B50-B02E-74A578C7E029}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7B94DD6C-9108-472D-B444-929970002A75}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7D26BC46-F5E7-432F-B597-EAF0CF2ED05C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7E8C62E5-B67D-4D2E-B056-88613B37793E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7F743AA5-74BF-42E4-B1EB-051B5F054002}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7FE6ABF5-3117-4E55-A7D2-BBC4000CBAA2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{816B781D-5AB6-49FE-B40A-DDAAD1FEE7AB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{820AF609-C4ED-4061-8D24-9EAD9684A28C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{83590166-1F71-4683-B43E-C5DE474355AE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{83EBD256-3671-411D-8CD4-C2F080C12F2F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{841B3F97-1A0E-4684-8A7B-16C062B38307}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{84444D49-E5EF-4D05-ABBB-AC814B19ED23}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{883885FE-128A-4A2A-B335-C09F14D0F3A7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8849224B-6175-4F97-83CA-3BFF451C6B55}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{888E927F-F300-4F16-882A-B9A04F9513FB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{89B25231-583F-416F-9A07-ED67ABD0AE4C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8ACC61B3-7BB9-4E69-9382-B0F4AA8F2677}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8BAA9982-CFC3-4814-92EF-5B886A2FE252}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8C233924-C210-4F40-839E-84BC37034684}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8CC73C13-5C84-44CE-92B1-4706E72045D4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{8ECE47A1-4432-4D65-AF44-B5F4911FEEE3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9083066E-43F6-4953-A3A2-2C2493388D1E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{945C7592-59B8-462E-AB14-133A49D729D1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9511229F-A090-4C6D-9D3E-107A05472BCE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9A44C414-DB43-400F-862D-CCDB8C26556E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9AFDC691-40E5-4B15-835F-9A524AC4672C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9C215D62-3658-4D50-B518-9BF0C2B225B8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9CEED6B7-F2F6-497D-9121-0CF5DEE70114}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9D09C9EF-A57C-422A-B79A-CC922079653A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9E43DE89-BFB0-49E5-A622-E9A01F1C63DB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A3863DD9-B4D3-4987-BB70-6F5F3AD4887B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A52D5175-AEDA-4C79-8E48-40B2F94BA308}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A5B947FD-875D-448C-AB7C-A737CA9FEA4C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A6827AC8-D32F-4DC0-B0DC-4AA397EFEC42}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A7036CFB-B403-4598-85FF-D397ABB88173}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A785CE7C-D7B0-441D-9E02-26364E96B27C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A9F91BE3-1B3B-4CB4-A169-19E13DD70BEA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AA38E6F3-35A2-4EC9-A142-C20524268E6B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AB5D92ED-5692-4708-A601-499CE2592A0E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ABEAF5C5-D95A-43C5-862A-EE9F1360CD4C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AC0FA8CC-7077-4B53-9456-9E9EC9B7FD8C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AC56980E-7205-489E-BA21-38E9E8925D79}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AD112617-65AC-4E4D-9AF7-A5A4B34C1E3E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ad846bae-d44b-4722-abad-f7420e08bcd9}.sdb
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AFC0318B-7DE3-4BD5-8AAA-28F081D4BF30}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AFF8FBEC-44BE-4D50-853A-3EF1AD644BF7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AFFC3E2E-B4E9-40CE-8F85-9D104554535C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B074012B-9B85-4049-BA01-A58A8C4C2236}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B0892B7B-DF7D-4D8B-9FF2-B65C5066B4DF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B0A7E07C-BA18-4191-91CF-431CA04B52B3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B3040AC3-4248-4745-83E9-DD2B95B3CF73}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B31925D1-0F31-44E3-8B19-AFB68A8D02C8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B3DB5E18-7FDA-3432-9931-2E60D41BD242}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B50250FF-0D4E-4148-A7F9-A2CC4085EE41}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B6E2520E-9764-43CE-B2F6-BDF44E55A520}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B81760F2-A44E-4386-B194-9B566AF02692}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B90ADB92-62F8-475D-A14B-2321A71C0CCA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B912129B-945D-46F4-A4FB-6814682F95E2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BAE2EA38-5784-4689-8A1B-3B401C5B3C6E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BC130F7A-0176-4B0E-9CFC-05B4741436E5}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BC7E7CD1-8B30-4BF1-B7F8-D7E14CD0F404}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BD03BE23-0525-4783-A39F-EEACE7ACFF08}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BD81D8C6-9FD8-4810-8229-6294132D3776}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{BF77625C-A16F-44B6-8DDE-728D5435860F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C038789C-DCB5-42D3-8C51-3BC9DDB26B90}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C107FE3B-067F-46A3-A7A4-40B19BBF8A3F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C21221FC-C5DD-488F-AA88-9C936DB25907}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C330EE54-D1ED-44A9-B0AF-27A1D73CD432}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C5A90749-32B1-4A6E-9121-DB45F5ECC63B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C5C61129-4623-4CD0-8171-8269F0031228}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C5CC109B-CBC6-438D-8A45-239EA3FEA348}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C6A0A583-DE12-43E0-9454-2D65C9119C65}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C735BCD3-35E3-439E-847D-A64CE704E032}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C8EADAA3-9C41-4E17-9DD7-9A501AB7F978}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C9ABD5E0-7919-4C94-8C49-539FB6226580}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CB0238CA-3B36-47AB-86FD-D60F4C47607A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CB0836EC-B072-368D-82B2-D3470BF95707}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CBD50981-4132-AB43-1A5A-D0E3E3CBA8AB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CC161CC9-321D-47AF-A478-B5644AF237D3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CC43902A-38F6-4EBF-80E5-C6D9149314CA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CD0A1663-DC2D-41BD-89AF-E1089E841822}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CEC03243-7B55-4975-A46E-15EE54974D67}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CEE03ABD-D5F9-4104-BFA5-520711B8D71F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CF482EC2-1283-4368-B407-CCCA0AF4D57B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D113B5D0-D291-4FCD-8609-17265878F921}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D14797F6-116A-40CC-9570-A842F5085694}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D226BDF0-B2FF-42DE-A5F9-FF5D53B004BE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D5FC86EF-1345-42F1-8C61-EE5BC9ECDED1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D812F12F-FA76-42BE-95FE-C897C4FD5D55}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D9561FDA-210C-4962-B7CA-71D370D077F1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D9B9D8D6-119C-492B-B7CE-CDA816C5DBCD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DAC30545-E0EF-4714-BE89-50A8BB6A26BA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DC58BF29-E6F8-4C72-87B8-214A5001C239}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DCBBAB20-BEBE-448D-ABB5-C17E3DEB6C99}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DE12B597-D4BF-4B1B-BF5F-C5CE41AFBDFC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DE4FFB86-1944-4273-B040-92E920BD6861}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DE9FC591-0C21-40EE-ADDB-0A9A4B146119}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{DFB0D0EE-DF27-4C01-AD01-615704FC8C04}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E3806E56-5AF2-4467-A6B8-F78331A9F194}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E49C2053-B653-45D0-94EE-E77ADD5DA630}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E5EF0A78-16FC-4AB5-A52B-AB0BA9177155}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E6463374-C3C7-4D60-BB8F-0BB537967B8D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E8717434-E3C0-4B3C-8132-FD1BC65A0AC9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E878FA7F-05E4-479C-A563-8574C3681DA8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E9279A3D-A613-4CA7-8B09-A6C4C5C5AB5A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E9CC8DED-9880-4482-851A-93A894A2C0BA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{E9DFCE62-04BC-4702-B4DC-320BFFA7E830}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EB042529-EDC8-41D1-8012-EA92ACA9CF0A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EE3F91E9-695A-4781-AE11-F982C70040EE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EE970305-8646-4043-8760-D83D4E041871}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EF4A3D60-9A53-4697-A18D-D3353F8554E6}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0E9CE77-BF19-4BBE-B228-A42F782F82E4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0EBFA56-0904-3874-9A82-048426161C10}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0F0AEBC-3FF8-46E4-80EC-625C2CCF241D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F208D269-7B68-4DF9-8BC6-410BEC8FE426}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F3409E64-D53D-4ECA-8B48-FA56C6153241}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F458501B-A29D-4922-99B9-EE6A01ABB036}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F5796163-6EC6-488A-B2DE-E1E94477F6AD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F579EDC2-5571-4447-8DF7-08BD4476257E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F626C8CC-78B0-4FEF-AA60-7B4E189DAB0F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F7434CFC-9140-4DBA-8293-8177938A4D2E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F7F70D15-A1C1-42D5-A47F-AD0AC223C5AD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F8B9E8C8-61E8-4E9E-879D-F3F498AD0230}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{FAF66AC8-065B-4604-A265-34B6EA4E6CD3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{FAFEE5E3-E00A-4CE8-B495-8F66A5FAB236}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{FBD6181A-FACE-4219-A484-E94F495E2F93}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{FD20AF01-2C6F-4BEE-BC08-95350F5337F9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\7-Zip
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE40
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\IEData
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ImageMagick 7.1.2 Q16-HDRI (64-bit)_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Miniconda3 py314_26.9.4-1 (Python 3.14.10 64-bit)
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Mozilla Firefox
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MozillaMaintenanceService
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OpenSSL (64-bit)_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\PostgreSQL 17
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\R for Windows 4.6.2_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Rtools45_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ServiceFabric
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Unity Technologies - Hub
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WIC
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{005A1101-9C4E-4ADC-BA9E-320ABE8F26BF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{006DE8E8-1C81-3983-AC2F-ABE5F9603D8E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{008BDAEF-5A6F-3898-9BCA-1F91E3E57AF4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{024BCA10-EF96-454B-87C0-DEDEE52B5E5F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{02BD05CF-44F8-6CB0-76AD-E0EAA3747B2B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0302F837-6D4E-935D-8831-FF94B8874265}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{03A14A81-A3F8-5480-E34A-2CC6F23D8C9D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0460C87B-7F4C-3170-FAC9-B7A6AE5CE4E9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{053B44D4-962E-4DE1-A792-336224EA0D38}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{074ABF02-D68A-4C41-B1F8-D62F04502864}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{087BBF93-D9E3-4D27-BDBE-9C702E0066FC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{08F5A8B5-7150-4C2B-A6E3-18CE3ACC4AEC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0E3FA629-0DFD-6B54-8CEC-21ACB8D76408}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{0FD6097F-AD1F-A5F4-0269-92F6AE4D02E3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{10C73EFA-0EE3-471E-46D7-890F15F069FF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{118AE3B2-6465-8F73-F985-F5908526D661}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{11DAE34E-7053-2C01-CAD5-0F06882265CD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{12702494-9E6A-3F5E-9441-2B7D258A639B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{140B9260-5D66-462C-98EF-A125A5B7C4D2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{14F529A6-34A5-47AD-BE39-9FF79FB5E94F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{15C84E1B-4ACC-B47D-77DA-43B1CA470CDC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{15FB238A-AB2E-AEA9-4B74-E8FC5B95DAEB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1784A8CD-F7FE-47E2-A87D-1F31E7242D0D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{178EBAD0-51AD-7ABE-6CA3-EF4FF0E041C6}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1851460E-0E63-4117-B5BA-25A2F045801B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{196906EC-41B5-3868-AEF9-EDA710820A02}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1986DBC1-158E-16E6-B249-DDE41604C1DE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1A9C3A1A-566B-4CFA-8B27-71FC623963BE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1D05F58D-2CDF-3BCB-995A-903991A4976E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1E303504-3BFC-4B58-B1F7-292B3AB6CC9F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1E3E6279-9ADF-B93F-7330-F19B4C40E809}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{1F840971-15DA-4F3C-A933-34BD388F2CF6}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{22544905-0D90-4323-997B-F703C4AC93C8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{23E45398-8782-41E6-B390-A0728FD823F3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{25441117-2D71-3142-9F78-434AC1CED3BB}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{25857977-2CF7-4941-8C70-A1EB1FC71402}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{27E5F4F3-6114-AE5F-CDFB-2F73825F90F0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2877A631-A593-424A-B4ED-48314FB60580}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2D67FA59-8137-4B10-AA99-F040B437B493}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2DA63617-7940-4788-BBBF-5C8AA841A5AF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{2EECE069-6684-D12F-2B20-9A92A172D99E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{30DF2927-726F-CE76-55DE-58DF21A0D672}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{33EB71F2-7B69-333D-B553-52FC3B29D297}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35C0F401-92D7-4ED5-86B2-45246C83A4F7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{35C5CA74-634C-462B-8C49-2CFF2CF232EF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{36DD8F18-B268-32D0-919F-98C17EAA68E8}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3BCF12F0-8CEE-47BA-A0B1-CD11C649C7EE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3C4F85C9-6A8E-30C3-8F44-9B175F3DA4D7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3D2396AE-3E42-48AB-8894-4BD87622CE50}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{3D978191-31EA-5058-1F6A-A35E749BBDFF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{42872F01-2E82-DFE4-553B-195AD47AFEA7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{43506B27-889E-2F0F-F8BE-4AEBE7CC9249}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{45e335f3-c807-43b8-9ed1-43666cfcf939}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4671294A-6AD2-427A-8330-4E859F990972}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{47769A8E-2976-460D-8217-852B9D5F3C30}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{48A8BEA1-B0C5-B648-A765-E767AEC8C881}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{48D2285D-1F45-458D-8D74-BE2F6E5F518B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{49E3DBF7-ADA6-45E8-A77C-82A7DA67B7B6}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{49F425DD-2A94-4C75-94BE-4EFF866E608B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{4F9F4161-0D82-8BEF-BE02-0CEB0D6DA514}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5076604F-90B5-4D72-8844-8718BF14F23B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{53013268-D284-4777-AF11-246654673A51}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5686C5E9-A3B3-451E-A2EA-4C246CDE5CC9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{590F6252-6C81-E69E-AC9D-C582F89E7675}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5F25EC82-E419-51C6-25F0-0709BABDA440}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{5F42FCB9-A7A5-42A4-9299-28F21F61E810}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6340F50F-E676-6EBF-8AB8-83F617F65EFA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{63F69D0F-8E4F-404A-88C1-97210D6C2016}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{64B7878B-A5EB-39EF-81E0-BD26DA4166BF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6B37ACC2-2F29-45BB-9B22-2B04EFDF734C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6BD90AD2-5528-4AFE-82AE-A56EBCB79CEA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6DEDB7D8-3056-493F-AAD0-779E21621355}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6EECBFA2-DF8F-4561-51DF-5BE135DFE715}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{6FF12BB3-1207-4575-B263-642D44C019A7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{70A7EA05-A86B-4E12-A4DA-63D0B12FD2F1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{737FDDA7-B944-4CB5-92D9-3D56373BD301}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{74995560-eb15-4f17-aaf1-15437f5be64b}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{751BBC57-C3BF-C11E-6790-22F9152BE123}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{751CBE61-F278-4FB9-90C5-2B12A0329A6A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{7597E0A6-BCC8-99EB-AC98-86E23FA6420C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{77063E40-32CF-4A76-8806-542796596202}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{7F86DEBA-AF7D-43F2-8312-DBCB65F116A9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{81EF376F-C9A1-42A3-8997-22A1DE4687F0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{825C2C4B-93C8-7F94-8C0D-6D5C4E50B1BD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{829CB0F4-AB51-4DB7-8CA2-1C93CCC36D5E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{833BC900-0AF9-9D25-AC57-7DFD5A5D5794}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{87475ca3-0418-47e5-a51f-de5bd3d0d9fb}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8754D14F-30DF-9ABC-FA84-12E6756851DD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{88D02F77-DD15-A50D-BA1C-B9D8141DF8EA}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8AA00849-6272-4B5F-899B-CED73284433E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8B6BF4BD-2CF5-4680-9DA6-541280E43FF0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8C63CC72-906A-4C90-B76E-355B7C4C954B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8CE8E247-ABBC-421E-B5C2-F0E486B1E3AE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8D7E8272-8919-48AE-BB18-A45F48856D10}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8DD67B10-D676-4CCF-B141-E17A6B135016}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8E150D2C-DB64-0839-05C9-5B87FC8E1FB0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8E3504D3-242C-48A4-A8F8-CCEDC9BEC997}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{8F5A2690-2EBD-4017-B995-C522C9204312}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{902F9C3B-80A7-64C6-B368-206D608117FD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9259F289-F3B9-4FE1-A397-92D29851EEFF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{936FC939-1EEF-4228-B1BE-A99F0EC5008D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{949C0535-171C-480F-9CF4-D25C9E60FE88}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{94B0AC56-F07A-5155-D924-D143BAE21686}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{96D2DFB4-EA1B-459B-A12F-9D5A1C5E901B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9746AF18-4BD7-9222-8B1C-D040C84AB8FD}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{97A881AD-5134-4CD2-A6A8-371C83E5622B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9B5169BA-F989-492D-A85C-FE583143A1E1}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{9F7D5D8E-6012-B0D1-508E-B97A2E661EC4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A18D4C2A-07A8-40E4-9797-DD324E6EA4FC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A1BFFE40-9AF3-253F-31EA-AD4E8E364B6D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A3039020-C786-B9C3-4E3D-59367928F228}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A304E528-86BF-476D-AEED-72B7D88CA4BC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A3FA1FD6-15C0-3EA2-75EF-69436BB9E130}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A4AA77F3-A5E3-480F-8CE1-E88EDC1ADA1E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A4EA9EE5-7CFF-4C5F-B159-B9B4E5D2BDE2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{A56553DF-5CA0-ADD9-8782-5BC53738E118}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{a88f8d56-9d66-4c09-a714-3c6d83981361}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AAF8E6F9-9D47-7FD6-F3CE-7758DA6CD869}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AD5BEED8-A1B1-4D5F-96CD-813286F54B8E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B11AE338-9486-47B9-833E-54A7717D421A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B2E8D471-884F-4A33-958E-BBAC5A1DE9D4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B3A95BF5-1BDD-3AE2-0FFF-35336BF25606}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B517DBD3-B542-4FC8-9957-FFB2C3E65D1D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B5457B14-37D3-3BA2-72B3-5D724A0ECEDE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B5A87EE5-0C95-5269-BEA8-9A8F36DEBD10}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B641D58F-EBA3-4774-8FA1-69EBE8F2007D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{B6E31D6A-BE34-45C1-9C94-3BD052071273}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BA1407DA-AEF4-D4EB-AA0A-19A8CE1B6F16}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BAAF5851-0759-422D-A1E9-90061B597188}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BBC48EDC-C71B-FC87-D95A-70DF1F278A3B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BC057A4B-DA24-45DC-B8ED-62A65960B919}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BD324FBB-1812-D6FF-B07A-C1A6E0F96F7D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BDF8C840-5B9A-4D9B-9BCA-CE4163973563}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{BE00F49A-2FA1-46E6-B30F-A2653BF7CD75}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{be2c4202-8de2-4274-95c7-ef71b2bfdcad}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C075DEA9-7BB6-E24B-A6A2-5097B8C35464}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C0A2B576-1630-4449-93B8-06C8FBBAF369}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{c0b93b80-d0a4-47fc-a4d1-21a4008a63ca}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C2595DA0-9477-A724-A5B4-44A89D30897A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C3F5903A-140B-4841-8256-CA696A2418A3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C462B1CE-03DB-45CE-8229-0B8FE85B26FF}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C48EA765-34BB-3C3A-8DEF-020444411BF0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C49E181B-C19F-4A1F-BE76-D463E7E3B2B5}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C56FBECE-A652-4DA9-B30B-8D9F01654746}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C756420B-C91C-4410-8092-F49C24CEF594}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C8023D3F-F555-432F-80D1-BC6D875790DE}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C80951BD-6904-474F-BBC5-03A6C777F37C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C80FB5D6-AC12-63FD-7BE4-98118492B36D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C8891AD2-C223-45CD-A9BE-617A68923B61}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C920F027-58A7-4E5E-9494-A207FFD007F0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{C9E029EB-DFEC-4CA3-8708-A37D7EC28872}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CC39B47E-7B03-45D2-8FCB-1D26EFFE01BC}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CCA39F48-DBB2-132A-7992-A452AA75EE5B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CCAB12B8-4A22-4501-8B1F-79903327306B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CD4AE66E-9C51-456E-A833-162627D96A3C}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CE07BE71-510D-414A-92D4-DFF47631848A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CE5EBB3B-41C1-4321-98E9-E8A91701859A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{cef0d74c-33bc-432b-941f-6e17bea1f9d3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CF2F6E51-AA4C-4779-A77A-86F16D6E3218}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CFBB41CD-858A-4AEB-BFD7-34780D2FA2E9}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D108F8C6-2E33-53DE-E6B5-7ECAD00CB834}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D23E482E-DB9A-7C2E-78BC-F0A8D1FF401A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D58B9B8C-86C6-A0B1-9455-A63374A71B75}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D74BF523-E36D-4523-837B-775C39B795D0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{DF7A47A1-DD77-C163-8B1C-59F39B587932}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E0BC8783-DA0A-3572-BBA9-C8C4BA67A19B}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E15748CF-C6DD-02DF-2FB7-B0D6DDE179C0}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E37CC245-4D0F-0663-5CCA-29C1C05F12E2}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E4445DE5-29F0-8442-F9CF-024BFC237F5F}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E51299F3-4186-3F12-ACBC-5D7DE6095969}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{E5B61001-CAE9-4667-AC0D-0B0FFCE995C3}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{EC073C7E-990D-4BB1-BFA9-45C6704E3571}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{ECC668B0-7BAD-63A1-2F07-9BFB2422285E}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{EEECB382-9A53-DA0C-736D-74BBB0C3175A}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{EF0C772D-F5E3-36D0-BDAB-FD378533CD40}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{EF48C1C6-7072-44D8-83B5-426456C66056}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{ef6b00ec-13e1-4c25-9064-b2f383cb8412}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{F082D9A3-413C-D9DB-845C-03D337790265}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{F6E4F431-4A50-4822-A71E-CC17E087BDB7}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{FA8ADA03-D867-E798-C0BA-98A57E90737D}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{FC37AE32-11BC-4EB5-B752-630BD5A5DDA4}
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\AddressBook
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Connection Manager
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DirectDrawEx
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\DXM_Runtime
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\f77a293c
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Fontcore
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE40
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE4Data
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IE5BAKEX
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\IEData
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Inno Setup 6_is1
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\LLVM
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MobileOptionPack
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\MPlayer2
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\SchedulingAgent
+UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WIC

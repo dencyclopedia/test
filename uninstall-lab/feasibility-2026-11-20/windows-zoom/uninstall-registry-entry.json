@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Zoom Workplace (64-bit)",
+  "DisplayVersion": "7.2.51704",
+  "Publisher": "Zoom",
+  "InstallLocation": "",
+  "UninstallString": "MsiExec.exe /X{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}",
+  "QuietUninstallString": null,
+  "EstimatedSize": 545881,
+  "DisplayIcon": null
+}
