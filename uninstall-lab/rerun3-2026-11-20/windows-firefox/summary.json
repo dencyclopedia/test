@@ -7,7 +7,7 @@
   "version": "160.0.1",
   "publisher": "Mozilla",
   "uninstall_string": "\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\"",
-  "created_items": 16,
+  "created_items": 15,
   "leftover_items": 0,
   "leftover_kb": 0.0,
   "leftovers": []

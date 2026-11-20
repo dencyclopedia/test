@@ -1,10 +1,11 @@
-0	~/Library/Application Scripts/group.com.apple.mail
-0	~/Library/Application Scripts/group.com.apple.managedappdistributionagent
+0	~/Library/Application Scripts/CFB939EA-2150-44D1-8C96-01821876A65E
 0	~/Library/Application Scripts/group.com.apple.replayd
 0	~/Library/Application Scripts/group.com.apple.screencapture
-160	~/Library/Caches/com.apple.managedappdistributionagent
-4	~/Library/Group Containers/group.com.apple.mail
-144	~/Library/Group Containers/group.com.apple.managedappdistributionagent
+0	~/Library/Application Scripts/group.com.apple.swtransparency
+8	~/Library/Application Support/com.apple.appleintelligencereporting.processing
+424	~/Library/Application Support/com.apple.RemoteManagementAgent
 328	~/Library/Group Containers/group.com.apple.screencapture
-64	~/Library/HTTPStorages/com.apple.managedappdistributionagent
-4	~/Library/Preferences/com.apple.managedappdistributionagent.plist
+72	~/Library/Group Containers/group.com.apple.swtransparency
+4	~/Library/Preferences/com.apple.appleintelligencereporting.plist
+4	~/Library/Preferences/com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation.plist
+4	~/Library/Preferences/com.apple.remotemanagement.ManagedSettingsSubscriber.plist

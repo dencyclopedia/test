@@ -1,27 +1,27 @@
-[09:40:48] start firefox
-[09:40:51] pre-clean (already on runner image): /Applications/Firefox.app 
-[09:41:43] brew install exit=0 seconds=47
-[09:41:45] app=Firefox.app bundle_id=org.mozilla.firefox exe=firefox version=159.0 team=43AQ936H96 size=536M
-[09:41:46] launch requested
-[09:42:18] screenshot 01-app-first-launch.png (window of 'firefox')
-[09:42:19] screenshot 01-app-first-launch-desktop.png
-[09:42:36] screenshot 02-finder-app-in-applications.png (window of 'Finder')
-[09:42:36] screenshot 02-finder-app-in-applications-desktop.png
+[13:02:01] start firefox
+[13:02:05] pre-clean (already on runner image): /Applications/Firefox.app 
+[13:02:51] brew install exit=0 seconds=42
+[13:02:53] app=Firefox.app bundle_id=org.mozilla.firefox exe=firefox version=159.0 team=43AQ936H96 size=535M
+[13:02:54] launch requested
+[13:03:27] screenshot 01-app-first-launch.png (window of 'firefox')
+[13:03:28] screenshot 01-app-first-launch-desktop.png
+[13:03:44] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[13:03:44] screenshot 02-finder-app-in-applications-desktop.png
 application file Firefox.app of item .Trash of folder runner of folder Users of startup disk
-[09:42:36] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
-[09:42:42] screenshot 03-trash-with-app.png (window of 'Finder')
-[09:42:42] screenshot 03-trash-with-app-desktop.png
-[09:42:45] attribution tokens: 43AQ936H96 Firefox firefox org.mozilla org.mozilla.firefox 
-[09:42:46] app created 3 items; other system changes during test: 13
-[09:42:46] LEFTOVERS after Trash: 3 items, 150056 KB
-[09:42:52] screenshot 04-finder-leftover.png (window of 'Finder')
-[09:42:52] screenshot 04-finder-leftover-desktop.png
-[09:42:54] brew uninstall --zap exit=0 seconds=2
-[09:42:54] LEFTOVERS after brew --zap: 0 items
-[09:42:56] screenshot 05-final-desktop-desktop.png
-[09:45:10] recording stopped
+[13:03:45] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[13:03:50] screenshot 03-trash-with-app.png (window of 'Finder')
+[13:03:50] screenshot 03-trash-with-app-desktop.png
+[13:03:53] attribution tokens: 43AQ936H96 Firefox firefox org.mozilla org.mozilla.firefox 
+[13:03:53] app created 3 items; other system changes during test: 20
+[13:03:53] LEFTOVERS after Trash: 3 items, 151076 KB
+[13:03:59] screenshot 04-finder-leftover.png (window of 'Finder')
+[13:03:59] screenshot 04-finder-leftover-desktop.png
+[13:04:00] brew uninstall --zap exit=0 seconds=1
+[13:04:01] LEFTOVERS after brew --zap: 0 items
+[13:04:02] screenshot 05-final-desktop-desktop.png
+[13:06:57] recording stopped
 IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
 avconvert completed with error:0.
 
-[09:45:14] recording: 358587 /Users/runner/work/test/test/out/macos-firefox/recording.mp4 
-[09:45:14] done
+[13:07:00] recording: 291977 /Users/runner/work/test/test/out/macos-firefox/recording.mp4 
+[13:07:00] done

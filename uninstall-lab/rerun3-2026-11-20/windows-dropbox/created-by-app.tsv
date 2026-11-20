@@ -1,6 +1,6 @@
 	APPX	DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga
 12161	FILE	C:\Program Files (x86)\Dropbox
-5783	FILE	C:\Program Files\Dropbox
+5791	FILE	C:\Program Files\Dropbox
 	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox
 	FILE	C:\Users\runneradmin\AppData\Local\Dropbox
 	FILE	C:\Users\runneradmin\AppData\Roaming\Dropbox
@@ -24,4 +24,4 @@
 	SERVICE	DropboxElevationService
 	SERVICE	DropboxUpdaterInternalService123.0.6299.152
 	SERVICE	DropboxUpdaterService123.0.6299.152
-	TASK	\DropboxSystem\DropboxUpdater\DropboxUpdaterTaskSystem123.0.6299.152{E9615620-8B37-4813-BEB4-D45E0C9C5243}
+	TASK	\DropboxSystem\DropboxUpdater\DropboxUpdaterTaskSystem123.0.6299.152{858DDB3D-3553-4C9A-9A75-D401D15FFCEA}

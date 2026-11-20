@@ -11,9 +11,9 @@
       ],
       "desc": "Voice and text chat software",
       "homepage": "https://discord.com/",
-      "url": "https://stable.dl2.discordapp.net/distro/app/stable/osx/universal/0.0.423/Discord.dmg",
+      "url": "https://dl.discordapp.net/apps/osx/0.0.420/Discord.dmg",
       "url_specs": {},
-      "version": "0.0.423",
+      "version": "0.0.420",
       "autobump": true,
       "no_autobump_message": null,
       "skip_livecheck": false,
@@ -24,7 +24,7 @@
       "pinned": false,
       "pinned_version": null,
       "outdated": false,
-      "sha256": "8edb6957c30e78250909f4f746546077f25e032f9532852c4b1c2f8bfd37beb2",
+      "sha256": "f1f809f79873a375ebaff8dd09858bf1cd9ac91167853a928f747b9f891c8dc8",
       "artifacts": [
         {
           "uninstall": [
@@ -50,6 +50,7 @@
               "trash": [
                 "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.hnc.discord.sfl*",
                 "~/Library/Application Support/discord",
+                "~/Library/Application%20Support/discord",
                 "~/Library/Caches/com.hnc.Discord",
                 "~/Library/Caches/com.hnc.Discord.ShipIt",
                 "~/Library/Cookies/com.hnc.Discord.binarycookies",
@@ -89,11 +90,11 @@
       "disable_replacement_formula": null,
       "disable_replacement_cask": null,
       "disable_args": null,
-      "tap_git_head": "b9aac88a18c0fc2eaaf049a70c954318550fcc3b",
+      "tap_git_head": "fe03f8807fa9ae862df87535d1ed23a909107a28",
       "languages": [],
       "ruby_source_path": "Casks/d/discord.rb",
       "ruby_source_checksum": {
-        "sha256": "976913f693d3946ed7e9c6ed9f01f13da6f04b24083ce927ae251f21a7bd9c1c"
+        "sha256": "79ccd898ea08d4a0160ec4edc98a8adf57fa64a45231eaf5b4fe6885cf34890a"
       }
     }
   ]

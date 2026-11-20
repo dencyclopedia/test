@@ -1,7 +1,10 @@
-	APPX	Microsoft.Winget.Source_2026.1120.903.17_neutral__8wekyb3d8bbwe
+	APPX	Microsoft.Winget.Source_2026.1120.1302.53_neutral__8wekyb3d8bbwe
+0	FILE	C:\Users\runneradmin\AppData\Local\Mozilla
+6	FILE	C:\Users\runneradmin\AppData\Roaming\Mozilla
 	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\callto
 	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\IM
 	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\mailto
 	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\sip
 	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\tel
 	REG	HKEY_CURRENT_USER\SOFTWARE\Clients
+	REG	HKEY_CURRENT_USER\SOFTWARE\Mozilla

@@ -1,5 +1,8 @@
-	APPX	Microsoft.Winget.Source_2026.1120.903.17_neutral__8wekyb3d8bbwe
+	APPX	Microsoft.Winget.Source_2026.1120.1302.53_neutral__8wekyb3d8bbwe
 	FILE	C:\Users\Public\Desktop\VLC media player.lnk
+0	FILE	C:\Users\runneradmin\AppData\Local\Mozilla
+6	FILE	C:\Users\runneradmin\AppData\Roaming\Mozilla
+	REG	HKEY_CURRENT_USER\SOFTWARE\Mozilla
 	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VLC.3g2
 	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VLC.3ga
 	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VLC.3gp

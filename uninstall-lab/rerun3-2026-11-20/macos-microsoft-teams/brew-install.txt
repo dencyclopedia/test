@@ -3,7 +3,7 @@
 [32m==>[0m [1mInstalling Cask [32mmicrosoft-teams[39m[0m
 [34m==>[0m [1mRunning installer for microsoft-teams with `sudo` (which may request your password)...[0m
 installer: Package name is Microsoft Teams
-installer: choices changes file '/private/tmp/choices20261120-1448-tz51p9.xml' applied
+installer: choices changes file '/private/tmp/choices20261120-1513-h9w3qa.xml' applied
 installer: Installing at base path /
 installer: The install was successful.
 🍺  microsoft-teams was successfully installed!

@@ -1,5 +1,4 @@
-4	/Library/LaunchAgents/com.microsoft.OneDriveStandaloneUpdater.plist
-4	/Library/LaunchDaemons/com.microsoft.OneDriveStandaloneUpdaterDaemon.plist
+4	/Library/LaunchAgents/com.microsoft.SyncReporter.plist
 4	/Library/LaunchDaemons/com.microsoft.OneDriveUpdaterDaemon.plist
 916	/private/var/db/receipts/com.microsoft.OneDrive.bom
 4	/private/var/db/receipts/com.microsoft.OneDrive.plist
@@ -8,8 +7,8 @@
 0	~/Library/Application Scripts/com.microsoft.OneDriveLauncher
 0	~/Library/Application Scripts/UBF8T346G9.OneDriveStandaloneSuite
 380	~/Library/Application Support/OneDrive
-352	~/Library/Caches/com.microsoft.OneDrive
-228	~/Library/Caches/com.microsoft.OneDriveStandaloneUpdater
+424	~/Library/Caches/com.microsoft.OneDrive
+212	~/Library/Caches/com.microsoft.OneDriveStandaloneUpdater
 104	~/Library/Caches/OneDrive
 4	~/Library/Containers/com.microsoft.OneDrive.FileProvider
 4	~/Library/Containers/com.microsoft.OneDrive.FinderSync
@@ -19,9 +18,9 @@
 4	~/Library/HTTPStorages/com.microsoft.OneDrive.binarycookies
 56	~/Library/HTTPStorages/com.microsoft.OneDriveStandaloneUpdater
 4	~/Library/HTTPStorages/com.microsoft.OneDriveStandaloneUpdater.binarycookies
-424	~/Library/Logs/OneDrive
+448	~/Library/Logs/OneDrive
 4	~/Library/Preferences/com.microsoft.autoupdate2.plist
 4	~/Library/Preferences/com.microsoft.OneDrive.plist
 4	~/Library/Preferences/com.microsoft.OneDriveStandaloneUpdater.plist
 4	~/Library/Preferences/com.microsoft.OneDriveUpdater.plist
-528	~/Library/WebKit/com.microsoft.OneDrive
+532	~/Library/WebKit/com.microsoft.OneDrive

@@ -6,9 +6,9 @@
  "version": "159.0",
  "removal_method": "Finder Move to Trash (AppleScript)",
  "created_items": 3,
- "created_kb": 150056,
+ "created_kb": 151076,
  "leftover_items_after_trash": 3,
- "leftover_kb_after_trash": 150056,
+ "leftover_kb_after_trash": 151076,
  "leftovers_after_trash": [
   "~/Library/Application Support/Firefox",
   "~/Library/Caches/Firefox",

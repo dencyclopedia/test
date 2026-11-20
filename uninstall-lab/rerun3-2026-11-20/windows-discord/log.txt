@@ -1,25 +1,25 @@
-[09:40:40] start Discord.Discord
-[09:41:31] winget install: EXIT=0 seconds=26
-[09:41:39] registry entry: Discord 1.0.9269 | publisher: Discord Inc. | uninstall: C:\Users\runneradmin\AppData\Local\Discord\Update.exe --uninstall
-[09:41:40] shortcuts: C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk | C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord.lnk | C:\Users\runneradmin\Desktop\Discord.lnk ; launching: C:\Users\runneradmin\AppData\Local\Discord\Discord.exe
-[09:42:12 UTC +    2.1s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
-[09:42:32 UTC +   14.1s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:37 UTC +   19.4s] typed 'Discord' at (537,160) by coordinates
-[09:42:38 UTC +   20.8s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
-[09:42:52 UTC +   13.0s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:57 UTC +   18.1s] typed 'Discord' at (795,127) by coordinates
-[09:42:58 UTC +   19.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
-[09:43:08 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
-[09:43:21] winget reported done but the app is still installed; running its own uninstaller silently
-[09:43:21] fallback: C:\Users\runneradmin\AppData\Local\Discord\Update.exe --uninstall -s
-[09:44:28] uninstall verified (registry entry and program gone): False
-[09:44:28] standard uninstall: EXIT=-1978335184 seconds=76 (waited 0 s for background uninstaller)
-[09:44:43 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:44:48 UTC +   18.8s] typed 'Discord' at (577,192) by coordinates
-[09:44:50 UTC +   20.3s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
-[09:44:50] attribution tokens: Discord
-[09:44:50] app created 8 items (+3 other changes during test). LEFTOVERS after standard uninstall: 6 items, 41887 KB
-[09:44:56 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
-[09:44:57 UTC +    1.2s] screenshot 07-final-desktop.png
-[09:45:00] recording: 524324 bytes
-[09:45:00] done
+[12:57:00] start Discord.Discord
+[12:58:56] winget install: EXIT=0 seconds=56
+[12:59:03] registry entry: Discord 1.0.9269 | publisher: Discord Inc. | uninstall: C:\Users\runneradmin\AppData\Local\Discord\Update.exe --uninstall
+[12:59:04] shortcuts: C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk | C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord.lnk | C:\Users\runneradmin\Desktop\Discord.lnk ; launching: C:\Users\runneradmin\AppData\Local\Discord\Discord.exe
+[12:59:36 UTC +    2.1s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[12:59:59 UTC +   17.8s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:00:04 UTC +   23.0s] typed 'Discord' at (537,160) by coordinates
+[13:00:06 UTC +   24.5s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[13:00:19 UTC +   13.3s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:00:24 UTC +   18.5s] typed 'Discord' at (795,127) by coordinates
+[13:00:26 UTC +   19.9s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[13:00:35 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[13:00:47] winget reported done but the app is still installed; running its own uninstaller silently
+[13:00:48] fallback: C:\Users\runneradmin\AppData\Local\Discord\Update.exe --uninstall -s
+[13:01:54] uninstall verified (registry entry and program gone): False
+[13:01:54] standard uninstall: EXIT=-1978335184 seconds=74 (waited 0 s for background uninstaller)
+[13:02:08 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:02:14 UTC +   18.8s] typed 'Discord' at (577,192) by coordinates
+[13:02:15 UTC +   20.2s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[13:02:15] attribution tokens: Discord
+[13:02:15] app created 8 items (+3 other changes during test). LEFTOVERS after standard uninstall: 6 items, 41943 KB
+[13:02:25 UTC +    9.5s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[13:02:26 UTC +    1.2s] screenshot 07-final-desktop.png
+[13:02:28] recording: 524324 bytes
+[13:02:28] done

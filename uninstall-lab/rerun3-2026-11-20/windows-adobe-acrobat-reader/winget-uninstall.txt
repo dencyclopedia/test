@@ -110,17 +110,6 @@ Starting package uninstall...
    - 
    \ 
    | 
-   / 
-   - 
-   \ 
-   | 
-   / 
-   - 
-   \ 
-   | 
-   / 
-   - 
-   \ 
                                                                                                                         
 Successfully uninstalled
 EXIT=0

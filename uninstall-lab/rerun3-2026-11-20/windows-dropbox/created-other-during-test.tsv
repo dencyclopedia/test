@@ -1,4 +1,4 @@
-	APPX	Microsoft.Winget.Source_2026.1120.903.17_neutral__8wekyb3d8bbwe
+	APPX	Microsoft.Winget.Source_2026.1120.1302.53_neutral__8wekyb3d8bbwe
 	SERVICE	DbxSvc
 	UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CE922144-7611-5D01-B9FF-521F54446B17}
 	UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{CE922144-7611-5D01-B9FF-521F54446B17}

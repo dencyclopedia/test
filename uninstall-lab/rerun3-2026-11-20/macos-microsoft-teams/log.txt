@@ -1,27 +1,27 @@
-[09:40:31] start microsoft-teams
-[09:40:34] pre-clean (already on runner image): /Users/runner/Library/Application Support/Microsoft 
-[09:41:06] brew install exit=0 seconds=31
-[09:41:07] app bundle found by diff (pkg cask): Microsoft Teams.app
-[09:41:07] app=Microsoft Teams.app bundle_id=com.microsoft.teams2 exe=MSTeams version=26289.204.5281.6363 team=UBF8T346G9 size=1.2G
-[09:41:08] launch requested
-[09:41:40] screenshot 01-app-first-launch-desktop.png
-[09:41:53] screenshot 02-finder-app-in-applications.png (window of 'Finder')
-[09:41:53] screenshot 02-finder-app-in-applications-desktop.png
-uninstall-lab/scripts/mac_uninstall.sh: line 10:  2882 Alarm clock: 14         perl -e 'alarm shift; exec @ARGV' "$s" "$@"
-[09:42:08] removed app: mv into ~/.Trash (Finder automation is not permitted on the runner); still in /Applications: no
-[09:42:16] screenshot 03-trash-with-app.png (window of 'Finder')
-[09:42:16] screenshot 03-trash-with-app-desktop.png
-[09:42:19] attribution tokens: MSTeams Microsoft Teams Teams UBF8T346G9 com.microsoft com.microsoft.teams2 microsoft-teams teams 
-[09:42:21] app created 25 items; other system changes during test: 5
-[09:42:21] LEFTOVERS after Trash: 25 items, 31616 KB
-[09:42:26] screenshot 04-finder-leftover.png (window of 'Finder')
-[09:42:26] screenshot 04-finder-leftover-desktop.png
-[09:42:30] brew uninstall --zap exit=0 seconds=4
-[09:42:31] LEFTOVERS after brew --zap: 8 items
-[09:42:33] screenshot 05-final-desktop-desktop.png
-[09:45:07] recording stopped
+[13:01:38] start microsoft-teams
+[13:01:41] pre-clean (already on runner image): /Users/runner/Library/Application Support/Microsoft 
+[13:02:41] brew install exit=0 seconds=58
+[13:02:45] app bundle found by diff (pkg cask): Microsoft Teams.app
+[13:02:45] app=Microsoft Teams.app bundle_id=com.microsoft.teams2 exe=MSTeams version=26289.204.5281.6363 team=UBF8T346G9 size=1.2G
+[13:02:47] launch requested
+[13:03:19] screenshot 01-app-first-launch-desktop.png
+[13:03:33] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[13:03:34] screenshot 02-finder-app-in-applications-desktop.png
+uninstall-lab/scripts/mac_uninstall.sh: line 10:  3044 Alarm clock: 14         perl -e 'alarm shift; exec @ARGV' "$s" "$@"
+[13:03:49] removed app: mv into ~/.Trash (Finder automation is not permitted on the runner); still in /Applications: no
+[13:03:58] screenshot 03-trash-with-app.png (window of 'Finder')
+[13:03:58] screenshot 03-trash-with-app-desktop.png
+[13:04:02] attribution tokens: MSTeams Microsoft Teams Teams UBF8T346G9 com.microsoft com.microsoft.teams2 microsoft-teams teams 
+[13:04:04] app created 25 items; other system changes during test: 5
+[13:04:04] LEFTOVERS after Trash: 25 items, 31548 KB
+[13:04:09] screenshot 04-finder-leftover.png (window of 'Finder')
+[13:04:09] screenshot 04-finder-leftover-desktop.png
+[13:04:12] brew uninstall --zap exit=0 seconds=3
+[13:04:13] LEFTOVERS after brew --zap: 8 items
+[13:04:15] screenshot 05-final-desktop-desktop.png
+[13:06:09] recording stopped
 IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
 avconvert completed with error:0.
 
-[09:45:12] recording: 2215868 /Users/runner/work/test/test/out/macos-microsoft-teams/recording.mp4 
-[09:45:12] done
+[13:06:15] recording: 2019619 /Users/runner/work/test/test/out/macos-microsoft-teams/recording.mp4 
+[13:06:15] done

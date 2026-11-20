@@ -1,22 +1,22 @@
-[09:40:39] start Zoom.Zoom
-[09:41:33] winget install: EXIT=0 seconds=26
-[09:41:40] registry entry: Zoom Workplace (64-bit) 7.2.51704 | publisher: Zoom | uninstall: MsiExec.exe /X{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}
-[09:41:40] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zoom\Zoom Workplace.lnk | C:\Users\Public\Desktop\Zoom Workplace.lnk ; launching: C:\Program Files\Zoom\bin\Zoom.exe
-[09:42:12 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
-[09:42:32 UTC +   14.2s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:37 UTC +   19.3s] typed 'Zoom' at (537,160) by coordinates
-[09:42:39 UTC +   20.8s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
-[09:42:52 UTC +   12.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:57 UTC +   17.8s] typed 'Zoom' at (795,127) by coordinates
-[09:42:58 UTC +   19.2s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
-[09:43:07 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
-[09:43:25] uninstall verified (registry entry and program gone): True
-[09:43:25] standard uninstall: EXIT=0 seconds=13 (waited 0 s for background uninstaller)
-[09:43:40 UTC +   13.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:43:45 UTC +   18.7s] typed 'Zoom' at (577,192) by coordinates
-[09:43:46 UTC +   20.2s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
-[09:43:47] attribution tokens: Workplace Zoom
-[09:43:47] app created 19 items (+8 other changes during test). LEFTOVERS after standard uninstall: 7 items, 0 KB
-[09:43:48 UTC +    1.2s] screenshot 07-final-desktop.png
-[09:43:50] recording: 262180 bytes
-[09:43:50] done
+[12:56:45] start Zoom.Zoom
+[12:57:42] winget install: EXIT=0 seconds=26
+[12:57:49] registry entry: Zoom Workplace (64-bit) 7.2.51704 | publisher: Zoom | uninstall: MsiExec.exe /X{BFA42BDB-0E66-4161-8D09-B48D2C9FC90F}
+[12:57:49] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Zoom\Zoom Workplace.lnk | C:\Users\Public\Desktop\Zoom Workplace.lnk ; launching: C:\Program Files\Zoom\bin\Zoom.exe
+[12:58:21 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[12:58:40 UTC +   14.2s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[12:58:45 UTC +   19.2s] typed 'Zoom' at (537,160) by coordinates
+[12:58:47 UTC +   20.7s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[12:59:00 UTC +   12.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[12:59:05 UTC +   17.8s] typed 'Zoom' at (795,127) by coordinates
+[12:59:06 UTC +   19.2s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[12:59:16 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[12:59:31] uninstall verified (registry entry and program gone): True
+[12:59:31] standard uninstall: EXIT=0 seconds=11 (waited 0 s for background uninstaller)
+[12:59:45 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[12:59:50 UTC +   18.6s] typed 'Zoom' at (577,192) by coordinates
+[12:59:52 UTC +   20.0s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[12:59:52] attribution tokens: Workplace Zoom
+[12:59:52] app created 19 items (+11 other changes during test). LEFTOVERS after standard uninstall: 7 items, 0 KB
+[12:59:53 UTC +    1.2s] screenshot 07-final-desktop.png
+[12:59:55] recording: 524324 bytes
+[12:59:55] done

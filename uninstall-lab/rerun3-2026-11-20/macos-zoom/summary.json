@@ -6,9 +6,9 @@
  "version": "7.2.5 (90525)",
  "removal_method": "mv into ~/.Trash (Finder automation is not permitted on the runner)",
  "created_items": 17,
- "created_kb": 5428,
+ "created_kb": 5432,
  "leftover_items_after_trash": 17,
- "leftover_kb_after_trash": 5428,
+ "leftover_kb_after_trash": 5432,
  "leftovers_after_trash": [
   "/Library/LaunchAgents/us.zoom.updater.login.check.plist",
   "/Library/LaunchAgents/us.zoom.updater.plist",

@@ -1,9 +1,6 @@
 
    - 
                                                                                                                         
-
-   - 
-                                                                                                                        
 Found VLC media player [VideoLAN.VLC]
 Starting package uninstall...
 

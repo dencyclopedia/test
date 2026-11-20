@@ -1,22 +1,22 @@
-[09:40:42] start steam
-[09:40:52] brew install exit=0 seconds=6
-[09:40:53] app=Steam.app bundle_id=com.valvesoftware.steam exe=steam_osx version= team=MXGJJ98X76 size= 11M
-[09:40:54] launch requested
-[09:41:26] screenshot 01-app-first-launch-desktop.png
-[09:41:41] screenshot 02-finder-app-in-applications.png (window of 'Finder')
-[09:41:41] screenshot 02-finder-app-in-applications-desktop.png
+[13:04:32] start steam
+[13:04:40] brew install exit=0 seconds=5
+[13:04:41] app=Steam.app bundle_id=com.valvesoftware.steam exe=steam_osx version= team=MXGJJ98X76 size= 11M
+[13:04:43] launch requested
+[13:05:14] screenshot 01-app-first-launch-desktop.png
+[13:05:28] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[13:05:29] screenshot 02-finder-app-in-applications-desktop.png
 application file Steam.app of item .Trash of folder runner of folder Users of startup disk
-[09:41:42] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
-[09:41:47] screenshot 03-trash-with-app.png (window of 'Finder')
-[09:41:47] screenshot 03-trash-with-app-desktop.png
-[09:41:51] attribution tokens: MXGJJ98X76 Steam com.valvesoftware com.valvesoftware.steam steam steam_osx 
-[09:41:51] app created 1 items; other system changes during test: 8
-[09:41:51] LEFTOVERS after Trash: 1 items, 708312 KB
-[09:41:57] screenshot 04-finder-leftover.png (window of 'Finder')
-[09:41:57] screenshot 04-finder-leftover-desktop.png
-[09:42:01] brew uninstall --zap exit=0 seconds=4
-[09:42:02] LEFTOVERS after brew --zap: 0 items
-[09:42:03] screenshot 05-final-desktop-desktop.png
-[09:47:09] recording stopped
-[09:47:09] recording: file  
-[09:47:09] done
+[13:05:29] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[13:05:34] screenshot 03-trash-with-app.png (window of 'Finder')
+[13:05:34] screenshot 03-trash-with-app-desktop.png
+[13:05:37] attribution tokens: MXGJJ98X76 Steam com.valvesoftware com.valvesoftware.steam steam steam_osx 
+[13:05:37] app created 1 items; other system changes during test: 8
+[13:05:37] LEFTOVERS after Trash: 1 items, 708312 KB
+[13:05:43] screenshot 04-finder-leftover.png (window of 'Finder')
+[13:05:43] screenshot 04-finder-leftover-desktop.png
+[13:05:46] brew uninstall --zap exit=0 seconds=3
+[13:05:46] LEFTOVERS after brew --zap: 0 items
+[13:05:48] screenshot 05-final-desktop-desktop.png
+[13:10:54] recording stopped
+[13:10:54] recording: file  
+[13:10:54] done

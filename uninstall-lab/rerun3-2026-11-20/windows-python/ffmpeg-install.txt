@@ -20,7 +20,3 @@ Successfully renamed directory.
 
 Chocolatey installed 1/1 packages. 
  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
-
-Enjoy using Chocolatey? Explore more amazing features to take your
-experience to the next level at
- https://chocolatey.org/compare

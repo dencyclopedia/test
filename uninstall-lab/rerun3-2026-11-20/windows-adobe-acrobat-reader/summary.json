@@ -9,7 +9,7 @@
   "uninstall_string": "MsiExec.exe /I{AC76BA86-1033-FF00-7760-BC15014EA700}",
   "created_items": 45,
   "leftover_items": 8,
-  "leftover_kb": 13953.0,
+  "leftover_kb": 14752.0,
   "leftovers": [
     "FILE C:\\ProgramData\\Adobe",
     "FILE C:\\Users\\runneradmin\\AppData\\Local\\Adobe",

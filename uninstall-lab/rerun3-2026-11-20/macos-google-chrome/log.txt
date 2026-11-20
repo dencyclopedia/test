@@ -1,27 +1,27 @@
-[09:45:44] start google-chrome
-[09:45:45] pre-clean (already on runner image): /Applications/Google Chrome.app /Library/Google 
-[09:46:39] brew install exit=0 seconds=52
-[09:46:40] app=Google Chrome.app bundle_id=com.google.Chrome exe=Google Chrome version=158.0.8127.37 team=EQHXZ8M8AV size=769M
-[09:46:41] launch requested
-[09:47:12] screenshot 01-app-first-launch.png (window of 'Google Chrome')
-[09:47:13] screenshot 01-app-first-launch-desktop.png
-[09:47:27] screenshot 02-finder-app-in-applications.png (window of 'Finder')
-[09:47:27] screenshot 02-finder-app-in-applications-desktop.png
+[13:06:53] start google-chrome
+[13:06:56] pre-clean (already on runner image): /Applications/Google Chrome.app /Library/Google 
+[13:07:57] brew install exit=0 seconds=58
+[13:07:59] app=Google Chrome.app bundle_id=com.google.Chrome exe=Google Chrome version=158.0.8127.37 team=EQHXZ8M8AV size=770M
+[13:08:00] launch requested
+[13:08:31] screenshot 01-app-first-launch.png (window of 'Google Chrome')
+[13:08:32] screenshot 01-app-first-launch-desktop.png
+[13:08:46] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[13:08:46] screenshot 02-finder-app-in-applications-desktop.png
 application file Google Chrome.app of item .Trash of folder runner of folder Users of startup disk
-[09:47:28] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
-[09:47:33] screenshot 03-trash-with-app.png (window of 'Finder')
-[09:47:33] screenshot 03-trash-with-app-desktop.png
-[09:47:36] attribution tokens: Chrome EQHXZ8M8AV Google Chrome chrome com.google com.google.Chrome google-chrome 
-[09:47:36] app created 2 items; other system changes during test: 11
-[09:47:36] LEFTOVERS after Trash: 2 items, 8 KB
-[09:47:41] screenshot 04-finder-leftover.png (window of 'Finder')
-[09:47:41] screenshot 04-finder-leftover-desktop.png
-[09:47:43] brew uninstall --zap exit=0 seconds=2
-[09:47:43] LEFTOVERS after brew --zap: 0 items
-[09:47:45] screenshot 05-final-desktop-desktop.png
-[09:50:09] recording stopped
+[13:08:47] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[13:08:52] screenshot 03-trash-with-app.png (window of 'Finder')
+[13:08:52] screenshot 03-trash-with-app-desktop.png
+[13:08:56] attribution tokens: Chrome EQHXZ8M8AV Google Chrome chrome com.google com.google.Chrome google-chrome 
+[13:08:56] app created 2 items; other system changes during test: 16
+[13:08:56] LEFTOVERS after Trash: 2 items, 8 KB
+[13:09:02] screenshot 04-finder-leftover.png (window of 'Finder')
+[13:09:02] screenshot 04-finder-leftover-desktop.png
+[13:09:05] brew uninstall --zap exit=0 seconds=3
+[13:09:06] LEFTOVERS after brew --zap: 0 items
+[13:09:07] screenshot 05-final-desktop-desktop.png
+[13:11:11] recording stopped
 IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
 avconvert completed with error:0.
 
-[09:50:15] recording: 1538585 /Users/runner/work/test/test/out/macos-google-chrome/recording.mp4 
-[09:50:15] done
+[13:11:29] recording: 1381487 /Users/runner/work/test/test/out/macos-google-chrome/recording.mp4 
+[13:11:29] done

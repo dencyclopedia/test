@@ -1,11 +1,16 @@
-0	~/Library/Application Scripts/group.com.apple.managedappdistributionagent
+0	~/Library/Application Scripts/EC16C406-5E0E-41C3-83BD-E98AF28D58D6
+0	~/Library/Application Scripts/group.com.apple.mail
 0	~/Library/Application Scripts/group.com.apple.replayd
 0	~/Library/Application Scripts/group.com.apple.screencapture
+0	~/Library/Application Scripts/group.com.apple.swtransparency
+8	~/Library/Application Support/com.apple.appleintelligencereporting.processing
+424	~/Library/Application Support/com.apple.RemoteManagementAgent
 16744	~/Library/Application Support/Google
-160	~/Library/Caches/com.apple.managedappdistributionagent
 40	~/Library/Caches/Google
-144	~/Library/Group Containers/group.com.apple.managedappdistributionagent
-3096	~/Library/Group Containers/group.com.apple.screencapture
-64	~/Library/HTTPStorages/com.apple.managedappdistributionagent
+4	~/Library/Group Containers/group.com.apple.mail
+2068	~/Library/Group Containers/group.com.apple.screencapture
+200	~/Library/Group Containers/group.com.apple.swtransparency
+4	~/Library/Preferences/com.apple.appleintelligencereporting.plist
 4	~/Library/Preferences/com.apple.ExtensionsPreferences.ShareMenu.plist
-4	~/Library/Preferences/com.apple.managedappdistributionagent.plist
+4	~/Library/Preferences/com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation.plist
+4	~/Library/Preferences/com.apple.remotemanagement.ManagedSettingsSubscriber.plist

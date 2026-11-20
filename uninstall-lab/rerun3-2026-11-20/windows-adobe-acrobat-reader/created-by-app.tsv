@@ -3,8 +3,8 @@
 1067	FILE	C:\ProgramData\Adobe
 	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe Acrobat.lnk
 	FILE	C:\Users\Public\Desktop\Adobe Acrobat.lnk
-12042	FILE	C:\Users\runneradmin\AppData\Local\Adobe
-844	FILE	C:\Users\runneradmin\AppData\LocalLow\Adobe
+12825	FILE	C:\Users\runneradmin\AppData\Local\Adobe
+860	FILE	C:\Users\runneradmin\AppData\LocalLow\Adobe
 0	FILE	C:\Users\runneradmin\AppData\Roaming\com.adobe.dunamis
 	REG	HKEY_CURRENT_USER\SOFTWARE\Adobe
 	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Adobe

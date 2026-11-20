@@ -1,24 +1,24 @@
-[09:40:41] start Valve.Steam
-[09:41:17] winget install: EXIT=0 seconds=8
-[09:41:24] registry entry: Steam 2.10.91.91 | publisher: Valve Corporation | uninstall: C:\Program Files (x86)\Steam\uninstall.exe
-[09:41:24] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Steam\Steam.lnk | C:\Users\Public\Desktop\Steam.lnk ; launching: C:\Program Files (x86)\Steam\Steam.exe
-[09:41:57 UTC +    2.1s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
-[09:42:17 UTC +   14.3s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:22 UTC +   19.4s] typed 'Steam' at (537,160) by coordinates
-[09:42:23 UTC +   20.9s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
-[09:42:37 UTC +   13.1s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:42:42 UTC +   18.1s] typed 'Steam' at (795,127) by coordinates
-[09:42:43 UTC +   19.6s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
-[09:42:53 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
-[09:46:07] winget reported done but the app is still installed; running its own uninstaller silently
-[09:46:08] fallback: C:\Program Files (x86)\Steam\uninstall.exe  /S
-[09:49:14] uninstall verified (registry entry and program gone): True
-[09:49:14] standard uninstall: EXIT=0 seconds=377 (waited 180 s for background uninstaller)
-[09:49:29 UTC +   13.8s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
-[09:49:34 UTC +   18.9s] typed 'Steam' at (577,192) by coordinates
-[09:49:35 UTC +   20.4s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
-[09:49:36] attribution tokens: Steam Valve
-[09:49:36] app created 12 items (+1 other changes during test). LEFTOVERS after standard uninstall: 6 items, 0 KB
-[09:49:37 UTC +    1.2s] screenshot 07-final-desktop.png
-[09:49:37] recording: 731729 bytes
-[09:49:37] done
+[12:56:49] start Valve.Steam
+[12:57:43] winget install: EXIT=0 seconds=10
+[12:57:50] registry entry: Steam 2.10.91.91 | publisher: Valve Corporation | uninstall: C:\Program Files (x86)\Steam\uninstall.exe
+[12:57:50] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Steam\Steam.lnk | C:\Users\Public\Desktop\Steam.lnk ; launching: C:\Program Files (x86)\Steam\Steam.exe
+[12:58:22 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[12:58:45 UTC +   17.3s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[12:58:51 UTC +   22.4s] typed 'Steam' at (537,160) by coordinates
+[12:58:52 UTC +   23.9s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[12:59:06 UTC +   13.1s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[12:59:11 UTC +   18.2s] typed 'Steam' at (795,127) by coordinates
+[12:59:12 UTC +   19.7s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[12:59:22 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[13:02:36] winget reported done but the app is still installed; running its own uninstaller silently
+[13:02:36] fallback: C:\Program Files (x86)\Steam\uninstall.exe  /S
+[13:05:42] uninstall verified (registry entry and program gone): True
+[13:05:42] standard uninstall: EXIT=0 seconds=376 (waited 180 s for background uninstaller)
+[13:05:57 UTC +   13.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:06:02 UTC +   18.8s] typed 'Steam' at (577,192) by coordinates
+[13:06:03 UTC +   20.3s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[13:06:03] attribution tokens: Steam Valve
+[13:06:04] app created 12 items (+1 other changes during test). LEFTOVERS after standard uninstall: 6 items, 0 KB
+[13:06:05 UTC +    1.2s] screenshot 07-final-desktop.png
+[13:06:05] recording: 782176 bytes
+[13:06:05] done

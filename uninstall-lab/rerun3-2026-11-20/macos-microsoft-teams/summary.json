@@ -6,9 +6,9 @@
  "version": "26289.204.5281.6363",
  "removal_method": "mv into ~/.Trash (Finder automation is not permitted on the runner)",
  "created_items": 25,
- "created_kb": 31616,
+ "created_kb": 31548,
  "leftover_items_after_trash": 25,
- "leftover_kb_after_trash": 31616,
+ "leftover_kb_after_trash": 31548,
  "leftovers_after_trash": [
   "/private/var/db/receipts/com.microsoft.MSTeamsAudioDevice.bom",
   "/private/var/db/receipts/com.microsoft.MSTeamsAudioDevice.plist",

@@ -9,7 +9,7 @@
   "uninstall_string": "MsiExec.exe /X{CE922144-7611-5D01-B9FF-521F54446B17}",
   "created_items": 27,
   "leftover_items": 9,
-  "leftover_kb": 17944.0,
+  "leftover_kb": 17952.0,
   "leftovers": [
     "APPX DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga",
     "FILE C:\\Program Files (x86)\\Dropbox",
@@ -19,6 +19,6 @@
     "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\DropboxUpdate",
     "SERVICE DropboxUpdaterInternalService123.0.6299.152",
     "SERVICE DropboxUpdaterService123.0.6299.152",
-    "TASK \\DropboxSystem\\DropboxUpdater\\DropboxUpdaterTaskSystem123.0.6299.152{E9615620-8B37-4813-BEB4-D45E0C9C5243}"
+    "TASK \\DropboxSystem\\DropboxUpdater\\DropboxUpdaterTaskSystem123.0.6299.152{858DDB3D-3553-4C9A-9A75-D401D15FFCEA}"
   ]
 }
