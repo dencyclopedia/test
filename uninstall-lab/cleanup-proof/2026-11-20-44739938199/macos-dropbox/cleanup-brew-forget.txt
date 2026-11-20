@@ -1,0 +1,12 @@
+[32m==>[0m [1mUninstalling Cask [32mdropbox[39m[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.DropboxMacUpdate.agent[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.dropboxmacupdate.xpcservice[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.DropboxUpdater.wake[0m
+[34m==>[0m [1mUnloading kernel extension com.getdropbox.dropbox.kext[0m
+Executing: /usr/bin/kmutil showloaded --list-only --bundle-identifier com.getdropbox.dropbox.kext
+No variant specified, falling back to release
+/System/Library/Extensions/iPodDriver.kext has no Info.plist file.
+[34m==>[0m [1mRemoving files:[0m
+/Library/DropboxHelperTools
+/Library/Preferences/com.getdropbox.dropbox.dbkextd.plist
+[34m==>[0m [1mPurging files for version 276.4.5325 of Cask dropbox[0m

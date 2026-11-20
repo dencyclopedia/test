@@ -1,0 +1,9 @@
+{
+  "runUrl": "https://github.com/dencyclopedia/test/actions/runs/44739938199",
+  "verifiedAt": "2026-11-20T13:04:06Z",
+  "commandSha256": "d6a65bc9a0adb2bccebfac54fa2e4891850c1889a764e837553459ffdd8ad0fa",
+  "removedCount": 9,
+  "residual": [],
+  "preexistingRemoved": [],
+  "reinstallOk": true
+}

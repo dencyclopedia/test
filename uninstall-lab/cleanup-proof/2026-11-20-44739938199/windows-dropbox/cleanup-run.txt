@@ -1,0 +1,4 @@
+[SC] DeleteService SUCCESS
+[SC] DeleteService SUCCESS
+The operation completed successfully.
+The operation completed successfully.

@@ -1,0 +1,15 @@
+/Users/runner/.dropbox
+/Users/runner/Library/Application Scripts/com.getdropbox.dropbox.fileprovider
+/Users/runner/Library/Application Scripts/com.getdropbox.dropbox.garcon
+/Users/runner/Library/Application Scripts/com.getdropbox.dropbox.TransferExtension
+/Users/runner/Library/Application Scripts/G7HH3F8CAK.com.getdropbox.dropbox.sync
+/Users/runner/Library/Application Support/Dropbox
+/Users/runner/Library/Containers/com.getdropbox.dropbox.fileprovider
+/Users/runner/Library/Containers/com.getdropbox.dropbox.garcon
+/Users/runner/Library/Containers/com.getdropbox.dropbox.TransferExtension
+/Users/runner/Library/Group Containers/G7HH3F8CAK.com.getdropbox.dropbox.sync
+/Users/runner/Library/LaunchAgents/com.dropbox.dropboxmacupdate.agent.plist
+/Users/runner/Library/LaunchAgents/com.dropbox.dropboxmacupdate.xpcservice.plist
+/Users/runner/Library/LaunchAgents/com.dropbox.DropboxUpdater.wake.plist
+/Users/runner/Library/Preferences/com.dropbox.DropboxMacUpdate.plist
+/Users/runner/Library/Preferences/com.getdropbox.dropbox.plist

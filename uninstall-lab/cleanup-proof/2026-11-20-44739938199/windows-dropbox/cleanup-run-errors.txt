@@ -1,0 +1,6 @@
+ERROR: The system was unable to find the specified registry key or value.
+[31;1mRemove-Item: [0mD:\a\test\test\uninstall-lab\cleanup\dropbox-windows.ps1:21[0m
+[31;1m[0m[36;1mLine |[0m
+[31;1m[0m[36;1m[36;1m  21 | [0m [36;1mRemove-Item -Path 'HKLM:\SOFTWARE\Classes\DropboxUpdate.Update3WebMac[0m .[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m     | [31;1m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[31;1m[0m[36;1m[36;1m[0m[36;1m[0m[36;1m[31;1m[31;1m[36;1m     | [31;1mCannot find path 'HKLM:\SOFTWARE\Classes\DropboxUpdate.Update3WebMachine' because it does not exist.[0m

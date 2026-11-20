@@ -1,0 +1,28 @@
+[12:56:50] start Dropbox.Dropbox
+[12:59:14] winget install: EXIT=0 seconds=103
+[12:59:21] registry entry: Dropbox 280.4.5053 | publisher: Dropbox, Inc. | uninstall: MsiExec.exe /X{CE922144-7611-5D01-B9FF-521F54446B17}
+[12:59:21] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox\Dropbox.lnk ; launching: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe
+[12:59:53 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[13:00:15 UTC +   15.2s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:00:20 UTC +   20.4s] typed 'Dropbox' at (537,160) by coordinates
+[13:00:21 UTC +   21.9s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[13:00:35 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:00:41 UTC +   18.8s] typed 'Dropbox' at (795,127) by coordinates
+[13:00:42 UTC +   20.3s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[13:00:51 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[13:01:20] uninstall verified (registry entry and program gone): True
+[13:01:20] standard uninstall: EXIT=0 seconds=24 (waited 0 s for background uninstaller)
+[13:01:35 UTC +   13.8s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[13:01:40 UTC +   18.9s] typed 'Dropbox' at (577,192) by coordinates
+[13:01:42 UTC +   20.4s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[13:01:42] attribution tokens: Dropbox
+[13:01:42] app created 27 items (+7 other changes during test). LEFTOVERS after standard uninstall: 9 items, 17944 KB
+[13:01:42] clean-up proof: running D:\a\test\test\uninstall-lab\cleanup\dropbox-windows.ps1 (sha256 d6a65bc9a0adb2bccebfac54fa2e4891850c1889a764e837553459ffdd8ad0fa)
+[13:01:52] clean-up command exit=0
+[13:01:56] clean-up removed 9 items; pre-existing removed: 0; residual: 0
+[13:04:06 UTC +    2.0s] screenshot 08-reinstalled-after-cleanup-desktop.png, 08-reinstalled-after-cleanup.png
+[13:04:06] app installs and runs again after clean-up: True
+[13:04:13 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[13:04:14 UTC +    1.2s] screenshot 07-final-desktop.png
+[13:04:14] recording: 827954 bytes
+[13:04:14] done

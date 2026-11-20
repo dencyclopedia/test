@@ -1,0 +1,56 @@
+[32m==>[0m [1mZapping Cask [32mdropbox[39m[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.DropboxMacUpdate.agent[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.dropboxmacupdate.xpcservice[0m
+[34m==>[0m [1mRemoving launchctl service com.dropbox.DropboxUpdater.wake[0m
+[34m==>[0m [1mUnloading kernel extension com.getdropbox.dropbox.kext[0m
+Executing: /usr/bin/kmutil showloaded --list-only --bundle-identifier com.getdropbox.dropbox.kext
+No variant specified, falling back to release
+/System/Library/Extensions/iPodDriver.kext has no Info.plist file.
+[34m==>[0m [1mRemoving files:[0m
+/Library/DropboxHelperTools
+/Library/Preferences/com.getdropbox.dropbox.dbkextd.plist
+[34m==>[0m [1mBacking up App 'Dropbox.app' to '/opt/homebrew/Caskroom/dropbox/276.4.5325/Dropbox.app'[0m
+[34m==>[0m [1mRemoving App '/Applications/Dropbox.app'[0m
+[34m==>[0m [1mTrashing files:[0m
+~/.dropbox
+~/Library/Application Scripts/*.com.getdropbox.dropbox.sync
+~/Library/Application Scripts/com.dropbox.alternatenotificationservice
+~/Library/Application Scripts/com.dropbox.client.crashpad
+~/Library/Application Scripts/com.dropbox.foldertagger
+~/Library/Application Scripts/com.getdropbox.dropbox.fileprovider
+~/Library/Application Scripts/com.getdropbox.dropbox.garcon
+~/Library/Application Scripts/com.getdropbox.dropbox.TransferExtension
+~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.getdropbox.dropbox.sfl*
+~/Library/Application Support/Dropbox
+~/Library/Application Support/DropboxElectron
+~/Library/Application Support/FileProvider/com.getdropbox.dropbox.fileprovider
+~/Library/Caches/CloudKit/com.apple.bird/iCloud.com.getdropbox.Dropbox
+~/Library/Caches/com.dropbox.DropboxMacUpdate
+~/Library/Caches/com.dropbox.DropboxUpdater
+~/Library/Caches/com.getdropbox.dropbox
+~/Library/Caches/com.getdropbox.DropboxMetaInstaller
+~/Library/Caches/com.plausiblelabs.crashreporter.data/com.dropbox.DropboxMacUpdate
+~/Library/CloudStorage/Dropbox
+~/Library/Containers/com.dropbox.activityprovider
+~/Library/Containers/com.dropbox.alternatenotificationservice
+~/Library/Containers/com.dropbox.foldertagger
+~/Library/Containers/com.getdropbox.dropbox.fileprovider
+~/Library/Containers/com.getdropbox.dropbox.garcon
+~/Library/Containers/com.getdropbox.dropbox.TransferExtension
+~/Library/Dropbox
+~/Library/Dropbox/DropboxMacUpdate.app/Contents/MacOS/DropboxMacUpdate
+~/Library/Group Containers/*.com.getdropbox.dropbox.sync
+~/Library/Group Containers/com.dropbox.client.crashpad
+~/Library/Group Containers/com.getdropbox.dropbox.garcon
+~/Library/HTTPStorages/com.dropbox.DropboxMacUpdate
+~/Library/HTTPStorages/com.getdropbox.dropbox
+~/Library/LaunchAgents/com.dropbox.DropboxMacUpdate.agent.plist
+~/Library/Logs/Dropbox_debug.log
+~/Library/Preferences/com.apple.FileProvider/com.getdropbox.dropbox.fileprovider
+~/Library/Preferences/com.dropbox.DropboxMacUpdate.plist
+~/Library/Preferences/com.dropbox.DropboxMonitor.plist
+~/Library/Preferences/com.dropbox.tungsten.helper.plist
+~/Library/Preferences/com.getdropbox.dropbox.plist
+::warning::The following files could not be trashed, please do so manually:
+/Users/runner/Library/Dropbox/DropboxMacUpdate.app/Contents/MacOS/DropboxMacUpdate
+[34m==>[0m [1mRemoving all staged versions of Cask 'dropbox'[0m

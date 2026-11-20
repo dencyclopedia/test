@@ -1,0 +1,31 @@
+[12:56:40] start dropbox
+[12:57:12] brew install exit=0 seconds=29
+[12:57:13] app=Dropbox.app bundle_id=com.getdropbox.dropbox exe=Dropbox version=276.4.5325 team=G7HH3F8CAK size=707M
+[12:57:14] launch requested
+[12:57:46] screenshot 01-app-first-launch-desktop.png
+[12:57:59] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[12:57:59] screenshot 02-finder-app-in-applications-desktop.png
+application file Dropbox.app of item .Trash of folder runner of folder Users of startup disk
+[12:58:00] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[12:58:04] screenshot 03-trash-with-app.png (window of 'Finder')
+[12:58:05] screenshot 03-trash-with-app-desktop.png
+[12:58:07] attribution tokens: Dropbox G7HH3F8CAK com.getdropbox com.getdropbox.dropbox dropbox 
+[12:58:08] app created 15 items; other system changes during test: 12
+[12:58:08] LEFTOVERS after Trash: 15 items, 27344 KB
+[12:58:14] screenshot 04-finder-leftover.png (window of 'Finder')
+[12:58:14] screenshot 04-finder-leftover-desktop.png
+[12:58:14] clean-up proof: running /Users/runner/work/test/test/uninstall-lab/cleanup/dropbox-mac.sh (sha256 5c98497ceda31f1e85c8f5ab8d3dbf950b2d34522a74946d7c1e4ad824fcaf72)
+[12:58:14] clean-up command exit=0
+[12:58:16] clean-up removed 15 items; pre-existing removed: 0; residual: 0
+[12:58:52] screenshot 06-reinstalled-after-cleanup-desktop.png
+[12:58:52] reinstall exit=0, app running after reinstall: true
+[12:58:55] clean-up verification: {"runUrl":"https://github.com/dencyclopedia/test/actions/runs/44739938199","verifiedAt":"2026-11-20T12:58:55Z","commandSha256":"5c98497ceda31f1e85c8f5ab8d3dbf950b2d34522a74946d7c1e4ad824fcaf72","removedCount":15,"residual":[],"preexistingRemoved":[],"reinstallOk":true}
+[12:58:58] brew uninstall --zap exit=0 seconds=3
+[12:58:59] LEFTOVERS after brew --zap: 0 items
+[12:59:00] screenshot 05-final-desktop-desktop.png
+[13:01:04] recording stopped
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[13:01:06] recording: 480762 /Users/runner/work/test/test/out/macos-dropbox/recording.mp4 
+[13:01:06] done

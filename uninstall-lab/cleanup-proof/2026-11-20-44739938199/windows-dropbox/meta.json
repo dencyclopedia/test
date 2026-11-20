@@ -1,0 +1,9 @@
+{
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "build": "26100",
+  "runner_image": "win25-vs2026 20261116.315.1",
+  "winget_id": "Dropbox.Dropbox",
+  "date_utc": "2026-11-20T12:56:50Z",
+  "run": "https://github.com/dencyclopedia/test/actions/runs/44739938199",
+  "git_sha": "8673e3cdca620482e52826c57df0b652896e2fb9"
+}
