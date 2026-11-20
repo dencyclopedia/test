@@ -5,7 +5,7 @@ name: uninstall-feasibility
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
-    paths: ['.github/workflows/uninstall-feasibility.yml', 'uninstall-lab/scripts/**']
+    paths: ['.github/workflows/uninstall-feasibility.yml']
   workflow_dispatch:
 permissions:
   contents: write

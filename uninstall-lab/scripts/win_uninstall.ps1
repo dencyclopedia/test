@@ -155,6 +155,43 @@ $leftOther | ForEach-Object { sizeOf $_ } | Set-Content "$out\other-changes-stil
 $kb = (Get-Content "$out\leftovers-after-uninstall.tsv" | ForEach-Object { ($_ -split "`t")[0] } | Where-Object { $_ -match '^\d+$' } | Measure-Object -Sum).Sum
 log "app created $(@($byApp).Count) items (+$(@($other).Count) other changes during test). LEFTOVERS after standard uninstall: $(@($left).Count) items, $kb KB"
 
+# ---- Clean-up proof (docs/05 §16 in the site repo) -------------------------------------------------
+# If the site exported its clean-up command (uninstall-lab/cleanup/<slug>-windows.ps1), run it exactly as a reader
+# would and prove: every measured leftover is gone, nothing that existed before the install was deleted,
+# and the app installs and launches again afterwards.
+$cleanup = if ($env:CLEANUP_DIR) { Join-Path $env:CLEANUP_DIR "$($env:SLUG)-windows.ps1" } else { '' }
+if ($cleanup -and (Test-Path $cleanup)) {
+  # hash with LF line endings (git may check the file out with CRLF on Windows)
+  $text = [IO.File]::ReadAllText($cleanup) -replace "`r`n", "`n"
+  $sha = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash([Text.Encoding]::UTF8.GetBytes($text))).Replace('-', '').ToLower()
+  log "clean-up proof: running $cleanup (sha256 $sha)"
+  Copy-Item $cleanup "$out\cleanup-command.ps1"
+  $p = Start-Process pwsh -ArgumentList '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $cleanup -PassThru -Wait -RedirectStandardOutput "$out\cleanup-run.txt" -RedirectStandardError "$out\cleanup-run-errors.txt"
+  log "clean-up command exit=$($p.ExitCode)"
+  Start-Sleep 3
+  snapTo "$out\snap-5-after-cleanup.txt"
+  $removed = newLines "$out\snap-5-after-cleanup.txt" "$out\snap-3-after-uninstall.txt"   # in snap-3 but not in snap-5
+  $removed | Set-Content "$out\cleanup-removed.txt"
+  $pre = stillThere $removed "$out\snap-0-before.txt"
+  $residual = stillThere $byApp "$out\snap-5-after-cleanup.txt"
+  log "clean-up removed $(@($removed).Count) items; pre-existing removed: $(@($pre).Count); residual: $(@($residual).Count)"
+  # health check: install and start the app again on the cleaned machine
+  $j = Start-Job { param($id) winget install --id $id -e --silent --accept-package-agreements --accept-source-agreements --disable-interactivity 2>&1; "EXIT=$LASTEXITCODE" } -ArgumentList $id
+  if (-not (Wait-Job $j -Timeout 900)) { Stop-Job $j }
+  Receive-Job $j | Out-File "$out\cleanup-reinstall.txt"
+  $reinstallOk = $false
+  if ($exe -and (Test-Path $exe)) {
+    Start-Process $exe; Start-Sleep 25
+    $reinstallOk = [bool](Get-Process -Name $stem -ErrorAction SilentlyContinue)
+    ui app 08-reinstalled-after-cleanup $stem
+    Get-Process -Name $stem -ErrorAction SilentlyContinue | Stop-Process -Force
+  }
+  log "app installs and runs again after clean-up: $reinstallOk"
+  [ordered]@{ runUrl = $env:RUN_URL; verifiedAt = (Get-Date -AsUTC -Format s) + 'Z'; commandSha256 = $sha; removedCount = @($removed).Count
+    residual = @($residual | ForEach-Object { ($_ -split "`t", 2)[1] }); preexistingRemoved = @($pre | ForEach-Object { ($_ -split "`t", 2)[1] }); reinstallOk = $reinstallOk } |
+    ConvertTo-Json | Set-Content "$out\cleanup-verification.json"
+}
+
 $firstDir = $left | Where-Object { $_ -like 'FILE*' } | Select-Object -First 1
 if ($firstDir) { ui explorer 06-explorer-leftover ($firstDir -split "`t", 2)[1] }
 ui desktop 07-final-desktop

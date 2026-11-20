@@ -99,7 +99,8 @@ def main():
         shot(name, h)
         if h: user32.PostMessageW(h, 0x0010, 0, 0)   # WM_CLOSE
     elif action == 'explorer':
-        subprocess.Popen(['explorer.exe', f'/select,{arg}']); time.sleep(4)
+        # The path must be quoted inside the /select argument, or paths with spaces open Documents instead.
+        subprocess.Popen(f'explorer.exe /select,"{arg}"'); time.sleep(4)
         h = find(lambda t, c, p: c == 'CabinetWClass', 10)
         if h: front(h)
         shot(name, h)

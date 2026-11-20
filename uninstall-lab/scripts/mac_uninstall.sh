@@ -145,6 +145,43 @@ log "LEFTOVERS after Trash: $(wc -l < "$OUT/leftovers-after-trash.tsv" | tr -d '
 first=$(cut -f2 "$OUT/leftovers-after-trash.tsv" | grep -m1 'Application Support' || cut -f2 "$OUT/leftovers-after-trash.tsv" | grep -m1 '^~/Library')
 if [ -n "$first" ]; then close_finder; tmo 10 open -R "${first/#\~/$HOME}"; sleep 4; shot 04-finder-leftover Finder; fi
 
+# ---- Clean-up proof (docs/05 §16 in the site repo) -------------------------------------------------
+# If the site exported its clean-up command for this app (uninstall-lab/cleanup/<slug>-mac.sh), run it now,
+# exactly as a reader would, and prove: (1) every measured leftover is gone, (2) nothing that existed
+# before the app was installed was deleted, (3) the app installs and launches again afterwards.
+CLEANUP="${CLEANUP_DIR:-}/${SLUG:-$CASK}-mac.sh"
+if [ -n "${CLEANUP_DIR:-}" ] && [ -f "$CLEANUP" ]; then
+  SHA=$(tr -d '\r' < "$CLEANUP" | shasum -a 256 | cut -d' ' -f1)
+  log "clean-up proof: running $CLEANUP (sha256 $SHA)"
+  cp "$CLEANUP" "$OUT/cleanup-command.sh"
+  tmo 180 zsh "$CLEANUP" > "$OUT/cleanup-run.txt" 2>&1; log "clean-up command exit=$?"
+  sleep 2
+  snap "$OUT/snap-5-after-cleanup.txt"
+  comm -23 "$OUT/snap-3-after-trash.txt" "$OUT/snap-5-after-cleanup.txt" > "$OUT/cleanup-removed.txt"
+  comm -12 "$OUT/cleanup-removed.txt" "$OUT/snap-0-before.txt" > "$OUT/cleanup-removed-preexisting.txt"
+  comm -12 <(sort /tmp/attr.txt) "$OUT/snap-5-after-cleanup.txt" > "$OUT/cleanup-residual.txt"
+  log "clean-up removed $(wc -l < "$OUT/cleanup-removed.txt" | tr -d ' ') items; pre-existing removed: $(wc -l < "$OUT/cleanup-removed-preexisting.txt" | tr -d ' '); residual: $(wc -l < "$OUT/cleanup-residual.txt" | tr -d ' ')"
+  # health check: the app installs and starts again on the cleaned machine
+  tmo 120 brew uninstall --force --cask "$CASK" > "$OUT/cleanup-brew-forget.txt" 2>&1
+  tmo 900 brew install --cask "$CASK" > "$OUT/cleanup-reinstall.txt" 2>&1; RI=$?
+  [ -d "$APP" ] && sudo xattr -dr com.apple.quarantine "$APP" 2>/dev/null
+  tmo 20 open "$APP" 2>>"$LOG"; sleep 25
+  if [ "$RI" = 0 ] && pgrep -f "$APP/" > /dev/null; then REINSTALL=true; else REINSTALL=false; fi
+  shot 06-reinstalled-after-cleanup "$EXE"
+  log "reinstall exit=$RI, app running after reinstall: $REINSTALL"
+  tmo 10 osascript -e "tell application id \"$BID\" to quit" >/dev/null 2>&1; sleep 3; pkill -f "$APP/" 2>/dev/null
+  python3 - "$OUT" "$SHA" "$REINSTALL" "${RUN_URL:-}" > "$OUT/cleanup-verification.json" <<'P2'
+import sys, json, datetime, os
+out, sha, reinstall, run = sys.argv[1:]
+home = os.path.expanduser('~')
+lines = lambda f: [l.rstrip('\n').replace(home, '~', 1) for l in open(os.path.join(out, f)) if l.strip()]
+print(json.dumps({'runUrl': run, 'verifiedAt': datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+  'commandSha256': sha, 'removedCount': len(lines('cleanup-removed.txt')), 'residual': lines('cleanup-residual.txt'),
+  'preexistingRemoved': lines('cleanup-removed-preexisting.txt'), 'reinstallOk': reinstall == 'true'}, indent=1))
+P2
+  log "clean-up verification: $(tr -d '\n ' < "$OUT/cleanup-verification.json" | cut -c1-300)"
+fi
+
 # clean removal using the cask's zap list
 python3 -c "import json;c=json.load(open('$OUT/cask-info.json'))['casks'][0];print(json.dumps([a for a in c['artifacts'] if 'zap' in a or 'uninstall' in a],indent=1))" > "$OUT/cask-zap-stanza.json" 2>&1
 s=$(date +%s); tmo 300 brew uninstall --zap --cask "$CASK" > "$OUT/brew-uninstall-zap.txt" 2>&1; log "brew uninstall --zap exit=$? seconds=$(( $(date +%s)-s ))"

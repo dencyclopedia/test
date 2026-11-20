@@ -1,0 +1,62 @@
+name: uninstall-cleanup-proof
+# Proves the clean-up commands published on howtouninstall.app (exported by the site's
+# scripts/export-cleanup.ts into uninstall-lab/cleanup/). For each app: install -> launch -> standard uninstall
+# -> run OUR command -> verify nothing pre-existing was deleted and no leftover remains -> reinstall + launch.
+on:
+  push:
+    branches: [claude/upbeat-volta-fdndl6]
+    paths: ['uninstall-lab/cleanup/**', '.github/workflows/uninstall-cleanup-proof.yml', 'uninstall-lab/scripts/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+env:
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+jobs:
+  mac:
+    runs-on: macos-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { slug: dropbox, cask: dropbox }
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash uninstall-lab/scripts/mac_uninstall.sh "${{ matrix.cask }}" out/macos-${{ matrix.slug }}
+        env: { CLEANUP_DIR: '${{ github.workspace }}/uninstall-lab/cleanup', SLUG: '${{ matrix.slug }}' }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'p-macos-${{ matrix.slug }}', path: 'out/macos-${{ matrix.slug }}' }
+  win:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { slug: dropbox, id: Dropbox.Dropbox, name: Dropbox }
+    defaults: { run: { shell: pwsh } }
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet pillow psutil pywinauto==0.6.9
+      - run: ./uninstall-lab/scripts/win_uninstall.ps1 -id "${{ matrix.id }}" -name "${{ matrix.name }}" -out "$env:GITHUB_WORKSPACE\out\windows-${{ matrix.slug }}"
+        env: { CLEANUP_DIR: '${{ github.workspace }}\uninstall-lab\cleanup', SLUG: '${{ matrix.slug }}' }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'p-windows-${{ matrix.slug }}', path: 'out/windows-${{ matrix.slug }}' }
+  collect:
+    needs: [mac, win]
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { pattern: 'p-*', path: dl }
+      - name: Commit
+        run: |
+          D=uninstall-lab/cleanup-proof/$(date -u +%F)-${{ github.run_id }}; mkdir -p $D
+          for d in dl/p-*; do n=${d#dl/p-}; find $d -size +20M -print -delete; gzip -9 $d/snap-*.txt 2>/dev/null; mv $d $D/$n; done
+          echo "run: $RUN_URL" > $D/RUN.txt
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $D; git commit -q -m "clean-up proof (run ${{ github.run_id }})" || exit 0
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
