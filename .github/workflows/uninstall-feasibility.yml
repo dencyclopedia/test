@@ -1,6 +1,6 @@
 name: uninstall-feasibility
-# Feasibility test for an uninstall-guide site: can GitHub runners give us real screenshots,
-# screen recordings and measured leftover-file data for "how to uninstall X" on macOS and Windows?
+# Uninstall-guide captures on GitHub runners: real screenshots, a screen recording and measured
+# leftover files/registry/services for 10 popular apps on macOS and Windows (Server 2025).
 on:
   push:
     branches: [claude/upbeat-volta-fdndl6]
@@ -13,32 +13,38 @@ env:
 jobs:
   mac:
     runs-on: macos-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - { cask: vlc, app: VLC.app }
-          - { cask: zoom, app: zoom.us.app }
+        cask: [zoom, steam, dropbox, google-chrome, discord, microsoft-teams, onedrive, firefox, vlc, spotify]
     steps:
       - uses: actions/checkout@v4
-      - run: bash uninstall-lab/scripts/mac_uninstall.sh "${{ matrix.cask }}" "${{ matrix.app }}" out/macos-${{ matrix.cask }}
+      - run: bash uninstall-lab/scripts/mac_uninstall.sh "${{ matrix.cask }}" out/macos-${{ matrix.cask }}
       - uses: actions/upload-artifact@v4
         if: always()
         with: { name: 'u-macos-${{ matrix.cask }}', path: 'out/macos-${{ matrix.cask }}' }
   win:
     runs-on: windows-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     strategy:
       fail-fast: false
       matrix:
         include:
-          - { id: VideoLAN.VLC, name: VLC, slug: vlc }
           - { id: Zoom.Zoom, name: Zoom, slug: zoom }
+          - { id: Valve.Steam, name: Steam, slug: steam }
+          - { id: Dropbox.Dropbox, name: Dropbox, slug: dropbox }
+          - { id: Google.Chrome, name: Google Chrome, slug: google-chrome }
+          - { id: Discord.Discord, name: Discord, slug: discord }
+          - { id: Microsoft.Teams, name: Teams, slug: microsoft-teams }
+          - { id: Microsoft.OneDrive, name: OneDrive, slug: onedrive }
+          - { id: Mozilla.Firefox, name: Firefox, slug: firefox }
+          - { id: VideoLAN.VLC, name: VLC, slug: vlc }
+          - { id: Spotify.Spotify, name: Spotify, slug: spotify }
     defaults: { run: { shell: pwsh } }
     steps:
       - uses: actions/checkout@v4
-      - run: python -m pip install --quiet pillow
+      - run: python -m pip install --quiet pillow psutil pywinauto==0.6.9
       - run: ./uninstall-lab/scripts/win_uninstall.ps1 -id "${{ matrix.id }}" -name "${{ matrix.name }}" -out "$env:GITHUB_WORKSPACE\out\windows-${{ matrix.slug }}"
       - uses: actions/upload-artifact@v4
         if: always()
@@ -53,9 +59,9 @@ jobs:
         with: { pattern: 'u-*', path: dl }
       - name: Commit
         run: |
-          D=uninstall-lab/feasibility-2026-11-20; mkdir -p $D
-          for d in dl/u-*; do n=${d#dl/u-}; rm -rf $D/$n; find $d -size +20M -print -delete; mv $d $D/$n; done
+          D=uninstall-lab/rerun-2026-11-20; mkdir -p $D
+          for d in dl/u-*; do n=${d#dl/u-}; rm -rf $D/$n; find $d -size +20M -print -delete; rm -f $d/snap-*.txt.gz; gzip -9 $d/snap-*.txt 2>/dev/null; mv $d $D/$n; done
           echo "run: $RUN_URL" > $D/RUN.txt
           git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add $D; git commit -q -m "uninstall feasibility captures (run ${{ github.run_id }})" || exit 0
+          git add $D; git commit -q -m "uninstall captures, 10 apps x macOS/Windows (run ${{ github.run_id }})" || exit 0
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((RANDOM%10+5)); done
