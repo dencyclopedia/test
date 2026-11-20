@@ -1,0 +1,10 @@
+{
+  "DisplayName": "VLC media player",
+  "DisplayVersion": "3.0.24",
+  "Publisher": "VideoLAN",
+  "InstallLocation": "C:\\Program Files\\VideoLAN\\VLC",
+  "UninstallString": "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\"",
+  "QuietUninstallString": null,
+  "EstimatedSize": null,
+  "DisplayIcon": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+}

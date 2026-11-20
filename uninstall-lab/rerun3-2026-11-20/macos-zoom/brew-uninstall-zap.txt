@@ -1,0 +1,38 @@
+[32m==>[0m [1mZapping Cask [32mzoom[39m[0m
+[34m==>[0m [1mRemoving launchctl service us.zoom.updater[0m
+[34m==>[0m [1mRemoving launchctl service us.zoom.updater.login.check[0m
+[34m==>[0m [1mRemoving launchctl service us.zoom.ZoomDaemon[0m
+[34m==>[0m [1mUninstalling packages with `sudo` (which may request your password)...[0m
+us.zoom.pkg.videomeeting
+[34m==>[0m [1mRemoving files:[0m
+/Applications/zoom.us.app
+/Library/Internet Plug-Ins/ZoomUsPlugIn.plugin
+/Library/Logs/DiagnosticReports/zoom.us*
+/Library/PrivilegedHelperTools/us.zoom.ZoomDaemon
+[34m==>[0m [1mRemoving files:[0m
+/Library/Logs/zoomusinstall.log
+[34m==>[0m [1mTrashing files:[0m
+~/.zoomus
+~/Desktop/Zoom
+~/Documents/Zoom
+~/Library/Application Scripts/*.ZoomClient3rd
+~/Library/Application Support/CloudDocs/session/containers/iCloud.us.zoom.videomeetings
+~/Library/Application Support/CloudDocs/session/containers/iCloud.us.zoom.videomeetings.plist
+~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/us.zoom*.sfl*
+~/Library/Application Support/CrashReporter/zoom.us*
+~/Library/Application Support/zoom.us
+~/Library/Application Support/ZoomUpdater
+~/Library/Caches/us.zoom.xos
+~/Library/Cookies/us.zoom.xos.binarycookies
+~/Library/Group Containers/*.ZoomClient3rd
+~/Library/HTTPStorages/us.zoom.xos
+~/Library/HTTPStorages/us.zoom.xos.binarycookies
+~/Library/Internet Plug-Ins/ZoomUsPlugIn.plugin
+~/Library/Logs/zoom.us
+~/Library/Logs/zoominstall.log
+~/Library/Logs/ZoomPhone
+~/Library/Preferences/us.zoom.*.plist
+~/Library/Preferences/ZoomChat.plist
+~/Library/Saved Application State/us.zoom.xos.savedState
+~/Library/WebKit/us.zoom.xos
+[34m==>[0m [1mRemoving all staged versions of Cask 'zoom'[0m

@@ -1,0 +1,26 @@
+[09:45:56] start discord
+[09:46:26] brew install exit=0 seconds=25
+[09:46:32] app=Discord.app bundle_id=com.hnc.Discord exe=Discord version=0.0.423 team=53Q6R32WPB size=523M
+[09:46:34] launch requested
+[09:47:20] screenshot 01-app-first-launch.png (window of 'Discord')
+[09:47:21] screenshot 01-app-first-launch-desktop.png
+[09:47:35] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[09:47:35] screenshot 02-finder-app-in-applications-desktop.png
+application file Discord.app of item .Trash of folder runner of folder Users of startup disk
+[09:47:36] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[09:47:41] screenshot 03-trash-with-app.png (window of 'Finder')
+[09:47:41] screenshot 03-trash-with-app-desktop.png
+[09:47:44] attribution tokens: 53Q6R32WPB Discord com.hnc com.hnc.Discord discord 
+[09:47:45] app created 2 items; other system changes during test: 15
+[09:47:45] LEFTOVERS after Trash: 2 items, 807332 KB
+[09:47:51] screenshot 04-finder-leftover.png (window of 'Finder')
+[09:47:51] screenshot 04-finder-leftover-desktop.png
+[09:47:55] brew uninstall --zap exit=0 seconds=4
+[09:47:55] LEFTOVERS after brew --zap: 0 items
+[09:47:57] screenshot 05-final-desktop-desktop.png
+[09:50:11] recording stopped
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[09:50:16] recording: 630441 /Users/runner/work/test/test/out/macos-discord/recording.mp4 
+[09:50:16] done

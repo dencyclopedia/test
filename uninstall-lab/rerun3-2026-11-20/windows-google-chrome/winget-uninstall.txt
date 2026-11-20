@@ -1,0 +1,41 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Google Chrome [Google.Chrome]
+Starting package uninstall...
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+                                                                                                                        
+Successfully uninstalled
+EXIT=0

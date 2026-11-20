@@ -1,0 +1,6 @@
+	APPX	Microsoft.Winget.Source_2026.1120.903.17_neutral__8wekyb3d8bbwe
+	FILE	C:\Users\runneradmin\AppData\Local\Package Cache
+0	FILE	C:\Users\runneradmin\AppData\Local\Programs
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\Installer
+	UNINSTALLKEY	HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{9b3415f5-afcc-46ea-9954-a8000df10f86}
+	UNINSTALLKEY	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{86F77C4A-0ABA-48D9-9149-78CBF394E7F8}

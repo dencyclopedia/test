@@ -1,0 +1,18 @@
+{
+ "os": "macOS",
+ "cask": "google-chrome",
+ "app": "Google Chrome.app",
+ "bundle_id": "com.google.Chrome",
+ "version": "158.0.8127.37",
+ "removal_method": "Finder Move to Trash (AppleScript)",
+ "created_items": 2,
+ "created_kb": 8,
+ "leftover_items_after_trash": 2,
+ "leftover_kb_after_trash": 8,
+ "leftovers_after_trash": [
+  "~/Library/Preferences/com.google.Chrome.plist",
+  "~/Library/Preferences/com.google.Keystone.Agent.plist"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}

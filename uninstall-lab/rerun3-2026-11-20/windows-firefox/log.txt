@@ -1,0 +1,27 @@
+[09:40:44] start Mozilla.Firefox
+[09:40:45] pre-clean: 'Mozilla Firefox (x64 en-US)' is already on the runner image; uninstalling it first
+[09:40:55] pre-clean done; entry still present: False
+[09:41:56] winget install: EXIT=0 seconds=25
+[09:42:02] registry entry: Mozilla Firefox (x64 en-US) 160.0.1 | publisher: Mozilla | uninstall: "C:\Program Files\Mozilla Firefox\uninstall\helper.exe"
+[09:42:02] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox Private Browsing.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox.lnk | C:\Users\Public\Desktop\Firefox.lnk ; launching: C:\Program Files\Mozilla Firefox\private_browsing.exe
+[09:42:48 UTC +   15.5s] no window found for private_browsing; desktop only
+[09:42:49 UTC +   16.2s] screenshot 01-app-first-launch.png
+[09:43:08 UTC +   14.4s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:43:13 UTC +   19.6s] typed 'Firefox' at (537,160) by coordinates
+[09:43:15 UTC +   21.1s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[09:43:28 UTC +   12.9s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:43:33 UTC +   18.1s] typed 'Firefox' at (795,127) by coordinates
+[09:43:34 UTC +   19.5s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[09:43:44 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[09:47:00] winget reported done but the app is still installed; running its own uninstaller silently
+[09:47:01] fallback: C:\Program Files\Mozilla Firefox\uninstall\helper.exe  /S
+[09:50:05] uninstall verified (registry entry and program gone): True
+[09:50:05] standard uninstall: EXIT=0 seconds=377 (waited 180 s for background uninstaller)
+[09:50:20 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:50:25 UTC +   18.8s] typed 'Firefox' at (577,192) by coordinates
+[09:50:27 UTC +   20.3s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[09:50:27] attribution tokens: Firefox Mozilla
+[09:50:27] app created 16 items (+1 other changes during test). LEFTOVERS after standard uninstall: 0 items, 0 KB
+[09:50:28 UTC +    1.3s] screenshot 07-final-desktop.png
+[09:50:28] recording: 806247 bytes
+[09:50:28] done

@@ -1,0 +1,11 @@
+[32m==>[0m [1mZapping Cask [32msteam[39m[0m
+[34m==>[0m [1mRemoving launchctl service com.valvesoftware.steam.ipctool[0m
+[34m==>[0m [1mRemoving launchctl service com.valvesoftware.steamclean[0m
+[34m==>[0m [1mRemoving files:[0m
+~/Library/Application Support/Steam/Steam.AppBundle
+[34m==>[0m [1mTrashing files:[0m
+~/Library/Application Support/Steam
+~/Library/LaunchAgents/com.valvesoftware.steamclean.plist
+~/Library/Preferences/com.valvesoftware.steam.helper.plist
+~/Library/Saved Application State/com.valvesoftware.steam.savedState
+[34m==>[0m [1mRemoving all staged versions of Cask 'steam'[0m

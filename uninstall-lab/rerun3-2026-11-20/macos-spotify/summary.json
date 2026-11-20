@@ -1,0 +1,21 @@
+{
+ "os": "macOS",
+ "cask": "spotify",
+ "app": "Spotify.app",
+ "bundle_id": "com.spotify.client",
+ "version": "1.3.10.2586",
+ "removal_method": "Finder Move to Trash (AppleScript)",
+ "created_items": 5,
+ "created_kb": 67484,
+ "leftover_items_after_trash": 5,
+ "leftover_kb_after_trash": 67484,
+ "leftovers_after_trash": [
+  "~/Library/Application Support/Spotify",
+  "~/Library/Caches/com.spotify.client",
+  "~/Library/HTTPStorages/com.spotify.client",
+  "~/Library/Preferences/com.spotify.client.plist",
+  "~/Library/WebKit/com.spotify.client"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}

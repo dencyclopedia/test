@@ -1,0 +1,17 @@
+[32m==>[0m [1mZapping Cask [32mspotify[39m[0m
+[34m==>[0m [1mRemoving launchctl service com.spotify.client.startuphelper[0m
+[34m==>[0m [1mRemoving launchctl service com.spotify.webhelper[0m
+[34m==>[0m [1mTrashing files:[0m
+~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.spotify.client.startuphelper.sfl*
+~/Library/Application Support/Spotify
+~/Library/Caches/com.spotify.client
+~/Library/Caches/com.spotify.client.helper
+~/Library/Cookies/com.spotify.client.binarycookies
+~/Library/HTTPStorages/com.spotify.client
+~/Library/HTTPStorages/com.spotify.client.helper
+~/Library/Logs/Spotify
+~/Library/Preferences/com.spotify.client.helper.plist
+~/Library/Preferences/com.spotify.client.plist
+~/Library/Saved Application State/com.spotify.client.savedState
+~/Library/WebKit/com.spotify.client
+[34m==>[0m [1mRemoving all staged versions of Cask 'spotify'[0m

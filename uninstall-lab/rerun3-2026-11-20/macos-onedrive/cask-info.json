@@ -1,0 +1,141 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "onedrive",
+      "full_token": "onedrive",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "OneDrive"
+      ],
+      "desc": "Cloud storage client",
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+      "url": "https://oneclient.sfx.ms/Mac/Installers/26.198.1011.0006/universal/OneDrive.pkg",
+      "url_specs": {},
+      "version": "26.198.1011.0006",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "26.198.1011.0006",
+      "installed_time": 1795168079,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "928516faca5cc0ccecdf939b9e101eddf252aea76d499d9ffe2c29b421818bf2",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "launchctl": [
+                "com.microsoft.OneDriveStandaloneUpdater",
+                "com.microsoft.OneDriveStandaloneUpdaterDaemon",
+                "com.microsoft.OneDriveUpdaterDaemon",
+                "com.microsoft.SyncReporter"
+              ],
+              "quit": [
+                "com.microsoft.OneDrive",
+                "com.microsoft.OneDrive.FinderSync",
+                "com.microsoft.OneDriveUpdater"
+              ],
+              "pkgutil": "com.microsoft.OneDrive",
+              "delete": [
+                "/Applications/OneDrive.app",
+                "/Library/LaunchAgents/com.microsoft.OneDriveStandaloneUpdater.plist",
+                "/Library/LaunchDaemons/com.microsoft.OneDriveStandaloneUpdaterDaemon.plist",
+                "/Library/LaunchDaemons/com.microsoft.OneDriveUpdaterDaemon.plist",
+                "/Library/Logs/Microsoft/OneDrive"
+              ]
+            }
+          ]
+        },
+        {
+          "pkg": [
+            "OneDrive.pkg"
+          ]
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Scripts/*.OfficeOneDriveSyncIntegration",
+                "~/Library/Application Scripts/*.OneDriveStandaloneSuite",
+                "~/Library/Application Scripts/com.microsoft.OneDrive-mac",
+                "~/Library/Application Scripts/com.microsoft.OneDrive.FileProvider",
+                "~/Library/Application Scripts/com.microsoft.OneDrive.FinderSync",
+                "~/Library/Application Scripts/com.microsoft.OneDriveLauncher",
+                "~/Library/Application Support/com.microsoft.OneDrive",
+                "~/Library/Application Support/com.microsoft.OneDriveUpdater",
+                "~/Library/Application Support/FileProvider/com.microsoft.OneDrive.FileProvider",
+                "~/Library/Application Support/OneDrive",
+                "~/Library/Application Support/OneDriveUpdater",
+                "~/Library/Caches/com.microsoft.OneDrive",
+                "~/Library/Caches/com.microsoft.OneDriveStandaloneUpdater",
+                "~/Library/Caches/com.microsoft.OneDriveUpdater",
+                "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.microsoft.OneDrive",
+                "~/Library/Caches/com.plausiblelabs.crashreporter.data/com.microsoft.OneDriveUpdater",
+                "~/Library/Caches/OneDrive",
+                "~/Library/Containers/com.microsoft.OneDrive.FileProvider",
+                "~/Library/Containers/com.microsoft.OneDrive.FinderSync",
+                "~/Library/Containers/com.microsoft.OneDriveLauncher",
+                "~/Library/Cookies/com.microsoft.OneDrive.binarycookies",
+                "~/Library/Cookies/com.microsoft.OneDriveUpdater.binarycookies",
+                "~/Library/Group Containers/*.OfficeOneDriveSyncIntegration",
+                "~/Library/Group Containers/*.OneDriveStandaloneSuite",
+                "~/Library/Group Containers/*.OneDriveSyncClientSuite",
+                "~/Library/HTTPStorages/com.microsoft.OneDrive",
+                "~/Library/HTTPStorages/com.microsoft.OneDrive.binarycookies",
+                "~/Library/HTTPStorages/com.microsoft.OneDriveStandaloneUpdater",
+                "~/Library/HTTPStorages/com.microsoft.OneDriveStandaloneUpdater.binarycookies",
+                "~/Library/Logs/OneDrive",
+                "~/Library/Preferences/*.OneDriveStandaloneSuite.plist",
+                "~/Library/Preferences/com.microsoft.OneDrive.plist",
+                "~/Library/Preferences/com.microsoft.OneDriveStandaloneUpdater.plist",
+                "~/Library/Preferences/com.microsoft.OneDriveUpdater.plist",
+                "~/Library/WebKit/com.microsoft.OneDrive"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "14"
+          ]
+        }
+      },
+      "conflicts_with": {
+        "cask": [
+          "microsoft-office",
+          "microsoft-office-businesspro"
+        ]
+      },
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b9aac88a18c0fc2eaaf049a70c954318550fcc3b",
+      "languages": [],
+      "ruby_source_path": "Casks/o/onedrive.rb",
+      "ruby_source_checksum": {
+        "sha256": "bca6071c21926d90669feacea8e1d00cbb82a00f2d93bc931e29e7d00e5bbb77"
+      }
+    }
+  ]
+}

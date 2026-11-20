@@ -1,0 +1,33 @@
+{
+ "os": "macOS",
+ "cask": "zoom",
+ "app": "zoom.us.app",
+ "bundle_id": "us.zoom.xos",
+ "version": "7.2.5 (90525)",
+ "removal_method": "mv into ~/.Trash (Finder automation is not permitted on the runner)",
+ "created_items": 17,
+ "created_kb": 5428,
+ "leftover_items_after_trash": 17,
+ "leftover_kb_after_trash": 5428,
+ "leftovers_after_trash": [
+  "/Library/LaunchAgents/us.zoom.updater.login.check.plist",
+  "/Library/LaunchAgents/us.zoom.updater.plist",
+  "/Library/LaunchDaemons/us.zoom.ZoomDaemon.plist",
+  "/Library/Logs/zoomusinstall.log",
+  "/Library/PrivilegedHelperTools/us.zoom.ZoomDaemon",
+  "/private/var/db/receipts/us.zoom.pkg.videomeeting.bom",
+  "/private/var/db/receipts/us.zoom.pkg.videomeeting.plist",
+  "~/Library/Application Scripts/BJ4HAAB9B3.ZoomClient3rd",
+  "~/Library/Application Support/zoom.us",
+  "~/Library/Group Containers/BJ4HAAB9B3.ZoomClient3rd",
+  "~/Library/Logs/zoom.us",
+  "~/Library/Logs/ZoomPhone",
+  "~/Library/Preferences/us.zoom.updater.config.plist",
+  "~/Library/Preferences/us.zoom.xos.Hotkey.plist",
+  "~/Library/Preferences/us.zoom.xos.plist",
+  "~/Library/Preferences/us.zoom.ZoomMeeting.plist",
+  "~/Library/Preferences/ZoomChat.plist"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}

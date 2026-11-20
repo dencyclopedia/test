@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Discord",
+  "DisplayVersion": "1.0.9269",
+  "Publisher": "Discord Inc.",
+  "InstallLocation": "C:\\Users\\runneradmin\\AppData\\Local\\Discord",
+  "UninstallString": "C:\\Users\\runneradmin\\AppData\\Local\\Discord\\Update.exe --uninstall",
+  "QuietUninstallString": "C:\\Users\\runneradmin\\AppData\\Local\\Discord\\Update.exe --uninstall -s",
+  "EstimatedSize": 156013,
+  "DisplayIcon": null
+}

@@ -1,0 +1,24 @@
+[09:40:34] start Microsoft.OneDrive
+[09:41:16] winget install: EXIT=0 seconds=17
+[09:41:22] registry entry: Microsoft OneDrive 26.183.0920.0005 | publisher: Microsoft Corporation | uninstall: "C:\Users\runneradmin\AppData\Local\Microsoft\OneDrive\26.183.0920.0005\OneDriveSetup.exe"  /uninstall 
+[09:41:23] shortcuts: C:\Users\runneradmin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\OneDrive.lnk ; launching: C:\Users\runneradmin\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+[09:42:08 UTC +   15.5s] no window found for OneDrive; desktop only
+[09:42:09 UTC +   16.2s] screenshot 01-app-first-launch.png
+[09:42:27 UTC +   14.0s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:42:33 UTC +   19.2s] typed 'OneDrive' at (537,160) by coordinates
+[09:42:34 UTC +   20.7s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[09:42:47 UTC +   12.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:42:52 UTC +   17.8s] typed 'OneDrive' at (795,127) by coordinates
+[09:42:54 UTC +   19.3s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[09:43:03 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[09:43:16] uninstall verified (registry entry and program gone): True
+[09:43:16] standard uninstall: EXIT=0 seconds=9 (waited 0 s for background uninstaller)
+[09:43:31 UTC +   13.5s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:43:36 UTC +   18.7s] typed 'OneDrive' at (577,192) by coordinates
+[09:43:38 UTC +   20.2s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[09:43:38] attribution tokens: OneDrive
+[09:43:38] app created 9 items (+30 other changes during test). LEFTOVERS after standard uninstall: 2 items, 0 KB
+[09:43:44 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[09:43:45 UTC +    1.2s] screenshot 07-final-desktop.png
+[09:43:47] recording: 262180 bytes
+[09:43:47] done

@@ -1,0 +1,45 @@
+	APPX	AdobeAcrobatReaderCoreApp_26.0.0.1_x64__33qsgwvbcw8mw
+	FILE	C:\Program Files\Adobe
+1067	FILE	C:\ProgramData\Adobe
+	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Adobe Acrobat.lnk
+	FILE	C:\Users\Public\Desktop\Adobe Acrobat.lnk
+12042	FILE	C:\Users\runneradmin\AppData\Local\Adobe
+844	FILE	C:\Users\runneradmin\AppData\LocalLow\Adobe
+0	FILE	C:\Users\runneradmin\AppData\Roaming\com.adobe.dunamis
+	REG	HKEY_CURRENT_USER\SOFTWARE\Adobe
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Adobe
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcroAccess.AcrobatAccess
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcroAccess.AcrobatAccess.1
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.aaui
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.acrobatsecuritysettings
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.acrobatsecuritysettings.1
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.Document.DC
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.FDFDoc
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.pdfxml
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.pdfxml.1
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.Plugin
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.RMFFile
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.SecStore
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.Sequence
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.XDPDoc
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Acrobat.XFDFDoc
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2018
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2019
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2020
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2021.oauth2
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2024
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcrobatBPDXFileType
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcrobatPDXFileType
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcroSendAsLinkX.AdobeRequestSignatureDialog
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcroSendAsLinkX.AttachmentOpenInAcrobatDlg
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AcroSendAsLinkX.OpenInAcrobatProgressDialog
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Adobe.Acrobat.HTMLPreview.1
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AdobeAcrobat.OpenDocuments
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AdobeAcrobat.OpenDocuments.2
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AdobeAcrobat.OpenDocuments.3
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AdobeAcroOutlook.SendAsLink
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\launchreader
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Adobe
+	SERVICE	AdobeARMservice
+	TASK	\Adobe Acrobat Update Task

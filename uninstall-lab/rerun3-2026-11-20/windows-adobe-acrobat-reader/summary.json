@@ -1,0 +1,23 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Adobe.Acrobat.Reader.64-bit",
+  "uninstall_method": "winget uninstall (runs the app's own uninstaller silently)",
+  "uninstall_verified": true,
+  "display_name": "Adobe Acrobat (64-bit)",
+  "version": "26.003.22110",
+  "publisher": "Adobe",
+  "uninstall_string": "MsiExec.exe /I{AC76BA86-1033-FF00-7760-BC15014EA700}",
+  "created_items": 45,
+  "leftover_items": 8,
+  "leftover_kb": 13953.0,
+  "leftovers": [
+    "FILE C:\\ProgramData\\Adobe",
+    "FILE C:\\Users\\runneradmin\\AppData\\Local\\Adobe",
+    "FILE C:\\Users\\runneradmin\\AppData\\LocalLow\\Adobe",
+    "FILE C:\\Users\\runneradmin\\AppData\\Roaming\\com.adobe.dunamis",
+    "REG HKEY_CURRENT_USER\\SOFTWARE\\Adobe",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\Adobe",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\acrobat2020",
+    "REG HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Adobe"
+  ]
+}

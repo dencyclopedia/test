@@ -1,0 +1,8 @@
+1067	FILE	C:\ProgramData\Adobe
+12042	FILE	C:\Users\runneradmin\AppData\Local\Adobe
+844	FILE	C:\Users\runneradmin\AppData\LocalLow\Adobe
+0	FILE	C:\Users\runneradmin\AppData\Roaming\com.adobe.dunamis
+	REG	HKEY_CURRENT_USER\SOFTWARE\Adobe
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Adobe
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\acrobat2020
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Adobe

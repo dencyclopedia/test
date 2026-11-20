@@ -1,0 +1,5 @@
+[32m==>[0m [1mFetching downloads for: [32msteam[39m[0m
+✔︎ Cask steam (6.1,1791918634,984652b88a9737e3f4e77c656d9ffa67d5042c2c)
+[32m==>[0m [1mInstalling Cask [32msteam[39m[0m
+[34m==>[0m [1mMoving App 'Steam.app' to '/Applications/Steam.app'[0m
+🍺  steam was successfully installed!

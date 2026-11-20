@@ -1,0 +1,6 @@
+	FILE	C:\Program Files\Google
+	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk
+	FILE	C:\Users\Public\Desktop\Google Chrome.lnk
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ChromeHTML
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\google-chrome
+	SERVICE	GoogleChromeElevationService

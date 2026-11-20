@@ -1,0 +1,24 @@
+[09:47:39] start onedrive
+[09:48:20] brew install exit=0 seconds=36
+[09:48:23] app bundle found by diff (pkg cask): OneDrive.app
+[09:48:23] app=OneDrive.app bundle_id=com.microsoft.OneDrive exe=OneDrive version=26.198.1011 team=UBF8T346G9 size=1.0G
+[09:48:26] launch requested
+[09:48:58] screenshot 01-app-first-launch.png (window of 'OneDrive')
+[09:48:58] screenshot 01-app-first-launch-desktop.png
+[09:49:15] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[09:49:15] screenshot 02-finder-app-in-applications-desktop.png
+uninstall-lab/scripts/mac_uninstall.sh: line 10:  3122 Alarm clock: 14         perl -e 'alarm shift; exec @ARGV' "$s" "$@"
+[09:49:31] removed app: mv into ~/.Trash (Finder automation is not permitted on the runner); still in /Applications: no
+[09:49:39] screenshot 03-trash-with-app.png (window of 'Finder')
+[09:49:39] screenshot 03-trash-with-app-desktop.png
+[09:49:42] attribution tokens: OneDrive UBF8T346G9 com.microsoft com.microsoft.OneDrive onedrive 
+[09:49:43] app created 27 items; other system changes during test: 9
+[09:49:43] LEFTOVERS after Trash: 27 items, 3324 KB
+[09:49:49] screenshot 04-finder-leftover.png (window of 'Finder')
+[09:49:49] screenshot 04-finder-leftover-desktop.png
+[09:49:56] brew uninstall --zap exit=0 seconds=7
+[09:49:56] LEFTOVERS after brew --zap: 1 items
+[09:49:58] screenshot 05-final-desktop-desktop.png
+[09:55:04] recording stopped
+[09:55:04] recording: file  
+[09:55:04] done

@@ -1,0 +1,25 @@
+[09:45:39] start dropbox
+[09:46:11] brew install exit=0 seconds=29
+[09:46:13] app=Dropbox.app bundle_id=com.getdropbox.dropbox exe=Dropbox version=276.4.5325 team=G7HH3F8CAK size=707M
+[09:46:13] launch requested
+[09:46:45] screenshot 01-app-first-launch-desktop.png
+[09:46:58] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[09:46:59] screenshot 02-finder-app-in-applications-desktop.png
+application file Dropbox.app of item .Trash of folder runner of folder Users of startup disk
+[09:46:59] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[09:47:04] screenshot 03-trash-with-app.png (window of 'Finder')
+[09:47:04] screenshot 03-trash-with-app-desktop.png
+[09:47:07] attribution tokens: Dropbox G7HH3F8CAK com.getdropbox com.getdropbox.dropbox dropbox 
+[09:47:08] app created 15 items; other system changes during test: 10
+[09:47:08] LEFTOVERS after Trash: 15 items, 27340 KB
+[09:47:13] screenshot 04-finder-leftover.png (window of 'Finder')
+[09:47:13] screenshot 04-finder-leftover-desktop.png
+[09:47:17] brew uninstall --zap exit=0 seconds=3
+[09:47:18] LEFTOVERS after brew --zap: 0 items
+[09:47:19] screenshot 05-final-desktop-desktop.png
+[09:50:03] recording stopped
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[09:50:06] recording: 248354 /Users/runner/work/test/test/out/macos-dropbox/recording.mp4 
+[09:50:06] done

@@ -1,0 +1,13 @@
+
+   - 
+                                                                                                                        
+
+   - 
+                                                                                                                        
+Found Discord [Discord.Discord]
+Starting package uninstall...
+
+   - 
+                                                                                                                        
+Uninstall failed with exit code: 4294967295
+EXIT=-1978335184

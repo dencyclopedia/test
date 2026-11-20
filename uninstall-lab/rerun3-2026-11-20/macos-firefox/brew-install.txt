@@ -1,0 +1,6 @@
+[32m==>[0m [1mFetching downloads for: [32mfirefox[39m[0m
+✔︎ Cask firefox (159.0)
+[32m==>[0m [1mInstalling Cask [32mfirefox[39m[0m
+[34m==>[0m [1mMoving App 'Firefox.app' to '/Applications/Firefox.app'[0m
+[34m==>[0m [1mLinking Command Wrapper 'firefox' to '/opt/homebrew/bin/firefox'[0m
+🍺  firefox was successfully installed!

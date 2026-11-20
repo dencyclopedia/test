@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Google Chrome",
+  "DisplayVersion": "158.0.8127.37",
+  "Publisher": "Google LLC",
+  "InstallLocation": "",
+  "UninstallString": "MsiExec.exe /X{1B4E8B6D-8317-3063-B39C-D6EFE62A6D47}",
+  "QuietUninstallString": null,
+  "EstimatedSize": 531884,
+  "DisplayIcon": null
+}

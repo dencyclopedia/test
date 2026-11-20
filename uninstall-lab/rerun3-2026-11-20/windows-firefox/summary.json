@@ -1,0 +1,14 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Mozilla.Firefox",
+  "uninstall_method": "app's own uninstaller run directly: C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe  /S",
+  "uninstall_verified": true,
+  "display_name": "Mozilla Firefox (x64 en-US)",
+  "version": "160.0.1",
+  "publisher": "Mozilla",
+  "uninstall_string": "\"C:\\Program Files\\Mozilla Firefox\\uninstall\\helper.exe\"",
+  "created_items": 16,
+  "leftover_items": 0,
+  "leftover_kb": 0.0,
+  "leftovers": []
+}

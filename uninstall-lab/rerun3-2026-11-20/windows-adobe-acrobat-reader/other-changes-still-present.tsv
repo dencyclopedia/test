@@ -1,0 +1,8 @@
+	APPX	Microsoft.Winget.Source_2026.1120.903.17_neutral__8wekyb3d8bbwe
+0	FILE	C:\Users\runneradmin\.ms-ad
+0	FILE	C:\Users\runneradmin\AppData\Local\Mozilla
+0	FILE	C:\Users\runneradmin\AppData\Local\SolidDocuments
+1	FILE	C:\Users\runneradmin\AppData\LocalLow\Temp
+6	FILE	C:\Users\runneradmin\AppData\Roaming\Mozilla
+	REG	HKEY_CURRENT_USER\SOFTWARE\Classes\MIME
+	REG	HKEY_CURRENT_USER\SOFTWARE\Mozilla

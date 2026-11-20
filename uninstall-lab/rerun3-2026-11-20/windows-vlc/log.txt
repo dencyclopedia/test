@@ -1,0 +1,25 @@
+[09:40:39] start VideoLAN.VLC
+[09:41:34] winget install: EXIT=0 seconds=27
+[09:41:41] registry entry: VLC media player 3.0.24 | publisher: VideoLAN | uninstall: "C:\Program Files\VideoLAN\VLC\uninstall.exe"
+[09:41:41] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\Documentation.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\Release Notes.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VideoLAN Website.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player - reset preferences and cache files.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player skinned.lnk | C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player.lnk | C:\Users\Public\Desktop\VLC media player.lnk ; launching: C:\Program Files\VideoLAN\VLC\vlc.exe
+[09:42:13 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[09:42:33 UTC +   14.3s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:42:38 UTC +   19.3s] typed 'VLC' at (537,160) by coordinates
+[09:42:40 UTC +   20.8s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[09:42:53 UTC +   12.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:42:58 UTC +   17.7s] typed 'VLC' at (795,127) by coordinates
+[09:42:59 UTC +   19.2s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[09:43:09 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[09:43:20] winget reported done but the app is still installed; running its own uninstaller silently
+[09:43:21] fallback: C:\Program Files\VideoLAN\VLC\uninstall.exe  /S
+[09:43:22] uninstall verified (registry entry and program gone): True
+[09:43:22] standard uninstall: EXIT=0 seconds=9 (waited 0 s for background uninstaller)
+[09:43:37 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:43:42 UTC +   18.6s] typed 'VLC' at (577,192) by coordinates
+[09:43:44 UTC +   20.1s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[09:43:44] attribution tokens: VideoLAN
+[09:43:44] app created 4 items (+137 other changes during test). LEFTOVERS after standard uninstall: 1 items, 0 KB
+[09:43:50 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[09:43:52 UTC +    1.2s] screenshot 07-final-desktop.png
+[09:43:54] recording: 524324 bytes
+[09:43:54] done

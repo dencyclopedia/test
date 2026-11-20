@@ -1,0 +1,20 @@
+[32m==>[0m [1mZapping Cask [32mfirefox[39m[0m
+[34m==>[0m [1mUnlinking Command Wrapper '/opt/homebrew/bin/firefox'[0m
+[34m==>[0m [1mTrashing files:[0m
+/Library/Logs/DiagnosticReports/firefox_*
+~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.mozilla.firefox.sfl*
+~/Library/Application Support/CrashReporter/firefox_*
+~/Library/Application Support/Firefox
+~/Library/Caches/Firefox
+~/Library/Caches/Mozilla/updates/Applications/Firefox
+~/Library/Caches/org.mozilla.crashreporter
+~/Library/Caches/org.mozilla.firefox
+~/Library/Preferences/org.mozilla.crashreporter.plist
+~/Library/Preferences/org.mozilla.firefox.plist
+~/Library/Saved Application State/org.mozilla.firefox.savedState
+~/Library/WebKit/org.mozilla.firefox
+[34m==>[0m [1mRemoving directories if empty:[0m
+~/Library/Caches/Mozilla
+~/Library/Caches/Mozilla/updates
+~/Library/Caches/Mozilla/updates/Applications
+[34m==>[0m [1mRemoving all staged versions of Cask 'firefox'[0m

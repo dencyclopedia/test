@@ -1,0 +1,18 @@
+{
+ "os": "macOS",
+ "cask": "vlc",
+ "app": "VLC.app",
+ "bundle_id": "org.videolan.vlc",
+ "version": "3.0.24",
+ "removal_method": "Finder Move to Trash (AppleScript)",
+ "created_items": 2,
+ "created_kb": 4,
+ "leftover_items_after_trash": 2,
+ "leftover_kb_after_trash": 4,
+ "leftovers_after_trash": [
+  "~/Library/Caches/org.videolan.vlc",
+  "~/Library/Preferences/org.videolan.vlc.plist"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}

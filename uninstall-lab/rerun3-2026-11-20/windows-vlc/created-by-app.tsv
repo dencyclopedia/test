@@ -1,0 +1,4 @@
+0	FILE	C:\Program Files\VideoLAN
+	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VideoLAN.VLCPlugin
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\VideoLAN

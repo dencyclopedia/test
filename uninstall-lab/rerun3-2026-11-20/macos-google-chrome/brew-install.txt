@@ -1,0 +1,5 @@
+[32m==>[0m [1mFetching downloads for: [32mgoogle-chrome[39m[0m
+✔︎ Cask google-chrome (156.0.8078.80)
+[32m==>[0m [1mInstalling Cask [32mgoogle-chrome[39m[0m
+[34m==>[0m [1mMoving App 'Google Chrome.app' to '/Applications/Google Chrome.app'[0m
+🍺  google-chrome was successfully installed!

@@ -1,0 +1,56 @@
+[
+ {
+  "uninstall": [
+   {
+    "launchctl": [
+     "us.zoom.updater",
+     "us.zoom.updater.login.check",
+     "us.zoom.ZoomDaemon"
+    ],
+    "signal": [
+     "KILL",
+     "us.zoom.xos"
+    ],
+    "pkgutil": "us.zoom.pkg.videomeeting",
+    "delete": [
+     "/Applications/zoom.us.app",
+     "/Library/Internet Plug-Ins/ZoomUsPlugIn.plugin",
+     "/Library/Logs/DiagnosticReports/zoom.us*",
+     "/Library/PrivilegedHelperTools/us.zoom.ZoomDaemon"
+    ]
+   }
+  ]
+ },
+ {
+  "zap": [
+   {
+    "delete": "/Library/Logs/zoomusinstall.log",
+    "trash": [
+     "~/.zoomus",
+     "~/Desktop/Zoom",
+     "~/Documents/Zoom",
+     "~/Library/Application Scripts/*.ZoomClient3rd",
+     "~/Library/Application Support/CloudDocs/session/containers/iCloud.us.zoom.videomeetings",
+     "~/Library/Application Support/CloudDocs/session/containers/iCloud.us.zoom.videomeetings.plist",
+     "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/us.zoom*.sfl*",
+     "~/Library/Application Support/CrashReporter/zoom.us*",
+     "~/Library/Application Support/zoom.us",
+     "~/Library/Application Support/ZoomUpdater",
+     "~/Library/Caches/us.zoom.xos",
+     "~/Library/Cookies/us.zoom.xos.binarycookies",
+     "~/Library/Group Containers/*.ZoomClient3rd",
+     "~/Library/HTTPStorages/us.zoom.xos",
+     "~/Library/HTTPStorages/us.zoom.xos.binarycookies",
+     "~/Library/Internet Plug-Ins/ZoomUsPlugIn.plugin",
+     "~/Library/Logs/zoom.us",
+     "~/Library/Logs/zoominstall.log",
+     "~/Library/Logs/ZoomPhone",
+     "~/Library/Preferences/us.zoom.*.plist",
+     "~/Library/Preferences/ZoomChat.plist",
+     "~/Library/Saved Application State/us.zoom.xos.savedState",
+     "~/Library/WebKit/us.zoom.xos"
+    ]
+   }
+  ]
+ }
+]

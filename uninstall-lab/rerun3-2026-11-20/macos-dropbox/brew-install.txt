@@ -1,0 +1,13 @@
+[32m==>[0m [1mFetching downloads for: [32mdropbox[39m[0m
+✔︎ Cask dropbox (276.4.5325)
+[32m==>[0m [1mInstalling Cask [32mdropbox[39m[0m
+[34m==>[0m [1mMoving App 'Dropbox.app' to '/Applications/Dropbox.app'[0m
+🍺  dropbox was successfully installed!
+[32m==>[0m [1mCaveats[0m
+[34m==>[0m [1mdropbox[0m
+dropbox requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Settings → Privacy & Security
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html

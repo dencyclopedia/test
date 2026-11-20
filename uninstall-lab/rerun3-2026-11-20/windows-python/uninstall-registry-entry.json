@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Python 3.13.17 (64-bit)",
+  "DisplayVersion": "3.13.17150.0",
+  "Publisher": "Python Software Foundation",
+  "InstallLocation": null,
+  "UninstallString": "\"C:\\Users\\runneradmin\\AppData\\Local\\Package Cache\\{9b3415f5-afcc-46ea-9954-a8000df10f86}\\python-3.13.17-amd64.exe\"  /uninstall",
+  "QuietUninstallString": "\"C:\\Users\\runneradmin\\AppData\\Local\\Package Cache\\{9b3415f5-afcc-46ea-9954-a8000df10f86}\\python-3.13.17-amd64.exe\" /uninstall /quiet",
+  "EstimatedSize": 169900,
+  "DisplayIcon": "C:\\Users\\runneradmin\\AppData\\Local\\Package Cache\\{9b3415f5-afcc-46ea-9954-a8000df10f86}\\python-3.13.17-amd64.exe,0"
+}

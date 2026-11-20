@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Adobe Acrobat (64-bit)",
+  "DisplayVersion": "26.003.22110",
+  "Publisher": "Adobe",
+  "InstallLocation": "C:\\Program Files\\Adobe\\Acrobat DC\\",
+  "UninstallString": "MsiExec.exe /I{AC76BA86-1033-FF00-7760-BC15014EA700}",
+  "QuietUninstallString": null,
+  "EstimatedSize": 1287721,
+  "DisplayIcon": null
+}

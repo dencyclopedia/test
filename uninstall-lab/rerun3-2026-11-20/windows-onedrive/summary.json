@@ -1,0 +1,17 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "Microsoft.OneDrive",
+  "uninstall_method": "winget uninstall (runs the app's own uninstaller silently)",
+  "uninstall_verified": true,
+  "display_name": "Microsoft OneDrive",
+  "version": "26.183.0920.0005",
+  "publisher": "Microsoft Corporation",
+  "uninstall_string": "\"C:\\Users\\runneradmin\\AppData\\Local\\Microsoft\\OneDrive\\26.183.0920.0005\\OneDriveSetup.exe\"  /uninstall ",
+  "created_items": 9,
+  "leftover_items": 2,
+  "leftover_kb": 0.0,
+  "leftovers": [
+    "FILE C:\\ProgramData\\Microsoft OneDrive",
+    "FILE C:\\Users\\runneradmin\\OneDrive"
+  ]
+}

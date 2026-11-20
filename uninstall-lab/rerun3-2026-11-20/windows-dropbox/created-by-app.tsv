@@ -1,0 +1,27 @@
+	APPX	DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga
+12161	FILE	C:\Program Files (x86)\Dropbox
+5783	FILE	C:\Program Files\Dropbox
+	FILE	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox
+	FILE	C:\Users\runneradmin\AppData\Local\Dropbox
+	FILE	C:\Users\runneradmin\AppData\Roaming\Dropbox
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\dropbox-client
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.AutoplayEventHandler
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.AutoplayEventHandler.4
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.Backup
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.Binder
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.ExternalBackupLocation
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.IgnoreRulesFile
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.OfficeAddIn
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.OfficeAddIn.1
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.Paper
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.PaperT
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.Passwords
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.Shortcut
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DropboxUpdate.Update3WebMachine
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Dropbox
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DropboxUpdate
+	RUN	HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run\Dropbox
+	SERVICE	DropboxElevationService
+	SERVICE	DropboxUpdaterInternalService123.0.6299.152
+	SERVICE	DropboxUpdaterService123.0.6299.152
+	TASK	\DropboxSystem\DropboxUpdater\DropboxUpdaterTaskSystem123.0.6299.152{E9615620-8B37-4813-BEB4-D45E0C9C5243}

@@ -1,0 +1,96 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "steam",
+      "full_token": "steam",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Steam"
+      ],
+      "desc": "Video game digital distribution service",
+      "homepage": "https://store.steampowered.com/about/",
+      "url": "https://client-update.steamstatic.com/appdmg_osx.zip.984652b88a9737e3f4e77c656d9ffa67d5042c2c",
+      "url_specs": {},
+      "version": "6.1,1791918634,984652b88a9737e3f4e77c656d9ffa67d5042c2c",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": "6.1,1791918634,984652b88a9737e3f4e77c656d9ffa67d5042c2c",
+      "installed_time": 1795167652,
+      "bundle_version": "6.1",
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "8bf4ce8b4bcbc50f642988c955559f605e7a877372116e7a2b3fd1355004bedb",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "launchctl": [
+                "com.valvesoftware.steam.ipctool",
+                "com.valvesoftware.steamclean"
+              ],
+              "quit": [
+                "com.valvesoftware.steam",
+                "com.valvesoftware.steam.helper",
+                "com.valvesoftware.steam.helper.EH"
+              ],
+              "delete": "~/Library/Application Support/Steam/Steam.AppBundle"
+            }
+          ]
+        },
+        {
+          "app": [
+            "Steam.app"
+          ],
+          "target": "/Applications/Steam.app"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/Steam",
+                "~/Library/LaunchAgents/com.valvesoftware.steamclean.plist",
+                "~/Library/Preferences/com.valvesoftware.steam.helper.plist",
+                "~/Library/Saved Application State/com.valvesoftware.steam.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {}
+      },
+      "conflicts_with": null,
+      "container": {
+        "nested": "SteamMacBootstrapper.tar.gz",
+        "type": "zip"
+      },
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "fe03f8807fa9ae862df87535d1ed23a909107a28",
+      "languages": [],
+      "ruby_source_path": "Casks/s/steam.rb",
+      "ruby_source_checksum": {
+        "sha256": "6d5dc6a2f73ebb6977a3853ef5a446d17924d2ddae44d01e847d5d03b2f4a2f0"
+      }
+    }
+  ]
+}

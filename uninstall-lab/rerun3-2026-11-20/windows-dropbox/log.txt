@@ -1,0 +1,23 @@
+[09:40:37] start Dropbox.Dropbox
+[09:42:40] winget install: EXIT=0 seconds=97
+[09:42:47] registry entry: Dropbox 280.4.5053 | publisher: Dropbox, Inc. | uninstall: MsiExec.exe /X{CE922144-7611-5D01-B9FF-521F54446B17}
+[09:42:47] shortcuts: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Dropbox\Dropbox.lnk ; launching: C:\Program Files (x86)\Dropbox\Client\Dropbox.exe
+[09:43:19 UTC +    2.0s] screenshot 01-app-first-launch-desktop.png, 01-app-first-launch.png
+[09:43:40 UTC +   14.1s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:43:45 UTC +   19.2s] typed 'Dropbox' at (537,160) by coordinates
+[09:43:46 UTC +   20.7s] screenshot 02-settings-installed-apps-desktop.png, 02-settings-installed-apps.png
+[09:43:59 UTC +   12.7s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:44:04 UTC +   17.8s] typed 'Dropbox' at (795,127) by coordinates
+[09:44:06 UTC +   19.3s] screenshot 03-control-panel-programs-desktop.png, 03-control-panel-programs.png
+[09:44:15 UTC +    1.2s] screenshot 04-official-uninstaller-first-screen.png
+[09:44:39] uninstall verified (registry entry and program gone): True
+[09:44:39] standard uninstall: EXIT=0 seconds=20 (waited 0 s for background uninstaller)
+[09:44:54 UTC +   13.6s] UI Automation search failed: TimeoutError('timed out') - falling back to coordinates
+[09:44:59 UTC +   18.8s] typed 'Dropbox' at (577,192) by coordinates
+[09:45:01 UTC +   20.2s] screenshot 05-settings-after-uninstall-desktop.png, 05-settings-after-uninstall.png
+[09:45:01] attribution tokens: Dropbox
+[09:45:01] app created 27 items (+4 other changes during test). LEFTOVERS after standard uninstall: 9 items, 17944 KB
+[09:45:07 UTC +    6.0s] screenshot 06-explorer-leftover-desktop.png, 06-explorer-leftover.png
+[09:45:08 UTC +    1.2s] screenshot 07-final-desktop.png
+[09:45:10] recording: 524324 bytes
+[09:45:10] done

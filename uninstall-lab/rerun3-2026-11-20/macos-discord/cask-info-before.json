@@ -1,0 +1,100 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "discord",
+      "full_token": "discord",
+      "old_tokens": [],
+      "tap": "homebrew/cask",
+      "name": [
+        "Discord"
+      ],
+      "desc": "Voice and text chat software",
+      "homepage": "https://discord.com/",
+      "url": "https://stable.dl2.discordapp.net/distro/app/stable/osx/universal/0.0.423/Discord.dmg",
+      "url_specs": {},
+      "version": "0.0.423",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "installed": null,
+      "installed_time": null,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "pinned": false,
+      "pinned_version": null,
+      "outdated": false,
+      "sha256": "8edb6957c30e78250909f4f746546077f25e032f9532852c4b1c2f8bfd37beb2",
+      "artifacts": [
+        {
+          "uninstall": [
+            {
+              "launchctl": "com.discord.discord.ShipIt",
+              "quit": [
+                "com.hnc.Discord",
+                "com.hnc.Discord.helper.Plugin",
+                "com.hnc.Discord.helper.Renderer"
+              ]
+            }
+          ]
+        },
+        {
+          "app": [
+            "Discord.app"
+          ],
+          "target": "/Applications/Discord.app"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.hnc.discord.sfl*",
+                "~/Library/Application Support/discord",
+                "~/Library/Caches/com.hnc.Discord",
+                "~/Library/Caches/com.hnc.Discord.ShipIt",
+                "~/Library/Cookies/com.hnc.Discord.binarycookies",
+                "~/Library/HTTPStorages/com.hnc.Discord",
+                "~/Library/HTTPStorages/com.hnc.Discord.binarycookies",
+                "~/Library/Preferences/ByHost/com.discord.discord.ShipIt.*.plist",
+                "~/Library/Preferences/com.hnc.Discord.helper.plist",
+                "~/Library/Preferences/com.hnc.Discord.plist",
+                "~/Library/Saved Application State/com.hnc.Discord.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "caveats_rosetta": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "13"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "rename": [],
+      "auto_updates": true,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "tap_git_head": "b9aac88a18c0fc2eaaf049a70c954318550fcc3b",
+      "languages": [],
+      "ruby_source_path": "Casks/d/discord.rb",
+      "ruby_source_checksum": {
+        "sha256": "976913f693d3946ed7e9c6ed9f01f13da6f04b24083ce927ae251f21a7bd9c1c"
+      }
+    }
+  ]
+}

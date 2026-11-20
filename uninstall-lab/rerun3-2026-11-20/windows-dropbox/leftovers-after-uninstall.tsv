@@ -1,0 +1,9 @@
+	APPX	DropboxInc.Dropbox_280.4.5053.0_x64__wkt425jdc3sga
+12161	FILE	C:\Program Files (x86)\Dropbox
+5783	FILE	C:\Program Files\Dropbox
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Dropbox.AutoplayEventHandler
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DropboxUpdate.Update3WebMachine
+	REG	HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\DropboxUpdate
+	SERVICE	DropboxUpdaterInternalService123.0.6299.152
+	SERVICE	DropboxUpdaterService123.0.6299.152
+	TASK	\DropboxSystem\DropboxUpdater\DropboxUpdaterTaskSystem123.0.6299.152{E9615620-8B37-4813-BEB4-D45E0C9C5243}

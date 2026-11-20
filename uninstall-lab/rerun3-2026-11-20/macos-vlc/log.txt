@@ -1,0 +1,26 @@
+[09:45:53] start vlc
+[09:47:09] brew install exit=0 seconds=71
+[09:47:12] app=VLC.app bundle_id=org.videolan.vlc exe=VLC version=3.0.24 team=75GAHG3SZQ size=147M
+[09:47:13] launch requested
+[09:47:45] screenshot 01-app-first-launch.png (window of 'VLC')
+[09:47:45] screenshot 01-app-first-launch-desktop.png
+[09:48:00] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[09:48:01] screenshot 02-finder-app-in-applications-desktop.png
+application file VLC.app of item .Trash of folder runner of folder Users of startup disk
+[09:48:01] removed app: Finder Move to Trash (AppleScript); still in /Applications: no
+[09:48:07] screenshot 03-trash-with-app.png (window of 'Finder')
+[09:48:07] screenshot 03-trash-with-app-desktop.png
+[09:48:10] attribution tokens: 75GAHG3SZQ VLC org.videolan org.videolan.vlc vlc 
+[09:48:11] app created 2 items; other system changes during test: 16
+[09:48:11] LEFTOVERS after Trash: 2 items, 4 KB
+[09:48:17] screenshot 04-finder-leftover.png (window of 'Finder')
+[09:48:17] screenshot 04-finder-leftover-desktop.png
+[09:48:19] brew uninstall --zap exit=0 seconds=2
+[09:48:20] LEFTOVERS after brew --zap: 0 items
+[09:48:21] screenshot 05-final-desktop-desktop.png
+[09:50:06] recording stopped
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[09:50:10] recording: 398143 /Users/runner/work/test/test/out/macos-vlc/recording.mp4 
+[09:50:10] done

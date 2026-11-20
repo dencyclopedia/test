@@ -1,0 +1,16 @@
+{
+  "os": "Windows Server 2025",
+  "winget_id": "VideoLAN.VLC",
+  "uninstall_method": "app's own uninstaller run directly: C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe  /S",
+  "uninstall_verified": true,
+  "display_name": "VLC media player",
+  "version": "3.0.24",
+  "publisher": "VideoLAN",
+  "uninstall_string": "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\"",
+  "created_items": 4,
+  "leftover_items": 1,
+  "leftover_kb": 0.0,
+  "leftovers": [
+    "FILE C:\\Program Files\\VideoLAN"
+  ]
+}

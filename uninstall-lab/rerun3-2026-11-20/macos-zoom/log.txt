@@ -1,0 +1,26 @@
+[09:40:39] start zoom
+[09:41:08] brew install exit=0 seconds=25
+[09:41:09] app bundle found by diff (pkg cask): zoom.us.app
+[09:41:10] app=zoom.us.app bundle_id=us.zoom.xos exe=zoom.us version=7.2.5 (90525) team=BJ4HAAB9B3 size=501M
+[09:41:11] launch requested
+[09:41:43] screenshot 01-app-first-launch-desktop.png
+[09:42:07] screenshot 02-finder-app-in-applications.png (window of 'Finder')
+[09:42:07] screenshot 02-finder-app-in-applications-desktop.png
+uninstall-lab/scripts/mac_uninstall.sh: line 10:  3234 Alarm clock: 14         perl -e 'alarm shift; exec @ARGV' "$s" "$@"
+[09:42:23] removed app: mv into ~/.Trash (Finder automation is not permitted on the runner); still in /Applications: no
+[09:42:31] screenshot 03-trash-with-app.png (window of 'Finder')
+[09:42:31] screenshot 03-trash-with-app-desktop.png
+[09:42:35] attribution tokens: BJ4HAAB9B3 us.zoom us.zoom.xos zoom zoom.us 
+[09:42:37] app created 17 items; other system changes during test: 8
+[09:42:37] LEFTOVERS after Trash: 17 items, 5428 KB
+[09:42:42] screenshot 04-finder-leftover.png (window of 'Finder')
+[09:42:42] screenshot 04-finder-leftover-desktop.png
+[09:42:50] brew uninstall --zap exit=0 seconds=8
+[09:42:50] LEFTOVERS after brew --zap: 0 items
+[09:42:52] screenshot 05-final-desktop-desktop.png
+[09:45:06] recording stopped
+IOServiceMatchingfailed for: AppleM2ScalerParavirtDriver
+avconvert completed with error:0.
+
+[09:45:17] recording: 5785140 /Users/runner/work/test/test/out/macos-zoom/recording.mp4 
+[09:45:17] done

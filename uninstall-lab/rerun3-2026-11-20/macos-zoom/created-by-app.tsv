@@ -1,0 +1,17 @@
+4	/Library/LaunchAgents/us.zoom.updater.login.check.plist
+4	/Library/LaunchAgents/us.zoom.updater.plist
+4	/Library/LaunchDaemons/us.zoom.ZoomDaemon.plist
+4	/Library/Logs/zoomusinstall.log
+280	/Library/PrivilegedHelperTools/us.zoom.ZoomDaemon
+2636	/private/var/db/receipts/us.zoom.pkg.videomeeting.bom
+4	/private/var/db/receipts/us.zoom.pkg.videomeeting.plist
+0	~/Library/Application Scripts/BJ4HAAB9B3.ZoomClient3rd
+2336	~/Library/Application Support/zoom.us
+4	~/Library/Group Containers/BJ4HAAB9B3.ZoomClient3rd
+132	~/Library/Logs/zoom.us
+0	~/Library/Logs/ZoomPhone
+4	~/Library/Preferences/us.zoom.updater.config.plist
+4	~/Library/Preferences/us.zoom.xos.Hotkey.plist
+4	~/Library/Preferences/us.zoom.xos.plist
+4	~/Library/Preferences/us.zoom.ZoomMeeting.plist
+4	~/Library/Preferences/ZoomChat.plist

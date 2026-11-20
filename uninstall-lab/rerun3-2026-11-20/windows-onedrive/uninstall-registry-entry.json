@@ -1,0 +1,10 @@
+{
+  "DisplayName": "Microsoft OneDrive",
+  "DisplayVersion": "26.183.0920.0005",
+  "Publisher": "Microsoft Corporation",
+  "InstallLocation": null,
+  "UninstallString": "\"C:\\Users\\runneradmin\\AppData\\Local\\Microsoft\\OneDrive\\26.183.0920.0005\\OneDriveSetup.exe\"  /uninstall ",
+  "QuietUninstallString": null,
+  "EstimatedSize": 577254,
+  "DisplayIcon": "C:\\Users\\runneradmin\\AppData\\Local\\Microsoft\\OneDrive\\26.183.0920.0005\\OneDriveSetup.exe,-101"
+}

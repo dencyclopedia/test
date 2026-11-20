@@ -1,0 +1,8 @@
+[32m==>[0m [1mFetching downloads for: [32monedrive[39m[0m
+✔︎ Cask onedrive (26.198.1011.0006)
+[32m==>[0m [1mInstalling Cask [32monedrive[39m[0m
+[34m==>[0m [1mRunning installer for onedrive with `sudo` (which may request your password)...[0m
+installer: Package name is Microsoft OneDrive
+installer: Installing at base path /
+installer: The install was successful.
+🍺  onedrive was successfully installed!

@@ -1,0 +1,18 @@
+{
+ "os": "macOS",
+ "cask": "discord",
+ "app": "Discord.app",
+ "bundle_id": "com.hnc.Discord",
+ "version": "0.0.423",
+ "removal_method": "Finder Move to Trash (AppleScript)",
+ "created_items": 2,
+ "created_kb": 807332,
+ "leftover_items_after_trash": 2,
+ "leftover_kb_after_trash": 807332,
+ "leftovers_after_trash": [
+  "~/Library/Application Support/discord",
+  "~/Library/Preferences/com.hnc.Discord.plist"
+ ],
+ "leftover_items_after_zap": 0,
+ "leftovers_after_zap": []
+}
